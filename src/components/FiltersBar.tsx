@@ -2,7 +2,16 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Search, Filter, X, ArrowUpDown, Check, RefreshCw } from "lucide-react";
+import {
+  Search,
+  SlidersHorizontal,
+  X,
+  ArrowUpDown,
+  Check,
+  RefreshCw,
+  ChevronDown,
+} from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface FiltersBarProps {
   categories: string[];
@@ -25,6 +34,7 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
   const currentVerified = searchParams.get("verifiedOnly") === "true";
 
   const [qInput, setQInput] = useState(currentQ);
+  // Minimized by default - user expands on demand
   const [showAdvanced, setShowAdvanced] = useState(false);
 
   // Synchronize input value if query param changes externally (e.g. from LeftDrawer)
@@ -63,25 +73,29 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
     router.push("/products");
   };
 
-  const hasActiveFilters =
-    Boolean(currentQ) ||
-    currentCategory !== "All" ||
-    currentBrand !== "All" ||
-    currentNutri !== "All" ||
-    currentPalmFree ||
-    currentLowSugar ||
-    currentLowSodium ||
-    currentVerified;
+  // Count active non-default filters
+  const filterCount = [
+    currentCategory !== "All",
+    currentBrand !== "All",
+    currentNutri !== "All",
+    currentSort !== "recent" && currentSort !== "score",
+    currentPalmFree,
+    currentLowSugar,
+    currentLowSodium,
+    currentVerified,
+  ].filter(Boolean).length;
+
+  const hasAnyFilter = Boolean(currentQ) || filterCount > 0;
 
   return (
-    <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-5 shadow-xs space-y-4">
-      {/* Search Input Bar */}
+    <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-3 sm:p-4 shadow-xs transition-all">
+      {/* Minimized Top Row: Compact Search Input + Search Button + Advance Filters Toggle */}
       <form
         onSubmit={(e) => {
           e.preventDefault();
           applyParam("q", qInput.trim());
         }}
-        className="flex gap-2"
+        className="flex items-center gap-2"
       >
         <div className="relative flex-1">
           <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -89,8 +103,8 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
             type="text"
             value={qInput}
             onChange={(e) => setQInput(e.target.value)}
-            placeholder="Search by product name, brand, ingredient, or barcode..."
-            className="w-full pl-10 pr-4 py-2.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100"
+            placeholder="Search products, brands, ingredients, barcode..."
+            className="w-full pl-10 pr-9 py-2.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800/80 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100 placeholder-stone-400"
           />
           {qInput && (
             <button
@@ -99,143 +113,335 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
                 setQInput("");
                 applyParam("q", null);
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 p-0.5 rounded-full cursor-pointer"
+              title="Clear search"
             >
-              <X className="w-4 h-4" />
+              <X className="w-3.5 h-3.5" />
             </button>
           )}
         </div>
+
         <button
           type="submit"
-          className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-bold text-xs rounded-2xl transition-colors cursor-pointer"
+          className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-bold text-xs rounded-2xl transition-colors cursor-pointer shrink-0 shadow-xs"
         >
           Search
         </button>
+
+        {/* Expand / Advance Filter Toggle Button */}
         <button
           type="button"
           onClick={() => setShowAdvanced(!showAdvanced)}
-          className="px-3.5 py-2.5 bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 rounded-2xl text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer"
+          aria-expanded={showAdvanced}
+          className={cn(
+            "px-3.5 py-2.5 rounded-2xl text-xs font-semibold flex items-center gap-2 transition-all cursor-pointer shrink-0 border",
+            showAdvanced
+              ? "bg-emerald-500/10 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-500/40"
+              : "bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 border-stone-200/80 dark:border-stone-700"
+          )}
+          title={showAdvanced ? "Collapse advance filters" : "Expand advance filters"}
         >
-          <Filter className="w-3.5 h-3.5" />
-          <span className="hidden sm:inline">Filters</span>
+          <SlidersHorizontal className="w-3.5 h-3.5" />
+          <span className="hidden sm:inline">
+            {showAdvanced ? "Hide Filters" : "Advance Filters"}
+          </span>
+          <span className="sm:hidden">
+            {showAdvanced ? "Hide" : "Filters"}
+          </span>
+          {filterCount > 0 && (
+            <span className="px-1.5 py-0.2 rounded-full text-[10px] font-black bg-emerald-500 text-stone-950">
+              {filterCount}
+            </span>
+          )}
+          <ChevronDown
+            className={cn(
+              "w-3.5 h-3.5 transition-transform duration-200",
+              showAdvanced && "rotate-180"
+            )}
+          />
         </button>
       </form>
 
-      {/* Main Selectors Row */}
-      <div className="flex flex-wrap items-center gap-3 pt-1">
-        {/* Category Dropdown */}
-        <div className="flex items-center gap-1 text-xs">
-          <span className="text-stone-400 font-medium">Category:</span>
-          <select
-            value={currentCategory}
-            onChange={(e) => applyParam("category", e.target.value)}
-            className="px-3 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
-          >
-            <option value="All">All Categories</option>
-            {categories.map((c) => (
-              <option key={c} value={c}>{c}</option>
-            ))}
-          </select>
-        </div>
+      {/* Minimized State with Active Filters: Show compact chips row */}
+      {!showAdvanced && hasAnyFilter && (
+        <div className="flex flex-wrap items-center gap-1.5 pt-2.5 mt-2.5 border-t border-stone-100 dark:border-stone-800 text-xs">
+          <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider mr-1">
+            Active:
+          </span>
 
-        {/* NutriScore Dropdown */}
-        <div className="flex items-center gap-1 text-xs">
-          <span className="text-stone-400 font-medium">Nutri-Score:</span>
-          <select
-            value={currentNutri}
-            onChange={(e) => applyParam("nutriScore", e.target.value)}
-            className="px-3 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
-          >
-            <option value="All">All Grades (A-E)</option>
-            <option value="A">Grade A (Best)</option>
-            <option value="B">Grade B</option>
-            <option value="C">Grade C</option>
-            <option value="D">Grade D</option>
-            <option value="E">Grade E (Poor)</option>
-          </select>
-        </div>
+          {currentQ && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-[11px] font-medium">
+              &quot;{currentQ}&quot;
+              <button
+                type="button"
+                onClick={() => {
+                  setQInput("");
+                  applyParam("q", null);
+                }}
+                className="hover:text-emerald-900 dark:hover:text-white cursor-pointer ml-0.5"
+                title="Remove keyword"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        {/* Sort By Dropdown */}
-        <div className="flex items-center gap-1 text-xs ml-auto">
-          <ArrowUpDown className="w-3.5 h-3.5 text-stone-400" />
-          <span className="text-stone-400 font-medium">Sort:</span>
-          <select
-            value={currentSort}
-            onChange={(e) => applyParam("sortBy", e.target.value)}
-            className="px-3 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
-          >
-            <option value="score">Highest Score</option>
-            <option value="recent">Recently Added</option>
-            <option value="name">Product Name (A-Z)</option>
-            <option value="verified">Verified First</option>
-          </select>
-        </div>
-      </div>
+          {currentCategory !== "All" && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-[11px] font-medium">
+              {currentCategory}
+              <button
+                type="button"
+                onClick={() => applyParam("category", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove category"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-      {/* Quick Diet & Health Checkbox Pills */}
-      <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-stone-100 dark:border-stone-800">
-        <span className="text-[11px] font-bold uppercase tracking-wider text-stone-400 mr-1">
-          Dietary Filters:
-        </span>
+          {currentBrand !== "All" && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-[11px] font-medium">
+              Brand: {currentBrand}
+              <button
+                type="button"
+                onClick={() => applyParam("brand", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove brand"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        <button
-          type="button"
-          onClick={() => toggleBooleanParam("hasPalmOil", currentPalmFree)}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
-            currentPalmFree
-              ? "bg-emerald-500 text-white shadow-xs"
-              : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200"
-          }`}
-        >
-          {currentPalmFree && <Check className="w-3 h-3" />} Palm Oil Free
-        </button>
+          {currentNutri !== "All" && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100/70 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-200 text-[11px] font-bold">
+              Grade {currentNutri}
+              <button
+                type="button"
+                onClick={() => applyParam("nutriScore", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove Nutri-Score"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        <button
-          type="button"
-          onClick={() => toggleBooleanParam("lowSugar", currentLowSugar)}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
-            currentLowSugar
-              ? "bg-emerald-500 text-white shadow-xs"
-              : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200"
-          }`}
-        >
-          {currentLowSugar && <Check className="w-3 h-3" />} Low Sugar (≤5g)
-        </button>
+          {currentPalmFree && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[11px] font-medium">
+              Palm Oil Free
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("hasPalmOil", true)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove filter"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        <button
-          type="button"
-          onClick={() => toggleBooleanParam("lowSodium", currentLowSodium)}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
-            currentLowSodium
-              ? "bg-emerald-500 text-white shadow-xs"
-              : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200"
-          }`}
-        >
-          {currentLowSodium && <Check className="w-3 h-3" />} Low Sodium (≤120mg)
-        </button>
+          {currentLowSugar && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-orange-50 dark:bg-orange-950/60 text-orange-700 dark:text-orange-300 border border-orange-200 dark:border-orange-800 text-[11px] font-medium">
+              Low Sugar
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("lowSugar", true)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove filter"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        <button
-          type="button"
-          onClick={() => toggleBooleanParam("verifiedOnly", currentVerified)}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
-            currentVerified
-              ? "bg-emerald-500 text-white shadow-xs"
-              : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200"
-          }`}
-        >
-          {currentVerified && <Check className="w-3 h-3" />} Verified Only
-        </button>
+          {currentLowSodium && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-teal-50 dark:bg-teal-950/60 text-teal-700 dark:text-teal-300 border border-teal-200 dark:border-teal-800 text-[11px] font-medium">
+              Low Sodium
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("lowSodium", true)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove filter"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
 
-        {hasActiveFilters && (
+          {currentVerified && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-[11px] font-medium">
+              Verified Only
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("verifiedOnly", true)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove filter"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
           <button
             type="button"
             onClick={resetAllFilters}
-            className="ml-auto inline-flex items-center gap-1 text-xs text-rose-500 hover:underline font-semibold cursor-pointer"
+            className="ml-auto inline-flex items-center gap-1 text-[11px] text-rose-500 hover:text-rose-600 dark:text-rose-400 font-bold cursor-pointer transition-colors"
           >
-            <RefreshCw className="w-3 h-3" /> Clear All Filters
+            <RefreshCw className="w-3 h-3" /> Reset
           </button>
-        )}
-      </div>
+        </div>
+      )}
+
+      {/* Expanded State: Reveals Full Filter Deck */}
+      {showAdvanced && (
+        <div className="pt-4 mt-3 border-t border-stone-100 dark:border-stone-800 space-y-4 animate-in fade-in duration-200">
+          {/* Row 1: Dropdown Selectors */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {/* Category Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+                Category
+              </label>
+              <select
+                value={currentCategory}
+                onChange={(e) => applyParam("category", e.target.value)}
+                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+              >
+                <option value="All">All Categories</option>
+                {categories.map((c) => (
+                  <option key={c} value={c}>
+                    {c}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Brand Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+                Brand
+              </label>
+              <select
+                value={currentBrand}
+                onChange={(e) => applyParam("brand", e.target.value)}
+                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+              >
+                <option value="All">All Brands</option>
+                {brands.map((b) => (
+                  <option key={b} value={b}>
+                    {b}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Nutri-Score Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+                Nutri-Score
+              </label>
+              <select
+                value={currentNutri}
+                onChange={(e) => applyParam("nutriScore", e.target.value)}
+                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+              >
+                <option value="All">All Grades (A-E)</option>
+                <option value="A">Grade A (Best)</option>
+                <option value="B">Grade B</option>
+                <option value="C">Grade C</option>
+                <option value="D">Grade D</option>
+                <option value="E">Grade E (Poor)</option>
+              </select>
+            </div>
+
+            {/* Sort By Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold flex items-center gap-1">
+                <ArrowUpDown className="w-3 h-3 text-stone-400" />
+                Sort Products
+              </label>
+              <select
+                value={currentSort}
+                onChange={(e) => applyParam("sortBy", e.target.value)}
+                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+              >
+                <option value="score">Highest Overall Score</option>
+                <option value="recent">Recently Added</option>
+                <option value="name">Product Name (A-Z)</option>
+                <option value="verified">Verified First</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Row 2: Dietary & Clean-Label Flag Pills */}
+          <div className="pt-2 border-t border-stone-100 dark:border-stone-800">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-stone-400 block mb-2">
+              Dietary & Health Filters
+            </span>
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("hasPalmOil", currentPalmFree)}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  currentPalmFree
+                    ? "bg-emerald-500 text-stone-950 font-bold shadow-xs"
+                    : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 border border-stone-200/60 dark:border-stone-700"
+                }`}
+              >
+                {currentPalmFree && <Check className="w-3.5 h-3.5" />} Palm Oil Free
+              </button>
+
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("lowSugar", currentLowSugar)}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  currentLowSugar
+                    ? "bg-emerald-500 text-stone-950 font-bold shadow-xs"
+                    : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 border border-stone-200/60 dark:border-stone-700"
+                }`}
+              >
+                {currentLowSugar && <Check className="w-3.5 h-3.5" />} Low Sugar (≤5g)
+              </button>
+
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("lowSodium", currentLowSodium)}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  currentLowSodium
+                    ? "bg-emerald-500 text-stone-950 font-bold shadow-xs"
+                    : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 border border-stone-200/60 dark:border-stone-700"
+                }`}
+              >
+                {currentLowSodium && <Check className="w-3.5 h-3.5" />} Low Sodium (≤120mg)
+              </button>
+
+              <button
+                type="button"
+                onClick={() => toggleBooleanParam("verifiedOnly", currentVerified)}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  currentVerified
+                    ? "bg-emerald-500 text-stone-950 font-bold shadow-xs"
+                    : "bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 border border-stone-200/60 dark:border-stone-700"
+                }`}
+              >
+                {currentVerified && <Check className="w-3.5 h-3.5" />} Verified Only
+              </button>
+
+              {hasAnyFilter && (
+                <button
+                  type="button"
+                  onClick={resetAllFilters}
+                  className="ml-auto inline-flex items-center gap-1 text-xs text-rose-500 hover:text-rose-600 font-bold cursor-pointer transition-colors"
+                >
+                  <RefreshCw className="w-3.5 h-3.5" /> Clear All Filters
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
