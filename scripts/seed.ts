@@ -11,6 +11,11 @@ import {
   SEED_SUBMISSIONS,
 } from "../src/lib/seed-data";
 
+// Automatically load local .env.local if present
+try {
+  (process as any).loadEnvFile?.(".env.local");
+} catch {}
+
 async function main() {
   const uri = process.env.MONGODB_URI;
   const dbName = process.env.MONGODB_DB_NAME || "fooddecode";
