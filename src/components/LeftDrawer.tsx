@@ -94,8 +94,8 @@ export function LeftDrawer() {
     {
       name: "Snacks",
       href: "/products?category=Snacks+%26+Spreads",
-      icon: "🥨",
-      desc: "Chips, crisps, nut butters & dips",
+      imageSrc: "/images/snacks.png",
+      desc: "Healthy namkeen, chips & roasted bites",
     },
     {
       name: "Breakfast",
