@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Search, Filter, X, ArrowUpDown, Check, RefreshCw } from "lucide-react";
 
@@ -26,6 +26,11 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
   const [qInput, setQInput] = useState(currentQ);
   const [showAdvanced, setShowAdvanced] = useState(false);
+
+  // Synchronize input value if query param changes externally (e.g. from LeftDrawer)
+  useEffect(() => {
+    setQInput(currentQ);
+  }, [currentQ]);
 
   const applyParam = (key: string, value: string | null) => {
     const params = new URLSearchParams(searchParams.toString());

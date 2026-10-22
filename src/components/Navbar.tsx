@@ -12,10 +12,10 @@ import {
   ShieldAlert,
   Menu,
   X,
-  Database,
   ArrowRight,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { LeftDrawer } from "./LeftDrawer";
 
 interface QuickSearchResult {
   id: string;
@@ -88,20 +88,23 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-white/90 dark:bg-stone-950/90 border-b border-stone-200/80 dark:border-stone-800/80 transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-        {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 group-hover:scale-105 transition-transform">
-            <ScanLine className="w-5 h-5" />
-          </div>
-          <div>
-            <span className="text-lg font-black tracking-tight text-stone-900 dark:text-stone-50 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-              Food<span className="text-emerald-500">Decode</span>
-            </span>
-            <span className="hidden sm:block text-[9px] font-bold uppercase tracking-wider text-stone-500 -mt-1">
-              Ingredient Intelligence
-            </span>
-          </div>
-        </Link>
+        {/* Left Side: Hamburger Drawer + Brand Logo */}
+        <div className="flex items-center gap-3 shrink-0">
+          <LeftDrawer />
+          <Link href="/" className="flex items-center gap-2.5 group">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 group-hover:scale-105 transition-transform">
+              <ScanLine className="w-5 h-5" />
+            </div>
+            <div>
+              <span className="text-lg font-black tracking-tight text-stone-900 dark:text-stone-50 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                Food<span className="text-emerald-500">Decode</span>
+              </span>
+              <span className="hidden sm:block text-[9px] font-bold uppercase tracking-wider text-stone-500 -mt-1">
+                Ingredient Intelligence
+              </span>
+            </div>
+          </Link>
+        </div>
 
         {/* Global Instant Search Bar */}
         <div ref={searchContainerRef} className="relative flex-1 max-w-md hidden md:block">
