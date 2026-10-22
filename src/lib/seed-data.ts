@@ -381,7 +381,7 @@ const RAW_PRODUCTS: RawSeedProductInput[] = [
     category: "Snacks & Spreads",
     subCategory: "Biscuits",
     servingSize: "25g (2 biscuits)",
-    imageUrl: "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/biscuit.jpg",
     ingredientsText: "Wheat Flour (Atta 42%), Whole Wheat Flour (18%), Palm Oil, Sugar, Invert Sugar Syrup, Raising Agents (E500ii, E503ii), Salt, Milk Solids, Malt Extract.",
     nutritionPer100g: {
       calories: 478,
@@ -450,7 +450,7 @@ const RAW_PRODUCTS: RawSeedProductInput[] = [
     category: "Snacks & Spreads",
     subCategory: "Mixture & Namkeen",
     servingSize: "35g (1/4 cup)",
-    imageUrl: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80",
+    imageUrl: "/images/mixture.png",
     ingredientsText: "Gram Flour (Besan), Cottonseed Oil, Peanuts, Lentils (Masoor), Rice Flakes, Potatoes, Cashew Nuts, Raisins, Spinach, Salt, Red Chilli Powder, Black Pepper, Clove Powder, Dry Mango Powder, Cardamom Powder, Citric Acid.",
     nutritionPer100g: {
       calories: 556,

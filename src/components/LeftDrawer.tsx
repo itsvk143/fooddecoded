@@ -24,7 +24,8 @@ import { cn } from "@/lib/utils";
 interface CategoryMenuItem {
   name: string;
   href: string;
-  icon: string;
+  icon?: string;
+  imageSrc?: string;
   badge?: string;
   desc?: string;
 }
@@ -67,7 +68,7 @@ export function LeftDrawer() {
     {
       name: "Biscuit",
       href: "/products?q=biscuit",
-      icon: "🍪",
+      imageSrc: "/images/biscuit.jpg",
       desc: "Digestive, wheat & tea biscuits",
       badge: "Popular",
     },
@@ -87,7 +88,7 @@ export function LeftDrawer() {
     {
       name: "Mixture",
       href: "/products?q=mixture",
-      icon: "🥜",
+      imageSrc: "/images/mixture.png",
       desc: "Spiced namkeen, sev & savoury mixes",
     },
     {
@@ -282,9 +283,19 @@ export function LeftDrawer() {
                           className="group flex items-center justify-between p-2.5 rounded-xl hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-stone-800 dark:text-stone-200 transition-colors"
                         >
                           <div className="flex items-center gap-3 min-w-0">
-                            <span className="text-xl shrink-0 group-hover:scale-125 transition-transform">
-                              {item.icon}
-                            </span>
+                            {item.imageSrc ? (
+                              <div className="w-8 h-8 rounded-lg overflow-hidden shrink-0 border border-stone-200 dark:border-stone-700 bg-stone-100 dark:bg-stone-800 shadow-xs group-hover:scale-110 transition-transform">
+                                <img
+                                  src={item.imageSrc}
+                                  alt={item.name}
+                                  className="w-full h-full object-cover"
+                                />
+                              </div>
+                            ) : (
+                              <span className="text-xl w-8 h-8 flex items-center justify-center shrink-0 group-hover:scale-125 transition-transform">
+                                {item.icon}
+                              </span>
+                            )}
                             <div className="min-w-0">
                               <span className="text-xs font-bold block truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400">
                                 {item.name}
@@ -326,9 +337,19 @@ export function LeftDrawer() {
                           className="group flex items-center justify-between p-2.5 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-stone-800 dark:text-stone-200 transition-colors"
                         >
                           <div className="flex items-center gap-3 min-w-0">
-                            <span className="text-xl shrink-0 group-hover:scale-125 transition-transform">
-                              {item.icon}
-                            </span>
+                            {item.imageSrc ? (
+                              <div className="w-8 h-8 rounded-lg overflow-hidden shrink-0 border border-stone-200 dark:border-stone-700 bg-stone-100 dark:bg-stone-800 shadow-xs group-hover:scale-110 transition-transform">
+                                <img
+                                  src={item.imageSrc}
+                                  alt={item.name}
+                                  className="w-full h-full object-cover"
+                                />
+                              </div>
+                            ) : (
+                              <span className="text-xl w-8 h-8 flex items-center justify-center shrink-0 group-hover:scale-125 transition-transform">
+                                {item.icon}
+                              </span>
+                            )}
                             <div className="min-w-0">
                               <span className="text-xs font-bold block truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400">
                                 {item.name}
