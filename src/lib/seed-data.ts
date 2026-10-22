@@ -450,7 +450,7 @@ const RAW_PRODUCTS: RawSeedProductInput[] = [
     category: "Snacks & Spreads",
     subCategory: "Mixture & Namkeen",
     servingSize: "35g (1/4 cup)",
-    imageUrl: "/images/mixture.png",
+    imageUrl: "/images/namkeen_mixture.png",
     ingredientsText: "Gram Flour (Besan), Cottonseed Oil, Peanuts, Lentils (Masoor), Rice Flakes, Potatoes, Cashew Nuts, Raisins, Spinach, Salt, Red Chilli Powder, Black Pepper, Clove Powder, Dry Mango Powder, Cardamom Powder, Citric Acid.",
     nutritionPer100g: {
       calories: 556,

@@ -88,7 +88,7 @@ export function LeftDrawer() {
     {
       name: "Mixture",
       href: "/products?q=mixture",
-      imageSrc: "/images/mixture.png",
+      imageSrc: "/images/namkeen_mixture.png",
       desc: "Spiced namkeen, sev & savoury mixes",
     },
     {
