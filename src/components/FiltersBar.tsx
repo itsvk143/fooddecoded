@@ -10,6 +10,8 @@ import {
   Check,
   RefreshCw,
   ChevronDown,
+  Dumbbell,
+  Candy,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -27,6 +29,8 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
   const currentCategory = searchParams.get("category") || "All";
   const currentBrand = searchParams.get("brand") || "All";
   const currentNutri = searchParams.get("nutriScore") || "All";
+  const currentProtein = searchParams.get("proteinRange") || "All";
+  const currentSugar = searchParams.get("sugarRange") || "All";
   const currentSort = searchParams.get("sortBy") || "recent";
   const currentPalmFree = searchParams.get("hasPalmOil") === "false";
   const currentLowSugar = searchParams.get("lowSugar") === "true";
@@ -78,6 +82,8 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
     currentCategory !== "All",
     currentBrand !== "All",
     currentNutri !== "All",
+    currentProtein !== "All",
+    currentSugar !== "All",
     currentSort !== "recent" && currentSort !== "score",
     currentPalmFree,
     currentLowSugar,
@@ -86,6 +92,13 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
   ].filter(Boolean).length;
 
   const hasAnyFilter = Boolean(currentQ) || filterCount > 0;
+
+  // Format label for nutrient range badges
+  const formatRangeLabel = (range: string) => {
+    if (range === "<10") return "less than 10g";
+    if (range === "30+") return "30+g";
+    return `${range}g`;
+  };
 
   return (
     <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-3 sm:p-4 shadow-xs transition-all">
@@ -162,7 +175,7 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
         </button>
       </form>
 
-      {/* Minimized State with Active Filters: Show compact chips row */}
+      {/* Minimized State with Active Filters: Show compact badges row */}
       {!showAdvanced && hasAnyFilter && (
         <div className="flex flex-wrap items-center gap-1.5 pt-2.5 mt-2.5 border-t border-stone-100 dark:border-stone-800 text-xs">
           <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider mr-1">
@@ -222,6 +235,36 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
                 onClick={() => applyParam("nutriScore", null)}
                 className="hover:text-rose-500 cursor-pointer ml-0.5"
                 title="Remove Nutri-Score"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Active Protein Filter Badge */}
+          {currentProtein !== "All" && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/60 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 text-[11px] font-medium">
+              Protein: {formatRangeLabel(currentProtein)}
+              <button
+                type="button"
+                onClick={() => applyParam("proteinRange", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove protein filter"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {/* Active Sugar Filter Badge */}
+          {currentSugar !== "All" && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[11px] font-medium">
+              Sugar: {formatRangeLabel(currentSugar)}
+              <button
+                type="button"
+                onClick={() => applyParam("sugarRange", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove sugar filter"
               >
                 <X className="w-3 h-3" />
               </button>
@@ -298,16 +341,16 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
       {showAdvanced && (
         <div className="pt-4 mt-3 border-t border-stone-100 dark:border-stone-800 space-y-4 animate-in fade-in duration-200">
           {/* Row 1: Dropdown Selectors */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
             {/* Category Dropdown */}
             <div className="flex flex-col gap-1 text-xs">
-              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate">
                 Category
               </label>
               <select
                 value={currentCategory}
                 onChange={(e) => applyParam("category", e.target.value)}
-                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+                className="w-full px-2.5 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs"
               >
                 <option value="All">All Categories</option>
                 {categories.map((c) => (
@@ -320,13 +363,13 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
             {/* Brand Dropdown */}
             <div className="flex flex-col gap-1 text-xs">
-              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate">
                 Brand
               </label>
               <select
                 value={currentBrand}
                 onChange={(e) => applyParam("brand", e.target.value)}
-                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+                className="w-full px-2.5 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs"
               >
                 <option value="All">All Brands</option>
                 {brands.map((b) => (
@@ -339,13 +382,13 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
             {/* Nutri-Score Dropdown */}
             <div className="flex flex-col gap-1 text-xs">
-              <label className="text-stone-500 dark:text-stone-400 font-semibold">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate">
                 Nutri-Score
               </label>
               <select
                 value={currentNutri}
                 onChange={(e) => applyParam("nutriScore", e.target.value)}
-                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+                className="w-full px-2.5 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs"
               >
                 <option value="All">All Grades (A-E)</option>
                 <option value="A">Grade A (Best)</option>
@@ -356,16 +399,64 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
               </select>
             </div>
 
+            {/* Protein per 100g Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate flex items-center gap-1">
+                <Dumbbell className="w-3 h-3 text-sky-500" />
+                <span>Protein / 100g</span>
+              </label>
+              <select
+                value={currentProtein}
+                onChange={(e) => applyParam("proteinRange", e.target.value)}
+                className={cn(
+                  "w-full px-2.5 py-2 rounded-xl border bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs",
+                  currentProtein !== "All"
+                    ? "border-sky-500 ring-1 ring-sky-500/50 bg-sky-50/30 dark:bg-sky-950/30"
+                    : "border-stone-200 dark:border-stone-700"
+                )}
+              >
+                <option value="All">All Protein Amounts</option>
+                <option value="<10">Less than 10g (&lt;10g)</option>
+                <option value="10-20">10g – 20g</option>
+                <option value="21-30">21g – 30g</option>
+                <option value="30+">30+g (High Protein)</option>
+              </select>
+            </div>
+
+            {/* Sugar per 100g Dropdown */}
+            <div className="flex flex-col gap-1 text-xs">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate flex items-center gap-1">
+                <Candy className="w-3 h-3 text-amber-500" />
+                <span>Sugar / 100g</span>
+              </label>
+              <select
+                value={currentSugar}
+                onChange={(e) => applyParam("sugarRange", e.target.value)}
+                className={cn(
+                  "w-full px-2.5 py-2 rounded-xl border bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs",
+                  currentSugar !== "All"
+                    ? "border-amber-500 ring-1 ring-amber-500/50 bg-amber-50/30 dark:bg-amber-950/30"
+                    : "border-stone-200 dark:border-stone-700"
+                )}
+              >
+                <option value="All">All Sugar Amounts</option>
+                <option value="<10">Less than 10g (&lt;10g)</option>
+                <option value="10-20">10g – 20g</option>
+                <option value="21-30">21g – 30g</option>
+                <option value="30+">30+g (High Sugar)</option>
+              </select>
+            </div>
+
             {/* Sort By Dropdown */}
             <div className="flex flex-col gap-1 text-xs">
-              <label className="text-stone-500 dark:text-stone-400 font-semibold flex items-center gap-1">
+              <label className="text-stone-500 dark:text-stone-400 font-semibold truncate flex items-center gap-1">
                 <ArrowUpDown className="w-3 h-3 text-stone-400" />
-                Sort Products
+                <span>Sort Products</span>
               </label>
               <select
                 value={currentSort}
                 onChange={(e) => applyParam("sortBy", e.target.value)}
-                className="w-full px-3 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500"
+                className="w-full px-2.5 py-2 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-medium focus:ring-2 focus:ring-emerald-500 text-xs"
               >
                 <option value="score">Highest Overall Score</option>
                 <option value="recent">Recently Added</option>

@@ -18,6 +18,8 @@ interface ProductsPageProps {
     hasPalmOil?: string;
     lowSugar?: string;
     lowSodium?: string;
+    proteinRange?: string;
+    sugarRange?: string;
     verifiedOnly?: string;
     sortBy?: "name" | "score" | "recent" | "verified";
     page?: string;
@@ -39,6 +41,8 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     hasPalmOil: params.hasPalmOil !== undefined ? params.hasPalmOil === "true" : undefined,
     lowSugar: params.lowSugar === "true",
     lowSodium: params.lowSodium === "true",
+    proteinRange: params.proteinRange,
+    sugarRange: params.sugarRange,
     verifiedOnly: params.verifiedOnly === "true",
     sortBy: params.sortBy || "score",
     sortOrder: params.sortBy === "name" ? "asc" : "desc",
@@ -59,6 +63,8 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     if (params.hasPalmOil) sp.set("hasPalmOil", params.hasPalmOil);
     if (params.lowSugar) sp.set("lowSugar", params.lowSugar);
     if (params.lowSodium) sp.set("lowSodium", params.lowSodium);
+    if (params.proteinRange) sp.set("proteinRange", params.proteinRange);
+    if (params.sugarRange) sp.set("sugarRange", params.sugarRange);
     if (params.verifiedOnly) sp.set("verifiedOnly", params.verifiedOnly);
     if (params.sortBy) sp.set("sortBy", params.sortBy);
     sp.set("page", targetPage.toString());

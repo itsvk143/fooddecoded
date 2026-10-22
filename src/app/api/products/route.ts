@@ -20,6 +20,8 @@ export async function GET(request: NextRequest) {
     const hasAddedSugar = searchParams.has("hasAddedSugar") ? searchParams.get("hasAddedSugar") === "true" : undefined;
     const lowSodium = searchParams.get("lowSodium") === "true";
     const lowSugar = searchParams.get("lowSugar") === "true";
+    const proteinRange = searchParams.get("proteinRange") || undefined;
+    const sugarRange = searchParams.get("sugarRange") || undefined;
     const verifiedOnly = searchParams.get("verifiedOnly") === "true";
     const sortBy = (searchParams.get("sortBy") as any) || "recent";
     const sortOrder = (searchParams.get("sortOrder") as any) || "desc";
@@ -38,6 +40,8 @@ export async function GET(request: NextRequest) {
       hasAddedSugar,
       lowSodium,
       lowSugar,
+      proteinRange,
+      sugarRange,
       verifiedOnly,
       sortBy,
       sortOrder,

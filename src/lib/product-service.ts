@@ -49,6 +49,8 @@ export async function queryProducts(params: {
   hasAddedSugar?: boolean;
   lowSodium?: boolean;
   lowSugar?: boolean;
+  proteinRange?: "<10" | "10-20" | "21-30" | "30+" | string;
+  sugarRange?: "<10" | "10-20" | "21-30" | "30+" | string;
   verifiedOnly?: boolean;
   sortBy?: "name" | "score" | "recent" | "verified";
   sortOrder?: "asc" | "desc";
@@ -117,6 +119,30 @@ export async function queryProducts(params: {
 
     if (params.lowSugar) {
       filter["nutritionPer100g.sugars"] = { $lte: 5.0 } as any;
+    }
+
+    if (params.proteinRange && params.proteinRange !== "All") {
+      if (params.proteinRange === "<10") {
+        filter["nutritionPer100g.protein"] = { $lt: 10 } as any;
+      } else if (params.proteinRange === "10-20") {
+        filter["nutritionPer100g.protein"] = { $gte: 10, $lte: 20 } as any;
+      } else if (params.proteinRange === "21-30") {
+        filter["nutritionPer100g.protein"] = { $gt: 20, $lte: 30 } as any;
+      } else if (params.proteinRange === "30+") {
+        filter["nutritionPer100g.protein"] = { $gt: 30 } as any;
+      }
+    }
+
+    if (params.sugarRange && params.sugarRange !== "All") {
+      if (params.sugarRange === "<10") {
+        filter["nutritionPer100g.sugars"] = { $lt: 10 } as any;
+      } else if (params.sugarRange === "10-20") {
+        filter["nutritionPer100g.sugars"] = { $gte: 10, $lte: 20 } as any;
+      } else if (params.sugarRange === "21-30") {
+        filter["nutritionPer100g.sugars"] = { $gt: 20, $lte: 30 } as any;
+      } else if (params.sugarRange === "30+") {
+        filter["nutritionPer100g.sugars"] = { $gt: 30 } as any;
+      }
     }
 
     if (params.verifiedOnly) {
@@ -208,6 +234,28 @@ export async function queryProducts(params: {
 
   if (params.lowSugar) {
     filtered = filtered.filter((p) => (p.nutritionPer100g.sugars || 0) <= 5.0);
+  }
+
+  if (params.proteinRange && params.proteinRange !== "All") {
+    filtered = filtered.filter((p) => {
+      const v = p.nutritionPer100g?.protein ?? 0;
+      if (params.proteinRange === "<10") return v < 10;
+      if (params.proteinRange === "10-20") return v >= 10 && v <= 20;
+      if (params.proteinRange === "21-30") return v > 20 && v <= 30;
+      if (params.proteinRange === "30+") return v > 30;
+      return true;
+    });
+  }
+
+  if (params.sugarRange && params.sugarRange !== "All") {
+    filtered = filtered.filter((p) => {
+      const v = p.nutritionPer100g?.sugars ?? 0;
+      if (params.sugarRange === "<10") return v < 10;
+      if (params.sugarRange === "10-20") return v >= 10 && v <= 20;
+      if (params.sugarRange === "21-30") return v > 20 && v <= 30;
+      if (params.sugarRange === "30+") return v > 30;
+      return true;
+    });
   }
 
   if (params.verifiedOnly) {
