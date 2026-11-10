@@ -48,11 +48,17 @@ export interface ProductCandidate {
 
 const PACKSHOT_DIR = path.join(process.cwd(), "public/images/packshots");
 
-function checkLocalImage(barcode: string): { url: string; found: boolean } {
-  const exts = ["jpg", "jpeg", "png", "webp"];
+function checkLocalImage(barcode: string, customPath?: string): { url: string; found: boolean } {
+  if (customPath) {
+    const abs = path.join(process.cwd(), "public", customPath.replace(/^\//, ""));
+    if (fs.existsSync(abs) && fs.statSync(abs).size > 100) {
+      return { url: customPath, found: true };
+    }
+  }
+  const exts = ["jpg", "jpeg", "png", "webp", "svg"];
   for (const ext of exts) {
     const p = path.join(PACKSHOT_DIR, `${barcode}.${ext}`);
-    if (fs.existsSync(p) && fs.statSync(p).size > 2000) {
+    if (fs.existsSync(p) && fs.statSync(p).size > 100) {
       return { url: `/images/packshots/${barcode}.${ext}`, found: true };
     }
   }
@@ -91,7 +97,7 @@ export async function bulkInsertProducts(
     
     for (const c of batch) {
       try {
-        const img = checkLocalImage(c.barcode);
+        const img = checkLocalImage(c.barcode, (c as any).localImageUrl);
         const match = analyzeIngredientsText(c.ingredientsText);
         const nutri = calculateNutriScore(c.nutritionPer100g);
         const nova = determineNovaGroup(match.ingredientsList, c.ingredientsText);

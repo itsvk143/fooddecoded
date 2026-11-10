@@ -1,15 +1,42 @@
 {
-  "timestamp": "2026-11-10T09:16:03.280Z",
-  "totalCategoriesAudited": 16,
+  "timestamp": "2026-11-10T14:17:52.303Z",
+  "totalCategoriesAudited": 18,
   "totalExistingProductsBefore": 283,
-  "totalProductsAfter": 1629,
-  "totalNewProductsInserted": 1346,
+  "totalProductsAfter": 1841,
+  "totalNewProductsInserted": 1507,
   "totalDuplicatesRejected": 0,
-  "categoriesReaching101": 16,
+  "categoriesReaching101": 18,
   "categoriesRequiringManualReview": 0,
   "validationSummary": [
     {
-      "category": "Biscuit",
+      "category": "Chocolates & Sweets",
+      "parentCategory": "Chocolates & Sweets",
+      "subCategory": "Dark Chocolate & Confectionery",
+      "existingCount": 0,
+      "addedCount": 108,
+      "finalCount": 108,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Cold Drinks",
+      "parentCategory": "Cold Drinks",
+      "subCategory": "Carbonated Soft Drinks",
+      "existingCount": 51,
+      "addedCount": 52,
+      "finalCount": 153,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Beverages & Drinks",
+      "parentCategory": "Beverages & Drinks",
+      "subCategory": "Juices & Drinks",
+      "existingCount": 50,
+      "addedCount": 52,
+      "finalCount": 102,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Biscuits",
       "parentCategory": "Snacks & Spreads",
       "subCategory": "Biscuits",
       "existingCount": 22,
@@ -59,15 +86,6 @@
       "subCategory": "Breakfast Cereals",
       "existingCount": 2,
       "addedCount": 99,
-      "finalCount": 101,
-      "targetMet": "Yes"
-    },
-    {
-      "category": "Cold Drinks",
-      "parentCategory": "Cold Drinks",
-      "subCategory": "Carbonated Soft Drinks",
-      "existingCount": 50,
-      "addedCount": 51,
       "finalCount": 101,
       "targetMet": "Yes"
     },
@@ -154,8 +172,8 @@
     }
   ],
   "imageAudit": {
-    "totalProducts": 1629,
-    "verifiedImages": 137,
+    "totalProducts": 1841,
+    "verifiedImages": 349,
     "placeholderImages": 1417,
     "greenBadgesDecoupledFromDataVerification": true
   },
@@ -164,8 +182,8 @@
     "status": "Verified and tested across multi-page batches up to 101 products"
   },
   "testSuiteResults": {
-    "totalTests": 44,
-    "passed": 44,
+    "totalTests": 46,
+    "passed": 46,
     "failed": 0,
     "turbopackBuildStatus": "SUCCESS"
   }

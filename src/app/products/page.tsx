@@ -129,6 +129,16 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     subParam === "cooking pastes" ||
     subParam === "chutneys";
 
+  const isChocolates =
+    catParam === "chocolates-sweets" ||
+    catParam === "chocolates & sweets" ||
+    catParam === "chocolate" ||
+    catParam === "chocolates";
+
+  const isBeverages =
+    catParam === "beverages" ||
+    catParam === "beverages & drinks";
+
   const pageTitle = isColdDrinks
     ? "Explore Cold Drinks"
     : isChips
@@ -145,6 +155,10 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     ? "Explore Bakery & Breads"
     : isSpreads
     ? "Explore Spreads, Dips & Sauces"
+    : isChocolates
+    ? "Explore Chocolates & Sweets"
+    : isBeverages
+    ? "Explore Beverages & Drinks"
     : "Explore Food Products";
 
   const pageDesc = isColdDrinks
@@ -161,6 +175,10 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     ? `Inspect whole wheat percentage, refined maida status, preservatives, and nutritional profiles across ${total} breads, sourdough, buns, wraps and bakery goods.`
     : isSpreads
     ? `Compare healthy fats, palm oil status, added sugars, and sodium levels across ${total} peanut butters, almond butters, hummus, mayonnaise, cheese spreads, salsas and chutneys.`
+    : isChocolates
+    ? `Compare cocoa solids, sugar content, palm oil status, additives, and nutritional facts across ${total} dark chocolates, truffles, Indian sweets, chikki and confections.`
+    : isBeverages
+    ? `Compare real fruit juice percentage, added sugar, artificial sweeteners, and nutrition across ${total} juices, sparkling waters, plant drinks, iced teas and cold brews.`
     : `Showing ${products.length} of ${total} products matching your criteria.`;
 
   return (

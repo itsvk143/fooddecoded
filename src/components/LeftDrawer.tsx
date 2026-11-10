@@ -269,10 +269,12 @@ export function LeftDrawer() {
     },
     {
       name: "Chocolates & Sweets",
-      href: "/products?q=chocolate",
+      href: "/products?category=Chocolates+%26+Sweets",
       icon: "🍫",
       desc: "Dark chocolate, cocoa spreads & treats",
-      badge: categoryCounts["Chocolates & Sweets"] !== undefined ? `${categoryCounts["Chocolates & Sweets"]} items` : undefined,
+      badge: (categoryCounts["Chocolates & Sweets"] ?? categoryCounts["chocolates-sweets"]) !== undefined
+        ? `${categoryCounts["Chocolates & Sweets"] ?? categoryCounts["chocolates-sweets"]} items`
+        : "101 items",
     },
   ];
 

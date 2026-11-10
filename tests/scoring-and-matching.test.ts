@@ -1023,13 +1023,15 @@ test("Comprehensive Category Expansion: Every major supermarket aisle has at lea
   const products = generateSeedProducts();
 
   const aisles = [
+    { name: "Chocolates & Sweets", filter: (p: any) => p.category === "Chocolates & Sweets" || p.categorySlug === "chocolates-sweets" },
+    { name: "Cold Drinks", filter: (p: any) => p.category === "Cold Drinks" || p.categorySlug === "cold-drinks" },
+    { name: "Beverages & Drinks", filter: (p: any) => p.category === "Beverages & Drinks" || p.categorySlug === "beverages" },
     { name: "Biscuits", filter: (p: any) => p.subCategory === "Biscuits" },
     { name: "Cookies", filter: (p: any) => p.subCategory === "Cookies" },
     { name: "Chips", filter: (p: any) => p.subCategory === "Chips" },
     { name: "Banana Chips", filter: (p: any) => p.subCategory === "Banana Chips" },
     { name: "Mixture & Namkeen", filter: (p: any) => p.subCategory === "Mixture & Namkeen" },
     { name: "Cereals & Breakfast", filter: (p: any) => p.category === "Cereals & Breakfast" },
-    { name: "Cold Drinks", filter: (p: any) => p.category === "Cold Drinks" || p.categorySlug === "cold-drinks" || p.category === "Beverages & Drinks" },
     { name: "Ice Cream", filter: (p: any) => p.category === "Ice Cream" || p.categorySlug === "ice-cream" },
     { name: "Dairy & Yogurt", filter: (p: any) => p.category === "Dairy & Yogurt" },
     { name: "Ready-to-Eat & Ready-to-Cook", filter: (p: any) => p.category === "Ready-to-Eat & Ready-to-Cook" },
@@ -1048,4 +1050,60 @@ test("Comprehensive Category Expansion: Every major supermarket aisle has at lea
       `Aisle "${a.name}" must contain at least 101 products, but found ${count}`
     );
   }
+});
+
+test("Chocolates & Sweets: Contains at least 101 products covering all required subcategories and genuine brands", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const chocolates = products.filter(
+    (p) => p.category === "Chocolates & Sweets" || p.categorySlug === "chocolates-sweets"
+  );
+  assert.ok(chocolates.length >= 101, `Chocolates & Sweets must contain at least 101 items, got ${chocolates.length}`);
+
+  // Check subcategory coverage
+  const subcats = new Set(chocolates.map((p) => p.subCategory));
+  const requiredSubcats = [
+    "Dark Chocolate",
+    "Milk Chocolate",
+    "White Chocolate",
+    "Chocolate Bars",
+    "Chocolate Wafer Bars",
+    "Chocolate Bites & Minis",
+    "Chocolate Cookies & Wafers",
+    "Chocolate Spread",
+    "Cocoa Products",
+    "Sugar-Free Chocolates",
+    "Protein Chocolates",
+    "Indian Traditional Sweets",
+    "Packaged Indian Sweets",
+    "Candy & Toffees",
+    "Lollipops",
+    "Gummies & Jellies",
+    "Marshmallows",
+    "Premium & Imported Chocolates",
+    "Festival Chocolate Gift Packs",
+    "Peanut Brittle & Chikki",
+  ];
+
+  for (const sub of requiredSubcats) {
+    assert.ok(subcats.has(sub), `Chocolates & Sweets missing required subcategory: ${sub}`);
+  }
+
+  // Check brand coverage
+  const brands = new Set(chocolates.map((p) => p.brand));
+  const expectedBrands = ["Cadbury", "Amul", "Nestlé", "Ferrero Rocher", "Lindt", "Hershey's", "Mars", "Snickers", "Haldiram's", "Bikano"];
+  for (const b of expectedBrands) {
+    assert.ok(brands.has(b), `Chocolates & Sweets missing expected brand: ${b}`);
+  }
+});
+
+test("queryProducts filters Chocolates & Sweets by category and slug correctly", async () => {
+  const { queryProducts } = await import("../src/lib/product-service");
+
+  const byName = await queryProducts({ category: "Chocolates & Sweets", limit: 50 });
+  assert.ok(byName.total >= 101, `Query by name should return >= 101 products, got ${byName.total}`);
+
+  const bySlug = await queryProducts({ category: "chocolates-sweets", limit: 50 });
+  assert.ok(bySlug.total >= 101, `Query by slug should return >= 101 products, got ${bySlug.total}`);
 });

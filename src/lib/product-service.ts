@@ -250,6 +250,10 @@ export async function queryProducts(params: {
     if (params.category && params.category !== "All") {
       const catLower = params.category.toLowerCase();
       const slugToNameMap: Record<string, string> = {
+        "chocolates-sweets": "Chocolates & Sweets",
+        "chocolates & sweets": "Chocolates & Sweets",
+        "beverages": "Beverages & Drinks",
+        "beverages & drinks": "Beverages & Drinks",
         "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
         "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
         "protein-foods-snacks": "Protein Foods & Snacks",
@@ -262,6 +266,16 @@ export async function queryProducts(params: {
         "spreads, dips & sauces": "Spreads, Dips & Sauces",
         "ice-cream": "Ice Cream",
         "ice cream": "Ice Cream",
+        "cereals-breakfast": "Cereals & Breakfast",
+        "cereals & breakfast": "Cereals & Breakfast",
+        "dairy-alternatives": "Dairy & Yogurt",
+        "dairy & yogurt": "Dairy & Yogurt",
+        "pantry-staples": "Pantry & Grains",
+        "pantry & grains": "Pantry & Grains",
+        "condiments-sauces": "Condiments & Sauces",
+        "condiments & sauces": "Condiments & Sauces",
+        "snacks-sweets": "Snacks & Spreads",
+        "snacks & spreads": "Snacks & Spreads",
       };
 
       if (catLower === "cold-drinks" || catLower === "cold drinks") {
@@ -477,6 +491,10 @@ export async function queryProducts(params: {
   if (params.category && params.category !== "All") {
     const catLower = params.category.toLowerCase();
     const slugToNameMap: Record<string, string> = {
+      "chocolates-sweets": "Chocolates & Sweets",
+      "chocolates & sweets": "Chocolates & Sweets",
+      "beverages": "Beverages & Drinks",
+      "beverages & drinks": "Beverages & Drinks",
       "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
       "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
       "protein-foods-snacks": "Protein Foods & Snacks",
@@ -489,6 +507,16 @@ export async function queryProducts(params: {
       "spreads, dips & sauces": "Spreads, Dips & Sauces",
       "ice-cream": "Ice Cream",
       "ice cream": "Ice Cream",
+      "cereals-breakfast": "Cereals & Breakfast",
+      "cereals & breakfast": "Cereals & Breakfast",
+      "dairy-alternatives": "Dairy & Yogurt",
+      "dairy & yogurt": "Dairy & Yogurt",
+      "pantry-staples": "Pantry & Grains",
+      "pantry & grains": "Pantry & Grains",
+      "condiments-sauces": "Condiments & Sauces",
+      "condiments & sauces": "Condiments & Sauces",
+      "snacks-sweets": "Snacks & Spreads",
+      "snacks & spreads": "Snacks & Spreads",
     };
 
     if (catLower === "cold-drinks" || catLower === "cold drinks") {
