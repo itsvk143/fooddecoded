@@ -40,13 +40,61 @@ async function main() {
     await prodCol.createIndex({ barcode: 1 }, { unique: true });
     await prodCol.createIndex({ name: "text", brand: "text" });
 
-    for (const p of products) {
-      const { _id, id, ...cleanDoc } = p;
-      await prodCol.updateOne({ barcode: p.barcode }, { $set: cleanDoc }, { upsert: true });
-    }
-    console.log(`✓ Products seeded (${products.length} items)`);
+    let insertedCount = 0;
+    let updatedCount = 0;
+    let biscuitCount = 0;
+    let cookieCount = 0;
+    let snackCount = 0;
+    let bananaChipsCount = 0;
+    let chipsCount = 0;
+    let coldDrinksCount = 0;
 
-    // 2. Categories
+    for (const p of products) {
+      if (p.subCategory === "Biscuits") biscuitCount++;
+      if (p.subCategory === "Cookies") cookieCount++;
+      if (p.subCategory === "Banana Chips") bananaChipsCount++;
+      if (p.subCategory === "Chips" || p.subCategory === "Chips & Crisps") chipsCount++;
+      if (["Chips & Crisps", "Namkeen & Savouries", "Roasted Snacks", "Mixture & Namkeen"].includes(p.subCategory || "")) snackCount++;
+      if (p.subCategory === "Cold Drinks" || p.categorySlug === "cold-drinks") coldDrinksCount++;
+      const { _id, id, ...cleanDoc } = p;
+      const res = await prodCol.updateOne({ barcode: p.barcode }, { $set: cleanDoc }, { upsert: true });
+      if (res.upsertedCount > 0) insertedCount++;
+      else if (res.modifiedCount > 0) updatedCount++;
+    }
+    console.log(`✓ Products seeded (${products.length} total: ${coldDrinksCount} cold drinks, ${chipsCount} chips, ${bananaChipsCount} banana chips, ${biscuitCount} biscuits, ${cookieCount} cookies, ${snackCount} snacks; Inserted: ${insertedCount}, Updated: ${updatedCount})`);
+
+    // 2. Ingredients Knowledge Base
+    const ingCol = db.collection("ingredients");
+    await ingCol.createIndex({ normalizedName: 1 }, { unique: true });
+    const { KNOWN_INGREDIENTS } = await import("../src/lib/ingredient-matcher");
+    let ingCount = 0;
+    for (const ing of KNOWN_INGREDIENTS) {
+      await ingCol.updateOne(
+        { normalizedName: ing.normalized },
+        {
+          $set: {
+            name: ing.normalized,
+            normalizedName: ing.normalized,
+            aliases: ing.aliases,
+            category: ing.category,
+            riskLevel: ing.riskLevel,
+            description: ing.description,
+            healthConcerns: ing.healthConcerns,
+            isPalmOil: ing.isPalmOil,
+            isAddedSugar: ing.isAddedSugar,
+            isAllergen: ing.isAllergen,
+            allergenType: ing.allergenType,
+            regulatoryStatus: ing.regulatoryStatus,
+            updatedAt: new Date().toISOString(),
+          },
+        },
+        { upsert: true }
+      );
+      ingCount++;
+    }
+    console.log(`✓ Ingredient intelligence database seeded (${ingCount} records)`);
+
+    // 3. Categories
     const catCol = db.collection("categories");
     await catCol.createIndex({ slug: 1 }, { unique: true });
     for (const c of SEED_CATEGORIES) {
@@ -54,7 +102,7 @@ async function main() {
     }
     console.log(`✓ Categories seeded (${SEED_CATEGORIES.length} items)`);
 
-    // 3. Brands
+    // 4. Brands
     const brandCol = db.collection("brands");
     await brandCol.createIndex({ slug: 1 }, { unique: true });
     for (const b of SEED_BRANDS) {
@@ -62,14 +110,14 @@ async function main() {
     }
     console.log(`✓ Brands seeded (${SEED_BRANDS.length} items)`);
 
-    // 4. Analysis Rules
+    // 5. Analysis Rules
     const ruleCol = db.collection("analysisRules");
     for (const r of SEED_RULES) {
       await ruleCol.updateOne({ version: r.version }, { $set: r }, { upsert: true });
     }
     console.log(`✓ Analysis rules seeded (${SEED_RULES.length} versioned rules)`);
 
-    // 5. Submissions
+    // 6. Submissions
     const subCol = db.collection("productSubmissions");
     for (const s of SEED_SUBMISSIONS) {
       const { _id, ...cleanSub } = s;
@@ -77,9 +125,15 @@ async function main() {
     }
     console.log(`✓ Sample product submissions seeded`);
 
-    console.log("\n All FoodDecode data has been initialized in MongoDB Atlas!");
+    console.log("\n🎉 All FoodDecode data has been initialized in MongoDB Atlas!");
   } catch (err) {
-    console.error("❌ Seeding failed:", (err as Error).message);
+    const errorMsg = (err as Error).message;
+    console.error("❌ Seeding failed:", errorMsg);
+    if (errorMsg.includes("alert number 80") || errorMsg.includes("tlsv1 alert")) {
+      console.error("\n💡 DIAGNOSTIC NOTE: MongoDB Atlas actively terminated the TLS handshake with 'SSL alert number 80'.");
+      console.error("This occurs when your public IP address is not authorized in Atlas Network Access.");
+      console.error("To resolve: Log in to cloud.mongodb.com -> Select Project -> Network Access -> Add IP Address (Add current IP or 0.0.0.0/0).");
+    }
     process.exit(1);
   } finally {
     await client.close();

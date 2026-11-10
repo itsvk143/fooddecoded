@@ -292,8 +292,8 @@ export function calculateOverallScore(params: {
  */
 export function calculateDataCompleteness(
   nutrition?: Partial<NutritionInfo>,
-  ingredientsText?: string,
-  imageUrl?: string
+  ingredientsText?: string | null,
+  imageUrl?: string | null
 ): number {
   let fieldsCount = 0;
   let filledCount = 0;

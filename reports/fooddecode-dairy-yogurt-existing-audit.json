@@ -1,0 +1,20 @@
+{
+  "auditDate": "2026-11-09T12:53:36.339Z",
+  "totalExistingDairyProducts": 1,
+  "products": [
+    {
+      "id": "6ad9b7aa7da04dbe409210e6",
+      "barcode": "894700010045",
+      "name": "Non-Fat Plain Greek Yogurt",
+      "brand": "Chobani",
+      "category": "Dairy & Yogurt",
+      "subCategory": "Yogurt",
+      "imageUrl": "/images/packshots/894700010045.jpg",
+      "imageSourceUrl": "https://images.openfoodfacts.org/images/products/089/470/001/0014/front_en.106.400.jpg",
+      "imageStatus": "VERIFIED",
+      "nutriScore": "A",
+      "novaGroup": 3,
+      "overallScore": 96
+    }
+  ]
+}

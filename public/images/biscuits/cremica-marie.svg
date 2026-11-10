@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#b45309" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#fcd34d" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#fde68a" text-anchor="middle" letter-spacing="2">CREMICA</text>
+    <text x="140" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle">MARIE CLASSIC</text>
+
+    <!-- Marie Biscuit graphic -->
+    <circle cx="140" cy="132" r="54" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <circle cx="140" cy="132" r="44" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="3 3"/>
+    
+    <text x="140" y="130" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="900" fill="#92400e" text-anchor="middle">CRISP &amp; LIGHT</text>
+    <text x="140" y="148" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#b45309" text-anchor="middle">TEA TIME COMPANION</text>
+
+    <rect x="35" y="206" width="210" height="20" rx="10" fill="#fef3c7"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900" fill="#78350f" text-anchor="middle">0% CHOLESTEROL · TRANS FAT FREE</text>
+  </g>
+</svg>

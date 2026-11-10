@@ -1,0 +1,60 @@
+{
+  "auditTimestamp": "2026-11-09T02:15:58.678Z",
+  "totalExistingProducts": 185,
+  "totalExistingUniqueBarcodes": 185,
+  "existingIceCreamCount": 0,
+  "existingIceCreamProducts": [],
+  "targetNewAdditions": 60,
+  "requiredFinalIceCreamCount": 60,
+  "categoriesInDb": [
+    {
+      "_id": "6ad9b7ab7da04dbe409210ea",
+      "slug": "cereals-breakfast",
+      "description": "Granolas, rolled oats, flakes, and breakfast mixes.",
+      "icon": "🥣",
+      "name": "Cereals & Breakfast"
+    },
+    {
+      "_id": "6ad9b7ab7da04dbe409210ec",
+      "slug": "beverages",
+      "description": "Plant milks, sparkling waters, sodas, juices, and teas.",
+      "icon": "🧃",
+      "name": "Beverages & Drinks"
+    },
+    {
+      "_id": "6ad9b7ab7da04dbe409210ed",
+      "slug": "snacks-sweets",
+      "description": "Nut butters, chocolate spreads, chips, and crackers.",
+      "icon": "🍫",
+      "name": "Snacks & Spreads"
+    },
+    {
+      "_id": "6ad9b7ab7da04dbe409210ee",
+      "slug": "dairy-alternatives",
+      "description": "Greek yogurts, plant yogurts, cheeses, and butter alternatives.",
+      "icon": "🥛",
+      "name": "Dairy & Yogurt"
+    },
+    {
+      "_id": "6ad9b7ab7da04dbe409210ef",
+      "slug": "pantry-staples",
+      "description": "Pasta, pulses, canned soups, grains, and olive oils.",
+      "icon": "🌾",
+      "name": "Pantry & Grains"
+    },
+    {
+      "_id": "6ad9b7ab7da04dbe409210f0",
+      "slug": "condiments-sauces",
+      "description": "Salad dressings, tomato sauces, and culinary flavorings.",
+      "icon": "🥫",
+      "name": "Condiments & Sauces"
+    },
+    {
+      "_id": "6ae2dc8594042f06e45df241",
+      "slug": "cold-drinks",
+      "description": "Colas, sodas, fruit drinks & zero-sugar beverages.",
+      "icon": "🥤",
+      "name": "Cold Drinks"
+    }
+  ]
+}

@@ -1,15 +1,36 @@
 export type RiskLevel = "safe" | "caution" | "avoid" | "unknown";
+export type IngredientClassification = "GREEN" | "ORANGE" | "RED";
+
+export interface IngredientDailyIntake {
+  recommended?: string | null;
+  adi?: string | null;
+  maximum?: string | null;
+  unit?: string | null;
+  basis?: string | null;
+  status: "ESTABLISHED" | "NOT_ESTABLISHED" | "NOT_SPECIFIED";
+  explanation: string;
+}
+
+export interface IngredientScientificSource {
+  organization: string;
+  title: string;
+  url: string;
+  year?: number | string;
+  finding?: string;
+  verificationStatus?: "VERIFIED" | "REVIEWED";
+}
 export type NutriScoreGrade = "A" | "B" | "C" | "D" | "E";
 export type NovaGroup = 1 | 2 | 3 | 4;
 
 export interface NutritionInfo {
   calories: number; // kcal
   totalFat: number; // g
+  fat?: number | null;
   saturatedFat: number; // g
-  transFat?: number; // g
+  transFat?: number | null; // g
   carbohydrates: number; // g
   sugars: number; // g
-  addedSugars?: number; // g
+  addedSugars?: number | null; // g
   fiber: number; // g
   protein: number; // g
   sodium: number; // mg
@@ -20,15 +41,50 @@ export interface IngredientMatchResult {
   raw: string;
   normalized: string;
   riskLevel: RiskLevel;
-  category?: string;
-  description?: string;
-  healthConcerns?: string[];
-  isPalmOil?: boolean;
-  isAddedSugar?: boolean;
-  isAllergen?: boolean;
-  allergenType?: string;
-  regulatoryStatus?: string; // e.g. "FDA GRAS", "Banned in EU", "Restricted"
+  classification?: IngredientClassification;
+  classificationReason?: string;
+  insNumber?: string | null;
+  category?: string | null;
+  origin?: "Natural" | "Extracted" | "Fermentation-derived" | "Manufactured / Synthetic" | "Mineral / Inorganic" | string | null;
+  description?: string | null;
+  foodFunction?: string | null;
+  benefits?: string[] | null;
+  risks?: string[] | null;
+  dailyIntake?: IngredientDailyIntake | null;
+  precautions?: string[] | null;
+  verdict?: string | null;
+  declaredQuantity?: string | null;
+  quantitySource?: string | null;
+  healthConcerns?: string[] | null;
+  isPalmOil?: boolean | null;
+  isAddedSugar?: boolean | null;
+  isAllergen?: boolean | null;
+  allergenType?: string | null;
+  regulatoryStatus?: string | null; // e.g. "FDA GRAS", "Banned in EU", "Restricted"
+  evidenceLevel?: "STRONG" | "MODERATE" | "PRELIMINARY" | string | null;
+  verificationStatus?: "VERIFIED" | "NEEDS_REVIEW" | "UNVERIFIED" | string | null;
+  sources?: IngredientScientificSource[] | null;
 }
+
+export type ProductVerificationStatus =
+  | "FULLY_VERIFIED"
+  | "DATA_VERIFIED"
+  | "IMAGE_VERIFIED"
+  | "NEEDS_REVIEW"
+  | "IMAGE_MISSING"
+  | "IMAGE_MISMATCH";
+
+export type ImageStatus =
+  | "VERIFIED"
+  | "IMAGE_VERIFIED"
+  | "FULLY_VERIFIED"
+  | "PLACEHOLDER"
+  | "MISSING"
+  | "IMAGE_MISSING"
+  | "MISMATCH"
+  | "IMAGE_MISMATCH"
+  | "NEEDS_REVIEW"
+  | "UNCERTAIN";
 
 export interface ProductItem {
   _id?: string;
@@ -37,16 +93,23 @@ export interface ProductItem {
   name: string;
   brand: string;
   category: string;
-  subCategory?: string;
-  servingSize?: string;
-  imageUrl?: string;
+  categorySlug?: string | null;
+  subCategory?: string | null;
+  servingSize?: string | null;
+  imageUrl?: string | null;
+  imageSourceUrl?: string | null;
+  imageStatus?: ImageStatus | null;
+  imageVerified?: boolean | null;
+  imageVerifiedAt?: string | null;
+  imageVerificationNote?: string | null;
+  verificationStatus?: ProductVerificationStatus | null;
   ingredientsText: string;
   ingredientsList: IngredientMatchResult[];
   nutritionPer100g: NutritionInfo;
   
   // Computed Scores
   nutriScore: NutriScoreGrade;
-  nutriScoreScore?: number; // raw calculation score
+  nutriScoreScore?: number | null; // raw calculation score
   novaGroup: NovaGroup;
   overallScore: number; // 0 - 100
   scoreLabel: "Excellent" | "Good" | "Moderate" | "Poor" | "Bad";
@@ -64,11 +127,31 @@ export interface ProductItem {
   // Metadata & Verification
   dataCompleteness: number; // 0 - 100%
   verified: boolean;
-  verificationDate?: string;
-  verifiedBy?: string;
+  verificationDate?: string | null;
+  verifiedBy?: string | null;
   source: "openfoodfacts" | "manual" | "barcode_scan" | "admin" | "submission";
-  sourceUrl?: string;
+  sourceUrl?: string | null;
   isSample?: boolean;
+  
+  // Extended Catalogue & Management Fields
+  productType?: string | null;
+  flavour?: string | null;
+  packageSize?: string | null;
+  packageUnit?: string | null;
+  manufacturer?: string | null;
+  countryOfOrigin?: string | null;
+  searchTags?: string[] | null;
+  isArchived?: boolean;
+  archivedAt?: string | null;
+  dataStatus?: "verified" | "incomplete" | "under_review";
+  description?: string | null;
+  auditHistory?: Array<{
+    action: string;
+    timestamp: string;
+    performedBy: string;
+    details?: string;
+    changes?: Record<string, { old: any; new: any }>;
+  }>;
   
   createdAt: string;
   updatedAt: string;
@@ -79,18 +162,31 @@ export interface IngredientRecord {
   name: string;
   normalizedName: string;
   aliases: string[];
-  category: "sweetener" | "preservative" | "color" | "emulsifier" | "fat_oil" | "grain" | "protein" | "additive" | "vitamin" | "general";
+  insNumber?: string | null;
+  category: "sweetener" | "preservative" | "color" | "emulsifier" | "fat_oil" | "grain" | "protein" | "additive" | "vitamin" | "dairy" | "stabilizer" | "acid" | "fiber" | "general" | string;
   riskLevel: RiskLevel;
+  classification?: IngredientClassification;
+  classificationReason?: string;
+  origin?: "Natural" | "Extracted" | "Fermentation-derived" | "Manufactured / Synthetic" | "Mineral / Inorganic" | string;
   description: string;
+  foodFunction?: string;
+  benefits?: string[];
+  risks?: string[];
+  dailyIntake?: IngredientDailyIntake;
+  precautions?: string[];
+  verdict?: string;
   healthConcerns: string[];
   isPalmOil?: boolean;
   isAddedSugar?: boolean;
   isAllergen?: boolean;
   allergenType?: string;
   regulatoryStatus: string;
-  sources?: string[];
+  evidenceLevel?: "STRONG" | "MODERATE" | "PRELIMINARY" | string;
+  verificationStatus?: "VERIFIED" | "NEEDS_REVIEW" | "UNVERIFIED" | string;
+  sources?: (IngredientScientificSource | string)[];
   createdAt?: string;
   updatedAt?: string;
+  lastReviewedAt?: string;
 }
 
 export interface CategoryRecord {
@@ -101,6 +197,9 @@ export interface CategoryRecord {
   description: string;
   parentCategory?: string;
   productCount?: number;
+  subCategories?: string[];
+  displayOrder?: number;
+  isActive?: boolean;
 }
 
 export interface BrandRecord {
@@ -142,6 +241,10 @@ export interface ProductSubmission {
   submittedBy?: string;
   submitterEmail?: string;
   imageUrl?: string;
+  imageSourceUrl?: string;
+  imageStatus?: "VERIFIED" | "PLACEHOLDER" | "MISMATCH" | "MISSING" | "UNCERTAIN";
+  imageVerifiedAt?: string;
+  imageVerificationNote?: string;
   status: "pending" | "approved" | "rejected";
   reviewNotes?: string;
   reviewedBy?: string;
@@ -167,7 +270,7 @@ export interface ImportJob {
 export interface AuditLog {
   _id?: string;
   action: string;
-  entityType: "product" | "ingredient" | "rule" | "import" | "submission";
+  entityType: "product" | "ingredient" | "rule" | "import" | "submission" | "category" | "brand";
   entityId?: string;
   performedBy: string;
   details: string;

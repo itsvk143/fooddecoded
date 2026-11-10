@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#78350f" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#f59e0b" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="115" height="26" rx="6" fill="#facc15"/>
+    <text x="77" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#78350f" text-anchor="middle">BINGO!</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">CHAAT MASTI</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#fde68a" text-anchor="middle">MAD ANGLES TRIANGLE CHIPS</text>
+
+    
+    <!-- Tortilla Triangle Chip -->
+    <polygon points="140,118 95,178 185,178" fill="url(#chip)" stroke="#b45309" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="140,128 108,172 172,172" fill="none" stroke="#d97706" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="120" cy="160" r="3" fill="#b45309" opacity="0.4"/>
+    <circle cx="155" cy="162" r="3" fill="#b45309" opacity="0.4"/>
+    
+    <!-- Seasoning specks -->
+    <circle cx="125" cy="142" r="2" fill="#78350f"/>
+    <circle cx="140" cy="148" r="2.2" fill="#78350f"/>
+    <circle cx="155" cy="140" r="1.8" fill="#78350f"/>
+    <circle cx="145" cy="160" r="2.4" fill="#78350f"/>
+    <circle cx="130" cy="158" r="2" fill="#78350f"/>
+    <circle cx="160" cy="155" r="2.2" fill="#78350f"/>
+
+    <!-- Feature Badge Pill -->
+    <rect x="20" y="204" width="240" height="22" rx="11" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#92400e" text-anchor="middle">GRAIN CRUNCH • CHATPATA CHAAT MASALA</text>
+  </g>
+</svg>

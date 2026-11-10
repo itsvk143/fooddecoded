@@ -5,7 +5,8 @@ import Link from "next/link";
 import { ProductItem } from "@/types";
 import { NutriScoreBadge, NovaBadge } from "./ScoreBadge";
 import { getScoreBgColor, cn } from "@/lib/utils";
-import { CheckCircle2, AlertTriangle, Flame, Droplets } from "lucide-react";
+import { CheckCircle2, AlertTriangle, Flame, Droplets, ShieldCheck } from "lucide-react";
+import { ProductImage } from "./ProductImage";
 
 interface ProductCardProps {
   product: ProductItem;
@@ -26,9 +27,18 @@ export function ProductCard({ product }: ProductCardProps) {
             <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider block truncate">
               {product.brand}
             </span>
-            <span className="text-[10px] text-stone-500 truncate block">
-              {product.category}
-            </span>
+            <div className="flex items-center gap-1.5 mt-0.5">
+              <span className="text-[10px] text-stone-500 truncate block">
+                {product.subCategory || product.category}
+              </span>
+              {product.verified &&
+                product.imageStatus !== "IMAGE_MISSING" &&
+                !product.imageUrl?.includes("placeholder") && (
+                  <span className="text-[8px] font-semibold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 px-1 py-0.2 rounded border border-emerald-200/60 dark:border-emerald-800/60 shrink-0">
+                    Data Verified
+                  </span>
+                )}
+            </div>
           </div>
 
           <div
@@ -46,25 +56,29 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* Product Image */}
-        <div className="relative w-full h-40 bg-stone-100 dark:bg-stone-800 rounded-xl overflow-hidden mb-3.5 flex items-center justify-center">
-          {product.imageUrl ? (
-            <img
-              src={product.imageUrl}
-              alt={product.name}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-          ) : (
-            <div className="text-3xl text-stone-300 dark:text-stone-600 font-black">
-              FOOD
-            </div>
-          )}
+        <div className="relative w-full h-44 bg-white dark:bg-stone-800/80 rounded-xl overflow-hidden mb-3.5 flex items-center justify-center p-3 border border-stone-100 dark:border-stone-700/60">
+          <ProductImage
+            src={product.imageUrl}
+            alt={product.name}
+            showVerifiedBadge={
+              (product.imageStatus === "VERIFIED" ||
+                product.imageStatus === "IMAGE_VERIFIED" ||
+                product.imageStatus === "FULLY_VERIFIED") &&
+              product.imageVerified !== false
+            }
+            badgeText="Verified Image"
+            className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300 mx-auto"
+          />
 
-          {product.verified && (
-            <span className="absolute top-2 left-2 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-white/90 dark:bg-stone-900/90 text-emerald-700 dark:text-emerald-300 shadow-xs backdrop-blur-xs">
-              <CheckCircle2 className="w-3 h-3 text-emerald-500" /> Verified
+          {product.imageStatus === "IMAGE_MISMATCH" || product.imageStatus === "MISMATCH" ? (
+            <span className="absolute top-2 left-2 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-100/95 dark:bg-rose-950/95 text-rose-700 dark:text-rose-300 shadow-xs backdrop-blur-xs border border-rose-300/50">
+              <AlertTriangle className="w-3 h-3 text-rose-500" /> Mismatch
             </span>
-          )}
+          ) : product.imageStatus === "NEEDS_REVIEW" ? (
+            <span className="absolute top-2 left-2 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100/95 dark:bg-amber-950/95 text-amber-700 dark:text-amber-300 shadow-xs backdrop-blur-xs border border-amber-300/50">
+              <AlertTriangle className="w-3 h-3 text-amber-500" /> Review
+            </span>
+          ) : null}
         </div>
 
         {/* Title */}

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4ff"/>
+      <stop offset="100%" stop-color="#fae8ff"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#86198f"/>
+      <stop offset="50%" stop-color="#701a75"/>
+      <stop offset="100%" stop-color="#4a044e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#701a75" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#f0abfc" stroke-width="2.5"/>
+    
+    <!-- Haldiram's red lozenge -->
+    <rect x="80" y="20" width="120" height="28" rx="14" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="39" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">Haldiram's</text>
+    
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#facc15" text-anchor="middle">KHATTA MEETHA</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#f5d0fe" text-anchor="middle">SWEET &amp; SOUR CRUNCHY MIXTURE</text>
+
+    <!-- Mixture illustration: rice flakes, sago balls, peanuts, green peas -->
+    <ellipse cx="140" cy="148" rx="62" ry="36" fill="#a21caf" opacity="0.5"/>
+    
+    <!-- White flat rice flakes -->
+    <path d="M 100 145 Q 115 138 125 146 Q 115 152 100 145 Z" fill="#fef08a"/>
+    <path d="M 148 135 Q 162 130 172 138 Q 160 145 148 135 Z" fill="#fef08a"/>
+    <path d="M 120 158 Q 135 152 145 160 Q 132 166 120 158 Z" fill="#fef08a"/>
+
+    <!-- Peanuts with red skin -->
+    <ellipse cx="135" cy="138" rx="7" ry="11" transform="rotate(35 135 138)" fill="#b45309" stroke="#78350f" stroke-width="1"/>
+    <ellipse cx="160" cy="155" rx="7" ry="10" transform="rotate(-25 160 155)" fill="#b45309" stroke="#78350f" stroke-width="1"/>
+
+    <!-- Sago round pearls & green peas -->
+    <circle cx="112" cy="135" r="5" fill="#ffffff"/>
+    <circle cx="168" cy="140" r="5" fill="#ffffff"/>
+    <circle cx="148" cy="158" r="5" fill="#15803d"/>
+    <circle cx="106" cy="156" r="4.5" fill="#15803d"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#facc15"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#4a044e" text-anchor="middle">PEANUTS, SAGO &amp; RICE FLAKES</text>
+  </g>
+</svg>

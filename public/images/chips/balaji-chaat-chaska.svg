@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="50%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="60%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#064e3b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#34d399" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="115" height="26" rx="6" fill="#facc15"/>
+    <text x="77" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#065f46" text-anchor="middle">BALAJI WAFERS</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">CHAAT CHASKA</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#a7f3d0" text-anchor="middle">CHATPATA SPICED WAFERS</text>
+
+    
+    <!-- Crispy Round Potato Chip Slices -->
+    <ellipse cx="120" cy="148" rx="38" ry="28" transform="rotate(-15 120 148)" fill="url(#chip)" stroke="#065f46" stroke-width="2"/>
+    <ellipse cx="160" cy="148" rx="38" ry="28" transform="rotate(15 160 148)" fill="url(#chip)" stroke="#065f46" stroke-width="2"/>
+    <ellipse cx="140" cy="154" rx="42" ry="30" fill="url(#chip)" stroke="#065f46" stroke-width="2"/>
+    
+    <!-- Seasoning specks -->
+    <circle cx="125" cy="142" r="2" fill="#064e3b"/>
+    <circle cx="140" cy="148" r="2.2" fill="#064e3b"/>
+    <circle cx="155" cy="140" r="1.8" fill="#064e3b"/>
+    <circle cx="145" cy="160" r="2.4" fill="#064e3b"/>
+    <circle cx="130" cy="158" r="2" fill="#064e3b"/>
+    <circle cx="160" cy="155" r="2.2" fill="#064e3b"/>
+
+    <!-- Feature Badge Pill -->
+    <rect x="20" y="204" width="240" height="22" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#047857" text-anchor="middle">AMCHUR & PUDINA CHAAT MASALA</text>
+  </g>
+</svg>

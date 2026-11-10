@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1e3a8a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#60a5fa" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="115" height="26" rx="6" fill="#facc15"/>
+    <text x="77" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#1e3a8a" text-anchor="middle">BALAJI WAFERS</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">SIMPLY SALTED</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#bfdbfe" text-anchor="middle">CRISPY POTATO WAFERS</text>
+
+    
+    <!-- Crispy Round Potato Chip Slices -->
+    <ellipse cx="120" cy="148" rx="38" ry="28" transform="rotate(-15 120 148)" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <ellipse cx="160" cy="148" rx="38" ry="28" transform="rotate(15 160 148)" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <ellipse cx="140" cy="154" rx="42" ry="30" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    
+
+    <!-- Feature Badge Pill -->
+    <rect x="20" y="204" width="240" height="22" rx="11" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#1e40af" text-anchor="middle">91% POTATO • ROCK SALT WAFER</text>
+  </g>
+</svg>

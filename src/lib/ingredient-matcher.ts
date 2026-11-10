@@ -1,4 +1,5 @@
 import { IngredientMatchResult, RiskLevel, IngredientRecord } from "@/types";
+import { resolveIngredientIntelligence } from "./ingredient-service";
 
 interface KnownIngredientDefinition {
   normalized: string;
@@ -110,7 +111,7 @@ export const KNOWN_INGREDIENTS: KnownIngredientDefinition[] = [
   // Palm Oil
   {
     normalized: "palm oil",
-    aliases: ["fractionated palm oil", "palm kernel oil", "palmate", "sodium palmate", "elaeis guineensis oil", "palmitate"],
+    aliases: ["fractionated palm oil", "palm kernel oil", "palmate", "sodium palmate", "elaeis guineensis oil", "palmitate", "palmolein", "refined palmolein", "refined palm oil", "palm olein"],
     riskLevel: "caution",
     category: "fat_oil",
     description: "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
@@ -119,7 +120,7 @@ export const KNOWN_INGREDIENTS: KnownIngredientDefinition[] = [
     regulatoryStatus: "Permitted globally with labeling requirements",
   },
 
-  // Added Sugars & High-Fructose Corn Syrup
+  // Added Sugars & Syrups
   {
     normalized: "high fructose corn syrup",
     aliases: ["hfcs", "glucose-fructose syrup", "corn syrup", "isoglucose", "hfcs-55"],
@@ -132,13 +133,136 @@ export const KNOWN_INGREDIENTS: KnownIngredientDefinition[] = [
   },
   {
     normalized: "cane sugar",
-    aliases: ["sugar", "sucrose", "beet sugar", "brown sugar", "dextrose", "maltodextrin", "invert sugar", "fructose", "corn syrup solids", "evaporated cane juice"],
+    aliases: ["sugar", "sucrose", "beet sugar", "brown sugar", "dextrose", "maltodextrin", "invert sugar", "fructose", "corn syrup solids", "evaporated cane juice", "invert syrup", "invert sugar syrup", "liquid glucose"],
     riskLevel: "caution",
     category: "sweetener",
     description: "Refined caloric simple carbohydrate.",
     healthConcerns: ["Dental caries", "High glycemic spike", "Inflammation when consumed in excess"],
     isAddedSugar: true,
     regulatoryStatus: "Permitted globally",
+  },
+  {
+    normalized: "jaggery",
+    aliases: ["gur", "unrefined sugar"],
+    riskLevel: "caution",
+    category: "sweetener",
+    description: "Traditional unrefined non-centrifugal sugar made from sugarcane juice.",
+    healthConcerns: ["Caloric sweetener with minor mineral content; impacts blood sugar similar to sucrose"],
+    isAddedSugar: true,
+    regulatoryStatus: "Permitted globally",
+  },
+
+  // Biscuit Additives, Raising Agents & Preservatives
+  {
+    normalized: "sodium metabisulphite",
+    aliases: ["ins 223", "e223", "sodium metabisulfite", "metabisulphite"],
+    riskLevel: "caution",
+    category: "preservative",
+    description: "Preservative and dough conditioner releasing sulphur dioxide to relax gluten in biscuit dough.",
+    healthConcerns: ["Can provoke acute bronchospasm and severe allergic reactions in asthmatics and sulphite-sensitive individuals"],
+    isAllergen: true,
+    allergenType: "Sulphites",
+    regulatoryStatus: "Permitted with strict limits (FSSAI & Codex)",
+  },
+  {
+    normalized: "ammonium bicarbonate",
+    aliases: ["ins 503", "ins 503(ii)", "ins 503ii", "e503", "e503ii", "ammonium hydrogen carbonate", "bakers ammonia"],
+    riskLevel: "safe",
+    category: "additive",
+    description: "Traditional leavening agent used in crackers and crisp biscuits; volatilizes completely into ammonia and CO2 during baking.",
+    healthConcerns: ["Decomposes fully during high-temperature baking; safe for human consumption"],
+    regulatoryStatus: "FDA GRAS / FSSAI Permitted",
+  },
+  {
+    normalized: "sodium bicarbonate",
+    aliases: ["ins 500", "ins 500(ii)", "ins 500ii", "e500", "e500ii", "baking soda", "sodium hydrogen carbonate"],
+    riskLevel: "safe",
+    category: "additive",
+    description: "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+    healthConcerns: ["Source of dietary sodium"],
+    regulatoryStatus: "FDA GRAS / FSSAI Permitted",
+  },
+  {
+    normalized: "disodium diphosphate",
+    aliases: ["ins 450", "ins 450(i)", "ins 450i", "e450", "e450i", "sodium acid pyrophosphate"],
+    riskLevel: "caution",
+    category: "additive",
+    description: "Acidic leavening agent used with baking soda for controlled gas release in biscuits.",
+    healthConcerns: ["Excess dietary inorganic phosphates linked to vascular calcification and renal load"],
+    regulatoryStatus: "Permitted food additive with maximum limits",
+  },
+  {
+    normalized: "mono- and diglycerides of fatty acids",
+    aliases: ["ins 471", "e471", "ins 472e", "e472e", "glycerol monostearate", "datem", "emulsifier 471", "emulsifier 472e"],
+    riskLevel: "safe",
+    category: "emulsifier",
+    description: "Plant-derived food emulsifiers used to blend fats and water, improving dough machinability and biscuit crumb stability.",
+    healthConcerns: ["Generally safe lipid derivative; may contain traces of trans fats if partially hydrogenated fats were used"],
+    regulatoryStatus: "FDA GRAS / FSSAI Permitted",
+  },
+  {
+    normalized: "polyglycerol polyricinoleate",
+    aliases: ["ins 476", "e476", "pgpr"],
+    riskLevel: "caution",
+    category: "emulsifier",
+    description: "Synthetic emulsifier made from glycerol and fatty acids (usually castor bean oil) to reduce chocolate viscosity.",
+    healthConcerns: ["Allows reduction of cocoa butter with cheaper vegetable fats; potential laxative effect in large quantities"],
+    regulatoryStatus: "Permitted within strict daily intake limits (ADI: 25 mg/kg bw)",
+  },
+  {
+    normalized: "caramel color",
+    aliases: ["ins 150a", "ins 150c", "ins 150d", "e150a", "e150c", "e150d", "caramel iv", "ammonia caramel"],
+    riskLevel: "caution",
+    category: "color",
+    description: "Brown food coloring manufactured by heating carbohydrates with ammonia or sulphites.",
+    healthConcerns: ["Classes III and IV may contain trace byproduct 4-MEI (4-methylimidazole), a potential carcinogen"],
+    regulatoryStatus: "Permitted globally with 4-MEI impurity limits",
+  },
+  {
+    normalized: "fructooligosaccharides",
+    aliases: ["fos", "fructo-oligosaccharides", "oligofructose", "prebiotic fiber"],
+    riskLevel: "safe",
+    category: "general",
+    description: "Short-chain nondigestible fructose polymers acting as prebiotic soluble dietary fiber.",
+    healthConcerns: ["Stimulates beneficial bifidobacteria in colon; may cause mild gas or bloating if consumed in large doses"],
+    regulatoryStatus: "FDA GRAS / FSSAI Approved prebiotic",
+  },
+
+  {
+    normalized: "tertiary butylhydroquinone",
+    aliases: ["tbhq", "ins 319", "e319", "antioxidant 319"],
+    riskLevel: "caution",
+    category: "preservative",
+    description: "Synthetic aromatic organic compound used as an antioxidant to preserve fats and vegetable oils.",
+    healthConcerns: ["Vision disturbances at high exposures", "Liver effects in animal studies; restricted daily intake"],
+    regulatoryStatus: "Strictly limited to 200 ppm in oils (FDA & FSSAI)",
+  },
+  {
+    normalized: "flavour enhancers",
+    aliases: ["ins 627", "ins 631", "ins 635", "e627", "e631", "e635", "disodium inosinate", "disodium guanylate", "ribonucleotides"],
+    riskLevel: "caution",
+    category: "additive",
+    description: "Synergistic umami flavor enhancers derived from fermentation or meat/fish extracts, boosting savory perception.",
+    healthConcerns: ["May exacerbate gout due to purine breakdown into uric acid", "Marker of ultra-processed snacking foods"],
+    regulatoryStatus: "FSSAI / FDA Approved with GMP limit",
+  },
+  {
+    normalized: "silicon dioxide",
+    aliases: ["ins 551", "e551", "anticaking agent"],
+    riskLevel: "safe",
+    category: "additive",
+    description: "Anticaking agent used in spice mixtures and snack seasonings to prevent clumping.",
+    healthConcerns: ["Poorly absorbed in gastrointestinal tract; excreted safely"],
+    regulatoryStatus: "FDA GRAS / FSSAI Approved",
+  },
+  {
+    normalized: "paprika oleoresin",
+    aliases: ["ins 160c", "e160c", "paprika extract", "capsanthin"],
+    riskLevel: "safe",
+    category: "color",
+    description: "Natural orange-red extract of the fruits of Capsicum annuum used for natural colouring.",
+    healthConcerns: ["Natural plant-derived carotenoid"],
+    regulatoryStatus: "Natural food colour permitted globally",
   },
 
   // Artificial / Non-Sugar Sweeteners
@@ -226,6 +350,17 @@ export const KNOWN_INGREDIENTS: KnownIngredientDefinition[] = [
     allergenType: "Tree Nuts",
     regulatoryStatus: "Major food allergen requiring mandatory disclosure",
   },
+  {
+    normalized: "sesame seeds",
+    aliases: ["sesame", "til", "tila", "gingelly", "sesamum indicum"],
+    riskLevel: "safe",
+    category: "protein",
+    description: "Oilseed and common severe allergen recognized under global labeling regulations.",
+    healthConcerns: ["Severe anaphylaxis risk in allergic individuals"],
+    isAllergen: true,
+    allergenType: "Sesame",
+    regulatoryStatus: "Major food allergen (FDA FASTER Act & FSSAI mandatory disclosure)",
+  },
 
   // Safe / Wholesome Ingredients
   {
@@ -304,85 +439,41 @@ export function matchSingleIngredient(
   rawToken: string,
   customDbIngredients: IngredientRecord[] = []
 ): IngredientMatchResult {
+  const result = resolveIngredientIntelligence(rawToken, customDbIngredients);
+
   const cleaned = cleanIngredientString(rawToken);
+  const rawLower = rawToken.toLowerCase();
 
-  // 1. Check custom DB records first
-  for (const item of customDbIngredients) {
-    const targetNorm = item.normalizedName.toLowerCase();
-    if (cleaned === targetNorm || cleaned.includes(targetNorm) || item.aliases?.some((a) => cleaned.includes(a.toLowerCase()))) {
-      return {
-        raw: rawToken,
-        normalized: item.name,
-        riskLevel: item.riskLevel,
-        category: item.category,
-        description: item.description,
-        healthConcerns: item.healthConcerns,
-        isPalmOil: item.isPalmOil,
-        isAddedSugar: item.isAddedSugar,
-        isAllergen: item.isAllergen,
-        allergenType: item.allergenType,
-        regulatoryStatus: item.regulatoryStatus,
-      };
-    }
-  }
-
-  // 2. Check built-in definitions
+  // Enrich with KNOWN_INGREDIENTS hazard rules
   for (const def of KNOWN_INGREDIENTS) {
-    if (cleaned === def.normalized || cleaned.includes(def.normalized) || def.aliases.some((alias) => cleaned.includes(alias.toLowerCase()))) {
-      return {
-        raw: rawToken,
-        normalized: def.normalized,
-        riskLevel: def.riskLevel,
-        category: def.category,
-        description: def.description,
-        healthConcerns: def.healthConcerns,
-        isPalmOil: def.isPalmOil,
-        isAddedSugar: def.isAddedSugar,
-        isAllergen: def.isAllergen,
-        allergenType: def.allergenType,
-        regulatoryStatus: def.regulatoryStatus,
-      };
+    if (
+      cleaned === def.normalized ||
+      cleaned.includes(def.normalized) ||
+      rawLower.includes(def.normalized) ||
+      def.aliases.some((a) => cleaned.includes(a.toLowerCase()) || rawLower.includes(a.toLowerCase()))
+    ) {
+      result.riskLevel = def.riskLevel;
+      if (def.riskLevel === "avoid") {
+        result.classification = "RED";
+      } else if (def.riskLevel === "caution" && result.classification !== "RED") {
+        result.classification = "ORANGE";
+      }
+      if (def.isPalmOil) result.isPalmOil = true;
+      if (def.isAddedSugar) result.isAddedSugar = true;
+      if (def.isAllergen) {
+        result.isAllergen = true;
+        result.allergenType = def.allergenType;
+      }
+      if (def.healthConcerns && def.healthConcerns.length > 0) {
+        result.healthConcerns = Array.from(new Set([...(result.healthConcerns || []), ...def.healthConcerns]));
+        result.risks = result.healthConcerns;
+      }
+      if (def.regulatoryStatus) result.regulatoryStatus = def.regulatoryStatus;
+      break;
     }
   }
 
-  // 3. Fallback heuristic matching for additives & numbers (e.g. "E211", "artificial flavor")
-  const eNumberMatch = cleaned.match(/\be[0-9]{3,4}[a-z]?\b/i);
-  if (eNumberMatch) {
-    return {
-      raw: rawToken,
-      normalized: eNumberMatch[0].toUpperCase(),
-      riskLevel: "caution",
-      category: "additive",
-      description: `Identified food additive code (${eNumberMatch[0].toUpperCase()}).`,
-      healthConcerns: ["Processed synthetic or chemical additive"],
-      regulatoryStatus: "Regulated food additive",
-    };
-  }
-
-  if (cleaned.includes("flavor") || cleaned.includes("flavour") || cleaned.includes("aroma")) {
-    const isNatural = cleaned.includes("natural");
-    return {
-      raw: rawToken,
-      normalized: isNatural ? "natural flavor" : "artificial flavor",
-      riskLevel: isNatural ? "safe" : "caution",
-      category: "additive",
-      description: isNatural
-        ? "Flavoring compounds derived from natural food sources."
-        : "Synthetically compounded aroma chemicals designed to replicate taste.",
-      healthConcerns: isNatural ? [] : ["Ultra-processed food marker; encourages overeating"],
-      regulatoryStatus: "FDA GRAS",
-    };
-  }
-
-  // Default wholesome/safe fallback
-  return {
-    raw: rawToken,
-    normalized: cleaned || rawToken,
-    riskLevel: "safe",
-    category: "general",
-    description: "Standard food ingredient.",
-    regulatoryStatus: "General food use",
-  };
+  return result;
 }
 
 /**

@@ -6,7 +6,7 @@ const memoryLogs: AuditLog[] = [];
 
 export async function logAuditEvent(entry: {
   action: string;
-  entityType: "product" | "ingredient" | "rule" | "import" | "submission";
+  entityType: "product" | "ingredient" | "rule" | "import" | "submission" | "category" | "brand";
   entityId?: string;
   performedBy?: string;
   details: string;

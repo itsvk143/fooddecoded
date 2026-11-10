@@ -27,6 +27,7 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
   const currentQ = searchParams.get("q") || "";
   const currentCategory = searchParams.get("category") || "All";
+  const currentSubCategory = searchParams.get("subCategory") || "";
   const currentBrand = searchParams.get("brand") || "All";
   const currentNutri = searchParams.get("nutriScore") || "All";
   const currentProtein = searchParams.get("proteinRange") || "All";
@@ -79,6 +80,7 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
   // Count active non-default filters
   const filterCount = [
+    Boolean(currentSubCategory),
     currentCategory !== "All",
     currentBrand !== "All",
     currentNutri !== "All",
@@ -201,12 +203,26 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
 
           {currentCategory !== "All" && (
             <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-[11px] font-medium">
-              {currentCategory}
+              {currentCategory === "cold-drinks" ? "Cold Drinks" : currentCategory}
               <button
                 type="button"
                 onClick={() => applyParam("category", null)}
                 className="hover:text-rose-500 cursor-pointer ml-0.5"
                 title="Remove category"
+              >
+                <X className="w-3 h-3" />
+              </button>
+            </span>
+          )}
+
+          {currentSubCategory && (
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-800 text-[11px] font-medium">
+              Aisle: {currentSubCategory}
+              <button
+                type="button"
+                onClick={() => applyParam("subCategory", null)}
+                className="hover:text-rose-500 cursor-pointer ml-0.5"
+                title="Remove aisle filter"
               >
                 <X className="w-3 h-3" />
               </button>

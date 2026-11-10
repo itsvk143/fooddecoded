@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="50%" stop-color="#115e59"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#134e4a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#2dd4bf" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="105" height="26" rx="6" fill="#facc15"/>
+    <text x="72" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#115e59" text-anchor="middle">BEYOND SNACK</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="73" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">PURE COCONUT OIL</text>
+    <text x="140" y="92" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#99f6e4" text-anchor="middle">& PINK ROCK SALT</text>
+
+    
+    <!-- Crispy Banana Chip Round Slices -->
+    <circle cx="115" cy="148" r="32" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <circle cx="165" cy="148" r="32" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <circle cx="140" cy="155" r="34" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <!-- Concentric Banana Texture Ring -->
+    <circle cx="140" cy="155" r="16" fill="none" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <circle cx="140" cy="155" r="5" fill="#a16207"/>
+    
+
+    <!-- Feature Badge Pill -->
+    <rect x="25" y="204" width="230" height="22" rx="11" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#0f766e" text-anchor="middle">100% PURE COCONUT OIL • PALM OIL FREE</text>
+  </g>
+</svg>

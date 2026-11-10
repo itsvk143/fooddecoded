@@ -45,15 +45,46 @@ export async function POST(request: NextRequest) {
     }
 
     const normalizedName = body.name.toLowerCase().trim();
+    const classification = body.classification || (
+      body.riskLevel === "avoid" ? "RED" : body.riskLevel === "caution" ? "ORANGE" : "GREEN"
+    );
+    const riskLevel = body.riskLevel || (
+      classification === "RED" ? "avoid" : classification === "ORANGE" ? "caution" : "safe"
+    );
+
     const record: IngredientRecord = {
       name: body.name.trim(),
       normalizedName,
       aliases: Array.isArray(body.aliases)
         ? body.aliases.map((a: string) => a.trim().toLowerCase())
         : (body.aliases || "").split(",").map((a: string) => a.trim().toLowerCase()).filter(Boolean),
+      insNumber: body.insNumber || null,
       category: body.category || "additive",
-      riskLevel: body.riskLevel || "caution",
+      origin: body.origin || "Manufactured / Synthetic",
+      classification,
+      classificationReason: body.classificationReason || body.description || "",
+      riskLevel,
       description: body.description || "",
+      foodFunction: body.foodFunction || "",
+      benefits: Array.isArray(body.benefits)
+        ? body.benefits
+        : (body.benefits || "").split("\n").map((b: string) => b.trim()).filter(Boolean),
+      risks: Array.isArray(body.risks)
+        ? body.risks
+        : (body.risks || "").split("\n").map((r: string) => r.trim()).filter(Boolean),
+      dailyIntake: body.dailyIntake || {
+        recommended: body.recommendedIntake || null,
+        adi: body.adi || null,
+        maximum: body.maximumLimit || null,
+        unit: body.unit || null,
+        basis: body.basis || null,
+        status: body.adi || body.recommendedIntake ? "ESTABLISHED" : "NOT_ESTABLISHED",
+        explanation: body.dailyIntakeExplanation || "No universally established recommended daily intake.",
+      },
+      precautions: Array.isArray(body.precautions)
+        ? body.precautions
+        : (body.precautions || "").split("\n").map((p: string) => p.trim()).filter(Boolean),
+      verdict: body.verdict || "",
       healthConcerns: Array.isArray(body.healthConcerns)
         ? body.healthConcerns
         : (body.healthConcerns || "").split("\n").map((c: string) => c.trim()).filter(Boolean),
@@ -62,8 +93,12 @@ export async function POST(request: NextRequest) {
       isAllergen: Boolean(body.isAllergen),
       allergenType: body.allergenType || "",
       regulatoryStatus: body.regulatoryStatus || "Regulated",
-      createdAt: new Date().toISOString(),
+      evidenceLevel: body.evidenceLevel || "MODERATE",
+      verificationStatus: body.verificationStatus || "VERIFIED",
+      sources: Array.isArray(body.sources) ? body.sources : [],
+      createdAt: body.createdAt || new Date().toISOString(),
       updatedAt: new Date().toISOString(),
+      lastReviewedAt: new Date().toISOString(),
     };
 
     const col = await getCollection<IngredientRecord>("ingredients");

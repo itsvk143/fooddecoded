@@ -1,0 +1,1034 @@
+[
+  {
+    "_id": "6ae2dc8194042f06e45df205",
+    "barcode": "8902579101015",
+    "name": "Appy Classic Still Apple Drink",
+    "brand": "Appy Fizz"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df206",
+    "barcode": "8902579102012",
+    "name": "Appy Fizz Sparkling Apple Juice Drink",
+    "brand": "Appy Fizz"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df207",
+    "barcode": "8902579103019",
+    "name": "B Fizz Malt Flavoured Sparkling Drink",
+    "brand": "B-Fizz"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1fd",
+    "barcode": "8901491102414",
+    "name": "7UP Nimbooz Real Lemon Juice Drink",
+    "brand": "7UP"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1fc",
+    "barcode": "8901491102315",
+    "name": "7UP Lemon-Lime Soda",
+    "brand": "7UP"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df219",
+    "barcode": "8906006450011",
+    "name": "Bovonto Iconic Grape Flavoured Soft Drink",
+    "brand": "Bovonto"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df211",
+    "barcode": "8906017290019",
+    "name": "Bisleri Limonata Sparkling Lime Drink",
+    "brand": "Bisleri"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df213",
+    "barcode": "8906017290033",
+    "name": "Bisleri Fonzo Mango Carbonated Beverage",
+    "brand": "Bisleri"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df216",
+    "barcode": "8904084500024",
+    "name": "Campa Orange Flavoured Soft Drink",
+    "brand": "Campa"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e2",
+    "barcode": "049000028904",
+    "name": "Coca-Cola Classic Original Taste",
+    "brand": "Coca-Cola"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1ea",
+    "barcode": "8901764012211",
+    "name": "Coca-Cola Original Taste",
+    "brand": "Coca-Cola"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df217",
+    "barcode": "8904084500031",
+    "name": "Campa Lemon Crisp Soda",
+    "brand": "Campa"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df215",
+    "barcode": "8904084500017",
+    "name": "Campa Cola The Great Indian Taste",
+    "brand": "Campa"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1fb",
+    "barcode": "8901491102117",
+    "name": "Diet Pepsi Soft Drink",
+    "brand": "Pepsi"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df208",
+    "barcode": "8902080000010",
+    "name": "Duke's Raspberry Flavoured Carbonated Soft Drink",
+    "brand": "Duke's"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f2",
+    "barcode": "8901764071218",
+    "name": "Fanta Orange Flavoured Soft Drink",
+    "brand": "Fanta"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1ec",
+    "barcode": "8901764032219",
+    "name": "Diet Coke",
+    "brand": "Coca-Cola"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1eb",
+    "barcode": "8901764022210",
+    "name": "Coca-Cola Zero Sugar",
+    "brand": "Coca-Cola"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1f1",
+    "barcode": "8901764061219",
+    "name": "Limca Lime & Lemoni",
+    "brand": "Limca"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f3",
+    "barcode": "8901764081217",
+    "name": "Maaza Mango Drink",
+    "brand": "Maaza"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f5",
+    "barcode": "8901764092213",
+    "name": "Minute Maid Guava Juice Drink",
+    "brand": "Minute Maid"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df21a",
+    "barcode": "8906132690013",
+    "name": "Lahori The Original Zeera Spiced Soda",
+    "brand": "Lahori"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df204",
+    "barcode": "8902579100018",
+    "name": "Frooti Fresh 'N' Juicy Mango Drink",
+    "brand": "Frooti"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1fe",
+    "barcode": "8901491102513",
+    "name": "Mountain Dew Citrus Soda",
+    "brand": "Mountain Dew"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df209",
+    "barcode": "8906080600012",
+    "name": "Paper Boat Aamras Mango Fruit Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20c",
+    "barcode": "8906080600043",
+    "name": "Paper Boat Alphonso Aam Real Mango Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1ff",
+    "barcode": "8901491102612",
+    "name": "Mirinda Orange Flavoured Soft Drink",
+    "brand": "Mirinda"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f4",
+    "barcode": "8901764091216",
+    "name": "Minute Maid Pulpy Orange Drink",
+    "brand": "Minute Maid"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20d",
+    "barcode": "8906080600050",
+    "name": "Paper Boat Swing Pulpy Orange Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df210",
+    "barcode": "8906080600081",
+    "name": "Paper Boat Zero Sugar Sparkling Water Lime",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20f",
+    "barcode": "8906080600074",
+    "name": "Paper Boat Swing Mixed Fruit Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20b",
+    "barcode": "8906080600036",
+    "name": "Paper Boat Roasted Raw Aam Panna",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20e",
+    "barcode": "8906080600067",
+    "name": "Paper Boat Swing Yummy Lychee Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f9",
+    "barcode": "8901491102018",
+    "name": "Pepsi Original Taste Cola",
+    "brand": "Pepsi"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f8",
+    "barcode": "8901764103216",
+    "name": "Schweppes Bitter Lemon Flavoured Drink",
+    "brand": "Schweppes"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f7",
+    "barcode": "8901764102219",
+    "name": "Schweppes Ginger Ale Carbonated Drink",
+    "brand": "Schweppes"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1fa",
+    "barcode": "8901491102216",
+    "name": "Pepsi Black Zero Sugar",
+    "brand": "Pepsi"
+  },
+  {
+    "_id": "6ae2dc8294042f06e45df20a",
+    "barcode": "8906080600029",
+    "name": "Paper Boat Zesty Jaljeera Drink",
+    "brand": "Paper Boat"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df218",
+    "barcode": "8906005880017",
+    "name": "Sosyo Heritage Mixed Fruit Cider Soda",
+    "brand": "Sosyo"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1ef",
+    "barcode": "8901764051210",
+    "name": "Sprite",
+    "brand": "Sprite"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1f0",
+    "barcode": "8901764052217",
+    "name": "Sprite Zero Sugar",
+    "brand": "Sprite"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df200",
+    "barcode": "8901491102711",
+    "name": "Slice Thickest Mango Drink",
+    "brand": "Slice"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df1f6",
+    "barcode": "8901764101212",
+    "name": "Schweppes Indian Tonic Water",
+    "brand": "Schweppes"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1ee",
+    "barcode": "8901764042218",
+    "name": "Thums Up Charged",
+    "brand": "Thums Up"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df202",
+    "barcode": "8901491102919",
+    "name": "Tropicana Delight Apple Fruit Beverage",
+    "brand": "Tropicana"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df203",
+    "barcode": "8901491103015",
+    "name": "Tropicana Delight Mixed Fruit Beverage",
+    "brand": "Tropicana"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1ed",
+    "barcode": "8901764041211",
+    "name": "Thums Up",
+    "brand": "Thums Up"
+  },
+  {
+    "_id": "6ae2dc8194042f06e45df201",
+    "barcode": "8901491102810",
+    "name": "Sting Energy Drink - Sweet Berry",
+    "brand": "Sting"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210df",
+    "barcode": "016000275270",
+    "name": "Cheerios Whole Grain Oat Cereal",
+    "brand": "General Mills"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e0",
+    "barcode": "038000391187",
+    "name": "Froot Loops Marshmallows Cereal",
+    "brand": "Kellogg's"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e6",
+    "barcode": "894700010045",
+    "name": "Non-Fat Plain Greek Yogurt",
+    "brand": "Chobani"
+  },
+  {
+    "_id": "6ad9b7ab7da04dbe409210e7",
+    "barcode": "025293600270",
+    "name": "Organic Unsweetened Soymilk",
+    "brand": "Silk"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e1",
+    "barcode": "7394376616532",
+    "name": "Barista Edition Oat Milk",
+    "brand": "Oatly"
+  },
+  {
+    "_id": "6ad9c8887da04dbe40921d60",
+    "barcode": "014100078020",
+    "name": "Dark Chocolate Chunk Crispy Cookies",
+    "brand": "Pepperidge Farm"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b0",
+    "barcode": "8906064700950",
+    "name": "Authentic Kozhikode Banana Chips in Pure Coconut Oil",
+    "brand": "Kozhikoden's"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1bb",
+    "barcode": "8904067709543",
+    "name": "Banana Chips Black Pepper (Sendha Namak)",
+    "brand": "Jabsons"
+  },
+  {
+    "_id": "6ad9b7ab7da04dbe409210e9",
+    "barcode": "076808516086",
+    "name": "Whole Grain Spaghetti Pasta",
+    "brand": "Barilla"
+  },
+  {
+    "_id": "6ad9b7ab7da04dbe409210e8",
+    "barcode": "042272005085",
+    "name": "Organic Lentil Vegetable Soup",
+    "brand": "Amy's Kitchen"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b5",
+    "barcode": "8906010500153",
+    "name": "Banana Wafers Mast Mari (Black Pepper)",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b6",
+    "barcode": "8906010500177",
+    "name": "Banana Wafers Mast Masala",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b4",
+    "barcode": "8906010504441",
+    "name": "Banana Wafers Simply Salted",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a7",
+    "barcode": "8904123534256",
+    "name": "Banana Jaggery Chips (Sarkara Upperi)",
+    "brand": "A1 Chips"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1ba",
+    "barcode": "8904067709529",
+    "name": "Banana Chips Classic Salted (Sendha Namak)",
+    "brand": "Jabsons"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1bd",
+    "barcode": "8906169990980",
+    "name": "Kerala Nendran Banana Chips (Pure Coconut Oil)",
+    "brand": "Sweet Karam Coffee"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1bc",
+    "barcode": "8906169990973",
+    "name": "Kerala Ripe Banana Chips (Naturally Sweet - Rice Bran Oil)",
+    "brand": "Sweet Karam Coffee"
+  },
+  {
+    "_id": "6ad9c8887da04dbe40921d61",
+    "barcode": "8906001230456",
+    "name": "Kerala Traditional Coconut Oil Banana Chips",
+    "brand": "A1 Chips"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1ae",
+    "barcode": "8908023145222",
+    "name": "Hot & Sweet Chilli Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b3",
+    "barcode": "8904004408874",
+    "name": "Black Pepper Banana Chips (Mari Wafers)",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a8",
+    "barcode": "8904123534072",
+    "name": "Pepper Masala Banana Chips",
+    "brand": "A1 Chips"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1aa",
+    "barcode": "8908023145024",
+    "name": "Peri Peri Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1ad",
+    "barcode": "8908023145284",
+    "name": "Pure Coconut Oil & Rock Salt Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a9",
+    "barcode": "8908023145062",
+    "name": "Original Style Salted Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1b8",
+    "barcode": "8904071700031",
+    "name": "Long Masala Banana Chips",
+    "brand": "Chheda's"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1af",
+    "barcode": "8904011506723",
+    "name": "Sharkara Upperi (Sarkkara Varatti Jaggery Banana Chips)",
+    "brand": "Double Horse"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1ab",
+    "barcode": "8908023145031",
+    "name": "Sour Cream Onion & Parsley Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1be",
+    "barcode": "8908019517118",
+    "name": "South Indian Salted Banana Chips (Rice Bran Oil)",
+    "brand": "VS Mani & Co."
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b1",
+    "barcode": "8904063200525",
+    "name": "Salted Banana Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1ac",
+    "barcode": "8908023145017",
+    "name": "Salt & Black Pepper Kerala Banana Chips",
+    "brand": "Beyond Snack"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b7",
+    "barcode": "8904071704527",
+    "name": "Yellow Rock Salt Banana Chips (Farali / Upwas)",
+    "brand": "Chheda's"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df188",
+    "barcode": "8901928983004",
+    "name": "Bisk Farm Sugar Free Marie Biscuit",
+    "brand": "Bisk Farm"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df186",
+    "barcode": "8901063139466",
+    "name": "Britannia Bourbon The Original Chocolate Biscuit",
+    "brand": "Britannia"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1b9",
+    "barcode": "8904071704565",
+    "name": "Tangy Tomato Banana Chips",
+    "brand": "Chheda's"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1b2",
+    "barcode": "8904063200532",
+    "name": "Spicy Masala Banana Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df187",
+    "barcode": "8906078260181",
+    "name": "Cremica Marie Classic Biscuit",
+    "brand": "Cremica"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df17e",
+    "barcode": "8906033740475",
+    "name": "McVitie's Digestive Wholewheat Biscuits",
+    "brand": "McVitie's"
+  },
+  {
+    "_id": "6ad9c8887da04dbe40921d5f",
+    "barcode": "8901063013862",
+    "name": "NutriChoice Digestive High Fibre Biscuit",
+    "brand": "Britannia"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df17f",
+    "barcode": "7622202348846",
+    "name": "Cadbury Oreo Original Vanilla Creme Biscuit",
+    "brand": "Oreo"
+  },
+  {
+    "_id": "6ae2dc7a94042f06e45df17c",
+    "barcode": "8901063162723",
+    "name": "Britannia Marie Gold Biscuit",
+    "brand": "Britannia"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df183",
+    "barcode": "8906032018513",
+    "name": "Patanjali Doodh Biscuit",
+    "brand": "Patanjali"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df181",
+    "barcode": "8908006217038",
+    "name": "Slurrp Farm Ragi Chocolate Cookies",
+    "brand": "Slurrp Farm"
+  },
+  {
+    "_id": "6ae2dc7a94042f06e45df17d",
+    "barcode": "8909081005046",
+    "name": "Sunfeast Dark Fantasy Choco Fills Biscuit",
+    "brand": "Sunfeast"
+  },
+  {
+    "_id": "6ae2dc7a94042f06e45df17b",
+    "barcode": "8901719101007",
+    "name": "Parle-G Original Gluco Biscuit",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df185",
+    "barcode": "8901719121432",
+    "name": "Parle Monaco Salted Classic Biscuit",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df182",
+    "barcode": "8904335604198",
+    "name": "Yoga Bar Protein Cookie Cookies & Cream",
+    "brand": "Yoga Bar"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1da",
+    "barcode": "8906010500535",
+    "name": "Balaji Wafers Chaat Chaska Wafers",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1db",
+    "barcode": "8906010500870",
+    "name": "Balaji Wafers Crunchex Cream & Onion",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df180",
+    "barcode": "8906009079165",
+    "name": "Unibic Choco Chip Cookies",
+    "brand": "Unibic"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df184",
+    "barcode": "8901725002206",
+    "name": "Sunfeast Farmlite Digestive High Fibre Biscuit",
+    "brand": "Sunfeast"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1ca",
+    "barcode": "8901725119829",
+    "name": "Bingo! Hashtags Spicy Masala Potato Chips",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19b",
+    "barcode": "8901725013691",
+    "name": "Bingo! Mad Angles Achaari Masti",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d8",
+    "barcode": "8906010500016",
+    "name": "Balaji Wafers Simply Salted Potato Wafers",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19a",
+    "barcode": "8906010502607",
+    "name": "Balaji Wafers Masala Masti Wafers",
+    "brand": "Balaji Wafers"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c9",
+    "barcode": "8901725007102",
+    "name": "Bingo! Original Style Chilli Sprinkled Potato Chips",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df1a3",
+    "barcode": "8908001017893",
+    "name": "Cornitos Nacho Crisps Cheese & Herbs",
+    "brand": "Cornitos"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c6",
+    "barcode": "8901725198411",
+    "name": "Bingo! Mad Angles Chaat Masti",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c8",
+    "barcode": "8901725007447",
+    "name": "Bingo! Original Style Salted Potato Chips",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c7",
+    "barcode": "8901725013714",
+    "name": "Bingo! Mad Angles Very Peri Peri",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e9",
+    "barcode": "8908001017077",
+    "name": "Cornitos Nacho Crisps Tikka Masala",
+    "brand": "Cornitos"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e5",
+    "barcode": "028400043809",
+    "name": "Doritos Nacho Cheese Flavored Tortilla Chips",
+    "brand": "Doritos"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e6",
+    "barcode": "8901491003025",
+    "name": "Doritos Sizzlin' Hot Tortilla Chips",
+    "brand": "Doritos"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e7",
+    "barcode": "8908001017053",
+    "name": "Cornitos Nacho Crisps Sizzlin Jalapeno",
+    "brand": "Cornitos"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e8",
+    "barcode": "8908001017183",
+    "name": "Cornitos Nacho Crisps Peri Peri",
+    "brand": "Cornitos"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1dc",
+    "barcode": "8904063258434",
+    "name": "Haldiram's Classic Salted Potato Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1dd",
+    "barcode": "8904063201157",
+    "name": "Haldiram's Pudina Treat Potato Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1df",
+    "barcode": "8904063201355",
+    "name": "Haldiram's Tangy Tomato Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1de",
+    "barcode": "8904063219664",
+    "name": "Haldiram's Aloo Masala Chips",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e5",
+    "barcode": "8901491100083",
+    "name": "Doritos Sweet Chilli Flavored Tortilla Chips",
+    "brand": "Doritos"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1bf",
+    "barcode": "8901491101837",
+    "name": "Lay's Classic Salted Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df193",
+    "barcode": "8901491101844",
+    "name": "Lay's India's Magic Masala Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c3",
+    "barcode": "8901491100281",
+    "name": "Lay's Sizzling Hot Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c2",
+    "barcode": "8901491981538",
+    "name": "Lay's Chile Limon Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df194",
+    "barcode": "8901491100250",
+    "name": "Lay's American Style Cream & Onion Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e3",
+    "barcode": "8901719111419",
+    "name": "Parle Wafers Masala Masti",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e2",
+    "barcode": "8901719111112",
+    "name": "Parle Wafers Simply Salted",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e4",
+    "barcode": "8901719111310",
+    "name": "Parle Wafers Tangy Tomato",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c1",
+    "barcode": "8901491001816",
+    "name": "Lay's West Indies Hot 'n' Sweet Chilli Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c0",
+    "barcode": "8901491101820",
+    "name": "Lay's Spanish Tomato Tango Potato Chips",
+    "brand": "Lay's"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1cb",
+    "barcode": "8886467124921",
+    "name": "Pringles Original Potato Crisps",
+    "brand": "Pringles"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1cc",
+    "barcode": "8886467122408",
+    "name": "Pringles Sour Cream & Onion Potato Crisps",
+    "brand": "Pringles"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1cf",
+    "barcode": "8886467122446",
+    "name": "Pringles South African Style Peri Peri Potato Crisps",
+    "brand": "Pringles"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1ce",
+    "barcode": "8886467122439",
+    "name": "Pringles Desi Masala Tadka Potato Crisps",
+    "brand": "Pringles"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1cd",
+    "barcode": "8886467116315",
+    "name": "Pringles Cheesy Cheese Potato Crisps",
+    "brand": "Pringles"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d7",
+    "barcode": "8908013524549",
+    "name": "TagZ Foods Popped Potato Chips Masala Trekker",
+    "brand": "TagZ Foods"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d6",
+    "barcode": "8908013524389",
+    "name": "TagZ Foods Popped Potato Chips Salt Trippin'",
+    "brand": "TagZ Foods"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d1",
+    "barcode": "8906090571241",
+    "name": "Too Yumm! Multigrain Chips Dahi Papdi Chaat",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d4",
+    "barcode": "8904132920156",
+    "name": "TagZ Foods Popped Potato Chips Cream & Onion Divin'",
+    "brand": "TagZ Foods"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d5",
+    "barcode": "8908013524563",
+    "name": "TagZ Foods Popped Potato Chips Beer N' Barbeque",
+    "brand": "TagZ Foods"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d3",
+    "barcode": "8906090572835",
+    "name": "Too Yumm! Potato Stix Peri Peri",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c5",
+    "barcode": "8901491405003",
+    "name": "Uncle Chipps Plain Salted Potato Chips",
+    "brand": "Uncle Chipps"
+  },
+  {
+    "_id": "6ae2dc7e94042f06e45df1c4",
+    "barcode": "8901491435109",
+    "name": "Uncle Chipps Spicy Treat Potato Chips",
+    "brand": "Uncle Chipps"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d2",
+    "barcode": "8906090573009",
+    "name": "Too Yumm! Potato Chips Spanish Tomato",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d0",
+    "barcode": "8906090571258",
+    "name": "Too Yumm! Multigrain Chips Tangy Tomato",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e1",
+    "barcode": "8906004560163",
+    "name": "Yellow Diamond Potato Chips Tom-Chi Tangy Tomato",
+    "brand": "Yellow Diamond"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df189",
+    "barcode": "8901063092822",
+    "name": "Britannia Good Day Butter Cookies",
+    "brand": "Britannia"
+  },
+  {
+    "_id": "6ae2dc8094042f06e45df1e0",
+    "barcode": "8906004560682",
+    "name": "Yellow Diamond Potato Chips Plain Salted",
+    "brand": "Yellow Diamond"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a5",
+    "barcode": "8906004563683",
+    "name": "Yellow Diamond Potato Chips Magic Masala",
+    "brand": "Yellow Diamond"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18a",
+    "barcode": "8901063151321",
+    "name": "Britannia Good Day Cashew Cookies",
+    "brand": "Britannia"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df190",
+    "barcode": "8908013328130",
+    "name": "Open Secret Choco Almond Nutty Cookies",
+    "brand": "Open Secret"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df192",
+    "barcode": "8906092421379",
+    "name": "Slurrp Farm Milky Choco Chip Millet Cookies",
+    "brand": "Slurrp Farm"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18f",
+    "barcode": "8906065031138",
+    "name": "Karachi Bakery Famous Fruit Cookies",
+    "brand": "Karachi Bakery"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df191",
+    "barcode": "7622202274176",
+    "name": "Cadbury Chocobakes Choc Filled Cookies",
+    "brand": "Cadbury"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18b",
+    "barcode": "8901719117183",
+    "name": "Parle Hide & Seek Chocolate Chip Cookies",
+    "brand": "Parle"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18d",
+    "barcode": "8906009078014",
+    "name": "Unibic Rich Butter Cookies",
+    "brand": "Unibic"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19e",
+    "barcode": "8901414000827",
+    "name": "Bikano Navratan Mixture",
+    "brand": "Bikano"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df198",
+    "barcode": "8904063216403",
+    "name": "Haldiram's Khatta Meetha Mixture",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18e",
+    "barcode": "8906009077017",
+    "name": "Unibic Fruit & Nut Cookies",
+    "brand": "Unibic"
+  },
+  {
+    "_id": "6ae2dc7b94042f06e45df18c",
+    "barcode": "8901725013899",
+    "name": "Sunfeast Mom's Magic Cashew & Almond Cookies",
+    "brand": "Sunfeast"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19c",
+    "barcode": "8901725118921",
+    "name": "Bingo! Tedhe Medhe Masala Tadka",
+    "brand": "Bingo!"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df196",
+    "barcode": "8904063240187",
+    "name": "Haldiram's Aloo Bhujia",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df197",
+    "barcode": "8904004400455",
+    "name": "Haldiram's Bhujia Sev",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19d",
+    "barcode": "8906005500052",
+    "name": "Bikaji Bikaneri Bhujia",
+    "brand": "Bikaji"
+  },
+  {
+    "_id": "6ad9c8887da04dbe40921d62",
+    "barcode": "8904063201452",
+    "name": "Royal All-in-One Spiced Mixture (Namkeen)",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df19f",
+    "barcode": "8906090579346",
+    "name": "Too Yumm! Karare Munchy Masala",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e4",
+    "barcode": "858882001007",
+    "name": "Classic Natural Peanut Butter",
+    "brand": "Justin's"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a4",
+    "barcode": "8901512562609",
+    "name": "ACT II Classic Salted Popcorn",
+    "brand": "ACT II"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df195",
+    "barcode": "8901491361026",
+    "name": "Kurkure Masala Munch",
+    "brand": "Kurkure"
+  },
+  {
+    "_id": "6ae2dc7d94042f06e45df1a6",
+    "barcode": "8904063200464",
+    "name": "Haldiram's Plain Boondi",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df1a0",
+    "barcode": "8906090577281",
+    "name": "Too Yumm! Veggie Stix Sour Cream & Onion",
+    "brand": "Too Yumm!"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df1a2",
+    "barcode": "8906112663831",
+    "name": "True Elements 7-in-1 Super Seeds & Nut Mix",
+    "brand": "True Elements"
+  },
+  {
+    "_id": "6ad9b7aa7da04dbe409210e3",
+    "barcode": "8000500179864",
+    "name": "Nutella Hazelnut Spread with Cocoa",
+    "brand": "Ferrero"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df199",
+    "barcode": "8904004403718",
+    "name": "Haldiram's Salted Roasted Moong Dal",
+    "brand": "Haldiram's"
+  },
+  {
+    "_id": "6ae2dc7c94042f06e45df1a1",
+    "barcode": "8906120108126",
+    "name": "Farmley Roasted Peri Peri Makhana",
+    "brand": "Farmley"
+  }
+]

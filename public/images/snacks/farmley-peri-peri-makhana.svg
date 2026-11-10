@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="makhana" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#7c2d12" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#fdba74" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">FARMLEY</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#fef08a" text-anchor="middle">ROASTED MAKHANA</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffedd5" text-anchor="middle" letter-spacing="1">PERI PERI SPICE • OLIVE OIL ROASTED</text>
+
+    <!-- Puffed Makhana (fox nuts) clusters -->
+    <!-- Center puff -->
+    <circle cx="140" cy="142" r="22" fill="url(#makhana)" stroke="#ea580c" stroke-width="1.5"/>
+    <circle cx="112" cy="136" r="18" fill="url(#makhana)" stroke="#ea580c" stroke-width="1.5"/>
+    <circle cx="168" cy="136" r="18" fill="url(#makhana)" stroke="#ea580c" stroke-width="1.5"/>
+    <circle cx="122" cy="162" r="17" fill="url(#makhana)" stroke="#ea580c" stroke-width="1.5"/>
+    <circle cx="158" cy="162" r="17" fill="url(#makhana)" stroke="#ea580c" stroke-width="1.5"/>
+
+    <!-- Peri Peri paprika dusting -->
+    <circle cx="140" cy="136" r="2" fill="#b91c1c"/>
+    <circle cx="146" cy="146" r="2.5" fill="#b91c1c"/>
+    <circle cx="114" cy="132" r="2" fill="#b91c1c"/>
+    <circle cx="166" cy="140" r="2" fill="#b91c1c"/>
+    <circle cx="124" cy="160" r="2" fill="#b91c1c"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#fef08a"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#7c2d12" text-anchor="middle">ROASTED IN OLIVE OIL • ZERO TRANS FAT</text>
+  </g>
+</svg>

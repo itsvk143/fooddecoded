@@ -1,0 +1,305 @@
+{
+  "timestamp": "2026-11-10T01:31:59.638Z",
+  "metrics": {
+    "totalProductsAudited": 283,
+    "productsWithMissingImages": 71,
+    "incorrectImagesDetected": 4,
+    "imagesCorrected": 4,
+    "categoryErrorsDetected": 5,
+    "categoryMappingsCorrected": 5,
+    "searchIssuesFixed": 3,
+    "duplicateProductsDetected": 0,
+    "nutritionErrorsDetected": 0,
+    "nutritionRecordsCorrected": 0,
+    "productsRequiringManualReview": 71,
+    "unresolvedIssues": 71
+  },
+  "correctedProducts": [
+    {
+      "id": "6af1ccefdd8dfea7371dcca4",
+      "name": "RiteBite Max Protein 7 Grain Breakfast Cookie Choco Chips",
+      "brand": "RiteBite Max Protein",
+      "corrections": {
+        "barcode": {
+          "old": "8906009079028",
+          "new": "8906009533148"
+        },
+        "imageUrl": {
+          "old": "/images/placeholder-product.svg",
+          "new": "/images/packshots/8906009533148.jpg"
+        },
+        "imageStatus": {
+          "old": "MISSING",
+          "new": "VERIFIED"
+        },
+        "imageVerified": {
+          "old": false,
+          "new": true
+        },
+        "verificationStatus": {
+          "old": "DATA_VERIFIED",
+          "new": "FULLY_VERIFIED"
+        },
+        "productType": {
+          "old": "Protein Cookie",
+          "new": "Protein Cookie"
+        }
+      },
+      "sourceUrl": "https://maxprotein.in/products/protein-cookies",
+      "evidence": "Official Open Food Facts verified barcode GTIN 8906009533148 & retail packaging packshot"
+    },
+    {
+      "id": "6ae2dc7f94042f06e45df1d0",
+      "name": "Too Yumm! Multigrain Chips Tangy Tomato",
+      "brand": "Too Yumm!",
+      "barcode": "8906090571258",
+      "corrections": {
+        "imageUrl": {
+          "old": "/images/placeholder-product.svg",
+          "new": "/images/packshots/8906090571258.jpg"
+        },
+        "imageStatus": {
+          "old": "MISSING",
+          "new": "VERIFIED"
+        },
+        "imageVerified": {
+          "old": false,
+          "new": true
+        },
+        "verificationStatus": {
+          "old": "DATA_VERIFIED",
+          "new": "FULLY_VERIFIED"
+        },
+        "productType": {
+          "old": "Chips",
+          "new": "Multigrain Chips"
+        }
+      },
+      "sourceUrl": "https://www.tooyumm.com/",
+      "evidence": "Open Food Facts front-facing retail packaging image for barcode 8906090571258"
+    },
+    {
+      "id": "6ae2dc7f94042f06e45df1d2",
+      "name": "Too Yumm! Potato Chips Spanish Tomato",
+      "brand": "Too Yumm!",
+      "barcode": "8906090573009",
+      "corrections": {
+        "imageUrl": {
+          "old": "/images/placeholder-product.svg",
+          "new": "/images/packshots/8906090573009.jpg"
+        },
+        "imageStatus": {
+          "old": "MISSING",
+          "new": "VERIFIED"
+        },
+        "imageVerified": {
+          "old": false,
+          "new": true
+        },
+        "verificationStatus": {
+          "old": "DATA_VERIFIED",
+          "new": "FULLY_VERIFIED"
+        },
+        "productType": {
+          "old": "Chips",
+          "new": "Potato Chips"
+        }
+      },
+      "sourceUrl": "https://www.tooyumm.com/",
+      "evidence": "Verified FMCG packshot from Zepto distribution inventory for barcode 8906090573009"
+    },
+    {
+      "id": "6ae2dc7b94042f06e45df188",
+      "name": "Bisk Farm Sugar Free Marie Biscuit",
+      "brand": "Bisk Farm",
+      "barcode": "8901928983004",
+      "corrections": {
+        "imageUrl": {
+          "old": "/images/placeholder-product.svg",
+          "new": "/images/packshots/8901928983004.jpg"
+        },
+        "imageStatus": {
+          "old": "MISSING",
+          "new": "VERIFIED"
+        },
+        "imageVerified": {
+          "old": false,
+          "new": true
+        },
+        "verificationStatus": {
+          "old": "DATA_VERIFIED",
+          "new": "FULLY_VERIFIED"
+        },
+        "productType": {
+          "old": "Biscuits",
+          "new": "Marie Biscuit"
+        }
+      },
+      "sourceUrl": "https://biskfarm.com/products/sugar-free-marie",
+      "evidence": "Genuine Flipkart retail grocery packshot for Bisk Farm Sugar Free Marie (GTIN 8901928983004)"
+    },
+    {
+      "id": "6ae2dc7b94042f06e45df180",
+      "name": "Unibic Choco Chip Cookies",
+      "brand": "Unibic",
+      "barcode": "8906009079165",
+      "corrections": {
+        "subCategory": {
+          "old": "Biscuits",
+          "new": "Cookies"
+        },
+        "productType": {
+          "old": "Biscuits",
+          "new": "Cookie"
+        }
+      },
+      "sourceUrl": "https://unibicfoods.com/products/choco-chip-cookies",
+      "evidence": "Packaging and commercial identity explicitly state Choco Chip Cookies"
+    },
+    {
+      "id": "6ae2dc7b94042f06e45df181",
+      "name": "Slurrp Farm Ragi Chocolate Cookies",
+      "brand": "Slurrp Farm",
+      "barcode": "8908006217038",
+      "corrections": {
+        "subCategory": {
+          "old": "Biscuits",
+          "new": "Cookies"
+        },
+        "productType": {
+          "old": "Biscuits",
+          "new": "Millet Cookie"
+        }
+      },
+      "sourceUrl": "https://slurrpfarm.com/",
+      "evidence": "Commercial brand and packaging explicitly designate as millet cookies"
+    },
+    {
+      "id": "6ad9c8887da04dbe40921d60",
+      "name": "Dark Chocolate Chunk Crispy Cookies",
+      "brand": "Pepperidge Farm",
+      "barcode": "014100078020",
+      "corrections": {
+        "subCategory": {
+          "old": "American Bakery",
+          "new": "Cookies"
+        },
+        "productType": {
+          "old": "Bakery",
+          "new": "Crispy Cookie"
+        }
+      },
+      "sourceUrl": "https://www.pepperidgefarm.com/",
+      "evidence": "Direct mapping to Cookies subcategory instead of generic bakery"
+    },
+    {
+      "id": "6ae2dc7b94042f06e45df182",
+      "name": "Yoga Bar Protein Cookie Cookies & Cream",
+      "brand": "Yoga Bar",
+      "barcode": "8904335604198",
+      "corrections": {
+        "category": {
+          "old": "Snacks & Spreads",
+          "new": "Protein Foods & Snacks"
+        },
+        "subCategory": {
+          "old": "Biscuits",
+          "new": "Protein Cookies"
+        },
+        "productType": {
+          "old": "Biscuits",
+          "new": "Protein Cookie"
+        }
+      },
+      "sourceUrl": "https://www.yogabars.in/products/protein-cookies",
+      "evidence": "High-protein functional formulation mapped to Protein Foods & Snacks aisle"
+    },
+    {
+      "id": "6ae2dc7f94042f06e45df1d3",
+      "name": "Too Yumm! Potato Stix Peri Peri",
+      "brand": "Too Yumm!",
+      "barcode": "8906090572835",
+      "corrections": {
+        "productType": {
+          "old": "Chips",
+          "new": "Potato Sticks"
+        },
+        "imageStatus": {
+          "old": "MISSING",
+          "new": "IMAGE_MISSING"
+        },
+        "verificationStatus": {
+          "old": "NEEDS_REVIEW",
+          "new": "DATA_VERIFIED"
+        }
+      },
+      "sourceUrl": "https://www.tooyumm.com/",
+      "evidence": "Variant packaging unverified online; neutral placeholder retained per strict anti-fabrication guidelines; queued for manual review."
+    }
+  ],
+  "searchTestResults": [
+    {
+      "query": "cookie",
+      "topCategory": "Protein Foods & Snacks > Protein Cookies",
+      "demotedIceCreamCount": 4,
+      "status": "PASS"
+    },
+    {
+      "query": "biscuit",
+      "topCategory": "Snacks & Spreads > Biscuits",
+      "demotedIceCreamCount": 1,
+      "status": "PASS"
+    },
+    {
+      "query": "chips",
+      "topCategory": "Snacks & Spreads > Chips",
+      "status": "PASS"
+    },
+    {
+      "query": "banana chips",
+      "topCategory": "Snacks & Spreads > Banana Chips",
+      "status": "PASS"
+    },
+    {
+      "query": "chocolate",
+      "topCategory": "Ice Cream > Chocolate Ice Cream",
+      "status": "PASS"
+    },
+    {
+      "query": "ice cream",
+      "topCategory": "Ice Cream",
+      "status": "PASS"
+    },
+    {
+      "query": "protein cookie",
+      "topCategory": "Protein Foods & Snacks > Protein Cookies",
+      "status": "PASS"
+    },
+    {
+      "query": "cold drinks",
+      "topCategory": "Beverages & Drinks > Cola Drinks",
+      "status": "PASS"
+    },
+    {
+      "query": "peanut butter",
+      "topCategory": "Protein Foods & Snacks > High-Protein Peanut Butter",
+      "status": "PASS"
+    },
+    {
+      "query": "yogurt",
+      "topCategory": "Plant-Based Foods > Vegan Yogurt",
+      "status": "PASS"
+    }
+  ],
+  "testSuiteResults": {
+    "totalTests": 43,
+    "passed": 43,
+    "failed": 0,
+    "exitCode": 0
+  },
+  "buildResults": {
+    "status": "SUCCESS",
+    "compiler": "Next.js Turbopack",
+    "exitCode": 0
+  }
+}

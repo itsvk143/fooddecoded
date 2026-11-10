@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8db"/>
+      <stop offset="100%" stop-color="#f6df94"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff4cc"/>
+      <stop offset="35%" stop-color="#ffe270"/>
+      <stop offset="70%" stop-color="#fec524"/>
+      <stop offset="100%" stop-color="#e8a806"/>
+    </linearGradient>
+    <linearGradient id="redStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d61f26"/>
+      <stop offset="100%" stop-color="#b00e14"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#b07d10" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Biscuit Pack Graphic -->
+  <g filter="url(#shadow)" transform="translate(60, 80)">
+    <!-- Main wrapper -->
+    <rect x="0" y="0" width="280" height="230" rx="18" fill="url(#pack)" stroke="#e49e00" stroke-width="2"/>
+    
+    <!-- Red Top Band -->
+    <path d="M 0 18 Q 0 0 18 0 L 262 0 Q 280 0 280 18 L 280 62 L 0 62 Z" fill="url(#redStripe)"/>
+    <text x="140" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">PARLE-G</text>
+    
+    <!-- White Inner Label -->
+    <rect x="22" y="76" width="236" height="132" rx="10" fill="#ffffff" opacity="0.94"/>
+    
+    <!-- Wheat emblem -->
+    <circle cx="80" cy="142" r="38" fill="#fdeec2" stroke="#e0ad16" stroke-width="2"/>
+    <text x="80" y="152" font-family="system-ui, sans-serif" font-size="34" text-anchor="middle">🌾</text>
+    
+    <!-- Biscuit Description -->
+    <text x="180" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#9b1b1f" text-anchor="middle">ORIGINAL</text>
+    <text x="180" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#242124" text-anchor="middle">GLUCO</text>
+    <text x="180" y="172" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#b07d10" text-anchor="middle">BISCUITS</text>
+    <rect x="135" y="184" width="90" height="16" rx="8" fill="#d61f26"/>
+    <text x="180" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">G FOR GENIUS</text>
+  </g>
+
+  <!-- Verified Badge Overlay -->
+  <g transform="translate(30, 30)">
+    <rect width="115" height="26" rx="13" fill="#15803d" opacity="0.95"/>
+    <text x="57" y="17" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">VERIFIED 100g</text>
+  </g>
+</svg>

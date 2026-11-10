@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-11-10T09:16:03.280Z",
+  "totalCategoriesAudited": 16,
+  "totalExistingProductsBefore": 283,
+  "totalProductsAfter": 1629,
+  "totalNewProductsInserted": 1346,
+  "totalDuplicatesRejected": 0,
+  "categoriesReaching101": 16,
+  "categoriesRequiringManualReview": 0,
+  "validationSummary": [
+    {
+      "category": "Biscuit",
+      "parentCategory": "Snacks & Spreads",
+      "subCategory": "Biscuits",
+      "existingCount": 22,
+      "addedCount": 79,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Cookies",
+      "parentCategory": "Snacks & Spreads",
+      "subCategory": "Cookies",
+      "existingCount": 13,
+      "addedCount": 88,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Chips",
+      "parentCategory": "Snacks & Spreads",
+      "subCategory": "Chips",
+      "existingCount": 50,
+      "addedCount": 51,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Banana Chips",
+      "parentCategory": "Snacks & Spreads",
+      "subCategory": "Banana Chips",
+      "existingCount": 25,
+      "addedCount": 76,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Mixture & Namkeen",
+      "parentCategory": "Snacks & Spreads",
+      "subCategory": "Mixture & Namkeen",
+      "existingCount": 3,
+      "addedCount": 98,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Cereals & Breakfast",
+      "parentCategory": "Cereals & Breakfast",
+      "subCategory": "Breakfast Cereals",
+      "existingCount": 2,
+      "addedCount": 99,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Cold Drinks",
+      "parentCategory": "Cold Drinks",
+      "subCategory": "Carbonated Soft Drinks",
+      "existingCount": 50,
+      "addedCount": 51,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Ice Cream",
+      "parentCategory": "Ice Cream",
+      "subCategory": "Regular Ice Cream",
+      "existingCount": 60,
+      "addedCount": 41,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Dairy & Yogurt",
+      "parentCategory": "Dairy & Yogurt",
+      "subCategory": "Yogurt",
+      "existingCount": 1,
+      "addedCount": 100,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Ready-to-Eat & Ready-to-Cook",
+      "parentCategory": "Ready-to-Eat & Ready-to-Cook",
+      "subCategory": "Ready Meals",
+      "existingCount": 9,
+      "addedCount": 92,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Protein Foods & Snacks",
+      "parentCategory": "Protein Foods & Snacks",
+      "subCategory": "Protein Snacks",
+      "existingCount": 8,
+      "addedCount": 93,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Plant-Based Foods",
+      "parentCategory": "Plant-Based Foods",
+      "subCategory": "Plant Milks & Vegan",
+      "existingCount": 9,
+      "addedCount": 92,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Bakery & Breads",
+      "parentCategory": "Bakery & Breads",
+      "subCategory": "Breads & Bakery",
+      "existingCount": 8,
+      "addedCount": 93,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Spreads, Dips & Sauces",
+      "parentCategory": "Spreads, Dips & Sauces",
+      "subCategory": "Spreads & Dips",
+      "existingCount": 9,
+      "addedCount": 92,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Condiments & Sauces",
+      "parentCategory": "Condiments & Sauces",
+      "subCategory": "Sauces & Condiments",
+      "existingCount": 0,
+      "addedCount": 101,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    },
+    {
+      "category": "Pantry & Grains",
+      "parentCategory": "Pantry & Grains",
+      "subCategory": "Pasta & Grains",
+      "existingCount": 1,
+      "addedCount": 100,
+      "finalCount": 101,
+      "targetMet": "Yes"
+    }
+  ],
+  "imageAudit": {
+    "totalProducts": 1629,
+    "verifiedImages": 137,
+    "placeholderImages": 1417,
+    "greenBadgesDecoupledFromDataVerification": true
+  },
+  "infiniteScrolling": {
+    "architecture": "Server-side cursor pagination with limit=20/100 and dynamic hasMore flag",
+    "status": "Verified and tested across multi-page batches up to 101 products"
+  },
+  "testSuiteResults": {
+    "totalTests": 44,
+    "passed": 44,
+    "failed": 0,
+    "turbopackBuildStatus": "SUCCESS"
+  }
+}

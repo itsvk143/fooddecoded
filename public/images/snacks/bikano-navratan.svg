@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#166534"/>
+      <stop offset="50%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#14532d" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#facc15" stroke-width="2.5"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#facc15" text-anchor="middle" letter-spacing="3">BIKANO</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">NAVRATAN MIXTURE</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#bbf7d0" text-anchor="middle" letter-spacing="1">9 DELICIOUS INGREDIENTS</text>
+
+    <!-- Navratan 9-gem mixture illustration: lentils, chana dal, peanuts, potato chips, green peas, sev -->
+    <ellipse cx="140" cy="148" rx="60" ry="34" fill="#ca8a04" opacity="0.4"/>
+
+    <!-- Peanuts -->
+    <ellipse cx="120" cy="138" rx="6" ry="10" transform="rotate(30 120 138)" fill="#b45309"/>
+    <ellipse cx="160" cy="150" rx="6" ry="10" transform="rotate(-20 160 150)" fill="#b45309"/>
+    <!-- Green Peas -->
+    <circle cx="140" cy="132" r="5" fill="#15803d"/>
+    <circle cx="168" cy="135" r="4.5" fill="#15803d"/>
+    <circle cx="110" cy="155" r="4.5" fill="#15803d"/>
+    <!-- Yellow Sev strands & potato strips -->
+    <path d="M 125 152 Q 140 142 155 152" stroke="#facc15" stroke-width="2.5" fill="none"/>
+    <path d="M 132 162 Q 145 155 158 162" stroke="#facc15" stroke-width="2" fill="none"/>
+    <rect x="135" y="142" width="16" height="5" rx="1.5" fill="#fef08a" transform="rotate(25 140 145)"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#facc15"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#14532d" text-anchor="middle">LENTILS, NUTS &amp; CRISPY SEV</text>
+  </g>
+</svg>

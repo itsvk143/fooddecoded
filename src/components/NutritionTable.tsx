@@ -7,7 +7,7 @@ import { formatNutrient, cn } from "@/lib/utils";
 
 interface NutritionTableProps {
   nutrition: NutritionInfo;
-  servingSize?: string;
+  servingSize?: string | null;
 }
 
 export function NutritionTable({ nutrition, servingSize = "100g" }: NutritionTableProps) {

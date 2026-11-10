@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "6ae2dc8394042f06e45df212",
+    "barcode": "8906017290026",
+    "name": "Bisleri Pop Orange Carbonated Beverage",
+    "brand": "Bisleri",
+    "offName": "Bisleri Water 250ml",
+    "offBrand": "Bisleri",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/890/601/729/0026/front_en.23.400.jpg"
+  },
+  {
+    "_id": "6ae2dc8394042f06e45df214",
+    "barcode": "8906017290040",
+    "name": "Bisleri Spicy Jeera Soda",
+    "brand": "Bisleri",
+    "offName": "Bisleri 1ltr MADE IN INDIA",
+    "offBrand": "Bisleri",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/890/601/729/0040/front_en.8.400.jpg"
+  },
+  {
+    "_id": "6ae2dc7f94042f06e45df1d9",
+    "barcode": "8906010500498",
+    "name": "Balaji Wafers Tomato Twist Wafers",
+    "brand": "Balaji Wafers",
+    "offName": "balaji wafers tomato twist",
+    "offBrand": "",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/890/601/050/0498/front_en.14.400.jpg"
+  }
+]

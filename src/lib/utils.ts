@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function formatNutrient(val?: number, unit: string = "g"): string {
+export function formatNutrient(val?: number | null, unit: string = "g"): string {
   if (val === undefined || val === null) return "--";
   return `${Number(val).toFixed(1).replace(/\.0$/, "")}${unit}`;
 }

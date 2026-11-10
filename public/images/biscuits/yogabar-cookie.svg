@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#cffafe"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="50%" stop-color="#155e75"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#155e75" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#06b6d4" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">YOGA BAR</text>
+    <text x="140" y="60" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#67e8f9" text-anchor="middle">PROTEIN COOKIE</text>
+
+    <!-- Protein badge -->
+    <circle cx="140" cy="125" r="48" fill="#083344" stroke="#22d3ee" stroke-width="3"/>
+    <text x="140" y="122" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#22d3ee" text-anchor="middle">25g</text>
+    <text x="140" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">PROTEIN / 100g</text>
+
+    <text x="140" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">COOKIES &amp; CREAM</text>
+
+    <rect x="30" y="206" width="220" height="22" rx="11" fill="#22d3ee"/>
+    <text x="140" y="221" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900" fill="#083344" text-anchor="middle">HIGH FIBRE · ZERO ADDED SUGAR</text>
+  </g>
+</svg>

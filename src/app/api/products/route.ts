@@ -11,6 +11,7 @@ export async function GET(request: NextRequest) {
 
     const q = searchParams.get("q") || undefined;
     const category = searchParams.get("category") || undefined;
+    const subCategory = searchParams.get("subCategory") || undefined;
     const brand = searchParams.get("brand") || undefined;
     const nutriScore = searchParams.get("nutriScore") || undefined;
     const novaGroup = searchParams.get("novaGroup") ? Number(searchParams.get("novaGroup")) : undefined;
@@ -26,11 +27,12 @@ export async function GET(request: NextRequest) {
     const sortBy = (searchParams.get("sortBy") as any) || "recent";
     const sortOrder = (searchParams.get("sortOrder") as any) || "desc";
     const page = searchParams.get("page") ? parseInt(searchParams.get("page")!, 10) : 1;
-    const limit = searchParams.get("limit") ? parseInt(searchParams.get("limit")!, 10) : 12;
+    const limit = searchParams.get("limit") ? parseInt(searchParams.get("limit")!, 10) : 20;
 
     const result = await queryProducts({
       q,
       category,
+      subCategory,
       brand,
       nutriScore,
       novaGroup,

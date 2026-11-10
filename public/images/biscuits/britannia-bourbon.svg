@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="100%" stop-color="#fce7f3"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="50%" stop-color="#9d174d"/>
+      <stop offset="100%" stop-color="#500724"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#9d174d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#f472b6" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">BRITANNIA</text>
+    <text x="140" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#fbcfe8" text-anchor="middle" letter-spacing="2">BOURBON</text>
+    <text x="140" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">THE ORIGINAL CHOCOLATE BISCUIT</text>
+
+    <!-- Chocolate sandwich biscuit -->
+    <rect x="65" y="105" width="150" height="75" rx="10" fill="#381b16" stroke="#f472b6" stroke-width="1.5"/>
+    <rect x="75" y="135" width="130" height="15" fill="#1f0e0b"/>
+    <!-- Sugar crystals -->
+    <circle cx="85" cy="120" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="115" cy="122" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="145" cy="118" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="175" cy="122" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="195" cy="120" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="100" cy="160" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="130" cy="162" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="160" cy="158" r="2.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="185" cy="162" r="2.5" fill="#ffffff" opacity="0.9"/>
+
+    <rect x="35" y="206" width="210" height="20" rx="10" fill="#ffffff"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900" fill="#831843" text-anchor="middle">RICH CHOCOLATE CREME &amp; SUGAR CRYSTALS</text>
+  </g>
+</svg>

@@ -1,0 +1,542 @@
+[
+  {
+    "barcode": "8901262175814",
+    "name": "Amul Real Ice Cream Vanilla Magic",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175814.webp",
+    "bytes": 33264,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005429_4-amul-real-ice-cream-vanilla-magic.jpg"
+  },
+  {
+    "barcode": "8901648011019",
+    "name": "Mother Dairy Classic Vanilla Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011019.webp",
+    "bytes": 24764,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125747_5-mother-dairy-ice-cream-vanilla.jpg"
+  },
+  {
+    "barcode": "8901030922848",
+    "name": "Kwality Wall's Creamy Vanilla Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922848.webp",
+    "bytes": 45386,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182601_4-kwality-walls-creamy-vanilla-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8901777100011",
+    "name": "Vadilal Rich Vanilla Ice Cream",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100011.webp",
+    "bytes": 21546,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005452_1-vadilal-ice-cream-rich-vanilla.jpg"
+  },
+  {
+    "barcode": "8904077700011",
+    "name": "Havmor Pure Vanilla Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700011.webp",
+    "bytes": 78938,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005470_1-havmor-ice-cream-pure-vanilla.jpg"
+  },
+  {
+    "barcode": "8901262175821",
+    "name": "Amul Real Chocolate Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175821.webp",
+    "bytes": 39914,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005432_1-amul-ice-cream-real-chocolate.jpg"
+  },
+  {
+    "barcode": "8901648011026",
+    "name": "Mother Dairy Ultimate Chocolate Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011026.webp",
+    "bytes": 24868,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125752_1-mother-dairy-ice-cream-ultimate-chocolate.jpg"
+  },
+  {
+    "barcode": "8901030922855",
+    "name": "Kwality Wall's Chocolate Temptation Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922855.webp",
+    "bytes": 43718,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182604_4-kwality-walls-chocolate-temptation-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8904077700028",
+    "name": "Havmor Dark Chocolate Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700028.webp",
+    "bytes": 65724,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005473_1-havmor-ice-cream-dark-chocolate.jpg"
+  },
+  {
+    "barcode": "8901777100028",
+    "name": "Vadilal Gourmet Deep Dark Chocolate",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100028.webp",
+    "bytes": 27614,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192811_1-vadilal-ice-cream-gourmet-deep-dark-chocolate.jpg"
+  },
+  {
+    "barcode": "8906006850019",
+    "name": "Baskin Robbins Chocolate Ribbon Ice Cream",
+    "brand": "Baskin Robbins",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906006850019.webp",
+    "bytes": 36336,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005481_1-baskin-robbins-ice-cream-chocolate-ribbon.jpg"
+  },
+  {
+    "barcode": "6291003112015",
+    "name": "London Dairy Double Chocolate Premium Ice Cream",
+    "brand": "London Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/6291003112015.webp",
+    "bytes": 15764,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005495_1-london-dairy-premium-ice-cream-double-chocolate.jpg"
+  },
+  {
+    "barcode": "8901262175838",
+    "name": "Amul Butterscotch Bliss Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175838.webp",
+    "bytes": 54634,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005430_1-amul-ice-cream-butterscotch-bliss.jpg"
+  },
+  {
+    "barcode": "8901648011033",
+    "name": "Mother Dairy Classic Butterscotch Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011033.webp",
+    "bytes": 30440,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125749_2-mother-dairy-ice-cream-butterscotch.jpg"
+  },
+  {
+    "barcode": "8901030922862",
+    "name": "Kwality Wall's Butterscotch Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922862.webp",
+    "bytes": 44630,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182602_2-kwality-walls-butterscotch-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8901777100035",
+    "name": "Vadilal Butterscotch Ice Cream",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100035.webp",
+    "bytes": 30478,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005454_1-vadilal-ice-cream-butterscotch.jpg"
+  },
+  {
+    "barcode": "8904077700035",
+    "name": "Havmor Crunchy Butterscotch Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700035.webp",
+    "bytes": 61486,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005471_1-havmor-ice-cream-crunchy-butterscotch.jpg"
+  },
+  {
+    "barcode": "8901262175845",
+    "name": "Amul Fresh Strawberry Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175845.webp",
+    "bytes": 40946,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005431_4-amul-ice-cream-strawberry.jpg"
+  },
+  {
+    "barcode": "8901648011040",
+    "name": "Mother Dairy Strawberry Delight Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011040.webp",
+    "bytes": 33234,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125748_2-mother-dairy-ice-cream-strawberry.jpg"
+  },
+  {
+    "barcode": "8901030922879",
+    "name": "Kwality Wall's Creamy Strawberry Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922879.webp",
+    "bytes": 62988,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182603_4-kwality-walls-creamy-strawberry-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8901777100042",
+    "name": "Vadilal Strawberry Ice Cream",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100042.webp",
+    "bytes": 20068,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005453_2-vadilal-ice-cream-strawberry.jpg"
+  },
+  {
+    "barcode": "8901262175852",
+    "name": "Amul Alphonso Mango Real Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175852.webp",
+    "bytes": 23646,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005434_1-amul-ice-cream-alphonso-mango.jpg"
+  },
+  {
+    "barcode": "8901648011057",
+    "name": "Mother Dairy Alphonso Mango Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011057.webp",
+    "bytes": 37926,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125750_2-mother-dairy-ice-cream-alphonso-mango.jpg"
+  },
+  {
+    "barcode": "8901030922886",
+    "name": "Kwality Wall's Alphonso Mango Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922886.webp",
+    "bytes": 25522,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182605_4-kwality-walls-alphonso-mango-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8906105820012",
+    "name": "NIC Honestly Crafted Alphonso Mango Ice Cream",
+    "brand": "NIC Ice Creams",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906105820012.webp",
+    "bytes": 31870,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209425_2-nic-honestly-crafted-ice-creams-alphonso-mango.jpg"
+  },
+  {
+    "barcode": "8901262175869",
+    "name": "Amul Shahi Kesar Pista Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175869.webp",
+    "bytes": 18106,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005433_1-amul-ice-cream-shahi-kesar-pista.jpg"
+  },
+  {
+    "barcode": "8901648011064",
+    "name": "Mother Dairy Kesar Pista Ice Cream",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011064.webp",
+    "bytes": 27696,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125751_2-mother-dairy-ice-cream-kesar-pista.jpg"
+  },
+  {
+    "barcode": "8901030922893",
+    "name": "Kwality Wall's Shahi Kesar Pista Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922893.webp",
+    "bytes": 29856,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182606_4-kwality-walls-shahi-kesar-pista-frozen-dessert.jpg"
+  },
+  {
+    "barcode": "8901777100059",
+    "name": "Vadilal Kesar Pista Royal Ice Cream",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100059.webp",
+    "bytes": 16210,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005455_1-vadilal-ice-cream-kesar-pista.jpg"
+  },
+  {
+    "barcode": "8904077700042",
+    "name": "Havmor Kesar Pista Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700042.webp",
+    "bytes": 74728,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005472_1-a.jpg"
+  },
+  {
+    "barcode": "8901030922909",
+    "name": "Kwality Wall's Oreo Cookies & Cream Frozen Dessert",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922909.webp",
+    "bytes": 21462,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40200832_2-a.jpg"
+  },
+  {
+    "barcode": "8906006850026",
+    "name": "Baskin Robbins Oreo Cookies 'N Cream Ice Cream",
+    "brand": "Baskin Robbins",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906006850026.webp",
+    "bytes": 30640,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005483_1-baskin-robbins-ice-cream-cookies-n-cream.jpg"
+  },
+  {
+    "barcode": "8904077700059",
+    "name": "Havmor Cookies & Cream Ice Cream",
+    "brand": "Havmor",
+    "status": "MISSING",
+    "localPath": "/images/placeholder-product.svg",
+    "bytes": 0,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192807_2-havmor-ice-cream-cookie-cream.jpg"
+  },
+  {
+    "barcode": "8906105820029",
+    "name": "NIC Honestly Crafted Cookies & Cream Ice Cream",
+    "brand": "NIC Ice Creams",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906105820029.webp",
+    "bytes": 34614,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209428_3-nic-honestly-crafted-ice-creams-cookies-cream.jpg"
+  },
+  {
+    "barcode": "8901030922916",
+    "name": "Kwality Wall's Magnum Classic Belgian Chocolate Stick",
+    "brand": "Magnum",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922916.webp",
+    "bytes": 48056,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005477_1-magnum-ice-cream-classic.jpg"
+  },
+  {
+    "barcode": "8901030922923",
+    "name": "Kwality Wall's Magnum Almond Belgian Chocolate Stick",
+    "brand": "Magnum",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922923.webp",
+    "bytes": 45582,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005478_1-magnum-ice-cream-almond.jpg"
+  },
+  {
+    "barcode": "8901777100066",
+    "name": "Vadilal Gourmet Belgian Chocolate Ice Cream",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100066.webp",
+    "bytes": 26894,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192812_1-vadilal-ice-cream-gourmet-belgian-chocolate.jpg"
+  },
+  {
+    "barcode": "074570084004",
+    "name": "Haagen-Dazs Belgian Chocolate Ice Cream",
+    "brand": "Haagen-Dazs",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/074570084004.webp",
+    "bytes": 52468,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005490_1-haagen-dazs-ice-cream-belgian-chocolate.jpg"
+  },
+  {
+    "barcode": "6291003112022",
+    "name": "London Dairy Belgian Chocolate Praline Ice Cream",
+    "brand": "London Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/6291003112022.webp",
+    "bytes": 20658,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005497_1-london-dairy-premium-ice-cream-praline-cream.jpg"
+  },
+  {
+    "barcode": "8908007250014",
+    "name": "Naturals Tender Coconut Ice Cream",
+    "brand": "Naturals",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8908007250014.webp",
+    "bytes": 12948,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209420_3-natural-ice-cream-tender-coconut.jpg"
+  },
+  {
+    "barcode": "8908007250021",
+    "name": "Naturals Roasted Almond Ice Cream",
+    "brand": "Naturals",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8908007250021.webp",
+    "bytes": 10488,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209421_2-natural-ice-cream-roasted-almond.jpg"
+  },
+  {
+    "barcode": "8906105820036",
+    "name": "NIC Honestly Crafted Tender Coconut Ice Cream",
+    "brand": "NIC Ice Creams",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906105820036.webp",
+    "bytes": 31436,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209426_2-nic-honestly-crafted-ice-creams-tender-coconut.jpg"
+  },
+  {
+    "barcode": "8906105820043",
+    "name": "NIC Honestly Crafted Sitaphal Custard Apple Ice Cream",
+    "brand": "NIC Ice Creams",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906105820043.webp",
+    "bytes": 28384,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40209427_2-nic-honestly-crafted-ice-creams-sitaphal.jpg"
+  },
+  {
+    "barcode": "8904077700066",
+    "name": "Havmor Wild Berry Blast Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700066.webp",
+    "bytes": 28738,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192809_1-havmor-ice-cream-wild-berry.jpg"
+  },
+  {
+    "barcode": "8901262175876",
+    "name": "Amul Kulfi Rajbhog Stick",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175876.webp",
+    "bytes": 25432,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005435_1-amul-kulfi-rajbhog.jpg"
+  },
+  {
+    "barcode": "8901648011071",
+    "name": "Mother Dairy Classic Malai Kulfi Stick",
+    "brand": "Mother Dairy",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901648011071.webp",
+    "bytes": 30596,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40125753_2-mother-dairy-kulfi-malai.jpg"
+  },
+  {
+    "barcode": "8901030922930",
+    "name": "Kwality Wall's Kulfi Pista Stick",
+    "brand": "Kwality Wall's",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901030922930.webp",
+    "bytes": 52586,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40182607_3-kwality-walls-kulfi-pista.jpg"
+  },
+  {
+    "barcode": "8901777100073",
+    "name": "Vadilal Matka Kulfi",
+    "brand": "Vadilal",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901777100073.webp",
+    "bytes": 24852,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005456_1-vadilal-kulfi-matka.jpg"
+  },
+  {
+    "barcode": "8904077700073",
+    "name": "Havmor Pista Malai Kulfi Stick",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700073.webp",
+    "bytes": 28672,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005474_1-havmor-kulfi-pista-malai.jpg"
+  },
+  {
+    "barcode": "8901262175883",
+    "name": "Amul Sugar Free Vanilla Delight Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175883.webp",
+    "bytes": 21404,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005436_1-amul-ice-cream-sugar-free-vanilla.jpg"
+  },
+  {
+    "barcode": "8901262175890",
+    "name": "Amul Sugar Free Shahi Anjir Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175890.webp",
+    "bytes": 15616,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005437_1-amul-ice-cream-sugar-free-shahi-anjir.jpg"
+  },
+  {
+    "barcode": "8908017500018",
+    "name": "Go Zero Belgian Dark Chocolate Zero Added Sugar",
+    "brand": "Go Zero",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8908017500018.webp",
+    "bytes": 70004,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40312015_2-go-zero-belgian-dark-chocolate-ice-cream.jpg"
+  },
+  {
+    "barcode": "8908016500019",
+    "name": "NOTO Low Calorie Dark Chocolate Ice Cream",
+    "brand": "NOTO",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8908016500019.webp",
+    "bytes": 32492,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40285412_1-noto-low-calorie-ice-cream-dark-chocolate.jpg"
+  },
+  {
+    "barcode": "8901262175906",
+    "name": "Amul Rajbhog Royal Ice Cream",
+    "brand": "Amul",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8901262175906.webp",
+    "bytes": 16606,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005438_1-amul-ice-cream-rajbhog.jpg"
+  },
+  {
+    "barcode": "8906006850033",
+    "name": "Baskin Robbins Mississippi Mud Ice Cream",
+    "brand": "Baskin Robbins",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906006850033.webp",
+    "bytes": 30640,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005484_1-baskin-robbins-ice-cream-mississippi-mud.jpg"
+  },
+  {
+    "barcode": "8906006850040",
+    "name": "Baskin Robbins Cotton Candy Ice Cream",
+    "brand": "Baskin Robbins",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906006850040.webp",
+    "bytes": 30640,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005485_1-baskin-robbins-ice-cream-cotton-candy.jpg"
+  },
+  {
+    "barcode": "8904001200013",
+    "name": "Arun Icecreams Cassata Ice Cream Slice",
+    "brand": "Arun Icecreams",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904001200013.webp",
+    "bytes": 66530,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192818_3-arun-icecreams-cassata.jpg"
+  },
+  {
+    "barcode": "8906019500017",
+    "name": "Cream Bell Choco Crunch Frozen Dessert Bar",
+    "brand": "Cream Bell",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906019500017.webp",
+    "bytes": 20682,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005488_1-cream-bell-ice-cream-choco-crunch.jpg"
+  },
+  {
+    "barcode": "8906041500016",
+    "name": "Dairy Day Choco Brownie Fudge Ice Cream",
+    "brand": "Dairy Day",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8906041500016.webp",
+    "bytes": 24388,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40192822_3-dairy-day-ice-cream-choco-brownie-fudge.jpg"
+  },
+  {
+    "barcode": "8904077700080",
+    "name": "Havmor Black Forest Ice Cream",
+    "brand": "Havmor",
+    "status": "VERIFIED",
+    "localPath": "/images/packshots/8904077700080.webp",
+    "bytes": 43282,
+    "url": "https://www.bbassets.com/media/uploads/p/l/40005476_1-havmor-ice-cream-black-forest.jpg"
+  }
+]

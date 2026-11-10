@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { LeftDrawer } from "./LeftDrawer";
+import { ProductImage } from "./ProductImage";
 
 interface QuickSearchResult {
   id: string;
@@ -35,6 +36,12 @@ export function Navbar() {
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
+
+  // Close mobile menu and dropdown on route change
+  useEffect(() => {
+    setMobileMenuOpen(false);
+    setShowDropdown(false);
+  }, [pathname]);
 
   // Close dropdown on outside click
   useEffect(() => {
@@ -139,12 +146,12 @@ export function Navbar() {
                     }}
                     className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-stone-50 dark:hover:bg-stone-800/80 transition-colors"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-stone-100 dark:bg-stone-800 overflow-hidden shrink-0 flex items-center justify-center">
-                      {item.imageUrl ? (
-                        <img src={item.imageUrl} alt="" className="w-full h-full object-cover" />
-                      ) : (
-                        <span className="text-[9px] font-bold text-stone-400">IMG</span>
-                      )}
+                    <div className="w-10 h-10 rounded-lg bg-white dark:bg-stone-800 overflow-hidden shrink-0 flex items-center justify-center p-1 border border-stone-200/50 dark:border-stone-700/50">
+                      <ProductImage
+                        src={item.imageUrl}
+                        alt={item.name}
+                        className="max-h-full max-w-full object-contain"
+                      />
                     </div>
                     <div className="min-w-0 flex-1">
                       <span className="text-xs font-bold text-stone-900 dark:text-stone-100 truncate block">

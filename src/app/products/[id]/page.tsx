@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProductById, getProductAlternatives } from "@/lib/product-service";
 import { NutriScoreBadge, NovaBadge, OverallScoreGauge } from "@/components/ScoreBadge";
-import { IngredientTag } from "@/components/IngredientTag";
+import { IngredientIntelligenceSection } from "@/components/IngredientIntelligenceSection";
 import { NutritionTable } from "@/components/NutritionTable";
 import { ProductCard } from "@/components/ProductCard";
+import { ProductImage } from "@/components/ProductImage";
 import {
   CheckCircle2,
   AlertTriangle,
@@ -60,24 +61,30 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-6 sm:p-8 shadow-xs">
         {/* Left: Product Media */}
         <div className="lg:col-span-4 space-y-4">
-          <div className="relative aspect-square w-full rounded-2xl bg-stone-100 dark:bg-stone-800 overflow-hidden flex items-center justify-center border border-stone-200/60 dark:border-stone-800">
-            {product.imageUrl ? (
-              <img
-                src={product.imageUrl}
-                alt={product.name}
-                className="w-full h-full object-cover"
-              />
-            ) : (
-              <div className="text-4xl font-black text-stone-300 dark:text-stone-600">
-                FOOD
-              </div>
-            )}
+          <div className="relative aspect-square w-full rounded-2xl bg-white dark:bg-stone-800/90 overflow-hidden flex items-center justify-center p-6 border border-stone-200/60 dark:border-stone-800">
+            <ProductImage
+              src={product.imageUrl}
+              alt={product.name}
+              showVerifiedBadge={
+                (product.imageStatus === "VERIFIED" ||
+                  product.imageStatus === "IMAGE_VERIFIED" ||
+                  product.imageStatus === "FULLY_VERIFIED") &&
+                product.imageVerified !== false
+              }
+              badgeText="Verified Item"
+              badgeClassName="absolute top-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/95 dark:bg-stone-900/95 text-emerald-700 dark:text-emerald-300 shadow backdrop-blur-xs border border-emerald-200/50"
+              className="max-h-full max-w-full object-contain mx-auto drop-shadow-sm"
+            />
 
-            {product.verified && (
-              <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/95 dark:bg-stone-900/95 text-emerald-700 dark:text-emerald-300 shadow backdrop-blur-xs">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500" /> Verified Item
+            {product.imageStatus === "IMAGE_MISMATCH" || product.imageStatus === "MISMATCH" ? (
+              <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-rose-100/95 dark:bg-rose-950/95 text-rose-700 dark:text-rose-300 shadow backdrop-blur-xs border border-rose-300/60">
+                <AlertTriangle className="w-4 h-4 text-rose-500" /> Image Mismatch
               </div>
-            )}
+            ) : product.imageStatus === "NEEDS_REVIEW" ? (
+              <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100/95 dark:bg-amber-950/95 text-amber-700 dark:text-amber-300 shadow backdrop-blur-xs border border-amber-300/60">
+                <AlertTriangle className="w-4 h-4 text-amber-500" /> Needs Review
+              </div>
+            ) : null}
           </div>
 
           {/* Barcode & Verification Metadata */}
@@ -88,6 +95,32 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </span>
               <span className="font-mono font-bold text-stone-800 dark:text-stone-200">
                 {product.barcode}
+              </span>
+            </div>
+            <div className="flex items-center justify-between text-stone-500">
+              <span>Verification Status</span>
+              <span className="inline-flex items-center gap-1 font-semibold">
+                {product.verificationStatus === "FULLY_VERIFIED" ? (
+                  <span className="inline-flex items-center gap-1 text-emerald-700 dark:text-emerald-300">
+                    <ShieldCheck className="w-3.5 h-3.5" /> Fully Verified
+                  </span>
+                ) : product.imageStatus === "IMAGE_MISSING" || product.imageUrl?.includes("placeholder") ? (
+                  <span className="inline-flex items-center gap-1 text-amber-700 dark:text-amber-400">
+                    <ShieldCheck className="w-3.5 h-3.5" /> Data Verified (Image Missing)
+                  </span>
+                ) : product.verified ? (
+                  <span className="inline-flex items-center gap-1 text-emerald-700 dark:text-emerald-300">
+                    <ShieldCheck className="w-3.5 h-3.5" /> Data Verified
+                  </span>
+                ) : (
+                  <span className="text-stone-500">Unverified</span>
+                )}
+              </span>
+            </div>
+            <div className="flex items-center justify-between text-stone-500">
+              <span>Image Status</span>
+              <span className="font-semibold text-stone-700 dark:text-stone-300">
+                {product.imageStatus || (product.imageUrl?.includes("placeholder") ? "IMAGE_MISSING" : "UNVERIFIED")}
               </span>
             </div>
             <div className="flex items-center justify-between text-stone-500">
@@ -192,37 +225,11 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
       {/* Grid: Color-coded Ingredients vs Nutrition Facts */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Ingredients Breakdown */}
-        <div className="lg:col-span-7 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-6 sm:p-8 shadow-xs space-y-6">
-          <div>
-            <div className="flex items-center justify-between">
-              <h2 className="text-xl font-bold text-stone-900 dark:text-stone-50">
-                Ingredients Analysis
-              </h2>
-              <span className="text-xs text-stone-500 font-medium">
-                {product.ingredientsList.length} total ingredients
-              </span>
-            </div>
-            <p className="text-xs text-stone-500 mt-1">
-              Click any ingredient tag to view scientific background and regulatory status (FDA/EFSA).
-            </p>
-          </div>
-
-          {/* Interactive Tag Cloud */}
-          <div className="flex flex-wrap gap-2">
-            {product.ingredientsList.map((ing, idx) => (
-              <IngredientTag key={idx} ingredient={ing} />
-            ))}
-          </div>
-
-          {/* Full Label Declaration Transcript */}
-          <div className="pt-4 border-t border-stone-100 dark:border-stone-800">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-stone-500 mb-2">
-              Full Label Ingredients Statement
-            </h3>
-            <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed font-mono bg-stone-50 dark:bg-stone-800/40 p-4 rounded-2xl border border-stone-200/60 dark:border-stone-800">
-              {product.ingredientsText}
-            </p>
-          </div>
+        <div className="lg:col-span-7">
+          <IngredientIntelligenceSection
+            ingredients={product.ingredientsList}
+            ingredientsText={product.ingredientsText}
+          />
         </div>
 
         {/* Nutrition Facts with Traffic Lights */}

@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { ProductItem } from "@/types";
 import { NutriScoreBadge, NovaBadge } from "@/components/ScoreBadge";
 import { getScoreBgColor, formatNutrient, cn } from "@/lib/utils";
+import { ProductImage } from "@/components/ProductImage";
 import {
   Scale,
   Plus,
@@ -183,12 +184,12 @@ function CompareContent() {
                           </button>
                         </div>
 
-                        <div className="relative aspect-video w-full rounded-xl bg-stone-100 dark:bg-stone-800 overflow-hidden flex items-center justify-center">
-                          {p.imageUrl ? (
-                            <img src={p.imageUrl} alt="" className="w-full h-full object-cover" />
-                          ) : (
-                            <span className="text-xs font-bold text-stone-400">NO IMAGE</span>
-                          )}
+                        <div className="relative aspect-video w-full rounded-xl bg-white dark:bg-stone-800 p-2 overflow-hidden flex items-center justify-center border border-stone-200/60 dark:border-stone-700/60">
+                          <ProductImage
+                            src={p.imageUrl}
+                            alt={p.name}
+                            className="max-h-full max-w-full object-contain mx-auto"
+                          />
                           {isBestOverall && (
                             <span className="absolute top-2 left-2 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-black bg-amber-400 text-stone-950 shadow">
                               <Trophy className="w-3 h-3" /> Top Pick

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="50%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#7c2d12" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#fb923c" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="115" height="26" rx="6" fill="#facc15"/>
+    <text x="77" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#7c2d12" text-anchor="middle">CORNITOS</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">TIKKA MASALA</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#fed7aa" text-anchor="middle">DESI CORN NACHO CRISPS</text>
+
+    
+    <!-- Tortilla Triangle Chip -->
+    <polygon points="140,118 95,178 185,178" fill="url(#chip)" stroke="#b45309" stroke-width="2.5" stroke-linejoin="round"/>
+    <polygon points="140,128 108,172 172,172" fill="none" stroke="#d97706" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="120" cy="160" r="3" fill="#b45309" opacity="0.4"/>
+    <circle cx="155" cy="162" r="3" fill="#b45309" opacity="0.4"/>
+    
+    <!-- Seasoning specks -->
+    <circle cx="125" cy="142" r="2" fill="#7c2d12"/>
+    <circle cx="140" cy="148" r="2.2" fill="#7c2d12"/>
+    <circle cx="155" cy="140" r="1.8" fill="#7c2d12"/>
+    <circle cx="145" cy="160" r="2.4" fill="#7c2d12"/>
+    <circle cx="130" cy="158" r="2" fill="#7c2d12"/>
+    <circle cx="160" cy="155" r="2.2" fill="#7c2d12"/>
+
+    <!-- Feature Badge Pill -->
+    <rect x="20" y="204" width="240" height="22" rx="11" fill="#ffedd5" stroke="#ea580c" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#9a3412" text-anchor="middle">SMOKY TANDOORI TIKKA MASALA</text>
+  </g>
+</svg>

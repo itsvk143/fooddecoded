@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="50%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#166534" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#86efac" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">TOO YUMM!</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#86efac" text-anchor="middle">VEGGIE STIX</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">SOUR CREAM &amp; ONION</text>
+
+    <!-- Vegetable straw sticks: orange, green, yellow -->
+    <rect x="90" y="115" width="100" height="10" rx="5" fill="#f97316" transform="rotate(-15 140 120)"/>
+    <rect x="90" y="140" width="100" height="10" rx="5" fill="#22c55e" transform="rotate(5 140 145)"/>
+    <rect x="90" y="165" width="100" height="10" rx="5" fill="#facc15" transform="rotate(-5 140 170)"/>
+
+    <circle cx="125" cy="142" r="2" fill="#ffffff"/>
+    <circle cx="155" cy="146" r="2" fill="#ffffff"/>
+
+    <rect x="35" y="206" width="210" height="20" rx="10" fill="#ffffff"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#15803d" text-anchor="middle">BAKED VEGGIE GOODNESS</text>
+  </g>
+</svg>

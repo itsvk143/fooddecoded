@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b"/>
+      <stop offset="50%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#450a0a"/>
+    </linearGradient>
+    <linearGradient id="cookie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="60%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fcd34d"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#7f1d1d" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#fde047" stroke-width="2"/>
+    
+    <text x="140" y="36" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#fde047" text-anchor="middle" letter-spacing="1">SINCE 1953</text>
+    <text x="140" y="60" font-family="Georgia, serif" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">KARACHI BAKERY</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#fecaca" text-anchor="middle" letter-spacing="1">FAMOUS FRUIT COOKIES</text>
+
+    <!-- Traditional square fruit biscuit cube -->
+    <rect x="92" y="100" width="96" height="88" rx="12" fill="url(#cookie)" stroke="#d97706" stroke-width="2"/>
+    
+    <!-- Candied tutti-frutti pieces in red, green, yellow -->
+    <rect x="105" y="112" width="10" height="10" rx="2" fill="#dc2626"/>
+    <rect x="135" y="116" width="12" height="9" rx="2" fill="#16a34a"/>
+    <rect x="160" y="112" width="10" height="11" rx="2" fill="#ea580c"/>
+    <rect x="115" y="135" width="11" height="11" rx="2" fill="#16a34a"/>
+    <rect x="145" y="138" width="10" height="10" rx="2" fill="#dc2626"/>
+    <rect x="165" y="145" width="9" height="9" rx="2" fill="#ca8a04"/>
+    <rect x="105" y="160" width="12" height="10" rx="2" fill="#dc2626"/>
+    <rect x="132" y="162" width="10" height="12" rx="2" fill="#16a34a"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#fde047"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#7f1d1d" text-anchor="middle">ORIGINAL HYDERABAD HERITAGE</text>
+  </g>
+</svg>

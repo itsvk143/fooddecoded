@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="50%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <linearGradient id="cookie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f766e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#5eead4" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">BRITANNIA</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#fef08a" text-anchor="middle">GOOD DAY</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#99f6e4" text-anchor="middle" letter-spacing="1">CASHEW COOKIES</text>
+
+    <!-- Cookie with cashew nuts -->
+    <circle cx="140" cy="144" r="50" fill="url(#cookie)" stroke="#a16207" stroke-width="2"/>
+    
+    <!-- Smile ridges -->
+    <path d="M 106 132 Q 140 148 174 132" stroke="#854d0e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 112 148 Q 140 162 168 148" stroke="#854d0e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Cashew shapes -->
+    <path d="M 125 125 Q 115 132 125 140 Q 135 136 128 127 Z" fill="#ffedd5" stroke="#d97706" stroke-width="1"/>
+    <path d="M 152 142 Q 162 148 152 158 Q 144 153 150 144 Z" fill="#ffedd5" stroke="#d97706" stroke-width="1"/>
+    <path d="M 138 155 Q 148 160 140 168 Q 132 163 137 156 Z" fill="#ffedd5" stroke="#d97706" stroke-width="1"/>
+
+    <rect x="50" y="206" width="180" height="20" rx="10" fill="#ffffff"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#0f766e" text-anchor="middle">CRUNCHY CASHEW DELIGHT</text>
+  </g>
+</svg>

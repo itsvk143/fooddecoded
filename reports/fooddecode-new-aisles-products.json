@@ -1,0 +1,5381 @@
+[
+  {
+    "_id": "6af1ccecdd8dfea7371dcc9a",
+    "barcode": "8901137000018",
+    "name": "MTR Ready-to-Eat Dal Makhani",
+    "brand": "MTR",
+    "manufacturer": "MTR Foods Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Ready-to-Eat Curries",
+    "productType": "Ready-to-Eat Curry",
+    "flavour": "Dal Makhani",
+    "packageSize": "300 g Retort Pouch",
+    "servingSize": "150 g",
+    "imageUrl": "/images/packshots/8901137000018.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/126906_9-mtr-ready-to-eat-dal-makhani.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:38:52.158Z",
+    "imageVerificationNote": "Official retail packaging photograph of MTR Ready-to-Eat Dal Makhani 300g",
+    "source": "manual",
+    "sourceUrl": "https://www.mtrfoods.com/products/ready-to-eat/dal-makhani",
+    "ingredientsText": "Water, Black Gram (17%), Butter, Tomato Paste, Cream, Red Kidney Beans (3%), Ginger, Iodised Salt, Garlic, Spices and Condiments, Refined Sunflower Oil.",
+    "ingredientsList": [
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Black Gram (17%)",
+        "normalized": "black gram",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Butter",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Tomato Paste",
+        "normalized": "tomato paste",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cream",
+        "normalized": "cream",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Red Kidney Beans (3%)",
+        "normalized": "red kidney beans",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Ginger",
+        "normalized": "ginger",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Garlic",
+        "normalized": "garlic",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Spices and Condiments",
+        "normalized": "spices and condiments",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Refined Sunflower Oil.",
+        "normalized": "refined sunflower oil.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 142,
+      "totalFat": 8.5,
+      "saturatedFat": 5.2,
+      "transFat": 0.1,
+      "carbohydrates": 12,
+      "sugars": 1.5,
+      "addedSugars": 0,
+      "fiber": 4,
+      "protein": 4.5,
+      "sodium": 480,
+      "salt": 1.2
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 5,
+    "novaGroup": 4,
+    "overallScore": 62,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:52.160Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:52.160Z",
+    "updatedAt": "2026-11-09T13:38:52.160Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccecdd8dfea7371dcc9b",
+    "barcode": "8901137000025",
+    "name": "MTR Ready-to-Eat Paneer Butter Masala",
+    "brand": "MTR",
+    "manufacturer": "MTR Foods Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Ready-to-Eat Curries",
+    "productType": "Ready-to-Eat Curry",
+    "flavour": "Paneer Butter Masala",
+    "packageSize": "300 g Retort Pouch",
+    "servingSize": "150 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/126904_9-mtr-ready-to-eat-paneer-butter-masala.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of MTR Ready-to-Eat Paneer Butter Masala 300g",
+    "source": "manual",
+    "sourceUrl": "https://www.mtrfoods.com/products/ready-to-eat/paneer-butter-masala",
+    "ingredientsText": "Paneer (25%), Water, Onion, Tomato Paste, Butter (5%), Cashew Nut, Cream, Spices and Condiments, Refined Sunflower Oil, Iodised Salt, Sugar, Green Chilli.",
+    "ingredientsList": [
+      {
+        "raw": "Paneer (25%)",
+        "normalized": "paneer",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Onion",
+        "normalized": "onion",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Tomato Paste",
+        "normalized": "tomato paste",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Butter (5%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Cashew Nut",
+        "normalized": "cashew nut",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cream",
+        "normalized": "cream",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Spices and Condiments",
+        "normalized": "spices and condiments",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Refined Sunflower Oil",
+        "normalized": "refined sunflower oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Green Chilli.",
+        "normalized": "green chilli.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 178,
+      "totalFat": 13,
+      "saturatedFat": 7.5,
+      "transFat": 0.2,
+      "carbohydrates": 9,
+      "sugars": 3.5,
+      "addedSugars": 1.5,
+      "fiber": 2.2,
+      "protein": 6.2,
+      "sodium": 520,
+      "salt": 1.3
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 9,
+    "novaGroup": 4,
+    "overallScore": 58,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy",
+      "Tree Nuts (Cashews)"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:52.353Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:52.353Z",
+    "updatedAt": "2026-11-09T13:38:52.353Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccecdd8dfea7371dcc9c",
+    "barcode": "8901137000032",
+    "name": "MTR 3 Minute Breakfast Poha",
+    "brand": "MTR",
+    "manufacturer": "MTR Foods Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Instant Poha & Upma",
+    "productType": "Instant Poha",
+    "flavour": "Kanda Batata Poha",
+    "packageSize": "80 g Cup",
+    "servingSize": "80 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/266109_7-mtr-3-minute-breakfast-poha.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of MTR 3 Minute Breakfast Poha 80g Cup",
+    "source": "manual",
+    "sourceUrl": "https://www.mtrfoods.com/products/breakfast-mixes/poha",
+    "ingredientsText": "Rice Flakes (75%), Edible Vegetable Fat (Interesterified), Peanuts, Dehydrated Onion, Sugar, Salt, Green Chilli, Mustard, Cumin, Turmeric, Curry Leaves, Acidity Regulator (INS 330).",
+    "ingredientsList": [
+      {
+        "raw": "Rice Flakes (75%)",
+        "normalized": "rice flakes",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Edible Vegetable Fat (Interesterified)",
+        "normalized": "edible vegetable fat",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Peanuts",
+        "normalized": "peanuts",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Legume seed causing severe IgE-mediated anaphylactic reactions in sensitive individuals.",
+        "healthConcerns": [
+          "Severe anaphylaxis risk in allergic individuals"
+        ],
+        "isAllergen": true,
+        "allergenType": "Peanuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Dehydrated Onion",
+        "normalized": "dehydrated onion",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Green Chilli",
+        "normalized": "green chilli",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Mustard",
+        "normalized": "mustard",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cumin",
+        "normalized": "cumin",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Turmeric",
+        "normalized": "turmeric",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Curry Leaves",
+        "normalized": "curry leaves",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Acidity Regulator (INS 330).",
+        "normalized": "INS 330",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 330).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 410,
+      "totalFat": 12,
+      "saturatedFat": 5,
+      "transFat": 0,
+      "carbohydrates": 68,
+      "sugars": 8,
+      "addedSugars": 4.5,
+      "fiber": 3.5,
+      "protein": 7.5,
+      "sodium": 890,
+      "salt": 2.2
+    },
+    "nutriScore": "D",
+    "nutriScoreScore": 13,
+    "novaGroup": 4,
+    "overallScore": 40,
+    "scoreLabel": "Poor",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Peanuts",
+      "Mustard"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:52.630Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:52.630Z",
+    "updatedAt": "2026-11-09T13:38:52.630Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccecdd8dfea7371dcc9d",
+    "barcode": "8901137000049",
+    "name": "MTR Instant Rava Idli Mix",
+    "brand": "MTR",
+    "manufacturer": "MTR Foods Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Ready-to-Cook Mixes",
+    "productType": "Ready-to-Cook Mix",
+    "flavour": "Rava Idli",
+    "packageSize": "500 g Pouch",
+    "servingSize": "60 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/126901_8-mtr-instant-rava-idli-mix.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of MTR Instant Rava Idli Mix 500g",
+    "source": "manual",
+    "sourceUrl": "https://www.mtrfoods.com/products/breakfast-mixes/rava-idli",
+    "ingredientsText": "Semolina (Wheat) (84%), Edible Vegetable Fat (Interesterified), Bengal Gram Dal, Cashew Nut, Salt, Curry Leaves, Mustard, Green Chilli, Ginger, Raising Agent (INS 500 ii).",
+    "ingredientsList": [
+      {
+        "raw": "Semolina (Wheat) (84%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Edible Vegetable Fat (Interesterified)",
+        "normalized": "edible vegetable fat",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Bengal Gram Dal",
+        "normalized": "bengal gram dal",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cashew Nut",
+        "normalized": "cashew nut",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Curry Leaves",
+        "normalized": "curry leaves",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Mustard",
+        "normalized": "mustard",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Green Chilli",
+        "normalized": "green chilli",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Ginger",
+        "normalized": "ginger",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Raising Agent (INS 500 ii).",
+        "normalized": "sodium bicarbonate",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+        "healthConcerns": [
+          "Source of dietary sodium"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 375,
+      "totalFat": 8,
+      "saturatedFat": 3.8,
+      "transFat": 0,
+      "carbohydrates": 65,
+      "sugars": 2,
+      "addedSugars": 0,
+      "fiber": 4.5,
+      "protein": 10.5,
+      "sodium": 780,
+      "salt": 1.95
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 5,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [
+      "Gluten / Wheat",
+      "Tree Nuts (Cashews)",
+      "Mustard"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:52.845Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:52.845Z",
+    "updatedAt": "2026-11-09T13:38:52.845Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1cceddd8dfea7371dcc9e",
+    "barcode": "8901137000056",
+    "name": "Gits Instant Khaman Dhokla Mix",
+    "brand": "Gits",
+    "manufacturer": "Gits Food Products Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Ready-to-Cook Mixes",
+    "productType": "Instant Snack Mix",
+    "flavour": "Khaman Dhokla",
+    "packageSize": "180 g Box",
+    "servingSize": "45 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/102742_5-gits-instant-khaman-dhokla-mix.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Gits Instant Khaman Dhokla Mix 180g",
+    "source": "manual",
+    "sourceUrl": "https://www.gitsfood.com/khaman-dhokla-mix/",
+    "ingredientsText": "Chickpea Flour (Besan) (64%), Semolina (Wheat), Sugar, Salt, Raising Agent (Sodium Bicarbonate INS 500 ii), Acidity Regulator (Citric Acid INS 330), Asafoetida, Turmeric.",
+    "ingredientsList": [
+      {
+        "raw": "Chickpea Flour (Besan) (64%)",
+        "normalized": "chickpea flour",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Semolina (Wheat)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Raising Agent (Sodium Bicarbonate INS 500 ii)",
+        "normalized": "sodium bicarbonate",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+        "healthConcerns": [
+          "Source of dietary sodium"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Acidity Regulator (Citric Acid INS 330)",
+        "normalized": "INS 330",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 330).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Asafoetida",
+        "normalized": "asafoetida",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Turmeric.",
+        "normalized": "turmeric.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 360,
+      "totalFat": 4.5,
+      "saturatedFat": 0.8,
+      "transFat": 0,
+      "carbohydrates": 66,
+      "sugars": 12,
+      "addedSugars": 8,
+      "fiber": 6,
+      "protein": 14,
+      "sodium": 850,
+      "salt": 2.1
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 5,
+    "novaGroup": 4,
+    "overallScore": 62,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:53.139Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:53.139Z",
+    "updatedAt": "2026-11-09T13:38:53.139Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1cceddd8dfea7371dcc9f",
+    "barcode": "8901058852608",
+    "name": "Maggi 2-Minute Masala Cuppa Noodles",
+    "brand": "Maggi",
+    "manufacturer": "Nestlé India Limited",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Cup Meals",
+    "productType": "Cup Noodles",
+    "flavour": "Masala",
+    "packageSize": "70 g Cup",
+    "servingSize": "70 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/266540_8-maggi-cuppa-masala-noodles.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Maggi Masala Cuppa Noodles 70g",
+    "source": "manual",
+    "sourceUrl": "https://www.maggi.in/products/cuppa-noodles/",
+    "ingredientsText": "Noodles: Refined Wheat Flour (Maida), Palm Oil, Iodised Salt, Wheat Gluten, Thickeners (INS 508, INS 412), Acidity Regulators (INS 501 i, INS 500 i). Tastemaker: Mixed Spices (Onion, Coriander, Turmeric, Cumin, Aniseed, Black Pepper, Fenugreek, Ginger, Clove, Nutmeg, Cardamom), Sugar, Salt, Dehydrated Carrots, Dehydrated Peas, Hydrolysed Groundnut Protein, Palm Oil, Flavour Enhancer (INS 635).",
+    "ingredientsList": [
+      {
+        "raw": "Noodles: Refined Wheat Flour (Maida)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Palm Oil",
+        "normalized": "palm oil",
+        "riskLevel": "caution",
+        "category": "fat_oil",
+        "description": "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
+        "healthConcerns": [
+          "50% saturated palmitic acid",
+          "Environmental and biodiversity impact"
+        ],
+        "isPalmOil": true,
+        "regulatoryStatus": "Permitted globally with labeling requirements"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Wheat Gluten",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Thickeners (INS 508, INS 412)",
+        "normalized": "INS 508",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 508).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Acidity Regulators (INS 501 i, INS 500 i). Tastemaker: Mixed Spices (Onion, Coriander, Turmeric, Cumin, Aniseed, Black Pepper, Fenugreek, Ginger, Clove, Nutmeg, Cardamom)",
+        "normalized": "sodium bicarbonate",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+        "healthConcerns": [
+          "Source of dietary sodium"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Dehydrated Carrots",
+        "normalized": "dehydrated carrots",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Dehydrated Peas",
+        "normalized": "dehydrated peas",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Hydrolysed Groundnut Protein",
+        "normalized": "hydrolysed groundnut protein",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Palm Oil",
+        "normalized": "palm oil",
+        "riskLevel": "caution",
+        "category": "fat_oil",
+        "description": "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
+        "healthConcerns": [
+          "50% saturated palmitic acid",
+          "Environmental and biodiversity impact"
+        ],
+        "isPalmOil": true,
+        "regulatoryStatus": "Permitted globally with labeling requirements"
+      },
+      {
+        "raw": "Flavour Enhancer (INS 635).",
+        "normalized": "flavour enhancers",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Synergistic umami flavor enhancers derived from fermentation or meat/fish extracts, boosting savory perception.",
+        "healthConcerns": [
+          "May exacerbate gout due to purine breakdown into uric acid",
+          "Marker of ultra-processed snacking foods"
+        ],
+        "regulatoryStatus": "FSSAI / FDA Approved with GMP limit"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 435,
+      "totalFat": 17.5,
+      "saturatedFat": 8.2,
+      "transFat": 0.1,
+      "carbohydrates": 60.5,
+      "sugars": 3.5,
+      "addedSugars": 2,
+      "fiber": 3.8,
+      "protein": 9,
+      "sodium": 1120,
+      "salt": 2.8
+    },
+    "nutriScore": "D",
+    "nutriScoreScore": 14,
+    "novaGroup": 4,
+    "overallScore": 22,
+    "scoreLabel": "Bad",
+    "hasPalmOil": true,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Peanuts"
+    ],
+    "ingredientAlerts": [
+      "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)",
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:53.434Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:53.434Z",
+    "updatedAt": "2026-11-09T13:38:53.434Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1cceddd8dfea7371dcca0",
+    "barcode": "8906007420105",
+    "name": "Sumeru Flaky Malabar Paratha",
+    "brand": "Sumeru",
+    "manufacturer": "Innovative Foods Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Frozen Parathas",
+    "productType": "Frozen Bread",
+    "flavour": "Malabar Paratha",
+    "packageSize": "400 g Pack (5 pcs)",
+    "servingSize": "80 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40003011_4-sumeru-malabar-paratha.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Sumeru Flaky Malabar Paratha 400g",
+    "source": "manual",
+    "sourceUrl": "https://sumeru.net/",
+    "ingredientsText": "Refined Wheat Flour (Maida) (62%), Water, Edible Vegetable Fat (Palm Oil, Palm Olein), Milk, Sugar, Salt, Baking Powder.",
+    "ingredientsList": [
+      {
+        "raw": "Refined Wheat Flour (Maida) (62%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Edible Vegetable Fat (Palm Oil, Palm Olein)",
+        "normalized": "palm oil",
+        "riskLevel": "caution",
+        "category": "fat_oil",
+        "description": "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
+        "healthConcerns": [
+          "50% saturated palmitic acid",
+          "Environmental and biodiversity impact"
+        ],
+        "isPalmOil": true,
+        "regulatoryStatus": "Permitted globally with labeling requirements"
+      },
+      {
+        "raw": "Milk",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Baking Powder.",
+        "normalized": "baking powder.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 325,
+      "totalFat": 12.5,
+      "saturatedFat": 6.2,
+      "transFat": 0.1,
+      "carbohydrates": 46,
+      "sugars": 3.5,
+      "addedSugars": 2,
+      "fiber": 2,
+      "protein": 7,
+      "sodium": 460,
+      "salt": 1.15
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 9,
+    "novaGroup": 4,
+    "overallScore": 48,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": true,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [
+      "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)",
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:53.685Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:53.685Z",
+    "updatedAt": "2026-11-09T13:38:53.685Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1cceedd8dfea7371dcca1",
+    "barcode": "8901137000063",
+    "name": "MTR Minute Meals Rajma Rice",
+    "brand": "MTR",
+    "manufacturer": "MTR Foods Pvt. Ltd.",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "categorySlug": "ready-to-eat-ready-to-cook",
+    "subCategory": "Instant Meals",
+    "productType": "Ready-to-Eat Meal Tray",
+    "flavour": "Rajma Rice",
+    "packageSize": "375 g Tray",
+    "servingSize": "375 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40003012_3-mtr-minute-meals-rajma-rice.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of MTR Minute Meals Rajma Rice 375g",
+    "source": "manual",
+    "sourceUrl": "https://www.mtrfoods.com/products/ready-to-eat/rajma-rice",
+    "ingredientsText": "Cooked Basmati Rice (50%), Water, Red Kidney Beans (Rajma) (18%), Tomato Paste, Onion, Refined Sunflower Oil, Butter, Salt, Ginger, Garlic, Spices and Condiments.",
+    "ingredientsList": [
+      {
+        "raw": "Cooked Basmati Rice (50%)",
+        "normalized": "cooked basmati rice",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Red Kidney Beans (Rajma) (18%)",
+        "normalized": "red kidney beans",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Tomato Paste",
+        "normalized": "tomato paste",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Onion",
+        "normalized": "onion",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Refined Sunflower Oil",
+        "normalized": "refined sunflower oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Butter",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Ginger",
+        "normalized": "ginger",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Garlic",
+        "normalized": "garlic",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Spices and Condiments.",
+        "normalized": "spices and condiments.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 155,
+      "totalFat": 4.8,
+      "saturatedFat": 1.9,
+      "transFat": 0,
+      "carbohydrates": 23.5,
+      "sugars": 1.8,
+      "addedSugars": 0,
+      "fiber": 3.2,
+      "protein": 4.5,
+      "sodium": 410,
+      "salt": 1.02
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 1,
+    "novaGroup": 4,
+    "overallScore": 72,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:54.008Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:54.008Z",
+    "updatedAt": "2026-11-09T13:38:54.008Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1cceedd8dfea7371dcca2",
+    "barcode": "8906085170014",
+    "name": "Yoga Bar 20g Whey Protein Bar Chocolate Fudge",
+    "brand": "Yoga Bar",
+    "manufacturer": "Sproutlife Foods Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Protein Bars",
+    "productType": "High Protein Bar",
+    "flavour": "Chocolate Fudge",
+    "packageSize": "70 g Bar",
+    "servingSize": "70 g",
+    "imageUrl": "/images/packshots/8906085170014.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192804_2-yogabar-20g-protein-bar.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:38:54.920Z",
+    "imageVerificationNote": "Official retail packaging photograph of Yoga Bar 20g Protein Bar Chocolate Fudge 70g",
+    "source": "manual",
+    "sourceUrl": "https://www.yogabar.in/products/20g-protein-bars",
+    "ingredientsText": "Protein Blend (Whey Protein Concentrate, Whey Protein Isolate) (32%), Almonds (18%), Dates, Cocoa Powder (8%), Honey, Dark Chocolate (Cocoa Solids, Cocoa Butter), Prebiotic Chicory Root Fibre.",
+    "ingredientsList": [
+      {
+        "raw": "Protein Blend (Whey Protein Concentrate, Whey Protein Isolate) (32%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Almonds (18%)",
+        "normalized": "almonds",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Tree nuts associated with severe allergic reactions.",
+        "healthConcerns": [
+          "Potentially life-threatening allergic reactions"
+        ],
+        "isAllergen": true,
+        "allergenType": "Tree Nuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Dates",
+        "normalized": "dates",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cocoa Powder (8%)",
+        "normalized": "cocoa powder",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Honey",
+        "normalized": "honey",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Dark Chocolate (Cocoa Solids, Cocoa Butter)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Prebiotic Chicory Root Fibre.",
+        "normalized": "prebiotic chicory root fibre.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 380,
+      "totalFat": 12,
+      "saturatedFat": 4.2,
+      "transFat": 0,
+      "carbohydrates": 39,
+      "sugars": 18,
+      "addedSugars": 0,
+      "fiber": 10,
+      "protein": 28.6,
+      "sodium": 140,
+      "salt": 0.35
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 3,
+    "novaGroup": 3,
+    "overallScore": 82,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [
+      "Milk / Dairy",
+      "Tree Nuts (Almonds)"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:54.920Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:54.920Z",
+    "updatedAt": "2026-11-09T13:38:54.920Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccefdd8dfea7371dcca3",
+    "barcode": "8906009079011",
+    "name": "RiteBite Max Protein Daily Choco Almond Protein Bar",
+    "brand": "RiteBite Max Protein",
+    "manufacturer": "Naturell (India) Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Protein Bars",
+    "productType": "Protein Snack Bar",
+    "flavour": "Choco Almond",
+    "packageSize": "50 g Bar",
+    "servingSize": "50 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/279883_8-ritebite-max-protein-daily-choco-almond-protein-bar.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of RiteBite Max Protein Daily Choco Almond 50g",
+    "source": "manual",
+    "sourceUrl": "https://maxprotein.in/products/daily-choco-almond",
+    "ingredientsText": "Protein Blend (Soy Nuggets, Whey Protein Concentrate, Calcium Caseinate) (28%), Dark Compound (Sugar, Hydrogenated Vegetable Fat, Cocoa Solids, Emulsifier INS 322), Almonds, Dietary Fibre, Honey, Whole Grain Rolled Oats.",
+    "ingredientsList": [
+      {
+        "raw": "Protein Blend (Soy Nuggets, Whey Protein Concentrate, Calcium Caseinate) (28%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Dark Compound (Sugar, Hydrogenated Vegetable Fat, Cocoa Solids, Emulsifier INS 322)",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Almonds",
+        "normalized": "almonds",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Tree nuts associated with severe allergic reactions.",
+        "healthConcerns": [
+          "Potentially life-threatening allergic reactions"
+        ],
+        "isAllergen": true,
+        "allergenType": "Tree Nuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Dietary Fibre",
+        "normalized": "dietary fibre",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Honey",
+        "normalized": "honey",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Whole Grain Rolled Oats.",
+        "normalized": "whole oats",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Nutritious whole grain rich in soluble beta-glucan fiber.",
+        "healthConcerns": [
+          "Aids in lowering LDL cholesterol and stabilizing blood glucose"
+        ],
+        "regulatoryStatus": "FDA authorized cardiovascular health claim"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 405,
+      "totalFat": 13.5,
+      "saturatedFat": 6.8,
+      "transFat": 0,
+      "carbohydrates": 51,
+      "sugars": 19.5,
+      "addedSugars": 12,
+      "fiber": 9,
+      "protein": 20,
+      "sodium": 190,
+      "salt": 0.48
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 7,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy",
+      "Soybeans",
+      "Tree Nuts (Almonds)",
+      "Gluten / Oats"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:55.128Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:55.128Z",
+    "updatedAt": "2026-11-09T13:38:55.128Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccefdd8dfea7371dcca4",
+    "barcode": "8906009079028",
+    "name": "RiteBite Max Protein 7 Grain Breakfast Cookie Choco Chips",
+    "brand": "RiteBite Max Protein",
+    "manufacturer": "Naturell (India) Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Protein Cookies",
+    "productType": "Protein Cookie",
+    "flavour": "Choco Chips",
+    "packageSize": "55 g Cookie",
+    "servingSize": "55 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192805_2-ritebite-max-protein-cookie.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of RiteBite Max Protein Cookie 55g",
+    "source": "manual",
+    "sourceUrl": "https://maxprotein.in/products/protein-cookies",
+    "ingredientsText": "Protein Blend (Whey Protein, Soy Protein, Milk Protein) (25%), Seven Grain Flour (Oats, Ragi, Quinoa, Corn, Wheat, Bengal Gram, Amaranth) (28%), Dark Chocolate Chips, Jaggery, Butter, Dietary Fibre.",
+    "ingredientsList": [
+      {
+        "raw": "Protein Blend (Whey Protein, Soy Protein, Milk Protein) (25%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Seven Grain Flour (Oats, Ragi, Quinoa, Corn, Wheat, Bengal Gram, Amaranth) (28%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Dark Chocolate Chips",
+        "normalized": "dark chocolate chips",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Jaggery",
+        "normalized": "jaggery",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Traditional unrefined non-centrifugal sugar made from sugarcane juice.",
+        "healthConcerns": [
+          "Caloric sweetener with minor mineral content; impacts blood sugar similar to sucrose"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Butter",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Dietary Fibre.",
+        "normalized": "dietary fibre.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 420,
+      "totalFat": 15,
+      "saturatedFat": 7.2,
+      "transFat": 0,
+      "carbohydrates": 53,
+      "sugars": 18,
+      "addedSugars": 12,
+      "fiber": 8.5,
+      "protein": 18.2,
+      "sodium": 210,
+      "salt": 0.52
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 8,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy",
+      "Soybeans",
+      "Gluten / Wheat"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:55.403Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:55.403Z",
+    "updatedAt": "2026-11-09T13:38:55.403Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccefdd8dfea7371dcca5",
+    "barcode": "8906009079035",
+    "name": "RiteBite Max Protein Chips Spanish Tomato",
+    "brand": "RiteBite Max Protein",
+    "manufacturer": "Naturell (India) Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Protein Chips",
+    "productType": "Extruded Protein Snack",
+    "flavour": "Spanish Tomato",
+    "packageSize": "45 g Pack",
+    "servingSize": "45 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40118804_5-ritebite-max-protein-chips-spanish-tomato.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of RiteBite Max Protein Chips Spanish Tomato 45g",
+    "source": "manual",
+    "sourceUrl": "https://maxprotein.in/products/protein-chips",
+    "ingredientsText": "Grain and Pulse Flours (Sorghum, Quinoa, Oats, Ragi, Soy, Chickpea) (60%), Edible Vegetable Oil (Palmolein), Seasoning (Tomato Powder, Onion, Garlic, Chilli, Sugar, Salt, Acidity Regulator INS 330), Whey Protein Concentrate.",
+    "ingredientsList": [
+      {
+        "raw": "Grain and Pulse Flours (Sorghum, Quinoa, Oats, Ragi, Soy, Chickpea) (60%)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Edible Vegetable Oil (Palmolein)",
+        "normalized": "palm oil",
+        "riskLevel": "caution",
+        "category": "fat_oil",
+        "description": "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
+        "healthConcerns": [
+          "50% saturated palmitic acid",
+          "Environmental and biodiversity impact"
+        ],
+        "isPalmOil": true,
+        "regulatoryStatus": "Permitted globally with labeling requirements"
+      },
+      {
+        "raw": "Seasoning (Tomato Powder, Onion, Garlic, Chilli, Sugar, Salt, Acidity Regulator INS 330)",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Whey Protein Concentrate.",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 440,
+      "totalFat": 16,
+      "saturatedFat": 6.5,
+      "transFat": 0,
+      "carbohydrates": 52,
+      "sugars": 7.5,
+      "addedSugars": 4,
+      "fiber": 10,
+      "protein": 22.2,
+      "sodium": 680,
+      "salt": 1.7
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 9,
+    "novaGroup": 4,
+    "overallScore": 56,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": true,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy",
+      "Soybeans",
+      "Gluten / Oats"
+    ],
+    "ingredientAlerts": [
+      "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)",
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:55.694Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:55.694Z",
+    "updatedAt": "2026-11-09T13:38:55.694Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccefdd8dfea7371dcca6",
+    "barcode": "8906085170021",
+    "name": "Yoga Bar High Protein Dark Chocolate Muesli",
+    "brand": "Yoga Bar",
+    "manufacturer": "Sproutlife Foods Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Protein Breakfast Cereals",
+    "productType": "High Protein Muesli",
+    "flavour": "Dark Chocolate & Cranberry",
+    "packageSize": "400 g Pouch",
+    "servingSize": "50 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192806_2-yogabar-protein-muesli.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Yoga Bar High Protein Muesli 400g",
+    "source": "manual",
+    "sourceUrl": "https://www.yogabar.in/products/high-protein-muesli",
+    "ingredientsText": "Rolled Oats (42%), Soy Protein Isolate (18%), Dark Chocolate (Cocoa Solids, Cocoa Butter, Raw Sugar) (12%), Almonds (8%), Pumpkin Seeds, Chia Seeds, Cranberries, Honey.",
+    "ingredientsList": [
+      {
+        "raw": "Rolled Oats (42%)",
+        "normalized": "whole oats",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Nutritious whole grain rich in soluble beta-glucan fiber.",
+        "healthConcerns": [
+          "Aids in lowering LDL cholesterol and stabilizing blood glucose"
+        ],
+        "regulatoryStatus": "FDA authorized cardiovascular health claim"
+      },
+      {
+        "raw": "Soy Protein Isolate (18%)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Dark Chocolate (Cocoa Solids, Cocoa Butter, Raw Sugar) (12%)",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Almonds (8%)",
+        "normalized": "almonds",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Tree nuts associated with severe allergic reactions.",
+        "healthConcerns": [
+          "Potentially life-threatening allergic reactions"
+        ],
+        "isAllergen": true,
+        "allergenType": "Tree Nuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Pumpkin Seeds",
+        "normalized": "pumpkin seeds",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Chia Seeds",
+        "normalized": "chia seeds",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cranberries",
+        "normalized": "cranberries",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Honey.",
+        "normalized": "honey.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 430,
+      "totalFat": 14.5,
+      "saturatedFat": 4.8,
+      "transFat": 0,
+      "carbohydrates": 53,
+      "sugars": 14,
+      "addedSugars": 7,
+      "fiber": 8.5,
+      "protein": 22,
+      "sodium": 160,
+      "salt": 0.4
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 3,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Soybeans",
+      "Gluten / Oats",
+      "Tree Nuts (Almonds)"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:55.960Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:55.960Z",
+    "updatedAt": "2026-11-09T13:38:55.960Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf0dd8dfea7371dcca7",
+    "barcode": "8904083307017",
+    "name": "Pintola High Protein Dark Chocolate Peanut Butter",
+    "brand": "Pintola",
+    "manufacturer": "Das Foodtech Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "High-Protein Peanut Butter",
+    "productType": "Protein Peanut Butter",
+    "flavour": "Dark Chocolate",
+    "packageSize": "510 g Jar",
+    "servingSize": "32 g",
+    "imageUrl": "/images/packshots/8904083307017.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40243411_2-pintola-high-protein-peanut-butter-dark-chocolate.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:38:56.719Z",
+    "imageVerificationNote": "Official retail packaging photograph of Pintola High Protein Peanut Butter Dark Chocolate 510g",
+    "source": "manual",
+    "sourceUrl": "https://pintola.in/products/high-protein-dark-chocolate-peanut-butter",
+    "ingredientsText": "Roasted Peanuts (82%), Whey Protein Isolate (10%), Dark Chocolate Paste (Cocoa Powder, Cocoa Butter, Brown Sugar). Zero hydrogenated oils.",
+    "ingredientsList": [
+      {
+        "raw": "Roasted Peanuts (82%)",
+        "normalized": "peanuts",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Legume seed causing severe IgE-mediated anaphylactic reactions in sensitive individuals.",
+        "healthConcerns": [
+          "Severe anaphylaxis risk in allergic individuals"
+        ],
+        "isAllergen": true,
+        "allergenType": "Peanuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Whey Protein Isolate (10%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Dark Chocolate Paste (Cocoa Powder, Cocoa Butter, Brown Sugar). Zero hydrogenated oils.",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 590,
+      "totalFat": 44,
+      "saturatedFat": 9.5,
+      "transFat": 0,
+      "carbohydrates": 20,
+      "sugars": 7,
+      "addedSugars": 3.5,
+      "fiber": 6,
+      "protein": 30,
+      "sodium": 120,
+      "salt": 0.3
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 8,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Peanuts",
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:56.719Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:56.719Z",
+    "updatedAt": "2026-11-09T13:38:56.719Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf0dd8dfea7371dcca8",
+    "barcode": "8906070430513",
+    "name": "Epigamia High Protein Milkshake Vanilla 30g Protein",
+    "brand": "Epigamia",
+    "manufacturer": "Drums Food International Pvt. Ltd.",
+    "category": "Protein Foods & Snacks",
+    "categorySlug": "protein-foods-snacks",
+    "subCategory": "Ready-to-Drink Protein Shakes",
+    "productType": "Ready-to-Drink Protein Shake",
+    "flavour": "Vanilla",
+    "packageSize": "250 ml Bottle",
+    "servingSize": "250 ml",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192807_2-epigamia-protein-milkshake-vanilla.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Epigamia High Protein Milkshake Vanilla 250ml",
+    "source": "manual",
+    "sourceUrl": "https://www.epigamiastore.com/products/high-protein-milkshake-vanilla",
+    "ingredientsText": "Pasteurised Double Toned Milk, Milk Protein Concentrate, Natural Vanilla Flavour, Enzyme (Lactase), Stabilizer (Gellan Gum INS 418), Steviol Glycosides (INS 960).",
+    "ingredientsList": [
+      {
+        "raw": "Pasteurised Double Toned Milk",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Milk Protein Concentrate",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Natural Vanilla Flavour",
+        "normalized": "natural flavor",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Flavoring compounds derived from natural food sources.",
+        "healthConcerns": [],
+        "regulatoryStatus": "FDA GRAS"
+      },
+      {
+        "raw": "Enzyme (Lactase)",
+        "normalized": "enzyme",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Stabilizer (Gellan Gum INS 418)",
+        "normalized": "INS 418",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 418).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Steviol Glycosides (INS 960).",
+        "normalized": "INS 960",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 960).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 68,
+      "totalFat": 1.5,
+      "saturatedFat": 0.9,
+      "transFat": 0,
+      "carbohydrates": 3.2,
+      "sugars": 3.2,
+      "addedSugars": 0,
+      "fiber": 0.5,
+      "protein": 12,
+      "sodium": 65,
+      "salt": 0.16
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -5,
+    "novaGroup": 3,
+    "overallScore": 88,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:56.949Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:56.949Z",
+    "updatedAt": "2026-11-09T13:38:56.949Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf1dd8dfea7371dcca9",
+    "barcode": "8906007420211",
+    "name": "So Good Almond Milk Unsweetened",
+    "brand": "So Good",
+    "manufacturer": "Life Health Foods India Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Almond Milk",
+    "productType": "Plant-Based Milk",
+    "flavour": "Unsweetened Plain",
+    "packageSize": "1 L Tetra Pak",
+    "servingSize": "100 ml",
+    "imageUrl": "/images/packshots/8906007420211.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40125757_4-so-good-almond-milk-unsweetened.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:38:57.722Z",
+    "imageVerificationNote": "Official retail packaging photograph of So Good Almond Milk Unsweetened 1L",
+    "source": "manual",
+    "sourceUrl": "https://sogoodindia.com/products/almond-beverage-unsweetened",
+    "ingredientsText": "Water, Almond Paste (4.5%), Mineral (Tricalcium Phosphate), Emulsifier (Sunflower Lecithin INS 322), Stabilizer (Gellan Gum INS 418), Salt, Vitamin Premix (Vitamin B1, B2, B12, Vitamin D). Zero added sugar.",
+    "ingredientsList": [
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Almond Paste (4.5%)",
+        "normalized": "almond paste",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Mineral (Tricalcium Phosphate)",
+        "normalized": "mineral",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Emulsifier (Sunflower Lecithin INS 322)",
+        "normalized": "INS 322",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 322).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Stabilizer (Gellan Gum INS 418)",
+        "normalized": "INS 418",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 418).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Vitamin Premix (Vitamin B1, B2, B12, Vitamin D). Zero added sugar.",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 24,
+      "totalFat": 2.1,
+      "saturatedFat": 0.2,
+      "transFat": 0,
+      "carbohydrates": 0.5,
+      "sugars": 0.1,
+      "addedSugars": 0,
+      "fiber": 0.4,
+      "protein": 0.8,
+      "sodium": 40,
+      "salt": 0.1
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 0,
+    "novaGroup": 4,
+    "overallScore": 60,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Tree Nuts (Almonds)"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:57.723Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:57.723Z",
+    "updatedAt": "2026-11-09T13:38:57.723Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf1dd8dfea7371dccaa",
+    "barcode": "8906007420228",
+    "name": "So Good Soy Milk Regular",
+    "brand": "So Good",
+    "manufacturer": "Life Health Foods India Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Soy Milk",
+    "productType": "Plant-Based Milk",
+    "flavour": "Regular",
+    "packageSize": "1 L Tetra Pak",
+    "servingSize": "100 ml",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40125758_3-so-good-soy-milk.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of So Good Soy Milk Regular 1L",
+    "source": "manual",
+    "sourceUrl": "https://sogoodindia.com/products/soy-beverage-regular",
+    "ingredientsText": "Water, Soybeans (11%), Sugar, Minerals (Tricalcium Phosphate), Stabilizer (INS 418), Acidity Regulator (INS 340 ii), Vitamins (B2, B12, Vitamin D).",
+    "ingredientsList": [
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Soybeans (11%)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Minerals (Tricalcium Phosphate)",
+        "normalized": "minerals",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Stabilizer (INS 418)",
+        "normalized": "INS 418",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 418).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Acidity Regulator (INS 340 ii)",
+        "normalized": "INS 340 II",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 340 II).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Vitamins (B2, B12, Vitamin D).",
+        "normalized": "vitamins .",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 52,
+      "totalFat": 2.2,
+      "saturatedFat": 0.4,
+      "transFat": 0,
+      "carbohydrates": 4.8,
+      "sugars": 3.5,
+      "addedSugars": 2.5,
+      "fiber": 0.6,
+      "protein": 3.2,
+      "sodium": 48,
+      "salt": 0.12
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -2,
+    "novaGroup": 4,
+    "overallScore": 68,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Soybeans"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:57.898Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:57.898Z",
+    "updatedAt": "2026-11-09T13:38:57.898Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf2dd8dfea7371dccab",
+    "barcode": "8906007420235",
+    "name": "Alt Co. Oat Milk Barista",
+    "brand": "Alt Co.",
+    "manufacturer": "Alt Foods Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Oat Milk",
+    "productType": "Plant-Based Oat Milk",
+    "flavour": "Barista Edition",
+    "packageSize": "1 L Tetra Pak",
+    "servingSize": "100 ml",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40234511_2-alt-co-oat-milk.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Alt Co. Oat Milk Barista 1L",
+    "source": "manual",
+    "sourceUrl": "https://altcompany.in/",
+    "ingredientsText": "Oat Base (Water, Oats 10%), Rapeseed Oil, Acidity Regulator (Dipotassium Phosphate INS 340 ii), Calcium Carbonate, Sea Salt.",
+    "ingredientsList": [
+      {
+        "raw": "Oat Base (Water, Oats 10%)",
+        "normalized": "oat base",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Rapeseed Oil",
+        "normalized": "rapeseed oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Acidity Regulator (Dipotassium Phosphate INS 340 ii)",
+        "normalized": "INS 340 II",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 340 II).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Calcium Carbonate",
+        "normalized": "calcium carbonate",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sea Salt.",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 58,
+      "totalFat": 2.8,
+      "saturatedFat": 0.3,
+      "transFat": 0,
+      "carbohydrates": 7.2,
+      "sugars": 3.8,
+      "addedSugars": 0,
+      "fiber": 0.8,
+      "protein": 1.1,
+      "sodium": 44,
+      "salt": 0.11
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 0,
+    "novaGroup": 3,
+    "overallScore": 80,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Oats"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:58.093Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:58.093Z",
+    "updatedAt": "2026-11-09T13:38:58.093Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf2dd8dfea7371dccac",
+    "barcode": "8906070430612",
+    "name": "Epigamia Coconut Milk Yogurt Blueberry",
+    "brand": "Epigamia",
+    "manufacturer": "Drums Food International Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Vegan Yogurt",
+    "productType": "Plant-Based Yogurt Alternative",
+    "flavour": "Blueberry",
+    "packageSize": "90 g Cup",
+    "servingSize": "90 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192808_2-epigamia-coconut-yogurt-blueberry.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Epigamia Coconut Milk Yogurt Blueberry 90g",
+    "source": "manual",
+    "sourceUrl": "https://www.epigamiastore.com/products/plant-made-yogurt-blueberry",
+    "ingredientsText": "Coconut Milk (Coconut Extract, Water) (70%), Blueberry Fruit Blend (Blueberries, Sugar, Pectin INS 440), Live Vegan Active Cultures.",
+    "ingredientsList": [
+      {
+        "raw": "Coconut Milk (Coconut Extract, Water) (70%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Blueberry Fruit Blend (Blueberries, Sugar, Pectin INS 440)",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Live Vegan Active Cultures.",
+        "normalized": "live vegan active cultures.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 110,
+      "totalFat": 5.5,
+      "saturatedFat": 4.8,
+      "transFat": 0,
+      "carbohydrates": 14,
+      "sugars": 12,
+      "addedSugars": 7.5,
+      "fiber": 0.8,
+      "protein": 1.2,
+      "sodium": 30,
+      "salt": 0.08
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 7,
+    "novaGroup": 4,
+    "overallScore": 58,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:58.287Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:58.287Z",
+    "updatedAt": "2026-11-09T13:38:58.287Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf2dd8dfea7371dccad",
+    "barcode": "8906112663909",
+    "name": "The Brooklyn Creamery Vegan Chocolate Fudge Ice Cream",
+    "brand": "The Brooklyn Creamery",
+    "manufacturer": "Graviss Foods Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Dairy-Free Ice Cream",
+    "productType": "Vegan Frozen Dessert",
+    "flavour": "Chocolate Fudge",
+    "packageSize": "450 ml Tub",
+    "servingSize": "100 ml",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40219801_2-the-brooklyn-creamery-vegan-chocolate.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of The Brooklyn Creamery Vegan Chocolate Fudge 450ml",
+    "source": "manual",
+    "sourceUrl": "https://thebrooklyncreamery.com/",
+    "ingredientsText": "Coconut Milk, Cocoa Solids (8%), Maltitol, Inulin (Chicory Root Fibre), Cocoa Butter, Emulsifier (INS 471), Stabilizers (INS 412, INS 415), Stevia Extract.",
+    "ingredientsList": [
+      {
+        "raw": "Coconut Milk",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Cocoa Solids (8%)",
+        "normalized": "cocoa solids",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Maltitol",
+        "normalized": "maltitol",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Inulin (Chicory Root Fibre)",
+        "normalized": "inulin",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cocoa Butter",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Emulsifier (INS 471)",
+        "normalized": "mono- and diglycerides of fatty acids",
+        "riskLevel": "safe",
+        "category": "emulsifier",
+        "description": "Plant-derived food emulsifiers used to blend fats and water, improving dough machinability and biscuit crumb stability.",
+        "healthConcerns": [
+          "Generally safe lipid derivative; may contain traces of trans fats if partially hydrogenated fats were used"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Stabilizers (INS 412, INS 415)",
+        "normalized": "INS 412",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 412).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Stevia Extract.",
+        "normalized": "stevia extract.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 125,
+      "totalFat": 6.2,
+      "saturatedFat": 4.5,
+      "transFat": 0,
+      "carbohydrates": 17.5,
+      "sugars": 2,
+      "addedSugars": 0,
+      "fiber": 6.5,
+      "protein": 2.2,
+      "sodium": 35,
+      "salt": 0.09
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -1,
+    "novaGroup": 3,
+    "overallScore": 92,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:58.507Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:58.507Z",
+    "updatedAt": "2026-11-09T13:38:58.507Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf3dd8dfea7371dccae",
+    "barcode": "5202390010118",
+    "name": "Violife 100% Vegan Block Alternative to Butter",
+    "brand": "Violife",
+    "manufacturer": "Arivia S.A.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Plant-Based Spreads",
+    "productType": "Plant-Based Butter Alternative",
+    "flavour": "Natural Butter Taste",
+    "packageSize": "200 g Block",
+    "servingSize": "10 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://images.openfoodfacts.org/images/products/520/239/001/0118/front_en.12.400.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Violife 100% Vegan Block Alternative to Butter 200g",
+    "source": "manual",
+    "sourceUrl": "https://www.violifefoods.com/en-int/our-products/violife-block",
+    "ingredientsText": "Water, Coconut Oil (29%), Starch, Sea Salt, Acidity Regulator (Glucono-Delta-Lactone), Flavourings, Olive Extract, Vitamin B12.",
+    "ingredientsList": [
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Coconut Oil (29%)",
+        "normalized": "coconut oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Starch",
+        "normalized": "starch",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sea Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Acidity Regulator (Glucono-Delta-Lactone)",
+        "normalized": "acidity regulator",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Flavourings",
+        "normalized": "artificial flavor",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Synthetically compounded aroma chemicals designed to replicate taste.",
+        "healthConcerns": [
+          "Ultra-processed food marker; encourages overeating"
+        ],
+        "regulatoryStatus": "FDA GRAS"
+      },
+      {
+        "raw": "Olive Extract",
+        "normalized": "olive extract",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Vitamin B12.",
+        "normalized": "vitamin b12.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 285,
+      "totalFat": 29,
+      "saturatedFat": 26,
+      "transFat": 0,
+      "carbohydrates": 11,
+      "sugars": 0,
+      "addedSugars": 0,
+      "fiber": 0,
+      "protein": 0,
+      "sodium": 720,
+      "salt": 1.8
+    },
+    "nutriScore": "E",
+    "nutriScoreScore": 21,
+    "novaGroup": 3,
+    "overallScore": 43,
+    "scoreLabel": "Poor",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:59.497Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:59.497Z",
+    "updatedAt": "2026-11-09T13:38:59.497Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": true,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf3dd8dfea7371dccaf",
+    "barcode": "8906070430629",
+    "name": "Raw Pressery Coconut Milk & Water",
+    "brand": "Raw Pressery",
+    "manufacturer": "Rakyan Beverages Pvt. Ltd.",
+    "category": "Plant-Based Foods",
+    "categorySlug": "plant-based-foods",
+    "subCategory": "Coconut Milk Beverages",
+    "productType": "Plant-Based Drink",
+    "flavour": "Coconut Water & Milk",
+    "packageSize": "200 ml Bottle",
+    "servingSize": "200 ml",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192809_2-raw-pressery-coconut-milk.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Raw Pressery Coconut Milk & Water 200ml",
+    "source": "manual",
+    "sourceUrl": "https://www.rawpressery.com/",
+    "ingredientsText": "Tender Coconut Water (80%), Coconut Milk (20%), Natural Flavours.",
+    "ingredientsList": [
+      {
+        "raw": "Tender Coconut Water (80%)",
+        "normalized": "tender coconut water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Coconut Milk (20%)",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Natural Flavours.",
+        "normalized": "natural flavor",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Flavoring compounds derived from natural food sources.",
+        "healthConcerns": [],
+        "regulatoryStatus": "FDA GRAS"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 45,
+      "totalFat": 2.2,
+      "saturatedFat": 2,
+      "transFat": 0,
+      "carbohydrates": 5.5,
+      "sugars": 4.8,
+      "addedSugars": 0,
+      "fiber": 0.2,
+      "protein": 0.8,
+      "sodium": 38,
+      "salt": 0.1
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 3,
+    "novaGroup": 3,
+    "overallScore": 74,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:38:59.736Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:38:59.736Z",
+    "updatedAt": "2026-11-09T13:38:59.736Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf4dd8dfea7371dccb0",
+    "barcode": "8901063014015",
+    "name": "Britannia 100% Whole Wheat Bread",
+    "brand": "Britannia",
+    "manufacturer": "Britannia Industries Limited",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Whole Wheat Bread",
+    "productType": "Atta Bread",
+    "flavour": "Whole Wheat",
+    "packageSize": "400 g Loaf",
+    "servingSize": "50 g (2 slices)",
+    "imageUrl": "/images/packshots/8901063014015.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40001004_5-britannia-100-whole-wheat-bread.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:00.422Z",
+    "imageVerificationNote": "Official retail packaging photograph of Britannia 100% Whole Wheat Bread 400g",
+    "source": "manual",
+    "sourceUrl": "https://www.britannia.co.in/products/breads",
+    "ingredientsText": "Whole Wheat Flour (Atta) (58%), Water, Sugar, Yeast, Iodised Salt, Edible Vegetable Oil (Soybean Oil), Soya Flour, Emulsifiers (INS 481 i, INS 471), Preservative (INS 282), Acidity Regulator (INS 260), Flour Treatment Agent (INS 1100 i).",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (Atta) (58%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Yeast",
+        "normalized": "yeast",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Edible Vegetable Oil (Soybean Oil)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Soya Flour",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Emulsifiers (INS 481 i, INS 471)",
+        "normalized": "mono- and diglycerides of fatty acids",
+        "riskLevel": "safe",
+        "category": "emulsifier",
+        "description": "Plant-derived food emulsifiers used to blend fats and water, improving dough machinability and biscuit crumb stability.",
+        "healthConcerns": [
+          "Generally safe lipid derivative; may contain traces of trans fats if partially hydrogenated fats were used"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Preservative (INS 282)",
+        "normalized": "INS 282",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 282).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Acidity Regulator (INS 260)",
+        "normalized": "INS 260",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 260).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Flour Treatment Agent (INS 1100 i).",
+        "normalized": "INS 1100 I",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 1100 I).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 245,
+      "totalFat": 2.8,
+      "saturatedFat": 0.8,
+      "transFat": 0,
+      "carbohydrates": 46.5,
+      "sugars": 4.5,
+      "addedSugars": 3.5,
+      "fiber": 6.2,
+      "protein": 8.5,
+      "sodium": 420,
+      "salt": 1.05
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -2,
+    "novaGroup": 4,
+    "overallScore": 68,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Soybeans"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:00.422Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:00.422Z",
+    "updatedAt": "2026-11-09T13:39:00.422Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf4dd8dfea7371dccb1",
+    "barcode": "8906045610015",
+    "name": "English Oven 100% Whole Wheat Atta Bread",
+    "brand": "English Oven",
+    "manufacturer": "Mrs. Bector's Food Specialities Ltd.",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Whole Wheat Bread",
+    "productType": "Atta Brown Bread",
+    "flavour": "Whole Wheat",
+    "packageSize": "400 g Loaf",
+    "servingSize": "50 g (2 slices)",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40009476_5-english-oven-100-whole-wheat-bread.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of English Oven 100% Whole Wheat Bread 400g",
+    "source": "manual",
+    "sourceUrl": "https://www.englishoven.com/",
+    "ingredientsText": "Whole Wheat Flour (Atta) (60%), Water, Yeast, Sugar, Edible Vegetable Oil (Refined Sunflower Oil), Iodised Salt, Malt Extract, Soya Flour, Preservative (INS 282), Flour Treatment Agent (INS 1100).",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (Atta) (60%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Yeast",
+        "normalized": "yeast",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Edible Vegetable Oil (Refined Sunflower Oil)",
+        "normalized": "edible vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Malt Extract",
+        "normalized": "malt extract",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Soya Flour",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Preservative (INS 282)",
+        "normalized": "INS 282",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 282).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Flour Treatment Agent (INS 1100).",
+        "normalized": "INS 1100",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 1100).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 240,
+      "totalFat": 2.5,
+      "saturatedFat": 0.6,
+      "transFat": 0,
+      "carbohydrates": 47,
+      "sugars": 4.2,
+      "addedSugars": 3,
+      "fiber": 6.5,
+      "protein": 8.8,
+      "sodium": 410,
+      "salt": 1.02
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -4,
+    "novaGroup": 4,
+    "overallScore": 72,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Soybeans"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:00.740Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:00.740Z",
+    "updatedAt": "2026-11-09T13:39:00.740Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf5dd8dfea7371dccb2",
+    "barcode": "8901063014022",
+    "name": "Britannia Multigrain Bread",
+    "brand": "Britannia",
+    "manufacturer": "Britannia Industries Limited",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Multigrain Bread",
+    "productType": "Multigrain Seeded Bread",
+    "flavour": "Multigrain",
+    "packageSize": "400 g Loaf",
+    "servingSize": "50 g",
+    "imageUrl": "/images/packshots/8901063014022.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40001005_4-britannia-multigrain-bread.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:01.399Z",
+    "imageVerificationNote": "Official retail packaging photograph of Britannia Multigrain Bread 400g",
+    "source": "manual",
+    "sourceUrl": "https://www.britannia.co.in/products/breads",
+    "ingredientsText": "Whole Wheat Flour (Atta) (45%), Refined Wheat Flour (Maida) (15%), Grains & Seeds (Oats, Flax Seeds, Sesame Seeds, Sunflower Seeds, Soya Grits) (12%), Water, Sugar, Yeast, Edible Vegetable Oil, Iodised Salt.",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (Atta) (45%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Refined Wheat Flour (Maida) (15%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Grains & Seeds (Oats, Flax Seeds, Sesame Seeds, Sunflower Seeds, Soya Grits) (12%)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Yeast",
+        "normalized": "yeast",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Edible Vegetable Oil",
+        "normalized": "edible vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt.",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 260,
+      "totalFat": 4.2,
+      "saturatedFat": 1.1,
+      "transFat": 0,
+      "carbohydrates": 45,
+      "sugars": 4,
+      "addedSugars": 3,
+      "fiber": 7,
+      "protein": 9.5,
+      "sodium": 430,
+      "salt": 1.08
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -2,
+    "novaGroup": 4,
+    "overallScore": 80,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Soybeans",
+      "Sesame Seeds"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:01.399Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:01.399Z",
+    "updatedAt": "2026-11-09T13:39:01.399Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf5dd8dfea7371dccb3",
+    "barcode": "8906105310018",
+    "name": "The Baker's Dozen Country Sourdough Bread",
+    "brand": "The Baker's Dozen",
+    "manufacturer": "Mimansa Industries Pvt. Ltd.",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Sourdough Bread",
+    "productType": "Naturally Fermented Sourdough",
+    "flavour": "Country Sourdough",
+    "packageSize": "300 g Loaf",
+    "servingSize": "50 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192810_2-the-bakers-dozen-country-sourdough.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of The Baker's Dozen Country Sourdough Bread 300g",
+    "source": "manual",
+    "sourceUrl": "https://thebakersdozen.in/",
+    "ingredientsText": "Whole Wheat Flour (Atta), Refined Wheat Flour (Maida), Water, Natural Sourdough Starter Culture, Sea Salt. No added commercial yeast or chemical preservatives.",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (Atta)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Refined Wheat Flour (Maida)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Natural Sourdough Starter Culture",
+        "normalized": "natural sourdough starter culture",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sea Salt. No added commercial yeast or chemical preservatives.",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 235,
+      "totalFat": 1.5,
+      "saturatedFat": 0.3,
+      "transFat": 0,
+      "carbohydrates": 48,
+      "sugars": 1.5,
+      "addedSugars": 0,
+      "fiber": 5.5,
+      "protein": 8.2,
+      "sodium": 390,
+      "salt": 0.98
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -4,
+    "novaGroup": 3,
+    "overallScore": 96,
+    "scoreLabel": "Excellent",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": false,
+    "allergens": [
+      "Gluten / Wheat"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:01.708Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:01.708Z",
+    "updatedAt": "2026-11-09T13:39:01.708Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf6dd8dfea7371dccb4",
+    "barcode": "8906045610022",
+    "name": "English Oven Whole Wheat Burger Buns",
+    "brand": "English Oven",
+    "manufacturer": "Mrs. Bector's Food Specialities Ltd.",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Burger Buns",
+    "productType": "Bakery Buns",
+    "flavour": "Whole Wheat",
+    "packageSize": "200 g Pack (2 pcs)",
+    "servingSize": "100 g (1 bun)",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40009477_4-english-oven-burger-buns.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of English Oven Burger Buns 200g",
+    "source": "manual",
+    "sourceUrl": "https://www.englishoven.com/",
+    "ingredientsText": "Whole Wheat Flour (Atta) (52%), Refined Wheat Flour (Maida) (15%), Water, Yeast, Sugar, Edible Vegetable Oil, Sesame Seeds, Iodised Salt, Soya Flour, Preservative (INS 282).",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (Atta) (52%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Refined Wheat Flour (Maida) (15%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Yeast",
+        "normalized": "yeast",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Edible Vegetable Oil",
+        "normalized": "edible vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sesame Seeds",
+        "normalized": "sesame seeds",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Oilseed and common severe allergen recognized under global labeling regulations.",
+        "healthConcerns": [
+          "Severe anaphylaxis risk in allergic individuals"
+        ],
+        "isAllergen": true,
+        "allergenType": "Sesame",
+        "regulatoryStatus": "Major food allergen (FDA FASTER Act & FSSAI mandatory disclosure)"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Soya Flour",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Preservative (INS 282).",
+        "normalized": "INS 282",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 282).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 265,
+      "totalFat": 3.5,
+      "saturatedFat": 0.9,
+      "transFat": 0,
+      "carbohydrates": 49,
+      "sugars": 5,
+      "addedSugars": 4,
+      "fiber": 5,
+      "protein": 8.5,
+      "sodium": 430,
+      "salt": 1.08
+    },
+    "nutriScore": "A",
+    "nutriScoreScore": -2,
+    "novaGroup": 4,
+    "overallScore": 76,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Sesame Seeds",
+      "Soybeans"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:02.040Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:02.040Z",
+    "updatedAt": "2026-11-09T13:39:02.040Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf7dd8dfea7371dccb5",
+    "barcode": "0024400010115",
+    "name": "Mission Whole Wheat Flour Tortilla Wraps",
+    "brand": "Mission",
+    "manufacturer": "Gruma Corporation",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Tortilla Wraps",
+    "productType": "Flatbread Wraps",
+    "flavour": "Whole Wheat",
+    "packageSize": "360 g Pack (6 wraps)",
+    "servingSize": "60 g (1 wrap)",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://images.openfoodfacts.org/images/products/002/440/001/0115/front_en.11.400.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Mission Whole Wheat Flour Tortillas 360g",
+    "source": "manual",
+    "sourceUrl": "https://www.missionfoods.com/",
+    "ingredientsText": "Whole Wheat Flour (54%), Water, Vegetable Shortening (Palm Oil), Wheat Gluten, Salt, Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch), Preservatives (Calcium Propionate, Potassium Sorbate).",
+    "ingredientsList": [
+      {
+        "raw": "Whole Wheat Flour (54%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Vegetable Shortening (Palm Oil)",
+        "normalized": "palm oil",
+        "riskLevel": "caution",
+        "category": "fat_oil",
+        "description": "High saturated fat vegetable oil. Major ecological driver of tropical deforestation.",
+        "healthConcerns": [
+          "50% saturated palmitic acid",
+          "Environmental and biodiversity impact"
+        ],
+        "isPalmOil": true,
+        "regulatoryStatus": "Permitted globally with labeling requirements"
+      },
+      {
+        "raw": "Wheat Gluten",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch)",
+        "normalized": "sodium bicarbonate",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+        "healthConcerns": [
+          "Source of dietary sodium"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Preservatives (Calcium Propionate, Potassium Sorbate).",
+        "normalized": "preservatives .",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 290,
+      "totalFat": 7,
+      "saturatedFat": 3,
+      "transFat": 0,
+      "carbohydrates": 45,
+      "sugars": 2,
+      "addedSugars": 1,
+      "fiber": 6,
+      "protein": 9,
+      "sodium": 620,
+      "salt": 1.55
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 2,
+    "novaGroup": 3,
+    "overallScore": 78,
+    "scoreLabel": "Good",
+    "hasPalmOil": true,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat"
+    ],
+    "ingredientAlerts": [
+      "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:03.025Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:03.025Z",
+    "updatedAt": "2026-11-09T13:39:03.025Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccf7dd8dfea7371dccb6",
+    "barcode": "8906045610039",
+    "name": "Habibi Fresh White Pita Bread",
+    "brand": "Habibi",
+    "manufacturer": "Habibi Gourmet Foods Pvt. Ltd.",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Pita Bread",
+    "productType": "Middle Eastern Pita Bread",
+    "flavour": "Classic White",
+    "packageSize": "300 g Pack (5 pcs)",
+    "servingSize": "60 g",
+    "imageUrl": "/images/packshots/8906045610039.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192820_2-habibi-pita-bread.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:03.823Z",
+    "imageVerificationNote": "Official retail packaging photograph of Habibi Fresh White Pita Bread 300g",
+    "source": "manual",
+    "sourceUrl": "https://habibigourmet.com/",
+    "ingredientsText": "Refined Wheat Flour (Maida) (70%), Water, Sugar, Yeast, Iodised Salt, Edible Vegetable Oil (Sunflower Oil), Preservative (INS 282).",
+    "ingredientsList": [
+      {
+        "raw": "Refined Wheat Flour (Maida) (70%)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Yeast",
+        "normalized": "yeast",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Edible Vegetable Oil (Sunflower Oil)",
+        "normalized": "edible vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Preservative (INS 282).",
+        "normalized": "INS 282",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 282).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 260,
+      "totalFat": 2,
+      "saturatedFat": 0.5,
+      "transFat": 0,
+      "carbohydrates": 52,
+      "sugars": 3,
+      "addedSugars": 2,
+      "fiber": 2.5,
+      "protein": 8,
+      "sodium": 460,
+      "salt": 1.15
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 1,
+    "novaGroup": 4,
+    "overallScore": 64,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:03.824Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:03.824Z",
+    "updatedAt": "2026-11-09T13:39:03.824Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf8dd8dfea7371dccb7",
+    "barcode": "8901063014039",
+    "name": "Britannia Fruity Fun Veg Cake",
+    "brand": "Britannia",
+    "manufacturer": "Britannia Industries Limited",
+    "category": "Bakery & Breads",
+    "categorySlug": "bakery-breads",
+    "subCategory": "Packaged Cakes & Muffins",
+    "productType": "Packaged Fruit Cake Slice",
+    "flavour": "Fruity Fun",
+    "packageSize": "140 g Pack",
+    "servingSize": "35 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40001006_4-britannia-fruity-fun-veg-cake.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Britannia Fruity Fun Veg Cake 140g",
+    "source": "manual",
+    "sourceUrl": "https://www.britannia.co.in/products/cakes",
+    "ingredientsText": "Refined Wheat Flour (Maida), Sugar, Edible Hydrogenated Vegetable Oil, Candied Papaya Bits (Tutti Frutti) (12%), Invert Sugar Syrup, Milk Solids, Humectants (INS 422, INS 420), Raising Agents (INS 500 ii, INS 541 i), Emulsifiers (INS 471, INS 477), Iodised Salt, Preservative (INS 202).",
+    "ingredientsList": [
+      {
+        "raw": "Refined Wheat Flour (Maida)",
+        "normalized": "wheat",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Cereal grain containing gluten protein.",
+        "healthConcerns": [
+          "Celiac disease trigger",
+          "Wheat allergy",
+          "Gluten sensitivity"
+        ],
+        "isAllergen": true,
+        "allergenType": "Wheat / Gluten",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Edible Hydrogenated Vegetable Oil",
+        "normalized": "edible hydrogenated vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Candied Papaya Bits (Tutti Frutti) (12%)",
+        "normalized": "candied papaya bits",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Invert Sugar Syrup",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Milk Solids",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Humectants (INS 422, INS 420)",
+        "normalized": "INS 422",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 422).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Raising Agents (INS 500 ii, INS 541 i)",
+        "normalized": "sodium bicarbonate",
+        "riskLevel": "safe",
+        "category": "additive",
+        "description": "Common leavening agent that releases carbon dioxide gas upon heating to give biscuits aerated texture.",
+        "healthConcerns": [
+          "Source of dietary sodium"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Emulsifiers (INS 471, INS 477)",
+        "normalized": "mono- and diglycerides of fatty acids",
+        "riskLevel": "safe",
+        "category": "emulsifier",
+        "description": "Plant-derived food emulsifiers used to blend fats and water, improving dough machinability and biscuit crumb stability.",
+        "healthConcerns": [
+          "Generally safe lipid derivative; may contain traces of trans fats if partially hydrogenated fats were used"
+        ],
+        "regulatoryStatus": "FDA GRAS / FSSAI Permitted"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Preservative (INS 202).",
+        "normalized": "INS 202",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 202).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 410,
+      "totalFat": 15,
+      "saturatedFat": 7.5,
+      "transFat": 0.1,
+      "carbohydrates": 64,
+      "sugars": 32,
+      "addedSugars": 28,
+      "fiber": 1.5,
+      "protein": 5,
+      "sodium": 280,
+      "salt": 0.7
+    },
+    "nutriScore": "D",
+    "nutriScoreScore": 18,
+    "novaGroup": 4,
+    "overallScore": 32,
+    "scoreLabel": "Poor",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Gluten / Wheat",
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:04.016Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:04.016Z",
+    "updatedAt": "2026-11-09T13:39:04.016Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf8dd8dfea7371dccb8",
+    "barcode": "8904083307024",
+    "name": "Pintola All Natural Peanut Butter Crunchy",
+    "brand": "Pintola",
+    "manufacturer": "Das Foodtech Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Peanut Butter",
+    "productType": "Natural Nut Butter",
+    "flavour": "Crunchy",
+    "packageSize": "1 kg Tub",
+    "servingSize": "32 g",
+    "imageUrl": "/images/packshots/8904083307024.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192821_2-pintola-all-natural-peanut-butter.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:04.907Z",
+    "imageVerificationNote": "Official retail packaging photograph of Pintola All Natural Peanut Butter Crunchy 1kg",
+    "source": "manual",
+    "sourceUrl": "https://pintola.in/products/all-natural-peanut-butter-crunchy",
+    "ingredientsText": "Roasted Peanuts (100%). Single ingredient, zero added sugar, zero added salt, zero hydrogenated oil.",
+    "ingredientsList": [
+      {
+        "raw": "Roasted Peanuts (100%). Single ingredient",
+        "normalized": "peanuts",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Legume seed causing severe IgE-mediated anaphylactic reactions in sensitive individuals.",
+        "healthConcerns": [
+          "Severe anaphylaxis risk in allergic individuals"
+        ],
+        "isAllergen": true,
+        "allergenType": "Peanuts",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "zero added sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "zero added salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "zero hydrogenated oil.",
+        "normalized": "zero hydrogenated oil.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 625,
+      "totalFat": 50,
+      "saturatedFat": 8.5,
+      "transFat": 0,
+      "carbohydrates": 18,
+      "sugars": 5,
+      "addedSugars": 0,
+      "fiber": 7,
+      "protein": 30,
+      "sodium": 15,
+      "salt": 0.04
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 6,
+    "novaGroup": 4,
+    "overallScore": 66,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Peanuts"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:04.907Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:04.907Z",
+    "updatedAt": "2026-11-09T13:39:04.907Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf9dd8dfea7371dccb9",
+    "barcode": "8906085170038",
+    "name": "The Whole Truth Unsweetened Almond Butter",
+    "brand": "The Whole Truth",
+    "manufacturer": "Fitshit Health Solutions Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Almond Butter",
+    "productType": "Pure Nut Butter",
+    "flavour": "Unsweetened Creamy",
+    "packageSize": "200 g Glass Jar",
+    "servingSize": "30 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192822_2-the-whole-truth-almond-butter.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of The Whole Truth Unsweetened Almond Butter 200g",
+    "source": "manual",
+    "sourceUrl": "https://thewholetruthfoods.com/products/almond-butter",
+    "ingredientsText": "Roasted Almonds (100%). No added sugar, no added oil, no preservatives.",
+    "ingredientsList": [
+      {
+        "raw": "Roasted Almonds (100%). No added sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "no added oil",
+        "normalized": "no added oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "no preservatives.",
+        "normalized": "no preservatives.",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 640,
+      "totalFat": 54,
+      "saturatedFat": 4.8,
+      "transFat": 0,
+      "carbohydrates": 15,
+      "sugars": 4.2,
+      "addedSugars": 0,
+      "fiber": 9.5,
+      "protein": 22,
+      "sodium": 12,
+      "salt": 0.03
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 1,
+    "novaGroup": 4,
+    "overallScore": 76,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Tree Nuts (Almonds)"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:05.143Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:05.143Z",
+    "updatedAt": "2026-11-09T13:39:05.143Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccf9dd8dfea7371dccba",
+    "barcode": "8906045610046",
+    "name": "Wingreens Farms Traditional Hummus",
+    "brand": "Wingreens Farms",
+    "manufacturer": "Wingreens Farms Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Hummus",
+    "productType": "Middle Eastern Dip",
+    "flavour": "Traditional Garlic",
+    "packageSize": "150 g Tub",
+    "servingSize": "30 g",
+    "imageUrl": "/images/packshots/8906045610046.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40019253_4-wingreens-farms-traditional-hummus.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:05.707Z",
+    "imageVerificationNote": "Official retail packaging photograph of Wingreens Farms Traditional Hummus 150g",
+    "source": "manual",
+    "sourceUrl": "https://wingreensfarms.com/products/traditional-hummus",
+    "ingredientsText": "Boiled Chickpeas (62%), Sesame Paste (Tahini) (15%), Water, Edible Vegetable Oil (Sunflower Oil), Olive Oil, Garlic, Iodised Salt, Lemon Juice, Acidity Regulator (INS 330), Preservative (INS 211).",
+    "ingredientsList": [
+      {
+        "raw": "Boiled Chickpeas (62%)",
+        "normalized": "boiled chickpeas",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sesame Paste (Tahini) (15%)",
+        "normalized": "sesame seeds",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Oilseed and common severe allergen recognized under global labeling regulations.",
+        "healthConcerns": [
+          "Severe anaphylaxis risk in allergic individuals"
+        ],
+        "isAllergen": true,
+        "allergenType": "Sesame",
+        "regulatoryStatus": "Major food allergen (FDA FASTER Act & FSSAI mandatory disclosure)"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Edible Vegetable Oil (Sunflower Oil)",
+        "normalized": "edible vegetable oil",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Olive Oil",
+        "normalized": "extra virgin olive oil",
+        "riskLevel": "safe",
+        "category": "fat_oil",
+        "description": "Cold-pressed monounsaturated oil rich in polyphenols and oleic acid.",
+        "healthConcerns": [
+          "Cardioprotective",
+          "Anti-inflammatory antioxidants"
+        ],
+        "regulatoryStatus": "Heart healthy food"
+      },
+      {
+        "raw": "Garlic",
+        "normalized": "garlic",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Lemon Juice",
+        "normalized": "lemon juice",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Acidity Regulator (INS 330)",
+        "normalized": "INS 330",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 330).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Preservative (INS 211).",
+        "normalized": "INS 211",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 211).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 220,
+      "totalFat": 14.5,
+      "saturatedFat": 2.2,
+      "transFat": 0,
+      "carbohydrates": 15,
+      "sugars": 1.5,
+      "addedSugars": 0,
+      "fiber": 5.5,
+      "protein": 7.5,
+      "sodium": 490,
+      "salt": 1.22
+    },
+    "nutriScore": "B",
+    "nutriScoreScore": 0,
+    "novaGroup": 4,
+    "overallScore": 68,
+    "scoreLabel": "Good",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Sesame Seeds"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:05.707Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:05.707Z",
+    "updatedAt": "2026-11-09T13:39:05.707Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": false,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccfadd8dfea7371dccbb",
+    "barcode": "8906069400015",
+    "name": "Veeba Truly Eggless Mayonnaise",
+    "brand": "Veeba",
+    "manufacturer": "VRB Consumer Products Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Mayonnaise",
+    "productType": "Eggless Mayo",
+    "flavour": "Classic Creamy",
+    "packageSize": "250 g Squeeze Bottle",
+    "servingSize": "15 g",
+    "imageUrl": "/images/packshots/8906069400015.jpg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40109852_7-veeba-eggless-mayonnaise.jpg",
+    "imageStatus": "VERIFIED",
+    "imageVerifiedAt": "2026-11-09T13:39:06.319Z",
+    "imageVerificationNote": "Official retail packaging photograph of Veeba Truly Eggless Mayonnaise 250g",
+    "source": "manual",
+    "sourceUrl": "https://veeba.in/products/truly-eggless-mayonnaise",
+    "ingredientsText": "Edible Vegetable Oil (Soybean Oil) (45%), Water, Sugar, Milk Solids, Iodised Salt, Lemon Juice, Thickener (INS 1442, INS 415), Acidity Regulators (INS 260, INS 330), Preservatives (INS 211, INS 202), Antioxidant (INS 319).",
+    "ingredientsList": [
+      {
+        "raw": "Edible Vegetable Oil (Soybean Oil) (45%)",
+        "normalized": "soybeans",
+        "riskLevel": "safe",
+        "category": "grain",
+        "description": "Legume widely used for oil, protein, and emulsifiers.",
+        "healthConcerns": [
+          "Major allergen",
+          "Often genetically modified"
+        ],
+        "isAllergen": true,
+        "allergenType": "Soy",
+        "regulatoryStatus": "Major food allergen requiring mandatory disclosure"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Milk Solids",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Lemon Juice",
+        "normalized": "lemon juice",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Thickener (INS 1442, INS 415)",
+        "normalized": "INS 1442",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 1442).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Acidity Regulators (INS 260, INS 330)",
+        "normalized": "INS 260",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 260).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Preservatives (INS 211, INS 202)",
+        "normalized": "INS 211",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 211).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Antioxidant (INS 319).",
+        "normalized": "tertiary butylhydroquinone",
+        "riskLevel": "caution",
+        "category": "preservative",
+        "description": "Synthetic aromatic organic compound used as an antioxidant to preserve fats and vegetable oils.",
+        "healthConcerns": [
+          "Vision disturbances at high exposures",
+          "Liver effects in animal studies; restricted daily intake"
+        ],
+        "regulatoryStatus": "Strictly limited to 200 ppm in oils (FDA & FSSAI)"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 450,
+      "totalFat": 46,
+      "saturatedFat": 7.8,
+      "transFat": 0.1,
+      "carbohydrates": 8.5,
+      "sugars": 6,
+      "addedSugars": 5,
+      "fiber": 0.2,
+      "protein": 1.5,
+      "sodium": 780,
+      "salt": 1.95
+    },
+    "nutriScore": "E",
+    "nutriScoreScore": 21,
+    "novaGroup": 4,
+    "overallScore": 15,
+    "scoreLabel": "Bad",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy",
+      "Soybeans"
+    ],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:06.320Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:06.320Z",
+    "updatedAt": "2026-11-09T13:39:06.320Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccfadd8dfea7371dccbc",
+    "barcode": "8901063012119",
+    "name": "Britannia The Laughing Cow Roasted Garlic Cheese Spread",
+    "brand": "Britannia",
+    "manufacturer": "Britannia Bel Foods Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Cheese Spreads",
+    "productType": "Processed Cheese Spread",
+    "flavour": "Roasted Garlic",
+    "packageSize": "180 g Tub",
+    "servingSize": "20 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40192823_2-britannia-cheese-spread.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Britannia The Laughing Cow Roasted Garlic Cheese Spread 180g",
+    "source": "manual",
+    "sourceUrl": "https://www.britannia.co.in/products/cheese",
+    "ingredientsText": "Cheddar Cheese, Water, Butter, Milk Solids, Emulsifying Salts (INS 339, INS 452), Roasted Garlic Bits & Powder (2.5%), Iodised Salt, Preservative (INS 200).",
+    "ingredientsList": [
+      {
+        "raw": "Cheddar Cheese",
+        "normalized": "cheddar cheese",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Butter",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Milk Solids",
+        "normalized": "milk",
+        "riskLevel": "safe",
+        "category": "protein",
+        "description": "Bovine dairy products and milk protein fractions.",
+        "healthConcerns": [
+          "Major allergen (dairy allergy)",
+          "Lactose intolerance"
+        ],
+        "isAllergen": true,
+        "allergenType": "Milk / Dairy",
+        "regulatoryStatus": "Major food allergen requiring mandatory bold disclosure"
+      },
+      {
+        "raw": "Emulsifying Salts (INS 339, INS 452)",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Roasted Garlic Bits & Powder (2.5%)",
+        "normalized": "roasted garlic bits & powder",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Preservative (INS 200).",
+        "normalized": "INS 200",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 200).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 275,
+      "totalFat": 23,
+      "saturatedFat": 14.5,
+      "transFat": 0.5,
+      "carbohydrates": 4.8,
+      "sugars": 3.2,
+      "addedSugars": 0,
+      "fiber": 0.3,
+      "protein": 12,
+      "sodium": 890,
+      "salt": 2.2
+    },
+    "nutriScore": "D",
+    "nutriScoreScore": 17,
+    "novaGroup": 3,
+    "overallScore": 60,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [
+      "Milk / Dairy"
+    ],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:06.568Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:06.568Z",
+    "updatedAt": "2026-11-09T13:39:06.568Z",
+    "hasHighSaturatedFat": true,
+    "hasHighSodium": true,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccfadd8dfea7371dccbd",
+    "barcode": "8906069400022",
+    "name": "Veeba Chunky Tomato Salsa Dip",
+    "brand": "Veeba",
+    "manufacturer": "VRB Consumer Products Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Salsa",
+    "productType": "Mexican Salsa Dip",
+    "flavour": "Chunky Tomato",
+    "packageSize": "300 g Glass Jar",
+    "servingSize": "30 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40019318_7-veeba-salsa-dip.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Veeba Chunky Tomato Salsa Dip 300g",
+    "source": "manual",
+    "sourceUrl": "https://veeba.in/products/chunky-salsa",
+    "ingredientsText": "Tomatoes & Tomato Paste (65%), Onion, Green Chilli, Jalapenos, Sugar, Iodised Salt, Herbs and Spices, Acidity Regulator (INS 260), Preservative (INS 211).",
+    "ingredientsList": [
+      {
+        "raw": "Tomatoes & Tomato Paste (65%)",
+        "normalized": "tomatoes & tomato paste",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Onion",
+        "normalized": "onion",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Green Chilli",
+        "normalized": "green chilli",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Jalapenos",
+        "normalized": "jalapenos",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Sugar",
+        "normalized": "cane sugar",
+        "riskLevel": "caution",
+        "category": "sweetener",
+        "description": "Refined caloric simple carbohydrate.",
+        "healthConcerns": [
+          "Dental caries",
+          "High glycemic spike",
+          "Inflammation when consumed in excess"
+        ],
+        "isAddedSugar": true,
+        "regulatoryStatus": "Permitted globally"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Herbs and Spices",
+        "normalized": "herbs and spices",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Acidity Regulator (INS 260)",
+        "normalized": "INS 260",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 260).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Preservative (INS 211).",
+        "normalized": "INS 211",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 211).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 52,
+      "totalFat": 0.4,
+      "saturatedFat": 0.1,
+      "transFat": 0,
+      "carbohydrates": 11,
+      "sugars": 8.5,
+      "addedSugars": 5.5,
+      "fiber": 1.8,
+      "protein": 1.2,
+      "sodium": 680,
+      "salt": 1.7
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 6,
+    "novaGroup": 4,
+    "overallScore": 50,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": true,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [
+      "Contains Added Caloric Sugars / Syrups"
+    ],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:06.792Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:06.792Z",
+    "updatedAt": "2026-11-09T13:39:06.792Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  },
+  {
+    "_id": "6af1ccfbdd8dfea7371dccbe",
+    "barcode": "8901207000115",
+    "name": "Dabur Hommade Ginger Garlic Paste",
+    "brand": "Dabur",
+    "manufacturer": "Dabur India Limited",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Cooking Pastes",
+    "productType": "Cooking Paste",
+    "flavour": "Ginger Garlic",
+    "packageSize": "200 g Pouch",
+    "servingSize": "15 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/104992_9-dabur-hommade-ginger-garlic-paste.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Dabur Hommade Ginger Garlic Paste 200g",
+    "source": "manual",
+    "sourceUrl": "https://www.dabur.com/dabur-hommade-ginger-garlic-paste",
+    "ingredientsText": "Ginger (38%), Garlic (38%), Water, Iodised Salt, Acidity Regulator (INS 296), Stabilizer (INS 415), Preservative (INS 211).",
+    "ingredientsList": [
+      {
+        "raw": "Ginger (38%)",
+        "normalized": "ginger",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Garlic (38%)",
+        "normalized": "garlic",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Iodised Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Acidity Regulator (INS 296)",
+        "normalized": "INS 296",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 296).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Stabilizer (INS 415)",
+        "normalized": "INS 415",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 415).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Preservative (INS 211).",
+        "normalized": "INS 211",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 211).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 65,
+      "totalFat": 0.6,
+      "saturatedFat": 0.1,
+      "transFat": 0,
+      "carbohydrates": 11.5,
+      "sugars": 1.8,
+      "addedSugars": 0,
+      "fiber": 2.8,
+      "protein": 3.2,
+      "sodium": 2100,
+      "salt": 5.25
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 5,
+    "novaGroup": 3,
+    "overallScore": 62,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:07.073Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:07.073Z",
+    "updatedAt": "2026-11-09T13:39:07.073Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": false
+  },
+  {
+    "_id": "6af1ccfbdd8dfea7371dccbf",
+    "barcode": "8901648010012",
+    "name": "Mother's Recipe Mint Chutney",
+    "brand": "Mother's Recipe",
+    "manufacturer": "Desai Foods Pvt. Ltd.",
+    "category": "Spreads, Dips & Sauces",
+    "categorySlug": "spreads-dips-sauces",
+    "subCategory": "Chutneys",
+    "productType": "Ready-to-Eat Chutney",
+    "flavour": "Mint & Coriander",
+    "packageSize": "200 g Pouch",
+    "servingSize": "20 g",
+    "imageUrl": "/images/placeholder-product.svg",
+    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40001007_4-mothers-recipe-mint-chutney.jpg",
+    "imageStatus": "MISSING",
+    "imageVerificationNote": "Official retail packaging photograph of Mother's Recipe Mint Chutney 200g",
+    "source": "manual",
+    "sourceUrl": "https://mothersrecipe.com/product/mint-chutney/",
+    "ingredientsText": "Mint Leaves (35%), Coriander Leaves (20%), Water, Green Chilli, Salt, Lemon Juice, Ginger, Cumin Powder, Acidity Regulator (INS 330), Preservatives (INS 211).",
+    "ingredientsList": [
+      {
+        "raw": "Mint Leaves (35%)",
+        "normalized": "mint leaves",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Coriander Leaves (20%)",
+        "normalized": "coriander leaves",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Water",
+        "normalized": "water",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Green Chilli",
+        "normalized": "green chilli",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Salt",
+        "normalized": "sea salt",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Essential mineral for electrolyte balance and nerve transmission.",
+        "healthConcerns": [
+          "Excessive intake increases risk of hypertension and stroke"
+        ],
+        "regulatoryStatus": "Dietary sodium limit recommended <2,300mg/day"
+      },
+      {
+        "raw": "Lemon Juice",
+        "normalized": "lemon juice",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Ginger",
+        "normalized": "ginger",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Cumin Powder",
+        "normalized": "cumin powder",
+        "riskLevel": "safe",
+        "category": "general",
+        "description": "Standard food ingredient.",
+        "regulatoryStatus": "General food use"
+      },
+      {
+        "raw": "Acidity Regulator (INS 330)",
+        "normalized": "INS 330",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 330).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      },
+      {
+        "raw": "Preservatives (INS 211).",
+        "normalized": "INS 211",
+        "riskLevel": "caution",
+        "category": "additive",
+        "description": "Identified food additive code (INS 211).",
+        "healthConcerns": [
+          "Processed synthetic or chemical additive"
+        ],
+        "regulatoryStatus": "Regulated food additive"
+      }
+    ],
+    "nutritionPer100g": {
+      "calories": 45,
+      "totalFat": 0.5,
+      "saturatedFat": 0.1,
+      "transFat": 0,
+      "carbohydrates": 8,
+      "sugars": 2,
+      "addedSugars": 0,
+      "fiber": 2.5,
+      "protein": 2.1,
+      "sodium": 1800,
+      "salt": 4.5
+    },
+    "nutriScore": "C",
+    "nutriScoreScore": 7,
+    "novaGroup": 4,
+    "overallScore": 54,
+    "scoreLabel": "Moderate",
+    "hasPalmOil": false,
+    "hasAddedSugar": false,
+    "hasArtificialAdditives": true,
+    "allergens": [],
+    "ingredientAlerts": [],
+    "dataCompleteness": 100,
+    "verified": true,
+    "verifiedBy": "FoodDecode Science Team",
+    "verificationDate": "2026-11-09T13:39:07.333Z",
+    "isSample": false,
+    "createdAt": "2026-11-09T13:39:07.333Z",
+    "updatedAt": "2026-11-09T13:39:07.333Z",
+    "hasHighSaturatedFat": false,
+    "hasHighSodium": true,
+    "isUltraProcessed": true
+  }
+]

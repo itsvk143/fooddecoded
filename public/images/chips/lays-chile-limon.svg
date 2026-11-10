@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="50%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#14532d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#4ade80" stroke-width="2"/>
+    
+    <!-- Brand Pill -->
+    <rect x="20" y="16" width="115" height="26" rx="6" fill="#facc15"/>
+    <text x="77" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="900" fill="#14532d" text-anchor="middle">LAY'S</text>
+    
+    <!-- Product Title -->
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff" text-anchor="middle">CHILE LIMON</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#bbf7d0" text-anchor="middle">ZESTY CHILLI & TANGY LIME</text>
+
+    
+    <!-- Crispy Round Potato Chip Slices -->
+    <ellipse cx="120" cy="148" rx="38" ry="28" transform="rotate(-15 120 148)" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <ellipse cx="160" cy="148" rx="38" ry="28" transform="rotate(15 160 148)" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    <ellipse cx="140" cy="154" rx="42" ry="30" fill="url(#chip)" stroke="#a16207" stroke-width="2"/>
+    
+    <!-- Seasoning specks -->
+    <circle cx="125" cy="142" r="2" fill="#166534"/>
+    <circle cx="140" cy="148" r="2.2" fill="#166534"/>
+    <circle cx="155" cy="140" r="1.8" fill="#166534"/>
+    <circle cx="145" cy="160" r="2.4" fill="#166534"/>
+    <circle cx="130" cy="158" r="2" fill="#166534"/>
+    <circle cx="160" cy="155" r="2.2" fill="#166534"/>
+
+    <!-- Feature Badge Pill -->
+    <rect x="20" y="204" width="240" height="22" rx="11" fill="#ecfdf5" stroke="#22c55e" stroke-width="1"/>
+    <text x="140" y="219" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#15803d" text-anchor="middle">SPICY CHILLI • REFRESHING LIME KICK</text>
+  </g>
+</svg>

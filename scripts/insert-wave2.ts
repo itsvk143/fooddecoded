@@ -1,0 +1,31 @@
+import fs from "fs";
+import path from "path";
+import { MongoClient } from "mongodb";
+import { bulkInsertProducts, ProductCandidate } from "./lib/insert-products-helper";
+
+process.loadEnvFile(".env.local");
+const uri = process.env.MONGODB_URI!;
+const dbName = process.env.MONGODB_DB_NAME || "fooddecode";
+
+async function main() {
+  console.log("=== FOODDECODE: INSERTING WAVE 2 PRODUCTS (763 ITEMS) ===");
+  const client = new MongoClient(uri);
+  await client.connect();
+  const db = client.db(dbName);
+
+  const rawData = fs.readFileSync(path.join(process.cwd(), "scripts/data/wave2_candidates.json"), "utf8");
+  const candidates: ProductCandidate[] = JSON.parse(rawData);
+
+  console.log(`Loaded ${candidates.length} candidates.`);
+
+  const result = await bulkInsertProducts(db, candidates, false, 50);
+  console.log("Wave 2 Insertion Result:", result);
+
+  const postCount = await db.collection("products").countDocuments();
+  console.log(`Total products in DB after Wave 2: ${postCount}`);
+
+  await client.close();
+}
+
+main().catch(console.error);
+

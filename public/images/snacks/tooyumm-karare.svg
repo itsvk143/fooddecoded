@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272a"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="curl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#ea580c" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#f97316" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">TOO YUMM!</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#f97316" text-anchor="middle">KARARE</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#fdba74" text-anchor="middle" letter-spacing="1">MUNCHY MASALA • BAKED NOT FRIED</text>
+
+    <!-- Baked crunchy curls -->
+    <path d="M 90 145 Q 115 120 140 145 Q 165 170 190 140" stroke="url(#curl)" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <path d="M 105 160 Q 130 135 155 160 Q 175 180 185 165" stroke="url(#curl)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+    <!-- Spice specks -->
+    <circle cx="120" cy="135" r="2" fill="#ef4444"/>
+    <circle cx="150" cy="155" r="2.5" fill="#ef4444"/>
+    <circle cx="165" cy="145" r="2" fill="#ef4444"/>
+
+    <rect x="35" y="206" width="210" height="20" rx="10" fill="#f97316"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle">100% RICE BRAN OIL • NO PALM OIL</text>
+  </g>
+</svg>

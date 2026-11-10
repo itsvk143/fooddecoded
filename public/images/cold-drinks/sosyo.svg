@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8" />
+      <stop offset="100%" stop-color="#fce7f3" />
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d174d" />
+      <stop offset="40%" stop-color="#831843" />
+      <stop offset="100%" stop-color="#500724" />
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="500" rx="32" fill="url(#bgGrad)" />
+
+  <!-- Ambient Bubbles -->
+  <g opacity="0.35">
+    <circle cx="80" cy="140" r="14" fill="#ffffff" />
+    <circle cx="320" cy="120" r="18" fill="#ffffff" />
+    <circle cx="70" cy="360" r="10" fill="#ffffff" />
+    <circle cx="330" cy="340" r="12" fill="#ffffff" />
+    <circle cx="100" cy="240" r="6" fill="#ffffff" />
+    <circle cx="300" cy="220" r="8" fill="#ffffff" />
+  </g>
+
+  <!-- Main Beverage Vessel Group -->
+  <g filter="url(#dropShadow)">
+    <!-- Glass Bottle Crown Cap -->
+    <rect x="188" y="55" width="24" height="12" rx="3" fill="#831843" stroke="#ffffff" stroke-width="1.5" />
+    <!-- Glass Bottle Neck -->
+    <path d="M 191,67 L 191,130 Q 191,165 145,190 L 145,385 C 145,410 255,410 255,385 L 255,190 Q 209,165 209,130 L 209,67 Z" fill="url(#bodyGrad)" stroke="#f472b6" stroke-width="2" />
+    <path d="M 150,195 L 170,195 L 170,380 C 165,395 150,390 150,380 Z" fill="url(#shineGrad)" />
+
+    <!-- Brand Central Emblem -->
+    <g transform="translate(142, 175)">
+      <rect x="0" y="0" width="116" height="34" rx="8" fill="#f472b6" filter="url(#dropShadow)" />
+      <text x="58" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#500724" text-anchor="middle" letter-spacing="0.5">
+        SOSYO
+      </text>
+    </g>
+
+    <!-- Product Title & Descriptor -->
+    <text x="200" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+      HERITAGE CIDER
+    </text>
+    <text x="200" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#fbcfe8" text-anchor="middle" letter-spacing="1.5">
+      APPLE & GRAPE CIDER SODA
+    </text>
+
+    <!-- Bubbles Stream inside drink -->
+    <g fill="#ffffff" opacity="0.45">
+      <circle cx="185" cy="280" r="3.5" />
+      <circle cx="215" cy="290" r="4.5" />
+      <circle cx="195" cy="315" r="2.5" />
+      <circle cx="210" cy="335" r="3.0" />
+      <circle cx="180" cy="350" r="4.0" />
+      <circle cx="220" cy="365" r="2.5" />
+    </g>
+  </g>
+
+  <!-- Bottom Quality Assurance Ribbon Badge -->
+  <g transform="translate(30, 440)">
+    <rect width="340" height="36" rx="18" fill="#fdf2f8" stroke="#831843" stroke-width="1.5" />
+    <text x="170" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="800" fill="#500724" text-anchor="middle" letter-spacing="1">
+      EST. 1927 • FERMENTED FRUIT CIDER
+    </text>
+  </g>
+</svg>

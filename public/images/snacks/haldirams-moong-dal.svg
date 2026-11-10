@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="50%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#166534" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#86efac" stroke-width="2.5"/>
+    
+    <!-- Haldiram's red lozenge -->
+    <rect x="80" y="20" width="120" height="28" rx="14" fill="#dc2626" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="39" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">Haldiram's</text>
+    
+    <text x="140" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#facc15" text-anchor="middle">MOONG DAL</text>
+    <text x="140" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#bbf7d0" text-anchor="middle">SALTED FRIED YELLOW SPLIT MOONG</text>
+
+    <!-- Mound of yellow split moong lentils -->
+    <ellipse cx="140" cy="148" rx="60" ry="34" fill="#ca8a04" opacity="0.4"/>
+
+    <!-- Crisp yellow moong dal grains -->
+    <ellipse cx="110" cy="138" rx="4" ry="7" transform="rotate(20 110 138)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="125" cy="134" rx="4" ry="7" transform="rotate(-30 125 134)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="140" cy="138" rx="4" ry="7" transform="rotate(45 140 138)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="155" cy="135" rx="4" ry="7" transform="rotate(10 155 135)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="170" cy="140" rx="4" ry="7" transform="rotate(-40 170 140)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+
+    <ellipse cx="105" cy="150" rx="4" ry="7" transform="rotate(-15 105 150)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="120" cy="148" rx="4" ry="7" transform="rotate(60 120 148)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="135" cy="152" rx="4" ry="7" transform="rotate(-10 135 152)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="150" cy="148" rx="4" ry="7" transform="rotate(35 150 148)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="165" cy="152" rx="4" ry="7" transform="rotate(-25 165 152)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+
+    <ellipse cx="115" cy="162" rx="4" ry="7" transform="rotate(40 115 162)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="130" cy="160" rx="4" ry="7" transform="rotate(-30 130 160)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="145" cy="164" rx="4" ry="7" transform="rotate(15 145 164)" fill="#facc15" stroke="#ca8a04" stroke-width="0.8"/>
+    <ellipse cx="160" cy="160" rx="4" ry="7" transform="rotate(-50 160 160)" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#facc15"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#14532d" text-anchor="middle">21.2% PROTEIN • ONLY 3 INGREDIENTS</text>
+  </g>
+</svg>

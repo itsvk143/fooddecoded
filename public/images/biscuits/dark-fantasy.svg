@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1215"/>
+      <stop offset="100%" stop-color="#120507"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#421a1f"/>
+      <stop offset="50%" stop-color="#210a0e"/>
+      <stop offset="100%" stop-color="#0a0204"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0"/>
+      <stop offset="50%" stop-color="#dfaa35"/>
+      <stop offset="100%" stop-color="#9a6e14"/>
+    </linearGradient>
+    <linearGradient id="chocoLava" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a2215"/>
+      <stop offset="100%" stop-color="#2a0d06"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#dfaa35" stroke-width="1.5"/>
+    
+    <text x="140" y="36" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" fill="#dfaa35" text-anchor="middle" letter-spacing="3">SUNFEAST</text>
+    <text x="140" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="url(#goldText)" text-anchor="middle" letter-spacing="1">DARK FANTASY</text>
+    <text x="140" y="86" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#f58220" text-anchor="middle" letter-spacing="2">CHOCO FILLS</text>
+
+    <!-- Cookie graphic with molten heart -->
+    <ellipse cx="140" cy="155" rx="76" ry="46" fill="#381912" stroke="#dfaa35" stroke-width="1"/>
+    <!-- Lava core -->
+    <ellipse cx="140" cy="155" rx="42" ry="24" fill="url(#chocoLava)" stroke="#742f1b" stroke-width="2"/>
+    <ellipse cx="140" cy="153" rx="20" ry="10" fill="#1c0702"/>
+
+    <rect x="45" y="212" width="190" height="18" rx="9" fill="#2b0d12" stroke="#dfaa35" stroke-width="1"/>
+    <text x="140" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#ffd77a" text-anchor="middle">MOLTEN CHOCOLATE CENTRE</text>
+  </g>
+</svg>

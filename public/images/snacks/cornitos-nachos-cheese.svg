@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="pack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="50%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="nacho" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#064e3b" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)" transform="translate(60, 75)">
+    <rect x="0" y="0" width="280" height="240" rx="20" fill="url(#pack)" stroke="#fbbf24" stroke-width="2"/>
+    
+    <text x="140" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#facc15" text-anchor="middle" letter-spacing="2">CORNITOS</text>
+    <text x="140" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#ffffff" text-anchor="middle">NACHO CRISPS</text>
+    <text x="140" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">CHEESE &amp; HERBS • GLUTEN FREE</text>
+
+    <!-- Triangular Nacho Tortilla Chips -->
+    <polygon points="140,105 190,178 90,178" fill="url(#nacho)" stroke="#b45309" stroke-width="2"/>
+    <polygon points="120,118 165,182 75,182" fill="url(#nacho)" stroke="#b45309" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Herb specks (oregano, parsley) -->
+    <circle cx="135" cy="140" r="2" fill="#15803d"/>
+    <circle cx="150" cy="148" r="2.5" fill="#15803d"/>
+    <circle cx="125" cy="160" r="2" fill="#15803d"/>
+    <circle cx="145" cy="165" r="2" fill="#15803d"/>
+    <circle cx="160" cy="162" r="2.5" fill="#15803d"/>
+
+    <rect x="40" y="206" width="200" height="20" rx="10" fill="#facc15"/>
+    <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900" fill="#064e3b" text-anchor="middle">70% CORN • CHEDDAR CHEESE</text>
+  </g>
+</svg>
