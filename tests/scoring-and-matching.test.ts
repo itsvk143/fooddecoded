@@ -1160,4 +1160,38 @@ test("Kids' Cereals Catalogue: Contains 210 products with unique IDs, barcodes a
   }
 });
 
+test("Global Cold Drinks Catalogue: Contains 500 products with unique IDs, barcodes and packshots", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const coldDrinks = products.filter((p) => p.productId && p.productId.startsWith("CLD-"));
+  assert.equal(coldDrinks.length, 500, `Expected exactly 500 CLD- products, got ${coldDrinks.length}`);
+
+  // Check unique barcodes
+  const barcodes = new Set(coldDrinks.map((p) => p.barcode));
+  assert.equal(barcodes.size, 500, "All 500 Cold Drinks barcodes must be strictly unique");
+
+  // Check unique product IDs
+  const productIds = new Set(coldDrinks.map((p) => p.productId));
+  assert.equal(productIds.size, 500, "All 500 CLD- IDs must be strictly unique");
+
+  // Check key brands representation
+  const brands = new Set(coldDrinks.map((p) => p.brand));
+  const expectedBrands = [
+    "Coca-Cola", "Pepsi", "PepsiCo", "Red Bull", "Monster Energy",
+    "Gatorade", "Vita Coco", "Bisleri", "Amul", "Simply", "Fever-Tree"
+  ];
+  for (const b of expectedBrands) {
+    assert.ok(brands.has(b), `Cold Drinks catalogue must contain brand: ${b}`);
+  }
+
+  // Ensure category and subcategories
+  for (const p of coldDrinks) {
+    assert.equal(p.category, "Cold Drinks", `Product ${p.name} category must be Cold Drinks`);
+    assert.ok(p.subCategory, `Product ${p.name} must have a valid subCategory`);
+    assert.ok(p.imageUrl && !p.imageUrl.endsWith(".svg"), `Product ${p.name} must have a non-SVG packshot`);
+  }
+});
+
+
 

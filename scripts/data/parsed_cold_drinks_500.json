@@ -1,0 +1,3502 @@
+[
+  {
+    "number": 1,
+    "name": "Coca-Cola Original",
+    "brand": "Coca-Cola",
+    "details": "Classic cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 2,
+    "name": "Diet Coke",
+    "brand": "Coca-Cola",
+    "details": "Sugar-free cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 3,
+    "name": "Coca-Cola Zero Sugar",
+    "brand": "Coca-Cola",
+    "details": "Zero-sugar cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 4,
+    "name": "Coca-Cola Cherry",
+    "brand": "Coca-Cola",
+    "details": "Cherry cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 5,
+    "name": "Coca-Cola Vanilla",
+    "brand": "Coca-Cola",
+    "details": "Vanilla cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 6,
+    "name": "Coca-Cola Lemon",
+    "brand": "Coca-Cola",
+    "details": "Lemon cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 7,
+    "name": "Thums Up",
+    "brand": "Coca-Cola",
+    "details": "Strong cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 8,
+    "name": "Thums Up X Force",
+    "brand": "Coca-Cola",
+    "details": "Strong cola variant",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 9,
+    "name": "Sprite",
+    "brand": "Coca-Cola",
+    "details": "Lemon-lime soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 10,
+    "name": "Sprite Zero Sugar",
+    "brand": "Coca-Cola",
+    "details": "Sugar-free lemon-lime",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 11,
+    "name": "Sprite Lemon+",
+    "brand": "Coca-Cola",
+    "details": "Lemon-flavoured soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 12,
+    "name": "Fanta Orange",
+    "brand": "Coca-Cola",
+    "details": "Orange soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 13,
+    "name": "Fanta Green Apple",
+    "brand": "Coca-Cola",
+    "details": "Green apple soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 14,
+    "name": "Fanta Strawberry",
+    "brand": "Coca-Cola",
+    "details": "Strawberry soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 15,
+    "name": "Fanta Grape",
+    "brand": "Coca-Cola",
+    "details": "Grape soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 16,
+    "name": "Fanta Pineapple",
+    "brand": "Coca-Cola",
+    "details": "Pineapple soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 17,
+    "name": "Limca",
+    "brand": "Coca-Cola",
+    "details": "Lemon-lime drink",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 18,
+    "name": "RimZim Jeera",
+    "brand": "Coca-Cola",
+    "details": "Cumin-flavoured soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 19,
+    "name": "Schweppes Indian Tonic Water",
+    "brand": "Schweppes",
+    "details": "Tonic water",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 20,
+    "name": "Schweppes Ginger Ale",
+    "brand": "Schweppes",
+    "details": "Ginger soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 21,
+    "name": "Schweppes Soda Water",
+    "brand": "Schweppes",
+    "details": "Carbonated water",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 22,
+    "name": "Schweppes Bitter Lemon",
+    "brand": "Schweppes",
+    "details": "Bitter lemon soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 23,
+    "name": "Schweppes Club Soda",
+    "brand": "Schweppes",
+    "details": "Soda water",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 24,
+    "name": "Pepsi",
+    "brand": "Pepsi",
+    "details": "Classic cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 25,
+    "name": "Pepsi Black",
+    "brand": "Pepsi",
+    "details": "Zero-sugar cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 26,
+    "name": "Diet Pepsi",
+    "brand": "Pepsi",
+    "details": "Diet cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 27,
+    "name": "Pepsi Wild Cherry",
+    "brand": "Pepsi",
+    "details": "Cherry cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 28,
+    "name": "Pepsi Vanilla",
+    "brand": "Pepsi",
+    "details": "Vanilla cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 29,
+    "name": "Pepsi Lime",
+    "brand": "Pepsi",
+    "details": "Lime cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 30,
+    "name": "Mountain Dew",
+    "brand": "PepsiCo",
+    "details": "Citrus soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 31,
+    "name": "Mountain Dew Code Red",
+    "brand": "PepsiCo",
+    "details": "Cherry citrus soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 32,
+    "name": "Mountain Dew Voltage",
+    "brand": "PepsiCo",
+    "details": "Raspberry citrus soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 33,
+    "name": "Mountain Dew Baja Blast",
+    "brand": "PepsiCo",
+    "details": "Tropical lime soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 34,
+    "name": "Mountain Dew Major Melon",
+    "brand": "PepsiCo",
+    "details": "Watermelon soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 35,
+    "name": "7UP",
+    "brand": "PepsiCo",
+    "details": "Lemon-lime soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 36,
+    "name": "7UP Zero Sugar",
+    "brand": "PepsiCo",
+    "details": "Sugar-free lemon-lime",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 37,
+    "name": "Mirinda Orange",
+    "brand": "PepsiCo",
+    "details": "Orange soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 38,
+    "name": "Mirinda Green Apple",
+    "brand": "PepsiCo",
+    "details": "Apple soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 39,
+    "name": "Mirinda Strawberry",
+    "brand": "PepsiCo",
+    "details": "Strawberry soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 40,
+    "name": "Sting Energy",
+    "brand": "PepsiCo",
+    "details": "Carbonated energy drink",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 41,
+    "name": "Dr Pepper",
+    "brand": "Keurig Dr Pepper",
+    "details": "Spiced fruit cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 42,
+    "name": "Dr Pepper Zero Sugar",
+    "brand": "Keurig Dr Pepper",
+    "details": "Zero-sugar cola",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 43,
+    "name": "Dr Pepper Cherry",
+    "brand": "Keurig Dr Pepper",
+    "details": "Cherry-flavoured soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 44,
+    "name": "Dr Pepper Cream Soda",
+    "brand": "Keurig Dr Pepper",
+    "details": "Cream soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 45,
+    "name": "Sprite Cherry",
+    "brand": "Coca-Cola",
+    "details": "Cherry lemon-lime soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 46,
+    "name": "A&W Root Beer",
+    "brand": "A&W",
+    "details": "Root beer",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 47,
+    "name": "A&W Cream Soda",
+    "brand": "A&W",
+    "details": "Cream soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 48,
+    "name": "Mug Root Beer",
+    "brand": "PepsiCo",
+    "details": "Root beer",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 49,
+    "name": "Barq's Root Beer",
+    "brand": "Coca-Cola",
+    "details": "Root beer",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 50,
+    "name": "Barq's Red Creme Soda",
+    "brand": "Coca-Cola",
+    "details": "Red cream soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 51,
+    "name": "Crush Orange",
+    "brand": "Keurig Dr Pepper",
+    "details": "Orange soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 52,
+    "name": "Crush Grape",
+    "brand": "Keurig Dr Pepper",
+    "details": "Grape soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 53,
+    "name": "Crush Strawberry",
+    "brand": "Keurig Dr Pepper",
+    "details": "Strawberry soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 54,
+    "name": "Crush Pineapple",
+    "brand": "Keurig Dr Pepper",
+    "details": "Pineapple soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 55,
+    "name": "Sunkist Orange",
+    "brand": "Keurig Dr Pepper",
+    "details": "Orange soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 56,
+    "name": "Sunkist Zero Sugar",
+    "brand": "Keurig Dr Pepper",
+    "details": "Sugar-free orange",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 57,
+    "name": "Fanta Lemon",
+    "brand": "Coca-Cola",
+    "details": "Lemon soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 58,
+    "name": "Fanta Exotic",
+    "brand": "Coca-Cola",
+    "details": "Tropical fruit soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 59,
+    "name": "Fanta Berry",
+    "brand": "Coca-Cola",
+    "details": "Berry soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 60,
+    "name": "Fanta Peach",
+    "brand": "Coca-Cola",
+    "details": "Peach soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 61,
+    "name": "Canada Dry Ginger Ale",
+    "brand": "Canada Dry",
+    "details": "Ginger soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 62,
+    "name": "Canada Dry Tonic Water",
+    "brand": "Canada Dry",
+    "details": "Tonic water",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 63,
+    "name": "Vernors Ginger Ale",
+    "brand": "Vernors",
+    "details": "Ginger soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 64,
+    "name": "Squirt",
+    "brand": "Keurig Dr Pepper",
+    "details": "Grapefruit soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 65,
+    "name": "Fresca",
+    "brand": "Coca-Cola",
+    "details": "Grapefruit citrus soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 66,
+    "name": "Jarritos Mandarin",
+    "brand": "Jarritos",
+    "details": "Mandarin soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 67,
+    "name": "Jarritos Lime",
+    "brand": "Jarritos",
+    "details": "Lime soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 68,
+    "name": "Jarritos Guava",
+    "brand": "Jarritos",
+    "details": "Guava soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 69,
+    "name": "Jarritos Tamarind",
+    "brand": "Jarritos",
+    "details": "Tamarind soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 70,
+    "name": "Jarritos Pineapple",
+    "brand": "Jarritos",
+    "details": "Pineapple soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 71,
+    "name": "Bundaberg Ginger Beer",
+    "brand": "Bundaberg",
+    "details": "Ginger beverage",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 72,
+    "name": "Bundaberg Lemon Lime & Bitters",
+    "brand": "Bundaberg",
+    "details": "Citrus bitters soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 73,
+    "name": "Sanpellegrino Aranciata",
+    "brand": "Sanpellegrino",
+    "details": "Italian orange soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 74,
+    "name": "Sanpellegrino Limonata",
+    "brand": "Sanpellegrino",
+    "details": "Italian lemon soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 75,
+    "name": "Sanpellegrino Chinotto",
+    "brand": "Sanpellegrino",
+    "details": "Bitter citrus soda",
+    "section": "Carbonated Soft Drinks"
+  },
+  {
+    "number": 76,
+    "name": "Maaza Mango",
+    "brand": "Maaza",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 77,
+    "name": "Maaza Guava",
+    "brand": "Maaza",
+    "details": "Guava drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 78,
+    "name": "Slice Mango",
+    "brand": "Slice",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 79,
+    "name": "Frooti Mango",
+    "brand": "Frooti",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 80,
+    "name": "Appy Fizz",
+    "brand": "Appy Fizz",
+    "details": "Sparkling apple drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 81,
+    "name": "B Natural Mango",
+    "brand": "ITC B Natural",
+    "details": "Mango juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 82,
+    "name": "B Natural Mixed Fruit",
+    "brand": "ITC B Natural",
+    "details": "Mixed fruit juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 83,
+    "name": "B Natural Orange",
+    "brand": "ITC B Natural",
+    "details": "Orange juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 84,
+    "name": "B Natural Pomegranate",
+    "brand": "ITC B Natural",
+    "details": "Pomegranate juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 85,
+    "name": "B Natural Guava",
+    "brand": "ITC B Natural",
+    "details": "Guava juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 86,
+    "name": "Real Mango",
+    "brand": "Real",
+    "details": "Mango juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 87,
+    "name": "Real Orange",
+    "brand": "Real",
+    "details": "Orange juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 88,
+    "name": "Real Apple",
+    "brand": "Real",
+    "details": "Apple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 89,
+    "name": "Real Mixed Fruit",
+    "brand": "Real",
+    "details": "Mixed fruit juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 90,
+    "name": "Real Pomegranate",
+    "brand": "Real",
+    "details": "Pomegranate juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 91,
+    "name": "Real Guava",
+    "brand": "Real",
+    "details": "Guava juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 92,
+    "name": "Real Litchi",
+    "brand": "Real",
+    "details": "Litchi juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 93,
+    "name": "Real Pineapple",
+    "brand": "Real",
+    "details": "Pineapple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 94,
+    "name": "Real Cranberry",
+    "brand": "Real",
+    "details": "Cranberry beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 95,
+    "name": "Real Coconut Water",
+    "brand": "Real Activ",
+    "details": "Coconut water",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 96,
+    "name": "Tropicana Orange",
+    "brand": "Tropicana",
+    "details": "Orange juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 97,
+    "name": "Tropicana Apple",
+    "brand": "Tropicana",
+    "details": "Apple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 98,
+    "name": "Tropicana Mixed Fruit",
+    "brand": "Tropicana",
+    "details": "Mixed fruit juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 99,
+    "name": "Tropicana Mango",
+    "brand": "Tropicana",
+    "details": "Mango juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 100,
+    "name": "Tropicana Pomegranate",
+    "brand": "Tropicana",
+    "details": "Pomegranate juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 101,
+    "name": "Tropicana Guava",
+    "brand": "Tropicana",
+    "details": "Guava juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 102,
+    "name": "Tropicana Pineapple",
+    "brand": "Tropicana",
+    "details": "Pineapple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 103,
+    "name": "Tropicana Litchi",
+    "brand": "Tropicana",
+    "details": "Litchi juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 104,
+    "name": "Paper Boat Aamras",
+    "brand": "Paper Boat",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 105,
+    "name": "Paper Boat Swing",
+    "brand": "Paper Boat",
+    "details": "Mixed fruit drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 106,
+    "name": "Paper Boat Chilli Guava",
+    "brand": "Paper Boat",
+    "details": "Spiced guava drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 107,
+    "name": "Paper Boat Coconut Water",
+    "brand": "Paper Boat",
+    "details": "Coconut water",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 108,
+    "name": "Paper Boat Anar",
+    "brand": "Paper Boat",
+    "details": "Pomegranate drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 109,
+    "name": "Paper Boat Lychee",
+    "brand": "Paper Boat",
+    "details": "Litchi drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 110,
+    "name": "Paper Boat Jamun Kala Khatta",
+    "brand": "Paper Boat",
+    "details": "Jamun-based drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 111,
+    "name": "Paper Boat Aam Panna",
+    "brand": "Paper Boat",
+    "details": "Raw mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 112,
+    "name": "Paper Boat Jaljeera",
+    "brand": "Paper Boat",
+    "details": "Spiced cumin drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 113,
+    "name": "Paper Boat Kokum",
+    "brand": "Paper Boat",
+    "details": "Kokum drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 114,
+    "name": "Paper Boat Thandai",
+    "brand": "Paper Boat",
+    "details": "Traditional milk drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 115,
+    "name": "Paper Boat Rose Tamarind",
+    "brand": "Paper Boat",
+    "details": "Rose and tamarind drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 116,
+    "name": "Minute Maid Pulpy Orange",
+    "brand": "Minute Maid",
+    "details": "Orange pulp drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 117,
+    "name": "Minute Maid Nimbu Fresh",
+    "brand": "Minute Maid",
+    "details": "Lemon drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 118,
+    "name": "Minute Maid Apple",
+    "brand": "Minute Maid",
+    "details": "Apple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 119,
+    "name": "Minute Maid Mixed Fruit",
+    "brand": "Minute Maid",
+    "details": "Mixed fruit drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 120,
+    "name": "Minute Maid Guava",
+    "brand": "Minute Maid",
+    "details": "Guava drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 121,
+    "name": "Minute Maid Mango",
+    "brand": "Minute Maid",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 122,
+    "name": "Minute Maid Mosambi",
+    "brand": "Minute Maid",
+    "details": "Sweet lime drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 123,
+    "name": "Minute Maid Coconut Water",
+    "brand": "Minute Maid",
+    "details": "Coconut water",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 124,
+    "name": "Dabur Real Activ Pomegranate",
+    "brand": "Real Activ",
+    "details": "Pomegranate juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 125,
+    "name": "Dabur Real Activ Orange",
+    "brand": "Real Activ",
+    "details": "Orange juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 126,
+    "name": "Dabur Real Activ Apple",
+    "brand": "Real Activ",
+    "details": "Apple juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 127,
+    "name": "Dabur Real Activ Beetroot",
+    "brand": "Real Activ",
+    "details": "Beetroot beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 128,
+    "name": "Patanjali Amla Juice",
+    "brand": "Patanjali",
+    "details": "Amla beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 129,
+    "name": "Patanjali Aloe Vera Juice",
+    "brand": "Patanjali",
+    "details": "Aloe vera beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 130,
+    "name": "Patanjali Mango Drink",
+    "brand": "Patanjali",
+    "details": "Mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 131,
+    "name": "Patanjali Orange Drink",
+    "brand": "Patanjali",
+    "details": "Orange drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 132,
+    "name": "Patanjali Mixed Fruit Juice",
+    "brand": "Patanjali",
+    "details": "Mixed fruit juice",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 133,
+    "name": "Rasna Orange",
+    "brand": "Rasna",
+    "details": "Orange concentrate drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 134,
+    "name": "Rasna Mango",
+    "brand": "Rasna",
+    "details": "Mango concentrate drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 135,
+    "name": "Rasna Pineapple",
+    "brand": "Rasna",
+    "details": "Pineapple concentrate drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 136,
+    "name": "Rasna Nimbu Pani",
+    "brand": "Rasna",
+    "details": "Lemon drink concentrate",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 137,
+    "name": "Rasna Fruit Punch",
+    "brand": "Rasna",
+    "details": "Mixed fruit concentrate",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 138,
+    "name": "Lahori Zeera",
+    "brand": "Lahori",
+    "details": "Cumin-flavoured soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 139,
+    "name": "Lahori Nimboo",
+    "brand": "Lahori",
+    "details": "Lemon soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 140,
+    "name": "Lahori Shikanji",
+    "brand": "Lahori",
+    "details": "Indian lemonade",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 141,
+    "name": "Lahori Kacha Aam",
+    "brand": "Lahori",
+    "details": "Raw mango drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 142,
+    "name": "Goli Soda",
+    "brand": "Goli Soda",
+    "details": "Traditional fizzy drink",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 143,
+    "name": "Bovonto",
+    "brand": "Kali Mark",
+    "details": "Grape-flavoured soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 144,
+    "name": "Bovonto Strong",
+    "brand": "Kali Mark",
+    "details": "Strong grape soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 145,
+    "name": "Bovonto Blueberry",
+    "brand": "Kali Mark",
+    "details": "Blueberry soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 146,
+    "name": "Sosyo",
+    "brand": "Hajoori",
+    "details": "Fruit-flavoured soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 147,
+    "name": "Kashmira Jeera Masala",
+    "brand": "Kashmira",
+    "details": "Cumin soda",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 148,
+    "name": "Xalta",
+    "brand": "Xalta",
+    "details": "Fruit-flavoured beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 149,
+    "name": "Storia Coconut Water",
+    "brand": "Storia",
+    "details": "Coconut water",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 150,
+    "name": "Storia Mango Juice",
+    "brand": "Storia",
+    "details": "Mango beverage",
+    "section": "Indian Fruit Drinks and Juices"
+  },
+  {
+    "number": 151,
+    "name": "Red Bull Original",
+    "brand": "Red Bull",
+    "details": "Classic energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 152,
+    "name": "Red Bull Sugarfree",
+    "brand": "Red Bull",
+    "details": "Sugar-free energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 153,
+    "name": "Red Bull Zero",
+    "brand": "Red Bull",
+    "details": "Zero-sugar energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 154,
+    "name": "Red Bull Blue Edition",
+    "brand": "Red Bull",
+    "details": "Blueberry flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 155,
+    "name": "Red Bull Red Edition",
+    "brand": "Red Bull",
+    "details": "Watermelon flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 156,
+    "name": "Red Bull Yellow Edition",
+    "brand": "Red Bull",
+    "details": "Tropical flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 157,
+    "name": "Red Bull Green Edition",
+    "brand": "Red Bull",
+    "details": "Curuba elderflower flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 158,
+    "name": "Red Bull Apricot Edition",
+    "brand": "Red Bull",
+    "details": "Apricot and strawberry",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 159,
+    "name": "Red Bull Coconut Edition",
+    "brand": "Red Bull",
+    "details": "Coconut and berry",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 160,
+    "name": "Red Bull Peach Edition",
+    "brand": "Red Bull",
+    "details": "Peach flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 161,
+    "name": "Monster Original",
+    "brand": "Monster Energy",
+    "details": "Classic energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 162,
+    "name": "Monster Ultra White",
+    "brand": "Monster Energy",
+    "details": "Zero-sugar citrus",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 163,
+    "name": "Monster Ultra Paradise",
+    "brand": "Monster Energy",
+    "details": "Kiwi and lime",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 164,
+    "name": "Monster Ultra Violet",
+    "brand": "Monster Energy",
+    "details": "Grape and citrus",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 165,
+    "name": "Monster Ultra Rosa",
+    "brand": "Monster Energy",
+    "details": "Pink fruit flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 166,
+    "name": "Monster Ultra Blue",
+    "brand": "Monster Energy",
+    "details": "Blue citrus flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 167,
+    "name": "Monster Mango Loco",
+    "brand": "Monster Energy",
+    "details": "Mango and tropical fruit",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 168,
+    "name": "Monster Pipeline Punch",
+    "brand": "Monster Energy",
+    "details": "Passion fruit and orange",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 169,
+    "name": "Monster Pacific Punch",
+    "brand": "Monster Energy",
+    "details": "Fruit punch",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 170,
+    "name": "Monster Ultra Sunrise",
+    "brand": "Monster Energy",
+    "details": "Orange citrus",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 171,
+    "name": "Monster Ultra Fiesta Mango",
+    "brand": "Monster Energy",
+    "details": "Mango flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 172,
+    "name": "Monster Ultra Gold",
+    "brand": "Monster Energy",
+    "details": "Pineapple flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 173,
+    "name": "Monster Ultra Peachy Keen",
+    "brand": "Monster Energy",
+    "details": "Peach flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 174,
+    "name": "Monster Ultra Strawberry Dreams",
+    "brand": "Monster Energy",
+    "details": "Strawberry flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 175,
+    "name": "Monster Nitro Super Dry",
+    "brand": "Monster Energy",
+    "details": "Citrus energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 176,
+    "name": "Monster Assault",
+    "brand": "Monster Energy",
+    "details": "Citrus and cola",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 177,
+    "name": "Monster Lewis Hamilton",
+    "brand": "Monster Energy",
+    "details": "Special edition energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 178,
+    "name": "Monster Java Mean Bean",
+    "brand": "Monster Energy",
+    "details": "Coffee energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 179,
+    "name": "Monster Java Loca Moca",
+    "brand": "Monster Energy",
+    "details": "Mocha coffee drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 180,
+    "name": "Monster Rehab Tea + Lemonade",
+    "brand": "Monster Energy",
+    "details": "Tea-based energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 181,
+    "name": "Rockstar Original",
+    "brand": "Rockstar",
+    "details": "Original energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 182,
+    "name": "Rockstar Sugar Free",
+    "brand": "Rockstar",
+    "details": "Sugar-free energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 183,
+    "name": "Rockstar Punched Fruit Punch",
+    "brand": "Rockstar",
+    "details": "Fruit punch",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 184,
+    "name": "Rockstar Recovery Orange",
+    "brand": "Rockstar",
+    "details": "Orange energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 185,
+    "name": "Rockstar Pure Zero Silver Ice",
+    "brand": "Rockstar",
+    "details": "Zero-sugar citrus",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 186,
+    "name": "Rockstar XDurance Blueberry",
+    "brand": "Rockstar",
+    "details": "Blueberry energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 187,
+    "name": "Rockstar Punched Mango Orange Passion Fruit",
+    "brand": "Rockstar",
+    "details": "Tropical fruit",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 188,
+    "name": "Rockstar Boom Whipped Strawberry",
+    "brand": "Rockstar",
+    "details": "Strawberry cream flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 189,
+    "name": "NOS Original",
+    "brand": "NOS",
+    "details": "Citrus energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 190,
+    "name": "NOS Zero Sugar",
+    "brand": "NOS",
+    "details": "Sugar-free energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 191,
+    "name": "Bang Rainbow Unicorn",
+    "brand": "Bang Energy",
+    "details": "Candy fruit flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 192,
+    "name": "Bang Blue Razz",
+    "brand": "Bang Energy",
+    "details": "Blue raspberry",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 193,
+    "name": "Bang Peach Mango",
+    "brand": "Bang Energy",
+    "details": "Peach and mango",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 194,
+    "name": "Bang Black Cherry Vanilla",
+    "brand": "Bang Energy",
+    "details": "Cherry vanilla",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 195,
+    "name": "Bang Sour Heads",
+    "brand": "Bang Energy",
+    "details": "Sour apple",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 196,
+    "name": "Bang Cotton Candy",
+    "brand": "Bang Energy",
+    "details": "Cotton candy",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 197,
+    "name": "Reign White Gummy Bear",
+    "brand": "Reign",
+    "details": "Gummy bear flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 198,
+    "name": "Reign Melon Mania",
+    "brand": "Reign",
+    "details": "Watermelon flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 199,
+    "name": "Reign Razzle Berry",
+    "brand": "Reign",
+    "details": "Raspberry berry",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 200,
+    "name": "Reign Orange Dreamsicle",
+    "brand": "Reign",
+    "details": "Orange cream",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 201,
+    "name": "Hell Classic",
+    "brand": "Hell Energy",
+    "details": "Classic energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 202,
+    "name": "Hell Strong",
+    "brand": "Hell Energy",
+    "details": "Strong energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 203,
+    "name": "Hell Zero",
+    "brand": "Hell Energy",
+    "details": "Sugar-free energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 204,
+    "name": "Hell Apple",
+    "brand": "Hell Energy",
+    "details": "Apple flavour",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 205,
+    "name": "Hell Focus",
+    "brand": "Hell Energy",
+    "details": "Focus energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 206,
+    "name": "Prime Energy Blue Raspberry",
+    "brand": "Prime",
+    "details": "Blue raspberry energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 207,
+    "name": "Prime Energy Tropical Punch",
+    "brand": "Prime",
+    "details": "Tropical punch",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 208,
+    "name": "Celsius Sparkling Orange",
+    "brand": "Celsius",
+    "details": "Orange energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 209,
+    "name": "Celsius Peach Vibe",
+    "brand": "Celsius",
+    "details": "Peach energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 210,
+    "name": "Celsius Tropical Vibe",
+    "brand": "Celsius",
+    "details": "Tropical energy drink",
+    "section": "Energy Drinks"
+  },
+  {
+    "number": 211,
+    "name": "Lipton Ice Tea Lemon",
+    "brand": "Lipton",
+    "details": "Lemon iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 212,
+    "name": "Lipton Ice Tea Peach",
+    "brand": "Lipton",
+    "details": "Peach iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 213,
+    "name": "Lipton Ice Tea Green",
+    "brand": "Lipton",
+    "details": "Green tea drink",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 214,
+    "name": "Lipton Ice Tea Mango",
+    "brand": "Lipton",
+    "details": "Mango iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 215,
+    "name": "Lipton Ice Tea Raspberry",
+    "brand": "Lipton",
+    "details": "Raspberry iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 216,
+    "name": "Nestea Lemon",
+    "brand": "Nestea",
+    "details": "Lemon iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 217,
+    "name": "Nestea Peach",
+    "brand": "Nestea",
+    "details": "Peach iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 218,
+    "name": "Nestea Green Tea",
+    "brand": "Nestea",
+    "details": "Green iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 219,
+    "name": "Nestea Mango Pineapple",
+    "brand": "Nestea",
+    "details": "Tropical iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 220,
+    "name": "Fuze Tea Lemon",
+    "brand": "Fuze Tea",
+    "details": "Lemon tea beverage",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 221,
+    "name": "Fuze Tea Peach",
+    "brand": "Fuze Tea",
+    "details": "Peach tea beverage",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 222,
+    "name": "Fuze Tea Mango Chamomile",
+    "brand": "Fuze Tea",
+    "details": "Mango herbal tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 223,
+    "name": "Fuze Tea Black Tea Lemon",
+    "brand": "Fuze Tea",
+    "details": "Lemon black tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 224,
+    "name": "Arizona Green Tea",
+    "brand": "Arizona",
+    "details": "Honey green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 225,
+    "name": "Arizona Lemon Tea",
+    "brand": "Arizona",
+    "details": "Lemon iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 226,
+    "name": "Arizona Peach Tea",
+    "brand": "Arizona",
+    "details": "Peach iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 227,
+    "name": "Arizona Mucho Mango",
+    "brand": "Arizona",
+    "details": "Mango fruit tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 228,
+    "name": "Arizona Watermelon",
+    "brand": "Arizona",
+    "details": "Watermelon tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 229,
+    "name": "Arizona Pomegranate Green Tea",
+    "brand": "Arizona",
+    "details": "Pomegranate green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 230,
+    "name": "Arizona Raspberry Tea",
+    "brand": "Arizona",
+    "details": "Raspberry iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 231,
+    "name": "Pure Leaf Sweet Tea",
+    "brand": "Pure Leaf",
+    "details": "Sweet black tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 232,
+    "name": "Pure Leaf Unsweetened Tea",
+    "brand": "Pure Leaf",
+    "details": "Unsweetened black tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 233,
+    "name": "Pure Leaf Lemon Tea",
+    "brand": "Pure Leaf",
+    "details": "Lemon iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 234,
+    "name": "Pure Leaf Peach Tea",
+    "brand": "Pure Leaf",
+    "details": "Peach iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 235,
+    "name": "Gold Peak Sweet Tea",
+    "brand": "Gold Peak",
+    "details": "Sweet tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 236,
+    "name": "Gold Peak Unsweetened Tea",
+    "brand": "Gold Peak",
+    "details": "Unsweetened tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 237,
+    "name": "Gold Peak Green Tea",
+    "brand": "Gold Peak",
+    "details": "Green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 238,
+    "name": "Gold Peak Lemon Tea",
+    "brand": "Gold Peak",
+    "details": "Lemon tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 239,
+    "name": "Honest Tea Peach",
+    "brand": "Honest Tea",
+    "details": "Peach tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 240,
+    "name": "Honest Tea Half Tea Half Lemonade",
+    "brand": "Honest Tea",
+    "details": "Tea and lemonade",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 241,
+    "name": "Teavana Shaken Iced Green Tea",
+    "brand": "Teavana",
+    "details": "Green iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 242,
+    "name": "Teavana Shaken Iced Black Tea",
+    "brand": "Teavana",
+    "details": "Black iced tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 243,
+    "name": "Starbucks Iced Matcha Latte",
+    "brand": "Starbucks",
+    "details": "Matcha milk tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 244,
+    "name": "Starbucks Iced Green Tea",
+    "brand": "Starbucks",
+    "details": "Green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 245,
+    "name": "Starbucks Iced Black Tea",
+    "brand": "Starbucks",
+    "details": "Black tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 246,
+    "name": "Starbucks Iced Passion Tango Tea",
+    "brand": "Starbucks",
+    "details": "Hibiscus herbal tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 247,
+    "name": "Starbucks Iced Peach Green Tea",
+    "brand": "Starbucks",
+    "details": "Peach green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 248,
+    "name": "Starbucks Iced Chai Latte",
+    "brand": "Starbucks",
+    "details": "Spiced milk tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 249,
+    "name": "Starbucks Bottled Frappuccino Coffee",
+    "brand": "Starbucks",
+    "details": "Chilled coffee",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 250,
+    "name": "Starbucks Bottled Mocha Frappuccino",
+    "brand": "Starbucks",
+    "details": "Chocolate coffee",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 251,
+    "name": "Ito En Oi Ocha Green Tea",
+    "brand": "Ito En",
+    "details": "Unsweetened green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 252,
+    "name": "Ito En Jasmine Green Tea",
+    "brand": "Ito En",
+    "details": "Jasmine tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 253,
+    "name": "Ito En Matcha Green Tea",
+    "brand": "Ito En",
+    "details": "Matcha beverage",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 254,
+    "name": "Pokka Lemon Tea",
+    "brand": "Pokka",
+    "details": "Lemon tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 255,
+    "name": "Pokka Peach Tea",
+    "brand": "Pokka",
+    "details": "Peach tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 256,
+    "name": "Pokka Green Tea",
+    "brand": "Pokka",
+    "details": "Green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 257,
+    "name": "Pokka Jasmine Green Tea",
+    "brand": "Pokka",
+    "details": "Jasmine tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 258,
+    "name": "C2 Green Tea Apple",
+    "brand": "C2",
+    "details": "Apple green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 259,
+    "name": "C2 Green Tea Lemon",
+    "brand": "C2",
+    "details": "Lemon green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 260,
+    "name": "C2 Green Tea Honey",
+    "brand": "C2",
+    "details": "Honey green tea",
+    "section": "Iced Tea"
+  },
+  {
+    "number": 261,
+    "name": "Gatorade Lemon Lime",
+    "brand": "Gatorade",
+    "details": "Electrolyte sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 262,
+    "name": "Gatorade Orange",
+    "brand": "Gatorade",
+    "details": "Orange sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 263,
+    "name": "Gatorade Fruit Punch",
+    "brand": "Gatorade",
+    "details": "Fruit punch",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 264,
+    "name": "Gatorade Cool Blue",
+    "brand": "Gatorade",
+    "details": "Blueberry-flavoured drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 265,
+    "name": "Gatorade Glacier Freeze",
+    "brand": "Gatorade",
+    "details": "Glacier fruit flavour",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 266,
+    "name": "Gatorade Fierce Grape",
+    "brand": "Gatorade",
+    "details": "Grape sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 267,
+    "name": "Gatorade Zero Lemon Lime",
+    "brand": "Gatorade",
+    "details": "Zero-sugar electrolyte drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 268,
+    "name": "Gatorade Zero Orange",
+    "brand": "Gatorade",
+    "details": "Zero-sugar orange drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 269,
+    "name": "Powerade Mountain Berry Blast",
+    "brand": "Powerade",
+    "details": "Berry sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 270,
+    "name": "Powerade Fruit Punch",
+    "brand": "Powerade",
+    "details": "Fruit punch",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 271,
+    "name": "Powerade Orange",
+    "brand": "Powerade",
+    "details": "Orange electrolyte drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 272,
+    "name": "Powerade Grape",
+    "brand": "Powerade",
+    "details": "Grape sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 273,
+    "name": "Powerade Zero Mixed Berry",
+    "brand": "Powerade",
+    "details": "Sugar-free berry drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 274,
+    "name": "Powerade Lemon Lime",
+    "brand": "Powerade",
+    "details": "Lemon-lime sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 275,
+    "name": "BodyArmor Fruit Punch",
+    "brand": "BodyArmor",
+    "details": "Sports hydration drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 276,
+    "name": "BodyArmor Strawberry Banana",
+    "brand": "BodyArmor",
+    "details": "Strawberry banana",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 277,
+    "name": "BodyArmor Orange Mango",
+    "brand": "BodyArmor",
+    "details": "Orange mango",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 278,
+    "name": "BodyArmor Peach Mango",
+    "brand": "BodyArmor",
+    "details": "Peach mango",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 279,
+    "name": "BodyArmor Lyte Peach Mango",
+    "brand": "BodyArmor",
+    "details": "Low-calorie hydration",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 280,
+    "name": "BodyArmor Lyte Blueberry Pomegranate",
+    "brand": "BodyArmor",
+    "details": "Berry hydration",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 281,
+    "name": "Prime Hydration Blue Raspberry",
+    "brand": "Prime",
+    "details": "Electrolyte beverage",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 282,
+    "name": "Prime Hydration Tropical Punch",
+    "brand": "Prime",
+    "details": "Tropical hydration drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 283,
+    "name": "Prime Hydration Lemon Lime",
+    "brand": "Prime",
+    "details": "Lemon-lime hydration",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 284,
+    "name": "Prime Hydration Ice Pop",
+    "brand": "Prime",
+    "details": "Mixed fruit hydration",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 285,
+    "name": "Prime Hydration Meta Moon",
+    "brand": "Prime",
+    "details": "Mixed fruit flavour",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 286,
+    "name": "Prime Hydration Glowberry",
+    "brand": "Prime",
+    "details": "Berry hydration",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 287,
+    "name": "Electrolit Grape",
+    "brand": "Electrolit",
+    "details": "Electrolyte beverage",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 288,
+    "name": "Electrolit Strawberry Kiwi",
+    "brand": "Electrolit",
+    "details": "Strawberry kiwi",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 289,
+    "name": "Electrolit Orange",
+    "brand": "Electrolit",
+    "details": "Orange electrolyte drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 290,
+    "name": "Electrolit Coconut",
+    "brand": "Electrolit",
+    "details": "Coconut electrolyte drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 291,
+    "name": "Pocari Sweat",
+    "brand": "Otsuka",
+    "details": "Japanese electrolyte drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 292,
+    "name": "Aquarius Original",
+    "brand": "Coca-Cola",
+    "details": "Electrolyte beverage",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 293,
+    "name": "Aquarius Lemon",
+    "brand": "Coca-Cola",
+    "details": "Lemon hydration drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 294,
+    "name": "100PLUS Original",
+    "brand": "100PLUS",
+    "details": "Isotonic drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 295,
+    "name": "100PLUS Zero",
+    "brand": "100PLUS",
+    "details": "Sugar-free isotonic drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 296,
+    "name": "Lucozade Sport Orange",
+    "brand": "Lucozade",
+    "details": "Orange sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 297,
+    "name": "Lucozade Sport Raspberry",
+    "brand": "Lucozade",
+    "details": "Raspberry sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 298,
+    "name": "Lucozade Sport Caribbean Burst",
+    "brand": "Lucozade",
+    "details": "Tropical sports drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 299,
+    "name": "ORS-L",
+    "brand": "ORS-L",
+    "details": "Oral rehydration beverage",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 300,
+    "name": "Fast&Up Reload",
+    "brand": "Fast&Up",
+    "details": "Electrolyte hydration drink",
+    "section": "Sports and Electrolyte Drinks"
+  },
+  {
+    "number": 301,
+    "name": "Vita Coco Original",
+    "brand": "Vita Coco",
+    "details": "Natural coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 302,
+    "name": "Vita Coco Pressed",
+    "brand": "Vita Coco",
+    "details": "Pressed coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 303,
+    "name": "Vita Coco Pineapple",
+    "brand": "Vita Coco",
+    "details": "Pineapple coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 304,
+    "name": "Vita Coco Peach Mango",
+    "brand": "Vita Coco",
+    "details": "Flavoured coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 305,
+    "name": "ZICO Original Coconut Water",
+    "brand": "ZICO",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 306,
+    "name": "Harmless Harvest Organic Coconut Water",
+    "brand": "Harmless Harvest",
+    "details": "Organic coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 307,
+    "name": "C2O Pure Coconut Water",
+    "brand": "C2O",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 308,
+    "name": "Taste Nirvana Coconut Water",
+    "brand": "Taste Nirvana",
+    "details": "Thai coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 309,
+    "name": "FOCO Coconut Water",
+    "brand": "FOCO",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 310,
+    "name": "Real Activ Coconut Water",
+    "brand": "Real Activ",
+    "details": "Packaged coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 311,
+    "name": "Storia Coconut Water",
+    "brand": "Storia",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 312,
+    "name": "Paper Boat Coconut Water",
+    "brand": "Paper Boat",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 313,
+    "name": "Dabur Hommade Coconut Milk Drink",
+    "brand": "Dabur",
+    "details": "Coconut-based beverage",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 314,
+    "name": "UFC Refresh Coconut Water",
+    "brand": "UFC",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 315,
+    "name": "Chaokoh Coconut Water",
+    "brand": "Chaokoh",
+    "details": "Thai coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 316,
+    "name": "Cocomax Coconut Water",
+    "brand": "Cocomax",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 317,
+    "name": "King Island Coconut Water",
+    "brand": "King Island",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 318,
+    "name": "Cocobella Coconut Water",
+    "brand": "Cocobella",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 319,
+    "name": "Naked Coconut Water",
+    "brand": "Naked",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 320,
+    "name": "Innocent Coconut Water",
+    "brand": "Innocent",
+    "details": "Coconut water",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 321,
+    "name": "Liquid I.V. Hydration Multiplier Lemon Lime",
+    "brand": "Liquid I.V.",
+    "details": "Electrolyte drink mix",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 322,
+    "name": "Liquid I.V. Hydration Multiplier Passion Fruit",
+    "brand": "Liquid I.V.",
+    "details": "Passion fruit hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 323,
+    "name": "Liquid I.V. Hydration Multiplier Strawberry",
+    "brand": "Liquid I.V.",
+    "details": "Strawberry hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 324,
+    "name": "Hydralyte Orange",
+    "brand": "Hydralyte",
+    "details": "Electrolyte drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 325,
+    "name": "Hydralyte Lemonade",
+    "brand": "Hydralyte",
+    "details": "Electrolyte drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 326,
+    "name": "Pedialyte Strawberry",
+    "brand": "Pedialyte",
+    "details": "Oral electrolyte solution",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 327,
+    "name": "Pedialyte Apple",
+    "brand": "Pedialyte",
+    "details": "Oral electrolyte solution",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 328,
+    "name": "Pedialyte Grape",
+    "brand": "Pedialyte",
+    "details": "Oral electrolyte solution",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 329,
+    "name": "DripDrop ORS Berry",
+    "brand": "DripDrop",
+    "details": "Electrolyte hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 330,
+    "name": "DripDrop ORS Lemon",
+    "brand": "DripDrop",
+    "details": "Electrolyte hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 331,
+    "name": "Cure Hydration Watermelon",
+    "brand": "Cure",
+    "details": "Electrolyte drink mix",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 332,
+    "name": "Cure Hydration Berry Pomegranate",
+    "brand": "Cure",
+    "details": "Electrolyte drink mix",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 333,
+    "name": "Nuun Sport Lemon Lime",
+    "brand": "Nuun",
+    "details": "Electrolyte tablet drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 334,
+    "name": "Nuun Sport Tri-Berry",
+    "brand": "Nuun",
+    "details": "Berry hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 335,
+    "name": "Nuun Immunity Orange Citrus",
+    "brand": "Nuun",
+    "details": "Functional hydration",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 336,
+    "name": "ORS Orange",
+    "brand": "Electral",
+    "details": "Oral rehydration drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 337,
+    "name": "Electral Ready-to-Drink",
+    "brand": "Electral",
+    "details": "Electrolyte solution",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 338,
+    "name": "Enerzal Orange",
+    "brand": "Enerzal",
+    "details": "Glucose electrolyte drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 339,
+    "name": "Enerzal Lemon",
+    "brand": "Enerzal",
+    "details": "Lemon electrolyte drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 340,
+    "name": "Glucon-D Nimbu Pani",
+    "brand": "Glucon-D",
+    "details": "Glucose-based lemon drink",
+    "section": "Coconut Water and Hydration"
+  },
+  {
+    "number": 341,
+    "name": "Kinley Water",
+    "brand": "Kinley",
+    "details": "Packaged drinking water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 342,
+    "name": "Aquafina",
+    "brand": "PepsiCo",
+    "details": "Purified drinking water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 343,
+    "name": "Bisleri",
+    "brand": "Bisleri",
+    "details": "Packaged drinking water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 344,
+    "name": "Vedica Himalayan Spring Water",
+    "brand": "Bisleri",
+    "details": "Natural spring water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 345,
+    "name": "Bailey",
+    "brand": "Parle Agro",
+    "details": "Packaged drinking water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 346,
+    "name": "Himalayan Natural Mineral Water",
+    "brand": "Tata Consumer Products",
+    "details": "Natural mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 347,
+    "name": "Tata Copper+",
+    "brand": "Tata Consumer Products",
+    "details": "Copper-infused water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 348,
+    "name": "Tata Gluco+",
+    "brand": "Tata Consumer Products",
+    "details": "Glucose-based beverage",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 349,
+    "name": "Evian Natural Mineral Water",
+    "brand": "Evian",
+    "details": "French mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 350,
+    "name": "Fiji Natural Artesian Water",
+    "brand": "Fiji Water",
+    "details": "Artesian water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 351,
+    "name": "VOSS Still Water",
+    "brand": "VOSS",
+    "details": "Premium still water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 352,
+    "name": "VOSS Sparkling Water",
+    "brand": "VOSS",
+    "details": "Sparkling mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 353,
+    "name": "Perrier Original",
+    "brand": "Perrier",
+    "details": "Sparkling mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 354,
+    "name": "Perrier Lime",
+    "brand": "Perrier",
+    "details": "Lime sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 355,
+    "name": "San Pellegrino Sparkling Water",
+    "brand": "San Pellegrino",
+    "details": "Sparkling mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 356,
+    "name": "Gerolsteiner Sparkling",
+    "brand": "Gerolsteiner",
+    "details": "Mineral sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 357,
+    "name": "Topo Chico Mineral Water",
+    "brand": "Topo Chico",
+    "details": "Sparkling mineral water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 358,
+    "name": "LaCroix Pure",
+    "brand": "LaCroix",
+    "details": "Unflavoured sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 359,
+    "name": "LaCroix Lime",
+    "brand": "LaCroix",
+    "details": "Lime sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 360,
+    "name": "LaCroix Grapefruit",
+    "brand": "LaCroix",
+    "details": "Grapefruit sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 361,
+    "name": "LaCroix Pamplemousse",
+    "brand": "LaCroix",
+    "details": "Pink grapefruit water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 362,
+    "name": "Bubly Lime",
+    "brand": "Bubly",
+    "details": "Flavoured sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 363,
+    "name": "Bubly Cherry",
+    "brand": "Bubly",
+    "details": "Cherry sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 364,
+    "name": "Bubly Blackberry",
+    "brand": "Bubly",
+    "details": "Blackberry sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 365,
+    "name": "Bubly Mango",
+    "brand": "Bubly",
+    "details": "Mango sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 366,
+    "name": "AHA Blueberry + Pomegranate",
+    "brand": "AHA",
+    "details": "Flavoured sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 367,
+    "name": "AHA Peach + Honey",
+    "brand": "AHA",
+    "details": "Peach sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 368,
+    "name": "AHA Lime + Watermelon",
+    "brand": "AHA",
+    "details": "Lime watermelon water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 369,
+    "name": "Spindrift Lemon",
+    "brand": "Spindrift",
+    "details": "Real-fruit sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 370,
+    "name": "Spindrift Raspberry Lime",
+    "brand": "Spindrift",
+    "details": "Raspberry lime water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 371,
+    "name": "Spindrift Mango Orange",
+    "brand": "Spindrift",
+    "details": "Mango orange water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 372,
+    "name": "Waterloo Black Cherry",
+    "brand": "Waterloo",
+    "details": "Sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 373,
+    "name": "Waterloo Peach",
+    "brand": "Waterloo",
+    "details": "Peach sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 374,
+    "name": "Waterloo Tropical Fruit",
+    "brand": "Waterloo",
+    "details": "Tropical sparkling water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 375,
+    "name": "Hint Water Blackberry",
+    "brand": "Hint",
+    "details": "Still flavoured water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 376,
+    "name": "Hint Water Watermelon",
+    "brand": "Hint",
+    "details": "Watermelon flavoured water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 377,
+    "name": "Hint Water Pineapple",
+    "brand": "Hint",
+    "details": "Pineapple flavoured water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 378,
+    "name": "Glac\u00e9au Smartwater",
+    "brand": "Smartwater",
+    "details": "Vapour-distilled water",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 379,
+    "name": "Glac\u00e9au Vitaminwater XXX",
+    "brand": "Vitaminwater",
+    "details": "Acai blueberry pomegranate",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 380,
+    "name": "Glac\u00e9au Vitaminwater Power-C",
+    "brand": "Vitaminwater",
+    "details": "Dragonfruit beverage",
+    "section": "Water and Flavoured Water"
+  },
+  {
+    "number": 381,
+    "name": "Amul Kool Koko",
+    "brand": "Amul",
+    "details": "Chocolate milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 382,
+    "name": "Amul Kool Caf\u00e9",
+    "brand": "Amul",
+    "details": "Coffee milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 383,
+    "name": "Amul Kool Elaichi",
+    "brand": "Amul",
+    "details": "Cardamom milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 384,
+    "name": "Amul Kool Rose",
+    "brand": "Amul",
+    "details": "Rose-flavoured milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 385,
+    "name": "Amul Kool Badam",
+    "brand": "Amul",
+    "details": "Almond milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 386,
+    "name": "Amul Kool Pista",
+    "brand": "Amul",
+    "details": "Pistachio milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 387,
+    "name": "Amul Kool Strawberry",
+    "brand": "Amul",
+    "details": "Strawberry milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 388,
+    "name": "Amul Kool Mango",
+    "brand": "Amul",
+    "details": "Mango milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 389,
+    "name": "Amul Kool Thandai",
+    "brand": "Amul",
+    "details": "Traditional spiced milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 390,
+    "name": "Amul Kool Lassi",
+    "brand": "Amul",
+    "details": "Chilled yoghurt drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 391,
+    "name": "Amul Masti Buttermilk",
+    "brand": "Amul",
+    "details": "Spiced buttermilk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 392,
+    "name": "Amul Masti Masala Chaas",
+    "brand": "Amul",
+    "details": "Masala buttermilk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 393,
+    "name": "Amul Mango Lassi",
+    "brand": "Amul",
+    "details": "Mango yoghurt drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 394,
+    "name": "Amul Strawberry Lassi",
+    "brand": "Amul",
+    "details": "Strawberry yoghurt drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 395,
+    "name": "Mother Dairy Mango Lassi",
+    "brand": "Mother Dairy",
+    "details": "Mango yoghurt drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 396,
+    "name": "Mother Dairy Sweet Lassi",
+    "brand": "Mother Dairy",
+    "details": "Sweet yoghurt drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 397,
+    "name": "Mother Dairy Plain Chhach",
+    "brand": "Mother Dairy",
+    "details": "Buttermilk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 398,
+    "name": "Mother Dairy Masala Chhach",
+    "brand": "Mother Dairy",
+    "details": "Spiced buttermilk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 399,
+    "name": "Mother Dairy Tadka Chhach",
+    "brand": "Mother Dairy",
+    "details": "Tempered buttermilk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 400,
+    "name": "Mother Dairy Mango Milkshake",
+    "brand": "Mother Dairy",
+    "details": "Mango milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 401,
+    "name": "Mother Dairy Chocolate Milkshake",
+    "brand": "Mother Dairy",
+    "details": "Chocolate milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 402,
+    "name": "Mother Dairy Strawberry Milkshake",
+    "brand": "Mother Dairy",
+    "details": "Strawberry milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 403,
+    "name": "Cavin's Chocolate Milkshake",
+    "brand": "Cavin's",
+    "details": "Chocolate milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 404,
+    "name": "Cavin's Mango Milkshake",
+    "brand": "Cavin's",
+    "details": "Mango milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 405,
+    "name": "Cavin's Strawberry Milkshake",
+    "brand": "Cavin's",
+    "details": "Strawberry milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 406,
+    "name": "Cavin's Vanilla Milkshake",
+    "brand": "Cavin's",
+    "details": "Vanilla milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 407,
+    "name": "Cavin's Butterscotch Milkshake",
+    "brand": "Cavin's",
+    "details": "Butterscotch milkshake",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 408,
+    "name": "Cavin's Cold Coffee",
+    "brand": "Cavin's",
+    "details": "Chilled coffee milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 409,
+    "name": "Hershey's Chocolate Milk",
+    "brand": "Hershey's",
+    "details": "Chocolate milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 410,
+    "name": "Hershey's Strawberry Milk",
+    "brand": "Hershey's",
+    "details": "Strawberry milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 411,
+    "name": "Hershey's Cookies 'n' Creme Milk",
+    "brand": "Hershey's",
+    "details": "Flavoured milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 412,
+    "name": "Nesquik Chocolate Milk",
+    "brand": "Nesquik",
+    "details": "Chocolate milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 413,
+    "name": "Nesquik Strawberry Milk",
+    "brand": "Nesquik",
+    "details": "Strawberry milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 414,
+    "name": "Nesquik Banana Milk",
+    "brand": "Nesquik",
+    "details": "Banana milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 415,
+    "name": "Yoo-hoo Chocolate Drink",
+    "brand": "Yoo-hoo",
+    "details": "Chocolate beverage",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 416,
+    "name": "Chocomel Original",
+    "brand": "Chocomel",
+    "details": "Chocolate milk",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 417,
+    "name": "Ovaltine Chocolate Malt Drink",
+    "brand": "Ovaltine",
+    "details": "Malt chocolate beverage",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 418,
+    "name": "Horlicks Chocolate Milk",
+    "brand": "Horlicks",
+    "details": "Malt chocolate drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 419,
+    "name": "Milo Chocolate Malt Drink",
+    "brand": "Milo",
+    "details": "Chocolate malt beverage",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 420,
+    "name": "Starbucks Chilled Coffee",
+    "brand": "Starbucks",
+    "details": "Ready-to-drink coffee",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 421,
+    "name": "Starbucks Vanilla Frappuccino",
+    "brand": "Starbucks",
+    "details": "Vanilla coffee beverage",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 422,
+    "name": "Starbucks Caramel Frappuccino",
+    "brand": "Starbucks",
+    "details": "Caramel coffee beverage",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 423,
+    "name": "Starbucks Double Shot Espresso",
+    "brand": "Starbucks",
+    "details": "Espresso milk drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 424,
+    "name": "Nescaf\u00e9 Cold Coffee",
+    "brand": "Nescaf\u00e9",
+    "details": "Ready-to-drink coffee",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 425,
+    "name": "Nescaf\u00e9 Frappe",
+    "brand": "Nescaf\u00e9",
+    "details": "Chilled coffee drink",
+    "section": "Milkshakes and Dairy Drinks"
+  },
+  {
+    "number": 426,
+    "name": "Naked Green Machine",
+    "brand": "Naked Juice",
+    "details": "Green fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 427,
+    "name": "Naked Blue Machine",
+    "brand": "Naked Juice",
+    "details": "Blueberry smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 428,
+    "name": "Naked Mighty Mango",
+    "brand": "Naked Juice",
+    "details": "Mango smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 429,
+    "name": "Naked Red Machine",
+    "brand": "Naked Juice",
+    "details": "Red fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 430,
+    "name": "Naked Strawberry Banana",
+    "brand": "Naked Juice",
+    "details": "Strawberry banana smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 431,
+    "name": "Innocent Mango & Passion Fruit",
+    "brand": "Innocent",
+    "details": "Tropical smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 432,
+    "name": "Innocent Strawberry & Banana",
+    "brand": "Innocent",
+    "details": "Fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 433,
+    "name": "Innocent Blueberry & Raspberry",
+    "brand": "Innocent",
+    "details": "Berry smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 434,
+    "name": "Innocent Super Smoothie Antioxidant",
+    "brand": "Innocent",
+    "details": "Antioxidant fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 435,
+    "name": "Odwalla Strawberry Banana",
+    "brand": "Odwalla",
+    "details": "Fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 436,
+    "name": "Odwalla Mango Tango",
+    "brand": "Odwalla",
+    "details": "Mango fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 437,
+    "name": "Bolthouse Farms Green Goodness",
+    "brand": "Bolthouse Farms",
+    "details": "Green vegetable smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 438,
+    "name": "Bolthouse Farms Berry Boost",
+    "brand": "Bolthouse Farms",
+    "details": "Berry smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 439,
+    "name": "Bolthouse Farms Amazing Mango",
+    "brand": "Bolthouse Farms",
+    "details": "Mango smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 440,
+    "name": "Bolthouse Farms Strawberry Banana",
+    "brand": "Bolthouse Farms",
+    "details": "Fruit smoothie",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 441,
+    "name": "Suja Uber Greens",
+    "brand": "Suja",
+    "details": "Cold-pressed green juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 442,
+    "name": "Suja Mighty Dozen",
+    "brand": "Suja",
+    "details": "Vegetable and fruit juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 443,
+    "name": "Suja Organic Immunity",
+    "brand": "Suja",
+    "details": "Functional juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 444,
+    "name": "Suja Berry Goodness",
+    "brand": "Suja",
+    "details": "Berry juice blend",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 445,
+    "name": "Evolution Fresh Essential Greens",
+    "brand": "Evolution Fresh",
+    "details": "Cold-pressed green juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 446,
+    "name": "Evolution Fresh Sweet Greens",
+    "brand": "Evolution Fresh",
+    "details": "Green juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 447,
+    "name": "Evolution Fresh Organic Defense Up",
+    "brand": "Evolution Fresh",
+    "details": "Citrus and ginger juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 448,
+    "name": "Pressed Juicery Greens 3",
+    "brand": "Pressed Juicery",
+    "details": "Green juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 449,
+    "name": "Pressed Juicery Roots 3",
+    "brand": "Pressed Juicery",
+    "details": "Root vegetable juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 450,
+    "name": "Pressed Juicery Citrus 2",
+    "brand": "Pressed Juicery",
+    "details": "Citrus juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 451,
+    "name": "POM Wonderful 100% Pomegranate",
+    "brand": "POM Wonderful",
+    "details": "Pomegranate juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 452,
+    "name": "Ocean Spray Cranberry Classic",
+    "brand": "Ocean Spray",
+    "details": "Cranberry juice cocktail",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 453,
+    "name": "Ocean Spray Cran-Grape",
+    "brand": "Ocean Spray",
+    "details": "Cranberry grape drink",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 454,
+    "name": "Ocean Spray Cran-Apple",
+    "brand": "Ocean Spray",
+    "details": "Cranberry apple drink",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 455,
+    "name": "Ocean Spray Cran-Mango",
+    "brand": "Ocean Spray",
+    "details": "Cranberry mango drink",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 456,
+    "name": "Welch's 100% Grape Juice",
+    "brand": "Welch's",
+    "details": "Grape juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 457,
+    "name": "Welch's White Grape Juice",
+    "brand": "Welch's",
+    "details": "White grape juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 458,
+    "name": "Welch's Fruit Punch",
+    "brand": "Welch's",
+    "details": "Fruit punch",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 459,
+    "name": "Welch's Strawberry Breeze",
+    "brand": "Welch's",
+    "details": "Strawberry fruit drink",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 460,
+    "name": "Dole Pineapple Juice",
+    "brand": "Dole",
+    "details": "Pineapple juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 461,
+    "name": "Dole Orange Peach Mango",
+    "brand": "Dole",
+    "details": "Tropical fruit drink",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 462,
+    "name": "Dole Apple Juice",
+    "brand": "Dole",
+    "details": "Apple juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 463,
+    "name": "Dole Tropical Gold Pineapple",
+    "brand": "Dole",
+    "details": "Premium pineapple juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 464,
+    "name": "KDD Orange Juice",
+    "brand": "KDD",
+    "details": "Orange juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 465,
+    "name": "KDD Mango Juice",
+    "brand": "KDD",
+    "details": "Mango juice",
+    "section": "Premium Fruit and Vegetable Drinks"
+  },
+  {
+    "number": 466,
+    "name": "Simply Lemonade",
+    "brand": "Simply",
+    "details": "Classic lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 467,
+    "name": "Simply Raspberry Lemonade",
+    "brand": "Simply",
+    "details": "Raspberry lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 468,
+    "name": "Simply Peach",
+    "brand": "Simply",
+    "details": "Peach lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 469,
+    "name": "Minute Maid Lemonade",
+    "brand": "Minute Maid",
+    "details": "Classic lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 470,
+    "name": "Minute Maid Pink Lemonade",
+    "brand": "Minute Maid",
+    "details": "Pink lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 471,
+    "name": "Country Time Lemonade",
+    "brand": "Country Time",
+    "details": "Lemonade drink",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 472,
+    "name": "Country Time Pink Lemonade",
+    "brand": "Country Time",
+    "details": "Pink lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 473,
+    "name": "Newman's Own Lemonade",
+    "brand": "Newman's Own",
+    "details": "Classic lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 474,
+    "name": "Newman's Own Pink Lemonade",
+    "brand": "Newman's Own",
+    "details": "Pink lemonade",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 475,
+    "name": "Sanpellegrino Pompelmo",
+    "brand": "Sanpellegrino",
+    "details": "Grapefruit sparkling drink",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 476,
+    "name": "Sanpellegrino Aranciata Rossa",
+    "brand": "Sanpellegrino",
+    "details": "Blood orange soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 477,
+    "name": "Sanpellegrino Clementina",
+    "brand": "Sanpellegrino",
+    "details": "Clementine soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 478,
+    "name": "Fever-Tree Indian Tonic Water",
+    "brand": "Fever-Tree",
+    "details": "Premium tonic water",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 479,
+    "name": "Fever-Tree Mediterranean Tonic Water",
+    "brand": "Fever-Tree",
+    "details": "Herbal tonic water",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 480,
+    "name": "Fever-Tree Ginger Beer",
+    "brand": "Fever-Tree",
+    "details": "Ginger mixer",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 481,
+    "name": "Fever-Tree Ginger Ale",
+    "brand": "Fever-Tree",
+    "details": "Ginger soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 482,
+    "name": "Fever-Tree Elderflower Tonic",
+    "brand": "Fever-Tree",
+    "details": "Elderflower tonic",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 483,
+    "name": "Fever-Tree Pink Grapefruit Soda",
+    "brand": "Fever-Tree",
+    "details": "Grapefruit soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 484,
+    "name": "Monin Mojito Mint Mixer",
+    "brand": "Monin",
+    "details": "Mint mocktail mixer",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 485,
+    "name": "Monin Passion Fruit Mixer",
+    "brand": "Monin",
+    "details": "Passion fruit mixer",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 486,
+    "name": "Monin Blue Curacao Syrup",
+    "brand": "Monin",
+    "details": "Orange-flavoured mixer syrup",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 487,
+    "name": "Monin Strawberry Syrup",
+    "brand": "Monin",
+    "details": "Strawberry drink mixer",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 488,
+    "name": "Real Mojito Mix",
+    "brand": "Real",
+    "details": "Mint and lime mocktail mix",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 489,
+    "name": "Real Virgin Pina Colada Mix",
+    "brand": "Real",
+    "details": "Pineapple coconut mocktail",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 490,
+    "name": "Real Cranberry Mix",
+    "brand": "Real",
+    "details": "Cranberry-based mixer",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 491,
+    "name": "Paper Boat Jaljeera",
+    "brand": "Paper Boat",
+    "details": "Spiced Indian drink",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 492,
+    "name": "Paper Boat Aam Panna",
+    "brand": "Paper Boat",
+    "details": "Raw mango cooler",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 493,
+    "name": "Paper Boat Kokum",
+    "brand": "Paper Boat",
+    "details": "Kokum cooler",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 494,
+    "name": "Paper Boat Rose Tamarind",
+    "brand": "Paper Boat",
+    "details": "Rose and tamarind cooler",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 495,
+    "name": "Shikanji Masala Drink",
+    "brand": "Lahori",
+    "details": "Indian lemon cooler",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 496,
+    "name": "Bindu Jeera Masala",
+    "brand": "Bindu",
+    "details": "Cumin-flavoured soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 497,
+    "name": "Bindu Fizz Jeera",
+    "brand": "Bindu",
+    "details": "Fizzy cumin drink",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 498,
+    "name": "Catch Jeera Masala Soda",
+    "brand": "Catch",
+    "details": "Cumin-flavoured soda",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 499,
+    "name": "Raw Pressery Orange Juice",
+    "brand": "Raw Pressery",
+    "details": "Cold-pressed orange juice",
+    "section": "Lemonades and Mocktail Mixers"
+  },
+  {
+    "number": 500,
+    "name": "Raw Pressery Mixed Fruit Juice",
+    "brand": "Raw Pressery",
+    "details": "Cold-pressed fruit blend",
+    "section": "Lemonades and Mocktail Mixers"
+  }
+]

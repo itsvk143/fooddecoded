@@ -151,6 +151,8 @@ export interface ProductItem {
   cerealType?: string | null;
   primaryIngredient?: string | null;
   targetAge?: string | null;
+  drinkSection?: string | null;
+  beverageType?: string | null;
   dietarySuitability?: {
     isVegetarian?: boolean;
     isVegan?: boolean;
