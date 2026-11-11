@@ -272,3 +272,4 @@ with open("scripts/data/ice_cream_500.csv", "w", newline="", encoding="utf-8") a
         })
 
 print("Generated scripts/data/ice_cream_500.json and scripts/data/ice_cream_500.csv successfully!")
+

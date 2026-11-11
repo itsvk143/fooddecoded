@@ -1192,17 +1192,22 @@ export async function bulkUpdateProducts(
 /**
  * Duplicate Product Detection: Finds potential duplicate records
  */
-export async function getDuplicateProducts(): Promise<
+export async function getDuplicateProducts(existingProducts?: ProductItem[]): Promise<
   Array<{
     reason: "Exact Barcode" | "Brand and Product Name Match";
     key: string;
     products: ProductItem[];
   }>
 > {
-  const col = await getCollection<ProductItem>("products");
-  const allProducts: ProductItem[] = col
-    ? (await col.find({}).toArray()).map(normalizeDoc)
-    : [...inMemoryProducts];
+  let allProducts: ProductItem[];
+  if (existingProducts) {
+    allProducts = existingProducts;
+  } else {
+    const col = await getCollection<ProductItem>("products");
+    allProducts = col
+      ? (await col.find({}).project({ barcode: 1, name: 1, brand: 1, _id: 1, id: 1 }).toArray()).map((d) => normalizeDoc(d as unknown as ProductItem))
+      : [...inMemoryProducts];
+  }
 
   const barcodeMap = new Map<string, ProductItem[]>();
   const nameMap = new Map<string, ProductItem[]>();
@@ -1349,7 +1354,10 @@ export async function getCatalogManagementStats(): Promise<{
 }> {
   const col = await getCollection<ProductItem>("products");
   const all: ProductItem[] = col
-    ? (await col.find({}).toArray()).map(normalizeDoc)
+    ? (await col.find({}).project({
+        _id: 1, barcode: 1, name: 1, brand: 1, category: 1, subCategory: 1,
+        isArchived: 1, imageUrl: 1, imageStatus: 1, dataCompleteness: 1, ingredientsText: 1
+      }).toArray()).map((d) => normalizeDoc(d as unknown as ProductItem))
     : [...inMemoryProducts];
 
   const totalProducts = all.length;
@@ -1366,7 +1374,7 @@ export async function getCatalogManagementStats(): Promise<{
     (p) => (p.dataCompleteness ?? 100) < 60 || !p.barcode || !p.ingredientsText
   ).length;
 
-  const duplicates = await getDuplicateProducts();
+  const duplicates = await getDuplicateProducts(all);
   const potentialDuplicates = duplicates.reduce((acc, d) => acc + d.products.length, 0);
 
   // Group by category

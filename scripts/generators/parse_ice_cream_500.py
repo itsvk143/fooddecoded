@@ -602,3 +602,4 @@ for line in lines:
 print(f"Parsed {len(items)} ice cream items.")
 with open("scripts/data/parsed_ice_cream_500.json", "w") as f:
     json.dump(items, f, indent=2)
+
