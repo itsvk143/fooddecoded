@@ -1131,3 +1131,33 @@ test("Global Biscuit Catalogue: Contains 500 biscuit products with unique IDs, b
   }
 });
 
+test("Kids' Cereals Catalogue: Contains 210 products with unique IDs, barcodes and packshots", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const kidsCereals = products.filter((p) => p.productId && p.productId.startsWith("KID-"));
+  assert.equal(kidsCereals.length, 210, `Expected exactly 210 KID- products, got ${kidsCereals.length}`);
+
+  // Check unique barcodes
+  const barcodes = new Set(kidsCereals.map((p) => p.barcode));
+  assert.equal(barcodes.size, 210, "All 210 Kids Cereals barcodes must be strictly unique");
+
+  // Check unique product IDs
+  const productIds = new Set(kidsCereals.map((p) => p.productId));
+  assert.equal(productIds.size, 210, "All 210 KID- IDs must be strictly unique");
+
+  // Check key brands representation
+  const brands = new Set(kidsCereals.map((p) => p.brand));
+  const expectedBrands = ["Kellogg's", "Nestlé", "General Mills", "Post", "Quaker", "Slurrp Farm", "Gerber", "EnviroKidz"];
+  for (const b of expectedBrands) {
+    assert.ok(brands.has(b), `Kids' Cereals catalogue must contain brand: ${b}`);
+  }
+
+  // Ensure category and subcategory are set correctly
+  for (const p of kidsCereals) {
+    assert.equal(p.category, "Cereals & Breakfast", `Product ${p.name} category must be Cereals & Breakfast`);
+    assert.equal(p.subCategory, "Kids' Cereals", `Product ${p.name} subCategory must be Kids' Cereals`);
+  }
+});
+
+

@@ -1,0 +1,2102 @@
+[
+  {
+    "number": 1,
+    "productId": "KID-0001",
+    "name": "Chocos",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured wheat cereal"
+  },
+  {
+    "number": 2,
+    "productId": "KID-0002",
+    "name": "Chocos Duet",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate and vanilla cereal"
+  },
+  {
+    "number": 3,
+    "productId": "KID-0003",
+    "name": "Chocos Fills",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-filled crunchy pillows"
+  },
+  {
+    "number": 4,
+    "productId": "KID-0004",
+    "name": "Chocos Moons & Stars",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal in fun shapes"
+  },
+  {
+    "number": 5,
+    "productId": "KID-0005",
+    "name": "Chocos Crunchy Bites",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Bite-sized chocolate cereal"
+  },
+  {
+    "number": 6,
+    "productId": "KID-0006",
+    "name": "Nesquik Chocolate Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured puffed cereal"
+  },
+  {
+    "number": 7,
+    "productId": "KID-0007",
+    "name": "Nesquik Duo",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Dual-colour chocolate cereal"
+  },
+  {
+    "number": 8,
+    "productId": "KID-0008",
+    "name": "Cocoa Krispies",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured rice cereal"
+  },
+  {
+    "number": 9,
+    "productId": "KID-0009",
+    "name": "Coco Pops",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate rice cereal"
+  },
+  {
+    "number": 10,
+    "productId": "KID-0010",
+    "name": "Coco Pops Rocks",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-coated crunchy cereal"
+  },
+  {
+    "number": 11,
+    "productId": "KID-0011",
+    "name": "Coco Pops Chocos",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal pieces"
+  },
+  {
+    "number": 12,
+    "productId": "KID-0012",
+    "name": "Cookie Crisp",
+    "brand": "General Mills",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Cookie-shaped chocolate cereal"
+  },
+  {
+    "number": 13,
+    "productId": "KID-0013",
+    "name": "Reese's Puffs",
+    "brand": "General Mills",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Peanut butter and chocolate cereal"
+  },
+  {
+    "number": 14,
+    "productId": "KID-0014",
+    "name": "Cocoa Puffs",
+    "brand": "General Mills",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured corn puffs"
+  },
+  {
+    "number": 15,
+    "productId": "KID-0015",
+    "name": "Krave Chocolate",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-filled crunchy cereal"
+  },
+  {
+    "number": 16,
+    "productId": "KID-0016",
+    "name": "Krave Double Chocolate",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Double chocolate-filled cereal"
+  },
+  {
+    "number": 17,
+    "productId": "KID-0017",
+    "name": "Krave S'mores",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate and marshmallow-inspired cereal"
+  },
+  {
+    "number": 18,
+    "productId": "KID-0018",
+    "name": "Chocolate Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured oat rings"
+  },
+  {
+    "number": 19,
+    "productId": "KID-0019",
+    "name": "Chocolate Mini-Wheats",
+    "brand": "Kellogg's",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-coated shredded wheat"
+  },
+  {
+    "number": 20,
+    "productId": "KID-0020",
+    "name": "Chocolate Crunch",
+    "brand": "Weetabix",
+    "sectionNumber": 1,
+    "sectionName": "Chocolate Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate breakfast cereal"
+  },
+  {
+    "number": 21,
+    "productId": "KID-0021",
+    "name": "Honey Loops",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured cereal rings"
+  },
+  {
+    "number": 22,
+    "productId": "KID-0022",
+    "name": "Honey Nut Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey and nut-flavoured oat rings"
+  },
+  {
+    "number": 23,
+    "productId": "KID-0023",
+    "name": "Honey Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-coated oat cereal"
+  },
+  {
+    "number": 24,
+    "productId": "KID-0024",
+    "name": "Honey Bunches of Oats",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-coated flakes and oat clusters"
+  },
+  {
+    "number": 25,
+    "productId": "KID-0025",
+    "name": "Honey Bunches of Oats with Almonds",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey cereal with almonds"
+  },
+  {
+    "number": 26,
+    "productId": "KID-0026",
+    "name": "Honey Bunches of Oats with Strawberries",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey cereal with strawberry pieces"
+  },
+  {
+    "number": 27,
+    "productId": "KID-0027",
+    "name": "Honey Bunches of Oats with Vanilla Bunches",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Vanilla and honey cereal clusters"
+  },
+  {
+    "number": 28,
+    "productId": "KID-0028",
+    "name": "Honey Smacks",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened puffed wheat cereal"
+  },
+  {
+    "number": 29,
+    "productId": "KID-0029",
+    "name": "Golden Grahams",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-graham flavoured cereal"
+  },
+  {
+    "number": 30,
+    "productId": "KID-0030",
+    "name": "Golden Crisp",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened puffed wheat cereal"
+  },
+  {
+    "number": 31,
+    "productId": "KID-0031",
+    "name": "Sugar Smacks",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened puffed wheat cereal"
+  },
+  {
+    "number": 32,
+    "productId": "KID-0032",
+    "name": "Honeycomb",
+    "brand": "Post",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured honeycomb-shaped cereal"
+  },
+  {
+    "number": 33,
+    "productId": "KID-0033",
+    "name": "Honey Stars",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured star-shaped cereal"
+  },
+  {
+    "number": 34,
+    "productId": "KID-0034",
+    "name": "Honey Nut Shredded Wheat",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured wheat cereal"
+  },
+  {
+    "number": 35,
+    "productId": "KID-0035",
+    "name": "Frosted Flakes",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sugar-coated corn flakes"
+  },
+  {
+    "number": 36,
+    "productId": "KID-0036",
+    "name": "Frosties",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened crunchy corn flakes"
+  },
+  {
+    "number": 37,
+    "productId": "KID-0037",
+    "name": "Frosted Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened toasted oat rings"
+  },
+  {
+    "number": 38,
+    "productId": "KID-0038",
+    "name": "Cinnamon Toast Crunch",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Cinnamon-sugar cereal squares"
+  },
+  {
+    "number": 39,
+    "productId": "KID-0039",
+    "name": "French Toast Crunch",
+    "brand": "General Mills",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "French-toast-shaped sweet cereal"
+  },
+  {
+    "number": 40,
+    "productId": "KID-0040",
+    "name": "Curiously Cinnamon",
+    "brand": "Kellogg's",
+    "sectionNumber": 2,
+    "sectionName": "Honey, Caramel & Sweet Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Cinnamon-flavoured cereal squares"
+  },
+  {
+    "number": 41,
+    "productId": "KID-0041",
+    "name": "Froot Loops",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity multicoloured cereal rings"
+  },
+  {
+    "number": 42,
+    "productId": "KID-0042",
+    "name": "Apple Jacks",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Apple and cinnamon cereal rings"
+  },
+  {
+    "number": 43,
+    "productId": "KID-0043",
+    "name": "Trix",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity multicoloured cereal shapes"
+  },
+  {
+    "number": 44,
+    "productId": "KID-0044",
+    "name": "Fruity Pebbles",
+    "brand": "Post",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity crispy rice cereal"
+  },
+  {
+    "number": 45,
+    "productId": "KID-0045",
+    "name": "Berry Pebbles",
+    "brand": "Post",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured rice cereal"
+  },
+  {
+    "number": 46,
+    "productId": "KID-0046",
+    "name": "Marshmallow Fruity Pebbles",
+    "brand": "Post",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity cereal with marshmallows"
+  },
+  {
+    "number": 47,
+    "productId": "KID-0047",
+    "name": "Berry Burst Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured oat rings"
+  },
+  {
+    "number": 48,
+    "productId": "KID-0048",
+    "name": "Very Berry Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Mixed berry-flavoured cereal"
+  },
+  {
+    "number": 49,
+    "productId": "KID-0049",
+    "name": "Strawberry Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured oat rings"
+  },
+  {
+    "number": 50,
+    "productId": "KID-0050",
+    "name": "Blueberry Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Blueberry-flavoured oat rings"
+  },
+  {
+    "number": 51,
+    "productId": "KID-0051",
+    "name": "Strawberry Mini-Wheats",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured wheat biscuits"
+  },
+  {
+    "number": 52,
+    "productId": "KID-0052",
+    "name": "Berry Burst Mini-Wheats",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured wheat cereal"
+  },
+  {
+    "number": 53,
+    "productId": "KID-0053",
+    "name": "Strawberry Squares",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured cereal squares"
+  },
+  {
+    "number": 54,
+    "productId": "KID-0054",
+    "name": "Strawberry Shreddies",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured wheat squares"
+  },
+  {
+    "number": 55,
+    "productId": "KID-0055",
+    "name": "Apple Cinnamon Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Apple and cinnamon oat rings"
+  },
+  {
+    "number": 56,
+    "productId": "KID-0056",
+    "name": "Blueberry Morning",
+    "brand": "Post",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Blueberry-flavoured breakfast cereal"
+  },
+  {
+    "number": 57,
+    "productId": "KID-0057",
+    "name": "Strawberry Frosted Mini-Wheats",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Frosted wheat biscuits with strawberry flavour"
+  },
+  {
+    "number": 58,
+    "productId": "KID-0058",
+    "name": "Fruit Loops with Marshmallows",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity rings and marshmallows"
+  },
+  {
+    "number": 59,
+    "productId": "KID-0059",
+    "name": "Apple Cinnamon Crunch",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Apple and cinnamon cereal"
+  },
+  {
+    "number": 60,
+    "productId": "KID-0060",
+    "name": "Berry Kix",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured corn puffs"
+  },
+  {
+    "number": 61,
+    "productId": "KID-0061",
+    "name": "Berry Berry Kix",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Mixed berry-flavoured cereal puffs"
+  },
+  {
+    "number": 62,
+    "productId": "KID-0062",
+    "name": "Fruity Cheerios",
+    "brand": "General Mills",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity-flavoured oat rings"
+  },
+  {
+    "number": 63,
+    "productId": "KID-0063",
+    "name": "Unicorn Cereal",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Colourful sweetened cereal"
+  },
+  {
+    "number": 64,
+    "productId": "KID-0064",
+    "name": "Unicorn Fruity Pebbles",
+    "brand": "Post",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruity cereal with colourful theme"
+  },
+  {
+    "number": 65,
+    "productId": "KID-0065",
+    "name": "Rainbow Krispies",
+    "brand": "Kellogg's",
+    "sectionNumber": 3,
+    "sectionName": "Fruit-Flavoured & Colourful Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Colourful crispy rice cereal"
+  },
+  {
+    "number": 66,
+    "productId": "KID-0066",
+    "name": "Lucky Charms",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Oat cereal with marshmallow shapes"
+  },
+  {
+    "number": 67,
+    "productId": "KID-0067",
+    "name": "Chocolate Lucky Charms",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal with marshmallows"
+  },
+  {
+    "number": 68,
+    "productId": "KID-0068",
+    "name": "Berry Lucky Charms",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured cereal and marshmallows"
+  },
+  {
+    "number": 69,
+    "productId": "KID-0069",
+    "name": "Magic Spoon Marshmallow",
+    "brand": "Magic Spoon",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Low-sugar marshmallow-style cereal"
+  },
+  {
+    "number": 70,
+    "productId": "KID-0070",
+    "name": "Count Chocula",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal with marshmallows"
+  },
+  {
+    "number": 71,
+    "productId": "KID-0071",
+    "name": "Franken Berry",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured cereal with marshmallows"
+  },
+  {
+    "number": 72,
+    "productId": "KID-0072",
+    "name": "Boo Berry",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Blueberry-flavoured cereal with marshmallows"
+  },
+  {
+    "number": 73,
+    "productId": "KID-0073",
+    "name": "Monster Mash Cereal",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Halloween-themed cereal with marshmallows"
+  },
+  {
+    "number": 74,
+    "productId": "KID-0074",
+    "name": "Smorz",
+    "brand": "Kellogg's",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate, marshmallow and graham cereal"
+  },
+  {
+    "number": 75,
+    "productId": "KID-0075",
+    "name": "Waffle Crisp",
+    "brand": "Post",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Waffle-flavoured crunchy cereal"
+  },
+  {
+    "number": 76,
+    "productId": "KID-0076",
+    "name": "Rice Krispies",
+    "brand": "Kellogg's",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Puffed crispy rice cereal"
+  },
+  {
+    "number": 77,
+    "productId": "KID-0077",
+    "name": "Rice Krispies Multigrain Shapes",
+    "brand": "Kellogg's",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain cereal in fun shapes"
+  },
+  {
+    "number": 78,
+    "productId": "KID-0078",
+    "name": "Disney Mickey Mouse Cereal",
+    "brand": "Kellogg's",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Character-shaped breakfast cereal"
+  },
+  {
+    "number": 79,
+    "productId": "KID-0079",
+    "name": "PAW Patrol Cereal",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Children's character-themed cereal"
+  },
+  {
+    "number": 80,
+    "productId": "KID-0080",
+    "name": "CinnaScary Apple Jacks",
+    "brand": "Kellogg's",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Limited-edition apple cinnamon cereal"
+  },
+  {
+    "number": 81,
+    "productId": "KID-0081",
+    "name": "Dora the Explorer Cereal",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Character-themed breakfast cereal"
+  },
+  {
+    "number": 82,
+    "productId": "KID-0082",
+    "name": "Clifford Crunch",
+    "brand": "Cascadian Farm",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Children's wholegrain cereal"
+  },
+  {
+    "number": 83,
+    "productId": "KID-0083",
+    "name": "Booty-O's",
+    "brand": "WWE",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Ring-shaped sweet breakfast cereal"
+  },
+  {
+    "number": 84,
+    "productId": "KID-0084",
+    "name": "Cap'n Crunch's Crunch Berries",
+    "brand": "Quaker",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Crunchy cereal with berry pieces"
+  },
+  {
+    "number": 85,
+    "productId": "KID-0085",
+    "name": "Cap'n Crunch's Oops! All Berries",
+    "brand": "Quaker",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured crunchy cereal"
+  },
+  {
+    "number": 86,
+    "productId": "KID-0086",
+    "name": "Cap'n Crunch's Peanut Butter Crunch",
+    "brand": "Quaker",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Peanut butter-flavoured cereal"
+  },
+  {
+    "number": 87,
+    "productId": "KID-0087",
+    "name": "Cap'n Crunch's Halloween Crunch",
+    "brand": "Quaker",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Seasonal sweetened cereal"
+  },
+  {
+    "number": 88,
+    "productId": "KID-0088",
+    "name": "Cap'n Crunch's Christmas Crunch",
+    "brand": "Quaker",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Festive cereal with coloured pieces"
+  },
+  {
+    "number": 89,
+    "productId": "KID-0089",
+    "name": "Franken Berry Mini Cereal",
+    "brand": "General Mills",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Mini-format strawberry cereal"
+  },
+  {
+    "number": 90,
+    "productId": "KID-0090",
+    "name": "Chocolate Marshmallow Mateys",
+    "brand": "Malt-O-Meal",
+    "sectionNumber": 4,
+    "sectionName": "Marshmallow & Fun-Shaped Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal with marshmallows"
+  },
+  {
+    "number": 91,
+    "productId": "KID-0091",
+    "name": "Corn Pops",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened puffed corn cereal"
+  },
+  {
+    "number": 92,
+    "productId": "KID-0092",
+    "name": "Corn Pops Caramel",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Caramel-flavoured corn cereal"
+  },
+  {
+    "number": 93,
+    "productId": "KID-0093",
+    "name": "Corn Flakes",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Toasted corn flakes"
+  },
+  {
+    "number": 94,
+    "productId": "KID-0094",
+    "name": "Frosted Corn Flakes",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened corn flakes"
+  },
+  {
+    "number": 95,
+    "productId": "KID-0095",
+    "name": "Rice Krispies Multigrain",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain crispy rice cereal"
+  },
+  {
+    "number": 96,
+    "productId": "KID-0096",
+    "name": "Coco Krispies",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured crispy rice"
+  },
+  {
+    "number": 97,
+    "productId": "KID-0097",
+    "name": "Rice Bubbles",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Puffed crispy rice cereal"
+  },
+  {
+    "number": 98,
+    "productId": "KID-0098",
+    "name": "Kix",
+    "brand": "General Mills",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Lightly sweetened corn puffs"
+  },
+  {
+    "number": 99,
+    "productId": "KID-0099",
+    "name": "Honey Kix",
+    "brand": "General Mills",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured corn puffs"
+  },
+  {
+    "number": 100,
+    "productId": "KID-0100",
+    "name": "Golden Grahams S'mores",
+    "brand": "General Mills",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Graham, chocolate and marshmallow cereal"
+  },
+  {
+    "number": 101,
+    "productId": "KID-0101",
+    "name": "Mini-Wheats Original",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Frosted wholegrain wheat biscuits"
+  },
+  {
+    "number": 102,
+    "productId": "KID-0102",
+    "name": "Mini-Wheats Little Bites",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Small frosted wheat biscuits"
+  },
+  {
+    "number": 103,
+    "productId": "KID-0103",
+    "name": "Mini-Wheats Chocolate",
+    "brand": "Kellogg's",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured wheat biscuits"
+  },
+  {
+    "number": 104,
+    "productId": "KID-0104",
+    "name": "Weetabix",
+    "brand": "Weetabix",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wholegrain wheat biscuits"
+  },
+  {
+    "number": 105,
+    "productId": "KID-0105",
+    "name": "Weetabix Minis Chocolate",
+    "brand": "Weetabix",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured mini cereal bites"
+  },
+  {
+    "number": 106,
+    "productId": "KID-0106",
+    "name": "Weetabix Minis Fruit & Nut",
+    "brand": "Weetabix",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Fruit and nut cereal bites"
+  },
+  {
+    "number": 107,
+    "productId": "KID-0107",
+    "name": "Weetabix Minis Banana",
+    "brand": "Weetabix",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Banana-flavoured mini cereal"
+  },
+  {
+    "number": 108,
+    "productId": "KID-0108",
+    "name": "Weetabix Crispy Minis",
+    "brand": "Weetabix",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Crunchy mini wheat cereal"
+  },
+  {
+    "number": 109,
+    "productId": "KID-0109",
+    "name": "Shreddies Original",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wholegrain shredded wheat squares"
+  },
+  {
+    "number": 110,
+    "productId": "KID-0110",
+    "name": "Shreddies Frosted",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Frosted shredded wheat squares"
+  },
+  {
+    "number": 111,
+    "productId": "KID-0111",
+    "name": "Shreddies Coco",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate shredded wheat squares"
+  },
+  {
+    "number": 112,
+    "productId": "KID-0112",
+    "name": "Shreddies Honey",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured wheat squares"
+  },
+  {
+    "number": 113,
+    "productId": "KID-0113",
+    "name": "Shredded Wheat Bitesize",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Bite-sized wholegrain wheat cereal"
+  },
+  {
+    "number": 114,
+    "productId": "KID-0114",
+    "name": "Golden Nuggets",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened crunchy wheat cereal"
+  },
+  {
+    "number": 115,
+    "productId": "KID-0115",
+    "name": "Lion Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate and caramel cereal"
+  },
+  {
+    "number": 116,
+    "productId": "KID-0116",
+    "name": "Chocapic",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate wholegrain cereal"
+  },
+  {
+    "number": 117,
+    "productId": "KID-0117",
+    "name": "Chocapic Duo",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Dual chocolate-flavoured cereal"
+  },
+  {
+    "number": 118,
+    "productId": "KID-0118",
+    "name": "Koko Krunch",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured wheat cereal"
+  },
+  {
+    "number": 119,
+    "productId": "KID-0119",
+    "name": "Koko Krunch Duo",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Dual-flavour chocolate cereal"
+  },
+  {
+    "number": 120,
+    "productId": "KID-0120",
+    "name": "KitKat Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 5,
+    "sectionName": "Corn, Rice & Wheat-Based Children's Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate and wafer-flavoured cereal"
+  },
+  {
+    "number": 121,
+    "productId": "KID-0121",
+    "name": "Cini Minis",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Cinnamon-flavoured crunchy squares"
+  },
+  {
+    "number": 122,
+    "productId": "KID-0122",
+    "name": "Cookie Crisp",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Mini chocolate chip cookie cereal"
+  },
+  {
+    "number": 123,
+    "productId": "KID-0123",
+    "name": "Cookie Crisp Sprinkles",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Cookie cereal with colourful sprinkles"
+  },
+  {
+    "number": 124,
+    "productId": "KID-0124",
+    "name": "Nesquik Duo",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Two-colour chocolate cereal"
+  },
+  {
+    "number": 125,
+    "productId": "KID-0125",
+    "name": "Nesquik Strawberry",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured cereal"
+  },
+  {
+    "number": 126,
+    "productId": "KID-0126",
+    "name": "Nesquik Banana",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Banana-flavoured cereal"
+  },
+  {
+    "number": 127,
+    "productId": "KID-0127",
+    "name": "Nesquik Choco Waves",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured cereal pieces"
+  },
+  {
+    "number": 128,
+    "productId": "KID-0128",
+    "name": "Choco Flakes",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-coated flakes"
+  },
+  {
+    "number": 129,
+    "productId": "KID-0129",
+    "name": "Choco Shells",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate shell-shaped cereal"
+  },
+  {
+    "number": 130,
+    "productId": "KID-0130",
+    "name": "Choco Balls",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate cereal balls"
+  },
+  {
+    "number": 131,
+    "productId": "KID-0131",
+    "name": "Choco Krispies",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate crispy rice cereal"
+  },
+  {
+    "number": 132,
+    "productId": "KID-0132",
+    "name": "Choco Pops",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate puffed rice cereal"
+  },
+  {
+    "number": 133,
+    "productId": "KID-0133",
+    "name": "Choco Stars",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate star-shaped cereal"
+  },
+  {
+    "number": 134,
+    "productId": "KID-0134",
+    "name": "Honey Stars",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured star cereal"
+  },
+  {
+    "number": 135,
+    "productId": "KID-0135",
+    "name": "Golden Minis",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Sweetened mini cereal pieces"
+  },
+  {
+    "number": 136,
+    "productId": "KID-0136",
+    "name": "Fitness Chocolate",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured wheat flakes"
+  },
+  {
+    "number": 137,
+    "productId": "KID-0137",
+    "name": "Fitness Strawberry",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry-flavoured cereal flakes"
+  },
+  {
+    "number": 138,
+    "productId": "KID-0138",
+    "name": "Lion Wildberry",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry-flavoured cereal"
+  },
+  {
+    "number": 139,
+    "productId": "KID-0139",
+    "name": "Lion Caramel & Chocolate",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Caramel and chocolate cereal"
+  },
+  {
+    "number": 140,
+    "productId": "KID-0140",
+    "name": "Nesquik Alphabet",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate alphabet-shaped cereal"
+  },
+  {
+    "number": 141,
+    "productId": "KID-0141",
+    "name": "Alpen Strawberry & Yogurt",
+    "brand": "Weetabix",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Strawberry and yogurt muesli"
+  },
+  {
+    "number": 142,
+    "productId": "KID-0142",
+    "name": "Alpen Original",
+    "brand": "Weetabix",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Oat, wheat, fruit and nut muesli"
+  },
+  {
+    "number": 143,
+    "productId": "KID-0143",
+    "name": "Alpen No Added Sugar",
+    "brand": "Weetabix",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "No-added-sugar muesli"
+  },
+  {
+    "number": 144,
+    "productId": "KID-0144",
+    "name": "Jordans Country Crisp Strawberry",
+    "brand": "Jordans",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Crunchy strawberry granola"
+  },
+  {
+    "number": 145,
+    "productId": "KID-0145",
+    "name": "Jordans Country Crisp Chocolate",
+    "brand": "Jordans",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate granola clusters"
+  },
+  {
+    "number": 146,
+    "productId": "KID-0146",
+    "name": "Jordans Country Crisp Honey",
+    "brand": "Jordans",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-coated oat clusters"
+  },
+  {
+    "number": 147,
+    "productId": "KID-0147",
+    "name": "Dorset Cereals Simply Nutty",
+    "brand": "Dorset Cereals",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Nut and oat breakfast cereal"
+  },
+  {
+    "number": 148,
+    "productId": "KID-0148",
+    "name": "Dorset Cereals Berry Burst",
+    "brand": "Dorset Cereals",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry and wholegrain muesli"
+  },
+  {
+    "number": 149,
+    "productId": "KID-0149",
+    "name": "Cheerios Multigrain",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain oat rings"
+  },
+  {
+    "number": 150,
+    "productId": "KID-0150",
+    "name": "Cheerios Honey",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured wholegrain rings"
+  },
+  {
+    "number": 151,
+    "productId": "KID-0151",
+    "name": "Cheerios Apple Cinnamon",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Apple and cinnamon cereal"
+  },
+  {
+    "number": 152,
+    "productId": "KID-0152",
+    "name": "Cheerios Chocolate",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured cereal rings"
+  },
+  {
+    "number": 153,
+    "productId": "KID-0153",
+    "name": "Nesfit Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wholegrain breakfast cereal"
+  },
+  {
+    "number": 154,
+    "productId": "KID-0154",
+    "name": "Nesfit Chocolate",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured wholegrain cereal"
+  },
+  {
+    "number": 155,
+    "productId": "KID-0155",
+    "name": "Nesfit Honey",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured wholegrain cereal"
+  },
+  {
+    "number": 156,
+    "productId": "KID-0156",
+    "name": "Passatempo Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Biscuit-inspired breakfast cereal"
+  },
+  {
+    "number": 157,
+    "productId": "KID-0157",
+    "name": "Milo Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Malt and chocolate-flavoured cereal"
+  },
+  {
+    "number": 158,
+    "productId": "KID-0158",
+    "name": "Milo Duo",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Dual-texture malt chocolate cereal"
+  },
+  {
+    "number": 159,
+    "productId": "KID-0159",
+    "name": "Crunch Cereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Chocolate-flavoured crunchy cereal"
+  },
+  {
+    "number": 160,
+    "productId": "KID-0160",
+    "name": "Nesquik Alphabet",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 6,
+    "sectionName": "International & Premium Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Alphabet-shaped chocolate cereal"
+  },
+  {
+    "number": 161,
+    "productId": "KID-0161",
+    "name": "Gorilla Munch",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic corn puff cereal"
+  },
+  {
+    "number": 162,
+    "productId": "KID-0162",
+    "name": "Koala Crisp",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic chocolate rice cereal"
+  },
+  {
+    "number": 163,
+    "productId": "KID-0163",
+    "name": "Leapin' Lemurs",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic peanut butter cereal"
+  },
+  {
+    "number": 164,
+    "productId": "KID-0164",
+    "name": "Panda Puffs",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic peanut butter corn puffs"
+  },
+  {
+    "number": 165,
+    "productId": "KID-0165",
+    "name": "Amazon Flakes",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic crunchy flakes"
+  },
+  {
+    "number": 166,
+    "productId": "KID-0166",
+    "name": "Choco Chimps",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic chocolate cereal"
+  },
+  {
+    "number": 167,
+    "productId": "KID-0167",
+    "name": "Jungle Munch",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic wholegrain cereal"
+  },
+  {
+    "number": 168,
+    "productId": "KID-0168",
+    "name": "Penguin Puffs",
+    "brand": "EnviroKidz",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic puffed cereal"
+  },
+  {
+    "number": 169,
+    "productId": "KID-0169",
+    "name": "Organic Corn Flakes",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic corn breakfast cereal"
+  },
+  {
+    "number": 170,
+    "productId": "KID-0170",
+    "name": "Organic Mesa Sunrise",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic multigrain flakes"
+  },
+  {
+    "number": 171,
+    "productId": "KID-0171",
+    "name": "Heritage Flakes",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain and wholegrain flakes"
+  },
+  {
+    "number": 172,
+    "productId": "KID-0172",
+    "name": "Organic Flax Plus Pumpkin Raisin Crunch",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Flax, pumpkin and raisin cereal"
+  },
+  {
+    "number": 173,
+    "productId": "KID-0173",
+    "name": "Organic Sunrise Crunchy Vanilla",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Vanilla-flavoured organic cereal"
+  },
+  {
+    "number": 174,
+    "productId": "KID-0174",
+    "name": "Organic Sunrise Crunchy Maple",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Maple-flavoured cereal"
+  },
+  {
+    "number": 175,
+    "productId": "KID-0175",
+    "name": "Peanut Butter Panda Puffs",
+    "brand": "Nature's Path",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic peanut butter cereal"
+  },
+  {
+    "number": 176,
+    "productId": "KID-0176",
+    "name": "Organic Honey Nut O's",
+    "brand": "Cascadian Farm",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic honey-flavoured cereal rings"
+  },
+  {
+    "number": 177,
+    "productId": "KID-0177",
+    "name": "Organic Purely O's",
+    "brand": "Cascadian Farm",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic wholegrain cereal rings"
+  },
+  {
+    "number": 178,
+    "productId": "KID-0178",
+    "name": "Organic Cinnamon Crunch",
+    "brand": "Cascadian Farm",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic cinnamon cereal"
+  },
+  {
+    "number": 179,
+    "productId": "KID-0179",
+    "name": "Organic Berry Vanilla Puffs",
+    "brand": "Barbara's",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Berry and vanilla puff cereal"
+  },
+  {
+    "number": 180,
+    "productId": "KID-0180",
+    "name": "Original Puffins",
+    "brand": "Barbara's",
+    "sectionNumber": 7,
+    "sectionName": "Organic & Natural Kids' Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Crunchy wholegrain corn cereal"
+  },
+  {
+    "number": 181,
+    "productId": "KID-0181",
+    "name": "Nestum Rice",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant rice cereal"
+  },
+  {
+    "number": 182,
+    "productId": "KID-0182",
+    "name": "Nestum Wheat",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant wheat cereal"
+  },
+  {
+    "number": 183,
+    "productId": "KID-0183",
+    "name": "Nestum Multicereal",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain infant cereal"
+  },
+  {
+    "number": 184,
+    "productId": "KID-0184",
+    "name": "Nestum Honey",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Honey-flavoured cereal product; check age suitability"
+  },
+  {
+    "number": 185,
+    "productId": "KID-0185",
+    "name": "Cerelac Rice",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant rice-based cereal"
+  },
+  {
+    "number": 186,
+    "productId": "KID-0186",
+    "name": "Cerelac Wheat",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant wheat cereal"
+  },
+  {
+    "number": 187,
+    "productId": "KID-0187",
+    "name": "Cerelac Multigrain",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain infant cereal"
+  },
+  {
+    "number": 188,
+    "productId": "KID-0188",
+    "name": "Cerelac Rice & Vegetables",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Rice and vegetable infant cereal"
+  },
+  {
+    "number": 189,
+    "productId": "KID-0189",
+    "name": "Cerelac Wheat & Apple",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wheat and apple infant cereal"
+  },
+  {
+    "number": 190,
+    "productId": "KID-0190",
+    "name": "Cerelac Wheat & Banana",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wheat and banana infant cereal"
+  },
+  {
+    "number": 191,
+    "productId": "KID-0191",
+    "name": "Cerelac Wheat & Honey",
+    "brand": "Nestl\u00e9",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Wheat-based infant cereal"
+  },
+  {
+    "number": 192,
+    "productId": "KID-0192",
+    "name": "Gerber Oatmeal Cereal",
+    "brand": "Gerber",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant oatmeal cereal"
+  },
+  {
+    "number": 193,
+    "productId": "KID-0193",
+    "name": "Gerber Rice Cereal",
+    "brand": "Gerber",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Infant rice cereal"
+  },
+  {
+    "number": 194,
+    "productId": "KID-0194",
+    "name": "Gerber Multigrain Cereal",
+    "brand": "Gerber",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Multigrain infant cereal"
+  },
+  {
+    "number": 195,
+    "productId": "KID-0195",
+    "name": "Gerber Whole Wheat Cereal",
+    "brand": "Gerber",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Whole wheat infant cereal"
+  },
+  {
+    "number": 196,
+    "productId": "KID-0196",
+    "name": "Earth's Best Organic Oatmeal Cereal",
+    "brand": "Earth's Best",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic infant oatmeal"
+  },
+  {
+    "number": 197,
+    "productId": "KID-0197",
+    "name": "Earth's Best Organic Rice Cereal",
+    "brand": "Earth's Best",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic infant rice cereal"
+  },
+  {
+    "number": 198,
+    "productId": "KID-0198",
+    "name": "Earth's Best Organic Multigrain Cereal",
+    "brand": "Earth's Best",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic multigrain cereal"
+  },
+  {
+    "number": 199,
+    "productId": "KID-0199",
+    "name": "Happy Baby Organic Oatmeal Cereal",
+    "brand": "Happy Baby",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic infant oatmeal"
+  },
+  {
+    "number": 200,
+    "productId": "KID-0200",
+    "name": "Happy Baby Organic Multigrain Cereal",
+    "brand": "Happy Baby",
+    "sectionNumber": 8,
+    "sectionName": "Baby, Toddler & Junior Breakfast Cereals",
+    "cerealType": "Breakfast Cereal",
+    "details": "Organic multigrain infant cereal"
+  },
+  {
+    "number": 201,
+    "productId": "KID-0201",
+    "name": "Chocolate Stars & Moons Cereal",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Chocolate millet cereal",
+    "details": "Chocolate cereal shaped like stars and moons"
+  },
+  {
+    "number": 202,
+    "productId": "KID-0202",
+    "name": "Ragi, Almond and Banana Cereal",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Sprouted ragi cereal",
+    "details": "Ragi-based cereal with almond and banana"
+  },
+  {
+    "number": 203,
+    "productId": "KID-0203",
+    "name": "Wheat, Apple & Date with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Instant wheat cereal",
+    "details": "Wheat cereal with apple, dates and milk"
+  },
+  {
+    "number": 204,
+    "productId": "KID-0204",
+    "name": "Wheat, Apple & Banana Cereal",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Instant fruit cereal",
+    "details": "Wheat-based cereal with apple and banana"
+  },
+  {
+    "number": 205,
+    "productId": "KID-0205",
+    "name": "Strawberry, Ragi & Rice Cereal with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Fruit and millet cereal",
+    "details": "Strawberry, ragi and rice combination"
+  },
+  {
+    "number": 206,
+    "productId": "KID-0206",
+    "name": "Banana, Ragi and Rice Cereal with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Fruit and millet cereal",
+    "details": "Banana, ragi and rice combination"
+  },
+  {
+    "number": 207,
+    "productId": "KID-0207",
+    "name": "Mango, Ragi and Rice Cereal with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Fruit and millet cereal",
+    "details": "Mango, ragi and rice combination"
+  },
+  {
+    "number": 208,
+    "productId": "KID-0208",
+    "name": "Sweet Potato, Beetroot & Oat Cereal with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Vegetable oat cereal",
+    "details": "Oats with sweet potato and beetroot"
+  },
+  {
+    "number": 209,
+    "productId": "KID-0209",
+    "name": "Sweet Potato, Carrot & Oat Cereal with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Vegetable oat cereal",
+    "details": "Oats with sweet potato and carrot"
+  },
+  {
+    "number": 210,
+    "productId": "KID-0210",
+    "name": "Multigrain Millets and Mixed Fruits with Milk",
+    "brand": "Slurrp Farm",
+    "sectionNumber": 9,
+    "sectionName": "Slurrp Farm Kids' Cereals",
+    "cerealType": "Multigrain fruit cereal",
+    "details": "Millet-based cereal with mixed fruits and date powder"
+  }
+]

@@ -147,6 +147,10 @@ export interface ProductItem {
   productId?: string | null;
   biscuitSection?: string | null;
   biscuitType?: string | null;
+  cerealSection?: string | null;
+  cerealType?: string | null;
+  primaryIngredient?: string | null;
+  targetAge?: string | null;
   dietarySuitability?: {
     isVegetarian?: boolean;
     isVegan?: boolean;
