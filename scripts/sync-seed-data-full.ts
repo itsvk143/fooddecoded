@@ -51,7 +51,7 @@ ${rulesBlock}
 
 ${submissionsBlock}
 
-export const SEED_PRODUCTS: ProductItem[] = ${JSON.stringify(products, null, 2)};
+export const SEED_PRODUCTS: ProductItem[] = (${JSON.stringify(products, null, 2)}) as unknown as ProductItem[];
 
 export function generateSeedProducts(): ProductItem[] {
   return SEED_PRODUCTS;

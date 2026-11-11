@@ -140,6 +140,17 @@ export interface ProductItem {
   packageUnit?: string | null;
   manufacturer?: string | null;
   countryOfOrigin?: string | null;
+  cocoaPercentage?: number | string | null;
+  availability?: "VERIFIED_AVAILABLE" | "VERIFIED_DISCONTINUED" | "LIMITED_EDITION" | "IMPORTED_AVAILABILITY_UNCONFIRMED" | "PRODUCT_UNVERIFIED" | null;
+  sourceCatalogue?: "Initial Catalogue" | "Additional Catalogue" | "Premium Worldwide Collection" | null;
+  importReferenceNumber?: number | null;
+  dietarySuitability?: {
+    isVegetarian?: boolean;
+    isVegan?: boolean;
+    isGlutenFree?: boolean;
+    isSugarFree?: boolean;
+    isOrganic?: boolean;
+  } | null;
   searchTags?: string[] | null;
   isArchived?: boolean;
   archivedAt?: string | null;

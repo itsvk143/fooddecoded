@@ -88,6 +88,21 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Flags and Alerts */}
         <div className="flex flex-wrap gap-1.5 mt-2.5">
+          {product.cocoaPercentage != null && (
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-900/10 text-amber-900 dark:bg-amber-800/30 dark:text-amber-300 border border-amber-900/20">
+              {product.cocoaPercentage}% Cocoa
+            </span>
+          )}
+          {product.availability === "LIMITED_EDITION" && (
+            <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[9px] font-bold bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300 border border-purple-200 dark:border-purple-800">
+              Limited Edition
+            </span>
+          )}
+          {product.countryOfOrigin && product.countryOfOrigin !== "India" && (
+            <span className="inline-flex items-center px-1.5 py-0.5 rounded-full text-[9px] font-medium bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300 border border-stone-200 dark:border-stone-700">
+              {product.countryOfOrigin}
+            </span>
+          )}
           {product.hasPalmOil && (
             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300">
               <Droplets className="w-2.5 h-2.5" /> Palm Oil

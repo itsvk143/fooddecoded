@@ -250,6 +250,8 @@ export async function queryProducts(params: {
     if (params.category && params.category !== "All") {
       const catLower = params.category.toLowerCase();
       const slugToNameMap: Record<string, string> = {
+        "chocolate": "Chocolates & Sweets",
+        "chocolates": "Chocolates & Sweets",
         "chocolates-sweets": "Chocolates & Sweets",
         "chocolates & sweets": "Chocolates & Sweets",
         "beverages": "Beverages & Drinks",
@@ -491,6 +493,8 @@ export async function queryProducts(params: {
   if (params.category && params.category !== "All") {
     const catLower = params.category.toLowerCase();
     const slugToNameMap: Record<string, string> = {
+      "chocolate": "Chocolates & Sweets",
+      "chocolates": "Chocolates & Sweets",
       "chocolates-sweets": "Chocolates & Sweets",
       "chocolates & sweets": "Chocolates & Sweets",
       "beverages": "Beverages & Drinks",

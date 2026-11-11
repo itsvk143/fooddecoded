@@ -4,6 +4,37 @@ process.loadEnvFile(".env.local");
 const uri = process.env.MONGODB_URI!;
 const dbName = process.env.MONGODB_DB_NAME || "fooddecode";
 
+export const CHOCOLATE_28_SUBCATEGORIES = [
+  "Milk Chocolate",
+  "Dark Chocolate",
+  "White Chocolate",
+  "Ruby Chocolate",
+  "Premium Chocolate",
+  "Luxury Chocolate",
+  "Artisan Chocolate",
+  "Single-Origin Chocolate",
+  "Swiss Chocolate",
+  "Belgian Chocolate",
+  "French Chocolate",
+  "Italian Chocolate",
+  "Japanese Chocolate",
+  "American Chocolate",
+  "British Chocolate",
+  "Indian Craft Chocolate",
+  "Chocolate Truffles",
+  "Chocolate Pralines",
+  "Filled Chocolate",
+  "Nut Chocolate",
+  "Caramel Chocolate",
+  "Fruit Chocolate",
+  "Wafer Chocolate",
+  "Sugar-Free Chocolate",
+  "Vegan Chocolate",
+  "Organic Chocolate",
+  "Baking Chocolate",
+  "Specialty Chocolate"
+];
+
 async function main() {
   const client = new MongoClient(uri);
   await client.connect();
@@ -13,45 +44,22 @@ async function main() {
     slug: "chocolates-sweets",
     name: "Chocolates & Sweets",
     icon: "🍫",
-    description: "Artisanal chocolates, dark chocolate, confectionery, toffees and Indian traditional sweets.",
+    description: "Premium, artisanal, luxury and commercial chocolates, single-origin cacao, pralines and confectionery.",
     displayOrder: 14,
     isActive: true,
-    subCategories: [
-      "Dark Chocolate",
-      "Milk Chocolate",
-      "White Chocolate",
-      "Chocolate Bars",
-      "Chocolate Wafer Bars",
-      "Chocolate Bites & Minis",
-      "Chocolate Cookies & Wafers",
-      "Chocolate Spread",
-      "Cocoa Products",
-      "Sugar-Free Chocolates",
-      "Protein Chocolates",
-      "Indian Traditional Sweets",
-      "Packaged Indian Sweets",
-      "Candy & Toffees",
-      "Lollipops",
-      "Gummies & Jellies",
-      "Marshmallows",
-      "Premium & Imported Chocolates",
-      "Festival Chocolate Gift Packs",
-      "Peanut Brittle & Chikki"
-    ]
+    subCategories: CHOCOLATE_28_SUBCATEGORIES
   };
 
   const res = await db.collection("categories").updateOne(
-    { name: chocolateCategory.name },
+    { $or: [{ name: "Chocolates & Sweets" }, { slug: "chocolates-sweets" }] },
     { $set: chocolateCategory },
     { upsert: true }
   );
 
-  console.log("Upserted Chocolates & Sweets category in MongoDB:", res);
-
-  const allCats = await db.collection("categories").find({}).toArray();
-  console.log("Current categories count in DB:", allCats.length);
-
+  console.log("Upserted Chocolates & Sweets category in MongoDB with 28 subcategories:", res);
   await client.close();
 }
 
-main().catch(console.error);
+if (require.main === module || process.argv[1]?.includes("setup-chocolates-category")) {
+  main().catch(console.error);
+}

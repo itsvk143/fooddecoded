@@ -123,6 +123,22 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 {product.imageStatus || (product.imageUrl?.includes("placeholder") ? "IMAGE_MISSING" : "UNVERIFIED")}
               </span>
             </div>
+            {product.manufacturer && (
+              <div className="flex items-center justify-between text-stone-500">
+                <span>Manufacturer</span>
+                <span className="font-semibold text-stone-700 dark:text-stone-300 truncate max-w-[160px]" title={product.manufacturer}>
+                  {product.manufacturer}
+                </span>
+              </div>
+            )}
+            {product.availability && (
+              <div className="flex items-center justify-between text-stone-500">
+                <span>Availability</span>
+                <span className="font-semibold text-stone-700 dark:text-stone-300">
+                  {product.availability.replace(/_/g, " ")}
+                </span>
+              </div>
+            )}
             <div className="flex items-center justify-between text-stone-500">
               <span>Data Source</span>
               <span className="font-semibold capitalize text-stone-700 dark:text-stone-300">
@@ -141,6 +157,25 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </a>
               </div>
             )}
+            {product.dietarySuitability && (
+              <div className="pt-2 border-t border-stone-200 dark:border-stone-700 flex flex-wrap gap-1.5">
+                {product.dietarySuitability.isVegetarian && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">Vegetarian</span>
+                )}
+                {product.dietarySuitability.isVegan && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-green-100 text-green-800 dark:bg-green-950 dark:text-green-300">Vegan</span>
+                )}
+                {product.dietarySuitability.isGlutenFree && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-sky-100 text-sky-800 dark:bg-sky-950 dark:text-sky-300">Gluten-Free</span>
+                )}
+                {product.dietarySuitability.isSugarFree && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-300">Sugar-Free</span>
+                )}
+                {product.dietarySuitability.isOrganic && (
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-teal-100 text-teal-800 dark:bg-teal-950 dark:text-teal-300">Organic</span>
+                )}
+              </div>
+            )}
           </div>
         </div>
 
@@ -153,6 +188,16 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               </span>
               {product.subCategory && (
                 <span className="text-xs text-stone-400">· {product.subCategory}</span>
+              )}
+              {product.cocoaPercentage != null && (
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-900/10 text-amber-900 dark:bg-amber-800/30 dark:text-amber-300 border border-amber-900/20">
+                  {product.cocoaPercentage}% Cocoa Solids
+                </span>
+              )}
+              {product.countryOfOrigin && (
+                <span className="px-2 py-0.5 rounded text-xs font-semibold bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300">
+                  Origin: {product.countryOfOrigin}
+                </span>
               )}
             </div>
 
