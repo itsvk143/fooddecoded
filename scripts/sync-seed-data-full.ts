@@ -10,8 +10,11 @@ async function main() {
   await client.connect();
   const db = client.db(dbName);
 
-  const rawCats = await db.collection("categories").find({}).sort({ displayOrder: 1, name: 1 }).toArray();
-  const rawProds = await db.collection("products").find({}).sort({ name: 1 }).toArray();
+  const rawCats = await db.collection("categories").find({}).toArray();
+  rawCats.sort((a, b) => ((a.displayOrder || 0) - (b.displayOrder || 0)) || (a.name || "").localeCompare(b.name || ""));
+
+  const rawProds = await db.collection("products").find({}).toArray();
+  rawProds.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
 
   const categories = rawCats.map((c) => ({
     slug: c.slug,

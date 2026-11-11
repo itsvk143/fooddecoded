@@ -141,9 +141,12 @@ export interface ProductItem {
   manufacturer?: string | null;
   countryOfOrigin?: string | null;
   cocoaPercentage?: number | string | null;
-  availability?: "VERIFIED_AVAILABLE" | "VERIFIED_DISCONTINUED" | "LIMITED_EDITION" | "IMPORTED_AVAILABILITY_UNCONFIRMED" | "PRODUCT_UNVERIFIED" | null;
+  availability?: "VERIFIED_AVAILABLE" | "VERIFIED_DISCONTINUED" | "LIMITED_EDITION" | "IMPORTED_AVAILABILITY_UNCONFIRMED" | "PRODUCT_UNVERIFIED" | string | null;
   sourceCatalogue?: "Initial Catalogue" | "Additional Catalogue" | "Premium Worldwide Collection" | null;
   importReferenceNumber?: number | null;
+  productId?: string | null;
+  biscuitSection?: string | null;
+  biscuitType?: string | null;
   dietarySuitability?: {
     isVegetarian?: boolean;
     isVegan?: boolean;

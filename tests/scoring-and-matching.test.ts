@@ -1107,3 +1107,27 @@ test("queryProducts filters Chocolates & Sweets by category and slug correctly",
   const bySlug = await queryProducts({ category: "chocolates-sweets", limit: 50 });
   assert.ok(bySlug.total >= 101, `Query by slug should return >= 101 products, got ${bySlug.total}`);
 });
+
+test("Global Biscuit Catalogue: Contains 500 biscuit products with unique IDs, barcodes and packshots", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const biscuitProducts = products.filter((p) => p.productId && p.productId.startsWith("BIS-"));
+  assert.equal(biscuitProducts.length, 500, `Expected exactly 500 BIS- products, got ${biscuitProducts.length}`);
+
+  // Check unique barcodes
+  const barcodes = new Set(biscuitProducts.map((p) => p.barcode));
+  assert.equal(barcodes.size, biscuitProducts.length, "All biscuit barcodes must be strictly unique");
+
+  // Check unique product IDs
+  const productIds = new Set(biscuitProducts.map((p) => p.productId));
+  assert.equal(productIds.size, 500, "All 500 BIS- IDs must be strictly unique");
+
+  // Check key brands representation
+  const brands = new Set(biscuitProducts.map((p) => p.brand));
+  const expectedKeyBrands = ["Oreo", "Britannia", "Parle", "McVitie's", "Sunfeast", "Walkers", "LU", "Loacker", "Lotte", "Glico"];
+  for (const b of expectedKeyBrands) {
+    assert.ok(brands.has(b), `Global Biscuit catalogue must contain brand: ${b}`);
+  }
+});
+
