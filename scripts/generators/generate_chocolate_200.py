@@ -1097,3 +1097,4 @@ with open("scripts/data/chocolate_200_candidates.json", "w") as f:
     json.dump(products, f, indent=2)
 
 print(f"✅ Successfully compiled {len(products)} Chocolate products to scripts/data/chocolate_200_candidates.json")
+
