@@ -153,6 +153,8 @@ export interface ProductItem {
   targetAge?: string | null;
   drinkSection?: string | null;
   beverageType?: string | null;
+  iceCreamSection?: string | null;
+  iceCreamType?: string | null;
   dietarySuitability?: {
     isVegetarian?: boolean;
     isVegan?: boolean;

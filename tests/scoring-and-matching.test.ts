@@ -1193,5 +1193,39 @@ test("Global Cold Drinks Catalogue: Contains 500 products with unique IDs, barco
   }
 });
 
+test("Global Ice Cream Catalogue: Contains 500 products with unique IDs, barcodes and packshots", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const iceCreams = products.filter((p) => p.productId && p.productId.startsWith("ICM-"));
+  assert.equal(iceCreams.length, 500, `Expected exactly 500 ICM- products, got ${iceCreams.length}`);
+
+  // Check unique barcodes
+  const barcodes = new Set(iceCreams.map((p) => p.barcode));
+  assert.equal(barcodes.size, 500, "All 500 Ice Cream barcodes must be strictly unique");
+
+  // Check unique product IDs
+  const productIds = new Set(iceCreams.map((p) => p.productId));
+  assert.equal(productIds.size, 500, "All 500 ICM- IDs must be strictly unique");
+
+  // Check key brands representation
+  const brands = new Set(iceCreams.map((p) => p.brand));
+  const expectedBrands = [
+    "Amul", "Mother Dairy", "Havmor", "Kwality Wall's", "Magnum",
+    "Baskin-Robbins", "Häagen-Dazs", "Ben & Jerry's", "Tillamook", "Blue Bell", "Talenti", "Jeni's"
+  ];
+  for (const b of expectedBrands) {
+    assert.ok(brands.has(b), `Ice Cream catalogue must contain brand: ${b}`);
+  }
+
+  // Ensure category and subcategories
+  for (const p of iceCreams) {
+    assert.equal(p.category, "Ice Cream", `Product ${p.name} category must be Ice Cream`);
+    assert.ok(p.subCategory, `Product ${p.name} must have a valid subCategory`);
+    assert.ok(p.imageUrl && !p.imageUrl.endsWith(".svg"), `Product ${p.name} must have a non-SVG packshot`);
+  }
+});
+
+
 
 
