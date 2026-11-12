@@ -246,15 +246,20 @@ export async function queryProducts(params: {
       }
     }
 
-    // Category filter: strictly enforce taxonomy
+    // Category filter: strictly enforce 1:1 taxonomy so EACH item is visible under ONLY ONE category
     if (params.category && params.category !== "All") {
-      const catLower = params.category.toLowerCase();
+      const catLower = params.category.toLowerCase().trim();
       const slugToNameMap: Record<string, string> = {
+        "cold-drinks": "Cold Drinks",
+        "cold drinks": "Cold Drinks",
+        "ice-cream": "Ice Cream",
+        "ice cream": "Ice Cream",
         "chocolate": "Chocolates & Sweets",
         "chocolates": "Chocolates & Sweets",
         "chocolates-sweets": "Chocolates & Sweets",
         "chocolates & sweets": "Chocolates & Sweets",
         "beverages": "Beverages & Drinks",
+        "beverages-drinks": "Beverages & Drinks",
         "beverages & drinks": "Beverages & Drinks",
         "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
         "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
@@ -266,43 +271,29 @@ export async function queryProducts(params: {
         "bakery & breads": "Bakery & Breads",
         "spreads-dips-sauces": "Spreads, Dips & Sauces",
         "spreads, dips & sauces": "Spreads, Dips & Sauces",
-        "ice-cream": "Ice Cream",
-        "ice cream": "Ice Cream",
         "cereals-breakfast": "Cereals & Breakfast",
         "cereals & breakfast": "Cereals & Breakfast",
         "dairy-alternatives": "Dairy & Yogurt",
+        "dairy-yogurt": "Dairy & Yogurt",
         "dairy & yogurt": "Dairy & Yogurt",
         "pantry-staples": "Pantry & Grains",
+        "pantry-grains": "Pantry & Grains",
         "pantry & grains": "Pantry & Grains",
         "condiments-sauces": "Condiments & Sauces",
         "condiments & sauces": "Condiments & Sauces",
         "snacks-sweets": "Snacks & Spreads",
+        "snacks-spreads": "Snacks & Spreads",
         "snacks & spreads": "Snacks & Spreads",
       };
 
-      if (catLower === "cold-drinks" || catLower === "cold drinks") {
-        filter.$or = [
-          { category: "Cold Drinks" },
-          { categorySlug: "cold-drinks" },
-          { subCategory: "Cold Drinks" },
-        ] as any;
-      } else if (slugToNameMap[catLower]) {
-        filter.category = slugToNameMap[catLower];
-      } else {
-        filter.category = params.category;
-      }
+      const targetCategory = slugToNameMap[catLower] || params.category;
+      filter.category = targetCategory;
     }
 
     // Subcategory filter: strictly enforce taxonomy
     if (params.subCategory && params.subCategory !== "All") {
       if (params.subCategory.toLowerCase() === "chips") {
         filter.subCategory = { $in: ["Chips", "Chips & Crisps"] } as any;
-      } else if (params.subCategory.toLowerCase() === "cold-drinks" || params.subCategory.toLowerCase() === "cold drinks") {
-        filter.$or = [
-          { subCategory: "Cold Drinks" },
-          { categorySlug: "cold-drinks" },
-          { category: "Cold Drinks" },
-        ] as any;
       } else {
         filter.subCategory = params.subCategory;
       }
@@ -491,13 +482,18 @@ export async function queryProducts(params: {
   }
 
   if (params.category && params.category !== "All") {
-    const catLower = params.category.toLowerCase();
+    const catLower = params.category.toLowerCase().trim();
     const slugToNameMap: Record<string, string> = {
+      "cold-drinks": "Cold Drinks",
+      "cold drinks": "Cold Drinks",
+      "ice-cream": "Ice Cream",
+      "ice cream": "Ice Cream",
       "chocolate": "Chocolates & Sweets",
       "chocolates": "Chocolates & Sweets",
       "chocolates-sweets": "Chocolates & Sweets",
       "chocolates & sweets": "Chocolates & Sweets",
       "beverages": "Beverages & Drinks",
+      "beverages-drinks": "Beverages & Drinks",
       "beverages & drinks": "Beverages & Drinks",
       "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
       "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
@@ -509,44 +505,29 @@ export async function queryProducts(params: {
       "bakery & breads": "Bakery & Breads",
       "spreads-dips-sauces": "Spreads, Dips & Sauces",
       "spreads, dips & sauces": "Spreads, Dips & Sauces",
-      "ice-cream": "Ice Cream",
-      "ice cream": "Ice Cream",
       "cereals-breakfast": "Cereals & Breakfast",
       "cereals & breakfast": "Cereals & Breakfast",
       "dairy-alternatives": "Dairy & Yogurt",
+      "dairy-yogurt": "Dairy & Yogurt",
       "dairy & yogurt": "Dairy & Yogurt",
       "pantry-staples": "Pantry & Grains",
+      "pantry-grains": "Pantry & Grains",
       "pantry & grains": "Pantry & Grains",
       "condiments-sauces": "Condiments & Sauces",
       "condiments & sauces": "Condiments & Sauces",
       "snacks-sweets": "Snacks & Spreads",
+      "snacks-spreads": "Snacks & Spreads",
       "snacks & spreads": "Snacks & Spreads",
     };
 
-    if (catLower === "cold-drinks" || catLower === "cold drinks") {
-      filtered = filtered.filter(
-        (p) => p.subCategory === "Cold Drinks" || (p as any).categorySlug === "cold-drinks"
-      );
-    } else if (slugToNameMap[catLower]) {
-      const targetName = slugToNameMap[catLower];
-      filtered = filtered.filter(
-        (p) => p.category === targetName || (p as any).categorySlug === catLower
-      );
-    } else {
-      filtered = filtered.filter(
-        (p) => p.category === params.category || (p as any).categorySlug === params.category
-      );
-    }
+    const targetCategory = slugToNameMap[catLower] || params.category;
+    filtered = filtered.filter((p) => p.category === targetCategory);
   }
 
   if (params.subCategory && params.subCategory !== "All") {
     if (params.subCategory.toLowerCase() === "chips") {
       filtered = filtered.filter(
         (p) => p.subCategory === "Chips" || p.subCategory === "Chips & Crisps"
-      );
-    } else if (params.subCategory.toLowerCase() === "cold-drinks" || params.subCategory.toLowerCase() === "cold drinks") {
-      filtered = filtered.filter(
-        (p) => p.subCategory === "Cold Drinks" || (p as any).categorySlug === "cold-drinks"
       );
     } else {
       filtered = filtered.filter(
