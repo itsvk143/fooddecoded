@@ -139,7 +139,31 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     catParam === "beverages" ||
     catParam === "beverages & drinks";
 
-  const pageTitle = isColdDrinks
+  const isHealthyBars =
+    catParam === "protein-clean-label-bars-wafers" ||
+    catParam === "protein & clean-label bars / wafers";
+
+  const isDryFruits =
+    catParam === "dry-fruits-nuts-seeds-trail-mixes" ||
+    catParam === "dry fruits, nuts, seeds & trail mixes";
+
+  const isWholesomeBreakfast =
+    catParam === "wholesome-breakfast-oats-nut-butters" ||
+    catParam === "wholesome breakfast, oats & nut butters";
+
+  const isBakedChipsMakhana =
+    catParam === "baked-chips-makhana-unjunked-indian-snacks" ||
+    catParam === "baked chips, makhana & unjunked indian snacks";
+
+  const pageTitle = isHealthyBars
+    ? "Explore Protein & Clean-Label Bars / Wafers"
+    : isDryFruits
+    ? "Explore Dry Fruits, Nuts, Seeds & Trail Mixes"
+    : isWholesomeBreakfast
+    ? "Explore Wholesome Breakfast, Oats & Nut Butters"
+    : isBakedChipsMakhana
+    ? "Explore Baked Chips, Makhana & Unjunked Indian Snacks"
+    : isColdDrinks
     ? "Explore Cold Drinks"
     : isChips
     ? "Explore Chips & Crisps"
@@ -161,7 +185,15 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     ? "Explore Beverages & Drinks"
     : "Explore Food Products";
 
-  const pageDesc = isColdDrinks
+  const pageDesc = isHealthyBars
+    ? `Compare clean protein sources, whey isolate, date-sweetened recipes, and zero-chemical formulations across ${total} verified protein bars and wafers.`
+    : isDryFruits
+    ? `Inspect raw versus dry-roasted nuts, antioxidant seeds, omega-3 blends, and unpreserved dried fruits across ${total} pantry staples.`
+    : isWholesomeBreakfast
+    ? `Compare rolled oats, steel-cut oats, fiber-rich muesli, granola, and stone-ground nut butters across ${total} nutritious breakfast options.`
+    : isBakedChipsMakhana
+    ? `Explore roasted fox nuts, baked jowar puffs, roasted seeds, and palm-oil-free unjunked Indian namkeen across ${total} guilt-free snacks.`
+    : isColdDrinks
     ? `Compare ingredients, sugar content, additives, nutritional facts, and ultra-processing levels across ${total} cold drinks.`
     : isIceCream
     ? `Compare ingredients, dairy fat, sugar content, additives, Nutri-Score, and ultra-processing levels across ${total} verified ice creams & frozen desserts.`

@@ -284,6 +284,14 @@ export async function queryProducts(params: {
         "snacks-sweets": "Snacks & Spreads",
         "snacks-spreads": "Snacks & Spreads",
         "snacks & spreads": "Snacks & Spreads",
+        "protein-clean-label-bars-wafers": "Protein & Clean-Label Bars / Wafers",
+        "protein & clean-label bars / wafers": "Protein & Clean-Label Bars / Wafers",
+        "dry-fruits-nuts-seeds-trail-mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+        "dry fruits, nuts, seeds & trail mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+        "wholesome-breakfast-oats-nut-butters": "Wholesome Breakfast, Oats & Nut Butters",
+        "wholesome breakfast, oats & nut butters": "Wholesome Breakfast, Oats & Nut Butters",
+        "baked-chips-makhana-unjunked-indian-snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
+        "baked chips, makhana & unjunked indian snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
       };
 
       const targetCategory = slugToNameMap[catLower] || params.category;
@@ -518,6 +526,14 @@ export async function queryProducts(params: {
       "snacks-sweets": "Snacks & Spreads",
       "snacks-spreads": "Snacks & Spreads",
       "snacks & spreads": "Snacks & Spreads",
+      "protein-clean-label-bars-wafers": "Protein & Clean-Label Bars / Wafers",
+      "protein & clean-label bars / wafers": "Protein & Clean-Label Bars / Wafers",
+      "dry-fruits-nuts-seeds-trail-mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+      "dry fruits, nuts, seeds & trail mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+      "wholesome-breakfast-oats-nut-butters": "Wholesome Breakfast, Oats & Nut Butters",
+      "wholesome breakfast, oats & nut butters": "Wholesome Breakfast, Oats & Nut Butters",
+      "baked-chips-makhana-unjunked-indian-snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
+      "baked chips, makhana & unjunked indian snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
     };
 
     const targetCategory = slugToNameMap[catLower] || params.category;
@@ -775,6 +791,33 @@ export async function getProductAlternatives(product: ProductItem): Promise<Prod
     .slice(0, 4 - subCatMatches.length);
 
   return [...subCatMatches, ...otherMatches];
+}
+
+/**
+ * Get featured healthy snacks for the home page showcase section
+ */
+export async function getFeaturedHealthySnacks(): Promise<ProductItem[]> {
+  const col = await getCollection<ProductItem>("products");
+  if (col) {
+    try {
+      const items = await col
+        .find({ isFeatured: true })
+        .sort({ overallScore: -1 })
+        .limit(16)
+        .toArray();
+      if (items && items.length > 0) {
+        return items.map((doc: any) => ({
+          ...doc,
+          id: doc._id?.toString() || doc.id || doc.barcode,
+          _id: doc._id?.toString(),
+        })) as ProductItem[];
+      }
+    } catch (err) {
+      console.error("[getFeaturedHealthySnacks] Error querying MongoDB:", err);
+    }
+  }
+
+  return inMemoryProducts.filter((p) => p.isFeatured).slice(0, 16);
 }
 
 /**

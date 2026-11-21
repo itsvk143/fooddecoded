@@ -14,14 +14,16 @@ import {
   Database,
   ExternalLink,
 } from "lucide-react";
-import { queryProducts } from "@/lib/product-service";
+import { queryProducts, getFeaturedHealthySnacks } from "@/lib/product-service";
 import { ProductCard } from "@/components/ProductCard";
+import { FeaturedHealthySnacks } from "@/components/FeaturedHealthySnacks";
 import { SEED_CATEGORIES } from "@/lib/seed-data";
 
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   const { products, total } = await queryProducts({ limit: 6, sortBy: "score", sortOrder: "desc" });
+  const featuredHealthySnacks = await getFeaturedHealthySnacks();
 
   const demoItems = [
     { label: "Cheerios Cereal", code: "016000275270", icon: "🥣" },
@@ -177,6 +179,9 @@ export default async function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Featured Healthy Snacks – Top Picks */}
+      <FeaturedHealthySnacks products={featuredHealthySnacks} />
 
       {/* Explore by Category */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

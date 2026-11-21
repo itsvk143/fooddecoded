@@ -1226,6 +1226,52 @@ test("Global Ice Cream Catalogue: Contains 500 products with unique IDs, barcode
   }
 });
 
+test("Healthy Snacks Catalogue: 4 new categories with >= 101 products each, 15 brands, and featured top picks", async () => {
+  const { generateSeedProducts } = await import("../src/lib/seed-data");
+  const products = generateSeedProducts();
+
+  const healthySnacks = products.filter((p) => p.productId && p.productId.startsWith("HS-"));
+  assert.equal(healthySnacks.length, 404, `Expected exactly 404 HS- products, got ${healthySnacks.length}`);
+
+  // Barcode uniqueness
+  const barcodes = new Set(healthySnacks.map((p) => p.barcode));
+  assert.equal(barcodes.size, 404, "All 404 Healthy Snacks barcodes must be strictly unique");
+
+  // Category counts
+  const expectedCats = [
+    "Protein & Clean-Label Bars / Wafers",
+    "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "Wholesome Breakfast, Oats & Nut Butters",
+    "Baked Chips, Makhana & Unjunked Indian Snacks",
+  ];
+
+  for (const cat of expectedCats) {
+    const inCat = healthySnacks.filter((p) => p.category === cat);
+    assert.ok(inCat.length >= 101, `Category "${cat}" must have >= 101 products, got ${inCat.length}`);
+  }
+
+  // 15 Featured products verification
+  const featured = healthySnacks.filter((p) => p.isFeatured);
+  assert.equal(featured.length, 15, `Expected 15 featured top picks, got ${featured.length}`);
+
+  // 15 Brand entries verification
+  const expectedBrands = [
+    "The Whole Truth", "Yoga Bar", "SuperYou", "RiteBite & Max Protein",
+    "Happilo", "Farmley", "Rostaa", "Nutraj", "Tata Sampann",
+    "True Elements", "Pintola", "Nourish Organics", "Snackible", "Open Secret", "Mr. Makhana"
+  ];
+  const brands = new Set(healthySnacks.map((p) => p.brand));
+  for (const b of expectedBrands) {
+    assert.ok(brands.has(b), `Healthy Snacks catalogue must contain brand entry: ${b}`);
+  }
+
+  // Image packshots
+  for (const p of healthySnacks) {
+    assert.ok(p.imageUrl && !p.imageUrl.endsWith(".svg"), `Product ${p.name} must have a non-SVG packshot`);
+  }
+});
+
+
 
 
 

@@ -138,6 +138,15 @@ export interface ProductItem {
   flavour?: string | null;
   packageSize?: string | null;
   packageUnit?: string | null;
+  mainCategory?: string | null;
+  proteinContent?: string | null;
+  dietaryInformation?: string | null;
+  highlights?: string[] | null;
+  price?: number | string | null;
+  netWeight?: string | null;
+  isFeatured?: boolean | null;
+  featuredOrder?: number | null;
+  sellingPoints?: string[] | null;
   manufacturer?: string | null;
   countryOfOrigin?: string | null;
   cocoaPercentage?: number | string | null;

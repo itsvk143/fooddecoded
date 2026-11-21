@@ -276,6 +276,42 @@ export function LeftDrawer() {
         ? `${categoryCounts["Chocolates & Sweets"] ?? categoryCounts["chocolates-sweets"]} items`
         : "101 items",
     },
+    {
+      name: "Protein & Clean-Label Bars / Wafers",
+      href: "/products?category=Protein+%26+Clean-Label+Bars+%2F+Wafers",
+      icon: "🍫",
+      desc: "Whey, vegan, raw protein bars & clean-label wafers",
+      badge: (categoryCounts["Protein & Clean-Label Bars / Wafers"] ?? categoryCounts["protein-clean-label-bars-wafers"]) !== undefined
+        ? `${categoryCounts["Protein & Clean-Label Bars / Wafers"] ?? categoryCounts["protein-clean-label-bars-wafers"]} items`
+        : "101 items",
+    },
+    {
+      name: "Dry Fruits, Nuts, Seeds & Trail Mixes",
+      href: "/products?category=Dry+Fruits%2C+Nuts%2C+Seeds+%26+Trail+Mixes",
+      icon: "🥜",
+      desc: "Almonds, cashews, chia seeds & antioxidant trail mixes",
+      badge: (categoryCounts["Dry Fruits, Nuts, Seeds & Trail Mixes"] ?? categoryCounts["dry-fruits-nuts-seeds-trail-mixes"]) !== undefined
+        ? `${categoryCounts["Dry Fruits, Nuts, Seeds & Trail Mixes"] ?? categoryCounts["dry-fruits-nuts-seeds-trail-mixes"]} items`
+        : "101 items",
+    },
+    {
+      name: "Wholesome Breakfast, Oats & Nut Butters",
+      href: "/products?category=Wholesome+Breakfast%2C+Oats+%26+Nut+Butters",
+      icon: "🥣",
+      desc: "Rolled oats, muesli, granola & stone-ground nut butters",
+      badge: (categoryCounts["Wholesome Breakfast, Oats & Nut Butters"] ?? categoryCounts["wholesome-breakfast-oats-nut-butters"]) !== undefined
+        ? `${categoryCounts["Wholesome Breakfast, Oats & Nut Butters"] ?? categoryCounts["wholesome-breakfast-oats-nut-butters"]} items`
+        : "101 items",
+    },
+    {
+      name: "Baked Chips, Makhana & Unjunked Indian Snacks",
+      href: "/products?category=Baked+Chips%2C+Makhana+%26+Unjunked+Indian+Snacks",
+      icon: "🍿",
+      desc: "Roasted makhana, baked jowar puffs & unjunked namkeen",
+      badge: (categoryCounts["Baked Chips, Makhana & Unjunked Indian Snacks"] ?? categoryCounts["baked-chips-makhana-unjunked-indian-snacks"]) !== undefined
+        ? `${categoryCounts["Baked Chips, Makhana & Unjunked Indian Snacks"] ?? categoryCounts["baked-chips-makhana-unjunked-indian-snacks"]} items`
+        : "101 items",
+    },
   ];
 
   // Clean-label dietary shortcuts
