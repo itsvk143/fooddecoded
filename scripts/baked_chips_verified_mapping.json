@@ -1,0 +1,887 @@
+{
+  "8908900003065": {
+    "brand": "Snackible",
+    "name": "Snackible Popped Potato & Corn Chips Cream & Onion",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/DSC07796_1.jpg"
+  },
+  "8908900003041": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Moong Jor",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/roasted_moong_jor.jpg"
+  },
+  "8908900003058": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Ragi Chips Peri Peri",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Periperiragichipswithcheesyjalapenodip.jpg"
+  },
+  "8908900003072": {
+    "brand": "Snackible",
+    "name": "Snackible Veggie Crisps Sweet Potato, Beetroot & Okra",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Beetroot_lifestyle.png"
+  },
+  "8908900003119": {
+    "brand": "Open Secret",
+    "name": "Open Secret Veggie Chips Real Beetroot Crisps",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/VratchipsFOP.png"
+  },
+  "8908900003089": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Corn Namkeen",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Corn_FOP_with_product_name.jpg"
+  },
+  "8908900003102": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Garlic Namkeen",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/GalricFOP.jpg"
+  },
+  "8908900003096": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Roasted Bhujia",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Bhel2.2.jpg"
+  },
+  "8908900003126": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Black Salt Olive Oil Roasted",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_60g.jpg"
+  },
+  "8908900003140": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Pudina Party",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Pillow_60g.jpg"
+  },
+  "8908900003133": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Piri Piri Paradise",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/piripirifront_b205b266-e154-40bd-9889-42e98ddff564.png"
+  },
+  "8908900003188": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Cheezypeezy",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesypeezy.jpg"
+  },
+  "8908900003171": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Butter Tomato",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_Pillow_60g.jpg"
+  },
+  "8908900003164": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Himalayan Salt & Pepper",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt.jpg"
+  },
+  "8908900003157": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Cream & Onion",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion.jpg"
+  },
+  "8908900003201": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Pickle Tickle",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_Pillow_60g.jpg"
+  },
+  "8908900003225": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Gourmet Truffle",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle1.png"
+  },
+  "8908900003218": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Sea Salt & Vinegar",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_60g.jpg"
+  },
+  "8908900003195": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Lime & Chilli",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_chilli.jpg"
+  },
+  "8908900003232": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Veda Ayurvedic Herbs",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80.jpg"
+  },
+  "8908900003249": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana ChocoPop Dark Chocolate Makhana",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Chocopop.jpg"
+  },
+  "8908900003294": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 5",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/assortedcookiesimg1.jpg"
+  },
+  "8908900003263": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 2",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003270": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 3",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean1.png"
+  },
+  "8908900003287": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 4",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Gingercookies.jpg"
+  },
+  "8908900003300": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 6",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq1.png"
+  },
+  "8908900003256": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 1",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestylenew.png"
+  },
+  "8908900003362": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 12",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle1.png"
+  },
+  "8908900003355": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 11",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/VratchipsFOP.png"
+  },
+  "8908900003324": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 8",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.KoreanMirchiragichipsFOP.jpg"
+  },
+  "8908900003317": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 7",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/lifestyle_2.png"
+  },
+  "8908900003348": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 10",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003331": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 9",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/saltedpeanutsfront.png"
+  },
+  "8908900003379": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 13",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/lifestyle_3.png"
+  },
+  "8908900003423": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 18",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/piripirifront_b205b266-e154-40bd-9889-42e98ddff564.png"
+  },
+  "8908900003416": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 17",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.ChatpataragichipsFOP.jpg"
+  },
+  "8908900003393": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 15",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/heengjeerafront.png"
+  },
+  "8908900003409": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 16",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Copy_of_DSC02517.jpg"
+  },
+  "8908900003386": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 14",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003478": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 23",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Rusklistingfop2.1.jpg"
+  },
+  "8908900003485": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 24",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/84626d34-2a3b-49bc-af39-fc66b0e49b5c.png"
+  },
+  "8908900003430": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 19",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/7_88172498-0875-4bed-8d21-ee4bf265fb01.png"
+  },
+  "8908900003454": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 21",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80.jpg"
+  },
+  "8908900003447": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 20",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Bhel2.2.jpg"
+  },
+  "8908900003461": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 22",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003539": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 29",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/CopyofsabudanaFOP.jpg"
+  },
+  "8908900003546": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 30",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Pillow_60g.jpg"
+  },
+  "8908900003515": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 27",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_60g.jpg"
+  },
+  "8908900003522": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 28",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/roasted_moong_jor.jpg"
+  },
+  "8908900003508": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 26",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003492": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 25",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Korean_bbq_popped_chips.jpg"
+  },
+  "8908900003607": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 36",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/PiriPiri.jpg"
+  },
+  "8908900003560": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 32",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Corn_FOP_with_product_name.jpg"
+  },
+  "8908900003553": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 31",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Beetroot_lifestyle.png"
+  },
+  "8908900003591": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 35",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Papad_FOP.jpg"
+  },
+  "8908900003577": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 33",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_Pillow_60g.jpg"
+  },
+  "8908900003584": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 34",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003669": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 42",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_chilli.jpg"
+  },
+  "8908900003652": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 41",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/GalricFOP.jpg"
+  },
+  "8908900003614": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 37",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Zucchinilifestyle.png"
+  },
+  "8908900003621": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 38",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003645": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 40",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_9f0a1a00-c33e-4e5d-ad14-50ed5484abdc.png"
+  },
+  "8908900003638": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 39",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt.jpg"
+  },
+  "8908900003713": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 47",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003676": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 43",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/coconutchikki.jpg"
+  },
+  "8908900003690": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 45",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion.jpg"
+  },
+  "8908900003683": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 44",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.FOP_21b27859-ab96-4454-a303-c99860fe27ef.jpg"
+  },
+  "8908900003720": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 48",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesypeezy.jpg"
+  },
+  "8908900003706": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 46",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003768": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 52",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/CopyofDSC02057.jpg"
+  },
+  "8908900003737": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 49",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/CopyofDSC01987_1_b6853aea-3655-4d2a-bf49-f635394a42c1.jpg"
+  },
+  "8908900003782": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 54",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_Pillow_60g.jpg"
+  },
+  "8908900003775": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 53",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.FOP_f95712a5-fee5-4f13-adf0-d9aa1fa248d6.jpg"
+  },
+  "8908900003751": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 51",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_60g.jpg"
+  },
+  "8908900003744": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 50",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003836": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 59",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.FOP_16712507-6c9b-4ee1-b8ef-0ed4c8127183.jpg"
+  },
+  "8908900003799": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 55",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_4_41f3a184-de77-4c77-b678-13d304d36409.png"
+  },
+  "8908900003805": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 56",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/OrangeCocoa_60g.jpg"
+  },
+  "8908900003829": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 58",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003812": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 57",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack21.png"
+  },
+  "8908900003843": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 60",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack_1.png"
+  },
+  "8908900003881": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 64",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003898": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 65",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/products/UnjunkedWholeCashews-200g.jpg"
+  },
+  "8908900003850": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 61",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lemon_chilli_Baked_crunchies_lifestyle_jpg.jpg"
+  },
+  "8908900003904": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 66",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Trailmix_Creative-3_1.jpg"
+  },
+  "8908900003867": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 62",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900003874": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 63",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Chocopop.jpg"
+  },
+  "8908900003959": {
+    "brand": "Open Secret",
+    "name": "Open Secret Unjunked Indian Snacks Classic Crunch 71",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/cookie.jpg"
+  },
+  "8908900003966": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Millet Snacks Classic Crunch 72",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Frame246.png"
+  },
+  "8908900003911": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 67",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_2_efc9e9ee-7ab1-4083-86e7-5f587b14e4ce.png"
+  },
+  "8908900003928": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 68",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/WInter-Nuts-combo-Hero-Image.jpg"
+  },
+  "8908900003942": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Makhana Classic Crunch 70",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908900003935": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Baked Chips Classic Crunch 69",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean1.png"
+  },
+  "8908900004017": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Chips Classic Crunch 77",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Image04.jpg"
+  },
+  "8908900004024": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Roasted Makhana Classic Crunch 78",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq1.png"
+  },
+  "8908900003973": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Chips Classic Crunch 73",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/3_15d56516-27e2-48f8-a37f-83ba4248786d.png"
+  },
+  "8908900004000": {
+    "brand": "Snackible",
+    "name": "Snackible Millet Snacks Classic Crunch 76",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/DSC06311.jpg"
+  },
+  "8908900003997": {
+    "brand": "Mr. Makhana",
+    "name": "Mr. Makhana Unjunked Indian Snacks Classic Crunch 75",
+    "url": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle1.png"
+  },
+  "8908900003980": {
+    "brand": "Open Secret",
+    "name": "Open Secret Roasted Makhana Classic Crunch 74",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/makhanaplainFOPhero_website11june2024.jpg"
+  },
+  "8908900004048": {
+    "brand": "Open Secret",
+    "name": "Open Secret Millet Snacks Classic Crunch 80",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/Image05.jpg"
+  },
+  "8908900004031": {
+    "brand": "Snackible",
+    "name": "Snackible Unjunked Indian Snacks Classic Crunch 79",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_3_a57bf1b7-844c-4720-a469-733056cfdfa9.png"
+  },
+  "8908930001413": {
+    "brand": "Haldiram's",
+    "name": "Haldiram's Roasted Makhana (Salt & Pepper)",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40301012_1-haldiram-magic-makhana-chunky-chutpata-healthy-tasty-ready-to-eat.jpg"
+  },
+  "8908930001659": {
+    "brand": "Too Yumm!",
+    "name": "Too Yumm! Foxnuts Pudina Makhana",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40361570_2-too-yumm-himalayan-salt-pepper-makhana.jpg"
+  },
+  "8908930001642": {
+    "brand": "Too Yumm!",
+    "name": "Too Yumm! Foxnuts Peri Peri Makhana",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40361571_2-too-yumm-peri-peri-makhana.jpg"
+  },
+  "8908930001635": {
+    "brand": "Too Yumm!",
+    "name": "Too Yumm! Foxnuts Tandoori Makhana",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40121942_2-too-yumm-foxnuts-tandoori.jpg"
+  },
+  "8908930001734": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Jalapeno & Tomato",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40196305_2-brb-popped-potato-chips-not-baked-or-fried-healthy-snacks-bhel-flavour.jpg"
+  },
+  "8908930001741": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Peri Peri",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40230446_2-brb-popped-potato-chips-peri-peri.jpg"
+  },
+  "8908930001802": {
+    "brand": "TagZ",
+    "name": "TagZ Popped Potato Chips Thai Tom Yum",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40304502_1-tagz-masala-trekkin-popped-potato-chips.jpg"
+  },
+  "8908930001758": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Truffle",
+    "url": "https://static.wixstatic.com/media/2bcd87_8e31241e8a304d3aa0f6c52b4a8a824b~mv2.webp"
+  },
+  "8908930001772": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Cream & Onion",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40196307_2-brb-popped-potato-chips.jpg"
+  },
+  "8908930001796": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Cheese & Herbs",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40196308_2-brb-popped-potato-chips.jpg"
+  },
+  "8908930001789": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Himalayan Pink Salt",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40230447_3-brb-popped-potato-chips-not-baked-or-fried-healthy-snacks-salt-pepper-flavour.jpg"
+  },
+  "8908930001765": {
+    "brand": "BRB",
+    "name": "BRB Popped Rice Chips Barbeque",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40230448_2-brb-popped-potato-chips-sweet-chipotle.jpg"
+  },
+  "8908930001864": {
+    "brand": "TagZ",
+    "name": "TagZ Popped Potato Chips Classic Salt (Extra Crisp)",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40304504_1-tagz-salt-trippin-popped-potato-chips.jpg"
+  },
+  "8908930001871": {
+    "brand": "WickedGüd",
+    "name": "WickedGüd Chickpea Popped Chips Amreekan Cream & Onion",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40320186_1-wickedgud-chickpea-popped-chips-amreekan-cream-onion.jpg"
+  },
+  "8908930001901": {
+    "brand": "WickedGüd",
+    "name": "WickedGüd Chickpea Popped Chips Tangy Tomato",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40320187_1-wickedgud-chickpea-popped-chips-tomato-thumka.jpg"
+  },
+  "8908930001895": {
+    "brand": "WickedGüd",
+    "name": "WickedGüd Chickpea Popped Chips Fiery Peri Peri",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40320188_1-wickedgud-chickpea-popped-chips-dil-se-cheese.jpg"
+  },
+  "8908930001888": {
+    "brand": "WickedGüd",
+    "name": "WickedGüd Chickpea Popped Chips Desi Masala",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40320184_1-wickedgud-chickpea-popped-chips-mast-masala.jpg"
+  },
+  "8908930001987": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Ragi Chips (Peri Peri)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Periperiragichipswithcheesyjalapenodip.jpg"
+  },
+  "8908930001994": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Ragi Chips (Cream & Onion)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestylenew.png"
+  },
+  "8908930002021": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Jowar Puffs (Masala)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Jowarchipsmasala_abdc11a7-bbfb-46cd-98f7-d20ed83bf2c3.png"
+  },
+  "8908930002007": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Ragi Chips (Pizza)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/products/51587633-F9DC-440F-8689-6AACB67DC8CD_cd6ca8ad-c87c-4055-aa51-0db4692bc76a.jpg"
+  },
+  "8908930002038": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Jowar Puffs (Pudina)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/lifestyle_2.png"
+  },
+  "8908930002014": {
+    "brand": "Snackible",
+    "name": "Snackible Baked Jowar Puffs (Cheese)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/products/WhatsAppImage2023-01-02at6.35.09PM_c2b3168c-9837-4915-8d79-e2fe5350b340.jpg"
+  },
+  "8908930002045": {
+    "brand": "Snackible",
+    "name": "Snackible Roasted Nacho Chips (Salsa)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_4_41f3a184-de77-4c77-b678-13d304d36409.png"
+  },
+  "8908930002052": {
+    "brand": "Snackible",
+    "name": "Snackible Quinoa Puffs (Fiery Spice)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Korean_bbq_popped_chips.jpg"
+  },
+  "8908930002090": {
+    "brand": "Snackible",
+    "name": "Snackible Flavoured Makhana (Himalayan Cheese)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Masala_Baked_crunchies_lifestyle_jpg_1f345015-d23a-41f9-b9c8-33aeb94b0411.jpg"
+  },
+  "8908930002168": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Ragi Chips (Peri Peri)",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.KoreanMirchiragichipsFOP.jpg"
+  },
+  "8908930002113": {
+    "brand": "Snackible",
+    "name": "Snackible Dipsters (Whole Wheat Lavash with Cheesy Dip)",
+    "url": "https://cdn.shopify.com/s/files/1/0126/6732/2432/files/Lifestyle_4_41f3a184-de77-4c77-b678-13d304d36409.png"
+  },
+  "8908930002144": {
+    "brand": "Open Secret",
+    "name": "Open Secret Real Spinach & Green Veggie Chips",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/VratchipsFOP.png"
+  },
+  "8908930002120": {
+    "brand": "Open Secret",
+    "name": "Open Secret Real Beetroot Veggie Chips",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/VratchipsFOP.png"
+  },
+  "8908930002151": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Ragi Chips (Cream & Onion)",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.ChatpataragichipsFOP.jpg"
+  },
+  "8908930002137": {
+    "brand": "Open Secret",
+    "name": "Open Secret Real Pumpkin Veggie Chips",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/VratchipsFOP.png"
+  },
+  "8908930002229": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Roasted Quinoa Puffs Peppy Cheese",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40144707_2-the-green-snack-co-quinoa-puffs-peppy-cheese.jpg"
+  },
+  "8908930002182": {
+    "brand": "Open Secret",
+    "name": "Open Secret Nutty Chips (Spicy Almond)",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/assortedcookiesimg1.jpg"
+  },
+  "8908930002175": {
+    "brand": "Open Secret",
+    "name": "Open Secret Baked Ragi Chips (Masala)",
+    "url": "https://cdn.shopify.com/s/files/1/0629/7252/6778/files/1.ChatpataragichipsFOP.jpg"
+  },
+  "8908930002267": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. 6-Grain Stix Achari Masala",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40117582_3-the-green-snack-co-six-grain-stix-cheesy-jalapeno.jpg"
+  },
+  "8908930002236": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Roasted Quinoa Puffs Fiery Spice",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40114828_2-the-green-snack-co-quinoa-puffs-fiery-spice.jpg"
+  },
+  "8908930002281": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Crispy Kale Crisps Cheese & Onion",
+    "url": "https://www.bbassets.com/media/uploads/p/l/30010212_5-the-green-snack-co-kale-crisps-cheese-onion.jpg"
+  },
+  "8908930002250": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Roasted Quinoa Puffs Sour Cream & Onion",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40185687_1-the-green-snack-co-quinoa-puffs.jpg"
+  },
+  "8908930002274": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. 6-Grain Stix Tangy Salsa",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40126097_2-the-green-snack-co-healthy-snacks-six-grain-stix-tangy-pickle.jpg"
+  },
+  "8908930002243": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Roasted Quinoa Puffs Saucy Tomato",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40065216_4-the-green-snack-co-quinoa-puffs-zesty-kale.jpg"
+  },
+  "8908930002304": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Ghee-Roasted Makhanas (Himalayan Salt)",
+    "url": "https://www.bbassets.com/media/uploads/p/l/40194883_1-the-green-snack-co-roasted-makhana.jpg"
+  },
+  "8908930002311": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Roasted Supergrain Namkeen Mix",
+    "url": "https://www.bbassets.com/media/uploads/p/l/30010211_5-the-green-snack-co-kale-crisps-thai-sweet-chilli.jpg"
+  },
+  "8908930002298": {
+    "brand": "The Green Snack Co.",
+    "name": "The Green Snack Co. Crispy Kale Crisps Sea Salt",
+    "url": "https://www.bbassets.com/media/uploads/p/l/30010213_5-the-green-snack-co-kale-crisps-sea-salt-vinegar.jpg"
+  },
+  "8908930002342": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Peri Peri)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/667d624e4319d8df55bb5d8761236bda.jpg"
+  },
+  "8908930002335": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Cream & Onion)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/667d624e4319d8df55bb5d8761236bda.jpg"
+  },
+  "8908930002328": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Classic Salted)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/6cdd990cb6fc5f3136aae7cc9b461194.webp"
+  },
+  "8908930002366": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Banana Chips (Salted)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/1633d74125f77fd1ce2214220a32cb29.jpg"
+  },
+  "8908930002359": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Pudina)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/bca35fcaea7caa1084ed8950334c18ba.jpg"
+  },
+  "8908930002403": {
+    "brand": "Let's Try",
+    "name": "Let's Try Corn Rings (Tangy Tomato)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/a794e1129b1d4998d2da2ef1b7c1c6b8.jpg"
+  },
+  "8908930002373": {
+    "brand": "Let's Try",
+    "name": "Let's Try 100% Groundnut Oil Tapioca Chips (Mari)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/e35176017339f9c5703d816e57a4c864.jpg"
+  },
+  "8908930002380": {
+    "brand": "Let's Try",
+    "name": "Let's Try Roasted Ragi Puffs (Cheese)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/995924078760a69b521e528c4fee5e5b.jpg"
+  },
+  "8908930002397": {
+    "brand": "Let's Try",
+    "name": "Let's Try Roasted Jowar Puffs (Masala)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/995924078760a69b521e528c4fee5e5b.jpg"
+  },
+  "8908930002410": {
+    "brand": "Let's Try",
+    "name": "Let's Try Soya Sticks (Chatpata Masala)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/3f48e2ba84d1be22ed300cfecb3466e7.jpg"
+  },
+  "8908930002465": {
+    "brand": "Let's Try",
+    "name": "Let's Try Roasted Makhana (Salt & Pepper)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/5838c8c541530676296b3fea350263fb.jpg"
+  },
+  "8908930002458": {
+    "brand": "Let's Try",
+    "name": "Let's Try Farali Mixture (Groundnut Oil)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/cf49abc47448c851b8fc6798a6a6c252.jpg"
+  },
+  "8908930002427": {
+    "brand": "Let's Try",
+    "name": "Let's Try Garlic Bhujia (Groundnut Oil)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/16111a282b3b850f122bad2e69d3fea9.jpg"
+  },
+  "8908930002441": {
+    "brand": "Let's Try",
+    "name": "Let's Try Sabudana Chivda (Fasting Mix)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/cf49abc47448c851b8fc6798a6a6c252.jpg"
+  },
+  "8908930002434": {
+    "brand": "Let's Try",
+    "name": "Let's Try Salted Moong Dal (Groundnut Oil)",
+    "url": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/b52721e347a398623fb628b4629cf2d0.jpg"
+  },
+  "8908930002526": {
+    "brand": "Snaqary",
+    "name": "Snaqary Roasted Methi Khakhra Crisps",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_1.jpg"
+  },
+  "8908930002472": {
+    "brand": "Snaqary",
+    "name": "Snaqary Jowar Cheese Balls",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_53_19_AM.png"
+  },
+  "8908930002489": {
+    "brand": "Snaqary",
+    "name": "Snaqary Jowar Puffs (Peri Peri)",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_11_02_AM.png"
+  },
+  "8908930002502": {
+    "brand": "Snaqary",
+    "name": "Snaqary Jowar Puffs (Cream & Onion)",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_59_50_AM.png"
+  },
+  "8908930002496": {
+    "brand": "Snaqary",
+    "name": "Snaqary Jowar Puffs (Tangy Tomato)",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_03_21_AM.png"
+  },
+  "8908930002519": {
+    "brand": "Snaqary",
+    "name": "Snaqary Multigrain Roasted Sticks",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_59_50_AM.png"
+  },
+  "8908930002533": {
+    "brand": "Snaqary",
+    "name": "Snaqary Roasted Millet Bhel",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/4_b24a2c1f-93b2-42fd-aece-6e155c76a084.jpg"
+  },
+  "8908930002540": {
+    "brand": "Snaqary",
+    "name": "Snaqary Roasted Chana & Peanuts Mix",
+    "url": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/PeriPeriKhakhra.png"
+  },
+  "8908930002984": {
+    "brand": "Farmley",
+    "name": "Farmley Roasted Makhana (Cream & Onion)",
+    "url": "https://cdn.shopify.com/s/files/1/0597/7754/8453/files/FEB26makhanathumbnail-12.png"
+  },
+  "8908930003004": {
+    "brand": "Farmley",
+    "name": "Farmley Roasted Makhana (Himalayan Salt & Pepper)",
+    "url": "https://cdn.shopify.com/s/files/1/0597/7754/8453/files/FEB26makhanathumbnail-14.png"
+  },
+  "8908930002991": {
+    "brand": "Farmley",
+    "name": "Farmley Roasted Makhana (Pudina)",
+    "url": "https://cdn.shopify.com/s/files/1/0597/7754/8453/files/feb26JARmakhanathumnail-04.jpg"
+  },
+  "8908930003011": {
+    "brand": "Farmley",
+    "name": "Farmley Roasted Makhana (Tangy Tomato)",
+    "url": "https://cdn.shopify.com/s/files/1/0597/7754/8453/files/feb26JARmakhanathumnail-07.jpg"
+  },
+  "8908940000420": {
+    "brand": "NOICE",
+    "name": "NOICE Peri Peri Moong Dal Chips",
+    "url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/4/24/eb16c336-aa38-4d8a-b7e2-8d4bacfd1f0b_825669-1.jpg"
+  },
+  "8908940000413": {
+    "brand": "NOICE",
+    "name": "NOICE Ragi Crackle Chips (Masala)",
+    "url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/CIW/2026/9/23/01ba9bae-468d-48d4-9f1a-5612492288f2_184849-1.jpg"
+  },
+  "8908940000444": {
+    "brand": "NOICE",
+    "name": "NOICE Cheese Melt Roasted Makhana",
+    "url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/2/9/aeba84ce-f3b5-4c27-9394-63f9b6c1e706_219686_1.png"
+  },
+  "8908940000468": {
+    "brand": "NOICE",
+    "name": "NOICE Special Masala Makhana",
+    "url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/2/20/a7a642b8-60ed-4b2f-b81d-c658cf2f6008_851143_1.png"
+  },
+  "8908940000451": {
+    "brand": "NOICE",
+    "name": "NOICE Salt & Pepper Ghee Roasted Makhana",
+    "url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/ciw/2025/12/17/62c67291-383e-4d13-a805-7bc5a1453b11_EN95S4TTXL_MN_17122025.png"
+  }
+}

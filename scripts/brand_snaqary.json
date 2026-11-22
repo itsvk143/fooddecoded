@@ -1,0 +1,3137 @@
+[
+  {
+    "id": 10547280183607,
+    "title": "Snaqary Puff Combo pack",
+    "handle": "snaqary-puff-combo-70g-each",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Jowar Puff – Chaat Masala, Jowar Puff – Masala Munch, Jowar Rings, and Jowar Sticks</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Four snacks, two bold flavours, one ancient grain. Whether you pick the tangy Chaat Masala or the spicy Masala Munch, every bite is made from Jowar — a multigrain superfood that gives you real nutrition without killing the taste. All packs are resealable so your snacks stay fresh till the last piece.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">High in fibre, naturally gluten free, 100% vegan, and free from artificial additives. Built for people who want a snack that is actually good for them without it tasting like one.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Light, crunchy, and easy to carry. Perfect for tea time, the office, travel, or whenever a craving hits.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>Snack yani Snaqary!</em></strong></p>",
+    "published_at": "2026-05-14T00:06:00+05:30",
+    "created_at": "2026-05-14T00:04:58+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52135722811703,
+        "title": "Pack of two (8 pcs)",
+        "option1": "Pack of two (8 pcs)",
+        "option2": null,
+        "option3": null,
+        "sku": "100",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53399584309559,
+          "product_id": 10547280183607,
+          "position": 9,
+          "created_at": "2026-05-12T11:56:54+05:30",
+          "updated_at": "2026-05-12T11:56:56+05:30",
+          "alt": null,
+          "width": 1080,
+          "height": 1080,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Untitled_design_17.png?v=1778567216",
+          "variant_ids": [
+            52135722811703
+          ]
+        },
+        "available": true,
+        "price": "489.00",
+        "grams": 280,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10547280183607,
+        "created_at": "2026-05-14T00:04:58+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52135722844471,
+        "title": "Pack of four (16 pcs)",
+        "option1": "Pack of four (16 pcs)",
+        "option2": null,
+        "option3": null,
+        "sku": "100",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53399604035895,
+          "product_id": 10547280183607,
+          "position": 10,
+          "created_at": "2026-05-12T11:58:08+05:30",
+          "updated_at": "2026-05-12T11:58:10+05:30",
+          "alt": null,
+          "width": 1080,
+          "height": 1080,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Untitled_design_18.png?v=1778567290",
+          "variant_ids": [
+            52135722844471
+          ]
+        },
+        "available": true,
+        "price": "889.00",
+        "grams": 280,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 10547280183607,
+        "created_at": "2026-05-14T00:04:58+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53773867974967,
+        "created_at": "2026-06-06T01:26:22+05:30",
+        "position": 1,
+        "updated_at": "2026-06-06T01:26:24+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_26_00_AM.png?v=1780689384",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773763117367,
+        "created_at": "2026-06-06T01:11:16+05:30",
+        "position": 2,
+        "updated_at": "2026-06-06T01:11:18+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_11_02_AM.png?v=1780688478",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773726974263,
+        "created_at": "2026-06-06T01:03:34+05:30",
+        "position": 3,
+        "updated_at": "2026-06-06T01:03:36+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_03_21_AM.png?v=1780688016",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773645938999,
+        "created_at": "2026-06-06T00:53:41+05:30",
+        "position": 4,
+        "updated_at": "2026-06-06T00:53:43+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_53_19_AM.png?v=1780687423",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773693354295,
+        "created_at": "2026-06-06T01:00:12+05:30",
+        "position": 5,
+        "updated_at": "2026-06-06T01:00:18+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_59_50_AM.png?v=1780687818",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 49041289838903,
+        "created_at": "2025-03-11T12:42:09+05:30",
+        "position": 6,
+        "updated_at": "2025-03-11T12:42:11+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Jowar_Puff-Masala_Munch3.jpg?v=1741677131",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "id": 49041300619575,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 7,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07286.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 49041300652343,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 8,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07268.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 53399584309559,
+        "created_at": "2026-05-12T11:56:54+05:30",
+        "position": 9,
+        "updated_at": "2026-05-12T11:56:56+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [
+          52135722811703
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Untitled_design_17.png?v=1778567216",
+        "width": 1080,
+        "height": 1080
+      },
+      {
+        "id": 53399604035895,
+        "created_at": "2026-05-12T11:58:08+05:30",
+        "position": 10,
+        "updated_at": "2026-05-12T11:58:10+05:30",
+        "product_id": 10547280183607,
+        "variant_ids": [
+          52135722844471
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Untitled_design_18.png?v=1778567290",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of two (8 pcs)",
+          "Pack of four (16 pcs)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10545167302967,
+    "title": "Jowar Rings - Masala Munch (Pack of 6)",
+    "handle": "jowar-rings-masala-munch",
+    "body_html": "<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Crunch that actually counts.</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Most snacks give you taste and then take something from you - your energy, your gut health, your sleep. Jowar Rings are different.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Made from Jowar (Sorghum),</strong> a multigrain superfood that has been eaten across Maharashtra and Gujarat for centuries, every ring is packed with fibre, protein, and slow-burning carbs that keep you full without weighing you down.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">The Masala Munch flavour hits that perfect spot. Bold spices, deep masala warmth, the kind of crunch you want at 4pm, after a workout, or when you're watching something and your hands need something to do.<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why Jowar?</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Jowar is naturally gluten free and easy on your stomach. It has a low glycaemic index which means it won't spike your blood sugar, making it one of the few snacks a diabetic can actually enjoy without second-guessing. The high dietary fibre keeps you full and cuts random cravings before they start. It is also a good source of protein, iron, magnesium, and phosphorus, and is completely cholesterol free.<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Who it's made for</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">The person who refuses to snack on empty calories. The mom who reads ingredient labels. The office snacker who's done with Lays. The diabetic who still wants something to munch on. The fitness person who knows that a clean snack is part of the plan.<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Mission Millets.</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Snaqary is on a mission to bring India's ancient grains back, not as health food that tastes like cardboard, but as real snacks with real flavour. Jowar Rings is where that mission starts.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>Taste ki madness. Grains ki goodness.</em></strong></p>",
+    "published_at": "2026-05-13T20:48:07+05:30",
+    "created_at": "2026-05-13T20:48:06+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52135618904375,
+        "title": "Pack of 6",
+        "option1": "Pack of 6",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826233401655,
+          "product_id": 10545167302967,
+          "position": 5,
+          "created_at": "2026-06-09T22:16:10+05:30",
+          "updated_at": "2026-06-09T22:17:23+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_15_40_PM.png?v=1781023643",
+          "variant_ids": [
+            52135618904375
+          ]
+        },
+        "available": true,
+        "price": "389.00",
+        "grams": 0,
+        "compare_at_price": "499.00",
+        "position": 1,
+        "product_id": 10545167302967,
+        "created_at": "2026-05-13T23:57:34+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52135618937143,
+        "title": "Pack of 12",
+        "option1": "Pack of 12",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826216395063,
+          "product_id": 10545167302967,
+          "position": 4,
+          "created_at": "2026-06-09T22:14:00+05:30",
+          "updated_at": "2026-06-09T22:14:03+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_13_43_PM.png?v=1781023443",
+          "variant_ids": [
+            52135618937143
+          ]
+        },
+        "available": true,
+        "price": "689.00",
+        "grams": 0,
+        "compare_at_price": "799.00",
+        "position": 2,
+        "product_id": 10545167302967,
+        "created_at": "2026-05-13T23:57:34+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53773645938999,
+        "created_at": "2026-06-06T00:53:41+05:30",
+        "position": 1,
+        "updated_at": "2026-06-06T00:53:43+05:30",
+        "product_id": 10545167302967,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_53_19_AM.png?v=1780687423",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773790314807,
+        "created_at": "2026-06-06T01:15:14+05:30",
+        "position": 2,
+        "updated_at": "2026-06-06T01:15:16+05:30",
+        "product_id": 10545167302967,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_14_55_AM.png?v=1780688716",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 3,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10545167302967,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 53826216395063,
+        "created_at": "2026-06-09T22:14:00+05:30",
+        "position": 4,
+        "updated_at": "2026-06-09T22:14:03+05:30",
+        "product_id": 10545167302967,
+        "variant_ids": [
+          52135618937143
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_13_43_PM.png?v=1781023443",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53826233401655,
+        "created_at": "2026-06-09T22:16:10+05:30",
+        "position": 5,
+        "updated_at": "2026-06-09T22:17:23+05:30",
+        "product_id": 10545167302967,
+        "variant_ids": [
+          52135618904375
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_15_40_PM.png?v=1781023643",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack ",
+        "position": 1,
+        "values": [
+          "Pack of 6",
+          "Pack of 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10545130111287,
+    "title": "Jowar Sticks - Masala Munch (Pack of 6)",
+    "handle": "jowar-sticks",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>The stick that sticks with you.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">There's a specific kind of craving that hits in the middle of the day. Not hunger exactly, just the need for something crunchy, spiced, and deeply satisfying. Jowar Sticks were made for exactly that moment.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Each stick is made from <strong>Jowar (Sorghum), </strong>a grain that has fed generations across Maharashtra and Gujarat and is now making its way back to modern plates for very good reason. Light enough to eat without guilt. Flavourful enough that you'll finish the bag before you realise it.<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What makes it different from every other stick snack out there</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Most stick snacks are made from refined flour, fried in oil, and seasoned with artificial flavours. Jowar Sticks use a grain that is naturally gluten free, cholesterol free, and loaded with dietary fibre that keeps you genuinely full. The slow-releasing carbohydrates in Jowar mean your energy stays steady instead of crashing twenty minutes after you snack. And with a low glycaemic index, it is one of the very few crunchy snacks that people managing diabetes or watching their sugar can eat without worry.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">The Masala Munch seasoning does the rest. A bold, well-balanced masala that hits the right notes without being overpowering. The kind of flavour that makes you reach for one more stick. And then one more after that.<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Who it's made for</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">The office desk snacker who wants something real beside their laptop. The mom packing a school tiffin that is both tasty and clean. The fitness person who has earned their 4pm snack. The diabetic who is tired of being told what they cannot eat. Anyone who believes that good food should not have to come with a compromise.<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Mission Millets.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Snaqary was built on a simple belief — that India's ancient grains deserve to be on every shelf, in every bag, and in every hand that reaches for a snack. Jowar Sticks is that belief in a bag.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Taste ki madness. Grains ki goodness.</em></p>",
+    "published_at": "2026-05-13T20:44:48+05:30",
+    "created_at": "2026-05-13T20:44:47+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52135662125367,
+        "title": "Pack of 6",
+        "option1": "Pack of 6",
+        "option2": null,
+        "option3": null,
+        "sku": "200",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826145059127,
+          "product_id": 10545130111287,
+          "position": 5,
+          "created_at": "2026-06-09T22:07:28+05:30",
+          "updated_at": "2026-06-09T22:07:49+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_07_14_PM.png?v=1781023069",
+          "variant_ids": [
+            52135662125367
+          ]
+        },
+        "available": true,
+        "price": "389.00",
+        "grams": 0,
+        "compare_at_price": "499.00",
+        "position": 1,
+        "product_id": 10545130111287,
+        "created_at": "2026-05-14T00:00:03+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52135662158135,
+        "title": "Pack of 12",
+        "option1": "Pack of 12",
+        "option2": null,
+        "option3": null,
+        "sku": "200",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826179465527,
+          "product_id": 10545130111287,
+          "position": 7,
+          "created_at": "2026-06-09T22:09:52+05:30",
+          "updated_at": "2026-06-09T22:10:04+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_09_40_PM.png?v=1781023204",
+          "variant_ids": [
+            52135662158135
+          ]
+        },
+        "available": true,
+        "price": "689.00",
+        "grams": 0,
+        "compare_at_price": "799.00",
+        "position": 2,
+        "product_id": 10545130111287,
+        "created_at": "2026-05-14T00:00:03+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53773693354295,
+        "created_at": "2026-06-06T01:00:12+05:30",
+        "position": 1,
+        "updated_at": "2026-06-06T01:00:18+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_12_59_50_AM.png?v=1780687818",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773799031095,
+        "created_at": "2026-06-06T01:16:21+05:30",
+        "position": 2,
+        "updated_at": "2026-06-06T01:16:23+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_11_40_AM.png?v=1780688783",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 3,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 43967279333687,
+        "created_at": "2023-12-01T13:42:31+05:30",
+        "position": 4,
+        "updated_at": "2024-01-23T16:48:36+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Peri-Peri-Multirain-Sticks-2.jpg?v=1706008716",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53826145059127,
+        "created_at": "2026-06-09T22:07:28+05:30",
+        "position": 5,
+        "updated_at": "2026-06-09T22:07:49+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [
+          52135662125367
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_07_14_PM.png?v=1781023069",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53819278000439,
+        "created_at": "2026-06-09T12:11:38+05:30",
+        "position": 6,
+        "updated_at": "2026-06-09T12:11:40+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageJun9_2026_12_11_26PM.png?v=1780987300",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53826179465527,
+        "created_at": "2026-06-09T22:09:52+05:30",
+        "position": 7,
+        "updated_at": "2026-06-09T22:10:04+05:30",
+        "product_id": 10545130111287,
+        "variant_ids": [
+          52135662158135
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_09_40_PM.png?v=1781023204",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 6",
+          "Pack of 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10542324515127,
+    "title": "Peri Peri Khakhra (Pack of 5)",
+    "handle": "peri-peri-khakhra-180gm",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Spicy. Smoky. Completely addictive.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Peri peri on a multigrain khakhra is the kind of combo that just works. That slow-building heat, the smoky kick, all on a crispy roasted base that doesn't weigh you down. Warning: sharing this pack is harder than it sounds.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Pack of 5 / Pack of 10 - you choose<br>✓ Bold peri peri flavour <br>✓ Roasted not fried <br>✓ No trans fat<br>✓ No preservatives<br>✓ 100% natural ingredients<br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Can't eat just one. Don't say we didn't warn you.</em></p>",
+    "published_at": "2026-05-13T16:37:46+05:30",
+    "created_at": "2026-05-13T16:36:51+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52130115518775,
+        "title": "Pack of 5",
+        "option1": "Pack of 5",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "489.00",
+        "grams": 0,
+        "compare_at_price": "599.00",
+        "position": 1,
+        "product_id": 10542324515127,
+        "created_at": "2026-05-13T16:36:51+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52130115551543,
+        "title": "Pack of 10",
+        "option1": "Pack of 10",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "889.00",
+        "grams": 0,
+        "compare_at_price": "999.00",
+        "position": 2,
+        "product_id": 10542324515127,
+        "created_at": "2026-05-13T16:36:51+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53442960982327,
+        "created_at": "2026-05-15T19:47:51+05:30",
+        "position": 1,
+        "updated_at": "2026-05-15T19:47:53+05:30",
+        "product_id": 10542324515127,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/PeriPeriKhakhra.png?v=1778854673",
+        "width": 896,
+        "height": 1195
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 5",
+          "Pack of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10542324449591,
+    "title": "Pani Puri Khakhra (Pack of 5)",
+    "handle": "pani-puri-khakhra-180gm",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>All the pani puri flavour. None of the mess.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">That tangy, masala-packed taste you love from your favourite pani puri stall — now in a crispy roasted khakhra you can eat anywhere. At your desk, on the couch, straight out of the pack. No plate needed.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Pack of 5 / Pack of 10 - you choose<br>✓ That real pani puri flavour <br>✓ Roasted not fried <br>✓ No trans fat<br>✓ No preservatives<br>✓ 100% natural ingredients<br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>Street food vibes. Guilt free.</em></strong></p>",
+    "published_at": "2026-05-13T16:37:45+05:30",
+    "created_at": "2026-05-13T16:36:40+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52130115420471,
+        "title": "Pack of 5",
+        "option1": "Pack of 5",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "489.00",
+        "grams": 0,
+        "compare_at_price": "599.00",
+        "position": 1,
+        "product_id": 10542324449591,
+        "created_at": "2026-05-13T16:36:40+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52130115453239,
+        "title": "Pack of 10",
+        "option1": "Pack of 10",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "889.00",
+        "grams": 0,
+        "compare_at_price": "999.00",
+        "position": 2,
+        "product_id": 10542324449591,
+        "created_at": "2026-05-13T16:36:40+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53442963145015,
+        "created_at": "2026-05-15T19:48:56+05:30",
+        "position": 1,
+        "updated_at": "2026-05-15T19:48:58+05:30",
+        "product_id": 10542324449591,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pani_Puri_Khakhra.png?v=1778854738",
+        "width": 896,
+        "height": 1195
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 5",
+          "Pack of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10542324547895,
+    "title": "Chat Masala Khakhra (Pack of 5)",
+    "handle": "chat-masala-khakhra-180gm",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>That tangy, chatpata hit you've been craving.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Chat masala on a crispy multigrain khakhra — it sounds simple and it is, but once you start you won't stop. The kind of snack that disappears before you realise you've finished it.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Pack of 5 / Pack of 10 - pick your supply <br>✓ Bold chat masala flavour <br>✓ Roasted not fried <br>✓ No maida <br>✓ No artificial flavours <br>✓ Light on calories, heavy on flavour</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>One bite and you'll get it.</em></strong></p>",
+    "published_at": "2026-05-13T16:37:04+05:30",
+    "created_at": "2026-05-13T16:37:04+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52130115584311,
+        "title": "Pack of 5",
+        "option1": "Pack of 5",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "489.00",
+        "grams": 0,
+        "compare_at_price": "599.00",
+        "position": 1,
+        "product_id": 10542324547895,
+        "created_at": "2026-05-13T16:37:04+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52130115617079,
+        "title": "Pack of 10",
+        "option1": "Pack of 10",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "889.00",
+        "grams": 0,
+        "compare_at_price": "999.00",
+        "position": 2,
+        "product_id": 10542324547895,
+        "created_at": "2026-05-13T16:37:04+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53442954559799,
+        "created_at": "2026-05-15T19:45:04+05:30",
+        "position": 1,
+        "updated_at": "2026-05-15T19:45:06+05:30",
+        "product_id": 10542324547895,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatMasalaKhakhra.png?v=1778854506",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 2,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10542324547895,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 41660599435575,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10542324547895,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_4122822b-8175-47ee-bb61-1269da95a909.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 4,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10542324547895,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 5",
+          "Pack of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10542324384055,
+    "title": "Pav Bhaji Khakhra (Pack of 5)",
+    "handle": "pav-bhaji-khakhra-180gm",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Mumbai's favourite street food. Now in a khakhra.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">That buttery, spiced pav bhaji flavour you grew up eating — packed into a crispy roasted khakhra you can snack on anywhere. Same nostalgia, zero guilt.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 180gm each pack <br>✓ That real pav bhaji flavour <br>✓ Roasted not fried <br>✓ No trans fat<br>✓ No preservatives<br>✓ 100% natural ingredients<br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Mumbai flavours. Anywhere you are.</em></p>",
+    "published_at": "2026-05-13T16:36:21+05:30",
+    "created_at": "2026-05-13T16:36:21+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52130115060023,
+        "title": "Pack of 5",
+        "option1": "Pack of 5",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "489.00",
+        "grams": 0,
+        "compare_at_price": "599.00",
+        "position": 1,
+        "product_id": 10542324384055,
+        "created_at": "2026-05-13T16:36:22+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52130115092791,
+        "title": "Pack of 10",
+        "option1": "Pack of 10",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "889.00",
+        "grams": 0,
+        "compare_at_price": "999.00",
+        "position": 2,
+        "product_id": 10542324384055,
+        "created_at": "2026-05-13T16:36:22+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53442974482743,
+        "created_at": "2026-05-15T19:51:48+05:30",
+        "position": 1,
+        "updated_at": "2026-05-15T19:51:50+05:30",
+        "product_id": 10542324384055,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pav_bhaji_Khakhra.png?v=1778854910",
+        "width": 896,
+        "height": 1195
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 5",
+          "Pack of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10542321074487,
+    "title": "Pizza Khakhra (Pack of 5)",
+    "handle": "roasted-pizza-khakhra",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Pizza night. Every snack time.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">That cheesy, herby pizza flavour you love - now on a crispy multigrain khakhra. All the taste, none of the delivery wait. The snack that kids reach for and adults secretly finish first.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 180gms each pack<br>✓ Real pizza flavour — cheesy and herby <br>✓ Roasted not fried <br>✓ No trans fat<br>✓ No preservatives<br>✓ 100% natural ingredients<br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Pizza o'clock. Any time of day.</em></p>",
+    "published_at": "2026-05-13T16:31:40+05:30",
+    "created_at": "2026-05-13T16:31:39+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52130106605879,
+        "title": "Pack of 5",
+        "option1": "Pack of 5",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "489.00",
+        "grams": 0,
+        "compare_at_price": "599.00",
+        "position": 1,
+        "product_id": 10542321074487,
+        "created_at": "2026-05-13T16:31:39+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52130106638647,
+        "title": "Pack of 10",
+        "option1": "Pack of 10",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "889.00",
+        "grams": 0,
+        "compare_at_price": "999.00",
+        "position": 2,
+        "product_id": 10542321074487,
+        "created_at": "2026-05-13T16:31:39+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53442978644279,
+        "created_at": "2026-05-15T19:52:57+05:30",
+        "position": 1,
+        "updated_at": "2026-05-15T19:52:59+05:30",
+        "product_id": 10542321074487,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pizza_Khakhra.png?v=1778854979",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 2,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10542321074487,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 3,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10542321074487,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 4,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 10542321074487,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53559764058423,
+        "created_at": "2024-01-16T12:16:35+05:30",
+        "position": 5,
+        "updated_at": "2024-01-16T12:16:36+05:30",
+        "product_id": 10542321074487,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-16_121532.png?v=1705387596",
+        "width": 617,
+        "height": 820
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 5",
+          "Pack of 10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10534924026167,
+    "title": "Flavoured Khakhras Combo (900gm)",
+    "handle": "flavoured-khakhras-combo",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Same khakhra. Never the same flavour.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">What happens when India's favourite street food flavours meet its most loved healthy snack? Five bold, chatpata flavours inspired by the streets of India — all roasted, all multigrain, and all completely guilt free.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Pizza, Pav Bhaji, Pani Puri, Peri Peri, Chat Masala — pick your favourite or finish all five. Either way, your snack game will never be the same.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Pizza Khakhra 180gm <br>✓ Pav Bhaji Khakhra 180gm <br>✓ Pani Puri Khakhra 180gm <br>✓ Peri Peri Khakhra 180gm <br>✓ Chat Masala Khakhra 180gm</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 5 bold street food flavours in one box <br>✓ Roasted not fried <br>✓ Real multigrain ingredients <br>✓ No trans fat <br>✓ No preservatives <br>✓ 100% natural ingredients</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Street food flavours. Clean ingredients. Zero compromise.</em></p>",
+    "published_at": "2026-05-11T04:07:29+05:30",
+    "created_at": "2026-05-11T04:07:30+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52113471209783,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "559.00",
+        "grams": 0,
+        "compare_at_price": "899.00",
+        "position": 1,
+        "product_id": 10534924026167,
+        "created_at": "2026-05-11T04:07:30+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53577846489399,
+        "created_at": "2026-05-26T02:36:07+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T02:36:09+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_26_2026_02_35_54_AM.png?v=1779743169",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53821242736951,
+        "created_at": "2026-06-09T14:22:30+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T14:22:32+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageJun9_2026_02_22_15PM.png?v=1780995152",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53578023436599,
+        "created_at": "2026-05-26T02:48:43+05:30",
+        "position": 3,
+        "updated_at": "2026-05-26T02:48:45+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_26_2026_02_48_33_AM.png?v=1779743925",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 4,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 53442978644279,
+        "created_at": "2026-05-15T19:52:57+05:30",
+        "position": 5,
+        "updated_at": "2026-05-15T19:52:59+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pizza_Khakhra.png?v=1778854979",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53442974482743,
+        "created_at": "2026-05-15T19:51:48+05:30",
+        "position": 6,
+        "updated_at": "2026-05-15T19:51:50+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pav_bhaji_Khakhra.png?v=1778854910",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53442960982327,
+        "created_at": "2026-05-15T19:47:51+05:30",
+        "position": 7,
+        "updated_at": "2026-05-15T19:47:53+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/PeriPeriKhakhra.png?v=1778854673",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53442963145015,
+        "created_at": "2026-05-15T19:48:56+05:30",
+        "position": 8,
+        "updated_at": "2026-05-15T19:48:58+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pani_Puri_Khakhra.png?v=1778854738",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53418949869879,
+        "created_at": "2026-05-13T16:07:14+05:30",
+        "position": 9,
+        "updated_at": "2026-05-13T16:07:16+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Khakhra___Special_Delite_399_2.jpg?v=1778668636",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "id": 53442954559799,
+        "created_at": "2026-05-15T19:45:04+05:30",
+        "position": 10,
+        "updated_at": "2026-05-15T19:45:06+05:30",
+        "product_id": 10534924026167,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatMasalaKhakhra.png?v=1778854506",
+        "width": 896,
+        "height": 1195
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10534923469111,
+    "title": "Millets Khakhras Combo (800gm)",
+    "handle": "millets-khakhras-combo",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Four ancient grains. One powerful box.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">The All 4 Millets Khakhra box gives you four different millet-based khakhras in one go — so you get the full benefit of ancient grain goodness without compromising on taste for a single bite.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:<br></strong>✓ Jowar Khakhra 200gm <br>✓ Bajra Khakhra 200gm <br>✓ Ragi Methi Khakhra 200gm <br>✓ Jowar Bajra Masala Khakhra 200gm<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:<br><br></strong>✓ High fibre and easy on the stomach <br>✓ Roasted not fried <br>✓ No trans fat <br>✓ No preservatives <br>✓ 100% natural ingredients <br>✓ 800gm of millet goodness in one box</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Ancient grains. Modern snacking. Zero guilt.</em></p>",
+    "published_at": "2026-05-11T04:04:16+05:30",
+    "created_at": "2026-05-11T04:04:16+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52113467146551,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "499.00",
+        "grams": 0,
+        "compare_at_price": "699.00",
+        "position": 1,
+        "product_id": 10534923469111,
+        "created_at": "2026-05-11T04:04:17+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53578045718839,
+        "created_at": "2026-05-26T02:50:22+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T02:50:24+05:30",
+        "product_id": 10534923469111,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_26_2026_02_49_53_AM.png?v=1779744024",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53821143089463,
+        "created_at": "2026-06-09T14:12:40+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T14:12:42+05:30",
+        "product_id": 10534923469111,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_02_12_17_PM.png?v=1780994562",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10534923469111,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 4,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 10534923469111,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53383098302775,
+        "created_at": "2026-05-11T04:05:33+05:30",
+        "position": 5,
+        "updated_at": "2026-05-11T04:05:35+05:30",
+        "product_id": 10534923469111,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/All4MilletsKhakhra339_2.jpg?v=1778452535",
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10534923370807,
+    "title": "Classic Khakhra Combo (800gm)",
+    "handle": "classic-khakhra-combo",
+    "body_html": "<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">\n<strong>Four flavours. One box. Find your favourite</strong><strong></strong>\n</h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Made the old fashioned way - roasted, not fried, with real multigrain ingredients and nothing artificial. Light enough to snack on anytime, flavourful enough to keep coming back for more.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Jeera Khakhra 200gm <br>✓ Moong Khakhra 200gm<br>✓ Masala Khakhra 200gm <br>✓ Methi Khakhra 200gm<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 4 classic flavours - something for every mood <br>✓ Roasted not fried <br>✓ No trans fat <br>✓ No preservatives <br>✓ 100% natural ingredients <br>✓ 800gm of khakhras - enough for the whole week <br>✓ Perfect for chai time, office breaks, or anytime cravings hit</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>One box. Five flavours. Endless chai time.</em></strong></p>",
+    "published_at": "2026-05-11T04:04:08+05:30",
+    "created_at": "2026-05-11T04:04:06+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52113466949943,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "499.00",
+        "grams": 0,
+        "compare_at_price": "699.00",
+        "position": 1,
+        "product_id": 10534923370807,
+        "created_at": "2026-05-11T04:04:07+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53968920740151,
+        "created_at": "2026-06-18T01:40:03+05:30",
+        "position": 1,
+        "updated_at": "2026-06-18T01:40:05+05:30",
+        "product_id": 10534923370807,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/877db612-9279-4de4-8ff9-16e5016dc861.png?v=1781727005",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53969890836791,
+        "created_at": "2026-06-18T05:53:58+05:30",
+        "position": 2,
+        "updated_at": "2026-06-18T05:53:59+05:30",
+        "product_id": 10534923370807,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_05_51_30_AM.png?v=1781742239",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 41660599435575,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10534923370807,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_4122822b-8175-47ee-bb61-1269da95a909.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 4,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10534923370807,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 5,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 10534923370807,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10534921273655,
+    "title": "The Office Box",
+    "handle": "the-office-box",
+    "body_html": "<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Your 3pm hunger just met its match.</h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">That mid-afternoon slump hits everyone. Instead of reaching for chips from the vending machine or biscuits from the pantry, keep The Office Box at your desk and snack smarter every single day.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">10 different multigrain snacks that are light, crunchy, and won't leave you feeling heavy - exactly what you need to power through the rest of your workday.</p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Jowar Sticks 70gm <br>✓ Nuts Mix 140gm <br>✓ Jowar Puffs Masala 70gm <br>✓ Jowar Puffs Chat Masala 70gm <br>✓ Pizza Khakhra 180gm<br>✓ Jowar Cheese Balls 70gm <br>✓ Bhel 70gm <br>✓ Teekha Bhel 70gm <br>✓ Soya Peanuts 120gm <br>✓ Jowar Ring 70gm<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 10 snacks so every day at your desk tastes different <br>✓ Light on the stomach - no post-snack sluggishness <br>✓ Roasted not fried <br>✓ Made with jowar and real multigrain ingredients <br>✓ No trans fat <br>✓ No preservatives <br>✓ Enough variety to last the whole work week</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>Because your desk deserves better than vending machine chips.</em></strong></p>",
+    "published_at": "2026-05-11T03:39:44+05:30",
+    "created_at": "2026-05-11T03:39:42+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52113445945655,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "649.00",
+        "grams": 0,
+        "compare_at_price": "899.00",
+        "position": 1,
+        "product_id": 10534921273655,
+        "created_at": "2026-05-11T03:39:42+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53821611868471,
+        "created_at": "2026-06-09T14:59:56+05:30",
+        "position": 1,
+        "updated_at": "2026-06-09T14:59:57+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_02_59_41_PM.png?v=1780997397",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53820754395447,
+        "created_at": "2026-06-09T13:54:06+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T13:54:08+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_01_53_02_PM.png?v=1780993448",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 49041286955319,
+        "created_at": "2025-03-11T12:41:24+05:30",
+        "position": 3,
+        "updated_at": "2025-03-11T12:41:25+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/All_puffs.jpg?v=1741677085",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "id": 42034972623159,
+        "created_at": "2023-06-30T11:19:43+05:30",
+        "position": 4,
+        "updated_at": "2023-06-30T11:19:44+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-MasalaMunch3-2.jpg?v=1688104184",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 42034868912439,
+        "created_at": "2023-06-30T11:07:06+05:30",
+        "position": 5,
+        "updated_at": "2023-06-30T11:07:07+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-ChaatMasala.jpg?v=1688103427",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 42035217891639,
+        "created_at": "2023-06-30T11:53:55+05:30",
+        "position": 6,
+        "updated_at": "2023-06-30T11:53:56+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/QuinoaPuff-CheeseTomato2.jpg?v=1688106236",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 7,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53442978644279,
+        "created_at": "2026-05-15T19:52:57+05:30",
+        "position": 8,
+        "updated_at": "2026-05-15T19:52:59+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pizza_Khakhra.png?v=1778854979",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53442963145015,
+        "created_at": "2026-05-15T19:48:56+05:30",
+        "position": 9,
+        "updated_at": "2026-05-15T19:48:58+05:30",
+        "product_id": 10534921273655,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pani_Puri_Khakhra.png?v=1778854738",
+        "width": 896,
+        "height": 1195
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10525136912695,
+    "title": "The Clean Snack Box",
+    "handle": "the-clean-snack-box",
+    "body_html": "<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Clean ingredients. Bold taste. No compromises.</h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">For the snacker who reads labels, checks ingredients, and refuses to settle for junk - The Clean Snack Box is built for you. Every single product inside is made with real multigrain ingredients and nothing artificial. Just honest, wholesome snacking the way it should be.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">11 different snacks covering everything from light khakhras to crunchy puffs and chatpata bhel - so you never have to choose between eating clean and eating well.<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Jowar Bhel 70gm <br>✓ Jowar Puffs Masala 70gm <br>✓ Jowar Puffs Chat Masala 70gm <br>✓ Nuts Mix 140gm <br>✓ Jeera Khakhra 200gm <br>✓ Plain Khakhra 200gm <br>✓ Pizza Khakhra 180gm <br>✓ Jowar Khakhra 200gm <br>✓ Teekha Bhel 70gm <br>✓ Jowar Cheese Balls 70gm <br>✓ Jowar Rings 70gm<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 11 snacks all made with real multigrain ingredients <br>✓ Roasted not fried <br>✓ No trans fat <br>✓ No preservatives <br>✓ 100% natural ingredients <br>✓ Light on the stomach — never heavy or greasy <br>✓ Perfect for health conscious snackers and fitness lovers</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>Clean snacking. Real taste. Every single day.</em></strong></p>",
+    "published_at": "2026-05-01T01:52:18+05:30",
+    "created_at": "2026-05-01T01:49:51+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52071825178935,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "300",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "699.00",
+        "grams": 0,
+        "compare_at_price": "799.00",
+        "position": 1,
+        "product_id": 10525136912695,
+        "created_at": "2026-05-01T01:49:51+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53577732686135,
+        "created_at": "2026-05-26T02:26:13+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T02:26:15+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageMay26_2026_02_25_12AM.png?v=1779742575",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53820887761207,
+        "created_at": "2026-06-09T14:00:32+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T14:00:38+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_02_00_17_PM.png?v=1780993838",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 49041286955319,
+        "created_at": "2025-03-11T12:41:24+05:30",
+        "position": 3,
+        "updated_at": "2025-03-11T12:41:25+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/All_puffs.jpg?v=1741677085",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "id": 53567337627959,
+        "created_at": "2024-01-17T13:12:44+05:30",
+        "position": 4,
+        "updated_at": "2024-01-17T13:12:46+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_131207.png?v=1705477366",
+        "width": 618,
+        "height": 618
+      },
+      {
+        "id": 53442978644279,
+        "created_at": "2026-05-15T19:52:57+05:30",
+        "position": 5,
+        "updated_at": "2026-05-15T19:52:59+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pizza_Khakhra.png?v=1778854979",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53382857851191,
+        "created_at": "2023-05-24T12:03:59+05:30",
+        "position": 6,
+        "updated_at": "2023-05-24T12:04:00+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/khakhra.jpg?v=1684910040",
+        "width": 1000,
+        "height": 800
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 7,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 49041289838903,
+        "created_at": "2025-03-11T12:42:09+05:30",
+        "position": 8,
+        "updated_at": "2025-03-11T12:42:11+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Jowar_Puff-Masala_Munch3.jpg?v=1741677131",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "id": 49041300652343,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 9,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07268.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 53383026213175,
+        "created_at": "2026-05-11T03:53:26+05:30",
+        "position": 10,
+        "updated_at": "2026-05-11T03:53:28+05:30",
+        "product_id": 10525136912695,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageMay11_2026_03_53_15AM.png?v=1778451808",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10525135667511,
+    "title": "Road Trip Box",
+    "handle": "ghar-ka-dabba",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Miles ahead in taste.</strong></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Long drive coming up? Don't settle for highway dhaba chips or stale namkeen from a petrol pump. The Road Trip Box is packed with 13 multigrain snacks built to travel — light, crunchy, non-messy, and easy to pass around in the car.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">From bite-sized khakhras in 5 flavours to jowar puffs, rings, and sticks — there's enough variety to keep everyone in the car happy from the first toll booth to the last.</p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Masala Khakhra — Pack of 2 <br>✓ Moong Khakhra — Pack of 2 <br>✓ Methi Khakhra — Pack of 2 <br>✓ Jeera Khakhra — Pack of 2 <br>✓ Garlic Khakhra — Pack of 2 <br>✓ Jowar Puffs Masala 50gm <br>✓ Jowar Puffs Chat Masala 50gm <br>✓ Jowar Bhel 50gm <br>✓ Jowar Teekha Bhel 50gm <br>✓ Jowar Cheese Balls 50gm <br>✓ Jowar Ring 50gm<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Compact packs - easy to carry, easy to share <br>✓ 5 khakhra flavours so nobody fights over the last one <br>✓ Non-messy - safe for car seats and backpacks <br>✓ Roasted not fried <br>✓ No trans fat <br>✓ No preservatives <br>✓ Made with jowar and real multigrain goodness</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Pack it in. Munch on. Drive happy.</em></p>",
+    "published_at": "2026-05-01T01:49:17+05:30",
+    "created_at": "2026-05-01T01:47:26+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52071819772215,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "300",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "589.00",
+        "grams": 0,
+        "compare_at_price": "799.00",
+        "position": 1,
+        "product_id": 10525135667511,
+        "created_at": "2026-05-01T01:47:26+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53577649455415,
+        "created_at": "2026-05-26T02:17:52+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T02:17:54+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageMay26_2026_02_17_35AM.png?v=1779742074",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53577621242167,
+        "created_at": "2023-04-28T11:41:20+05:30",
+        "position": 2,
+        "updated_at": "2023-04-28T11:41:21+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ZMP_0205-scaled-1.jpg?v=1682662281",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "id": 43935514493239,
+        "created_at": "2023-11-29T12:36:05+05:30",
+        "position": 3,
+        "updated_at": "2023-12-01T13:53:41+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC02645copy.jpg?v=1701419021",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 49041286955319,
+        "created_at": "2025-03-11T12:41:24+05:30",
+        "position": 4,
+        "updated_at": "2025-03-11T12:41:25+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/All_puffs.jpg?v=1741677085",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "id": 43966899126583,
+        "created_at": "2023-12-01T12:39:01+05:30",
+        "position": 5,
+        "updated_at": "2023-12-01T12:39:03+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Roasted-Ragi-Methi-Khakhra.jpg?v=1701414543",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53442978644279,
+        "created_at": "2026-05-15T19:52:57+05:30",
+        "position": 6,
+        "updated_at": "2026-05-15T19:52:59+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Pizza_Khakhra.png?v=1778854979",
+        "width": 896,
+        "height": 1195
+      },
+      {
+        "id": 53382857851191,
+        "created_at": "2023-05-24T12:03:59+05:30",
+        "position": 7,
+        "updated_at": "2023-05-24T12:04:00+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/khakhra.jpg?v=1684910040",
+        "width": 1000,
+        "height": 800
+      },
+      {
+        "id": 53426363236663,
+        "created_at": "2026-05-14T07:20:57+05:30",
+        "position": 8,
+        "updated_at": "2026-05-14T07:20:59+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_14_2026_07_20_39_AM.png?v=1778723459",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 42034972623159,
+        "created_at": "2023-06-30T11:19:43+05:30",
+        "position": 9,
+        "updated_at": "2023-06-30T11:19:44+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-MasalaMunch3-2.jpg?v=1688104184",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53825333264695,
+        "created_at": "2026-06-09T20:10:03+05:30",
+        "position": 10,
+        "updated_at": "2026-06-09T20:10:05+05:30",
+        "product_id": 10525135667511,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_08_09_46_PM.png?v=1781016005",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10525134979383,
+    "title": "30 days of Snaqary",
+    "handle": "30-days-of-snaqary",
+    "body_html": "<h4 data-start=\"0\" data-end=\"64\">One order. One month. Zero boring snacks.</h4>\n<p data-start=\"66\" data-end=\"318\">This is Snaqary's biggest box - 16 different multigrain snacks to keep your snacking game fresh every single day of the month. Whether you're at home, at your desk, or just hungry at midnight - there's always something in this box worth reaching for.</p>\n<p data-start=\"320\" data-end=\"405\">Made for the serious snacker who doesn't want to think about reordering every week.</p>\n<p data-start=\"407\" data-end=\"788\"><strong>What's inside:</strong><br data-start=\"421\" data-end=\"424\">✓ Methi Khakhra 200gm<br data-start=\"444\" data-end=\"447\">✓ Pani Puri Khakhra 180gm<br data-start=\"471\" data-end=\"474\">✓ Pizza Khakhra 180gm<br data-start=\"494\" data-end=\"497\" data-is-only-node=\"\">✓ Bajra Khakhra 200gm<br data-start=\"517\" data-end=\"520\">✓ Palak Puri 120gm<br data-start=\"537\" data-end=\"540\">✓ Methi Puri 120gm<br data-start=\"557\" data-end=\"560\">✓ Cream Onion Puri 120gm<br data-start=\"583\" data-end=\"586\">✓ Soya Peanuts 120gm<br data-start=\"605\" data-end=\"608\">✓ Jowar Cheese Balls 70gm<br data-start=\"632\" data-end=\"635\">✓ Jowar Sticks 70gm<br data-start=\"653\" data-end=\"656\">✓ Jowar Ring 70gm<br data-start=\"672\" data-end=\"675\">✓ Teekha Bhel 70gm<br data-start=\"692\" data-end=\"695\">✓ Jowar Puffs Chat Masala 70gm<br data-start=\"724\" data-end=\"727\">✓ Nuts Mix 140gm<br data-start=\"742\" data-end=\"745\">✓ Plain Khakhra 80gm<br data-start=\"764\" data-end=\"767\">✓ Jeera Khakhra 80gm<br><br></p>\n<p data-start=\"790\" data-end=\"1084\"><strong>Why you'll love it:</strong><br data-start=\"809\" data-end=\"812\">✓ 16 snacks so every day feels different<br data-start=\"851\" data-end=\"854\">✓ Khakhras, puris, puffs, bhel, nuts — full variety covered<br data-start=\"912\" data-end=\"915\">✓ Made with jowar, bajra, methi and real multigrain ingredients<br data-start=\"977\" data-end=\"980\" data-is-only-node=\"\">✓ No maida. No palm oil. No artificial flavours<br data-start=\"1026\" data-end=\"1029\">✓ Free shipping included<br data-start=\"1052\" data-end=\"1055\">✓ Best value box on the site</p>",
+    "published_at": "2026-05-01T01:46:21+05:30",
+    "created_at": "2026-05-01T01:46:21+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52071817773367,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "300",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "1049.00",
+        "grams": 0,
+        "compare_at_price": "1399.00",
+        "position": 1,
+        "product_id": 10525134979383,
+        "created_at": "2026-05-01T01:46:22+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53577538044215,
+        "created_at": "2026-05-26T02:05:47+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T02:05:49+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPTImageMay26_2026_02_05_34AM.png?v=1779741349",
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "id": 53820649931063,
+        "created_at": "2026-06-09T13:48:30+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T13:48:31+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_01_48_14_PM.png?v=1780993111",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53578023436599,
+        "created_at": "2026-05-26T02:48:43+05:30",
+        "position": 3,
+        "updated_at": "2026-05-26T02:48:45+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_26_2026_02_48_33_AM.png?v=1779743925",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773867974967,
+        "created_at": "2026-06-06T01:26:22+05:30",
+        "position": 4,
+        "updated_at": "2026-06-06T01:26:24+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_26_00_AM.png?v=1780689384",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 42001657332023,
+        "created_at": "2023-06-26T13:51:45+05:30",
+        "position": 5,
+        "updated_at": "2024-01-23T16:48:45+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Artboard6.jpg?v=1706008725",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 42807830905143,
+        "created_at": "2023-09-02T15:12:49+05:30",
+        "position": 6,
+        "updated_at": "2023-09-14T12:24:26+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Artboard2_3.jpg?v=1694674466",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 44015702966583,
+        "created_at": "2023-12-05T17:01:10+05:30",
+        "position": 7,
+        "updated_at": "2023-12-05T17:01:13+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/combo-2.jpg?v=1701775873",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 44015664562487,
+        "created_at": "2023-12-05T16:57:15+05:30",
+        "position": 8,
+        "updated_at": "2023-12-05T16:57:17+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Bajra-Puri-Combo--5a.jpg?v=1701775637",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 44015262990647,
+        "created_at": "2023-12-05T16:10:48+05:30",
+        "position": 9,
+        "updated_at": "2023-12-05T16:10:54+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Nuts-Mix.-3_d0c83c16-520f-46dd-8dbe-3f9ad63ca21a.jpg?v=1701772854",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 44014753382711,
+        "created_at": "2023-12-05T15:19:20+05:30",
+        "position": 10,
+        "updated_at": "2023-12-05T15:19:25+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/peri-Peri-multigrain-sticks-1.jpg?v=1701769765",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 43967363809591,
+        "created_at": "2023-12-01T13:58:39+05:30",
+        "position": 11,
+        "updated_at": "2023-12-01T13:59:17+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Nuts-Mix.-3.jpg?v=1701419357",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 12,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 10525134979383,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10525134356791,
+    "title": "The 7 Day Munch Box",
+    "handle": "the-7-day-munch-box",
+    "body_html": "<h3><strong>The 7 Day Munch Box</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>7 days. 11 snacks. Zero guilt.</em></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Tired of reaching for the same boring snack every day? The 7 Day Munch Box gives you a different healthy snack for every day of the week — and then some.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Packed with Snaqary's most loved multigrain snacks, this box is built for anyone who wants to snack better without thinking too hard about it. From the crunch of our Moong and Ragi Methi Khakhras to the chatpata kick of Jowar Puffs and Teekha Bhel — every day tastes different.<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Moong Khakhra 200gm<br>✓ Ragi Methi Khakhra 200gm<br>✓ Jowar Cheese Balls 70gm<br>✓ Jowar Puffs Chat Masala 70gm<br>✓ Teekha Bhel 70gm<br>✓ Jowar Rings Puffs 70gm<br>✓ Jowar Bhel 70gm<br>✓ Palak Puri 120gm<br>✓ Soya Peanuts 120gm<br>✓ Methi Puri 120gm<br><br></p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ A variety of sweet, savoury, crunchy, and chatpata flavours<br>✓ Perfect for office desks, travel bags, and tea-time snacking<br>✓ Roasted goodness with satisfying crunch<br>✓ Made with wholesome ingredients and multigrain goodness<br>✓ No trans fat<br>✓ No preservatives<br><br></p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong><em>One box. One week. Snack smarter.</em></strong></p>",
+    "published_at": "2026-05-01T01:45:24+05:30",
+    "created_at": "2026-05-01T01:45:23+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52071815872823,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "300",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "719.00",
+        "grams": 0,
+        "compare_at_price": "899.00",
+        "position": 1,
+        "product_id": 10525134356791,
+        "created_at": "2026-05-01T01:45:23+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53825021706551,
+        "created_at": "2026-06-09T19:17:28+05:30",
+        "position": 1,
+        "updated_at": "2026-06-09T19:17:30+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_07_17_03_PM.png?v=1781012850",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53820495724855,
+        "created_at": "2026-06-09T13:40:32+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T13:40:34+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_01_40_16_PM_2.png?v=1780992634",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 41660599435575,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_4122822b-8175-47ee-bb61-1269da95a909.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53382917030199,
+        "created_at": "2024-01-17T13:07:20+05:30",
+        "position": 4,
+        "updated_at": "2024-01-17T13:07:21+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Screenshot_2024-01-17_130628.png?v=1705477041",
+        "width": 555,
+        "height": 555
+      },
+      {
+        "id": 49041286955319,
+        "created_at": "2025-03-11T12:41:24+05:30",
+        "position": 5,
+        "updated_at": "2025-03-11T12:41:25+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/All_puffs.jpg?v=1741677085",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "id": 49041289838903,
+        "created_at": "2025-03-11T12:42:09+05:30",
+        "position": 6,
+        "updated_at": "2025-03-11T12:42:11+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Jowar_Puff-Masala_Munch3.jpg?v=1741677131",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "id": 49041300619575,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 7,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07286.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 42034972623159,
+        "created_at": "2023-06-30T11:19:43+05:30",
+        "position": 8,
+        "updated_at": "2023-06-30T11:19:44+05:30",
+        "product_id": 10525134356791,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-MasalaMunch3-2.jpg?v=1688104184",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10525127016759,
+    "title": "The First Bite Box",
+    "handle": "the-first-bite-box",
+    "body_html": "<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Your first step into healthy snacking starts here.</h3>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">New to Snaqary? The First Bite Box is everything you need to find your favourite. Seven of our most loved multigrain snacks, one box, one great price. No overthinking, no long lists — just open, snack, and see what you've been missing.</p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>What's inside:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ Methi Khakhra 200gm<br>✓ Palak Puri 120gm <br>✓ Jowar Cheese Balls 70gm <br>✓ Jowar Sticks 70gm <br>✓ Teekha Bhel 70gm <br>✓ Nuts Mix 140gm</p>\n<h3 class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><strong>Why you'll love it:</strong></h3>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 7 snacks in one box <br>✓ Made with methi, bajra, jowar and real multigrain goodness <br>✓ Roasted not fried <br>✓ No trans fat <br>✓ No preservatives <br>✓ 100% natural ingredients <br>✓ Light on calories, big on flavour <br>✓ Perfect for home, office, or on the go</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>One box. Seven snacks. One new snacking habit.</em></p>",
+    "published_at": "2026-05-01T01:37:56+05:30",
+    "created_at": "2026-05-01T01:37:55+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "Snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 52071774978359,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": "200",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "469.00",
+        "grams": 0,
+        "compare_at_price": "699.00",
+        "position": 1,
+        "product_id": 10525127016759,
+        "created_at": "2026-05-01T01:37:55+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53577430630711,
+        "created_at": "2026-05-26T01:57:07+05:30",
+        "position": 1,
+        "updated_at": "2026-05-26T01:57:59+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_May_26_2026_01_56_29_AM.png?v=1779740879",
+        "width": 959,
+        "height": 1278
+      },
+      {
+        "id": 53820462072119,
+        "created_at": "2026-06-09T13:35:44+05:30",
+        "position": 2,
+        "updated_at": "2026-06-09T13:35:45+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_01_35_21_PM.png?v=1780992345",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53382857851191,
+        "created_at": "2023-05-24T12:03:59+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T12:04:00+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/khakhra.jpg?v=1684910040",
+        "width": 1000,
+        "height": 800
+      },
+      {
+        "id": 43967320719671,
+        "created_at": "2023-12-01T13:50:17+05:30",
+        "position": 4,
+        "updated_at": "2023-12-01T13:53:41+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Palak-Bajra-Puri.1.jpg?v=1701419021",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 49041289838903,
+        "created_at": "2025-03-11T12:42:09+05:30",
+        "position": 5,
+        "updated_at": "2025-03-11T12:42:11+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Jowar_Puff-Masala_Munch3.jpg?v=1741677131",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "id": 49041300619575,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 6,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07286.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 49041300652343,
+        "created_at": "2025-03-11T12:43:02+05:30",
+        "position": 7,
+        "updated_at": "2025-03-11T12:43:04+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/DSC07268.jpg?v=1741677184",
+        "width": 6000,
+        "height": 3376
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 8,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 42035217891639,
+        "created_at": "2023-06-30T11:53:55+05:30",
+        "position": 9,
+        "updated_at": "2023-06-30T11:53:56+05:30",
+        "product_id": 10525127016759,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/QuinoaPuff-CheeseTomato2.jpg?v=1688106236",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8336558227767,
+    "title": "Jowar Puff-Masala Munch (Pack of 6)",
+    "handle": "jowar-puff-masala-munch",
+    "body_html": "<div class=\"docs-material companion-enabled\" aria-label=\"Menu bar\" role=\"banner\" id=\"docs-chrome\" tabindex=\"0\">\n<div id=\"docs-additional-bars\">\n<div class=\"name-box-enabled formula-bar-with-name-box-wrapper\" id=\"formula-bar-name-box-wrapper\">\n<div class=\"formula-bar formulabar-disabled\" id=\"formula-bar\">\n<div id=\"t-formula-bar-input-container\">\n<div dir=\"ltr\">\n<div id=\"t-formula-bar-input\" spellcheck=\"false\">\n<div aria-autocomplete=\"list\" dir=\"ltr\" role=\"combobox\" class=\"cell-input disabled-input\" tabindex=\"0\" docs-unhandledkeys=\"\" contenteditable=\"false\">\n<p><span style=\"font-weight: 400;\">Get ready for a flavor explosion with our Jowar Puff-Masala Munch! These puffs are crafted from wholesome jowar grains, providing a guilt-free snacking option. Seasoned with a tantalizing masala blend, each bite delivers a burst of bold and spicy flavors that will leave your taste buds tingling. Experience the perfect combination of crunch and taste with Jowar Puff-Masala Munch, and enjoy a savory treat that keeps you coming back for more!</span></p>\n</div>\n<div aria-autocomplete=\"list\" dir=\"ltr\" role=\"combobox\" class=\"cell-input disabled-input\" tabindex=\"0\" docs-unhandledkeys=\"\" contenteditable=\"false\"><strong></strong></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div dir=\"ltr\" id=\"docs-editor-container\">\n<div class=\"\" id=\"docs-editor\">\n<div dir=\"ltr\" id=\"waffle-grid-container\">\n<div dir=\"ltr\" class=\"grid-container\" id=\"1250278487-grid-container\">\n<div id=\"1250278487-grid-table-container\">\n<div class=\"grid-table-container fixed-table-container\">\n<div id=\"1250278487-fixed\" class=\"grid-fixed-wrapper\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "published_at": "2023-06-30T11:39:06+05:30",
+    "created_at": "2023-05-18T18:16:39+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690745389367,
+        "title": "Pack of 6",
+        "option1": "Pack of 6",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826082341175,
+          "product_id": 8336558227767,
+          "position": 4,
+          "created_at": "2026-06-09T22:01:37+05:30",
+          "updated_at": "2026-06-09T22:02:52+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_01_18_PM.png?v=1781022772",
+          "variant_ids": [
+            45690745389367
+          ]
+        },
+        "available": true,
+        "price": "389.00",
+        "grams": 65,
+        "compare_at_price": "499.00",
+        "position": 1,
+        "product_id": 8336558227767,
+        "created_at": "2023-06-26T12:27:04+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136753955127,
+        "title": "Pack of 12",
+        "option1": "Pack of 12",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826044526903,
+          "product_id": 8336558227767,
+          "position": 5,
+          "created_at": "2026-06-09T21:58:54+05:30",
+          "updated_at": "2026-06-09T21:59:39+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_09_58_39_PM.png?v=1781022579",
+          "variant_ids": [
+            52136753955127
+          ]
+        },
+        "available": true,
+        "price": "689.00",
+        "grams": 65,
+        "compare_at_price": "799.00",
+        "position": 2,
+        "product_id": 8336558227767,
+        "created_at": "2026-05-14T07:02:17+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53773763117367,
+        "created_at": "2026-06-06T01:11:16+05:30",
+        "position": 1,
+        "updated_at": "2026-06-06T01:11:18+05:30",
+        "product_id": 8336558227767,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_11_02_AM.png?v=1780688478",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773772816695,
+        "created_at": "2026-06-06T01:12:41+05:30",
+        "position": 2,
+        "updated_at": "2026-06-06T01:12:43+05:30",
+        "product_id": 8336558227767,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_12_29_AM.png?v=1780688563",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 42034972623159,
+        "created_at": "2023-06-30T11:19:43+05:30",
+        "position": 3,
+        "updated_at": "2023-06-30T11:19:44+05:30",
+        "product_id": 8336558227767,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-MasalaMunch3-2.jpg?v=1688104184",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53826082341175,
+        "created_at": "2026-06-09T22:01:37+05:30",
+        "position": 4,
+        "updated_at": "2026-06-09T22:02:52+05:30",
+        "product_id": 8336558227767,
+        "variant_ids": [
+          45690745389367
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_01_18_PM.png?v=1781022772",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53826044526903,
+        "created_at": "2026-06-09T21:58:54+05:30",
+        "position": 5,
+        "updated_at": "2026-06-09T21:59:39+05:30",
+        "product_id": 8336558227767,
+        "variant_ids": [
+          52136753955127
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_09_58_39_PM.png?v=1781022579",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Packs",
+        "position": 1,
+        "values": [
+          "Pack of 6",
+          "Pack of 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8336559669559,
+    "title": "Jowar Puff-Chat Masala (Pack of 6)",
+    "handle": "jowar-puff-chat-masala",
+    "body_html": "<div class=\"name-box-enabled formula-bar-with-name-box-wrapper\" id=\"formula-bar-name-box-wrapper\">\n<div class=\"formula-bar formulabar-disabled\" id=\"formula-bar\">\n<div id=\"t-formula-bar-input-container\">\n<div dir=\"ltr\">\n<div id=\"t-formula-bar-input\" spellcheck=\"false\">\n<div aria-autocomplete=\"list\" dir=\"ltr\" role=\"combobox\" class=\"cell-input disabled-input\" tabindex=\"0\" docs-unhandledkeys=\"\" contenteditable=\"false\">\n<p><span style=\"font-weight: 400;\">Experience a burst of flavor with our Jowar Puff-Chat Masala! These light and crispy puffs are made from nutritious jowar, and they are perfectly seasoned with a tantalizing blend of chat masala spices. Indulge in the zesty tanginess of this snack, packed with wholesome goodness. Grab a pack and enjoy the irresistible crunch and delightful taste of Jowar Puff-Chat Masala!</span></p>\n</div>\n<div aria-autocomplete=\"list\" dir=\"ltr\" role=\"combobox\" class=\"cell-input disabled-input\" tabindex=\"0\" docs-unhandledkeys=\"\" contenteditable=\"false\">\n<strong></strong><strong></strong>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "published_at": "2023-06-30T11:08:05+05:30",
+    "created_at": "2023-05-18T18:19:24+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690744930615,
+        "title": "Pack of 6",
+        "option1": "Pack of 6",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826261451063,
+          "product_id": 8336559669559,
+          "position": 4,
+          "created_at": "2026-06-09T22:19:52+05:30",
+          "updated_at": "2026-06-09T22:19:54+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_19_40_PM.png?v=1781023794",
+          "variant_ids": [
+            45690744930615
+          ]
+        },
+        "available": true,
+        "price": "389.00",
+        "grams": 65,
+        "compare_at_price": "499.00",
+        "position": 1,
+        "product_id": 8336559669559,
+        "created_at": "2023-06-26T12:26:34+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136780595511,
+        "title": "Pack of 12",
+        "option1": "Pack of 12",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53826276884791,
+          "product_id": 8336559669559,
+          "position": 5,
+          "created_at": "2026-06-09T22:21:53+05:30",
+          "updated_at": "2026-06-09T22:21:55+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_21_38_PM.png?v=1781023915",
+          "variant_ids": [
+            52136780595511
+          ]
+        },
+        "available": true,
+        "price": "689.00",
+        "grams": 65,
+        "compare_at_price": "799.00",
+        "position": 2,
+        "product_id": 8336559669559,
+        "created_at": "2026-05-14T07:07:53+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 53773726974263,
+        "created_at": "2026-06-06T01:03:34+05:30",
+        "position": 1,
+        "updated_at": "2026-06-06T01:03:36+05:30",
+        "product_id": 8336559669559,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_03_21_AM.png?v=1780688016",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53773751681335,
+        "created_at": "2026-06-06T01:09:30+05:30",
+        "position": 2,
+        "updated_at": "2026-06-06T01:09:32+05:30",
+        "product_id": 8336559669559,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_6_2026_01_09_09_AM.png?v=1780688372",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 42034868912439,
+        "created_at": "2023-06-30T11:07:06+05:30",
+        "position": 3,
+        "updated_at": "2023-06-30T11:07:07+05:30",
+        "product_id": 8336559669559,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/JowarPuff-ChaatMasala.jpg?v=1688103427",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53826261451063,
+        "created_at": "2026-06-09T22:19:52+05:30",
+        "position": 4,
+        "updated_at": "2026-06-09T22:19:54+05:30",
+        "product_id": 8336559669559,
+        "variant_ids": [
+          45690744930615
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_19_40_PM.png?v=1781023794",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53826276884791,
+        "created_at": "2026-06-09T22:21:53+05:30",
+        "position": 5,
+        "updated_at": "2026-06-09T22:21:55+05:30",
+        "product_id": 8336559669559,
+        "variant_ids": [
+          52136780595511
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_9_2026_10_21_38_PM.png?v=1781023915",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 6",
+          "Pack of 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8336511402295,
+    "title": "Jowar Bajra Masala Khakhra (Pack of 4)",
+    "handle": "roasted-jowar-bajra-masala-khakhra",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Two grains. One seriously good crunch.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Jowar and bajra together with a proper masala hit — this khakhra is for the ones who want their snack to actually taste like something. Crispy, spiced just right, and light enough that you don't feel it after.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 200g pack — enough to last the week <br>✓ Made with jowar and bajra <br>✓ Roasted not fried <br>✓ Real masala flavour — not artificial <br>✓ No maida. No palm oil <br>✓ No artificial flavours</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Two grains. Zero guilt.</em></p>\n<div class=\"name-box-enabled formula-bar-with-name-box-wrapper\" id=\"formula-bar-name-box-wrapper\">\n<div class=\"formula-bar formulabar-disabled\" id=\"formula-bar\">\n<div id=\"t-formula-bar-input-container\">\n<div dir=\"ltr\">\n<div id=\"t-formula-bar-input\" spellcheck=\"false\"></div>\n</div>\n</div>\n</div>\n</div>",
+    "published_at": "2023-06-03T13:30:50+05:30",
+    "created_at": "2023-05-18T17:11:32+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690727596343,
+        "title": "Pack of 4",
+        "option1": "Pack of 4",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969293541687,
+          "product_id": 8336511402295,
+          "position": 5,
+          "created_at": "2026-06-18T03:05:54+05:30",
+          "updated_at": "2026-06-18T03:05:56+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_25_04_AM.png?v=1781732156",
+          "variant_ids": [
+            45690727596343
+          ]
+        },
+        "available": true,
+        "price": "429.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8336511402295,
+        "created_at": "2023-06-26T12:15:59+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136675541303,
+        "title": "Pack of 8",
+        "option1": "Pack of 8",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969259102519,
+          "product_id": 8336511402295,
+          "position": 4,
+          "created_at": "2026-06-18T02:53:33+05:30",
+          "updated_at": "2026-06-18T02:53:34+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_47_37_AM.png?v=1781731414",
+          "variant_ids": [
+            52136675541303
+          ]
+        },
+        "available": true,
+        "price": "769.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8336511402295,
+        "created_at": "2026-05-14T06:48:07+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 41633264730423,
+        "created_at": "2023-05-22T13:03:54+05:30",
+        "position": 1,
+        "updated_at": "2023-05-22T13:03:55+05:30",
+        "product_id": 8336511402295,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/6_49351650-f4ae-4142-b333-2482f08a577e.jpg?v=1684740835",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 2,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 8336511402295,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 8336511402295,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53969259102519,
+        "created_at": "2026-06-18T02:53:33+05:30",
+        "position": 4,
+        "updated_at": "2026-06-18T02:53:34+05:30",
+        "product_id": 8336511402295,
+        "variant_ids": [
+          52136675541303
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_47_37_AM.png?v=1781731414",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53969293541687,
+        "created_at": "2026-06-18T03:05:54+05:30",
+        "position": 5,
+        "updated_at": "2026-06-18T03:05:56+05:30",
+        "product_id": 8336511402295,
+        "variant_ids": [
+          45690727596343
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_25_04_AM.png?v=1781732156",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 4",
+          "Pack of 8"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8353089159479,
+    "title": "Roasted Bajra Khakhra (Pack of 4)",
+    "handle": "roasted-bajra-khakhra-200g",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Bajra is one of India's oldest grains — filling, nutritious, and genuinely good for digestion.<br><br>This khakhra brings all of that into a crispy, lightly spiced snack that pairs perfectly with chai or works just as well straight out of the pack.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 200g pack - enough to last the week <br>✓ Made with real bajra <br>✓ Roasted not fried <br>✓ Good for digestion <br>✓ No maida. No palm oil <br>✓ No artificial flavours</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Old grain. New favourite.</em></p>\n<div class=\"name-box-enabled formula-bar-with-name-box-wrapper\" id=\"formula-bar-name-box-wrapper\">\n<div class=\"formula-bar formulabar-disabled\" id=\"formula-bar\">\n<div id=\"t-formula-bar-input-container\">\n<div dir=\"ltr\">\n<div id=\"t-formula-bar-input\" spellcheck=\"false\"></div>\n</div>\n</div>\n</div>\n</div>",
+    "published_at": "2023-06-03T13:29:39+05:30",
+    "created_at": "2023-05-24T14:40:27+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690723926327,
+        "title": "Pack of 4 (800g)",
+        "option1": "Pack of 4 (800g)",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969241047351,
+          "product_id": 8353089159479,
+          "position": 4,
+          "created_at": "2026-06-18T02:48:59+05:30",
+          "updated_at": "2026-06-18T02:49:01+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_09_33_AM_e0d00a4b-8c30-4b5c-ad34-548ad962a518.png?v=1781731141",
+          "variant_ids": [
+            45690723926327
+          ]
+        },
+        "available": true,
+        "price": "429.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8353089159479,
+        "created_at": "2023-06-26T12:13:35+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136664334647,
+        "title": "Pack of 8 (1600g)",
+        "option1": "Pack of 8 (1600g)",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969243898167,
+          "product_id": 8353089159479,
+          "position": 5,
+          "created_at": "2026-06-18T02:49:27+05:30",
+          "updated_at": "2026-06-18T02:49:29+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_41_36_AM.png?v=1781731169",
+          "variant_ids": [
+            52136664334647
+          ]
+        },
+        "available": true,
+        "price": "769.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8353089159479,
+        "created_at": "2026-05-14T06:44:50+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 41660858204471,
+        "created_at": "2023-05-24T14:40:29+05:30",
+        "position": 1,
+        "updated_at": "2023-05-24T14:40:29+05:30",
+        "product_id": 8353089159479,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/5_4573db3b-2be0-434a-85bb-2fde47ed03e1.jpg?v=1684919429",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 2,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 8353089159479,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 8353089159479,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53969241047351,
+        "created_at": "2026-06-18T02:48:59+05:30",
+        "position": 4,
+        "updated_at": "2026-06-18T02:49:01+05:30",
+        "product_id": 8353089159479,
+        "variant_ids": [
+          45690723926327
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_09_33_AM_e0d00a4b-8c30-4b5c-ad34-548ad962a518.png?v=1781731141",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53969243898167,
+        "created_at": "2026-06-18T02:49:27+05:30",
+        "position": 5,
+        "updated_at": "2026-06-18T02:49:29+05:30",
+        "product_id": 8353089159479,
+        "variant_ids": [
+          52136664334647
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_41_36_AM.png?v=1781731169",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 4 (800g)",
+          "Pack of 8 (1600g)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8336513794359,
+    "title": "Roasted Ragi Methi Khakhra (Pack of 4)",
+    "handle": "roasted-ragi-methi-khakhra",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Crispy. Light. Actually good for you.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Roasted ragi and fresh methi come together in a khakhra that satisfies the crunch craving without the guilt. No maida. No palm oil. No artificial flavours — just real ingredients, roasted right.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 200g pack - enough to last the week<br>✓ Roasted not fried <br>✓ No maida. No palm oil <br>✓ No artificial flavours <br>✓ Light on calories, heavy on crunch</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Your new everyday snack.</em></p>",
+    "published_at": "2023-05-22T13:08:58+05:30",
+    "created_at": "2023-05-18T17:14:53+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690730119479,
+        "title": "Pack of 4 (800g)",
+        "option1": "Pack of 4 (800g)",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969254940983,
+          "product_id": 8336513794359,
+          "position": 5,
+          "created_at": "2026-06-18T02:52:33+05:30",
+          "updated_at": "2026-06-18T02:52:35+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_06_51_AM.png?v=1781731355",
+          "variant_ids": [
+            45690730119479
+          ]
+        },
+        "available": true,
+        "price": "429.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8336513794359,
+        "created_at": "2023-06-26T12:16:51+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136630288695,
+        "title": "Pack of 8 (1600g)",
+        "option1": "Pack of 8 (1600g)",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969255465271,
+          "product_id": 8336513794359,
+          "position": 6,
+          "created_at": "2026-06-18T02:52:38+05:30",
+          "updated_at": "2026-06-18T02:52:40+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_36_23_AM.png?v=1781731360",
+          "variant_ids": [
+            52136630288695
+          ]
+        },
+        "available": true,
+        "price": "769.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8336513794359,
+        "created_at": "2026-05-14T06:31:12+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 41633290912055,
+        "created_at": "2023-05-22T13:08:07+05:30",
+        "position": 1,
+        "updated_at": "2023-12-01T12:36:51+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_1.jpg?v=1701414411",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 43966899126583,
+        "created_at": "2023-12-01T12:39:01+05:30",
+        "position": 2,
+        "updated_at": "2023-12-01T12:39:03+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/Roasted-Ragi-Methi-Khakhra.jpg?v=1701414543",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654485815,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 4,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/3_3fb1c318-ecbb-4329-9cf4-55937535ebdf.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53969254940983,
+        "created_at": "2026-06-18T02:52:33+05:30",
+        "position": 5,
+        "updated_at": "2026-06-18T02:52:35+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [
+          45690730119479
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_06_51_AM.png?v=1781731355",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53969255465271,
+        "created_at": "2026-06-18T02:52:38+05:30",
+        "position": 6,
+        "updated_at": "2026-06-18T02:52:40+05:30",
+        "product_id": 8336513794359,
+        "variant_ids": [
+          52136630288695
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_36_23_AM.png?v=1781731360",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack ",
+        "position": 1,
+        "values": [
+          "Pack of 4 (800g)",
+          "Pack of 8 (1600g)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8336509501751,
+    "title": "Roasted Jowar Khakhra (Pack of 4 )",
+    "handle": "roasted-jowar-khakhra",
+    "body_html": "<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\">Roasted jowar gives it a lighter, crunchier bite that you actually feel good about finishing. No heavy aftertaste, no guilt — just a snack that works any time of the day.</p>\n<p class=\"font-claude-response-body break-words whitespace-pre-wrap leading-[1.7]\">✓ 200g pack - enough to last the week <br>✓ Made with real jowar <br>✓ Roasted not fried <br>✓ No maida. No palm oil <br>✓ No artificial flavours <br>✓ Light on calories, heavy on crunch</p>\n<p class=\"font-claude-response-body break-words whitespace-normal leading-[1.7]\"><em>Snack smart. Snack jowar.</em></p>\n<div class=\"name-box-enabled formula-bar-with-name-box-wrapper\" id=\"formula-bar-name-box-wrapper\">\n<div class=\"formula-bar formulabar-disabled\" id=\"formula-bar\">\n<div id=\"t-formula-bar-input-container\">\n<div dir=\"ltr\">\n<div id=\"t-formula-bar-input\" spellcheck=\"false\"></div>\n</div>\n</div>\n</div>\n</div>",
+    "published_at": "2023-05-22T13:05:26+05:30",
+    "created_at": "2023-05-18T17:08:53+05:30",
+    "updated_at": "2026-11-22T10:59:47+05:30",
+    "vendor": "snaqary",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 45690724876599,
+        "title": "Pack of 4",
+        "option1": "Pack of 4",
+        "option2": null,
+        "option3": null,
+        "sku": "",
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969302552887,
+          "product_id": 8336509501751,
+          "position": 4,
+          "created_at": "2026-06-18T03:13:03+05:30",
+          "updated_at": "2026-06-18T03:13:05+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_03_12_47_AM.png?v=1781732585",
+          "variant_ids": [
+            45690724876599
+          ]
+        },
+        "available": true,
+        "price": "429.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 8336509501751,
+        "created_at": "2023-06-26T12:14:28+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      },
+      {
+        "id": 52136636318007,
+        "title": "Pack of 8",
+        "option1": "Pack of 8",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 53969301635383,
+          "product_id": 8336509501751,
+          "position": 5,
+          "created_at": "2026-06-18T03:12:11+05:30",
+          "updated_at": "2026-06-18T03:12:13+05:30",
+          "alt": null,
+          "width": 1254,
+          "height": 1254,
+          "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_45_06_AM.png?v=1781732533",
+          "variant_ids": [
+            52136636318007
+          ]
+        },
+        "available": true,
+        "price": "769.00",
+        "grams": 200,
+        "compare_at_price": null,
+        "position": 2,
+        "product_id": 8336509501751,
+        "created_at": "2026-05-14T06:40:45+05:30",
+        "updated_at": "2026-11-22T10:59:47+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 41633270464823,
+        "created_at": "2023-05-22T13:05:00+05:30",
+        "position": 1,
+        "updated_at": "2023-05-22T13:05:01+05:30",
+        "product_id": 8336509501751,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/4_b24a2c1f-93b2-42fd-aece-6e155c76a084.jpg?v=1684740901",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660599370039,
+        "created_at": "2023-05-24T14:19:46+05:30",
+        "position": 2,
+        "updated_at": "2023-05-24T14:19:46+05:30",
+        "product_id": 8336509501751,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_14ab2a96-15d2-4fd0-ae29-b5eafe4abd87.jpg?v=1684918186",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41660654420279,
+        "created_at": "2023-05-24T14:24:22+05:30",
+        "position": 3,
+        "updated_at": "2023-05-24T14:24:22+05:30",
+        "product_id": 8336509501751,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/2_fbfe368e-d5fc-43ee-a74c-33be81c5e2ef.jpg?v=1684918462",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 53969302552887,
+        "created_at": "2026-06-18T03:13:03+05:30",
+        "position": 4,
+        "updated_at": "2026-06-18T03:13:05+05:30",
+        "product_id": 8336509501751,
+        "variant_ids": [
+          45690724876599
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_03_12_47_AM.png?v=1781732585",
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "id": 53969301635383,
+        "created_at": "2026-06-18T03:12:11+05:30",
+        "position": 5,
+        "updated_at": "2026-06-18T03:12:13+05:30",
+        "product_id": 8336509501751,
+        "variant_ids": [
+          52136636318007
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0756/2071/2759/files/ChatGPT_Image_Jun_18_2026_02_45_06_AM.png?v=1781732533",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "options": [
+      {
+        "name": "Pack",
+        "position": 1,
+        "values": [
+          "Pack of 4",
+          "Pack of 8"
+        ]
+      }
+    ]
+  }
+]

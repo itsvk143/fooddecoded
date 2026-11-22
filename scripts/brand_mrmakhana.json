@@ -1,0 +1,3927 @@
+[
+  {
+    "id": 10651298038054,
+    "title": "CORNDON Korean Gangnam (K-Punch)",
+    "handle": "corndon-korean-gangnam-k-punch",
+    "body_html": "<p><strong>Korean Gangnam</strong> packs bold Korean street-food flavors into every crunchy bite. Fiery, savory, and full of umami, these popped corn chips are never baked or fried. Gluten-free, with no trans fat and no palm oil, they're the perfect snack for spice lovers who crave big flavor and light crunch.<br><br><strong>Ingredients:</strong> Corn (76%), Edible Vegetable Oil (Rice Bran), Seasoning [Sugar, Maltodextrin, Iodized Salt, Dehydrated Vegetable Powders &amp; Extracts (Garlic, Lime, Onion), Spices and Spice Extracts (Chilli, Black Pepper, Celery), Corn Starch, Acidity Regulator (INS 330), Skimmed Milk Powder, Flavour Enhancer (INS 627, INS 631), Paprika Oleoresin (INS 160c), Yeast Extract], Emulsifier (INS 322), Rosemary Extract (INS 392).<span class=\"PDq2pG_selectionAnchor\"></span></p>",
+    "published_at": "2026-08-18T17:45:15+05:30",
+    "created_at": "2026-07-29T01:10:56+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534715707686,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "50.00",
+        "grams": 50,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651298038054,
+        "created_at": "2026-07-29T01:10:56+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56130948825382,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean1.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130948858150,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean2.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130948890918,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 3,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean3.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130948923686,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 4,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean4.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130948956454,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 5,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean5.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130948989222,
+        "created_at": "2026-07-29T01:09:48+05:30",
+        "position": 6,
+        "updated_at": "2026-07-29T01:09:50+05:30",
+        "product_id": 10651298038054,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/korean6.png?v=1785267590",
+        "width": 1500,
+        "height": 1500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10651293221158,
+    "title": "CORNDON Don's BBQ",
+    "handle": "corndon-dons-bbq",
+    "body_html": "<p><strong>Don's BBQ</strong> delivers smoky, savory barbecue flavor with a tangy twist in every crunchy bite. These popped corn chips are never baked or fried, offering a light, irresistible crunch. Gluten-free, with no trans fat and no palm oil, they're made for bold snack lovers who crave authentic BBQ goodness.<br><br><strong>Ingredients:</strong> Corn (74%), Edible Vegetable Oil (Rice Bran Oil), Seasoning [Maltodextrin, Sugar, Iodized Salt, Honey Powder, Dehydrated Vegetable Powders &amp; Extracts (Garlic, Onion), Spices and Spice Extracts (Coriander, Cumin, Ginger), Hydrolysed Vegetable Protein (Soya Base), Acidity Regulator (INS 330), Anticaking Agent (INS 341(iii), INS 551), Flavour Enhancer (INS 627, INS 631), Yeast Extract, Paprika Oleoresin (INS 160c)], Emulsifier (INS 322), Rosemary Extract (INS 392).<span class=\"PDq2pG_selectionAnchor\"></span></p>",
+    "published_at": "2026-08-18T17:45:15+05:30",
+    "created_at": "2026-07-29T01:08:45+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534697881894,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "50.00",
+        "grams": 50,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651293221158,
+        "created_at": "2026-07-29T01:08:45+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56130931753254,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq1.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130931786022,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq2.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130931818790,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 3,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq3.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130931851558,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 4,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq4.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130931884326,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 5,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq5.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130931917094,
+        "created_at": "2026-07-29T01:07:36+05:30",
+        "position": 6,
+        "updated_at": "2026-07-29T01:07:38+05:30",
+        "product_id": 10651293221158,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/bbq6.png?v=1785267458",
+        "width": 1500,
+        "height": 1500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10651287060774,
+    "title": "CORNDON Truffle Undercover",
+    "handle": "corndon-truffle-undercover",
+    "body_html": "<p class=\"PDq2pG_selectionAnchorContainer\"><strong>Truffle Undercover</strong> blends rich truffle aroma with deep umami flavor for a gourmet snacking experience. These popped corn chips are never baked or fried, delivering light, crispy crunch. Gluten-free, with no trans fat and no palm oil, every bite is indulgent, sophisticated, and irresistibly satisfying.<br><br><strong>Ingredients:</strong> Corn (78%), Edible Vegetable Oil (Rice Bran), Seasoning [Glucose Syrup Powder, Iodized Salt, Maltodextrin, Dried Garlic Powder, Edible Vegetable Oil (Olive Oil), Anti Caking Agent (INS 551), Thickening Agent (INS 1450)], Emulsifier (INS 322), Rosemary Extract (INS 392).<br></p>",
+    "published_at": "2026-08-18T17:45:15+05:30",
+    "created_at": "2026-07-29T01:05:46+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534668357926,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "50.00",
+        "grams": 40,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651287060774,
+        "created_at": "2026-07-29T01:05:46+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56130698707238,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T00:59:49+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle1.png?v=1785266989",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130698740006,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T00:59:49+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle2.png?v=1785266989",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130698576166,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 3,
+        "updated_at": "2026-07-29T00:59:49+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle3.png?v=1785266989",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130698608934,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 4,
+        "updated_at": "2026-07-29T00:59:48+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle4.png?v=1785266988",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130698641702,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 5,
+        "updated_at": "2026-07-29T00:59:48+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle5.png?v=1785266988",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "id": 56130698674470,
+        "created_at": "2026-07-29T00:59:47+05:30",
+        "position": 6,
+        "updated_at": "2026-07-29T00:59:48+05:30",
+        "product_id": 10651287060774,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/truffle6.png?v=1785266988",
+        "width": 1500,
+        "height": 1500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10651303837990,
+    "title": "Salted Peanuts (Pack of 10)",
+    "handle": "salted-peanuts-pack-of-10",
+    "body_html": "<p><strong>Salted Peanuts</strong> pair premium roasted peanuts with the pure, balanced taste of Himalayan pink salt. Every crunchy bite delivers clean, natural flavor without overpowering spices. Simple, wholesome, and satisfying, they're the perfect everyday snack for any time, anywhere.<br><strong><br>Ingredients:</strong> Peanut (96.5%), Edible Vegetable Oil (Palmolein, Cotton Seed, Rice Bran), Edible Iodised Salt (1%).<br></p>",
+    "published_at": "2026-08-14T15:51:39+05:30",
+    "created_at": "2026-07-29T01:22:28+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534749294886,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "100.00",
+        "grams": 300,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651303837990,
+        "created_at": "2026-07-29T01:22:28+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56131192389926,
+        "created_at": "2026-07-29T01:21:27+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T01:21:28+05:30",
+        "product_id": 10651303837990,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/saltedpeanutsfront.png?v=1785268288",
+        "width": 1041,
+        "height": 1268
+      },
+      {
+        "id": 56131192422694,
+        "created_at": "2026-07-29T01:21:28+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T01:21:30+05:30",
+        "product_id": 10651303837990,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/saltedpeanutsback.png?v=1785268290",
+        "width": 1037,
+        "height": 1243
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10651302920486,
+    "title": "Piri Piri Peanuts (Pack of 10)",
+    "handle": "piri-piri-peanuts-pack-of-10",
+    "body_html": "<div class=\"\">\n<section class=\"text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\">\n<div class=\"text-base my-auto mx-auto pb-8 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div dir=\"auto\" class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" tabindex=\"0\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full dark markdown-new-styling\">\n<p><strong>Piri Piri Peanuts</strong> combine premium roasted peanuts with fiery piri piri seasoning for the perfect balance of spice, tanginess, and smoky flavor. Bold, crunchy, and packed with personality, they're the ultimate snack for adventurous taste buds craving an exciting kick in every bite.<br><br><strong>Ingredients:</strong> Peanut (89%), Edible Vegetable Oil (Palmolein, Cotton Seed, Rice Bran), Spices &amp; Condiments [(Red Chilli, Dried Onion, Dried Garlic, Carom Seeds, Cumin, Nutmeg, Mace, Black Pepper Powder), Salt, Maltodextrin, Tamarind Powder, Oregano, Acidity Regulator (INS 330) &amp; (INS 296), Paprika Extract (INS 160c), Flavour Enhancer (INS 627) &amp; (INS 631), Anti-Caking Agent (INS 551)].<br></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+    "published_at": "2026-08-14T15:51:38+05:30",
+    "created_at": "2026-07-29T01:20:10+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534743363878,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "100.00",
+        "grams": 250,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651302920486,
+        "created_at": "2026-07-29T01:20:10+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56131162210598,
+        "created_at": "2026-07-29T01:17:20+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T01:17:22+05:30",
+        "product_id": 10651302920486,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/piripirifront_b205b266-e154-40bd-9889-42e98ddff564.png?v=1785268042",
+        "width": 1059,
+        "height": 1276
+      },
+      {
+        "id": 56131162177830,
+        "created_at": "2026-07-29T01:17:20+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T01:17:21+05:30",
+        "product_id": 10651302920486,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/piripiriback.png?v=1785268041",
+        "width": 1049,
+        "height": 1267
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10651300757798,
+    "title": "Heeng Jeera Peanuts (Pack of 10)",
+    "handle": "heeng-jeera-peanuts-pack-of-10",
+    "body_html": "<p class=\"PDq2pG_selectionAnchorContainer\"><strong>Heeng Jeera Peanuts</strong> bring together the nostalgic flavors of hing and cumin with perfectly roasted peanuts. Every crunchy bite delivers authentic Indian taste and comforting spice. Rich, flavorful, and satisfying, they're the perfect snack for chai breaks, travel, or anytime cravings strike.<br><br><strong>Ingredients:</strong> Peanut (89%), Edible Vegetable Oil (Palmolein, Cotton Seed, Rice Bran), Spices &amp; Condiments [(Red Chilli, Cumin (2.8%), Clove), Asafoetida, Salt, Maltodextrin, Sugar, Acidity Regulator (INS 330) (INS 260) &amp; (INS 296), Paprika Extract (INS 160c), Flavour Enhancer (INS 627) &amp; (INS 631)].<br></p>",
+    "published_at": "2026-08-14T15:51:38+05:30",
+    "created_at": "2026-07-29T01:16:16+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 53534731632934,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "100.00",
+        "grams": 250,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10651300757798,
+        "created_at": "2026-07-29T01:16:16+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 56131140944166,
+        "created_at": "2026-07-29T01:14:22+05:30",
+        "position": 1,
+        "updated_at": "2026-07-29T01:14:24+05:30",
+        "product_id": 10651300757798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/heengjeerafront.png?v=1785267864",
+        "width": 1058,
+        "height": 1274
+      },
+      {
+        "id": 56131140976934,
+        "created_at": "2026-07-29T01:14:22+05:30",
+        "position": 2,
+        "updated_at": "2026-07-29T01:14:24+05:30",
+        "product_id": 10651300757798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/heengjeeraback.png?v=1785267864",
+        "width": 1044,
+        "height": 1260
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10275783573798,
+    "title": "MR. MAKHANA Gourmet Truffle",
+    "handle": "mr-makhana-gourmet-truffle",
+    "body_html": "<p><span data-sheets-root=\"1\">The black-tie of snacking. Earthy black truffle meets light, crunchy lotus seeds for an instant umami upgrade. Luxe taste, zero heaviness. Gluten-free, plant-based, binge-worthy.<br><br></span></p>\n<div id=\"pg-ov\" class=\"pg-ov-p\">\n<div id=\"pg-gx\" class=\"ari-ac\">\n<div class=\"pg-ac-r ari-ac-r ari-h1\" id=\"i4\">\n<div id=\"i4-p\" class=\"ari-ac-p\" aria-labelledby=\"i4-h\">\n<p>Makhana (Popped Lotus Seeds) 70%, Olive Oil 20%, Spices &amp; Condiments 10% (Spices, Glucose Syrup Powder, Salt, Maltodextrin, Vegetable Oil (Sunflower), Anti-Caking Agent (Silicon Dioxide E551), Thickening Agent (Starch Sodium Octenyl Succinate E1450), Triacetine E-1518</p>\n</div>\n</div>\n<div class=\"pg-ac-r ari-ac-r ari-h0\" id=\"i5\">\n<h2 class=\"ari-ac-h\"><br></h2>\n<br>\n</div>\n</div>\n</div>\n<section class=\"pg-sec pg-rv pg-l pg-ev pg-ev1\">\n<div id=\"pg-rv\" class=\"ari-ac-r ari-h1\">\n<h2 id=\"pg-rv-h\" class=\"ari-ac-h\"></h2>\n</div>\n</section>",
+    "published_at": "2025-10-11T12:48:18+05:30",
+    "created_at": "2025-10-11T12:41:41+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 51544936939814,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "200.00",
+        "grams": 50,
+        "compare_at_price": null,
+        "position": 1,
+        "product_id": 10275783573798,
+        "created_at": "2025-10-11T12:41:42+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 52360674017574,
+        "created_at": "2025-10-11T12:42:28+05:30",
+        "position": 1,
+        "updated_at": "2025-10-11T12:48:20+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/84626d34-2a3b-49bc-af39-fc66b0e49b5c.png?v=1760167100",
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "id": 52360677523750,
+        "created_at": "2025-10-11T12:44:58+05:30",
+        "position": 2,
+        "updated_at": "2026-08-28T15:20:49+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Front_d15fc93f-326b-44fb-a3c8-f3ca578b631e.png?v=1787910649",
+        "width": 673,
+        "height": 1005
+      },
+      {
+        "id": 52360677490982,
+        "created_at": "2025-10-11T12:44:57+05:30",
+        "position": 3,
+        "updated_at": "2025-10-11T12:48:20+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Back_a982152a-d54e-4314-a2b4-82fe5e0300f0.png?v=1760167100",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 52360677425446,
+        "created_at": "2025-10-11T12:44:57+05:30",
+        "position": 4,
+        "updated_at": "2025-10-11T12:48:20+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Ingredients_746ffdc5-412e-4f95-98ac-e06dbf9fe67b.png?v=1760167100",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 52360677458214,
+        "created_at": "2025-10-11T12:44:57+05:30",
+        "position": 5,
+        "updated_at": "2025-10-11T12:48:20+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Nutritional_Info.png?v=1760167100",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 52360677556518,
+        "created_at": "2025-10-11T12:44:58+05:30",
+        "position": 6,
+        "updated_at": "2025-10-11T12:49:42+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Features.png?v=1760167182",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51765318353190,
+        "created_at": "2025-08-13T12:57:19+05:30",
+        "position": 7,
+        "updated_at": "2025-10-11T12:49:42+05:30",
+        "product_id": 10275783573798,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339942-5_1-mr-makhana-nut-shack-home-style-salted-roasted-cashews.webp?v=1760167182",
+        "width": 500,
+        "height": 500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221847609638,
+    "title": "Veda",
+    "handle": "veda",
+    "body_html": "<h6><span data-sheets-root=\"1\">Pure, natural, and minimally processed, our Veda Raw Makhana brings you the wholesome goodness of foxnuts in their cleanest form. Packed with plant-based protein, fiber, and essential minerals, it’s a versatile superfood made for mindful snacking and healthy living. Light, nourishing, and 100% authentic because great ingredients need no extras.<br><br>Makhana/Foxnut/ Gorgon Nut/Popped Lotus Seed</span></h6>",
+    "published_at": "2025-08-21T23:35:16+05:30",
+    "created_at": "2025-08-21T00:01:34+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938965524774,
+        "title": "100g - Small Pouch",
+        "option1": "100g - Small Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850654286118,
+          "product_id": 10221847609638,
+          "position": 1,
+          "created_at": "2025-08-21T15:43:18+05:30",
+          "updated_at": "2025-08-21T15:43:20+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80.jpg?v=1755771200",
+          "variant_ids": [
+            50938965524774
+          ]
+        },
+        "available": true,
+        "price": "220.00",
+        "grams": 0,
+        "compare_at_price": "220.00",
+        "position": 1,
+        "product_id": 10221847609638,
+        "created_at": "2025-08-21T00:01:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938965557542,
+        "title": "200g - Large Pouch",
+        "option1": "200g - Large Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850656448806,
+          "product_id": 10221847609638,
+          "position": 3,
+          "created_at": "2025-08-21T15:43:39+05:30",
+          "updated_at": "2025-08-21T15:45:05+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80_07a63385-1a2c-4aa8-ba76-62855bb6cec8.jpg?v=1755771305",
+          "variant_ids": [
+            50938965557542
+          ]
+        },
+        "available": true,
+        "price": "440.00",
+        "grams": 0,
+        "compare_at_price": "440.00",
+        "position": 2,
+        "product_id": 10221847609638,
+        "created_at": "2025-08-21T00:01:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 51850654286118,
+        "created_at": "2025-08-21T15:43:18+05:30",
+        "position": 1,
+        "updated_at": "2025-08-21T15:43:20+05:30",
+        "product_id": 10221847609638,
+        "variant_ids": [
+          50938965524774
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80.jpg?v=1755771200",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 51850655531302,
+        "created_at": "2025-08-21T15:43:22+05:30",
+        "position": 2,
+        "updated_at": "2025-08-21T15:45:05+05:30",
+        "product_id": 10221847609638,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/premium-raw-makhana-100-b_1db9158f-f524-4322-80ba-e24f788b4e77.jpg?v=1755771305",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "id": 51850656448806,
+        "created_at": "2025-08-21T15:43:39+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T15:45:05+05:30",
+        "product_id": 10221847609638,
+        "variant_ids": [
+          50938965557542
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/81ANu1weKYL._UF1000_1000_QL80_07a63385-1a2c-4aa8-ba76-62855bb6cec8.jpg?v=1755771305",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "100g - Small Pouch",
+          "200g - Large Pouch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221842858278,
+    "title": "Pudina Party",
+    "handle": "pudina-party",
+    "body_html": "<h6><span data-sheets-root=\"1\">Fresh, herby, and full of life, our Pudina Party Makhana brings together the crispness of roasted makhana with the cool, tangy notes of classic pudina masala. Roasted in olive oil and seasoned to perfection, it’s gluten-free, antioxidant-rich, and light enough to keep you snacking without the slowdown. A refreshing spin for those who like their crunch with a twist.<br><br>Makhana (Popped Lotus Seeds) 70%, Olive Oil 18%, Spices &amp; Condiments 10% (Dried Ginger, Dried Mango, Dried Garlic, Green Chilli, Coriander Leaves, Cumin, Cardamom, Turmeric, Fennel, Black Pepper, Clove, Nutmeg. Mace, Carom Seeds), Salt, Sugar, Lemon Powder, Mint Leaves, Maltodextrin, Acidity Regulator (Citric acid E330), Flavour Enhancer (Disodium 5'-ribonucleotides E635).</span></h6>",
+    "published_at": "2025-08-21T23:35:15+05:30",
+    "created_at": "2025-08-20T23:57:11+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938959790374,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850673324326,
+          "product_id": 10221842858278,
+          "position": 2,
+          "created_at": "2025-08-21T15:46:29+05:30",
+          "updated_at": "2025-08-21T23:38:20+05:30",
+          "alt": null,
+          "width": 1364,
+          "height": 1880,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr_Makhana_25gm_Pudina_Party.png?v=1755799700",
+          "variant_ids": [
+            50938959790374
+          ]
+        },
+        "available": true,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221842858278,
+        "created_at": "2025-08-20T23:57:11+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938959823142,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49042738708774,
+          "product_id": 10221842858278,
+          "position": 3,
+          "created_at": "2024-11-12T17:19:57+05:30",
+          "updated_at": "2025-08-21T23:38:20+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Party_4.jpg?v=1755799700",
+          "variant_ids": [
+            50938959823142
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221842858278,
+        "created_at": "2025-08-20T23:57:11+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938959855910,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850678862118,
+          "product_id": 10221842858278,
+          "position": 4,
+          "created_at": "2025-08-21T15:47:27+05:30",
+          "updated_at": "2025-08-21T23:38:20+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Party_standee_pouch-_front.png?v=1755799700",
+          "variant_ids": [
+            50938959855910
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221842858278,
+        "created_at": "2025-08-20T23:57:11+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938959888678,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986458587430,
+          "product_id": 10221842858278,
+          "position": 1,
+          "created_at": "2024-11-06T13:27:54+05:30",
+          "updated_at": "2025-08-21T23:38:20+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Pillow_60g.jpg?v=1755799700",
+          "variant_ids": [
+            50938959888678
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221842858278,
+        "created_at": "2025-08-20T23:57:11+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938959921446,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850675552550,
+          "product_id": 10221842858278,
+          "position": 5,
+          "created_at": "2025-08-21T15:46:51+05:30",
+          "updated_at": "2025-08-21T15:46:54+05:30",
+          "alt": null,
+          "width": 2512,
+          "height": 4161,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Pudina_Party.png?v=1755771414",
+          "variant_ids": [
+            50938959921446
+          ]
+        },
+        "available": false,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221842858278,
+        "created_at": "2025-08-20T23:57:11+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 48986458587430,
+        "created_at": "2024-11-06T13:27:54+05:30",
+        "position": 1,
+        "updated_at": "2025-08-21T23:38:20+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [
+          50938959888678
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Pillow_60g.jpg?v=1755799700",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850673324326,
+        "created_at": "2025-08-21T15:46:29+05:30",
+        "position": 2,
+        "updated_at": "2025-08-21T23:38:20+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [
+          50938959790374
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr_Makhana_25gm_Pudina_Party.png?v=1755799700",
+        "width": 1364,
+        "height": 1880
+      },
+      {
+        "id": 49042738708774,
+        "created_at": "2024-11-12T17:19:57+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T23:38:20+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [
+          50938959823142
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Party_4.jpg?v=1755799700",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850678862118,
+        "created_at": "2025-08-21T15:47:27+05:30",
+        "position": 4,
+        "updated_at": "2025-08-21T23:38:20+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [
+          50938959855910
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Party_standee_pouch-_front.png?v=1755799700",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850675552550,
+        "created_at": "2025-08-21T15:46:51+05:30",
+        "position": 5,
+        "updated_at": "2025-08-21T15:46:54+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [
+          50938959921446
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Pudina_Party.png?v=1755771414",
+        "width": 2512,
+        "height": 4161
+      },
+      {
+        "id": 51850676207910,
+        "created_at": "2025-08-21T15:47:03+05:30",
+        "position": 6,
+        "updated_at": "2025-08-21T15:47:04+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/pudina-party-f_3313e233-3a13-4f87-985f-a187db90e21a.jpg?v=1755771424",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850695508262,
+        "created_at": "2025-08-21T15:50:34+05:30",
+        "position": 7,
+        "updated_at": "2025-08-21T15:50:36+05:30",
+        "product_id": 10221842858278,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pudina_Party_standee_pouch-_Back.png?v=1755771636",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221841023270,
+    "title": "Sea Salt & Vinegar",
+    "handle": "sea-salt-vinegar",
+    "body_html": "<h6>\n<span data-sheets-root=\"1\">Our Sea Salt &amp; Vinegar Makhana takes the classic tangy zing you love and pairs it with the lightest, crunchiest popped makhanas, roasted to perfection in olive oil.<br>Guilt-free, gluten-free, and antioxidant-rich, this snack hits that perfect spot between tart, savory, and totally addictive.<br><br>Makhana (Popped Lotus Seeds) 75%, Olive Oil 18%, Salt, Sugar, Edible Starch, Maltodextrin, Aciidity Regulators (E330 and E334), Sodium Salt [E262(ii)], Hydrolysed Vegetable Protein, Spices and Spice Extract (Black Pepper), Anti Caking Agents [E551 and E341(ii)], Soy Sauce powder, Flavour Enhancer [E627 and E631]</span><span data-sheets-root=\"1\"></span>\n</h6>",
+    "published_at": "2025-08-21T23:35:15+05:30",
+    "created_at": "2025-08-20T23:55:49+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938958086438,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850707534118,
+          "product_id": 10221841023270,
+          "position": 3,
+          "created_at": "2025-08-21T15:52:29+05:30",
+          "updated_at": "2025-08-21T15:58:01+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/MrMakhana25gmSeaSalt.jpg?v=1755772081",
+          "variant_ids": [
+            50938958086438
+          ]
+        },
+        "available": false,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221841023270,
+        "created_at": "2025-08-20T23:55:49+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938958119206,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850730766630,
+          "product_id": 10221841023270,
+          "position": 4,
+          "created_at": "2025-08-21T15:56:48+05:30",
+          "updated_at": "2025-08-21T15:58:01+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/sea-salt-n-vinegar-f.jpg?v=1755772081",
+          "variant_ids": [
+            50938958119206
+          ]
+        },
+        "available": false,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221841023270,
+        "created_at": "2025-08-20T23:55:49+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938958151974,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850732831014,
+          "product_id": 10221841023270,
+          "position": 5,
+          "created_at": "2025-08-21T15:57:12+05:30",
+          "updated_at": "2025-08-21T15:58:01+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_standee_pouch-_Front.png?v=1755772081",
+          "variant_ids": [
+            50938958151974
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221841023270,
+        "created_at": "2025-08-20T23:55:49+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938958184742,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002936926502,
+          "product_id": 10221841023270,
+          "position": 1,
+          "created_at": "2024-11-08T10:31:36+05:30",
+          "updated_at": "2025-08-21T15:58:01+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_60g.jpg?v=1755772081",
+          "variant_ids": [
+            50938958184742
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221841023270,
+        "created_at": "2025-08-20T23:55:49+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49002936926502,
+        "created_at": "2024-11-08T10:31:36+05:30",
+        "position": 1,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [
+          50938958184742
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_60g.jpg?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986649690406,
+        "created_at": "2024-11-06T13:54:06+05:30",
+        "position": 2,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/S_S.jpg?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850707534118,
+        "created_at": "2025-08-21T15:52:29+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [
+          50938958086438
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/MrMakhana25gmSeaSalt.jpg?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850730766630,
+        "created_at": "2025-08-21T15:56:48+05:30",
+        "position": 4,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [
+          50938958119206
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/sea-salt-n-vinegar-f.jpg?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850732831014,
+        "created_at": "2025-08-21T15:57:12+05:30",
+        "position": 5,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [
+          50938958151974
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_Vinegar_standee_pouch-_Front.png?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850707501350,
+        "created_at": "2025-08-21T15:52:29+05:30",
+        "position": 6,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/MrMakhana25gmSeaSaltback.png?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042731467046,
+        "created_at": "2024-11-12T17:19:02+05:30",
+        "position": 7,
+        "updated_at": "2025-08-21T15:58:01+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Sea_Salt_2.jpg?v=1755772081",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 41464602132774,
+        "created_at": "2023-05-15T14:04:49+05:30",
+        "position": 8,
+        "updated_at": "2025-08-18T11:45:02+05:30",
+        "product_id": 10221841023270,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Untitled-design-19.png?v=1755497702",
+        "width": 300,
+        "height": 300
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221840433446,
+    "title": "Piri Piri Paradise",
+    "handle": "piri-piri-paradise",
+    "body_html": "<h6><span data-sheets-root=\"1\">A bold mix of spice and zest, our Piri Piri Paradise Makhana is made for those who like their snacks with a little fire. Roasted in olive oil and coated with a balanced blend of Piri Piri seasoning, it brings just the right amount of heat without overpowering the natural lightness of makhana. Gluten-free, antioxidant-rich, and full of honest flavour, it's a snack that stays with you.<br><br>Makhana (Popped Lotus Seeds) 70% Olive Oil 18%, Spices &amp; Condiments 10% (Red Chilli, Dried Garlic Flakes, Dried Onion Flakes, Cumin, Dried Mango, Coriander Seeds, Dried Ginger, Turmeric, Carom Seeds, Black Pepper, cinnamon, Fenugreek Seeds, Nutmeg. Mace). Salt, Sugar, Maltodextrin, Hydrolyse Peanut Protein, Acidity Regulator [Citric acid E330]&amp;[Malic acid E296]. [Ammonium Chloride E510], Colour [Paprika oleoresin E160c], Flavour Enhancer (Disodium 5'-ribonucleotides E635)</span></h6>",
+    "published_at": "2025-08-21T23:35:14+05:30",
+    "created_at": "2025-08-20T23:55:12+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938957693222,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370941137190,
+          "product_id": 10221840433446,
+          "position": 1,
+          "created_at": "2024-06-22T10:47:16+05:30",
+          "updated_at": "2025-08-18T11:44:38+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/PiriPiri.jpg?v=1755497678",
+          "variant_ids": [
+            50938957693222
+          ]
+        },
+        "available": false,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221840433446,
+        "created_at": "2025-08-20T23:55:12+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938957725990,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 41465536053542,
+          "product_id": 10221840433446,
+          "position": 2,
+          "created_at": "2023-05-15T16:15:55+05:30",
+          "updated_at": "2025-08-18T11:44:53+05:30",
+          "alt": "makhana piri piri paradise",
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/DSC_0404-Edit.jpg?v=1755497693",
+          "variant_ids": [
+            50938957725990
+          ]
+        },
+        "available": false,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221840433446,
+        "created_at": "2025-08-20T23:55:12+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938957758758,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850767663398,
+          "product_id": 10221840433446,
+          "position": 3,
+          "created_at": "2025-08-21T16:01:08+05:30",
+          "updated_at": "2025-08-21T16:01:10+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_Paradise_standee_pouch-_Front.png?v=1755772270",
+          "variant_ids": [
+            50938957758758
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221840433446,
+        "created_at": "2025-08-20T23:55:12+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938957791526,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002928079142,
+          "product_id": 10221840433446,
+          "position": 4,
+          "created_at": "2024-11-08T10:30:48+05:30",
+          "updated_at": "2025-08-18T11:44:39+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_60g.jpg?v=1755497679",
+          "variant_ids": [
+            50938957791526
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221840433446,
+        "created_at": "2025-08-20T23:55:12+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938957824294,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51850772578598,
+          "product_id": 10221840433446,
+          "position": 5,
+          "created_at": "2025-08-21T16:01:40+05:30",
+          "updated_at": "2025-08-21T16:01:43+05:30",
+          "alt": null,
+          "width": 2512,
+          "height": 4161,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Piri_Piri.png?v=1755772303",
+          "variant_ids": [
+            50938957824294
+          ]
+        },
+        "available": false,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221840433446,
+        "created_at": "2025-08-20T23:55:12+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 47370941137190,
+        "created_at": "2024-06-22T10:47:16+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:38+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [
+          50938957693222
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/PiriPiri.jpg?v=1755497678",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 41465536053542,
+        "created_at": "2023-05-15T16:15:55+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:53+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [
+          50938957725990
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/DSC_0404-Edit.jpg?v=1755497693",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850767663398,
+        "created_at": "2025-08-21T16:01:08+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T16:01:10+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [
+          50938957758758
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_Paradise_standee_pouch-_Front.png?v=1755772270",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49002928079142,
+        "created_at": "2024-11-08T10:30:48+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:39+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [
+          50938957791526
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_60g.jpg?v=1755497679",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51850772578598,
+        "created_at": "2025-08-21T16:01:40+05:30",
+        "position": 5,
+        "updated_at": "2025-08-21T16:01:43+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [
+          50938957824294
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Piri_Piri.png?v=1755772303",
+        "width": 2512,
+        "height": 4161
+      },
+      {
+        "id": 47370944741670,
+        "created_at": "2024-06-22T10:48:08+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:39+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/PiriPiri_back_268796d6-0ef5-45e5-9c75-0ff891480d56.jpg?v=1755497679",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986443874598,
+        "created_at": "2024-11-06T13:25:54+05:30",
+        "position": 7,
+        "updated_at": "2025-08-18T11:44:19+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_1.jpg?v=1755497659",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986682360102,
+        "created_at": "2024-11-06T13:58:56+05:30",
+        "position": 8,
+        "updated_at": "2025-08-18T11:44:13+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_2.jpg?v=1755497653",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 49042752471334,
+        "created_at": "2024-11-12T17:21:59+05:30",
+        "position": 9,
+        "updated_at": "2025-08-18T11:44:53+05:30",
+        "product_id": 10221840433446,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Piri_Piri_6.jpg?v=1755497693",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221837943078,
+    "title": "Pickle Tickle",
+    "handle": "pickle-tickle",
+    "body_html": "<h6><span data-sheets-root=\"1\">Tangy, spicy, and irresistibly bold - our Pickle Tickle Makhana brings the classic Indian achaar magic to your snack time. Roasted in olive oil and packed with the boldness of pickling spices, it’s gluten-free, antioxidant-rich, and zero cholesterol. Perfect for when you crave that chatpata twist without the guilt.<br><br>Makhana (Popped Lotus Seeds) 68%, Olive Oil 18%, Spices &amp; Condiments 12% (Salt, Fennel, Red Chilly, Fenugreek Leaves, Fenugreek Seeds, Cumin, Turmeric), Sugar, Maltodextrin, Mustard Seeds, Acidity Regulator (E330), Flavour Enhancer (E627), (E631)</span></h6>",
+    "published_at": "2025-08-21T23:35:13+05:30",
+    "created_at": "2025-08-20T23:52:35+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938954973478,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370934911270,
+          "product_id": 10221837943078,
+          "position": 2,
+          "created_at": "2024-06-22T10:45:42+05:30",
+          "updated_at": "2025-08-21T16:11:52+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle.jpg?v=1755772912",
+          "variant_ids": [
+            50938954973478
+          ]
+        },
+        "available": false,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221837943078,
+        "created_at": "2025-08-20T23:52:35+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938955006246,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49042767216934,
+          "product_id": 10221837943078,
+          "position": 4,
+          "created_at": "2024-11-12T17:24:49+05:30",
+          "updated_at": "2025-08-21T16:11:52+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_4.jpg?v=1755772912",
+          "variant_ids": [
+            50938955006246
+          ]
+        },
+        "available": false,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221837943078,
+        "created_at": "2025-08-20T23:52:35+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938955039014,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986436960550,
+          "product_id": 10221837943078,
+          "position": 5,
+          "created_at": "2024-11-06T13:24:53+05:30",
+          "updated_at": "2025-08-21T16:11:52+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_1.jpg?v=1755772912",
+          "variant_ids": [
+            50938955039014
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221837943078,
+        "created_at": "2025-08-20T23:52:35+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938955071782,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986431619366,
+          "product_id": 10221837943078,
+          "position": 1,
+          "created_at": "2024-11-06T13:24:08+05:30",
+          "updated_at": "2025-08-21T16:11:52+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_Pillow_60g.jpg?v=1755772912",
+          "variant_ids": [
+            50938955071782
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221837943078,
+        "created_at": "2025-08-20T23:52:35+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 48986431619366,
+        "created_at": "2024-11-06T13:24:08+05:30",
+        "position": 1,
+        "updated_at": "2025-08-21T16:11:52+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [
+          50938955071782
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_Pillow_60g.jpg?v=1755772912",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 47370934911270,
+        "created_at": "2024-06-22T10:45:42+05:30",
+        "position": 2,
+        "updated_at": "2025-08-21T16:11:52+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [
+          50938954973478
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle.jpg?v=1755772912",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 47370934944038,
+        "created_at": "2024-06-22T10:45:42+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T16:11:52+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/PickleTickle_Back.jpg?v=1755772912",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042767216934,
+        "created_at": "2024-11-12T17:24:49+05:30",
+        "position": 4,
+        "updated_at": "2025-08-21T16:11:52+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [
+          50938955006246
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_4.jpg?v=1755772912",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986436960550,
+        "created_at": "2024-11-06T13:24:53+05:30",
+        "position": 5,
+        "updated_at": "2025-08-21T16:11:52+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [
+          50938955039014
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Pickle_Tickle_1.jpg?v=1755772912",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 41465598705958,
+        "created_at": "2023-05-15T16:26:48+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:56+05:30",
+        "product_id": 10221837943078,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/DSC_0398-Edit_1.jpg?v=1755497696",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221836108070,
+    "title": "Lime & Chilli",
+    "handle": "lime-chilli",
+    "body_html": "<h6><span data-sheets-root=\"1\">For those who like a little mischief in every bite, our Lime &amp; Chilli Makhana brings the perfect kick of spice with a zing of mint to keep things interesting. Roasted in olive oil and packed with bold masalas, it’s crunchy, fiery, and full of flavour that doesn’t hold back. Light on guilt, loud on taste, it’s the snack that refuses to be ignored.<br><br>Makhana (Popped Lotus Seeds) 70%,Ollive Oil 18%, Spices &amp; Condiments 10% (Dried Garlic, Dried Ginger, Dried Mango, Dried Onion, Red Chilli, Green Chilli, Coriander Leaves, Turmeric, Cumin, Black Pepper, Nutmeg, Mace), Salt, Sugar, Maltodextrin, Acidity Regulator [Citric acid E330), Flavour Enhancer [Disodium 5'-ribonucleotides E635]</span></h6>",
+    "published_at": "2025-08-21T23:35:13+05:30",
+    "created_at": "2025-08-20T23:50:55+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938952483110,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370923671846,
+          "product_id": 10221836108070,
+          "position": 1,
+          "created_at": "2024-06-22T10:43:59+05:30",
+          "updated_at": "2025-08-18T11:44:37+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_chilli.jpg?v=1755497677",
+          "variant_ids": [
+            50938952483110
+          ]
+        },
+        "available": true,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221836108070,
+        "created_at": "2025-08-20T23:50:55+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938952515878,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49042770755878,
+          "product_id": 10221836108070,
+          "position": 2,
+          "created_at": "2024-11-12T17:25:36+05:30",
+          "updated_at": "2025-08-18T11:44:58+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_567a997b-204b-4739-a1b2-9f6bae034812.jpg?v=1755497698",
+          "variant_ids": [
+            50938952515878
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221836108070,
+        "created_at": "2025-08-20T23:50:55+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938952548646,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986413957414,
+          "product_id": 10221836108070,
+          "position": 3,
+          "created_at": "2024-11-06T13:21:10+05:30",
+          "updated_at": "2025-08-18T11:44:21+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_2.jpg?v=1755497661",
+          "variant_ids": [
+            50938952548646
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221836108070,
+        "created_at": "2025-08-20T23:50:55+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938952581414,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986407797030,
+          "product_id": 10221836108070,
+          "position": 4,
+          "created_at": "2024-11-06T13:20:19+05:30",
+          "updated_at": "2025-08-18T11:44:36+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_Pillow_60g.jpg?v=1755497676",
+          "variant_ids": [
+            50938952581414
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221836108070,
+        "created_at": "2025-08-20T23:50:55+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938952614182,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986678624550,
+          "product_id": 10221836108070,
+          "position": 5,
+          "created_at": "2024-11-06T13:58:22+05:30",
+          "updated_at": "2025-08-18T11:44:11+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/LIme_Chilli_3.jpg?v=1755497651",
+          "variant_ids": [
+            50938952614182
+          ]
+        },
+        "available": false,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221836108070,
+        "created_at": "2025-08-20T23:50:55+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 47370923671846,
+        "created_at": "2024-06-22T10:43:59+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:37+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [
+          50938952483110
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_chilli.jpg?v=1755497677",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042770755878,
+        "created_at": "2024-11-12T17:25:36+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:58+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [
+          50938952515878
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_567a997b-204b-4739-a1b2-9f6bae034812.jpg?v=1755497698",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986413957414,
+        "created_at": "2024-11-06T13:21:10+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:21+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [
+          50938952548646
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_2.jpg?v=1755497661",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986407797030,
+        "created_at": "2024-11-06T13:20:19+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:36+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [
+          50938952581414
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_Chilli_Pillow_60g.jpg?v=1755497676",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986678624550,
+        "created_at": "2024-11-06T13:58:22+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:44:11+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [
+          50938952614182
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/LIme_Chilli_3.jpg?v=1755497651",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 47370928259366,
+        "created_at": "2024-06-22T10:44:45+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:36+05:30",
+        "product_id": 10221836108070,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Lime_chilli_back_929b1430-b18c-49e9-9969-c9b9db5e4ecb.jpg?v=1755497676",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221834895654,
+    "title": "Himalayan Salt & Pepper",
+    "handle": "himalayan-salt-pepper",
+    "body_html": "<h6><span data-sheets-root=\"1\">Simple, timeless, and perfectly balanced - our Himalayan Salt &amp; Pepper Makhana brings a bold, earthy punch with every crunchy bite. Roasted in olive oil and seasoned with premium Himalayan salt and cracked black pepper, it's gluten-free, antioxidant-rich, and zero cholesterol. Light enough to munch anytime, bold enough to crave every time.<br><br>Makhana (Popped Lotus Seeds) 70%, Olive Oil 18% Pink Salt (Rock Salt), Black Pepper, Milk Solids, Maltodextrin, Hydrolyse Peanut Protein, Flavour Enhancer (Disodium 5'- ribonucleotides E635)</span></h6>",
+    "published_at": "2025-08-21T23:35:12+05:30",
+    "created_at": "2025-08-20T23:49:21+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938951696678,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370916659494,
+          "product_id": 10221834895654,
+          "position": 1,
+          "created_at": "2024-06-22T10:42:24+05:30",
+          "updated_at": "2025-08-18T11:44:41+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt.jpg?v=1755497681",
+          "variant_ids": [
+            50938951696678
+          ]
+        },
+        "available": false,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221834895654,
+        "created_at": "2025-08-20T23:49:21+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938951729446,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49042779734310,
+          "product_id": 10221834895654,
+          "position": 2,
+          "created_at": "2024-11-12T17:27:20+05:30",
+          "updated_at": "2025-08-18T11:44:49+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalyan.jpg?v=1755497689",
+          "variant_ids": [
+            50938951729446
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221834895654,
+        "created_at": "2025-08-20T23:49:21+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938951762214,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986400555302,
+          "product_id": 10221834895654,
+          "position": 3,
+          "created_at": "2024-11-06T13:19:33+05:30",
+          "updated_at": "2025-08-18T11:44:22+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_1.jpg?v=1755497662",
+          "variant_ids": [
+            50938951762214
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221834895654,
+        "created_at": "2025-08-20T23:49:21+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938951794982,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002918609190,
+          "product_id": 10221834895654,
+          "position": 4,
+          "created_at": "2024-11-08T10:30:02+05:30",
+          "updated_at": "2025-08-18T11:44:40+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_60_g.jpg?v=1755497680",
+          "variant_ids": [
+            50938951794982
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221834895654,
+        "created_at": "2025-08-20T23:49:21+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938951827750,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986674069798,
+          "product_id": 10221834895654,
+          "position": 5,
+          "created_at": "2024-11-06T13:57:40+05:30",
+          "updated_at": "2025-08-18T11:44:16+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_2.jpg?v=1755497656",
+          "variant_ids": [
+            50938951827750
+          ]
+        },
+        "available": false,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221834895654,
+        "created_at": "2025-08-20T23:49:21+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 47370916659494,
+        "created_at": "2024-06-22T10:42:24+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:41+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [
+          50938951696678
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt.jpg?v=1755497681",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042779734310,
+        "created_at": "2024-11-12T17:27:20+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:49+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [
+          50938951729446
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalyan.jpg?v=1755497689",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986400555302,
+        "created_at": "2024-11-06T13:19:33+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:22+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [
+          50938951762214
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_1.jpg?v=1755497662",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49002918609190,
+        "created_at": "2024-11-08T10:30:02+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:40+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [
+          50938951794982
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_60_g.jpg?v=1755497680",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986674069798,
+        "created_at": "2024-11-06T13:57:40+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:44:16+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [
+          50938951827750
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_2.jpg?v=1755497656",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 47370920657190,
+        "created_at": "2024-06-22T10:43:17+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:40+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_back_b03d9065-7da2-4af1-806b-889aa84f53e4.jpg?v=1755497680",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042625593638,
+        "created_at": "2024-11-12T16:58:16+05:30",
+        "position": 7,
+        "updated_at": "2025-08-18T11:44:50+05:30",
+        "product_id": 10221834895654,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Himalayan_Salt_4.jpg?v=1755497690",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221833650470,
+    "title": "Cream and Onion",
+    "handle": "cream-and-onion",
+    "body_html": "<h6><span data-sheets-root=\"1\">Smooth, savory, and full of classic comfort, our Cream &amp; Onion Makhana brings together the rich creaminess and subtle onion kick you crave. Roasted lightly in olive oil, it offers a melt-in-mouth start with a sharp, tangy finish — all while staying gluten-free, antioxidant-rich, and zero cholesterol. Big on flavour, light on guilt — the perfect snack for any mood.<br><br>Makhana (Popped Lotus Seeds) 70%, Olive Oil 18%, Spices &amp; Condiments 10% (Dried White Onion, Parshlay, Chilli) Edible Salt, Sugar, Whey Powder, Milk Solid, Hydrolysed Peanut Protein, Acidity Regulator (Malic acid E296), Cheese Concentrate, Butter Concentrate, Maltodextrin, Flavour Enhancer (Disodium 5'- ribonucleotides E635), Ammonium Chloride (E510).</span></h6>",
+    "published_at": "2025-08-21T23:35:11+05:30",
+    "created_at": "2025-08-20T23:48:00+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938950451494,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370909548838,
+          "product_id": 10221833650470,
+          "position": 1,
+          "created_at": "2024-06-22T10:40:28+05:30",
+          "updated_at": "2025-08-18T11:44:43+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion.jpg?v=1755497683",
+          "variant_ids": [
+            50938950451494
+          ]
+        },
+        "available": false,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221833650470,
+        "created_at": "2025-08-20T23:48:00+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938950484262,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49042788090150,
+          "product_id": 10221833650470,
+          "position": 2,
+          "created_at": "2024-11-12T17:28:47+05:30",
+          "updated_at": "2025-08-18T11:44:55+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onin.jpg?v=1755497695",
+          "variant_ids": [
+            50938950484262
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221833650470,
+        "created_at": "2025-08-20T23:48:00+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938950517030,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986395476262,
+          "product_id": 10221833650470,
+          "position": 3,
+          "created_at": "2024-11-06T13:18:39+05:30",
+          "updated_at": "2025-08-18T11:44:25+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_1_43705bb6-73ed-4e06-8a0b-02023b7e6c12.jpg?v=1755497665",
+          "variant_ids": [
+            50938950517030
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221833650470,
+        "created_at": "2025-08-20T23:48:00+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938950549798,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002948362534,
+          "product_id": 10221833650470,
+          "position": 4,
+          "created_at": "2024-11-08T10:32:37+05:30",
+          "updated_at": "2025-08-18T11:44:42+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_60g.jpg?v=1755497682",
+          "variant_ids": [
+            50938950549798
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221833650470,
+        "created_at": "2025-08-20T23:48:00+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938950582566,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986668040486,
+          "product_id": 10221833650470,
+          "position": 5,
+          "created_at": "2024-11-06T13:56:49+05:30",
+          "updated_at": "2025-08-18T11:44:08+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_9708c568-4ac6-4180-9dbf-749704d175da.jpg?v=1755497648",
+          "variant_ids": [
+            50938950582566
+          ]
+        },
+        "available": true,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221833650470,
+        "created_at": "2025-08-20T23:48:00+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 47370909548838,
+        "created_at": "2024-06-22T10:40:28+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:43+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [
+          50938950451494
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion.jpg?v=1755497683",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042788090150,
+        "created_at": "2024-11-12T17:28:47+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:55+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [
+          50938950484262
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onin.jpg?v=1755497695",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986395476262,
+        "created_at": "2024-11-06T13:18:39+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:25+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [
+          50938950517030
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_1_43705bb6-73ed-4e06-8a0b-02023b7e6c12.jpg?v=1755497665",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49002948362534,
+        "created_at": "2024-11-08T10:32:37+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:42+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [
+          50938950549798
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_60g.jpg?v=1755497682",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986668040486,
+        "created_at": "2024-11-06T13:56:49+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:44:08+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [
+          50938950582566
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_9708c568-4ac6-4180-9dbf-749704d175da.jpg?v=1755497648",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 47370913743142,
+        "created_at": "2024-06-22T10:41:19+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:42+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_Back_caef759f-775f-4d04-aca9-ecec00924780.jpg?v=1755497682",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042607538470,
+        "created_at": "2024-11-12T16:53:06+05:30",
+        "position": 7,
+        "updated_at": "2025-08-18T11:44:55+05:30",
+        "product_id": 10221833650470,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cream_Onion_3.jpg?v=1755497695",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221828800806,
+    "title": "Cheezypeezy",
+    "handle": "cheezypeezy",
+    "body_html": "<h6><span data-sheets-root=\"1\">Light, crunchy, and loaded with cheesy goodness - our Cheezy Peezy Makhana brings the drama without the guilt. Roasted in olive oil and packed with a creamy punch, it’s gluten-free, antioxidant-rich, and zero cholesterol. The perfect snack when you want a cheesy twist that’s still light as air.<br><br>Makhana (Popped Lotus Seeds) 68%, Olive Oil 18%, Seasoning &amp; Condiments 12% [Wheat Flour, Spices condiments, Yellow Chilli, Onion, Garlic, Oregano, Salt, Sugar, Milk Solids, Maltodextrin, Hydrolysed Vegetable Proteins (Peanut), Acidity Regulator (E296), Flavour Enhancer (E627)(E631), Colour (E160c)]</span></h6>",
+    "published_at": "2025-08-21T23:35:11+05:30",
+    "created_at": "2025-08-20T23:44:02+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938938818854,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370903126310,
+          "product_id": 10221828800806,
+          "position": 1,
+          "created_at": "2024-06-22T10:38:36+05:30",
+          "updated_at": "2025-08-18T11:44:48+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesypeezy.jpg?v=1755497688",
+          "variant_ids": [
+            50938938818854
+          ]
+        },
+        "available": true,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221828800806,
+        "created_at": "2025-08-20T23:44:02+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938938851622,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49006448509222,
+          "product_id": 10221828800806,
+          "position": 2,
+          "created_at": "2024-11-08T17:05:10+05:30",
+          "updated_at": "2025-08-18T11:45:00+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peesy_1.jpg?v=1755497700",
+          "variant_ids": [
+            50938938851622
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221828800806,
+        "created_at": "2025-08-20T23:44:02+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938938884390,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986382139686,
+          "product_id": 10221828800806,
+          "position": 3,
+          "created_at": "2024-11-06T13:16:30+05:30",
+          "updated_at": "2025-08-18T11:44:24+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy-2.jpg?v=1755497664",
+          "variant_ids": [
+            50938938884390
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221828800806,
+        "created_at": "2025-08-20T23:44:02+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938938917158,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002909729062,
+          "product_id": 10221828800806,
+          "position": 4,
+          "created_at": "2024-11-08T10:29:24+05:30",
+          "updated_at": "2025-08-18T11:44:47+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy_Pillow_60g.jpg?v=1755497687",
+          "variant_ids": [
+            50938938917158
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221828800806,
+        "created_at": "2025-08-20T23:44:02+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938938949926,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986663485734,
+          "product_id": 10221828800806,
+          "position": 5,
+          "created_at": "2024-11-06T13:56:05+05:30",
+          "updated_at": "2025-08-18T11:44:09+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy_2.jpg?v=1755497649",
+          "variant_ids": [
+            50938938949926
+          ]
+        },
+        "available": true,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221828800806,
+        "created_at": "2025-08-20T23:44:02+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 47370903126310,
+        "created_at": "2024-06-22T10:38:36+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:48+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [
+          50938938818854
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesypeezy.jpg?v=1755497688",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49006448509222,
+        "created_at": "2024-11-08T17:05:10+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:45:00+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [
+          50938938851622
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peesy_1.jpg?v=1755497700",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986382139686,
+        "created_at": "2024-11-06T13:16:30+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:24+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [
+          50938938884390
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy-2.jpg?v=1755497664",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49002909729062,
+        "created_at": "2024-11-08T10:29:24+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:47+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [
+          50938938917158
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy_Pillow_60g.jpg?v=1755497687",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986663485734,
+        "created_at": "2024-11-06T13:56:05+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:44:09+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [
+          50938938949926
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheezy_Peezy_2.jpg?v=1755497649",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 47370905616678,
+        "created_at": "2024-06-22T10:39:33+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:47+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesypeezy_back_075a60f3-0b58-4134-bb2d-301542320170.jpg?v=1755497687",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49042588303654,
+        "created_at": "2024-11-12T16:48:39+05:30",
+        "position": 7,
+        "updated_at": "2025-08-18T11:45:00+05:30",
+        "product_id": 10221828800806,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Cheesy_Peesy.jpg?v=1755497700",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221817004326,
+    "title": "Butter Tomato",
+    "handle": "butter-tomato",
+    "body_html": "<h6><span data-sheets-root=\"1\">Smooth, tangy, and packed with comfort, our Butter Tomato Makhana pairs the richness of butter with the lively bite of tomato. Lightly roasted in olive oil and seasoned for a balanced burst of flavor, it’s gluten-free, antioxidant-rich, and designed for everyday snacking. A familiar taste, reimagined in every light, crunchy bite.<br><br>Makhana (Popped Lotus Seeds)70%, Olive Oil 18%, Spices &amp; Condiments 10% (Red Chilli, Dried Onion Flakes, Cerinder Seeds, Fennel, Black Pepper, Mace) Salt, Tomato Powder, Maltodextrin, Nausadar(Ammonium Chloride) (E510), Butter Concentrate, Acidity Regulator (Citric acid E330) &amp; (Malic acid E296), Hydrolyse Peanut Protein, Colour (Paprika oleoresin E 160c), Flavour Enhancer (Disodium 5'- ribonucleotides E6351)</span></h6>",
+    "published_at": "2025-08-21T23:35:10+05:30",
+    "created_at": "2025-08-20T23:32:18+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938925252902,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986368934182,
+          "product_id": 10221817004326,
+          "position": 1,
+          "created_at": "2024-11-06T13:14:27+05:30",
+          "updated_at": "2025-08-21T11:18:14+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_Pillow_60g.jpg?v=1755755294",
+          "variant_ids": [
+            50938925252902,
+            50938925351206
+          ]
+        },
+        "available": true,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221817004326,
+        "created_at": "2025-08-20T23:32:18+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938925285670,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49006428127526,
+          "product_id": 10221817004326,
+          "position": 4,
+          "created_at": "2024-11-08T17:03:13+05:30",
+          "updated_at": "2025-08-18T11:44:59+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_TOmato_4.jpg?v=1755497699",
+          "variant_ids": [
+            50938925285670
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221817004326,
+        "created_at": "2025-08-20T23:32:18+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938925318438,
+        "title": "55g - Standee Pouch",
+        "option1": "55g - Standee Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986374930726,
+          "product_id": 10221817004326,
+          "position": 3,
+          "created_at": "2024-11-06T13:15:28+05:30",
+          "updated_at": "2025-08-21T11:18:14+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_1.jpg?v=1755755294",
+          "variant_ids": [
+            50938925318438
+          ]
+        },
+        "available": false,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221817004326,
+        "created_at": "2025-08-20T23:32:18+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938925351206,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986368934182,
+          "product_id": 10221817004326,
+          "position": 1,
+          "created_at": "2024-11-06T13:14:27+05:30",
+          "updated_at": "2025-08-21T11:18:14+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_Pillow_60g.jpg?v=1755755294",
+          "variant_ids": [
+            50938925252902,
+            50938925351206
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221817004326,
+        "created_at": "2025-08-20T23:32:18+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938925383974,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 48986658898214,
+          "product_id": 10221817004326,
+          "position": 2,
+          "created_at": "2024-11-06T13:55:24+05:30",
+          "updated_at": "2025-08-21T11:18:14+05:30",
+          "alt": null,
+          "width": 1000,
+          "height": 1000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_2.jpg?v=1755755294",
+          "variant_ids": [
+            50938925383974
+          ]
+        },
+        "available": true,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221817004326,
+        "created_at": "2025-08-20T23:32:18+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 48986368934182,
+        "created_at": "2024-11-06T13:14:27+05:30",
+        "position": 1,
+        "updated_at": "2025-08-21T11:18:14+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [
+          50938925252902,
+          50938925351206
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_Pillow_60g.jpg?v=1755755294",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986658898214,
+        "created_at": "2024-11-06T13:55:24+05:30",
+        "position": 2,
+        "updated_at": "2025-08-21T11:18:14+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [
+          50938925383974
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_2.jpg?v=1755755294",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 48986374930726,
+        "created_at": "2024-11-06T13:15:28+05:30",
+        "position": 3,
+        "updated_at": "2025-08-21T11:18:14+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [
+          50938925318438
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_1.jpg?v=1755755294",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49006428127526,
+        "created_at": "2024-11-08T17:03:13+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:59+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [
+          50938925285670
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_TOmato_4.jpg?v=1755497699",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49006378385702,
+        "created_at": "2024-11-08T16:54:00+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:44:10+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Butter_Tomato_Back.png?v=1755497650",
+        "width": 2512,
+        "height": 4161
+      },
+      {
+        "id": 49042579423526,
+        "created_at": "2024-11-12T16:46:24+05:30",
+        "position": 6,
+        "updated_at": "2025-08-18T11:44:59+05:30",
+        "product_id": 10221817004326,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Butter_Tomato_5.jpg?v=1755497699",
+        "width": 2000,
+        "height": 2000
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee Pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10221653033254,
+    "title": "Black Salt",
+    "handle": "dummy-product",
+    "body_html": "<h6><span data-sheets-root=\"1\">Simple yet satisfying, our Black Salt Makhana brings a classic desi twist to light, crunchy snacking. Roasted in olive oil and seasoned with mineral-rich black salt, it’s a clean, earthy flavor that feels familiar but refreshing. Gluten-free, antioxidant-rich, and full of honest goodness - perfect for when you want something fuss-free yet flavourful.<br><br>Makhana (Popped Lotus Seeds) 75% Olive Oil 10%, Maltadextrin, Black Salt, Acidity Regulators [E330 and E334], Anti Caking Agents [E551 and [E341())</span></h6>",
+    "published_at": "2025-08-21T23:35:09+05:30",
+    "created_at": "2025-08-20T20:49:38+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50938834518310,
+        "title": "21g - Pillow Pouch",
+        "option1": "21g - Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 47370844176678,
+          "product_id": 10221653033254,
+          "position": 4,
+          "created_at": "2024-06-22T10:23:14+05:30",
+          "updated_at": "2025-08-18T11:45:07+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt.jpg?v=1755497707",
+          "variant_ids": [
+            50938834518310
+          ]
+        },
+        "available": true,
+        "price": "50.00",
+        "grams": 0,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 10221653033254,
+        "created_at": "2025-08-20T22:24:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938834551078,
+        "title": "45g - Small Jar",
+        "option1": "45g - Small Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49006415642918,
+          "product_id": 10221653033254,
+          "position": 5,
+          "created_at": "2024-11-08T17:01:19+05:30",
+          "updated_at": "2025-08-18T11:45:06+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_3.jpg?v=1755497706",
+          "variant_ids": [
+            50938834551078
+          ]
+        },
+        "available": true,
+        "price": "180.00",
+        "grams": 0,
+        "compare_at_price": "180.00",
+        "position": 2,
+        "product_id": 10221653033254,
+        "created_at": "2025-08-20T22:24:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938834583846,
+        "title": "55g - Standee pouch",
+        "option1": "55g - Standee pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51840522256678,
+          "product_id": 10221653033254,
+          "position": 6,
+          "created_at": "2025-08-20T22:19:40+05:30",
+          "updated_at": "2025-08-20T22:19:42+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_standee_pouch-_front.png?v=1755708582",
+          "variant_ids": [
+            50938834583846
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 3,
+        "product_id": 10221653033254,
+        "created_at": "2025-08-20T22:24:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938834616614,
+        "title": "60g - Large Pillow Pouch",
+        "option1": "60g - Large Pillow Pouch",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 49002895999270,
+          "product_id": 10221653033254,
+          "position": 1,
+          "created_at": "2024-11-08T10:28:19+05:30",
+          "updated_at": "2025-08-18T11:45:04+05:30",
+          "alt": null,
+          "width": 2000,
+          "height": 2000,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_60g.jpg?v=1755497704",
+          "variant_ids": [
+            50938834616614
+          ]
+        },
+        "available": true,
+        "price": "150.00",
+        "grams": 0,
+        "compare_at_price": "150.00",
+        "position": 4,
+        "product_id": 10221653033254,
+        "created_at": "2025-08-20T22:24:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      },
+      {
+        "id": 50938834649382,
+        "title": "80g - Large Jar",
+        "option1": "80g - Large Jar",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": {
+          "id": 51844763746598,
+          "product_id": 10221653033254,
+          "position": 8,
+          "created_at": "2025-08-21T07:54:10+05:30",
+          "updated_at": "2025-08-21T07:54:13+05:30",
+          "alt": null,
+          "width": 2512,
+          "height": 4161,
+          "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Black_Salt_7eea6448-6759-44b1-8077-a6f63f1cc592.png?v=1755743053",
+          "variant_ids": [
+            50938834649382
+          ]
+        },
+        "available": true,
+        "price": "230.00",
+        "grams": 0,
+        "compare_at_price": "230.00",
+        "position": 5,
+        "product_id": 10221653033254,
+        "created_at": "2025-08-20T22:24:34+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49002895999270,
+        "created_at": "2024-11-08T10:28:19+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:45:04+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [
+          50938834616614
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_60g.jpg?v=1755497704",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986585792806,
+        "created_at": "2024-11-06T13:45:48+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:45:07+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/BS.jpg?v=1755497707",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 47370855153958,
+        "created_at": "2024-06-22T10:25:55+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:45:05+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_back_3e9d6e3b-a38c-4d34-8148-fd661810417c.jpg?v=1755497705",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 47370844176678,
+        "created_at": "2024-06-22T10:23:14+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:45:07+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [
+          50938834518310
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt.jpg?v=1755497707",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 49006415642918,
+        "created_at": "2024-11-08T17:01:19+05:30",
+        "position": 5,
+        "updated_at": "2025-08-18T11:45:06+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [
+          50938834551078
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_3.jpg?v=1755497706",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51840522256678,
+        "created_at": "2025-08-20T22:19:40+05:30",
+        "position": 6,
+        "updated_at": "2025-08-20T22:19:42+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [
+          50938834583846
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Black_Salt_standee_pouch-_front.png?v=1755708582",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51840562004262,
+        "created_at": "2025-08-20T22:20:54+05:30",
+        "position": 7,
+        "updated_at": "2025-08-20T22:20:56+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr_Makhana_25gm_Black_Salt.png?v=1755708656",
+        "width": 1352,
+        "height": 1864
+      },
+      {
+        "id": 51844763746598,
+        "created_at": "2025-08-21T07:54:10+05:30",
+        "position": 8,
+        "updated_at": "2025-08-21T07:54:13+05:30",
+        "product_id": 10221653033254,
+        "variant_ids": [
+          50938834649382
+        ],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Mr.Makhana_Black_Salt_7eea6448-6759-44b1-8077-a6f63f1cc592.png?v=1755743053",
+        "width": 2512,
+        "height": 4161
+      }
+    ],
+    "options": [
+      {
+        "name": "Select Weight",
+        "position": 1,
+        "values": [
+          "21g - Pillow Pouch",
+          "45g - Small Jar",
+          "55g - Standee pouch",
+          "60g - Large Pillow Pouch",
+          "80g - Large Jar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10211207545126,
+    "title": "MR. MAKHANA Nut Shack Home Style Salted Roasted Cashews 200 g",
+    "handle": "mr-makhana-nut-shack-home-style-salted-roasted-cashews-200-g",
+    "body_html": "<p><span data-sheets-root=\"1\">Old-school, but never boring.<br>Our Home Style Salted Cashews keep it classic with a clean roast and just the right hit of salt, no fancy business, just pure snack discipline. For days when you want real flavour without the drama, grab a handful, and get on with life.<br><br>Cashew Nuts (99%), Edible lodized Salt (1%)</span><br></p>",
+    "published_at": "2025-08-13T12:51:57+05:30",
+    "created_at": "2025-08-13T12:51:58+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50906402783526,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "450.00",
+        "grams": 200,
+        "compare_at_price": "450.00",
+        "position": 1,
+        "product_id": 10211207545126,
+        "created_at": "2025-08-13T12:51:58+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 51765318320422,
+        "created_at": "2025-08-13T12:57:19+05:30",
+        "position": 1,
+        "updated_at": "2025-08-13T12:57:55+05:30",
+        "product_id": 10211207545126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack21.png?v=1755070075",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51765321072934,
+        "created_at": "2025-08-13T12:57:32+05:30",
+        "position": 2,
+        "updated_at": "2025-08-13T12:57:55+05:30",
+        "product_id": 10211207545126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack_2_2.png?v=1755070075",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51765318418726,
+        "created_at": "2025-08-13T12:57:19+05:30",
+        "position": 3,
+        "updated_at": "2025-08-13T12:57:55+05:30",
+        "product_id": 10211207545126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339942-3_1-mr-makhana-nut-shack-home-style-salted-roasted-cashews.webp?v=1755070075",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "id": 51765318385958,
+        "created_at": "2025-08-13T12:57:19+05:30",
+        "position": 4,
+        "updated_at": "2025-08-13T12:57:55+05:30",
+        "product_id": 10211207545126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339942-4_1-mr-makhana-nut-shack-home-style-salted-roasted-cashews.webp?v=1755070075",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "id": 51765318353190,
+        "created_at": "2025-08-13T12:57:19+05:30",
+        "position": 5,
+        "updated_at": "2025-10-11T12:49:42+05:30",
+        "product_id": 10211207545126,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339942-5_1-mr-makhana-nut-shack-home-style-salted-roasted-cashews.webp?v=1760167182",
+        "width": 500,
+        "height": 500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10211200270630,
+    "title": "MR. MAKHANA Nut Shack Desi Masala Roasted Cashews 200 g",
+    "handle": "mr-makhana-nut-shack-desi-masala-roasted-cashews-200-g",
+    "body_html": "<p><span data-sheets-root=\"1\">Who said cashews had to play it safe? Our Desi Masala Cashews bring the spice, the drama, and all the snack-worthy chaos your taste buds deserve. Roasted, not fried, and seasoned with a punchy mix of Indian spices, it’s the kind of snack that doesn't just sit quietly - it shows up and takes over.<br><br>Cashew Nuts (90%), Spices &amp; Condiments (10%) (Black Pepper, Dried Mango Powder, Red Chilli, Edible Common Salt, Black Salt, Spices Powder &amp; Spice Extract (Coriander, Cumin, Dry Ginger, Star anise, Bay Leaf, Long Pepper, Cinnamon, Black Cardamom, Nutmeg, Mace)</span><br></p>",
+    "published_at": "2025-08-13T12:46:29+05:30",
+    "created_at": "2025-08-13T12:46:26+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [],
+    "variants": [
+      {
+        "id": 50906380075302,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": false,
+        "price": "450.00",
+        "grams": 200,
+        "compare_at_price": "450.00",
+        "position": 1,
+        "product_id": 10211200270630,
+        "created_at": "2025-08-13T12:46:26+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 51765167063334,
+        "created_at": "2025-08-13T12:46:09+05:30",
+        "position": 1,
+        "updated_at": "2025-08-13T12:46:11+05:30",
+        "product_id": 10211200270630,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack_1.png?v=1755069371",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51765167128870,
+        "created_at": "2025-08-13T12:46:09+05:30",
+        "position": 2,
+        "updated_at": "2025-08-13T12:46:11+05:30",
+        "product_id": 10211200270630,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/nutshack_2.png?v=1755069371",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 51765002928422,
+        "created_at": "2025-08-13T12:32:42+05:30",
+        "position": 3,
+        "updated_at": "2025-08-13T12:32:43+05:30",
+        "product_id": 10211200270630,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339941-3_1-mr-makhana-nut-shack-desi-masala-roasted-cashews.webp?v=1755068563",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "id": 51765002895654,
+        "created_at": "2025-08-13T12:32:42+05:30",
+        "position": 4,
+        "updated_at": "2025-08-13T12:32:43+05:30",
+        "product_id": 10211200270630,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339941-4_1-mr-makhana-nut-shack-desi-masala-roasted-cashews.webp?v=1755068563",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "id": 51765002862886,
+        "created_at": "2025-08-13T12:32:42+05:30",
+        "position": 5,
+        "updated_at": "2025-08-13T12:32:43+05:30",
+        "product_id": 10211200270630,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/40339941-5_1-mr-makhana-nut-shack-desi-masala-roasted-cashews.webp?v=1755068563",
+        "width": 500,
+        "height": 500
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9049802703142,
+    "title": "Mr. Makhana Trail Mix 30 GM",
+    "handle": "mr-makhana-trail-mix",
+    "body_html": "<p><span data-sheets-root=\"1\">Small pack. Big balance.<br>A neat mix of roasted almonds, cranberries, seeds, and raisins, made to fit into your everyday hustle. Light, nutrient-rich, and easy to carry, it’s your no-drama daily snack that simply gets the job done, whether you’re working, commuting, or just need a mid-day fix.<br><br>Roasted Almonds (27%), Cranberries (20%), Pumpkin Seeds (18%), Black Resin (20%), Sunflower Seeds (15%)</span></p>",
+    "published_at": "2024-03-18T15:40:21+05:30",
+    "created_at": "2024-03-18T15:40:21+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "",
+    "tags": [
+      "mrmakhana"
+    ],
+    "variants": [
+      {
+        "id": 47889881989414,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "150.00",
+        "grams": 30,
+        "compare_at_price": "150.00",
+        "position": 1,
+        "product_id": 9049802703142,
+        "created_at": "2024-03-18T15:40:23+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 49006317699366,
+        "created_at": "2024-11-08T16:42:28+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:28+05:30",
+        "product_id": 9049802703142,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Trailmix_Creative-3_1.jpg?v=1755497668",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 49003926094118,
+        "created_at": "2024-11-08T11:54:53+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:28+05:30",
+        "product_id": 9049802703142,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Trailmix_Creative.jpg?v=1755497668",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 49042700960038,
+        "created_at": "2024-11-12T17:13:32+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:28+05:30",
+        "product_id": 9049802703142,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Trailmix_Creative-2_1.jpg?v=1755497668",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8993670627622,
+    "title": "Mr. Makhana ChocoPop Resealable Pouch 65 GM",
+    "handle": "mr-makhana-chocolate-makhana-65gm",
+    "body_html": "<p><span data-sheets-root=\"1\">A harmonious blend of light, roasted makhana and rich cocoa. Our Chocopop offers a balanced taste profile, subtle sweetness with a satisfying crunch. Crafted without added preservatives and roasted in olive oil, it's a thoughtful choice for those seeking a refined snacking experience.<br><br>Makhana (Fox Nuts) 45%, Sugar, Cocoa Powder (16%), Milk Solids, Edible Vegetable Oil (Sunflower Oil), Himalayan Rock Salt, Vanilla Flavour</span><br><br></p>",
+    "published_at": "2024-02-19T12:11:24+05:30",
+    "created_at": "2024-02-19T12:11:24+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "Flavoured Makhana",
+    "tags": [
+      "mrmakhana"
+    ],
+    "variants": [
+      {
+        "id": 47685897650470,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "featured_image": null,
+        "available": true,
+        "price": "120.00",
+        "grams": 65,
+        "compare_at_price": "120.00",
+        "position": 1,
+        "product_id": 8993670627622,
+        "created_at": "2024-02-19T12:11:25+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 48986388005158,
+        "created_at": "2024-11-06T13:17:28+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:29+05:30",
+        "product_id": 8993670627622,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Chocopop.jpg?v=1755497669",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48986520224038,
+        "created_at": "2024-11-06T13:36:53+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:29+05:30",
+        "product_id": 8993670627622,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Chocolate_USP.jpg?v=1755497669",
+        "width": 2000,
+        "height": 2000
+      },
+      {
+        "id": 48841406316838,
+        "created_at": "2024-10-19T16:51:21+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:29+05:30",
+        "product_id": 8993670627622,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Untitled_design_7_68fa809b-e805-43b9-a124-3a279554a725.png?v=1755497669",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8364181618982,
+    "title": "Mr. Makhana Classic Bhel 57 GM",
+    "handle": "mr-makhana-classic-bhel-30gm",
+    "body_html": "<p><span data-sheets-root=\"1\">Not your average bhel.<br>We tossed together roasted makhana, puffed rice, peanuts, and crunchy multigrain chips to create a snack that's light on your belly but loud on flavour. Sweet here, tangy there and totally ready for your mood swings. Just open, mix, and let the snacking chaos begin.<br><br>Bhel Mix 86% (Roasted Makhana/Popped Lotus Seeds, Puffed Rice, Peanuts, Extruded Chips [Jowar Flour, Rice Flour, Maize Flour, Tapioca Starch, Potato Powder, Chickpea Flour], Edible Vegetable Oil (Sunflower Oil) 7%, Spices and Condiments 7% (Sugar, Salt, Black Salt, Onion, Dry Mango, Turmeric, Coriander, Tomato Powder, Corn Starch, Maltodextrin, Black Pepper, Garlic, Cumin, Red Chilli, Fenugreek seed, Acidity Regulator (E330) and Antioxidant (E319)</span></p>",
+    "published_at": "2023-06-13T17:21:20+05:30",
+    "created_at": "2023-06-13T17:21:20+05:30",
+    "updated_at": "2026-11-22T10:59:46+05:30",
+    "vendor": "MrMakhana",
+    "product_type": "Bhel",
+    "tags": [
+      "bhel",
+      "mrmakhana"
+    ],
+    "variants": [
+      {
+        "id": 45238692086054,
+        "title": "Default Title",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "sku": null,
+        "requires_shipping": true,
+        "taxable": false,
+        "featured_image": null,
+        "available": true,
+        "price": "50.00",
+        "grams": 57,
+        "compare_at_price": "50.00",
+        "position": 1,
+        "product_id": 8364181618982,
+        "created_at": "2023-06-13T17:21:20+05:30",
+        "updated_at": "2026-11-22T10:59:46+05:30"
+      }
+    ],
+    "images": [
+      {
+        "id": 41759379357990,
+        "created_at": "2023-06-16T17:56:09+05:30",
+        "position": 1,
+        "updated_at": "2025-08-18T11:44:30+05:30",
+        "product_id": 8364181618982,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Frame246.png?v=1755497670",
+        "width": 3140,
+        "height": 3140
+      },
+      {
+        "id": 48988427976998,
+        "created_at": "2024-11-06T16:55:16+05:30",
+        "position": 2,
+        "updated_at": "2025-08-18T11:44:30+05:30",
+        "product_id": 8364181618982,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Classic_Bhel.jpg?v=1755497670",
+        "width": 1000,
+        "height": 1000
+      },
+      {
+        "id": 41759379423526,
+        "created_at": "2023-06-16T17:56:09+05:30",
+        "position": 3,
+        "updated_at": "2025-08-18T11:44:30+05:30",
+        "product_id": 8364181618982,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Frame247.png?v=1755497670",
+        "width": 3140,
+        "height": 3140
+      },
+      {
+        "id": 41759379390758,
+        "created_at": "2023-06-16T17:56:09+05:30",
+        "position": 4,
+        "updated_at": "2025-08-18T11:44:30+05:30",
+        "product_id": 8364181618982,
+        "variant_ids": [],
+        "src": "https://cdn.shopify.com/s/files/1/0751/2742/3270/files/Frame248.png?v=1755497670",
+        "width": 3140,
+        "height": 3140
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ]
+  }
+]
