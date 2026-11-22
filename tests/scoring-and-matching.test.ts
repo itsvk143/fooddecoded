@@ -1271,6 +1271,56 @@ test("Healthy Snacks Catalogue: 4 new categories with >= 101 products each, 15 b
   }
 });
 
+test("Noodles & Ready-to-Eat Catalogue: Contains >= 101 products across all 11 brands with verified packshots and taxonomy", async () => {
+  const { SEED_CATEGORIES, generateSeedProducts } = await import("../src/lib/seed-data");
+  const { queryProducts } = await import("../src/lib/product-service");
+
+  const cat = SEED_CATEGORIES.find((c) => c.slug === "noodles-ready-to-eat");
+  assert.ok(cat, "Category 'noodles-ready-to-eat' must exist in SEED_CATEGORIES");
+  assert.equal(cat?.name, "Noodles & Ready-to-Eat");
+  assert.ok(cat?.subCategories && cat.subCategories.length >= 8, "Expected subcategories for Noodles & Ready-to-Eat");
+
+  const products = generateSeedProducts();
+  const noodlesRte = products.filter(
+    (p) => p.category === "Noodles & Ready-to-Eat" || p.categorySlug === "noodles-ready-to-eat"
+  );
+  assert.ok(noodlesRte.length >= 101, `Expected at least 101 products, got ${noodlesRte.length}`);
+
+  // 11 Brands verification
+  const expectedBrands = [
+    "Maggi",
+    "Sunfeast YiPPee!",
+    "Wai Wai",
+    "Top Ramen",
+    "Ching's Secret",
+    "Knorr",
+    "WickedGüd",
+    "Yu",
+    "MTR",
+    "Gits",
+    "MasterChow",
+  ];
+
+  const presentBrands = new Set(noodlesRte.map((p) => p.brand));
+  for (const b of expectedBrands) {
+    assert.ok(presentBrands.has(b), `Expected brand '${b}' in Noodles & Ready-to-Eat catalogue`);
+  }
+
+  // Packshots & scores check
+  for (const p of noodlesRte) {
+    assert.ok(p.imageUrl && !p.imageUrl.endsWith(".svg"), `Product ${p.name} must have non-SVG packshot`);
+    assert.ok(p.overallScore !== undefined, `Product ${p.name} must have calculated overallScore`);
+    assert.ok(p.nutriScore, `Product ${p.name} must have nutriScore`);
+    assert.ok(p.novaGroup, `Product ${p.name} must have novaGroup`);
+  }
+
+  // queryProducts check
+  const res = await queryProducts({ category: "Noodles & Ready-to-Eat", limit: 10 });
+  assert.ok(res.total >= 101, `queryProducts total should be >= 101, got ${res.total}`);
+  assert.ok(res.products.length > 0, "queryProducts should return items");
+});
+
+
 
 
 

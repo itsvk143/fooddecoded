@@ -177,6 +177,15 @@ export function LeftDrawer() {
   // Extended supermarket aisles
   const otherAisles: CategoryMenuItem[] = [
     {
+      name: "Noodles & Ready-to-Eat",
+      href: "/products?category=Noodles+%26+Ready-to-Eat",
+      icon: "🍜",
+      desc: "Instant noodles, ramen, cuppa, heat & eat curries & wok kits",
+      badge: (categoryCounts["Noodles & Ready-to-Eat"] ?? categoryCounts["noodles-ready-to-eat"]) !== undefined
+        ? `${categoryCounts["Noodles & Ready-to-Eat"] ?? categoryCounts["noodles-ready-to-eat"]} items`
+        : "257 items",
+    },
+    {
       name: "Cold Drinks",
       href: "/products?category=cold-drinks",
       imageSrc: "/images/cold-drinks/coca-cola-classic.svg",

@@ -1,0 +1,4991 @@
+{
+  "summary": {
+    "Oreo": {
+      "checked": 14,
+      "available": [
+        {
+          "item": {
+            "name": "Oreo Original Vanilla Creme Biscuit",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Classic Sandwich Creams",
+            "variant": "Original Vanilla",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df17f",
+          "matchedBarcode": "7622202348846",
+          "matchedName": "Cadbury Oreo Original Vanilla Creme Biscuit"
+        },
+        {
+          "item": {
+            "name": "Oreo Chocolate Creme Biscuit",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Classic Sandwich Creams",
+            "variant": "Chocolate Creme",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8046",
+          "matchedBarcode": "8904040000339",
+          "matchedName": "Oreo Choco Fills Molten Lava Cookie"
+        },
+        {
+          "item": {
+            "name": "Oreo Strawberry Creme Biscuit",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Classic Sandwich Creams",
+            "variant": "Strawberry Creme",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40c287c89b402531cf724",
+          "matchedBarcode": "8908400000052",
+          "matchedName": "Oreo Strawberry Creme"
+        },
+        {
+          "item": {
+            "name": "Oreo Double Stuf Vanilla Creme Sandwich Cookies",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Classic Sandwich Creams",
+            "variant": "Double Stuf (Vanilla)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df17f",
+          "matchedBarcode": "7622202348846",
+          "matchedName": "Cadbury Oreo Original Vanilla Creme Biscuit"
+        },
+        {
+          "item": {
+            "name": "Oreo Mint Creme Sandwich Biscuits",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Indian & Fusion Editions",
+            "variant": "Mint Creme",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40c2c7c89b402531cf726",
+          "matchedBarcode": "8908400000076",
+          "matchedName": "Oreo Mint Creme"
+        },
+        {
+          "item": {
+            "name": "Cadbury Oreo Chocolate Coated Biscuits",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Indian & Fusion Editions",
+            "variant": "Cadbury Oreo (Chocolate-coated)",
+            "productType": "chocolate coated biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8046",
+          "matchedBarcode": "8904040000339",
+          "matchedName": "Oreo Choco Fills Molten Lava Cookie"
+        },
+        {
+          "item": {
+            "name": "Mini Oreos Bite Size Cookies",
+            "parentBrand": "Mondelez",
+            "brand": "Oreo",
+            "subBrand": "Snacks & Formats",
+            "variant": "Mini Oreos (cups/pouches)",
+            "productType": "mini cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40d1c6b662db8d3afc60c",
+          "matchedBarcode": "8908400002865",
+          "matchedName": "Oreo Mini"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Oreo Golden Vanilla Sandwich Biscuits",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Classic Sandwich Creams",
+          "variant": "Golden Oreo",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Oreo Choco-Brownie Creme Biscuits",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Indian & Fusion Editions",
+          "variant": "Choco-Brownie",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Oreo Red Velvet Creme Biscuits",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Indian & Fusion Editions",
+          "variant": "Red Velvet",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Oreo Peanut Butter & Chocolate Creme Biscuits",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Indian & Fusion Editions",
+          "variant": "Peanut Butter & Chocolate",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Oreo O's Breakfast Cereal",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Snacks & Formats",
+          "variant": "Oreo O's (cereal)",
+          "productType": "cereal",
+          "category": "Cereals & Breakfast",
+          "subCategory": "Kids' Cereals"
+        },
+        {
+          "name": "Oreo Wafer Rolls Vanilla",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Snacks & Formats",
+          "variant": "Wafer Rolls (Vanilla)",
+          "productType": "wafer roll",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Oreo Wafer Rolls Chocolate",
+          "parentBrand": "Mondelez",
+          "brand": "Oreo",
+          "subBrand": "Snacks & Formats",
+          "variant": "Wafer Rolls (Chocolate)",
+          "productType": "wafer roll",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        }
+      ]
+    },
+    "Dark Fantasy": {
+      "checked": 14,
+      "available": [
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Choco Nut Fills",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Choco Fills",
+            "variant": "Choco Nut Fills",
+            "productType": "center-filled cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17d",
+          "matchedBarcode": "8909081005046",
+          "matchedName": "Sunfeast Dark Fantasy Choco Fills Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Choco Fills Coffee",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Choco Fills",
+            "variant": "Choco Fills Coffee",
+            "productType": "center-filled cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17d",
+          "matchedBarcode": "8909081005046",
+          "matchedName": "Sunfeast Dark Fantasy Choco Fills Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Choco Meltz",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Desserts & Cakes",
+            "variant": "Choco Meltz",
+            "productType": "chocolate coated cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40cd26b662db8d3afc58d",
+          "matchedBarcode": "8908400001561",
+          "matchedName": "Sunfeast Dark Fantasy Choco Meltz"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Choco Chunk Cookies",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Desserts & Cakes",
+            "variant": "Choco Chunk Cookies",
+            "productType": "chunk cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17d",
+          "matchedBarcode": "8909081005046",
+          "matchedName": "Sunfeast Dark Fantasy Choco Fills Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Bourbon",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Desserts & Cakes",
+            "variant": "Bourbon",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cd36b662db8d3afc58e",
+          "matchedBarcode": "8908400001578",
+          "matchedName": "Sunfeast Dark Fantasy Bourbon"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Vanilla Creme",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Wafers & Biscuits",
+            "variant": "Dark Fantasy Vanilla Creme",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8037",
+          "matchedBarcode": "8904040000186",
+          "matchedName": "Sunfeast Dark Fantasy Dark Cocoa Vanilla Creme Cookie"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Dark Fantasy Choco Creme",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Dark Fantasy",
+            "subBrand": "Wafers & Biscuits",
+            "variant": "Dark Fantasy Choco Creme",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17d",
+          "matchedBarcode": "8909081005046",
+          "matchedName": "Sunfeast Dark Fantasy Choco Fills Biscuit"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Sunfeast Dark Fantasy Original Choco Fills",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Choco Fills",
+          "variant": "Original Choco Fills",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Choco Fills Luxuria",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Choco Fills",
+          "variant": "Choco Fills Luxuria",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Choco Fills Almond",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Choco Fills",
+          "variant": "Choco Fills Almond",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Choco Fills Hazelnut",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Choco Fills",
+          "variant": "Choco Fills Hazelnut",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Yumfills Pie",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Desserts & Cakes",
+          "variant": "Yumfills Pie (marshmallow-filled choco pie)",
+          "productType": "choco pie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Yumfills Whoopie Pie",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Desserts & Cakes",
+          "variant": "Yumfills Whoopie Pie",
+          "productType": "whoopie pie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Choco Wafer Sticks",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Dark Fantasy",
+          "subBrand": "Wafers & Biscuits",
+          "variant": "Choco Wafer Sticks",
+          "productType": "wafer stick",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        }
+      ]
+    },
+    "Good Day": {
+      "checked": 13,
+      "available": [
+        {
+          "item": {
+            "name": "Britannia Good Day Butter Cookies",
+            "parentBrand": "Britannia",
+            "brand": "Good Day",
+            "subBrand": "Classic Cookies",
+            "variant": "Butter",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae4425bbc667e292a0dd378",
+          "matchedBarcode": "8901063367173",
+          "matchedName": "Britannia 50-50 Maska Chaska Biscuits"
+        },
+        {
+          "item": {
+            "name": "Britannia Good Day Cashew Cookies",
+            "parentBrand": "Britannia",
+            "brand": "Good Day",
+            "subBrand": "Classic Cookies",
+            "variant": "Cashew (Kaju)",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df18a",
+          "matchedBarcode": "8901063151321",
+          "matchedName": "Britannia Good Day Cashew Cookies"
+        },
+        {
+          "item": {
+            "name": "Britannia Good Day Choco Chip Cookies",
+            "parentBrand": "Britannia",
+            "brand": "Good Day",
+            "subBrand": "Classic Cookies",
+            "variant": "Choco Chip",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40cd56b662db8d3afc592",
+          "matchedBarcode": "8908400001646",
+          "matchedName": "Britannia Choco Chip"
+        },
+        {
+          "item": {
+            "name": "Britannia Good Day Choco Nut Cookies",
+            "parentBrand": "Britannia",
+            "brand": "Good Day",
+            "subBrand": "Classic Cookies",
+            "variant": "Choco Nut",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40cd56b662db8d3afc592",
+          "matchedBarcode": "8908400001646",
+          "matchedName": "Britannia Choco Chip"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Britannia Good Day Pista Badam Cookies",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Classic Cookies",
+          "variant": "Pista Badam",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Chunkies Choco Chip",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Chunkies (Choco Chip)",
+          "productType": "chunky cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Chunkies Triple Choco Chip",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Chunkies (Triple Choco Chip)",
+          "productType": "chunky cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Harmony Dry Fruit Cookies",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Harmony (assorted dry fruits)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Wonderfulls Choco Nut",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Wonderfulls (Choco Nut)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Wonderfulls Butter Almond",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Wonderfulls (Butter Almond)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Wonderfulls Mixed Berries",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Wonderfulls (Mixed Berries)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Fruit & Nut Cookies",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Fruit & Nut",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Good Day Chocochip Hazelnut Cookies",
+          "parentBrand": "Britannia",
+          "brand": "Good Day",
+          "subBrand": "Premium & Special Editions",
+          "variant": "Chocochip Hazelnut",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        }
+      ]
+    },
+    "Hide & Seek": {
+      "checked": 14,
+      "available": [
+        {
+          "item": {
+            "name": "Parle Hide & Seek Butter Cookies",
+            "parentBrand": "Parle",
+            "brand": "Hide & Seek",
+            "subBrand": "Moulded Choco-Chip Cookies",
+            "variant": "Butter",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a804f",
+          "matchedBarcode": "8904040000421",
+          "matchedName": "Hide & Seek Butter Delight Cookies"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Parle Hide & Seek Original Chocolate Chip Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Moulded Choco-Chip Cookies",
+          "variant": "Original Chocolate Chip",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Hide & Seek Choco Rolls",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Moulded Choco-Chip Cookies",
+          "variant": "Choco Rolls (wafer rolls)",
+          "productType": "wafer roll",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Hide & Seek Caffe Mocha Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Moulded Choco-Chip Cookies",
+          "variant": "Caffe Mocha",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Hide & Seek Almond Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Moulded Choco-Chip Cookies",
+          "variant": "Almond",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Hide & Seek Fab! Vanilla Creme",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Sandwich Creams",
+          "variant": "Hide & Seek Fab! (Vanilla)",
+          "productType": "sandwich cream",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Hide & Seek Fab! Chocolate Creme",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Sandwich Creams",
+          "variant": "Hide & Seek Fab! (Chocolate)",
+          "productType": "sandwich cream",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Hide & Seek Fab! Strawberry Creme",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Sandwich Creams",
+          "variant": "Hide & Seek Fab! (Strawberry)",
+          "productType": "sandwich cream",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Hide & Seek Fab! Orange Creme",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Sandwich Creams",
+          "variant": "Hide & Seek Fab! (Orange)",
+          "productType": "sandwich cream",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Milano Chocolate Chip Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Milano Series",
+          "variant": "Milano (Chocolate Chip)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Milano Dark Choco Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Milano Series",
+          "variant": "Milano (Dark Choco)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Milano Butter Nut Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Milano Series",
+          "variant": "Milano (Butter Nut)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Milano Centre-filled Hazelnut Cookies",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Milano Series",
+          "variant": "Milano (Centre-filled Choco/Hazelnut)",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Hide & Seek Choco Chip Minis",
+          "parentBrand": "Parle",
+          "brand": "Hide & Seek",
+          "subBrand": "Mini Formats",
+          "variant": "Hide & Seek Choco Chip Minis",
+          "productType": "mini cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        }
+      ]
+    },
+    "Unibic": {
+      "checked": 28,
+      "available": [
+        {
+          "item": {
+            "name": "Unibic Choco Chip Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Choco Chip",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df180",
+          "matchedBarcode": "8906009079165",
+          "matchedName": "Unibic Choco Chip Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Butter Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Butter",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a803b",
+          "matchedBarcode": "8904040000223",
+          "matchedName": "Unibic Butter Delight Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Cashew Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Cashew",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a803a",
+          "matchedBarcode": "8904040000216",
+          "matchedName": "Unibic Rich Cashew Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Fruit & Nut Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Fruit & Nut",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df18e",
+          "matchedBarcode": "8906009077017",
+          "matchedName": "Unibic Fruit & Nut Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Coconut Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Coconut",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40d286b662db8d3afc61c",
+          "matchedBarcode": "8908400003015",
+          "matchedName": "Unibic Coconut Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Choco Kiss Center-Filled Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Choco Kiss (center-filled)",
+            "productType": "center-filled cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af326d08e4a3c1168198b23",
+          "matchedBarcode": "8908010000381",
+          "matchedName": "Unibic Choco Kiss Centre Filled Chocolate Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Choco Ripple Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Classic & Gourmet Cookies",
+            "variant": "Choco Ripple",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40cd56b662db8d3afc594",
+          "matchedBarcode": "8908400001639",
+          "matchedName": "Unibic Choco Ripple"
+        },
+        {
+          "item": {
+            "name": "Unibic Digestive High Fibre Biscuits",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Health & Diet Range",
+            "variant": "Digestive (High Fibre)",
+            "productType": "digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cbb6b662db8d3afc578",
+          "matchedBarcode": "8908400001318",
+          "matchedName": "Unibic Digestive"
+        },
+        {
+          "item": {
+            "name": "Unibic Ragi Cookies",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Health & Diet Range",
+            "variant": "Ragi cookies",
+            "productType": "millet cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8042",
+          "matchedBarcode": "8904040000292",
+          "matchedName": "Unibic Ragi Chocolate Supergrain Cookies"
+        },
+        {
+          "item": {
+            "name": "Unibic Wafers Vanilla",
+            "parentBrand": "Unibic",
+            "brand": "Unibic",
+            "subBrand": "Wafers & Snacks",
+            "variant": "Wafers (Vanilla)",
+            "productType": "wafer",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8041",
+          "matchedBarcode": "8904040000285",
+          "matchedName": "Unibic Dark Cocoa Vanilla Creme Cookie"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Unibic Pistachio Badam Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Classic & Gourmet Cookies",
+          "variant": "Pistachio Badam",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Honey Oatmeal Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Classic & Gourmet Cookies",
+          "variant": "Honey Oatmeal",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Ginger Nut Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Classic & Gourmet Cookies",
+          "variant": "Ginger Nut",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Doosra Jeera Ajwain Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Classic & Gourmet Cookies",
+          "variant": "Doosra (Jeera/Ajwain)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Milk Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Classic & Gourmet Cookies",
+          "variant": "Milk",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Sugar-Free Oatmeal Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Sugar-Free (Oatmeal)",
+          "productType": "sugar-free cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Sugar-Free Butter Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Sugar-Free (Butter)",
+          "productType": "sugar-free cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Sugar-Free Choco Chip Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Sugar-Free (Choco Chip)",
+          "productType": "sugar-free cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Sugar-Free Multigrain Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Sugar-Free (Multigrain)",
+          "productType": "sugar-free cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Bajra Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Bajra cookies",
+          "productType": "millet cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Jowar Cookies",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Health & Diet Range",
+          "variant": "Jowar cookies",
+          "productType": "millet cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Snappers Potato Crackers Cream & Onion",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Unibic Snappers (Cream & Onion)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Unibic Snappers Potato Crackers Peri Peri",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Unibic Snappers (Peri Peri)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Unibic Snappers Potato Crackers Masala",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Unibic Snappers (Masala)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Unibic Snappers Potato Crackers Cheese",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Unibic Snappers (Cheese)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Unibic Wafers Chocolate",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Wafers (Chocolate)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Wafers Strawberry",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Wafers (Strawberry)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Unibic Wafers Orange",
+          "parentBrand": "Unibic",
+          "brand": "Unibic",
+          "subBrand": "Wafers & Snacks",
+          "variant": "Wafers (Orange)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        }
+      ]
+    },
+    "Bisk Farm": {
+      "checked": 27,
+      "available": [
+        {
+          "item": {
+            "name": "Bisk Farm Top Herbs Biscuits",
+            "parentBrand": "Bisk Farm",
+            "brand": "Bisk Farm",
+            "subBrand": "Cookies & Biscuits",
+            "variant": "Top (Herbs)",
+            "productType": "cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0bd29d58af959a8023",
+          "matchedBarcode": "8904030000776",
+          "matchedName": "Bisk Farm 50-50 Maska Chaska Salted Herb Crackers"
+        },
+        {
+          "item": {
+            "name": "Bisk Farm Top Butter Biscuits",
+            "parentBrand": "Bisk Farm",
+            "brand": "Bisk Farm",
+            "subBrand": "Cookies & Biscuits",
+            "variant": "Top (Butter)",
+            "productType": "cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cfe6b662db8d3afc5db",
+          "matchedBarcode": "8908400002377",
+          "matchedName": "Bisk Farm Butter Cookies"
+        },
+        {
+          "item": {
+            "name": "Bisk Farm Marie Biscuits",
+            "parentBrand": "Bisk Farm",
+            "brand": "Bisk Farm",
+            "subBrand": "Cookies & Biscuits",
+            "variant": "Marie",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0bd29d58af959a801e",
+          "matchedBarcode": "8904030000721",
+          "matchedName": "Bisk Farm Marie Light Crisp Tea Biscuit"
+        },
+        {
+          "item": {
+            "name": "Bisk Farm Rich Marie Biscuits",
+            "parentBrand": "Bisk Farm",
+            "brand": "Bisk Farm",
+            "subBrand": "Cookies & Biscuits",
+            "variant": "Rich Marie",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0bd29d58af959a801e",
+          "matchedBarcode": "8904030000721",
+          "matchedName": "Bisk Farm Marie Light Crisp Tea Biscuit"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Bisk Farm Top Salt Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Top (Salt)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Just Ginger Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Just Ginger",
+          "productType": "biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Just Elaichi Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Just Elaichi",
+          "productType": "biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Spicy Jeera Ajwain Crackers",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Spicy (Jeera/Ajwain)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Googly Sweet & Salty Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Googly (sweet & salty)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Milk Shakti Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Milk Shakti",
+          "productType": "milk biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Ruskit Premium Rusks",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Cookies & Biscuits",
+          "variant": "Ruskit (rusks)",
+          "productType": "rusk",
+          "category": "Bakery & Breads",
+          "subCategory": "Bakery & Breads"
+        },
+        {
+          "name": "Bisk Farm Burst Center-Filled Choco",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Burst (center-filled choco)",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Bisk Farm Treat Cream Orange",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat-style Creams (Orange)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Treat Cream Pineapple",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat-style Creams (Pineapple)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Treat Cream Elaichi",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat-style Creams (Elaichi)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Treat Cream Chocolate",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat-style Creams (Chocolate)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Treat Cream Vanilla",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat-style Creams (Vanilla)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Exotic Wafers Chocolate",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Exotic Wafers (Chocolate)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Bisk Farm Exotic Wafers Vanilla",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Exotic Wafers (Vanilla)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Bisk Farm Exotic Wafers Strawberry",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Exotic Wafers (Strawberry)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Bisk Farm Exotic Wafers Orange",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Creams & Wafers",
+          "variant": "Exotic Wafers (Orange)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Bisk Farm Fruit Cake",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Bisk Farm Cake (Fruit)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Bisk Farm Choco Cake",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Bisk Farm Cake (Choco)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Bisk Farm Vanilla Cake",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Bisk Farm Cake (Vanilla)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Bisk Farm Marble Cake",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Bisk Farm Cake (Marble)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Bisk Farm Swiss Rolls",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Swiss Rolls",
+          "productType": "swiss roll",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Bisk Farm Muffins",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bisk Farm",
+          "subBrand": "Bakery & Cakes",
+          "variant": "Muffins",
+          "productType": "muffin",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        }
+      ]
+    },
+    "Britannia": {
+      "checked": 33,
+      "available": [
+        {
+          "item": {
+            "name": "Britannia Marie Gold Oats",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Marie Gold (Oats)",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17c",
+          "matchedBarcode": "8901063162723",
+          "matchedName": "Britannia Marie Gold Biscuit"
+        },
+        {
+          "item": {
+            "name": "Britannia Milk Bikis Atta",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Milk Bikis (Atta)",
+            "productType": "milk biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2de41f6ca865c5365992b",
+          "matchedBarcode": "8904150000137",
+          "matchedName": "Britannia 100% Whole Wheat Atta Bread"
+        },
+        {
+          "item": {
+            "name": "Britannia Milk Bikis Cream",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Milk Bikis (Cream)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c896b662db8d3afc53e",
+          "matchedBarcode": "8908400000625",
+          "matchedName": "Britannia Milk Bikis Cream"
+        },
+        {
+          "item": {
+            "name": "Britannia Tiger Glucose",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Tiger (Glucose)",
+            "productType": "glucose biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fda",
+          "matchedBarcode": "8904030000042",
+          "matchedName": "Britannia Glucose Energy Biscuits"
+        },
+        {
+          "item": {
+            "name": "Britannia Tiger Butter",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Tiger (Butter)",
+            "productType": "biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae4425bbc667e292a0dd378",
+          "matchedBarcode": "8901063367173",
+          "matchedName": "Britannia 50-50 Maska Chaska Biscuits"
+        },
+        {
+          "item": {
+            "name": "Britannia Tiger Cashew",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Tiger (Cashew)",
+            "productType": "biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df18a",
+          "matchedBarcode": "8901063151321",
+          "matchedName": "Britannia Good Day Cashew Cookies"
+        },
+        {
+          "item": {
+            "name": "Britannia Nice Time Coconut",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Nice Time (Coconut)",
+            "productType": "sugar-showered biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fdf",
+          "matchedBarcode": "8904030000097",
+          "matchedName": "Britannia Nice Sugar Showered Coconut Biscuits"
+        },
+        {
+          "item": {
+            "name": "Britannia NutriChoice Digestive",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Health & Digestive",
+            "variant": "NutriChoice (Digestive)",
+            "productType": "digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cae6b662db8d3afc569",
+          "matchedBarcode": "8908400001134",
+          "matchedName": "Britannia Digestive Original"
+        },
+        {
+          "item": {
+            "name": "Britannia NutriChoice Hi-Fibre",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Health & Digestive",
+            "variant": "NutriChoice (Hi-Fibre)",
+            "productType": "digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb16b662db8d3afc56b",
+          "matchedBarcode": "8908400001172",
+          "matchedName": "Britannia NutriChoice Hi-Fibre"
+        },
+        {
+          "item": {
+            "name": "Britannia NutriChoice 5 Grain",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Health & Digestive",
+            "variant": "NutriChoice (5 Grain)",
+            "productType": "multigrain biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fde",
+          "matchedBarcode": "8904030000080",
+          "matchedName": "Britannia NutriChoice 5 Grain Multigrain Biscuit"
+        },
+        {
+          "item": {
+            "name": "Britannia NutriChoice Ragi",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Health & Digestive",
+            "variant": "NutriChoice (Ragi)",
+            "productType": "millet biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb16b662db8d3afc56c",
+          "matchedBarcode": "8908400001189",
+          "matchedName": "Britannia NutriChoice Ragi"
+        },
+        {
+          "item": {
+            "name": "Britannia Treat Choco Cream",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Treat (Choco)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cd56b662db8d3afc592",
+          "matchedBarcode": "8908400001646",
+          "matchedName": "Britannia Choco Chip"
+        },
+        {
+          "item": {
+            "name": "Britannia Treat Vanilla Cream",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Treat (Vanilla)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae4425bbc667e292a0dd37a",
+          "matchedBarcode": "8901063012660",
+          "matchedName": "Britannia Milk Bikis Biscuits"
+        },
+        {
+          "item": {
+            "name": "Britannia Treat Strawberry Cream",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Treat (Strawberry)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c367c89b402531cf72c",
+          "matchedBarcode": "8908400000144",
+          "matchedName": "Britannia Treat Strawberry"
+        },
+        {
+          "item": {
+            "name": "Britannia Treat Orange Cream",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Treat (Orange)",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c876b662db8d3afc53d",
+          "matchedBarcode": "8908400000564",
+          "matchedName": "Britannia Tiger Orange"
+        },
+        {
+          "item": {
+            "name": "Britannia Layerz Cake",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Layerz (cakes)",
+            "productType": "cake",
+            "category": "Bakery & Breads",
+            "subCategory": "Packaged Cakes & Muffins"
+          },
+          "matchedId": "6af2de41f6ca865c53659932",
+          "matchedBarcode": "8904150000205",
+          "matchedName": "Britannia Dark Chocolate Chunk Tea Cake Muffin"
+        },
+        {
+          "item": {
+            "name": "Britannia Gobbles Bar Cake",
+            "parentBrand": "Britannia",
+            "brand": "Britannia",
+            "subBrand": "Creams & Wafers",
+            "variant": "Gobbles (bar cakes)",
+            "productType": "cake",
+            "category": "Bakery & Breads",
+            "subCategory": "Packaged Cakes & Muffins"
+          },
+          "matchedId": "6af2de41f6ca865c53659932",
+          "matchedBarcode": "8904150000205",
+          "matchedName": "Britannia Dark Chocolate Chunk Tea Cake Muffin"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Britannia Marie Gold Original",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Marie Gold (Original)",
+          "productType": "tea biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Marie Gold Vita",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Marie Gold (Vita)",
+          "productType": "tea biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Milk Bikis Classic",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Milk Bikis (Classic)",
+          "productType": "milk biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Tiger Krunch Choco Chip",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Tiger (Krunch Choco Chip)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Little Hearts Original Sugar Glazed",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Little Hearts (Original sugar-glazed)",
+          "productType": "puff biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Little Hearts Strawberry",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Little Hearts (Strawberry)",
+          "productType": "puff biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia NutriChoice Oats with Almond & Orange",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Health & Digestive",
+          "variant": "NutriChoice (Oats with Almond/Orange)",
+          "productType": "oat cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia NutriChoice Seed & Herb",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Health & Digestive",
+          "variant": "NutriChoice (Seed & Herb)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia NutriChoice Sugar-Free Cracker",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Health & Digestive",
+          "variant": "NutriChoice (Sugar-Free Cracker)",
+          "productType": "sugar-free cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Treat Pineapple Cream",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat (Pineapple)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Treat Burst",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat (Burst)",
+          "productType": "center-filled biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Treat Croissant",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Treat (Croissant)",
+          "productType": "croissant",
+          "category": "Bakery & Breads",
+          "subCategory": "Bakery & Breads"
+        },
+        {
+          "name": "Britannia Pure Magic Chocolush",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Pure Magic (Chocolush)",
+          "productType": "center-filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Pure Magic Deuce",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Pure Magic (Deuce)",
+          "productType": "chocolate topped biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Pure Magic Stars",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Pure Magic (Stars)",
+          "productType": "chocolate filled cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Britannia Pure Magic Vanilla Choco Cream",
+          "parentBrand": "Britannia",
+          "brand": "Britannia",
+          "subBrand": "Creams & Wafers",
+          "variant": "Pure Magic (Vanilla/Choco cream)",
+          "productType": "sandwich cream",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        }
+      ]
+    },
+    "Parle": {
+      "checked": 29,
+      "available": [
+        {
+          "item": {
+            "name": "Parle-G Original Glucose Biscuits",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Glucose & Milk",
+            "variant": "Parle-G (Original)",
+            "productType": "glucose biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae2dc7a94042f06e45df17b",
+          "matchedBarcode": "8901719101007",
+          "matchedName": "Parle-G Original Gluco Biscuit"
+        },
+        {
+          "item": {
+            "name": "Parle-G Gold Biscuits",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Glucose & Milk",
+            "variant": "Parle-G (Gold)",
+            "productType": "glucose biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c826b662db8d3afc53a",
+          "matchedBarcode": "8908400000526",
+          "matchedName": "Parle-G Gold"
+        },
+        {
+          "item": {
+            "name": "Parle-G Royale Biscuits",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Glucose & Milk",
+            "variant": "Parle-G (Royale)",
+            "productType": "glucose biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c826b662db8d3afc539",
+          "matchedBarcode": "8908400000533",
+          "matchedName": "Parle-G Royale"
+        },
+        {
+          "item": {
+            "name": "Parle Marie Biscuits",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Glucose & Milk",
+            "variant": "Parle Marie",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fe2",
+          "matchedBarcode": "8904030000127",
+          "matchedName": "Parle Marie Light Crisp Tea Biscuit"
+        },
+        {
+          "item": {
+            "name": "Parle Monaco Jeera",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Sweet & Savoury",
+            "variant": "Monaco (Jeera)",
+            "productType": "cumin cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40d596b662db8d3afc676",
+          "matchedBarcode": "8908400004029",
+          "matchedName": "Parle Monaco Cheeselings"
+        },
+        {
+          "item": {
+            "name": "Parle Top Buttery Crackers",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Sweet & Savoury",
+            "variant": "Top (buttery crackers)",
+            "productType": "buttery cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c9a6b662db8d3afc550",
+          "matchedBarcode": "8908400000861",
+          "matchedName": "Parle Good Time Butter"
+        },
+        {
+          "item": {
+            "name": "Parle Platina Nutricrunch Digestive",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Creams, Cookies & Cakes",
+            "variant": "Nutricrunch Digestive",
+            "productType": "digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40ccf6b662db8d3afc588",
+          "matchedBarcode": "8908400001509",
+          "matchedName": "Parle Multigrain Digestive"
+        },
+        {
+          "item": {
+            "name": "Parle Platina Nutricrunch Marie",
+            "parentBrand": "Parle",
+            "brand": "Parle",
+            "subBrand": "Creams, Cookies & Cakes",
+            "variant": "Nutricrunch Marie",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fe2",
+          "matchedBarcode": "8904030000127",
+          "matchedName": "Parle Marie Light Crisp Tea Biscuit"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Parle-G Oats & Berries Biscuits",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Glucose & Milk",
+          "variant": "Parle-G (Oats & Berries)",
+          "productType": "health biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle-G Chhota Bheem Edition",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Glucose & Milk",
+          "variant": "Parle-G (Chhota Bheem editions)",
+          "productType": "glucose biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Milk Shakti Biscuits",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Glucose & Milk",
+          "variant": "Milk Shakti",
+          "productType": "milk biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Krackjack Sweet & Salty",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "Krackjack (sweet & salty)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Monaco Classic Salted",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "Monaco (Classic Salted)",
+          "productType": "salted cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Monaco Pizza",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "Monaco (Pizza)",
+          "productType": "pizza cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Monaco Cheeslings",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "Monaco (Cheeslings)",
+          "productType": "cheese bites",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Nimkin Jeera Ajwain",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "Nimkin (jeera/ajwain)",
+          "productType": "savoury cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle 20-20 Cashew Cookies",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "20-20 (Cashew)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle 20-20 Butter Cookies",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "20-20 (Butter)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle 20-20 Nice Coconut",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Sweet & Savoury",
+          "variant": "20-20 (Nice)",
+          "productType": "coconut biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Magix Chocolate Cream",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Magix (Chocolate)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Magix Vanilla Cream",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Magix (Vanilla)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Magix Strawberry Cream",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Magix (Strawberry)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Magix Orange Cream",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Magix (Orange)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Platina Nutricrunch Honey Oats",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Nutricrunch Honey Oats",
+          "productType": "oat cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Happy Happy Choco-chip Cookies",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Happy Happy (Choco-chip)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Parle Fab! Orange Creme",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Fab! (Orange)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Fab! Vanilla Creme",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Fab! (Vanilla)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Fab! Strawberry Creme",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Fab! (Strawberry)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Parle Golden Arcs Cakes & Rusks",
+          "parentBrand": "Parle",
+          "brand": "Parle",
+          "subBrand": "Creams, Cookies & Cakes",
+          "variant": "Golden Arcs (cakes/rusks)",
+          "productType": "cake/rusk",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        }
+      ]
+    },
+    "Sunfeast": {
+      "checked": 25,
+      "available": [
+        {
+          "item": {
+            "name": "Sunfeast Marie Light Active",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Marie Light (Active)",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fec",
+          "matchedBarcode": "8904030000226",
+          "matchedName": "Sunfeast Marie Light Crisp Tea Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Marie Light Oats",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Marie Light (Oats)",
+            "productType": "tea biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fec",
+          "matchedBarcode": "8904030000226",
+          "matchedName": "Sunfeast Marie Light Crisp Tea Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Glucose Biscuits",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Glucose",
+            "productType": "glucose biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40c916b662db8d3afc546",
+          "matchedBarcode": "8908400000717",
+          "matchedName": "Sunfeast Glucose Biscuit"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Nice Coconut Biscuits",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Nice",
+            "productType": "sugar-showered biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7ff3",
+          "matchedBarcode": "8904030000295",
+          "matchedName": "Sunfeast Nice Sugar Showered Coconut Biscuits"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Coconut Biscuits",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Coconut",
+            "productType": "coconut biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7ff3",
+          "matchedBarcode": "8904030000295",
+          "matchedName": "Sunfeast Nice Sugar Showered Coconut Biscuits"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Farmlite Oats & Almonds",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Farmlite (Oats & Almonds)",
+            "productType": "health biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb46b662db8d3afc56f",
+          "matchedBarcode": "8908400001257",
+          "matchedName": "Sunfeast Farmlite Oats & Almond"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Farmlite Oats & Raisins",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Farmlite (Oats & Raisins)",
+            "productType": "health biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb76b662db8d3afc572",
+          "matchedBarcode": "8908400001233",
+          "matchedName": "Sunfeast Farmlite 5 Seed Digestive"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Farmlite Digestive High Fibre",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Farmlite (Digestive)",
+            "productType": "digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb76b662db8d3afc572",
+          "matchedBarcode": "8908400001233",
+          "matchedName": "Sunfeast Farmlite 5 Seed Digestive"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Farmlite Veda Digestive",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Everyday & Tea-Time",
+            "variant": "Farmlite (Veda Digestive)",
+            "productType": "ayurvedic digestive biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cb76b662db8d3afc572",
+          "matchedBarcode": "8908400001233",
+          "matchedName": "Sunfeast Farmlite 5 Seed Digestive"
+        },
+        {
+          "item": {
+            "name": "Sunfeast Bounce Tangy Tomato",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Sunfeast",
+            "subBrand": "Creams & Fun",
+            "variant": "Bounce (Tangy Tomato)",
+            "productType": "savoury biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae4425bbc667e292a0dd37c",
+          "matchedBarcode": "8901725134723",
+          "matchedName": "Sunfeast Bounce Choco Twist Creme Biscuits"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Sunfeast Marie Light Original",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Marie Light (Original)",
+          "productType": "tea biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Marie Light Vita",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Marie Light (Vita)",
+          "productType": "tea biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Snacky Salted Crackers",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Snacky (salted crackers)",
+          "productType": "salted cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Farmlite 5 Grain Biscuits",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Everyday & Tea-Time",
+          "variant": "Farmlite (5 Grain)",
+          "productType": "multigrain biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Bounce Chocolate Creme",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Bounce (Chocolate)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Bounce Orange Creme",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Bounce (Orange)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Bounce Pineapple Creme",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Bounce (Pineapple)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Bounce Elaichi Creme",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Bounce (Elaichi)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Dream Cream Chocolate",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Dream Cream (Chocolate)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Dream Cream Strawberry",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Dream Cream (Strawberry)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Dream Cream Butterscotch",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Dream Cream (Butterscotch)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Dream Cream Vanilla",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Dream Cream (Vanilla)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Caker Swiss Roll",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Caker (Swiss Roll)",
+          "productType": "swiss roll",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Sunfeast Caker Trinity",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Caker (Trinity)",
+          "productType": "triple layer cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Sunfeast Caker Choco Layer",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Sunfeast",
+          "subBrand": "Creams & Fun",
+          "variant": "Caker (Choco Layer)",
+          "productType": "layer cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        }
+      ]
+    },
+    "Biscoff": {
+      "checked": 9,
+      "available": [
+        {
+          "item": {
+            "name": "Lotus Biscoff Vanilla Cream Sandwich Biscuits",
+            "parentBrand": "Lotus Bakeries",
+            "brand": "Lotus Biscoff",
+            "subBrand": "Sandwich Creams",
+            "variant": "Vanilla Cream",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40cfc6b662db8d3afc5d6",
+          "matchedBarcode": "8908400002315",
+          "matchedName": "Lotus Biscoff Biscoff Vanilla"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Lotus Biscoff Original Caramelized Biscuits",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Biscuits",
+          "variant": "Original Caramelized (standard packs)",
+          "productType": "speculoos biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Lotus Biscoff Single Catering Packs",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Biscuits",
+          "variant": "catering single-packs",
+          "productType": "speculoos biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Lotus Biscoff Family Pack Biscuits",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Biscuits",
+          "variant": "family packs",
+          "productType": "speculoos biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Lotus Biscoff Cream Sandwich Biscuits",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Sandwich Creams",
+          "variant": "Biscoff Cream Biscuits (Biscoff Cream)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Lotus Biscoff Milk Chocolate Cream Sandwich Biscuits",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Sandwich Creams",
+          "variant": "Milk Chocolate Cream",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Lotus Biscoff Spread Smooth",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Spreads & Toppings",
+          "variant": "Biscoff Spread (Smooth)",
+          "productType": "cookie butter spread",
+          "category": "Snacks & Spreads",
+          "subCategory": "Spreads & Dips"
+        },
+        {
+          "name": "Lotus Biscoff Spread Crunchy",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Spreads & Toppings",
+          "variant": "Biscoff Spread (Crunchy)",
+          "productType": "cookie butter spread",
+          "category": "Snacks & Spreads",
+          "subCategory": "Spreads & Dips"
+        },
+        {
+          "name": "Lotus Biscoff Crumbs for Baking",
+          "parentBrand": "Lotus Bakeries",
+          "brand": "Lotus Biscoff",
+          "subBrand": "Spreads & Toppings",
+          "variant": "Biscoff Crumbs (for baking/desserts)",
+          "productType": "baking crumbs",
+          "category": "Pantry & Grains",
+          "subCategory": "Baking Supplies"
+        }
+      ]
+    },
+    "Cremica": {
+      "checked": 27,
+      "available": [
+        {
+          "item": {
+            "name": "Cremica Butter Cookies",
+            "parentBrand": "Cremica",
+            "brand": "Cremica",
+            "subBrand": "Cookies & Creams",
+            "variant": "Butter",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6af40cfe6b662db8d3afc5d9",
+          "matchedBarcode": "8908400002391",
+          "matchedName": "Cremica Butter Cookies"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Cremica Jeera Lite Crackers",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Jeera Lite",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Ajwain Crackers",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Ajwain",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Classic Cracker",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Classic Cracker",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Masala Cracker",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Masala Cracker",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Herbs & Spice Crackers",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Herbs & Spice",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Digestive Crackers",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Crackers & Savoury",
+          "variant": "Digestive",
+          "productType": "digestive cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Non-Stop Potato Crackers Masala",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Non-Stop (Masala)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Non-Stop Potato Crackers Cheese",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Non-Stop (Cheese)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Non-Stop Potato Crackers Barbeque",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Non-Stop (Barbeque)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Non-Stop Potato Crackers Cream & Onion",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Non-Stop (Cream & Onion)",
+          "productType": "potato cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Bourbon Sandwich Biscuits",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Coconut Cookies",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Coconut",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Cashew Cookies",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Cashew",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Choco Chip Cookies",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Choco Chip",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Golden Cream Chocolate",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Chocolate)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Golden Cream Vanilla",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Vanilla)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Golden Cream Strawberry",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Strawberry)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Golden Cream Orange",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Orange)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Golden Cream Pineapple",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Pineapple)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Golden Cream Elaichi",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Cookies & Creams",
+          "variant": "Golden Cream (Elaichi)",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Opera Wafers Chocolate",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Opera Wafers (Chocolate)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Opera Wafers Vanilla",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Opera Wafers (Vanilla)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Opera Wafers Strawberry",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Opera Wafers (Strawberry)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Opera Wafers Orange",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Opera Wafers (Orange)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Opera Wafers Hazelnut",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Opera Wafers (Hazelnut)",
+          "productType": "wafer",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Cremica Elaichi & Suji Rusks",
+          "parentBrand": "Cremica",
+          "brand": "Cremica",
+          "subBrand": "Wafers & Rusks",
+          "variant": "Elaichi & Suji Rusks",
+          "productType": "rusk",
+          "category": "Bakery & Breads",
+          "subCategory": "Bakery & Breads"
+        }
+      ]
+    },
+    "Mom's Magic": {
+      "checked": 10,
+      "available": [
+        {
+          "item": {
+            "name": "Sunfeast Mom's Magic Cashew & Almond Cookies",
+            "parentBrand": "ITC Sunfeast",
+            "brand": "Mom's Magic",
+            "subBrand": "Classic Cookies",
+            "variant": "Cashew & Almond",
+            "productType": "cookie",
+            "category": "Snacks & Spreads",
+            "subCategory": "Cookies"
+          },
+          "matchedId": "6ae2dc7b94042f06e45df18c",
+          "matchedBarcode": "8901725013899",
+          "matchedName": "Sunfeast Mom's Magic Cashew & Almond Cookies"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Sunfeast Mom's Magic Rich Butter Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Classic Cookies",
+          "variant": "Rich Butter",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Fruit & Milk Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Classic Cookies",
+          "variant": "Fruit & Milk",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Roasted Almond Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Classic Cookies",
+          "variant": "Roasted Almond",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Choco Chip Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Choco Chip",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Golden Edition Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Golden Edition (Assorted Dry Fruits)",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Butter Jeera Cookies",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Butter Jeera",
+          "productType": "cookie",
+          "category": "Snacks & Spreads",
+          "subCategory": "Cookies"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Marie Biscuits",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Marie",
+          "productType": "tea biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Fruit Cake",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Mom's Magic Cake (Fruit)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        },
+        {
+          "name": "Sunfeast Mom's Magic Choco Cake",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Mom's Magic",
+          "subBrand": "Premium & Fills",
+          "variant": "Mom's Magic Cake (Choco)",
+          "productType": "cake",
+          "category": "Bakery & Breads",
+          "subCategory": "Packaged Cakes & Muffins"
+        }
+      ]
+    },
+    "Bourbon": {
+      "checked": 8,
+      "available": [
+        {
+          "item": {
+            "name": "Britannia Bourbon Original Chocolate Cream",
+            "parentBrand": "Britannia",
+            "brand": "Bourbon",
+            "subBrand": "Britannia Bourbon",
+            "variant": "Original Chocolate Cream with sugar crystals",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fe0",
+          "matchedBarcode": "8904030000103",
+          "matchedName": "Britannia Bourbon Chocolate Cream Biscuits"
+        },
+        {
+          "item": {
+            "name": "Parle Fab! Bourbon Classic Chocolate",
+            "parentBrand": "Parle",
+            "brand": "Bourbon",
+            "subBrand": "Parle Fab! Bourbon",
+            "variant": "Classic Chocolate Bourbon",
+            "productType": "cream biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af2dd0ad29d58af959a7fea",
+          "matchedBarcode": "8904030000202",
+          "matchedName": "Parle Bourbon Chocolate Cream Biscuits"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Britannia Dark Chocolate Bourbon",
+          "parentBrand": "Britannia",
+          "brand": "Bourbon",
+          "subBrand": "Britannia Bourbon",
+          "variant": "Dark Chocolate Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Mint Chocolate Bourbon",
+          "parentBrand": "Britannia",
+          "brand": "Bourbon",
+          "subBrand": "Britannia Bourbon",
+          "variant": "Mint Chocolate Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Sunfeast Dark Fantasy Bourbon",
+          "parentBrand": "ITC Sunfeast",
+          "brand": "Bourbon",
+          "subBrand": "Sunfeast Dark Fantasy Bourbon",
+          "variant": "Rich dark choco cream bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Cremica Bourbon Sandwich Biscuits",
+          "parentBrand": "Cremica",
+          "brand": "Bourbon",
+          "subBrand": "Cremica Bourbon",
+          "variant": "Cremica Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Bisk Farm Bourbon Sandwich Biscuits",
+          "parentBrand": "Bisk Farm",
+          "brand": "Bourbon",
+          "subBrand": "Bisk Farm Bourbon",
+          "variant": "Bisk Farm Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Unibic Bourbon Sandwich Biscuits",
+          "parentBrand": "Unibic",
+          "brand": "Bourbon",
+          "subBrand": "Unibic Bourbon",
+          "variant": "Unibic Bourbon",
+          "productType": "cream biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        }
+      ]
+    },
+    "50-50": {
+      "checked": 9,
+      "available": [
+        {
+          "item": {
+            "name": "Britannia 50-50 Sweet & Salty",
+            "parentBrand": "Britannia",
+            "brand": "50-50",
+            "subBrand": "Classic Crackers",
+            "variant": "Sweet & Salty",
+            "productType": "cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40d586b662db8d3afc675",
+          "matchedBarcode": "8908400004036",
+          "matchedName": "Britannia 50-50 Sweet & Salty"
+        },
+        {
+          "item": {
+            "name": "Britannia 50-50 Maska Chaska",
+            "parentBrand": "Britannia",
+            "brand": "50-50",
+            "subBrand": "Classic Crackers",
+            "variant": "Maska Chaska (butter & herbs)",
+            "productType": "cracker",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6af40e534aabf64c2f0c3cd4",
+          "matchedBarcode": "8908400000601",
+          "matchedName": "Britannia 50-50 Maska Chaska"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Britannia 50-50 Jeera Crackers",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Classic Crackers",
+          "variant": "Jeera",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Timepass Salted Crackers",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Classic Crackers",
+          "variant": "Timepass (salted snacks/crackers)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Golmaal Black Pepper & Sweet",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Flavoured & Special",
+          "variant": "Golmaal (black pepper & sweet)",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Potazos Masala",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Flavoured & Special",
+          "variant": "Potazos (Masala)",
+          "productType": "potato biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Potazos Masti",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Flavoured & Special",
+          "variant": "Potazos (Masti)",
+          "productType": "potato biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Potazos Mint",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Flavoured & Special",
+          "variant": "Potazos (Mint)",
+          "productType": "potato biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia 50-50 Chaska Maska Herbs",
+          "parentBrand": "Britannia",
+          "brand": "50-50",
+          "subBrand": "Flavoured & Special",
+          "variant": "Chaska Maska Herbs",
+          "productType": "cracker",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        }
+      ]
+    },
+    "Jim Jam": {
+      "checked": 3,
+      "available": [
+        {
+          "item": {
+            "name": "Britannia Treat Jim Jam Original",
+            "parentBrand": "Britannia",
+            "brand": "Jim Jam",
+            "subBrand": "Classic Variants",
+            "variant": "Britannia Treat Jim Jam (vanilla cream + fruity jam dollop with sugar crystals)",
+            "productType": "jam filled biscuit",
+            "category": "Snacks & Spreads",
+            "subCategory": "Biscuits"
+          },
+          "matchedId": "6ae4425cbc667e292a0dd37e",
+          "matchedBarcode": "8901063029323",
+          "matchedName": "Britannia Treat Jim Jam Biscuits"
+        }
+      ],
+      "missing": [
+        {
+          "name": "Britannia Treat Jim Jam Pops",
+          "parentBrand": "Britannia",
+          "brand": "Jim Jam",
+          "subBrand": "Newer Editions",
+          "variant": "Jim Jam Pops (open-faced single biscuit with cream & jam topping, no top biscuit)",
+          "productType": "open-faced jam biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        },
+        {
+          "name": "Britannia Treat Jim Jam Choco",
+          "parentBrand": "Britannia",
+          "brand": "Jim Jam",
+          "subBrand": "Newer Editions",
+          "variant": "Jim Jam Choco (chocolate biscuit base with cream & jam)",
+          "productType": "chocolate jam biscuit",
+          "category": "Snacks & Spreads",
+          "subCategory": "Biscuits"
+        }
+      ]
+    }
+  },
+  "missing": [
+    {
+      "name": "Oreo Golden Vanilla Sandwich Biscuits",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Classic Sandwich Creams",
+      "variant": "Golden Oreo",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Oreo Choco-Brownie Creme Biscuits",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Indian & Fusion Editions",
+      "variant": "Choco-Brownie",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Oreo Red Velvet Creme Biscuits",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Indian & Fusion Editions",
+      "variant": "Red Velvet",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Oreo Peanut Butter & Chocolate Creme Biscuits",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Indian & Fusion Editions",
+      "variant": "Peanut Butter & Chocolate",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Oreo O's Breakfast Cereal",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Snacks & Formats",
+      "variant": "Oreo O's (cereal)",
+      "productType": "cereal",
+      "category": "Cereals & Breakfast",
+      "subCategory": "Kids' Cereals"
+    },
+    {
+      "name": "Oreo Wafer Rolls Vanilla",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Snacks & Formats",
+      "variant": "Wafer Rolls (Vanilla)",
+      "productType": "wafer roll",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Oreo Wafer Rolls Chocolate",
+      "parentBrand": "Mondelez",
+      "brand": "Oreo",
+      "subBrand": "Snacks & Formats",
+      "variant": "Wafer Rolls (Chocolate)",
+      "productType": "wafer roll",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Original Choco Fills",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Choco Fills",
+      "variant": "Original Choco Fills",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Choco Fills Luxuria",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Choco Fills",
+      "variant": "Choco Fills Luxuria",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Choco Fills Almond",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Choco Fills",
+      "variant": "Choco Fills Almond",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Choco Fills Hazelnut",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Choco Fills",
+      "variant": "Choco Fills Hazelnut",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Yumfills Pie",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Desserts & Cakes",
+      "variant": "Yumfills Pie (marshmallow-filled choco pie)",
+      "productType": "choco pie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Yumfills Whoopie Pie",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Desserts & Cakes",
+      "variant": "Yumfills Whoopie Pie",
+      "productType": "whoopie pie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Choco Wafer Sticks",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Dark Fantasy",
+      "subBrand": "Wafers & Biscuits",
+      "variant": "Choco Wafer Sticks",
+      "productType": "wafer stick",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Pista Badam Cookies",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Classic Cookies",
+      "variant": "Pista Badam",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Chunkies Choco Chip",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Chunkies (Choco Chip)",
+      "productType": "chunky cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Chunkies Triple Choco Chip",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Chunkies (Triple Choco Chip)",
+      "productType": "chunky cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Harmony Dry Fruit Cookies",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Harmony (assorted dry fruits)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Wonderfulls Choco Nut",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Wonderfulls (Choco Nut)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Wonderfulls Butter Almond",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Wonderfulls (Butter Almond)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Wonderfulls Mixed Berries",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Wonderfulls (Mixed Berries)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Fruit & Nut Cookies",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Fruit & Nut",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Good Day Chocochip Hazelnut Cookies",
+      "parentBrand": "Britannia",
+      "brand": "Good Day",
+      "subBrand": "Premium & Special Editions",
+      "variant": "Chocochip Hazelnut",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Original Chocolate Chip Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Moulded Choco-Chip Cookies",
+      "variant": "Original Chocolate Chip",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Choco Rolls",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Moulded Choco-Chip Cookies",
+      "variant": "Choco Rolls (wafer rolls)",
+      "productType": "wafer roll",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Caffe Mocha Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Moulded Choco-Chip Cookies",
+      "variant": "Caffe Mocha",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Almond Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Moulded Choco-Chip Cookies",
+      "variant": "Almond",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Fab! Vanilla Creme",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Sandwich Creams",
+      "variant": "Hide & Seek Fab! (Vanilla)",
+      "productType": "sandwich cream",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Hide & Seek Fab! Chocolate Creme",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Sandwich Creams",
+      "variant": "Hide & Seek Fab! (Chocolate)",
+      "productType": "sandwich cream",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Hide & Seek Fab! Strawberry Creme",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Sandwich Creams",
+      "variant": "Hide & Seek Fab! (Strawberry)",
+      "productType": "sandwich cream",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Hide & Seek Fab! Orange Creme",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Sandwich Creams",
+      "variant": "Hide & Seek Fab! (Orange)",
+      "productType": "sandwich cream",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Milano Chocolate Chip Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Milano Series",
+      "variant": "Milano (Chocolate Chip)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Milano Dark Choco Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Milano Series",
+      "variant": "Milano (Dark Choco)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Milano Butter Nut Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Milano Series",
+      "variant": "Milano (Butter Nut)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Milano Centre-filled Hazelnut Cookies",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Milano Series",
+      "variant": "Milano (Centre-filled Choco/Hazelnut)",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Hide & Seek Choco Chip Minis",
+      "parentBrand": "Parle",
+      "brand": "Hide & Seek",
+      "subBrand": "Mini Formats",
+      "variant": "Hide & Seek Choco Chip Minis",
+      "productType": "mini cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Pistachio Badam Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Classic & Gourmet Cookies",
+      "variant": "Pistachio Badam",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Honey Oatmeal Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Classic & Gourmet Cookies",
+      "variant": "Honey Oatmeal",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Ginger Nut Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Classic & Gourmet Cookies",
+      "variant": "Ginger Nut",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Doosra Jeera Ajwain Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Classic & Gourmet Cookies",
+      "variant": "Doosra (Jeera/Ajwain)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Milk Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Classic & Gourmet Cookies",
+      "variant": "Milk",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Sugar-Free Oatmeal Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Sugar-Free (Oatmeal)",
+      "productType": "sugar-free cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Sugar-Free Butter Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Sugar-Free (Butter)",
+      "productType": "sugar-free cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Sugar-Free Choco Chip Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Sugar-Free (Choco Chip)",
+      "productType": "sugar-free cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Sugar-Free Multigrain Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Sugar-Free (Multigrain)",
+      "productType": "sugar-free cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Bajra Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Bajra cookies",
+      "productType": "millet cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Jowar Cookies",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Health & Diet Range",
+      "variant": "Jowar cookies",
+      "productType": "millet cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Snappers Potato Crackers Cream & Onion",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Unibic Snappers (Cream & Onion)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Unibic Snappers Potato Crackers Peri Peri",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Unibic Snappers (Peri Peri)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Unibic Snappers Potato Crackers Masala",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Unibic Snappers (Masala)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Unibic Snappers Potato Crackers Cheese",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Unibic Snappers (Cheese)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Unibic Wafers Chocolate",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Wafers (Chocolate)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Wafers Strawberry",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Wafers (Strawberry)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Unibic Wafers Orange",
+      "parentBrand": "Unibic",
+      "brand": "Unibic",
+      "subBrand": "Wafers & Snacks",
+      "variant": "Wafers (Orange)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Top Salt Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Top (Salt)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Just Ginger Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Just Ginger",
+      "productType": "biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Just Elaichi Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Just Elaichi",
+      "productType": "biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Spicy Jeera Ajwain Crackers",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Spicy (Jeera/Ajwain)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Googly Sweet & Salty Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Googly (sweet & salty)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Milk Shakti Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Milk Shakti",
+      "productType": "milk biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Ruskit Premium Rusks",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Cookies & Biscuits",
+      "variant": "Ruskit (rusks)",
+      "productType": "rusk",
+      "category": "Bakery & Breads",
+      "subCategory": "Bakery & Breads"
+    },
+    {
+      "name": "Bisk Farm Burst Center-Filled Choco",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Burst (center-filled choco)",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Treat Cream Orange",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat-style Creams (Orange)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Treat Cream Pineapple",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat-style Creams (Pineapple)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Treat Cream Elaichi",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat-style Creams (Elaichi)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Treat Cream Chocolate",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat-style Creams (Chocolate)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Treat Cream Vanilla",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat-style Creams (Vanilla)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Exotic Wafers Chocolate",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Exotic Wafers (Chocolate)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Exotic Wafers Vanilla",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Exotic Wafers (Vanilla)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Exotic Wafers Strawberry",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Exotic Wafers (Strawberry)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Exotic Wafers Orange",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Creams & Wafers",
+      "variant": "Exotic Wafers (Orange)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Bisk Farm Fruit Cake",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Bisk Farm Cake (Fruit)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Bisk Farm Choco Cake",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Bisk Farm Cake (Choco)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Bisk Farm Vanilla Cake",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Bisk Farm Cake (Vanilla)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Bisk Farm Marble Cake",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Bisk Farm Cake (Marble)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Bisk Farm Swiss Rolls",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Swiss Rolls",
+      "productType": "swiss roll",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Bisk Farm Muffins",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bisk Farm",
+      "subBrand": "Bakery & Cakes",
+      "variant": "Muffins",
+      "productType": "muffin",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Britannia Marie Gold Original",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Marie Gold (Original)",
+      "productType": "tea biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Marie Gold Vita",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Marie Gold (Vita)",
+      "productType": "tea biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Milk Bikis Classic",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Milk Bikis (Classic)",
+      "productType": "milk biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Tiger Krunch Choco Chip",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Tiger (Krunch Choco Chip)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Little Hearts Original Sugar Glazed",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Little Hearts (Original sugar-glazed)",
+      "productType": "puff biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Little Hearts Strawberry",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Little Hearts (Strawberry)",
+      "productType": "puff biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia NutriChoice Oats with Almond & Orange",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Health & Digestive",
+      "variant": "NutriChoice (Oats with Almond/Orange)",
+      "productType": "oat cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia NutriChoice Seed & Herb",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Health & Digestive",
+      "variant": "NutriChoice (Seed & Herb)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia NutriChoice Sugar-Free Cracker",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Health & Digestive",
+      "variant": "NutriChoice (Sugar-Free Cracker)",
+      "productType": "sugar-free cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Treat Pineapple Cream",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat (Pineapple)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Treat Burst",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat (Burst)",
+      "productType": "center-filled biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Treat Croissant",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Treat (Croissant)",
+      "productType": "croissant",
+      "category": "Bakery & Breads",
+      "subCategory": "Bakery & Breads"
+    },
+    {
+      "name": "Britannia Pure Magic Chocolush",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Pure Magic (Chocolush)",
+      "productType": "center-filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Pure Magic Deuce",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Pure Magic (Deuce)",
+      "productType": "chocolate topped biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Pure Magic Stars",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Pure Magic (Stars)",
+      "productType": "chocolate filled cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Britannia Pure Magic Vanilla Choco Cream",
+      "parentBrand": "Britannia",
+      "brand": "Britannia",
+      "subBrand": "Creams & Wafers",
+      "variant": "Pure Magic (Vanilla/Choco cream)",
+      "productType": "sandwich cream",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle-G Oats & Berries Biscuits",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Glucose & Milk",
+      "variant": "Parle-G (Oats & Berries)",
+      "productType": "health biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle-G Chhota Bheem Edition",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Glucose & Milk",
+      "variant": "Parle-G (Chhota Bheem editions)",
+      "productType": "glucose biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Milk Shakti Biscuits",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Glucose & Milk",
+      "variant": "Milk Shakti",
+      "productType": "milk biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Krackjack Sweet & Salty",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "Krackjack (sweet & salty)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Monaco Classic Salted",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "Monaco (Classic Salted)",
+      "productType": "salted cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Monaco Pizza",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "Monaco (Pizza)",
+      "productType": "pizza cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Monaco Cheeslings",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "Monaco (Cheeslings)",
+      "productType": "cheese bites",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Nimkin Jeera Ajwain",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "Nimkin (jeera/ajwain)",
+      "productType": "savoury cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle 20-20 Cashew Cookies",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "20-20 (Cashew)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle 20-20 Butter Cookies",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "20-20 (Butter)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle 20-20 Nice Coconut",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Sweet & Savoury",
+      "variant": "20-20 (Nice)",
+      "productType": "coconut biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Magix Chocolate Cream",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Magix (Chocolate)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Magix Vanilla Cream",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Magix (Vanilla)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Magix Strawberry Cream",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Magix (Strawberry)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Magix Orange Cream",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Magix (Orange)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Platina Nutricrunch Honey Oats",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Nutricrunch Honey Oats",
+      "productType": "oat cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Happy Happy Choco-chip Cookies",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Happy Happy (Choco-chip)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Parle Fab! Orange Creme",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Fab! (Orange)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Fab! Vanilla Creme",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Fab! (Vanilla)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Fab! Strawberry Creme",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Fab! (Strawberry)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Parle Golden Arcs Cakes & Rusks",
+      "parentBrand": "Parle",
+      "brand": "Parle",
+      "subBrand": "Creams, Cookies & Cakes",
+      "variant": "Golden Arcs (cakes/rusks)",
+      "productType": "cake/rusk",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Sunfeast Marie Light Original",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Marie Light (Original)",
+      "productType": "tea biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Marie Light Vita",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Marie Light (Vita)",
+      "productType": "tea biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Snacky Salted Crackers",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Snacky (salted crackers)",
+      "productType": "salted cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Farmlite 5 Grain Biscuits",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Everyday & Tea-Time",
+      "variant": "Farmlite (5 Grain)",
+      "productType": "multigrain biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Bounce Chocolate Creme",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Bounce (Chocolate)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Bounce Orange Creme",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Bounce (Orange)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Bounce Pineapple Creme",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Bounce (Pineapple)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Bounce Elaichi Creme",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Bounce (Elaichi)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Dream Cream Chocolate",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Dream Cream (Chocolate)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Dream Cream Strawberry",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Dream Cream (Strawberry)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Dream Cream Butterscotch",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Dream Cream (Butterscotch)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Dream Cream Vanilla",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Dream Cream (Vanilla)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Caker Swiss Roll",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Caker (Swiss Roll)",
+      "productType": "swiss roll",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Sunfeast Caker Trinity",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Caker (Trinity)",
+      "productType": "triple layer cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Sunfeast Caker Choco Layer",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Sunfeast",
+      "subBrand": "Creams & Fun",
+      "variant": "Caker (Choco Layer)",
+      "productType": "layer cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Lotus Biscoff Original Caramelized Biscuits",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Biscuits",
+      "variant": "Original Caramelized (standard packs)",
+      "productType": "speculoos biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Lotus Biscoff Single Catering Packs",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Biscuits",
+      "variant": "catering single-packs",
+      "productType": "speculoos biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Lotus Biscoff Family Pack Biscuits",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Biscuits",
+      "variant": "family packs",
+      "productType": "speculoos biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Lotus Biscoff Cream Sandwich Biscuits",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Sandwich Creams",
+      "variant": "Biscoff Cream Biscuits (Biscoff Cream)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Lotus Biscoff Milk Chocolate Cream Sandwich Biscuits",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Sandwich Creams",
+      "variant": "Milk Chocolate Cream",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Lotus Biscoff Spread Smooth",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Spreads & Toppings",
+      "variant": "Biscoff Spread (Smooth)",
+      "productType": "cookie butter spread",
+      "category": "Snacks & Spreads",
+      "subCategory": "Spreads & Dips"
+    },
+    {
+      "name": "Lotus Biscoff Spread Crunchy",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Spreads & Toppings",
+      "variant": "Biscoff Spread (Crunchy)",
+      "productType": "cookie butter spread",
+      "category": "Snacks & Spreads",
+      "subCategory": "Spreads & Dips"
+    },
+    {
+      "name": "Lotus Biscoff Crumbs for Baking",
+      "parentBrand": "Lotus Bakeries",
+      "brand": "Lotus Biscoff",
+      "subBrand": "Spreads & Toppings",
+      "variant": "Biscoff Crumbs (for baking/desserts)",
+      "productType": "baking crumbs",
+      "category": "Pantry & Grains",
+      "subCategory": "Baking Supplies"
+    },
+    {
+      "name": "Cremica Jeera Lite Crackers",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Jeera Lite",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Ajwain Crackers",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Ajwain",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Classic Cracker",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Classic Cracker",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Masala Cracker",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Masala Cracker",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Herbs & Spice Crackers",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Herbs & Spice",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Digestive Crackers",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Crackers & Savoury",
+      "variant": "Digestive",
+      "productType": "digestive cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Non-Stop Potato Crackers Masala",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Non-Stop (Masala)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Non-Stop Potato Crackers Cheese",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Non-Stop (Cheese)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Non-Stop Potato Crackers Barbeque",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Non-Stop (Barbeque)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Non-Stop Potato Crackers Cream & Onion",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Non-Stop (Cream & Onion)",
+      "productType": "potato cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Bourbon Sandwich Biscuits",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Coconut Cookies",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Coconut",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Cashew Cookies",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Cashew",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Choco Chip Cookies",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Choco Chip",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Golden Cream Chocolate",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Chocolate)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Golden Cream Vanilla",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Vanilla)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Golden Cream Strawberry",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Strawberry)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Golden Cream Orange",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Orange)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Golden Cream Pineapple",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Pineapple)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Golden Cream Elaichi",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Cookies & Creams",
+      "variant": "Golden Cream (Elaichi)",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Opera Wafers Chocolate",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Opera Wafers (Chocolate)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Opera Wafers Vanilla",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Opera Wafers (Vanilla)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Opera Wafers Strawberry",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Opera Wafers (Strawberry)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Opera Wafers Orange",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Opera Wafers (Orange)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Opera Wafers Hazelnut",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Opera Wafers (Hazelnut)",
+      "productType": "wafer",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Cremica Elaichi & Suji Rusks",
+      "parentBrand": "Cremica",
+      "brand": "Cremica",
+      "subBrand": "Wafers & Rusks",
+      "variant": "Elaichi & Suji Rusks",
+      "productType": "rusk",
+      "category": "Bakery & Breads",
+      "subCategory": "Bakery & Breads"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Rich Butter Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Classic Cookies",
+      "variant": "Rich Butter",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Fruit & Milk Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Classic Cookies",
+      "variant": "Fruit & Milk",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Roasted Almond Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Classic Cookies",
+      "variant": "Roasted Almond",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Choco Chip Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Choco Chip",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Golden Edition Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Golden Edition (Assorted Dry Fruits)",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Butter Jeera Cookies",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Butter Jeera",
+      "productType": "cookie",
+      "category": "Snacks & Spreads",
+      "subCategory": "Cookies"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Marie Biscuits",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Marie",
+      "productType": "tea biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Fruit Cake",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Mom's Magic Cake (Fruit)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Sunfeast Mom's Magic Choco Cake",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Mom's Magic",
+      "subBrand": "Premium & Fills",
+      "variant": "Mom's Magic Cake (Choco)",
+      "productType": "cake",
+      "category": "Bakery & Breads",
+      "subCategory": "Packaged Cakes & Muffins"
+    },
+    {
+      "name": "Britannia Dark Chocolate Bourbon",
+      "parentBrand": "Britannia",
+      "brand": "Bourbon",
+      "subBrand": "Britannia Bourbon",
+      "variant": "Dark Chocolate Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Mint Chocolate Bourbon",
+      "parentBrand": "Britannia",
+      "brand": "Bourbon",
+      "subBrand": "Britannia Bourbon",
+      "variant": "Mint Chocolate Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Sunfeast Dark Fantasy Bourbon",
+      "parentBrand": "ITC Sunfeast",
+      "brand": "Bourbon",
+      "subBrand": "Sunfeast Dark Fantasy Bourbon",
+      "variant": "Rich dark choco cream bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Cremica Bourbon Sandwich Biscuits",
+      "parentBrand": "Cremica",
+      "brand": "Bourbon",
+      "subBrand": "Cremica Bourbon",
+      "variant": "Cremica Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Bisk Farm Bourbon Sandwich Biscuits",
+      "parentBrand": "Bisk Farm",
+      "brand": "Bourbon",
+      "subBrand": "Bisk Farm Bourbon",
+      "variant": "Bisk Farm Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Unibic Bourbon Sandwich Biscuits",
+      "parentBrand": "Unibic",
+      "brand": "Bourbon",
+      "subBrand": "Unibic Bourbon",
+      "variant": "Unibic Bourbon",
+      "productType": "cream biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Jeera Crackers",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Classic Crackers",
+      "variant": "Jeera",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Timepass Salted Crackers",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Classic Crackers",
+      "variant": "Timepass (salted snacks/crackers)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Golmaal Black Pepper & Sweet",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Flavoured & Special",
+      "variant": "Golmaal (black pepper & sweet)",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Potazos Masala",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Flavoured & Special",
+      "variant": "Potazos (Masala)",
+      "productType": "potato biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Potazos Masti",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Flavoured & Special",
+      "variant": "Potazos (Masti)",
+      "productType": "potato biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Potazos Mint",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Flavoured & Special",
+      "variant": "Potazos (Mint)",
+      "productType": "potato biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia 50-50 Chaska Maska Herbs",
+      "parentBrand": "Britannia",
+      "brand": "50-50",
+      "subBrand": "Flavoured & Special",
+      "variant": "Chaska Maska Herbs",
+      "productType": "cracker",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Treat Jim Jam Pops",
+      "parentBrand": "Britannia",
+      "brand": "Jim Jam",
+      "subBrand": "Newer Editions",
+      "variant": "Jim Jam Pops (open-faced single biscuit with cream & jam topping, no top biscuit)",
+      "productType": "open-faced jam biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    },
+    {
+      "name": "Britannia Treat Jim Jam Choco",
+      "parentBrand": "Britannia",
+      "brand": "Jim Jam",
+      "subBrand": "Newer Editions",
+      "variant": "Jim Jam Choco (chocolate biscuit base with cream & jam)",
+      "productType": "chocolate jam biscuit",
+      "category": "Snacks & Spreads",
+      "subCategory": "Biscuits"
+    }
+  ]
+}

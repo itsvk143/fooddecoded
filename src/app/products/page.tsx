@@ -57,6 +57,21 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
   const catParam = params.category?.toLowerCase() || "";
   const subParam = params.subCategory?.toLowerCase() || "";
 
+  const isNoodlesReadyToEat =
+    catParam === "noodles-ready-to-eat" ||
+    catParam === "noodles & ready-to-eat" ||
+    subParam === "instant noodles" ||
+    subParam === "atta & healthy noodles" ||
+    subParam === "cup & bowl noodles" ||
+    subParam === "hakka & flat noodles" ||
+    subParam === "instant pasta" ||
+    subParam === "instant & cook-up soups" ||
+    subParam === "heat & eat ready meals" ||
+    subParam === "3-minute breakfast & mixes" ||
+    subParam === "instant dessert & sweet mixes" ||
+    subParam === "diy wok kits & stir-fry cooking sauces" ||
+    subParam === "asian dips & chilli oils";
+
   const isColdDrinks =
     catParam === "cold-drinks" ||
     catParam === "cold drinks" ||
@@ -155,7 +170,9 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     catParam === "baked-chips-makhana-unjunked-indian-snacks" ||
     catParam === "baked chips, makhana & unjunked indian snacks";
 
-  const pageTitle = isHealthyBars
+  const pageTitle = isNoodlesReadyToEat
+    ? "Explore Noodles & Ready-to-Eat"
+    : isHealthyBars
     ? "Explore Protein & Clean-Label Bars / Wafers"
     : isDryFruits
     ? "Explore Dry Fruits, Nuts, Seeds & Trail Mixes"
@@ -185,7 +202,9 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     ? "Explore Beverages & Drinks"
     : "Explore Food Products";
 
-  const pageDesc = isHealthyBars
+  const pageDesc = isNoodlesReadyToEat
+    ? `Compare instant noodles, air-dried ramyun, MSG, palm oil, sodium levels, heat & eat curries, and breakfast mixes across ${total} products.`
+    : isHealthyBars
     ? `Compare clean protein sources, whey isolate, date-sweetened recipes, and zero-chemical formulations across ${total} verified protein bars and wafers.`
     : isDryFruits
     ? `Inspect raw versus dry-roasted nuts, antioxidant seeds, omega-3 blends, and unpreserved dried fruits across ${total} pantry staples.`

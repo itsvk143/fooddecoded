@@ -13,6 +13,14 @@ async function main() {
   const rawCats = await db.collection("categories").find({}).toArray();
   rawCats.sort((a, b) => ((a.displayOrder || 0) - (b.displayOrder || 0)) || (a.name || "").localeCompare(b.name || ""));
 
+  const rawBrands = await db.collection("brands").find({}).toArray();
+  rawBrands.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+  const brands = rawBrands.map((b) => ({
+    slug: b.slug,
+    name: b.name,
+    country: b.country || "India",
+  }));
+
   const rawProds = await db.collection("products").find({}).toArray();
   rawProds.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
 
@@ -33,14 +41,13 @@ async function main() {
     return copy;
   });
 
-  // Extract SEED_BRANDS, SEED_RULES, SEED_SUBMISSIONS from current file
+  // Extract SEED_RULES, SEED_SUBMISSIONS from current file
   const currentContent = fs.readFileSync("src/lib/seed-data.ts", "utf8");
 
-  const brandsMatch = currentContent.match(/export const SEED_BRANDS: BrandRecord\[\] = \[([\s\S]*?)\];/);
   const rulesMatch = currentContent.match(/export const SEED_RULES: AnalysisRule\[\] = \[([\s\S]*?)\];/);
   const submissionsMatch = currentContent.match(/export const SEED_SUBMISSIONS: ProductSubmission\[\] = \[([\s\S]*?)\];/);
 
-  const brandsBlock = brandsMatch ? brandsMatch[0] : "export const SEED_BRANDS: BrandRecord[] = [];";
+  const brandsBlock = `export const SEED_BRANDS: BrandRecord[] = ${JSON.stringify(brands, null, 2)};`;
   const rulesBlock = rulesMatch ? rulesMatch[0] : "export const SEED_RULES: AnalysisRule[] = [];";
   const submissionsBlock = submissionsMatch ? submissionsMatch[0] : "export const SEED_SUBMISSIONS: ProductSubmission[] = [];";
 
