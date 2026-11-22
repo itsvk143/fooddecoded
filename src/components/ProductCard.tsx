@@ -12,13 +12,13 @@ interface ProductCardProps {
   product: ProductItem;
 }
 
-export function ProductCard({ product }: ProductCardProps) {
+function BaseProductCard({ product }: ProductCardProps) {
   const prodId = product.id || product._id || product.barcode;
 
   return (
     <Link
       href={`/products/${prodId}`}
-      className="group flex flex-col justify-between bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-4 shadow-xs hover:shadow-xl hover:border-emerald-500/50 dark:hover:border-emerald-500/50 transition-all duration-200 overflow-hidden"
+      className="product-card group flex flex-col justify-between bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-4 shadow-xs hover:shadow-xl hover:border-emerald-500/50 dark:hover:border-emerald-500/50 transition-all duration-200 overflow-hidden"
     >
       <div>
         {/* Top bar: Brand & Score */}
@@ -129,3 +129,6 @@ export function ProductCard({ product }: ProductCardProps) {
     </Link>
   );
 }
+
+export const ProductCard = React.memo(BaseProductCard);
+

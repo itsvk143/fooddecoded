@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Rendering performance optimization for large product listings */
+.product-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 320px 380px;
+}
+
