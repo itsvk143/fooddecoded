@@ -1,0 +1,35 @@
+{
+  "metrics": {
+    "totalAudited": 4906,
+    "correctlyCategorised": 4904,
+    "incorrectlyCategorised": 2,
+    "recategorised": 2,
+    "previouslyInMultipleCategories": 0,
+    "duplicateRecordsIdentified": 0,
+    "flaggedForManualReview": 0,
+    "withNoValidCategory": 0,
+    "finalProductsWithExactlyOneCategory": 4906
+  },
+  "corrections": [
+    {
+      "barcode": "8908010000589",
+      "name": "The Whole Truth 15g Protein Bar Double Cocoa",
+      "brand": "The Whole Truth",
+      "previousCategory": "Chocolates & Sweets",
+      "previousSubCategory": "Protein Chocolates",
+      "correctedCategory": "Protein & Clean-Label Bars / Wafers",
+      "correctedSubCategory": "Protein Bars",
+      "reason": "Fortified nutrition/protein bar formulated for athletic/dietary supplementation belongs in Protein & Clean-Label Bars / Wafers."
+    },
+    {
+      "barcode": "8908010000565",
+      "name": "Yoga Bar 20g Whey Protein Bar Rich Chocolate Brownie",
+      "brand": "Yoga Bar",
+      "previousCategory": "Chocolates & Sweets",
+      "previousSubCategory": "Protein Chocolates",
+      "correctedCategory": "Protein & Clean-Label Bars / Wafers",
+      "correctedSubCategory": "Protein Bars",
+      "reason": "Fortified nutrition/protein bar formulated for athletic/dietary supplementation belongs in Protein & Clean-Label Bars / Wafers."
+    }
+  ]
+}
