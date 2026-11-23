@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { queryProducts } from "@/lib/product-service";
 import { FiltersBar } from "@/components/FiltersBar";
 import { InfiniteProductList } from "@/components/InfiniteProductList";
 import { SEED_CATEGORIES, SEED_BRANDS } from "@/lib/seed-data";
 import { Sparkles } from "lucide-react";
+import { ProductsDirectorySkeleton } from "./loading";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +29,16 @@ interface ProductsPageProps {
 
 export default async function ProductsDirectoryPage({ searchParams }: ProductsPageProps) {
   const params = await searchParams;
+  const paramsKey = JSON.stringify(params);
 
+  return (
+    <Suspense key={paramsKey} fallback={<ProductsDirectorySkeleton />}>
+      <ProductsContent params={params} />
+    </Suspense>
+  );
+}
+
+async function ProductsContent({ params }: { params: any }) {
   const page = 1;
   const limit = 20;
 
@@ -49,6 +59,7 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
     sortOrder: params.sortBy === "name" ? "asc" : "desc",
     page,
     limit,
+    projectCardOnly: true,
   });
 
   const categoryNames = SEED_CATEGORIES.map((c) => c.name);

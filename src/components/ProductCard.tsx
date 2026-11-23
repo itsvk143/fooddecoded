@@ -10,9 +10,10 @@ import { ProductImage } from "./ProductImage";
 
 interface ProductCardProps {
   product: ProductItem;
+  priority?: boolean;
 }
 
-function BaseProductCard({ product }: ProductCardProps) {
+function BaseProductCard({ product, priority = false }: ProductCardProps) {
   const prodId = product.id || product._id || product.barcode;
 
   return (
@@ -56,10 +57,11 @@ function BaseProductCard({ product }: ProductCardProps) {
         </div>
 
         {/* Product Image */}
-        <div className="relative w-full h-44 bg-white dark:bg-stone-800/80 rounded-xl overflow-hidden mb-3.5 flex items-center justify-center p-3 border border-stone-100 dark:border-stone-700/60">
+        <div className="relative w-full h-44 bg-stone-50 dark:bg-stone-800/80 rounded-xl overflow-hidden mb-3.5 flex items-center justify-center p-3 border border-stone-100 dark:border-stone-700/60">
           <ProductImage
             src={product.imageUrl}
             alt={product.name}
+            priority={priority}
             showVerifiedBadge={
               (product.imageStatus === "VERIFIED" ||
                 product.imageStatus === "IMAGE_VERIFIED" ||

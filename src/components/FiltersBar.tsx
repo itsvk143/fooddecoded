@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useTransition } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   Search,
@@ -24,6 +24,8 @@ interface FiltersBarProps {
 export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [isPending, startTransition] = useTransition();
+  const [pendingKey, setPendingKey] = useState<string | null>(null);
 
   const currentQ = searchParams.get("q") || "";
   const currentCategory = searchParams.get("category") || "All";
@@ -45,7 +47,8 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
   // Synchronize input value if query param changes externally (e.g. from LeftDrawer)
   useEffect(() => {
     setQInput(currentQ);
-  }, [currentQ]);
+    setPendingKey(null);
+  }, [currentQ, searchParams]);
 
   const applyParam = (key: string, value: string | null) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -55,7 +58,10 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
     } else {
       params.set(key, value);
     }
-    router.push(`/products?${params.toString()}`);
+    setPendingKey(key);
+    startTransition(() => {
+      router.push(`/products?${params.toString()}`);
+    });
   };
 
   const toggleBooleanParam = (key: string, currentValue: boolean) => {
@@ -70,12 +76,18 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
         params.set(key, "true");
       }
     }
-    router.push(`/products?${params.toString()}`);
+    setPendingKey(key);
+    startTransition(() => {
+      router.push(`/products?${params.toString()}`);
+    });
   };
 
   const resetAllFilters = () => {
     setQInput("");
-    router.push("/products");
+    setPendingKey("reset");
+    startTransition(() => {
+      router.push("/products");
+    });
   };
 
   // Count active non-default filters
@@ -103,7 +115,10 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
   };
 
   return (
-    <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-3 sm:p-4 shadow-xs transition-all">
+    <div className="relative bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-3 sm:p-4 shadow-xs transition-all overflow-hidden">
+      {isPending && (
+        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500 animate-pulse" />
+      )}
       {/* Minimized Top Row: Compact Search Input + Search Button + Advance Filters Toggle */}
       <form
         onSubmit={(e) => {

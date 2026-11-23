@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useTransition } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   Menu,
   X,
@@ -18,6 +18,7 @@ import {
   Droplets,
   Heart,
   ChevronRight,
+  RefreshCw,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -31,19 +32,32 @@ interface CategoryMenuItem {
 }
 
 export function LeftDrawer() {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [filterText, setFilterText] = useState("");
   const [mounted, setMounted] = useState(false);
+  const [isPending, startTransition] = useTransition();
+  const [pendingHref, setPendingHref] = useState<string | null>(null);
   const pathname = usePathname();
+
+  const handleNavigate = (e: React.MouseEvent, href: string) => {
+    e.preventDefault();
+    setPendingHref(href);
+    startTransition(() => {
+      router.push(href);
+      setIsOpen(false);
+    });
+  };
 
   // Ensure DOM is ready for React Portal
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Close drawer when route changes
+  // Close drawer and reset pending state when route changes
   useEffect(() => {
     setIsOpen(false);
+    setPendingHref(null);
   }, [pathname]);
 
   // Dynamic counts for all aisles
@@ -452,11 +466,15 @@ export function LeftDrawer() {
                     <div className="space-y-1">
                       {filteredSnacks.map((item) => {
                         const active = isActive(item.href);
+                        const isThisPending = isPending && pendingHref === item.href;
                         return (
                           <Link
                             key={item.name}
                             href={item.href}
-                            onClick={() => setIsOpen(false)}
+                            prefetch={true}
+                            onClick={(e) => handleNavigate(e, item.href)}
+                            onMouseEnter={() => router.prefetch(item.href)}
+                            onTouchStart={() => router.prefetch(item.href)}
                             className={cn(
                               "group flex items-center justify-between p-2.5 rounded-xl transition-colors",
                               active
@@ -498,12 +516,18 @@ export function LeftDrawer() {
                             </div>
 
                             <div className="flex items-center gap-1.5 shrink-0">
-                              {item.badge && (
-                                <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
-                                  {item.badge}
-                                </span>
+                              {isThisPending ? (
+                                <RefreshCw className="w-3.5 h-3.5 text-emerald-500 animate-spin" />
+                              ) : (
+                                <>
+                                  {item.badge && (
+                                    <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
+                                      {item.badge}
+                                    </span>
+                                  )}
+                                  <ChevronRight className="w-3.5 h-3.5 text-stone-300 dark:text-stone-600 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all" />
+                                </>
                               )}
-                              <ChevronRight className="w-3.5 h-3.5 text-stone-300 dark:text-stone-600 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all" />
                             </div>
                           </Link>
                         );
@@ -521,11 +545,15 @@ export function LeftDrawer() {
                     <div className="space-y-1">
                       {filteredOthers.map((item) => {
                         const active = isActive(item.href);
+                        const isThisPending = isPending && pendingHref === item.href;
                         return (
                           <Link
                             key={item.name}
                             href={item.href}
-                            onClick={() => setIsOpen(false)}
+                            prefetch={true}
+                            onClick={(e) => handleNavigate(e, item.href)}
+                            onMouseEnter={() => router.prefetch(item.href)}
+                            onTouchStart={() => router.prefetch(item.href)}
                             className={cn(
                               "group flex items-center justify-between p-2.5 rounded-xl transition-colors",
                               active
@@ -567,12 +595,18 @@ export function LeftDrawer() {
                             </div>
 
                             <div className="flex items-center gap-1.5 shrink-0">
-                              {item.badge && (
-                                <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
-                                  {item.badge}
-                                </span>
+                              {isThisPending ? (
+                                <RefreshCw className="w-3.5 h-3.5 text-emerald-500 animate-spin" />
+                              ) : (
+                                <>
+                                  {item.badge && (
+                                    <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
+                                      {item.badge}
+                                    </span>
+                                  )}
+                                  <ChevronRight className="w-3.5 h-3.5 text-stone-300 dark:text-stone-600 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all" />
+                                </>
                               )}
-                              <ChevronRight className="w-3.5 h-3.5 text-stone-300 dark:text-stone-600 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all" />
                             </div>
                           </Link>
                         );
@@ -589,14 +623,27 @@ export function LeftDrawer() {
                   <div className="grid grid-cols-2 gap-2">
                     {healthShortcuts.map((s) => {
                       const Icon = s.icon;
+                      const isThisPending = isPending && pendingHref === s.href;
                       return (
                         <Link
                           key={s.name}
                           href={s.href}
-                          onClick={() => setIsOpen(false)}
-                          className="p-2.5 rounded-xl bg-stone-50 dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 border border-stone-200/60 dark:border-stone-800 text-[11px] font-bold text-stone-800 dark:text-stone-200 flex items-center gap-2 transition-colors"
+                          prefetch={true}
+                          onClick={(e) => handleNavigate(e, s.href)}
+                          onMouseEnter={() => router.prefetch(s.href)}
+                          onTouchStart={() => router.prefetch(s.href)}
+                          className={cn(
+                            "p-2.5 rounded-xl border text-[11px] font-bold flex items-center gap-2 transition-colors",
+                            isThisPending
+                              ? "bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 text-emerald-700 dark:text-emerald-300"
+                              : "bg-stone-50 dark:bg-stone-900 hover:bg-stone-100 dark:hover:bg-stone-800 border-stone-200/60 dark:border-stone-800 text-stone-800 dark:text-stone-200"
+                          )}
                         >
-                          <Icon className={cn("w-3.5 h-3.5 shrink-0", s.color)} />
+                          {isThisPending ? (
+                            <RefreshCw className="w-3.5 h-3.5 shrink-0 text-emerald-500 animate-spin" />
+                          ) : (
+                            <Icon className={cn("w-3.5 h-3.5 shrink-0", s.color)} />
+                          )}
                           <span className="truncate">{s.name}</span>
                         </Link>
                       );
@@ -612,7 +659,10 @@ export function LeftDrawer() {
                   <div className="space-y-1">
                     <Link
                       href="/scan"
-                      onClick={() => setIsOpen(false)}
+                      prefetch={true}
+                      onClick={(e) => handleNavigate(e, "/scan")}
+                      onMouseEnter={() => router.prefetch("/scan")}
+                      onTouchStart={() => router.prefetch("/scan")}
                       className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
                     >
                       <ScanLine className="w-4 h-4 text-emerald-500" />
@@ -620,7 +670,10 @@ export function LeftDrawer() {
                     </Link>
                     <Link
                       href="/compare"
-                      onClick={() => setIsOpen(false)}
+                      prefetch={true}
+                      onClick={(e) => handleNavigate(e, "/compare")}
+                      onMouseEnter={() => router.prefetch("/compare")}
+                      onTouchStart={() => router.prefetch("/compare")}
                       className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
                     >
                       <Scale className="w-4 h-4 text-teal-500" />
@@ -628,7 +681,10 @@ export function LeftDrawer() {
                     </Link>
                     <Link
                       href="/submit"
-                      onClick={() => setIsOpen(false)}
+                      prefetch={true}
+                      onClick={(e) => handleNavigate(e, "/submit")}
+                      onMouseEnter={() => router.prefetch("/submit")}
+                      onTouchStart={() => router.prefetch("/submit")}
                       className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
                     >
                       <PlusCircle className="w-4 h-4 text-cyan-500" />
@@ -636,7 +692,10 @@ export function LeftDrawer() {
                     </Link>
                     <Link
                       href="/admin"
-                      onClick={() => setIsOpen(false)}
+                      prefetch={true}
+                      onClick={(e) => handleNavigate(e, "/admin")}
+                      onMouseEnter={() => router.prefetch("/admin")}
+                      onTouchStart={() => router.prefetch("/admin")}
                       className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
                     >
                       <ShieldAlert className="w-4 h-4 text-rose-500" />
@@ -650,7 +709,8 @@ export function LeftDrawer() {
               <div className="p-4 border-t border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-900 text-center shrink-0">
                 <Link
                   href="/products"
-                  onClick={() => setIsOpen(false)}
+                  prefetch={true}
+                  onClick={(e) => handleNavigate(e, "/products")}
                   className="w-full py-2.5 px-4 bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-bold text-xs rounded-xl transition-all shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
                 >
                   <span>View All Food Directory</span>

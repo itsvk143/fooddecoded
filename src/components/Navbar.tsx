@@ -189,8 +189,9 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
+                prefetch={true}
                 className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all",
+                  "flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all active:scale-95",
                   isActive
                     ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 dark:bg-emerald-500/15"
                     : "text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900"
@@ -207,7 +208,8 @@ export function Navbar() {
         <div className="flex md:hidden items-center gap-2">
           <Link
             href="/scan"
-            className="p-2 rounded-xl bg-emerald-500 text-stone-950 font-bold"
+            prefetch={true}
+            className="p-2 rounded-xl bg-emerald-500 text-stone-950 font-bold active:scale-90 transition-transform shadow-xs"
             title="Scan Barcode"
           >
             <ScanLine className="w-5 h-5" />
@@ -249,8 +251,9 @@ export function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  prefetch={true}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center gap-2.5 p-3 rounded-xl bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 font-bold text-sm"
+                  className="flex items-center gap-2.5 p-3 rounded-xl bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 font-bold text-sm active:scale-95 transition-transform"
                 >
                   <Icon className="w-4 h-4 text-emerald-500" />
                   <span>{link.label}</span>

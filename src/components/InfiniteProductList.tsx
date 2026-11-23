@@ -359,10 +359,11 @@ export function InfiniteProductList({
       {visibleProducts.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {visibleProducts.map((product) => (
+            {visibleProducts.map((product, index) => (
               <ProductCard
                 key={product.id || product._id || product.barcode}
                 product={product}
+                priority={index < 4}
               />
             ))}
           </div>

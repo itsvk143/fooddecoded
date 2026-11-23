@@ -24,6 +24,46 @@ let inMemoryBrands: BrandRecord[] = [...SEED_BRANDS];
 let inMemoryRules: AnalysisRule[] = [...SEED_RULES];
 let inMemorySubmissions: ProductSubmission[] = [...SEED_SUBMISSIONS];
 
+// In-memory query cache for instant 0ms responses across category transitions
+const QUERY_CACHE = new Map<string, { data: any; expiry: number }>();
+const CACHE_TTL_MS = 60 * 1000; // 60s TTL
+
+export function invalidateProductCache(): void {
+  QUERY_CACHE.clear();
+}
+
+export const CARD_PROJECTION = {
+  _id: 1,
+  id: 1,
+  name: 1,
+  brand: 1,
+  barcode: 1,
+  category: 1,
+  subCategory: 1,
+  categorySlug: 1,
+  productType: 1,
+  flavour: 1,
+  overallScore: 1,
+  scoreLabel: 1,
+  nutriScore: 1,
+  novaGroup: 1,
+  imageUrl: 1,
+  imageStatus: 1,
+  imageVerified: 1,
+  verified: 1,
+  hasPalmOil: 1,
+  hasAddedSugar: 1,
+  hasArtificialAdditives: 1,
+  cocoaPercentage: 1,
+  availability: 1,
+  countryOfOrigin: 1,
+  searchTags: 1,
+  badges: 1,
+  verificationDate: 1,
+  updatedAt: 1,
+  createdAt: 1,
+};
+
 function getInMemoryProducts(): ProductItem[] {
   if (process.env.NODE_ENV !== "production") {
     return generateSeedProducts();
@@ -197,6 +237,7 @@ export async function queryProducts(params: {
   sortOrder?: "asc" | "desc";
   page?: number;
   limit?: number;
+  projectCardOnly?: boolean;
 }): Promise<{
   products: ProductItem[];
   total: number;
@@ -207,6 +248,12 @@ export async function queryProducts(params: {
   nextCursor?: string | null;
   isDbConnected: boolean;
 }> {
+  const cacheKey = JSON.stringify(params);
+  const cached = QUERY_CACHE.get(cacheKey);
+  if (cached && Date.now() < cached.expiry) {
+    return cached.data;
+  }
+
   const page = Math.max(1, params.page || 1);
   const limit = Math.min(100, Math.max(1, params.limit || 20));
   const skip = (page - 1) * limit;
@@ -415,23 +462,34 @@ export async function queryProducts(params: {
     let docs: ProductItem[] = [];
     let total = 0;
 
+    const projection = params.projectCardOnly ? CARD_PROJECTION : undefined;
+
     // When text query is specified without an explicit sort order, rank by search relevance
     if (params.q && !params.sortBy) {
-      const allMatching = await col.find(filter).toArray();
+      const queryCursor = col.find(filter);
+      if (projection) queryCursor.project(projection);
+      const allMatching = await queryCursor.toArray();
       allMatching.sort(
         (a, b) => computeSearchRelevance(b, params.q!) - computeSearchRelevance(a, params.q!)
       );
       total = allMatching.length;
       docs = allMatching.slice(skip, skip + limit);
     } else {
-      total = await col.countDocuments(filter);
-      docs = await col.find(filter).sort(sort).skip(skip).limit(limit).toArray();
+      const queryCursor = col.find(filter).sort(sort).skip(skip).limit(limit);
+      if (projection) queryCursor.project(projection);
+
+      const [totalCount, fetchedDocs] = await Promise.all([
+        col.countDocuments(filter),
+        queryCursor.toArray(),
+      ]);
+      total = totalCount;
+      docs = fetchedDocs;
     }
     const totalPages = Math.ceil(total / limit) || 1;
     const hasMore = page < totalPages;
     const nextCursor = hasMore ? (page + 1).toString() : null;
 
-    return {
+    const result = {
       products: docs.map(normalizeDoc),
       total,
       page,
@@ -441,6 +499,8 @@ export async function queryProducts(params: {
       nextCursor,
       isDbConnected: true,
     };
+    QUERY_CACHE.set(cacheKey, { data: result, expiry: Date.now() + CACHE_TTL_MS });
+    return result;
   }
 
   // Fallback to in-memory seed products
@@ -638,7 +698,7 @@ export async function queryProducts(params: {
   const hasMore = page < totalPages;
   const nextCursor = hasMore ? (page + 1).toString() : null;
 
-  return {
+  const result = {
     products: paged,
     total,
     page,
@@ -648,6 +708,8 @@ export async function queryProducts(params: {
     nextCursor,
     isDbConnected: false,
   };
+  QUERY_CACHE.set(cacheKey, { data: result, expiry: Date.now() + CACHE_TTL_MS });
+  return result;
 }
 
 /**
@@ -916,11 +978,13 @@ export async function saveProduct(input: Partial<ProductItem>): Promise<ProductI
       { $set: productData },
       { upsert: true }
     );
+    invalidateProductCache();
     const id = res.upsertedId ? res.upsertedId.toString() : input._id || input.id;
     return { ...productData, _id: id, id };
   }
 
   // In-memory fallback
+  invalidateProductCache();
   const idx = inMemoryProducts.findIndex((p) => p.barcode === productData.barcode);
   if (idx >= 0) {
     inMemoryProducts[idx] = { ...inMemoryProducts[idx], ...productData };
@@ -937,6 +1001,7 @@ export async function saveProduct(input: Partial<ProductItem>): Promise<ProductI
  * Delete a product by ID or barcode
  */
 export async function deleteProduct(id: string): Promise<boolean> {
+  invalidateProductCache();
   const col = await getCollection<ProductItem>("products");
   if (col) {
     let res;

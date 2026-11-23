@@ -29,6 +29,8 @@ export async function GET(request: NextRequest) {
     const page = searchParams.get("page") ? parseInt(searchParams.get("page")!, 10) : 1;
     const limit = searchParams.get("limit") ? parseInt(searchParams.get("limit")!, 10) : 20;
 
+    const projectCardOnly = searchParams.get("full") !== "true";
+
     const result = await queryProducts({
       q,
       category,
@@ -49,9 +51,14 @@ export async function GET(request: NextRequest) {
       sortOrder,
       page,
       limit,
+      projectCardOnly,
     });
 
-    return NextResponse.json(result);
+    return NextResponse.json(result, {
+      headers: {
+        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
+      },
+    });
   } catch (error) {
     console.error("[API /api/products GET] Error:", error);
     return NextResponse.json(

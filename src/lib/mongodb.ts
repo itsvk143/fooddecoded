@@ -150,6 +150,17 @@ export async function ensureIndexes(db: Db): Promise<void> {
     await products.createIndex({ ingredientAlerts: 1 });
     await products.createIndex({ updatedAt: -1 });
 
+    // Compound indexes for ultrafast category filtering, dietary shortcuts and score sorting (<20ms TTFB)
+    await products.createIndex({ category: 1, overallScore: -1 });
+    await products.createIndex({ subCategory: 1, overallScore: -1 });
+    await products.createIndex({ category: 1, subCategory: 1, overallScore: -1 });
+    await products.createIndex({ hasPalmOil: 1, overallScore: -1 });
+    await products.createIndex({ category: 1, hasPalmOil: 1, overallScore: -1 });
+    await products.createIndex({ brand: 1, overallScore: -1 });
+    await products.createIndex({ nutriScore: 1, overallScore: -1 });
+    await products.createIndex({ verified: 1, overallScore: -1 });
+    await products.createIndex({ searchTags: 1, overallScore: -1 });
+
     const ingredients = db.collection("ingredients");
     await ingredients.createIndex({ normalizedName: 1 }, { unique: true });
     await ingredients.createIndex({ aliases: 1 });

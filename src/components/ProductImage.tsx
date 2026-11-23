@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { CheckCircle2 } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export interface ProductImageProps {
   src?: string | null;
@@ -9,6 +10,7 @@ export interface ProductImageProps {
   className?: string;
   fallbackSrc?: string;
   loading?: "lazy" | "eager";
+  priority?: boolean;
   title?: string;
   showVerifiedBadge?: boolean;
   badgeText?: string;
@@ -22,6 +24,7 @@ export function ProductImage({
   className = "max-h-full max-w-full object-contain mx-auto",
   fallbackSrc = "/images/placeholder-product.svg",
   loading = "lazy",
+  priority = false,
   title,
   showVerifiedBadge = false,
   badgeText = "Verified",
@@ -31,19 +34,26 @@ export function ProductImage({
   const isDefaultPlaceholder = !src || src === fallbackSrc || src.includes("placeholder");
   const [currentSrc, setCurrentSrc] = useState<string>(src || fallbackSrc);
   const [hasError, setHasError] = useState<boolean>(isDefaultPlaceholder);
+  const [isLoaded, setIsLoaded] = useState<boolean>(false);
 
   useEffect(() => {
     const isPl = !src || src === fallbackSrc || src.includes("placeholder");
     setCurrentSrc(src || fallbackSrc);
     setHasError(isPl);
+    setIsLoaded(false);
   }, [src, fallbackSrc]);
 
   const handleError = () => {
     if (!hasError) {
       setHasError(true);
       setCurrentSrc(fallbackSrc);
+      setIsLoaded(true);
       onImageError?.();
     }
+  };
+
+  const handleLoad = () => {
+    setIsLoaded(true);
   };
 
   return (
@@ -52,8 +62,15 @@ export function ProductImage({
         src={currentSrc}
         alt={alt}
         title={title}
-        className={className}
-        loading={loading}
+        className={cn(
+          className,
+          "transition-opacity duration-200",
+          isLoaded || hasError ? "opacity-100" : "opacity-0"
+        )}
+        loading={priority ? "eager" : loading}
+        fetchPriority={priority ? "high" : "auto"}
+        decoding="async"
+        onLoad={handleLoad}
         onError={handleError}
       />
 
