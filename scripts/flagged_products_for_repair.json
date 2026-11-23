@@ -1,0 +1,2602 @@
+[
+  {
+    "barcode": "8904180000459",
+    "name": "Aashirvaad Unpolished Toor Dal (Pigeon Pea)",
+    "brand": "Aashirvaad",
+    "category": "Pantry & Grains",
+    "subCategory": "Pasta & Grains",
+    "src": "https://www.bigbasket.com/media/uploads/groot/images/13122023-6b320066-a-banner-2.png",
+    "img": "/images/packshots/8904180000459.webp",
+    "reason": "HIT_banner"
+  },
+  {
+    "barcode": "8908930002564",
+    "name": "Beyond Snack Vibe Extra Long Banana Chips (Original Salted)",
+    "brand": "Beyond Snack",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://wallpapers.com/images/hd/girl-profile-of-sai-pallavi-da4wesbr719mj129.jpg",
+    "img": "/images/packshots/8908930002564.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001567",
+    "name": "Bikaji Bikaneri Papad (Moong & Urad)",
+    "brand": "Bikaji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/057/362/091/non_2x/tiger-drinking-water-striking-image-of-wildlife-and-natural-behavior-free-photo.jpg",
+    "img": "/images/packshots/8908930001567.jpg",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930001550",
+    "name": "Bikaji Corn Chips",
+    "brand": "Bikaji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/nMchkt3ArJI/maxresdefault.jpg",
+    "img": "/images/packshots/8908930001550.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930001505",
+    "name": "Bikaji Laung Sev",
+    "brand": "Bikaji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://server.wallpaperalchemy.com/storage/wallpapers/8182/cute-hello-kitty-garden-4k-pink-wallpaper.jpeg",
+    "img": "/images/packshots/8908930001505.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000225",
+    "name": "Bingo! Mad Angles Cheese Nachos",
+    "brand": "Bingo!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/1NdtsFsKEXg/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000225.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000201",
+    "name": "Bingo! Mad Angles Masala Madness",
+    "brand": "Bingo!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/MKblld_ZdHQ/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB",
+    "img": "/images/packshots/8908930000201.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000218",
+    "name": "Bingo! Mad Angles Pizza Aah",
+    "brand": "Bingo!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://c8.alamy.com/comp/2C4AGYN/a-view-of-the-village-of-kalpa-surrounded-by-the-himalayan-peaks-of-the-kinner-kailash-range-in-kinnaur-india-2C4AGYN.jpg",
+    "img": "/images/packshots/8908930000218.jpg",
+    "reason": "HIT_alamy"
+  },
+  {
+    "barcode": "8908930000928",
+    "name": "Chheda's Mini Bhakarwadi",
+    "brand": "Chheda's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://server.wallpaperalchemy.com/storage/wallpapers/6982/one-piece-sunset-voyage-4k-anime-wallpaper.jpeg",
+    "img": "/images/packshots/8908930000928.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000911",
+    "name": "Chheda's Potato Wafers",
+    "brand": "Chheda's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://www.shutterstock.com/shutterstock/photos/2378591517/display_1500/stock-photo-los-angeles-ca-october-inside-of-a-police-car-with-built-in-computer-and-other-custom-2378591517.jpg",
+    "img": "/images/packshots/8908930000911.jpg",
+    "reason": "HIT_shutterstock"
+  },
+  {
+    "barcode": "8908930001215",
+    "name": "Chitale Bandhu Bakarwadi (Garlic)",
+    "brand": "Chitale Bandhu",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.ytimg.com/vi/O4_n9NtSBFI/maxresdefault.jpg",
+    "img": "/images/packshots/8908930001215.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930001222",
+    "name": "Chitale Bandhu Lasun Shev",
+    "brand": "Chitale Bandhu",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://wallpaperaccess.com/full/3772847.png",
+    "img": "/images/packshots/8908930001222.png",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930002786",
+    "name": "Cornitos Cheesy Jalapeno Dip",
+    "brand": "Cornitos",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Spreads & Dips",
+    "src": "https://www.goodwillness.com/wp-content/uploads/2025/08/Viluppuram-RDM-Village-Assistant-Recruitment-2025-1024x576.jpg",
+    "img": "/images/packshots/8908930002786.jpg",
+    "reason": "HIT_recruit"
+  },
+  {
+    "barcode": "8908930002779",
+    "name": "Cornitos Chunky Salsa Dip (Hot)",
+    "brand": "Cornitos",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Spreads & Dips",
+    "src": "https://i.ytimg.com/vi/XvGwSHpoIfI/maxresdefault.jpg",
+    "img": "/images/packshots/8908930002779.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930002830",
+    "name": "Cornitos Classic Salted Peanuts",
+    "brand": "Cornitos",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Trail Mixes",
+    "src": "https://wallpaperaccess.com/full/2012057.jpg",
+    "img": "/images/packshots/8908930002830.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930002748",
+    "name": "Cornitos Soft Tortilla Wraps",
+    "brand": "Cornitos",
+    "category": "Pantry & Grains",
+    "subCategory": "Tortilla Wraps",
+    "src": "https://static.vecteezy.com/system/resources/previews/052/854/047/non_2x/coconut-black-and-white-sketch-illustration-vector.jpg",
+    "img": "/images/packshots/8908930002748.jpg",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930000621",
+    "name": "Crax Cheese Balls",
+    "brand": "Crax",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://wallpapers.com/images/hd/ab-de-villiers-rcb-reverse-scoop-shot-0cjbge9o64959l5g.jpg",
+    "img": "/images/packshots/8908930000621.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000560",
+    "name": "Crax Corn Rings Masala Mania",
+    "brand": "Crax",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://wallpapers.com/images/hd/ab-de-villiers-rcb-reverse-scoop-shot-0cjbge9o64959l5g.jpg",
+    "img": "/images/packshots/8908930000560.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000638",
+    "name": "Crax Natkhat Classic Wheat Puffs",
+    "brand": "Crax",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://i.ytimg.com/vi/0JP31tgejU4/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000638.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8904050000411",
+    "name": "Doritos Peri Peri Popped Potato Chips",
+    "brand": "Doritos",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40346792_1-banner-co-peri-peri-cheese-popped-potato-chips.jpg",
+    "img": "/images/packshots/8904050000411.webp",
+    "reason": "HIT_banner"
+  },
+  {
+    "barcode": "8904150000434",
+    "name": "English Oven Garlic & Herb Sourdough Toast Slices",
+    "brand": "English Oven",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Bakery",
+    "src": "https://www.bigbasket.com/media/uploads/groot/images/512023-f8ffc0e5-sourdough-range-banner.jpg",
+    "img": "/images/packshots/8904150000434.webp",
+    "reason": "HIT_banner"
+  },
+  {
+    "barcode": "8908930003073",
+    "name": "Farmley 100% Pure Date Bites (Chocolate)",
+    "brand": "Farmley",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Date Bites",
+    "src": "https://live.staticflickr.com/5537/11079034245_4c0174c655_b.jpg",
+    "img": "/images/packshots/8908930003073.jpg",
+    "reason": "HIT_flickr"
+  },
+  {
+    "barcode": "8908930003097",
+    "name": "Farmley 100% Pure Date Bites (Dry Fruit Assorted)",
+    "brand": "Farmley",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Date Bites",
+    "src": "https://image.shutterstock.com/image-photo/shillong-view-point-meghalaya-nature-260nw-1801273417.jpg",
+    "img": "/images/packshots/8908930003097.jpg",
+    "reason": "HIT_shutterstock"
+  },
+  {
+    "barcode": "8908930003080",
+    "name": "Farmley 100% Pure Date Bites (Rose Almond)",
+    "brand": "Farmley",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Date Bites",
+    "src": "https://i.ytimg.com/vi/rUR9t0R4Jok/maxresdefault.jpg",
+    "img": "/images/packshots/8908930003080.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930003110",
+    "name": "Farmley Multi-Millet Energy Bars",
+    "brand": "Farmley",
+    "category": "Protein & Clean-Label Bars / Wafers",
+    "subCategory": "Protein & Clean-Label Bars / Wafers",
+    "src": "https://thumbs.dreamstime.com/z/small-church-mundaka-spain-small-church-basque-country-mundaka-spain-152390579.jpg",
+    "img": "/images/packshots/8908930003110.jpg",
+    "reason": "HIT_dreamstime"
+  },
+  {
+    "barcode": "8908930003028",
+    "name": "Farmley Roasted & Flavoured Almonds (Peri Peri)",
+    "brand": "Farmley",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Raw Nuts",
+    "src": "http://upload.wikimedia.org/wikipedia/commons/3/39/European_Common_Frog_Rana_temporaria.jpg",
+    "img": "/images/packshots/8908930003028.jpg",
+    "reason": "HIT_wikimedia"
+  },
+  {
+    "barcode": "8908930003271",
+    "name": "GO DESi Coconut Oil Banana Chips",
+    "brand": "GO DESi",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://static.vecteezy.com/system/resources/previews/055/278/368/non_2x/go-symbol-illustration-free-png.png",
+    "img": "/images/packshots/8908930003271.png",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930003288",
+    "name": "GO DESi Handmade Butter Murukku",
+    "brand": "GO DESi",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/055/278/368/non_2x/go-symbol-illustration-free-png.png",
+    "img": "/images/packshots/8908930003288.png",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930000829",
+    "name": "Gopal Champakali Gathiya",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.ytimg.com/vi/3quD2kMzbWY/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000829.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000775",
+    "name": "Gopal Cornigo Nachos",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpapercave.com/wp/wp2405417.jpg",
+    "img": "/images/packshots/8908930000775.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000850",
+    "name": "Gopal Fulwadi",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.ytimg.com/vi/zQBBWCB0wn8/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000850.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000720",
+    "name": "Gopal Masala Bite Potato Wafers",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/751s_DwFoD0/hqdefault.jpg",
+    "img": "/images/packshots/8908930000720.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000799",
+    "name": "Gopal Noodle Masala",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://wallpaperaccess.com/full/1516588.jpg",
+    "img": "/images/packshots/8908930000799.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000751",
+    "name": "Gopal Peri Peri Potato Wafers",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpapercave.com/wp/wp8955989.jpg",
+    "img": "/images/packshots/8908930000751.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000874",
+    "name": "Gopal Sing Bhujia",
+    "brand": "Gopal Snacks",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://radhakrishnaphoto.in/wp-content/uploads/2026/02/radha-krishna-love-black-wallpaper-60.jpeg",
+    "img": "/images/packshots/8908930000874.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001352",
+    "name": "Haldiram's Kashmiri Mixture",
+    "brand": "Haldiram's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://applescoop.org/image/wallpapers/mac/samurai-in-a-field-of-flowers-with-mountains-landscape-hdr-anime-style-best-most-popular-free-download-wallpapers-for-macbook-pro-and-macbook-air-and-microsoft-windows-desktop-pcs-4k-07-12-2024-1733638427-hd-wallpaper.png",
+    "img": "/images/packshots/8908930001352.png",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001406",
+    "name": "Haldiram's Nachos Cheese",
+    "brand": "Haldiram's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpaperbat.com/img/8892159-shiva-wallpaper-phone.png",
+    "img": "/images/packshots/8908930001406.png",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001345",
+    "name": "Haldiram's Pudina Sev",
+    "brand": "Haldiram's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://wallpapercave.com/wp/wp6542578.jpg",
+    "img": "/images/packshots/8908930001345.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908200000559",
+    "name": "Kinder Cards",
+    "brand": "Kinder",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Wafer Chocolate",
+    "src": "https://static.vecteezy.com/system/resources/previews/012/886/181/large_2x/ternopil-ukraine-juny-3-2022-kinder-chocolate-cards-product-pack-kinder-is-a-confectionery-product-brand-line-of-multinational-confectionery-ferrero-free-photo.JPG",
+    "img": "/images/packshots/8908200000559.jpg",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930000089",
+    "name": "Lay's Crisp Classic Salted Canister Chips",
+    "brand": "Lay's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://png.pngtree.com/thumb_back/fh260/background/20240911/pngtree-vibrant-fresh-produce-a-colorful-collection-of-fruits-and-vegetables-for-image_16161653.jpg",
+    "img": "/images/packshots/8908930000089.jpg",
+    "reason": "HIT_pngtree"
+  },
+  {
+    "barcode": "8908930000058",
+    "name": "Lay's Gourmet Lime & Cracked Pepper Kettle Chips",
+    "brand": "Lay's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpapercave.com/wp/wp9423948.jpg",
+    "img": "/images/packshots/8908930000058.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000010",
+    "name": "Lay's Maxx Macho Chilli Ridged Potato Chips",
+    "brand": "Lay's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpaperaccess.com/full/1635791.jpg",
+    "img": "/images/packshots/8908930000010.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8904050000060",
+    "name": "Lay's Peri Peri Popped Potato Chips",
+    "brand": "Lay's",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40346792_1-banner-co-peri-peri-cheese-popped-potato-chips.jpg",
+    "img": "/images/packshots/8904050000060.webp",
+    "reason": "HIT_banner"
+  },
+  {
+    "barcode": "8908930002366",
+    "name": "Let's Try 100% Groundnut Oil Banana Chips (Salted)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341065_1.jpg",
+    "img": "/images/packshots/8908930002366.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002328",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Classic Salted)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341073_1.jpg",
+    "img": "/images/packshots/8908930002328.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002335",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Cream & Onion)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341074_1.jpg",
+    "img": "/images/packshots/8908930002335.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002342",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Peri Peri)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341072_1.jpg",
+    "img": "/images/packshots/8908930002342.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002359",
+    "name": "Let's Try 100% Groundnut Oil Potato Chips (Pudina)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341071_1.jpg",
+    "img": "/images/packshots/8908930002359.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002373",
+    "name": "Let's Try 100% Groundnut Oil Tapioca Chips (Mari)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341066_1.jpg",
+    "img": "/images/packshots/8908930002373.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002403",
+    "name": "Let's Try Corn Rings (Tangy Tomato)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341067_1.jpg",
+    "img": "/images/packshots/8908930002403.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002458",
+    "name": "Let's Try Farali Mixture (Groundnut Oil)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Unjunked Indian Snacks",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341068_1.jpg",
+    "img": "/images/packshots/8908930002458.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002427",
+    "name": "Let's Try Garlic Bhujia (Groundnut Oil)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Unjunked Indian Snacks",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341069_1.jpg",
+    "img": "/images/packshots/8908930002427.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002397",
+    "name": "Let's Try Roasted Jowar Puffs (Masala)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341070_1.jpg",
+    "img": "/images/packshots/8908930002397.png",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002465",
+    "name": "Let's Try Roasted Makhana (Salt & Pepper)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Roasted Makhana",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40233538_3.jpg",
+    "img": "/images/packshots/8908930002465.png",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002380",
+    "name": "Let's Try Roasted Ragi Puffs (Cheese)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341073_2.jpg",
+    "img": "/images/packshots/8908930002380.png",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002441",
+    "name": "Let's Try Sabudana Chivda (Fasting Mix)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Unjunked Indian Snacks",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341068_1.jpg",
+    "img": "/images/packshots/8908930002441.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002434",
+    "name": "Let's Try Salted Moong Dal (Groundnut Oil)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Unjunked Indian Snacks",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341069_1.jpg",
+    "img": "/images/packshots/8908930002434.jpg",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002410",
+    "name": "Let's Try Soya Sticks (Chatpata Masala)",
+    "brand": "Let's Try",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40341070_1.jpg",
+    "img": "/images/packshots/8908930002410.png",
+    "reason": "LETSTRY_CATALOG"
+  },
+  {
+    "barcode": "8908930002939",
+    "name": "Makino Coated Peanuts (Hing Jeera)",
+    "brand": "Makino",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/048/968/815/large_2x/icelandic-sheep-with-lambs-grazing-by-the-scenic-fjord-with-snow-capped-mountains-in-the-background-photo.jpeg",
+    "img": "/images/packshots/8908930002939.jpg",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908930002915",
+    "name": "Makino Coated Peanuts (Masala Munch)",
+    "brand": "Makino",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://img.freepik.com/premium-photo/ancient-art-japanese-samurai-warrior-leather-armor-with-golden-details-with-katana-sword-i_895651-2956.jpg?w=2000",
+    "img": "/images/packshots/8908930002915.jpg",
+    "reason": "HIT_freepik"
+  },
+  {
+    "barcode": "8908930002946",
+    "name": "Makino Coated Peanuts (Smoky Barbeque)",
+    "brand": "Makino",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://easydrawingguides.com/wp-content/uploads/2019/08/Lake-9.png",
+    "img": "/images/packshots/8908930002946.png",
+    "reason": "HIT_drawing"
+  },
+  {
+    "barcode": "8908930002977",
+    "name": "Makino Party Trail Mix (Nuts, Seeds & Berries)",
+    "brand": "Makino",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Trail Mixes",
+    "src": "https://static.vecteezy.com/system/resources/previews/045/384/642/large_2x/wisteria-flower-outline-illustration-coloring-book-page-design-wisteria-flower-black-and-white-line-art-drawing-coloring-book-pages-for-children-and-adults-free-vector.jpg",
+    "img": "/images/packshots/8908930002977.jpg",
+    "reason": "HIT_vecteezy"
+  },
+  {
+    "barcode": "8908600002184",
+    "name": "Nestea Green Tea",
+    "brand": "Nestea",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea",
+    "src": "https://www.shutterstock.com/pixelsquid/assets_v2/261/2618311267101709362/jpeg-600/G03.jpg",
+    "img": "/images/packshots/8908600002184.jpg",
+    "reason": "HIT_shutterstock"
+  },
+  {
+    "barcode": "8908200001228",
+    "name": "Nestlé Drifter",
+    "brand": "Nestlé",
+    "category": "Chocolates & Sweets",
+    "subCategory": "British Chocolate",
+    "src": "https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/C23WJG/packet-of-eight-nestle-drifter-chocolate-covered-biscuit-bars-C23WJG.jpg",
+    "img": "/images/packshots/8908200001228.jpg",
+    "reason": "HIT_alamy"
+  },
+  {
+    "barcode": "8908940000017",
+    "name": "NOICE 5 Seed Multigrain Bread (Zero Maida)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://png.pngtree.com/png-clipart/20250310/original/pngtree-minimalist-line-art-female-face-sketch-png-image_20625454.png",
+    "img": "/images/packshots/8908940000017.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000956",
+    "name": "NOICE ABC (Apple Beetroot Carrot) Juice",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://www.poojn.in/wp-content/uploads/2025/02/Prasanna-Venkateswara-Temple-Appalayagunta-Your-Complete-Pilgrims-Guide.jpeg.jpg",
+    "img": "/images/packshots/8908940000956.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001199",
+    "name": "NOICE Alphonso Mango Slow Churned Ice Cream",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Fruit Ice Cream",
+    "src": "https://madrasreview.com/wp-content/uploads/2020/07/Relaince-jio1.jpg",
+    "img": "/images/packshots/8908940001199.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001472",
+    "name": "NOICE Andhra Avakaya Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://txcdn-prod-a1art.xiaopiu.com/cms/seo/img/free-ai-porn-video-makers-online/w6yAyugZ.png?format=webp",
+    "img": "/images/packshots/8908940001472.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000659",
+    "name": "NOICE Andhra Chekkalu",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.pinimg.com/originals/d5/4c/ac/d54cac629b4acd7ccc3cba75c9c2a277.jpg",
+    "img": "/images/packshots/8908940000659.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001502",
+    "name": "NOICE Andhra Garlic Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://imgv2-1-f.scribdassets.com/img/document/854166136/original/c84a6863bf/1?v=1",
+    "img": "/images/packshots/8908940001502.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001489",
+    "name": "NOICE Andhra Gongura Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://mobile-cuisine.com/wp-content/uploads/2022/11/Starbucks-menu-prices.jpg",
+    "img": "/images/packshots/8908940001489.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001496",
+    "name": "NOICE Andhra Tomato Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001496.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001281",
+    "name": "NOICE Apple Pineapple Jam (80% Fruit)",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fruit Spreads & Preserves",
+    "src": "https://static.vecteezy.com/system/resources/previews/016/150/074/original/hibiscus-flower-outline-hibiscus-line-art-illustration-isolated-on-white-background-tropical-flower-silhouette-icon-blossom-doodle-and-simple-element-exotic-tropical-plant-symbol-vector.jpg",
+    "img": "/images/packshots/8908940001281.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000307",
+    "name": "NOICE Atta Jaggery Ghee Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://m.media-amazon.com/images/I/41M+E9FaL2L.jpg",
+    "img": "/images/packshots/8908940000307.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002670",
+    "name": "Noice Authentic Mini Bhakarwadi",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/010/890/331/original/rope-design-illustration-isolated-on-white-background-free-vector.jpg",
+    "img": "/images/packshots/8908930002670.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001427",
+    "name": "NOICE Banarasi Carrot Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "http://getdrawings.com/image/easy-abstract-drawing-55.jpg",
+    "img": "/images/packshots/8908940001427.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001410",
+    "name": "NOICE Banarasi Lal Mirch Pickle (Stuffed Chilli)",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://thumbs.dreamstime.com/z/high-detail-world-map-time-zones-big-cities-color-vector-illustration-166849391.jpg",
+    "img": "/images/packshots/8908940001410.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000147",
+    "name": "NOICE Bangalore Khara Bun (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://cgwale.com/wp-content/uploads/2024/07/अगले-साल-वैलेंटाइन-डे-पर-रिलीज-होगी-नखरेवाली-पोस्टर-हुआ-आउट.jpg",
+    "img": "/images/packshots/8908940000147.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000567",
+    "name": "NOICE Besan Gathiya (Gujarat Style)",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://dwgmodels.com/uploads/posts/2017-04/1491164207_cable-stayed_bridges_m.jpg",
+    "img": "/images/packshots/8908940000567.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001113",
+    "name": "NOICE Besan Laddoo (Desi Ghee)",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001113.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000765",
+    "name": "NOICE Bilona Cow Ghee (Curd Churned)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Butter & Ghee",
+    "src": "https://i.pinimg.com/originals/b7/b3/32/b7b3323f774410958139d35388aad20a.jpg",
+    "img": "/images/packshots/8908940000765.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000048",
+    "name": "NOICE Buttery Milk Bread (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000048.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000512",
+    "name": "NOICE Chatpata Dried Cranberries",
+    "brand": "NOICE",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Trail Mixes",
+    "src": "https://www.nationsencyclopedia.com/photos/italy-agriculture-1118.jpg",
+    "img": "/images/packshots/8908940000512.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002663",
+    "name": "Noice Chatpata Soya Sticks",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://m.media-amazon.com/images/M/MV5BMTM3MjcyNDMxMV5BMl5BanBnXkFtZTcwOTc0NTY0NQ@@._V1_.jpg",
+    "img": "/images/packshots/8908930002663.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000444",
+    "name": "NOICE Cheese Melt Roasted Makhana",
+    "brand": "NOICE",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Roasted Makhana",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/2/9/aeba84ce-f3b5-4c27-9394-63f9b6c1e706_219686_1.png",
+    "img": "/images/packshots/8908940000444.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000192",
+    "name": "NOICE Chewy New York Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://assets.telegraphindia.com/telegraph/2024/Aug/1724494927_kinshuk-vaidya.jpg",
+    "img": "/images/packshots/8908940000192.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001557",
+    "name": "NOICE Chicken Breakfast Sausages",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://thumbs.dreamstime.com/z/galapagos-blue-footed-booby-eggs-galapagos-blue-footed-booby-eggs-made-generative-ai-illustration-293707406.jpg",
+    "img": "/images/packshots/8908940001557.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001540",
+    "name": "NOICE Chicken Momos",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://png.pngtree.com/png-clipart/20240415/original/pngtree-abstract-faces-modern-line-art-drawing-set-vector-png-image_14821383.png",
+    "img": "/images/packshots/8908940001540.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001571",
+    "name": "NOICE Chicken Nuggets",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://i.pinimg.com/originals/89/16/f3/8916f320b25982d8013158b2c463d08d.jpg",
+    "img": "/images/packshots/8908940001571.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001533",
+    "name": "NOICE Chicken Popcorn Whole Muscle",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001533.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001564",
+    "name": "NOICE Chicken Salami",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001564.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001595",
+    "name": "NOICE Chicken Seekh Kebabs",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001595.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001601",
+    "name": "NOICE Chicken Wings (Peri Peri Marinated)",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://easydrawingguides.com/wp-content/uploads/2021/12/Landscape-step-by-step-drawing-tutorial-step-09.png",
+    "img": "/images/packshots/8908940001601.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001588",
+    "name": "NOICE Chicken Zinger Burger Patty",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://indonesiajuara.asia/wp-content/uploads/2025/09/Tari-Caci-di-Kampung-Melo-Labuan-Bajo-Source-Google-Maps-Felix-Candra-Sutanto_11zon_11zon-1024x576.webp",
+    "img": "/images/packshots/8908940001588.webp",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001205",
+    "name": "NOICE Chikku Slow Churned Ice Cream",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Fruit Ice Cream",
+    "src": "https://www.xxxx.com.au/wp-content/uploads/sites/2/2023/08/waterways-xxxx-gold-grain-2-1024x683.jpg",
+    "img": "/images/packshots/8908940001205.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000208",
+    "name": "NOICE Chocochip Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://i.ytimg.com/vi/bNRb-qq69lM/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000208.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001243",
+    "name": "NOICE Chocolate Chip Whey Protein Bar (10g Protein, Date Sweetened)",
+    "brand": "NOICE",
+    "category": "Protein & Clean-Label Bars / Wafers",
+    "subCategory": "Clean-Label Bars",
+    "src": "https://media.ptcpunjabi.co.in/wp-content/uploads/2021/09/Sukhwinder-sukhi-pp-min.jpg",
+    "img": "/images/packshots/8908940001243.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001250",
+    "name": "NOICE Chocolate Fudge Whey Protein Bar (10g Protein, Zero Added Sugar)",
+    "brand": "NOICE",
+    "category": "Protein & Clean-Label Bars / Wafers",
+    "subCategory": "Clean-Label Bars",
+    "src": "https://wallpapercave.com/wp/wp11063423.jpg",
+    "img": "/images/packshots/8908940001250.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001311",
+    "name": "NOICE Chocolate Peanut Butter (22% Protein)",
+    "brand": "NOICE",
+    "category": "Wholesome Breakfast, Oats & Nut Butters",
+    "subCategory": "Peanut & Nut Butters",
+    "src": "https://i2-prod.irishmirror.ie/incoming/article10611358.ece/ALTERNATES/s615b/PAY-PREMIUM-EXCLUSIVE-Jessica-Chastain-marries-Gian-Luca-Passi-in-an-Italian-ceremony-MUST-CALL-FOR.jpg",
+    "img": "/images/packshots/8908940001311.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001267",
+    "name": "NOICE Chunky Strawberry Jam (80% Fruit)",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fruit Spreads & Preserves",
+    "src": "https://pamagazine.co.uk/wp-content/uploads/2026/05/Screenshot_20260512_102202-768x493.jpg",
+    "img": "/images/packshots/8908940001267.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000543",
+    "name": "NOICE Classic Moong Bhujia",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.redd.it/9v8kzaen0yl41.jpg",
+    "img": "/images/packshots/8908940000543.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000499",
+    "name": "NOICE Congress Peanuts",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.ytimg.com/vi/aceuXnz5Bm0/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000499.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000598",
+    "name": "NOICE Cornflakes Mixture",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://wallpapercave.com/wp/wp12427890.jpg",
+    "img": "/images/packshots/8908940000598.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001304",
+    "name": "NOICE Creamy Peanut Butter (Jaggery Sweetened)",
+    "brand": "NOICE",
+    "category": "Wholesome Breakfast, Oats & Nut Butters",
+    "subCategory": "Peanut & Nut Butters",
+    "src": "https://pamagazine.co.uk/wp-content/uploads/2026/05/Screenshot_20260512_102202-768x493.jpg",
+    "img": "/images/packshots/8908940001304.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002656",
+    "name": "Noice Crispy Masala Khakhra",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://img.squareyards.com/secondaryPortal/optImages/IN_639112646540866746-080426050414414.jpg",
+    "img": "/images/packshots/8908930002656.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002649",
+    "name": "Noice Crispy Methi Khakhra",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://m.media-amazon.com/images/I/51rUng4H+YL._AC_SL1404_.jpg",
+    "img": "/images/packshots/8908930002649.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001298",
+    "name": "NOICE Crunchy Peanut Butter (Jaggery Sweetened)",
+    "brand": "NOICE",
+    "category": "Wholesome Breakfast, Oats & Nut Butters",
+    "subCategory": "Peanut & Nut Butters",
+    "src": "https://alchetron.com/cdn/rutan-solitaire-cf376070-2885-42ee-b60b-e372396bb46-resize-750.png",
+    "img": "/images/packshots/8908940001298.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000024",
+    "name": "NOICE Crustless Sandwich Bread (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://img00.deviantart.net/84ec/i/2016/331/7/d/overwatch_d_va_cosplay_by_cosplayprodigy_by_cosplayprodigy-dapqwvu.jpg",
+    "img": "/images/packshots/8908940000024.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001342",
+    "name": "NOICE Cucumber Tzatziki Dip",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://wallpapercave.com/wp/wp4292432.jpg",
+    "img": "/images/packshots/8908940001342.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001175",
+    "name": "NOICE Dark Chocolate Gelato",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Artisan Gelato",
+    "src": "https://static.storyweaver.org.in/illustrations/81137/large/thank_you_card_in_kannada.jpg",
+    "img": "/images/packshots/8908940001175.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000772",
+    "name": "NOICE Desi Buffalo Ghee (Free Range Single Farm)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Butter & Ghee",
+    "src": "https://i.pinimg.com/originals/f0/64/b3/f064b3bcdc42b33d97dd81fde091844b.png",
+    "img": "/images/packshots/8908940000772.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000741",
+    "name": "NOICE Desi Makkhan (Unsalted White Butter)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Butter & Ghee",
+    "src": "https://i.ytimg.com/vi/6ba7Ni6R7Lk/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000741.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000550",
+    "name": "NOICE Desi Moong Dal",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://www.conbotasymochila.com/wp-content/uploads/2025/03/Mallos-de-Aguero-25-768x576.jpg",
+    "img": "/images/packshots/8908940000550.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001151",
+    "name": "NOICE Dry Fruit Date Bites",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://m.media-amazon.com/images/M/MV5BY2I1NjZlMzctYTk3ZC00NzhkLTk3YzUtZWY4NmJlZDY1OTg3XkEyXkFqcGc@._V1_.jpg",
+    "img": "/images/packshots/8908940001151.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000888",
+    "name": "NOICE Farm Fresh Eggs (Antibiotic Free)",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Eggs & Staples",
+    "src": "https://www.telugu360.com/wp-content/uploads/2024/08/Nayan-Sarika-7.jpg",
+    "img": "/images/packshots/8908940000888.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000031",
+    "name": "NOICE Fluffy White Bread (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/14/8e/0c148ec7-c12d-a27b-b70c-a25f0806225e/8909339053829.png/1200x630bf-60.jpg",
+    "img": "/images/packshots/8908940000031.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000093",
+    "name": "NOICE Focaccia Bread (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://i.etsystatic.com/63137688/r/il/828fe3/8883968896/il_1080xN.8883968896_2un2.jpg",
+    "img": "/images/packshots/8908940000093.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000079",
+    "name": "NOICE French Sourdough Bread (Sliced Small Loaf)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://static.wixstatic.com/media/e8b18a_c78dbd1ce40a442d815f4c75dc6e240c~mv2.png/v1/fill/w_980,h_980,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/e8b18a_c78dbd1ce40a442d815f4c75dc6e240c~mv2.png",
+    "img": "/images/packshots/8908940000079.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000932",
+    "name": "NOICE Fresh Apple Juice",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://www.matemente.com/wp-content/uploads/2022/07/ejercicios-de-suma-de-fracciones-9.jpg",
+    "img": "/images/packshots/8908940000932.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000314",
+    "name": "NOICE Fresh Bakery Butter Osmania Biscuit (Mini Cookies)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://wallpapercave.com/wp/wp8979301.jpg",
+    "img": "/images/packshots/8908940000314.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000253",
+    "name": "NOICE Fresh Bakery Cashew Biscuit (Mini Cookies)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://masterbundles.com/wp-content/uploads/2024/03/master-bundle-555.jpg",
+    "img": "/images/packshots/8908940000253.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000178",
+    "name": "NOICE Fresh Butter Croissant (Caramelized Buttery Brioche)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Croissants & Rolls",
+    "src": "https://m.media-amazon.com/images/I/51ZOHochCQL.jpg",
+    "img": "/images/packshots/8908940000178.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001373",
+    "name": "NOICE Fresh Coconut Chutney",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://mptestequipment.com/wp-content/uploads/2025/10/semiconductor-manufacturing-flow.png",
+    "img": "/images/packshots/8908940001373.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001328",
+    "name": "NOICE Fresh Hass Avocado Spread (Olive Oil & Lemon)",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001328.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001335",
+    "name": "NOICE Fresh Hot Salsa",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://server.wallpaperalchemy.com/storage/wallpapers/7803/cristiano-ronaldo-football-8k-wallpaper-in-portugal-kit.jpeg",
+    "img": "/images/packshots/8908940001335.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001120",
+    "name": "NOICE Fresh Kaju Katli",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://doc.systemgarden.com/b33cdfbc37127a08a4a1d22ce3028e8a464d56d3.png",
+    "img": "/images/packshots/8908940001120.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000758",
+    "name": "NOICE Fresh Khoya (Mawa)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Paneer & Dairy",
+    "src": "https://m.media-amazon.com/images/M/MV5BMzAzMTViZTMtYmQ3Yi00Y2E4LWEwM2EtZjQxNDljZGY0MDIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "img": "/images/packshots/8908940000758.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000963",
+    "name": "NOICE Fresh Lime Soda",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Carbonated Soft Drinks",
+    "src": "https://store.magenest.com/wp/wp-content/uploads/2021/09/transaction-id-2.png",
+    "img": "/images/packshots/8908940000963.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000727",
+    "name": "NOICE Fresh Malai Paneer (Muslin Cloth Drained)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Paneer & Dairy",
+    "src": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/574NODGDYJJOCNBBSVD3YKVEEE.jpg",
+    "img": "/images/packshots/8908940000727.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000857",
+    "name": "NOICE Fresh Mango Thick Lassi",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Dairy Drinks",
+    "src": "https://static.vecteezy.com/system/resources/thumbnails/030/663/696/small_2x/calming-anime-background-high-quality-free-photo.jpg",
+    "img": "/images/packshots/8908940000857.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000833",
+    "name": "NOICE Fresh Masala Buttermilk",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Dairy Drinks",
+    "src": "https://www.netcarshow.com/Honda-NSX-1990-Rear_Three-Quarter.e8a54b32.jpg",
+    "img": "/images/packshots/8908940000833.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001076",
+    "name": "NOICE Fresh Milk Peda Made With Desi Ghee",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://i.pinimg.com/originals/71/b8/16/71b816f7642dac19b43a2ed398b5be85.jpg",
+    "img": "/images/packshots/8908940001076.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001403",
+    "name": "NOICE Fresh Mint Coriander Chutney",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://static.vecteezy.com/system/resources/thumbnails/034/072/846/small_2x/a-pair-of-pandas-cuddling-ai-generated-photo.jpg",
+    "img": "/images/packshots/8908940001403.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000819",
+    "name": "NOICE Fresh Mozzarella Cheese Balls (Bocconcini)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Artisan Cheese",
+    "src": "https://i.ytimg.com/vi/4MSIoIqbEBI/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000819.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001090",
+    "name": "NOICE Fresh Mysore Pak Made With Desi Ghee",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://www.utusan.com.my/wp-content/uploads/2026/06/PRNJ-ONN-HAFIZ-750x541.jpeg",
+    "img": "/images/packshots/8908940001090.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000840",
+    "name": "NOICE Fresh Punjabi Malai Lassi",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Dairy Drinks",
+    "src": "https://wallpapercave.com/wp/wp4990451.jpg",
+    "img": "/images/packshots/8908940000840.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000369",
+    "name": "NOICE Fresh Rusk (Bakery Style)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cakes & Rusk",
+    "src": "https://easydrawingguides.com/wp-content/uploads/2021/12/Landscape-step-by-step-drawing-tutorial-step-09.png",
+    "img": "/images/packshots/8908940000369.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000352",
+    "name": "NOICE Fresh Sponge Cake (Fresh Chocolate Tea Cake)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cakes & Rusk",
+    "src": "https://i.ytimg.com/vi/cz9l8tkMzUQ/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000352.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000864",
+    "name": "NOICE Fresh Stone-Ground Idli & Dosa Batter",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Fresh Batters",
+    "src": "https://weddingguide.in/wp-content/uploads/2022/05/sri-balaji-garden-function-hall.jpg",
+    "img": "/images/packshots/8908940000864.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000925",
+    "name": "NOICE Fresh Valencia Orange Juice",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hVr5S.img?w=768",
+    "img": "/images/packshots/8908940000925.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000185",
+    "name": "NOICE Ganache Chocolate Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://wallpaperset.com/w/full/5/c/6/149455.jpg",
+    "img": "/images/packshots/8908940000185.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000635",
+    "name": "NOICE Garlic Thenkuzhal",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://cikami.co.id/wp-content/uploads/2023/07/Air-Cooled-Chiller-Component.png",
+    "img": "/images/packshots/8908940000635.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000987",
+    "name": "NOICE Ginger Ale Soda",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Carbonated Soft Drinks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000987.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000321",
+    "name": "NOICE Ginger Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://wallpapercave.com/wp/wp7388426.jpg",
+    "img": "/images/packshots/8908940000321.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000130",
+    "name": "NOICE Golden Sweet Bun (Raisin Sweet Bun)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://tse-mm.bing.com/th?q=gali satta guess today",
+    "img": "/images/packshots/8908940000130.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002687",
+    "name": "Noice Gourmet Caramel Popcorn",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Popcorn & Puffs",
+    "src": "https://coloringcool.com/wp-content/data/images/2021/10/baby-jesus-manger-scene-coloring-page.png",
+    "img": "/images/packshots/8908930002687.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000475",
+    "name": "NOICE Gourmet Popcorn with Real Butter",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Popcorn & Puffs",
+    "src": "https://vpgforcesensors.com/sites/vpgforcesensors/files/VPG force sensors MASTHEAD.jpg",
+    "img": "/images/packshots/8908940000475.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000796",
+    "name": "NOICE Greek Yogurt (6.6g Protein)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Yogurt",
+    "src": "https://m.media-amazon.com/images/M/MV5BMTJhZGE3NmYtYTg0Ny00MWUzLWE0MmUtYTZjYTg1ZjVlMWRkXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
+    "img": "/images/packshots/8908940000796.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001519",
+    "name": "NOICE Green Chilli Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://artgaudi.com/10093-home_default/park-gueell-dragon-magnet.jpg",
+    "img": "/images/packshots/8908940001519.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000710",
+    "name": "NOICE Gujarati Garlic Khakhra",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://images-na.ssl-images-amazon.com/images/I/91fVQKqo8lL.png",
+    "img": "/images/packshots/8908940000710.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000703",
+    "name": "NOICE Gujarati Jeera Khakhra",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://wallpaperaccess.com/full/47178.jpg",
+    "img": "/images/packshots/8908940000703.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001465",
+    "name": "NOICE Gujarati Mango Chunda",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://img.magnific.com/premium-vector/arabic-text-calligraphy-art-bismillah-vector-design_1215318-1170.jpg?w=1480",
+    "img": "/images/packshots/8908940001465.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000246",
+    "name": "NOICE Handmade Coconut Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000246.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000260",
+    "name": "NOICE Handmade Fruit Biscuits",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://cdn.slidesharecdn.com/ss_thumbnails/ciimppt-240706074322-5a02833e-thumbnail.jpg?width=560",
+    "img": "/images/packshots/8908940000260.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000895",
+    "name": "NOICE High Protein Eggs (Nut & Bean Feed)",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Eggs & Staples",
+    "src": "https://m.media-amazon.com/images/I/61pvSVjYKCL.jpg",
+    "img": "/images/packshots/8908940000895.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000734",
+    "name": "NOICE High Protein Paneer (50g Protein Per Pack)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Paneer & Dairy",
+    "src": "https://assets.volkswagen.com/is/image/volkswagenag/16-9_Contact?Zml0PWNyb3AsMSZmbXQ9cG5nJndpZD04MDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmYzRiMA==",
+    "img": "/images/packshots/8908940000734.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001359",
+    "name": "NOICE Himalayan Farm Honey (Single Origin Pure)",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Honey & Sweeteners",
+    "src": "https://elsouvenir.com/wp-content/uploads/2026/01/5-12.jpg",
+    "img": "/images/packshots/8908940001359.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000611",
+    "name": "NOICE Homestyle Chakli",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://yt3.googleusercontent.com/yl3ii04K6rKlh9E1ZO5560s0sW-mD3EB50aOOGyI9Tu8aIofJRrxcYaL5ao_NOMJYNcPKfLvfek=s900-c-k-c0x00ffffff-no-rj",
+    "img": "/images/packshots/8908940000611.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000680",
+    "name": "NOICE Homestyle Namakpara",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://m.media-amazon.com/images/I/612Id5GzB5L.jpg",
+    "img": "/images/packshots/8908940000680.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000574",
+    "name": "NOICE Homestyle Poha Mixture",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/048/242/147/non_2x/wedding-monogram-design-circle-and-organic-style-ay-luxury-concept-letter-free-vector.jpg",
+    "img": "/images/packshots/8908940000574.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001137",
+    "name": "NOICE Jaggery Coconut Barfi",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://www.goodwillness.com/wp-content/uploads/2025/08/Viluppuram-RDM-Village-Assistant-Recruitment-2025-1024x576.jpg",
+    "img": "/images/packshots/8908940001137.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001144",
+    "name": "NOICE Jaggery Peanut Chikki",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001144.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001625",
+    "name": "NOICE Jalapeno Cheese Samosa",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/CIW/2026/2/11/cdb19cab-a912-422c-b674-89350d6ab54c_817792_1.png",
+    "img": "/images/packshots/8908940001625.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000277",
+    "name": "NOICE Jam Filled Biscuits",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://paintingvalley.com/drawings/landscape-line-drawing-27.jpg",
+    "img": "/images/packshots/8908940000277.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000055",
+    "name": "NOICE Japanese Milk Bread (Contains Egg)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://i.pinimg.com/736x/a7/4c/51/a74c515fa1f96a48d22989b83bb341db.jpg",
+    "img": "/images/packshots/8908940000055.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000154",
+    "name": "NOICE Jeera Coriander Kulcha",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://images.mapleeditors.com/resources/20240405210955/Natures-Truth-Screen-20.png",
+    "img": "/images/packshots/8908940000154.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000970",
+    "name": "NOICE Jeera Masala Soda",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Carbonated Soft Drinks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000970.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000338",
+    "name": "NOICE Jeera Tea Biscuits",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://wallpapercave.com/wp/wp14984017.webp",
+    "img": "/images/packshots/8908940000338.webp",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000666",
+    "name": "NOICE Karam Gavvalu",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000666.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001458",
+    "name": "NOICE Karnataka Cut Mango Pickle",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://m.media-amazon.com/images/I/81lj6+HDU3L._SL1500_.jpg",
+    "img": "/images/packshots/8908940001458.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001366",
+    "name": "NOICE Kashmir Valley Forest Honey",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Honey & Sweeteners",
+    "src": "https://pamagazine.co.uk/wp-content/uploads/2026/05/Screenshot_20260512_102202-768x493.jpg",
+    "img": "/images/packshots/8908940001366.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002595",
+    "name": "Noice Kerala Nendran Banana Chips (Black Pepper)",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://2.imimg.com/data2/TX/OM/MY-3319273/crocodile-the-monkey-1000x1000.jpg",
+    "img": "/images/packshots/8908930002595.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002588",
+    "name": "Noice Kerala Nendran Banana Chips (Classic Salted)",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://2.bp.blogspot.com/_vCVu21KqZ7Q/SpE3QJESfvI/AAAAAAAAHBM/tTIUMt54Y5E/s800/fxxok3.jpg",
+    "img": "/images/packshots/8908930002588.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002601",
+    "name": "Noice Kerala Nendran Banana Chips (Peri Peri)",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://i.pinimg.com/originals/29/64/ad/2964ada8c160d5d64f29056bf6288e14.jpg",
+    "img": "/images/packshots/8908930002601.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001236",
+    "name": "NOICE Kesar Pista Kulfi",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Kulfi",
+    "src": "https://howtodraweasy.net/wp-content/uploads/2021/04/how-to-draw-Iron-Man-Easy.jpg",
+    "img": "/images/packshots/8908940001236.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001632",
+    "name": "NOICE Lebanese Falafel",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://www.gethucinema.com/wp-content/uploads/2025/05/Muskan-Karia-3-FnDTz18276.jpg",
+    "img": "/images/packshots/8908940001632.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000116",
+    "name": "NOICE Lebanese Pita Pockets (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://i.pinimg.com/originals/aa/a3/53/aaa3531876f536933b2f3f6a94ab7a81.jpg",
+    "img": "/images/packshots/8908940000116.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001045",
+    "name": "NOICE Lemon Iced Tea",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/2/21/342dd8a5-d940-4e7f-b58e-dc7a2c07dfda_635899_1.png",
+    "img": "/images/packshots/8908940001045.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000505",
+    "name": "NOICE Lime & Chilli Peanuts",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://wallpapercave.com/wp/wp7067763.jpg",
+    "img": "/images/packshots/8908940000505.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000406",
+    "name": "NOICE Lime & Chilli Potato Chips",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://img.theweek.in/content/dam/week/week/news/india/images/2025/2/27/Ashwini-Vaishnaw-dnpa.jpg",
+    "img": "/images/packshots/8908940000406.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001014",
+    "name": "NOICE Lime Kombucha",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://www.whyiexercise.com/images/abdominal.muscle.strength.curl.up.instructions.jpg",
+    "img": "/images/packshots/8908940001014.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001069",
+    "name": "NOICE Madras Filter Coffee",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001069.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000581",
+    "name": "NOICE Madras Mixture",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/45/77/4f45777c-83d8-9aa3-43c4-17cfb1007f30/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1200x630wa.jpg",
+    "img": "/images/packshots/8908940000581.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001229",
+    "name": "NOICE Malai Kulfi",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Kulfi",
+    "src": "https://motomahal.in/wp-content/uploads/2022/05/Modified-Bajaj-Pulsar-150-5.jpeg",
+    "img": "/images/packshots/8908940001229.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001038",
+    "name": "NOICE Mango Kombucha",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://designhouseplan.com/wp-content/uploads/2022/07/30x30-floor-plan.jpg",
+    "img": "/images/packshots/8908940001038.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001441",
+    "name": "NOICE Marwari Mango Achar",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://www.activewild.com/wp-content/uploads/2022/02/Great-Hornbill-768x512.jpg",
+    "img": "/images/packshots/8908940001441.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000994",
+    "name": "NOICE Masala Lemonade Sweet & Salty",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://media.idownloadblog.com/wp-content/uploads/2015/12/Temple-Run-2-Frozen-Shadows-teaser-001.jpg",
+    "img": "/images/packshots/8908940000994.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000482",
+    "name": "NOICE Masala Peanut with Curry Leaves",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://www.jotrin.ru/userfiles/images/techs/74LS04.png",
+    "img": "/images/packshots/8908940000482.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000697",
+    "name": "NOICE Methi Mathri",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://www.thesun.ie/wp-content/uploads/sites/3/2024/12/ac-12_12-ronaldo-cars-op.jpg?strip=all",
+    "img": "/images/packshots/8908940000697.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000437",
+    "name": "NOICE Mexican Nachos Tortilla Chips",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://www.clinii.com/wp-content/uploads/2025/12/POS-Components.png",
+    "img": "/images/packshots/8908940000437.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001083",
+    "name": "NOICE Milk Cake Made With Desi Ghee",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200,h_630/NI_CATALOG/IMAGES/CIW/2025/7/7/69f99d5f-7744-4c3f-8901-22bf24d76407_9DJGV32X5H_3.png",
+    "img": "/images/packshots/8908940001083.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001168",
+    "name": "NOICE Milk Chocolate (Pure Cocoa Butter)",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Milk Chocolate",
+    "src": "https://wallpapers.com/images/hd/spot-the-difference-pictures-m7oa4bu3no6k3fub.jpg",
+    "img": "/images/packshots/8908940001168.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000628",
+    "name": "NOICE Millet Murukku",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static.vecteezy.com/system/resources/previews/080/362/096/non_2x/christian-pentecost-illustration-with-glowing-dove-fire-and-radiant-light-vector.jpg",
+    "img": "/images/packshots/8908940000628.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000642",
+    "name": "NOICE Millet Nippatu",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://yt3.googleusercontent.com/ytc/AIdro_nWfTHJWqnrjH6H1WovXRRQZId7ClCWziBhsyqIW-fha88=s900-c-k-c0x00ffffff-no-rj",
+    "img": "/images/packshots/8908940000642.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001618",
+    "name": "NOICE Mini Punjabi Samosa",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://images.stockcake.com/public/b/2/7/b2757912-98b5-4d31-92fd-3bbf2d41cd6d_large/floral-welcome-design-stockcake.jpg",
+    "img": "/images/packshots/8908940001618.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001274",
+    "name": "NOICE Mixed Fruit Jam (80% Fruit)",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fruit Spreads & Preserves",
+    "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3641083425718721678",
+    "img": "/images/packshots/8908940001274.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001106",
+    "name": "NOICE Motichoor Laddoo Made With Desi Ghee",
+    "brand": "NOICE",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Indian Traditional Sweets",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_544,w_504/NI_CATALOG/IMAGES/CIW/2025/7/7/d23ef0a6-0ef4-45e4-9b89-b994498e9aa9_8D1VL6WPRM_1.png",
+    "img": "/images/packshots/8908940001106.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000086",
+    "name": "NOICE Multigrain Sourdough Bread",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000086.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000901",
+    "name": "NOICE Natural Coconut Water (Tamil Nadu Sourced)",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Coconut Water",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000901.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000604",
+    "name": "NOICE Navratan Mix",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://www.thetakeout.com/img/gallery/what-is-xxxx-beer-and-why-is-it-an-australian-favorite/xxx-gold-is-one-of-australias-best-selling-beers-1718893772.jpg",
+    "img": "/images/packshots/8908940000604.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000215",
+    "name": "NOICE Oat & Chocochip Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://media.craiyon.com/gallery-previews/91148b1e50123e5a745b6203c69afc08f05937c8326ea801ade4f08c40173fec/1176f3532eb0145ccf7e4bdf72ca813eb2addd653c5e2a1ffb554bfedb1c4769-w640-clean.webp",
+    "img": "/images/packshots/8908940000215.webp",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000222",
+    "name": "NOICE Oat & Raisin Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://5.imimg.com/data5/SELLER/Default/2025/5/507385453/CB/DV/TY/14979358/tata-winger-21s-35wb-sch-hr-fps-van-1000x1000.jpg",
+    "img": "/images/packshots/8908940000222.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001052",
+    "name": "NOICE Peach Iced Tea",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940001052.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001021",
+    "name": "NOICE Peach Kombucha",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://img1.wsimg.com/isteam/ip/b6eeb32e-c44a-4e1c-a990-069f245d56de/612cfcad-265c-4159-a6e0-ed29f2eaf86d.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:370,cg:true",
+    "img": "/images/packshots/8908940001021.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001380",
+    "name": "NOICE Peanut Chutney",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://bigthink.com/wp-content/uploads/2018/08/18624338.jpg?fit=708",
+    "img": "/images/packshots/8908940001380.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000420",
+    "name": "NOICE Peri Peri Moong Dal Chips",
+    "brand": "NOICE",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/7/15/249f5842-9278-45f8-b13b-a0bbff8dabc6_675337-1.jpg",
+    "img": "/images/packshots/8908940000420.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000949",
+    "name": "NOICE Pineapple Juice",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://i.pinimg.com/736x/b3/22/78/b322783dcb94ded81c2cee0647e91105.jpg",
+    "img": "/images/packshots/8908940000949.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001007",
+    "name": "NOICE Pineapple Kombucha",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea & Ready Drinks",
+    "src": "https://i.ytimg.com/vi/XHZxAs2KbzA/maxresdefault.jpg",
+    "img": "/images/packshots/8908940001007.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002625",
+    "name": "Noice Potato Wafers (Classic Salted)",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "http://getdrawings.com/image/easy-abstract-drawing-55.jpg",
+    "img": "/images/packshots/8908930002625.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002632",
+    "name": "Noice Potato Wafers (Masala Masti)",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://subkuz.com/uploads/news/2025/08/68b0302fd172a1756377135.jpg",
+    "img": "/images/packshots/8908930002632.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000284",
+    "name": "NOICE Premium Millet Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://m.media-amazon.com/images/M/MV5BMjAwNTY4MTY3MV5BMl5BanBnXkFtZTYwOTE3MTc1._V1_FMjpg_UX1000_.jpg",
+    "img": "/images/packshots/8908940000284.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000802",
+    "name": "NOICE Protein Greek Yogurt (14g Protein Per Pack)",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Yogurt",
+    "src": "https://i.pinimg.com/736x/e8/c0/14/e8c01439e7eaa357d3608730b32ae42e.jpg",
+    "img": "/images/packshots/8908940000802.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000673",
+    "name": "NOICE Pune-Special Bhakarwadi",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://cdn.pulse2.com/cdn/2020/12/XYZ.jpg",
+    "img": "/images/packshots/8908940000673.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000161",
+    "name": "NOICE Punjabi Garlic Kulcha",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://image.shutterstock.com/image-illustration/one-continuous-single-drawing-line-260nw-2002311866.jpg",
+    "img": "/images/packshots/8908940000161.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001434",
+    "name": "NOICE Punjabi Mango Achar",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://i.ytimg.com/vi/wNeX-gd0WOE/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ab4EgAKACIoCDAgAEAEYWSBfKGUwDw==",
+    "img": "/images/packshots/8908940001434.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001649",
+    "name": "NOICE Quinoa Bean Patty",
+    "brand": "NOICE",
+    "category": "Ready-to-Eat & Ready-to-Cook",
+    "subCategory": "Frozen Snacks",
+    "src": "https://i.pinimg.com/originals/71/b7/c8/71b7c8ebb48358342d4400d5fb16067a.png",
+    "img": "/images/packshots/8908940001649.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000291",
+    "name": "NOICE Ragi Amaranth Gluten-Free Cookies (No Refined Sugar)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000291.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000413",
+    "name": "NOICE Ragi Crackle Chips (Masala)",
+    "brand": "NOICE",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Baked Chips",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/ciw/2025/12/18/a92fcd30-b6c1-4307-86fe-dca7a1360c91_UX7DUSSKCD_MN_17122025.png",
+    "img": "/images/packshots/8908940000413.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000529",
+    "name": "NOICE Rajasthani Bhujia Sev",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/09/18-years-dead-rising-1.jpg",
+    "img": "/images/packshots/8908940000529.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000239",
+    "name": "NOICE Rich Butter Cookies",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://visament.com/front/images/home/photomakerbg.png",
+    "img": "/images/packshots/8908940000239.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000376",
+    "name": "NOICE Ripe Nendran Banana Chips (Sweet, Coconut Oil)",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://i.pinimg.com/originals/fa/98/67/fa9867570a9feca2f2c575b0ce84756d.jpg",
+    "img": "/images/packshots/8908940000376.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001212",
+    "name": "NOICE Rose Gulkand Slow Churned Ice Cream",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Traditional Ice Cream",
+    "src": "https://image.slidesharecdn.com/fiber-reinforced-polymer-frp-130627004352-phpapp02/75/Fiber-reinforced-polymer-frp-2-2048.jpg",
+    "img": "/images/packshots/8908940001212.webp",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000451",
+    "name": "NOICE Salt & Pepper Ghee Roasted Makhana",
+    "brand": "NOICE",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Roasted Makhana",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/ciw/2025/12/17/62c67291-383e-4d13-a805-7bc5a1453b11_EN95S4TTXL_MN_17122025.png",
+    "img": "/images/packshots/8908940000451.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001182",
+    "name": "NOICE Salted Caramel Gelato",
+    "brand": "NOICE",
+    "category": "Ice Cream",
+    "subCategory": "Artisan Gelato",
+    "src": "https://www.docspile.com/wp-content/uploads/2019/01/Doctor-Certificate-Template-DD.png",
+    "img": "/images/packshots/8908940001182.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000390",
+    "name": "NOICE Salted Tapioca Chips",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://kabraarchitects.com/wp-content/uploads/2024/01/masterbedroom1.png",
+    "img": "/images/packshots/8908940000390.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000123",
+    "name": "NOICE Sliced Brioche Burger Buns (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://wallpaperaccess.com/full/15560107.jpg",
+    "img": "/images/packshots/8908940000123.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000826",
+    "name": "NOICE Slowly Aged Cheddar Cheese Block",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Artisan Cheese",
+    "src": "https://image.slidesharecdn.com/softtissuemorphology-180622062945/95/soft-tissue-morphology-14-638.jpg?cb=1529694905",
+    "img": "/images/packshots/8908940000826.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000109",
+    "name": "NOICE Sourdough Pizza Base (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://english.loktej.com/media/576/2023-11/2-15.jpg",
+    "img": "/images/packshots/8908940000109.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001526",
+    "name": "NOICE South Indian Gunpowder Idli Podi",
+    "brand": "NOICE",
+    "category": "Condiments & Sauces",
+    "subCategory": "Pickles & Chutneys",
+    "src": "https://d1hv7ee95zft1i.cloudfront.net/custom/blog-post/original/why-the-mg-gt-is-a-sporty-sedan-at-an-attractive-price-67a1d00c92e68.jpg",
+    "img": "/images/packshots/8908940001526.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000468",
+    "name": "NOICE Special Masala Roasted Makhana",
+    "brand": "NOICE",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Roasted Makhana",
+    "src": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2026/2/20/a7a642b8-60ed-4b2f-b81d-c658cf2f6008_851143_1.png",
+    "img": "/images/packshots/8908940000468.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000536",
+    "name": "NOICE Spiced Aloo Bhujia",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.pinimg.com/736x/38/69/83/38698322d79d6d512088ed44f3d27dda.jpg",
+    "img": "/images/packshots/8908940000536.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000383",
+    "name": "NOICE Spicy Masala Long Banana Chips",
+    "brand": "NOICE",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://blog.swiggy.com/wp-content/uploads/2024/10/SEO-Creatives-6.png",
+    "img": "/images/packshots/8908940000383.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002618",
+    "name": "Noice Spicy Tapioca Chips",
+    "brand": "Noice",
+    "category": "Snacks & Spreads",
+    "subCategory": "Banana Chips",
+    "src": "https://learnpoultry.com/wp-content/uploads/2022/09/ameraucana-hen-vs-rooster.jpg",
+    "img": "/images/packshots/8908930002618.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000871",
+    "name": "NOICE Stone Ground Whole Wheat Atta",
+    "brand": "NOICE",
+    "category": "Pantry & Grains",
+    "subCategory": "Flour & Atta",
+    "src": "https://easydrawingguides.com/wp-content/uploads/2021/12/Landscape-step-by-step-drawing-tutorial-step-09.png",
+    "img": "/images/packshots/8908940000871.png",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000918",
+    "name": "NOICE Sugarcane Juice (Cold-Pressed)",
+    "brand": "NOICE",
+    "category": "Cold Drinks",
+    "subCategory": "Fruit Drinks & Juices",
+    "src": "https://wallpapercave.com/wp/wp3704728.jpg",
+    "img": "/images/packshots/8908940000918.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000345",
+    "name": "NOICE Sweet & Salty Biscuits",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Cookies & Biscuits",
+    "src": "https://www.jagranimages.com/webstories/photo-146501/krishna-wife-1779626863.webp",
+    "img": "/images/packshots/8908940000345.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940001397",
+    "name": "NOICE Tomato Chutney",
+    "brand": "NOICE",
+    "category": "Spreads, Dips & Sauces",
+    "subCategory": "Fresh Dips & Spreads",
+    "src": "https://i.pinimg.com/736x/97/54/5d/97545d3a046230e67066206be377660c.jpg",
+    "img": "/images/packshots/8908940001397.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000789",
+    "name": "NOICE Traditionally Set Creamy Curd",
+    "brand": "NOICE",
+    "category": "Dairy & Yogurt",
+    "subCategory": "Yogurt",
+    "src": "https://treevitalize.com/wp-content/uploads/2022/10/Different-Types-of-Maple-Trees.jpg",
+    "img": "/images/packshots/8908940000789.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908940000062",
+    "name": "NOICE Triangle Bread (Freshly Made)",
+    "brand": "NOICE",
+    "category": "Bakery & Breads",
+    "subCategory": "Breads & Buns",
+    "src": "https://i.ytimg.com/vi/OuQMB7Y8Ds0/maxresdefault.jpg",
+    "img": "/images/packshots/8908940000062.jpg",
+    "reason": "NOICE_CATALOG"
+  },
+  {
+    "barcode": "8908930002205",
+    "name": "Open Secret 7-in-1 Superfood Dry Fruit & Seed Mix",
+    "brand": "Open Secret",
+    "category": "Dry Fruits, Nuts, Seeds & Trail Mixes",
+    "subCategory": "Trail Mixes",
+    "src": "https://wallpapercave.com/wp/YvM43ut.jpg",
+    "img": "/images/packshots/8908930002205.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001079",
+    "name": "Prabhuji Khatta Meetha",
+    "brand": "Prabhuji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://i.ytimg.com/vi/RlbW5ZyXhKc/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYVyBlKDYwDw==",
+    "img": "/images/packshots/8908930001079.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930001055",
+    "name": "Prabhuji Moong Dal",
+    "brand": "Prabhuji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://media1.thrillophilia.com/filestore/fx2ht4ngn2ctl8wx1ucngfd65o61_1585038891_shutterstock_1055464226.jpg?w=753",
+    "img": "/images/packshots/8908930001055.jpg",
+    "reason": "HIT_shutterstock"
+  },
+  {
+    "barcode": "8908930001048",
+    "name": "Prabhuji Navratan Mixture",
+    "brand": "Prabhuji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Mixture & Namkeen",
+    "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3403759604466035956",
+    "img": "/images/packshots/8908930001048.jpg",
+    "reason": "HIT_instagram"
+  },
+  {
+    "barcode": "8908930001109",
+    "name": "Prabhuji Puffitos",
+    "brand": "Prabhuji",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://wallpapercave.com/wp/wp8999306.jpg",
+    "img": "/images/packshots/8908930001109.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000362",
+    "name": "Pringles Jalapeno Potato Crisps",
+    "brand": "Pringles",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://l450v.alamy.com/450v/2ygnbm7/ghent-belgium-april-12-2016-aerial-panoramic-view-of-the-historic-city-of-gent-province-of-east-flanders-europe-2ygnbm7.jpg",
+    "img": "/images/packshots/8908930000362.jpg",
+    "reason": "HIT_alamy"
+  },
+  {
+    "barcode": "8908930000300",
+    "name": "Pringles Pizza Flavoured Potato Crisps",
+    "brand": "Pringles",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpapercave.com/wp/wp12588239.jpg",
+    "img": "/images/packshots/8908930000300.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000324",
+    "name": "Pringles Salt & Seaweed Potato Crisps",
+    "brand": "Pringles",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://cdn.wallpapersafari.com/25/40/EQo5Mp.jpg",
+    "img": "/images/packshots/8908930000324.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930000331",
+    "name": "Pringles Scorchin' BBQ Potato Crisps",
+    "brand": "Pringles",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/uDzyLMg-J84/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000331.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908930000348",
+    "name": "Pringles Scorchin' Chili & Lime Potato Crisps",
+    "brand": "Pringles",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://i.ytimg.com/vi/M4nZ3-Fwe7s/maxresdefault.jpg",
+    "img": "/images/packshots/8908930000348.jpg",
+    "reason": "HIT_ytimg"
+  },
+  {
+    "barcode": "8908600002443",
+    "name": "Starbucks Iced Green Tea",
+    "brand": "Starbucks",
+    "category": "Cold Drinks",
+    "subCategory": "Iced Tea",
+    "src": "https://www.bbassets.com/media/uploads/p/m/40345325_1-starbucks-coffee-water-bottle-stainless-steel-green-wordmark-750-ml.jpg",
+    "img": "/images/packshots/8908600002443.jpg",
+    "reason": "HIT_starbucks"
+  },
+  {
+    "barcode": "8908930002304",
+    "name": "The Green Snack Co. Ghee-Roasted Makhanas (Himalayan Salt)",
+    "brand": "The Green Snack Co.",
+    "category": "Baked Chips, Makhana & Unjunked Indian Snacks",
+    "subCategory": "Roasted Makhana",
+    "src": "https://www.bbassets.com/media/uploads/p/l/40114829_2.jpg",
+    "img": "/images/packshots/8908930002304.jpg",
+    "reason": "TGSC_MAKHANA"
+  },
+  {
+    "barcode": "8908930001703",
+    "name": "Too Yumm! Baked Multigrain Chips Dahi Papdi Chaat",
+    "brand": "Too Yumm!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://st2.depositphotos.com/1033997/42581/v/1600/depositphotos_425811012-stock-illustration-facebook-flat-icon-vector-illustration.jpg",
+    "img": "/images/packshots/8908930001703.jpg",
+    "reason": "HIT_facebook"
+  },
+  {
+    "barcode": "8908930001710",
+    "name": "Too Yumm! Baked Multigrain Chips Tangy Tomato",
+    "brand": "Too Yumm!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Chips",
+    "src": "https://wallpapers.com/images/file/janasena-party-red-digital-artwork-qxbqux4yll4ut0yp.jpg",
+    "img": "/images/packshots/8908930001710.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001697",
+    "name": "Too Yumm! Quinoa Puffs Khatta Meetha",
+    "brand": "Too Yumm!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://wallpapercave.com/wp/wp4990451.jpg",
+    "img": "/images/packshots/8908930001697.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001611",
+    "name": "Too Yumm! Rings Tangy Tomato",
+    "brand": "Too Yumm!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://getdrawings.com/sketches/flowers-easy-sketch-7.jpg",
+    "img": "/images/packshots/8908930001611.jpg",
+    "reason": "HIT_drawing"
+  },
+  {
+    "barcode": "8908930001666",
+    "name": "Too Yumm! Veggie Stix Sour Cream & Onion",
+    "brand": "Too Yumm!",
+    "category": "Snacks & Spreads",
+    "subCategory": "Extruded Snacks",
+    "src": "https://kidspressmagazine.com/t500/19667/19668/abstract-drawing-26.png",
+    "img": "/images/packshots/8908930001666.png",
+    "reason": "HIT_drawing"
+  },
+  {
+    "barcode": "8908930001963",
+    "name": "WickedGüd Brown Rice Hakka Noodles",
+    "brand": "WickedGüd",
+    "category": "Noodles & Ready-to-Eat",
+    "subCategory": "Hakka & Flat Noodles",
+    "src": "http://wallpapercave.com/wp/BIABia5.jpg",
+    "img": "/images/packshots/8908930001963.jpg",
+    "reason": "HIT_wallpaper"
+  },
+  {
+    "barcode": "8908930001956",
+    "name": "WickedGüd High-Protein Macaroni Pasta",
+    "brand": "WickedGüd",
+    "category": "Noodles & Ready-to-Eat",
+    "subCategory": "Pasta",
+    "src": "https://c8.alamy.com/comp/CE76BT/hexadactyly-indian-family-with-six-fingers-in-hands-congenital-malformation-CE76BT.jpg",
+    "img": "/images/packshots/8908930001956.jpg",
+    "reason": "HIT_alamy"
+  },
+  {
+    "barcode": "8908930001925",
+    "name": "WickedGüd Lentil & Brown Rice Noodles (Curry Masala)",
+    "brand": "WickedGüd",
+    "category": "Noodles & Ready-to-Eat",
+    "subCategory": "Instant Noodles",
+    "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3378021083591891005",
+    "img": "/images/packshots/8908930001925.jpg",
+    "reason": "HIT_instagram"
+  },
+  {
+    "barcode": "8908200001952",
+    "name": "Zotter Labooko 100% Cacao",
+    "brand": "Zotter",
+    "category": "Chocolates & Sweets",
+    "subCategory": "Artisan Chocolate",
+    "src": "https://www.chocolate7.com/wp-content/uploads/2018/11/Screenshot_20250919_170214_Instagram-850x848.jpg",
+    "img": "/images/packshots/8908200001952.jpg",
+    "reason": "HIT_instagram"
+  }
+]
