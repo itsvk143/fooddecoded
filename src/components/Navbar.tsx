@@ -30,16 +30,16 @@ interface QuickSearchResult {
 export function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<QuickSearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
 
-  // Close mobile menu and dropdown on route change
+  // Close mobile search and dropdown on route change
   useEffect(() => {
-    setMobileMenuOpen(false);
+    setMobileSearchOpen(false);
     setShowDropdown(false);
   }, [pathname]);
 
@@ -204,8 +204,20 @@ export function Navbar() {
           })}
         </nav>
 
-        {/* Mobile menu trigger */}
-        <div className="flex md:hidden items-center gap-2">
+        {/* Mobile quick actions: Search toggle & Scanner */}
+        <div className="flex md:hidden items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => {
+              setMobileSearchOpen(!mobileSearchOpen);
+              if (!mobileSearchOpen && searchResults.length > 0) setShowDropdown(true);
+            }}
+            className="p-2 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 active:scale-95 transition-all"
+            aria-label="Toggle search"
+            title="Search food database"
+          >
+            {mobileSearchOpen ? <X className="w-5 h-5" /> : <Search className="w-5 h-5" />}
+          </button>
           <Link
             href="/scan"
             prefetch={true}
@@ -214,53 +226,65 @@ export function Navbar() {
           >
             <ScanLine className="w-5 h-5" />
           </Link>
-          <button
-            type="button"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800"
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
         </div>
       </div>
 
-      {/* Mobile Menu Panel */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-950 px-4 pt-3 pb-6 space-y-3">
-          <div className="relative mb-3">
-            <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
+      {/* Mobile Search Panel */}
+      {mobileSearchOpen && (
+        <div className="md:hidden border-t border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-950 px-4 pt-3 pb-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-150">
+          <div className="relative">
+            <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search food catalogue..."
+              placeholder="Search products, brands, or barcode..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter" && searchQuery.trim()) {
                   router.push(`/products?q=${encodeURIComponent(searchQuery)}`);
-                  setMobileMenuOpen(false);
+                  setMobileSearchOpen(false);
                 }
               }}
-              className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-900 text-sm"
+              autoFocus
+              className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100 placeholder-stone-400"
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-2">
-            {navLinks.map((link) => {
-              const Icon = link.icon;
-              return (
+          {/* Autocomplete Dropdown in Mobile Search */}
+          {searchResults.length > 0 && (
+            <div className="bg-white dark:bg-stone-900 rounded-2xl shadow-xl border border-stone-200 dark:border-stone-800 p-2 divide-y divide-stone-100 dark:divide-stone-800 max-h-60 overflow-y-auto">
+              {searchResults.slice(0, 5).map((item) => (
                 <Link
-                  key={link.href}
-                  href={link.href}
-                  prefetch={true}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center gap-2.5 p-3 rounded-xl bg-stone-50 dark:bg-stone-900 text-stone-800 dark:text-stone-200 font-bold text-sm active:scale-95 transition-transform"
+                  key={item.id}
+                  href={`/products/${item.id}`}
+                  onClick={() => {
+                    setMobileSearchOpen(false);
+                    setSearchQuery("");
+                  }}
+                  className="flex items-center gap-3 p-2 rounded-xl hover:bg-stone-50 dark:hover:bg-stone-800 transition-colors"
                 >
-                  <Icon className="w-4 h-4 text-emerald-500" />
-                  <span>{link.label}</span>
+                  <div className="w-9 h-9 rounded-lg bg-stone-100 dark:bg-stone-800 overflow-hidden shrink-0 flex items-center justify-center p-1 border border-stone-200/50">
+                    <ProductImage
+                      src={item.imageUrl}
+                      alt={item.name}
+                      className="max-h-full max-w-full object-contain"
+                    />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <span className="text-xs font-bold text-stone-900 dark:text-stone-100 truncate block">
+                      {item.name}
+                    </span>
+                    <span className="text-[10px] text-stone-500 truncate block">
+                      {item.brand}
+                    </span>
+                  </div>
+                  <div className="text-[11px] font-black px-1.5 py-0.5 rounded bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 shrink-0">
+                    {item.overallScore}
+                  </div>
                 </Link>
-              );
-            })}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </header>

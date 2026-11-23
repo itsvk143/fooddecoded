@@ -133,7 +133,7 @@ export function FiltersBar({ categories, brands, totalResults }: FiltersBarProps
             type="text"
             value={qInput}
             onChange={(e) => setQInput(e.target.value)}
-            placeholder="Search products, brands, ingredients, barcode..."
+            placeholder="Search food, brands..."
             className="w-full pl-10 pr-9 py-2.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800/80 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100 placeholder-stone-400"
           />
           {qInput && (

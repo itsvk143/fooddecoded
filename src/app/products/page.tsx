@@ -252,13 +252,13 @@ async function ProductsContent({ params }: { params: any }) {
             <Sparkles className="w-3.5 h-3.5" />
             <span>Searchable Food Database</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-black text-stone-900 dark:text-stone-50">
+          <h1 className="text-2xl sm:text-4xl font-black text-stone-900 dark:text-stone-50 tracking-tight leading-tight">
             {pageTitle}
           </h1>
           <p className="text-sm text-stone-500 mt-1">{pageDesc}</p>
         </div>
 
-        {!isDbConnected && (
+        {!isDbConnected && process.env.NODE_ENV !== "production" && (
           <div className="px-3.5 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-300 text-xs font-medium self-start sm:self-auto">
             ⚡ Demo Catalogue Mode · Connect MongoDB Atlas in .env.local to persist changes
           </div>
