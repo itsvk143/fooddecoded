@@ -94,6 +94,8 @@ export interface ProductItem {
   brand: string;
   category: string;
   categorySlug?: string | null;
+  mainCategory?: string | null;
+  primary_category_id?: string | null;
   subCategory?: string | null;
   servingSize?: string | null;
   imageUrl?: string | null;
@@ -138,7 +140,6 @@ export interface ProductItem {
   flavour?: string | null;
   packageSize?: string | null;
   packageUnit?: string | null;
-  mainCategory?: string | null;
   proteinContent?: string | null;
   dietaryInformation?: string | null;
   highlights?: string[] | null;
@@ -317,6 +318,8 @@ export interface SlimProductItem {
   brand: string;
   category: string;
   categorySlug?: string | null;
+  mainCategory?: string | null;
+  primary_category_id?: string | null;
   subCategory?: string | null;
   overallScore: number;
   score: number;

@@ -33,6 +33,92 @@ export function invalidateProductCache(): void {
   QUERY_CACHE.clear();
 }
 
+export const CATEGORY_RESOLVER: Record<string, string | string[]> = {
+  // Canonical 19 Categories (names and slugs)
+  "chips-namkeen-savoury-snacks": "Chips, Namkeen & Savoury Snacks",
+  "chips, namkeen & savoury snacks": "Chips, Namkeen & Savoury Snacks",
+  "makhana-roasted-snacks": "Makhana & Roasted Snacks",
+  "makhana & roasted snacks": "Makhana & Roasted Snacks",
+  "biscuits-cookies-crackers": "Biscuits, Cookies & Crackers",
+  "biscuits, cookies & crackers": "Biscuits, Cookies & Crackers",
+  "chocolates-candy-sweets": "Chocolates, Candy & Sweets",
+  "chocolates, candy & sweets": "Chocolates, Candy & Sweets",
+  "protein-bars-energy-bars-wafers": "Protein Bars, Energy Bars & Wafers",
+  "protein bars, energy bars & wafers": "Protein Bars, Energy Bars & Wafers",
+  "breakfast-cereals-muesli-granola": "Breakfast Cereals, Muesli & Granola",
+  "breakfast cereals, muesli & granola": "Breakfast Cereals, Muesli & Granola",
+  "oats-porridge": "Oats & Porridge",
+  "oats & porridge": "Oats & Porridge",
+  "bakery-breads": "Bakery & Breads",
+  "bakery & breads": "Bakery & Breads",
+  "noodles-pasta-vermicelli": "Noodles, Pasta & Vermicelli",
+  "noodles, pasta & vermicelli": "Noodles, Pasta & Vermicelli",
+  "ready-to-eat-meals-instant-foods": "Ready-to-Eat Meals & Instant Foods",
+  "ready-to-eat meals & instant foods": "Ready-to-Eat Meals & Instant Foods",
+  "ready-to-cook-mixes": "Ready-to-Cook Mixes",
+  "ready-to-cook mixes": "Ready-to-Cook Mixes",
+  "rice-grains-pulses-flours": "Rice, Grains, Pulses & Flours",
+  "rice, grains, pulses & flours": "Rice, Grains, Pulses & Flours",
+  "nuts-seeds-trail-mixes": "Nuts, Seeds & Trail Mixes",
+  "nuts, seeds & trail mixes": "Nuts, Seeds & Trail Mixes",
+  "nut-butters-spreads-dips": "Nut Butters, Spreads & Dips",
+  "nut butters, spreads & dips": "Nut Butters, Spreads & Dips",
+  "sauces-condiments-seasonings": "Sauces, Condiments & Seasonings",
+  "sauces, condiments & seasonings": "Sauces, Condiments & Seasonings",
+  "dairy-yogurt-dairy-alternatives": "Dairy, Yogurt & Dairy Alternatives",
+  "dairy, yogurt & dairy alternatives": "Dairy, Yogurt & Dairy Alternatives",
+  "beverages-drink-mixes": "Beverages & Drink Mixes",
+  "beverages & drink mixes": "Beverages & Drink Mixes",
+  "ice-cream-frozen-desserts": "Ice Cream & Frozen Desserts",
+  "ice cream & frozen desserts": "Ice Cream & Frozen Desserts",
+  "plant-based-foods-meat-alternatives": "Plant-Based Foods & Meat Alternatives",
+  "plant-based foods & meat alternatives": "Plant-Based Foods & Meat Alternatives",
+
+  // Backward-Compatible Aliases
+  "cold-drinks": "Beverages & Drink Mixes",
+  "cold drinks": "Beverages & Drink Mixes",
+  "beverages": "Beverages & Drink Mixes",
+  "beverages-drinks": "Beverages & Drink Mixes",
+  "beverages & drinks": "Beverages & Drink Mixes",
+  "ice-cream": "Ice Cream & Frozen Desserts",
+  "ice cream": "Ice Cream & Frozen Desserts",
+  "chocolate": "Chocolates, Candy & Sweets",
+  "chocolates": "Chocolates, Candy & Sweets",
+  "chocolates-sweets": "Chocolates, Candy & Sweets",
+  "chocolates & sweets": "Chocolates, Candy & Sweets",
+  "noodles-ready-to-eat": ["Noodles, Pasta & Vermicelli", "Ready-to-Eat Meals & Instant Foods"],
+  "noodles & ready-to-eat": ["Noodles, Pasta & Vermicelli", "Ready-to-Eat Meals & Instant Foods"],
+  "ready-to-eat-ready-to-cook": ["Ready-to-Eat Meals & Instant Foods", "Ready-to-Cook Mixes"],
+  "ready-to-eat & ready-to-cook": ["Ready-to-Eat Meals & Instant Foods", "Ready-to-Cook Mixes"],
+  "protein-foods-snacks": ["Protein Bars, Energy Bars & Wafers", "Chips, Namkeen & Savoury Snacks", "Biscuits, Cookies & Crackers"],
+  "protein foods & snacks": ["Protein Bars, Energy Bars & Wafers", "Chips, Namkeen & Savoury Snacks", "Biscuits, Cookies & Crackers"],
+  "protein-clean-label-bars-wafers": "Protein Bars, Energy Bars & Wafers",
+  "protein & clean-label bars / wafers": "Protein Bars, Energy Bars & Wafers",
+  "cereals-breakfast": "Breakfast Cereals, Muesli & Granola",
+  "cereals & breakfast": "Breakfast Cereals, Muesli & Granola",
+  "wholesome-breakfast-oats-nut-butters": ["Oats & Porridge", "Breakfast Cereals, Muesli & Granola", "Nut Butters, Spreads & Dips"],
+  "wholesome breakfast, oats & nut butters": ["Oats & Porridge", "Breakfast Cereals, Muesli & Granola", "Nut Butters, Spreads & Dips"],
+  "dairy-alternatives": "Dairy, Yogurt & Dairy Alternatives",
+  "dairy-yogurt": "Dairy, Yogurt & Dairy Alternatives",
+  "dairy & yogurt": "Dairy, Yogurt & Dairy Alternatives",
+  "plant-based-foods": "Plant-Based Foods & Meat Alternatives",
+  "plant-based foods": "Plant-Based Foods & Meat Alternatives",
+  "pantry-staples": "Rice, Grains, Pulses & Flours",
+  "pantry-grains": "Rice, Grains, Pulses & Flours",
+  "pantry & grains": "Rice, Grains, Pulses & Flours",
+  "condiments-sauces": "Sauces, Condiments & Seasonings",
+  "condiments & sauces": "Sauces, Condiments & Seasonings",
+  "spreads-dips-sauces": "Nut Butters, Spreads & Dips",
+  "spreads, dips & sauces": "Nut Butters, Spreads & Dips",
+  "baked-chips-makhana-unjunked-indian-snacks": ["Chips, Namkeen & Savoury Snacks", "Makhana & Roasted Snacks"],
+  "baked chips, makhana & unjunked indian snacks": ["Chips, Namkeen & Savoury Snacks", "Makhana & Roasted Snacks"],
+  "dry-fruits-nuts-seeds-trail-mixes": ["Nuts, Seeds & Trail Mixes", "Makhana & Roasted Snacks"],
+  "dry fruits, nuts, seeds & trail mixes": ["Nuts, Seeds & Trail Mixes", "Makhana & Roasted Snacks"],
+  "snacks-sweets": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
+  "snacks-spreads": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
+  "snacks & spreads": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
+};
+
 export const CARD_PROJECTION = {
   _id: 1,
   id: 1,
@@ -409,53 +495,12 @@ export async function queryProducts(params: {
     // Category filter: strictly enforce 1:1 taxonomy so EACH item is visible under ONLY ONE category
     if (params.category && params.category !== "All") {
       const catLower = params.category.toLowerCase().trim();
-      const slugToNameMap: Record<string, string> = {
-        "cold-drinks": "Cold Drinks",
-        "cold drinks": "Cold Drinks",
-        "ice-cream": "Ice Cream",
-        "ice cream": "Ice Cream",
-        "chocolate": "Chocolates & Sweets",
-        "chocolates": "Chocolates & Sweets",
-        "chocolates-sweets": "Chocolates & Sweets",
-        "chocolates & sweets": "Chocolates & Sweets",
-        "beverages": "Beverages & Drinks",
-        "beverages-drinks": "Beverages & Drinks",
-        "beverages & drinks": "Beverages & Drinks",
-        "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
-        "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
-        "protein-foods-snacks": "Protein Foods & Snacks",
-        "protein foods & snacks": "Protein Foods & Snacks",
-        "plant-based-foods": "Plant-Based Foods",
-        "plant-based foods": "Plant-Based Foods",
-        "bakery-breads": "Bakery & Breads",
-        "bakery & breads": "Bakery & Breads",
-        "spreads-dips-sauces": "Spreads, Dips & Sauces",
-        "spreads, dips & sauces": "Spreads, Dips & Sauces",
-        "cereals-breakfast": "Cereals & Breakfast",
-        "cereals & breakfast": "Cereals & Breakfast",
-        "dairy-alternatives": "Dairy & Yogurt",
-        "dairy-yogurt": "Dairy & Yogurt",
-        "dairy & yogurt": "Dairy & Yogurt",
-        "pantry-staples": "Pantry & Grains",
-        "pantry-grains": "Pantry & Grains",
-        "pantry & grains": "Pantry & Grains",
-        "condiments-sauces": "Condiments & Sauces",
-        "condiments & sauces": "Condiments & Sauces",
-        "snacks-sweets": "Snacks & Spreads",
-        "snacks-spreads": "Snacks & Spreads",
-        "snacks & spreads": "Snacks & Spreads",
-        "protein-clean-label-bars-wafers": "Protein & Clean-Label Bars / Wafers",
-        "protein & clean-label bars / wafers": "Protein & Clean-Label Bars / Wafers",
-        "dry-fruits-nuts-seeds-trail-mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
-        "dry fruits, nuts, seeds & trail mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
-        "wholesome-breakfast-oats-nut-butters": "Wholesome Breakfast, Oats & Nut Butters",
-        "wholesome breakfast, oats & nut butters": "Wholesome Breakfast, Oats & Nut Butters",
-        "baked-chips-makhana-unjunked-indian-snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
-        "baked chips, makhana & unjunked indian snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
-      };
-
-      const targetCategory = slugToNameMap[catLower] || params.category;
-      filter.category = targetCategory;
+      const targetCategory = CATEGORY_RESOLVER[catLower] || params.category;
+      if (Array.isArray(targetCategory)) {
+        filter.category = { $in: targetCategory } as any;
+      } else {
+        filter.category = targetCategory;
+      }
     }
 
     // Subcategory filter: strictly enforce taxonomy
@@ -664,53 +709,12 @@ export async function queryProducts(params: {
 
   if (params.category && params.category !== "All") {
     const catLower = params.category.toLowerCase().trim();
-    const slugToNameMap: Record<string, string> = {
-      "cold-drinks": "Cold Drinks",
-      "cold drinks": "Cold Drinks",
-      "ice-cream": "Ice Cream",
-      "ice cream": "Ice Cream",
-      "chocolate": "Chocolates & Sweets",
-      "chocolates": "Chocolates & Sweets",
-      "chocolates-sweets": "Chocolates & Sweets",
-      "chocolates & sweets": "Chocolates & Sweets",
-      "beverages": "Beverages & Drinks",
-      "beverages-drinks": "Beverages & Drinks",
-      "beverages & drinks": "Beverages & Drinks",
-      "ready-to-eat-ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
-      "ready-to-eat & ready-to-cook": "Ready-to-Eat & Ready-to-Cook",
-      "protein-foods-snacks": "Protein Foods & Snacks",
-      "protein foods & snacks": "Protein Foods & Snacks",
-      "plant-based-foods": "Plant-Based Foods",
-      "plant-based foods": "Plant-Based Foods",
-      "bakery-breads": "Bakery & Breads",
-      "bakery & breads": "Bakery & Breads",
-      "spreads-dips-sauces": "Spreads, Dips & Sauces",
-      "spreads, dips & sauces": "Spreads, Dips & Sauces",
-      "cereals-breakfast": "Cereals & Breakfast",
-      "cereals & breakfast": "Cereals & Breakfast",
-      "dairy-alternatives": "Dairy & Yogurt",
-      "dairy-yogurt": "Dairy & Yogurt",
-      "dairy & yogurt": "Dairy & Yogurt",
-      "pantry-staples": "Pantry & Grains",
-      "pantry-grains": "Pantry & Grains",
-      "pantry & grains": "Pantry & Grains",
-      "condiments-sauces": "Condiments & Sauces",
-      "condiments & sauces": "Condiments & Sauces",
-      "snacks-sweets": "Snacks & Spreads",
-      "snacks-spreads": "Snacks & Spreads",
-      "snacks & spreads": "Snacks & Spreads",
-      "protein-clean-label-bars-wafers": "Protein & Clean-Label Bars / Wafers",
-      "protein & clean-label bars / wafers": "Protein & Clean-Label Bars / Wafers",
-      "dry-fruits-nuts-seeds-trail-mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
-      "dry fruits, nuts, seeds & trail mixes": "Dry Fruits, Nuts, Seeds & Trail Mixes",
-      "wholesome-breakfast-oats-nut-butters": "Wholesome Breakfast, Oats & Nut Butters",
-      "wholesome breakfast, oats & nut butters": "Wholesome Breakfast, Oats & Nut Butters",
-      "baked-chips-makhana-unjunked-indian-snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
-      "baked chips, makhana & unjunked indian snacks": "Baked Chips, Makhana & Unjunked Indian Snacks",
-    };
-
-    const targetCategory = slugToNameMap[catLower] || params.category;
-    filtered = filtered.filter((p) => p.category === targetCategory);
+    const targetCategory = CATEGORY_RESOLVER[catLower] || params.category;
+    if (Array.isArray(targetCategory)) {
+      filtered = filtered.filter((p) => targetCategory.includes(p.category));
+    } else {
+      filtered = filtered.filter((p) => p.category === targetCategory);
+    }
   }
 
   if (params.subCategory && params.subCategory !== "All") {

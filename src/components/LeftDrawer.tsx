@@ -139,201 +139,175 @@ export function LeftDrawer() {
   const snackAisles: CategoryMenuItem[] = [
     {
       name: "Biscuit",
-      href: "/products?subCategory=Biscuits",
+      href: "/products?category=Biscuits%2C+Cookies+%26+Crackers&subCategory=Glucose+%26+Milk+Biscuits",
       imageSrc: "/images/biscuit.jpg",
       desc: "Digestive, wheat & tea biscuits",
-      badge: categoryCounts["Biscuits"] ? `${categoryCounts["Biscuits"]} items` : "101 items",
+      badge: categoryCounts["Biscuits, Cookies & Crackers"] ? `${categoryCounts["Biscuits, Cookies & Crackers"]} items` : "585 items",
     },
     {
       name: "Cookies",
-      href: "/products?subCategory=Cookies",
+      href: "/products?category=Biscuits%2C+Cookies+%26+Crackers&subCategory=Cookies",
       imageSrc: "/images/cookie.jpg",
       desc: "Chocolate chunk, butter & oat cookies",
-      badge: categoryCounts["Cookies"] ? `${categoryCounts["Cookies"]} items` : "101 items",
+      badge: categoryCounts["Biscuits, Cookies & Crackers"] ? `${categoryCounts["Biscuits, Cookies & Crackers"]} items` : "585 items",
     },
     {
       name: "Chips",
-      href: "/products?subCategory=Chips",
+      href: "/products?category=Chips%2C+Namkeen+%26+Savoury+Snacks&subCategory=Potato+Chips",
       imageSrc: "/images/chips_potato.jpg",
       desc: "Potato, corn, tortilla & popped chips",
-      badge: categoryCounts["Chips"] ? `${categoryCounts["Chips"]} items` : "101 items",
+      badge: categoryCounts["Chips, Namkeen & Savoury Snacks"] ? `${categoryCounts["Chips, Namkeen & Savoury Snacks"]} items` : "542 items",
     },
     {
       name: "Banana Chips",
       href: "/products?q=banana+chips",
       imageSrc: "/images/chips_banana.jpg",
       desc: "Crispy Kerala coconut oil chips",
-      badge: (categoryCounts["Banana Chips"] ?? categoryCounts["banana-chips"]) ? `${categoryCounts["Banana Chips"] ?? categoryCounts["banana-chips"]} items` : "101 items",
+      badge: categoryCounts["Chips, Namkeen & Savoury Snacks"] ? `${categoryCounts["Chips, Namkeen & Savoury Snacks"]} items` : "101 items",
     },
     {
       name: "Mixture",
-      href: "/products?subCategory=Mixture+%26+Namkeen",
+      href: "/products?category=Chips%2C+Namkeen+%26+Savoury+Snacks&subCategory=Namkeen+%26+Bhujia",
       imageSrc: "/images/namkeen_mixture.png",
       desc: "Spiced namkeen, sev & savoury mixes",
-      badge: (categoryCounts["Mixture & Namkeen"] ?? categoryCounts["mixture-namkeen"]) ? `${categoryCounts["Mixture & Namkeen"] ?? categoryCounts["mixture-namkeen"]} items` : "101 items",
-    },
-    {
-      name: "Snacks",
-      href: "/products?category=Snacks+%26+Spreads",
-      imageSrc: "/images/snacks.png",
-      desc: "Healthy namkeen, chips & roasted bites",
-      badge: categoryCounts["Snacks & Spreads"] ? `${categoryCounts["Snacks & Spreads"]} items` : undefined,
-    },
-    {
-      name: "Breakfast",
-      href: "/products?category=Cereals+%26+Breakfast",
-      icon: "🥣",
-      desc: "Rolled oats, granolas & flakes",
-      badge: categoryCounts["Cereals & Breakfast"] ? `${categoryCounts["Cereals & Breakfast"]} items` : "101 items",
+      badge: categoryCounts["Chips, Namkeen & Savoury Snacks"] ? `${categoryCounts["Chips, Namkeen & Savoury Snacks"]} items` : "542 items",
     },
   ];
 
-  // Extended supermarket aisles
+  // The 19 Canonical Supermarket Food Aisles
   const otherAisles: CategoryMenuItem[] = [
     {
-      name: "Noodles & Ready-to-Eat",
-      href: "/products?category=Noodles+%26+Ready-to-Eat",
-      icon: "🍜",
-      desc: "Instant noodles, ramen, cuppa, heat & eat curries & wok kits",
-      badge: (categoryCounts["Noodles & Ready-to-Eat"] ?? categoryCounts["noodles-ready-to-eat"]) !== undefined
-        ? `${categoryCounts["Noodles & Ready-to-Eat"] ?? categoryCounts["noodles-ready-to-eat"]} items`
-        : "257 items",
+      name: "Chips, Namkeen & Savoury Snacks",
+      href: "/products?category=Chips%2C+Namkeen+%26+Savoury+Snacks",
+      icon: "🍿",
+      desc: "Potato chips, banana chips, bhujia, tortilla chips & puffs",
+      badge: categoryCounts["Chips, Namkeen & Savoury Snacks"] ? `${categoryCounts["Chips, Namkeen & Savoury Snacks"]} items` : "542 items",
     },
     {
-      name: "Cold Drinks",
-      href: "/products?category=cold-drinks",
-      imageSrc: "/images/cold-drinks/coca-cola-classic.svg",
-      desc: "Colas, sodas, fruit drinks & zero-sugar beverages",
-      badge: (categoryCounts["Cold Drinks"] ?? coldDrinksCount) !== null && (categoryCounts["Cold Drinks"] ?? coldDrinksCount) !== undefined
-        ? `${categoryCounts["Cold Drinks"] ?? coldDrinksCount} items`
-        : "101 items",
+      name: "Makhana & Roasted Snacks",
+      href: "/products?category=Makhana+%26+Roasted+Snacks",
+      icon: "🔥",
+      desc: "Roasted makhana, roasted chana & diet snacks",
+      badge: categoryCounts["Makhana & Roasted Snacks"] ? `${categoryCounts["Makhana & Roasted Snacks"]} items` : "50 items",
     },
     {
-      name: "Beverages & Drinks",
-      href: "/products?category=Beverages+%26+Drinks",
-      icon: "🥤",
-      desc: "Plant milks, sparkling waters & juices",
-      badge: categoryCounts["Beverages & Drinks"] !== undefined ? `${categoryCounts["Beverages & Drinks"]} items` : "101 items",
+      name: "Biscuits, Cookies & Crackers",
+      href: "/products?category=Biscuits%2C+Cookies+%26+Crackers",
+      icon: "🍪",
+      desc: "Digestive biscuits, cookies, cream biscuits, crackers & rusks",
+      badge: categoryCounts["Biscuits, Cookies & Crackers"] ? `${categoryCounts["Biscuits, Cookies & Crackers"]} items` : "585 items",
     },
     {
-      name: "Dairy & Yogurt",
-      href: "/products?category=Dairy+%26+Yogurt",
-      icon: "🥛",
-      desc: "Greek yogurt, soy milk & butter",
-      badge: categoryCounts["Dairy & Yogurt"] !== undefined ? `${categoryCounts["Dairy & Yogurt"]} items` : "101 items",
+      name: "Chocolates, Candy & Sweets",
+      href: "/products?category=Chocolates%2C+Candy+%26+Sweets",
+      icon: "🍫",
+      desc: "Dark chocolate, traditional Indian mithai, chikki & candies",
+      badge: categoryCounts["Chocolates, Candy & Sweets"] ? `${categoryCounts["Chocolates, Candy & Sweets"]} items` : "596 items",
     },
     {
-      name: "Ice Cream",
-      href: "/products?category=Ice+Cream",
-      icon: "🍦",
-      desc: "Frozen desserts, cones, kulfi, tubs & ice cream bars",
-      badge: (categoryCounts["Ice Cream"] ?? categoryCounts["ice-cream"]) !== undefined
-        ? `${categoryCounts["Ice Cream"] ?? categoryCounts["ice-cream"]} items`
-        : "101 items",
+      name: "Protein Bars, Energy Bars & Wafers",
+      href: "/products?category=Protein+Bars%2C+Energy+Bars+%26+Wafers",
+      icon: "⚡",
+      desc: "Whey & vegan protein bars, energy bars & protein wafers",
+      badge: categoryCounts["Protein Bars, Energy Bars & Wafers"] ? `${categoryCounts["Protein Bars, Energy Bars & Wafers"]} items` : "126 items",
     },
     {
-      name: "Ready-to-Eat & Ready-to-Cook",
-      href: "/products?category=Ready-to-Eat+%26+Ready-to-Cook",
-      icon: "🍲",
-      desc: "Convenient packaged meals, instant foods & ready-to-cook products",
-      badge: (categoryCounts["Ready-to-Eat & Ready-to-Cook"] ?? categoryCounts["ready-to-eat-ready-to-cook"]) !== undefined
-        ? `${categoryCounts["Ready-to-Eat & Ready-to-Cook"] ?? categoryCounts["ready-to-eat-ready-to-cook"]} items`
-        : "101 items",
+      name: "Breakfast Cereals, Muesli & Granola",
+      href: "/products?category=Breakfast+Cereals%2C+Muesli+%26+Granola",
+      icon: "🥣",
+      desc: "Corn flakes, multigrain muesli, granola & kids' cereals",
+      badge: categoryCounts["Breakfast Cereals, Muesli & Granola"] ? `${categoryCounts["Breakfast Cereals, Muesli & Granola"]} items` : "261 items",
     },
     {
-      name: "Protein Foods & Snacks",
-      href: "/products?category=Protein+Foods+%26+Snacks",
-      icon: "💪",
-      desc: "Protein bars, cookies, shakes, crisps & high-protein foods",
-      badge: (categoryCounts["Protein Foods & Snacks"] ?? categoryCounts["protein-foods-snacks"]) !== undefined
-        ? `${categoryCounts["Protein Foods & Snacks"] ?? categoryCounts["protein-foods-snacks"]} items`
-        : "101 items",
-    },
-    {
-      name: "Plant-Based Foods",
-      href: "/products?category=Plant-Based+Foods",
-      icon: "🌱",
-      desc: "Dairy alternatives, plant milks, vegan foods & plant-derived snacks",
-      badge: (categoryCounts["Plant-Based Foods"] ?? categoryCounts["plant-based-foods"]) !== undefined
-        ? `${categoryCounts["Plant-Based Foods"] ?? categoryCounts["plant-based-foods"]} items`
-        : "101 items",
+      name: "Oats & Porridge",
+      href: "/products?category=Oats+%26+Porridge",
+      icon: "🌾",
+      desc: "Rolled oats, instant oats, steel-cut oats, masala oats & dalia",
+      badge: categoryCounts["Oats & Porridge"] ? `${categoryCounts["Oats & Porridge"]} items` : "75 items",
     },
     {
       name: "Bakery & Breads",
       href: "/products?category=Bakery+%26+Breads",
       icon: "🍞",
-      desc: "Whole wheat breads, sourdough, buns, wraps & artisanal bakery",
-      badge: (categoryCounts["Bakery & Breads"] ?? categoryCounts["bakery-breads"]) !== undefined
-        ? `${categoryCounts["Bakery & Breads"] ?? categoryCounts["bakery-breads"]} items`
-        : "101 items",
+      desc: "Whole wheat breads, burger buns, pav, cakes & muffins",
+      badge: categoryCounts["Bakery & Breads"] ? `${categoryCounts["Bakery & Breads"]} items` : "106 items",
     },
     {
-      name: "Spreads, Dips & Sauces",
-      href: "/products?category=Spreads%2C+Dips+%26+Sauces",
-      icon: "🍯",
-      desc: "Nut butters, hummus, cheese spreads, mayonnaise, salsa & chutneys",
-      badge: (categoryCounts["Spreads, Dips & Sauces"] ?? categoryCounts["spreads-dips-sauces"]) !== undefined
-        ? `${categoryCounts["Spreads, Dips & Sauces"] ?? categoryCounts["spreads-dips-sauces"]} items`
-        : "101 items",
+      name: "Noodles, Pasta & Vermicelli",
+      href: "/products?category=Noodles%2C+Pasta+%26+Vermicelli",
+      icon: "🍜",
+      desc: "Instant noodles, durum wheat pasta, vermicelli, ramen & macaroni",
+      badge: categoryCounts["Noodles, Pasta & Vermicelli"] ? `${categoryCounts["Noodles, Pasta & Vermicelli"]} items` : "286 items",
     },
     {
-      name: "Pantry & Grains",
-      href: "/products?category=Pantry+%26+Grains",
+      name: "Ready-to-Eat Meals & Instant Foods",
+      href: "/products?category=Ready-to-Eat+Meals+%26+Instant+Foods",
+      icon: "🍲",
+      desc: "Heat & eat curries, packaged soups, instant meals & frozen snacks",
+      badge: categoryCounts["Ready-to-Eat Meals & Instant Foods"] ? `${categoryCounts["Ready-to-Eat Meals & Instant Foods"]} items` : "160 items",
+    },
+    {
+      name: "Ready-to-Cook Mixes",
+      href: "/products?category=Ready-to-Cook+Mixes",
+      icon: "👩‍🍳",
+      desc: "Dosa/idli batter, pancake mixes, gulab jamun mix & cake mixes",
+      badge: categoryCounts["Ready-to-Cook Mixes"] ? `${categoryCounts["Ready-to-Cook Mixes"]} items` : "44 items",
+    },
+    {
+      name: "Rice, Grains, Pulses & Flours",
+      href: "/products?category=Rice%2C+Grains%2C+Pulses+%26+Flours",
       icon: "🌾",
-      desc: "Whole wheat pasta, rice & pulses",
-      badge: categoryCounts["Pantry & Grains"] !== undefined ? `${categoryCounts["Pantry & Grains"]} items` : "101 items",
+      desc: "Whole wheat atta, basmati rice, millets, pulses, dals & poha",
+      badge: categoryCounts["Rice, Grains, Pulses & Flours"] ? `${categoryCounts["Rice, Grains, Pulses & Flours"]} items` : "47 items",
     },
     {
-      name: "Condiments & Sauces",
-      href: "/products?category=Condiments+%26+Sauces",
-      icon: "🥫",
-      desc: "Tomato purées, dressings & dips",
-      badge: categoryCounts["Condiments & Sauces"] !== undefined ? `${categoryCounts["Condiments & Sauces"]} items` : "101 items",
-    },
-    {
-      name: "Chocolates & Sweets",
-      href: "/products?category=Chocolates+%26+Sweets",
-      icon: "🍫",
-      desc: "Dark chocolate, cocoa spreads & treats",
-      badge: (categoryCounts["Chocolates & Sweets"] ?? categoryCounts["chocolates-sweets"]) !== undefined
-        ? `${categoryCounts["Chocolates & Sweets"] ?? categoryCounts["chocolates-sweets"]} items`
-        : "101 items",
-    },
-    {
-      name: "Protein & Clean-Label Bars / Wafers",
-      href: "/products?category=Protein+%26+Clean-Label+Bars+%2F+Wafers",
-      icon: "🍫",
-      desc: "Whey, vegan, raw protein bars & clean-label wafers",
-      badge: (categoryCounts["Protein & Clean-Label Bars / Wafers"] ?? categoryCounts["protein-clean-label-bars-wafers"]) !== undefined
-        ? `${categoryCounts["Protein & Clean-Label Bars / Wafers"] ?? categoryCounts["protein-clean-label-bars-wafers"]} items`
-        : "101 items",
-    },
-    {
-      name: "Dry Fruits, Nuts, Seeds & Trail Mixes",
-      href: "/products?category=Dry+Fruits%2C+Nuts%2C+Seeds+%26+Trail+Mixes",
+      name: "Nuts, Seeds & Trail Mixes",
+      href: "/products?category=Nuts%2C+Seeds+%26+Trail+Mixes",
       icon: "🥜",
-      desc: "Almonds, cashews, chia seeds & antioxidant trail mixes",
-      badge: (categoryCounts["Dry Fruits, Nuts, Seeds & Trail Mixes"] ?? categoryCounts["dry-fruits-nuts-seeds-trail-mixes"]) !== undefined
-        ? `${categoryCounts["Dry Fruits, Nuts, Seeds & Trail Mixes"] ?? categoryCounts["dry-fruits-nuts-seeds-trail-mixes"]} items`
-        : "101 items",
+      desc: "Almonds, cashews, walnuts, chia seeds, pumpkin seeds & trail mixes",
+      badge: categoryCounts["Nuts, Seeds & Trail Mixes"] ? `${categoryCounts["Nuts, Seeds & Trail Mixes"]} items` : "98 items",
     },
     {
-      name: "Wholesome Breakfast, Oats & Nut Butters",
-      href: "/products?category=Wholesome+Breakfast%2C+Oats+%26+Nut+Butters",
-      icon: "🥣",
-      desc: "Rolled oats, muesli, granola & stone-ground nut butters",
-      badge: (categoryCounts["Wholesome Breakfast, Oats & Nut Butters"] ?? categoryCounts["wholesome-breakfast-oats-nut-butters"]) !== undefined
-        ? `${categoryCounts["Wholesome Breakfast, Oats & Nut Butters"] ?? categoryCounts["wholesome-breakfast-oats-nut-butters"]} items`
-        : "101 items",
+      name: "Nut Butters, Spreads & Dips",
+      href: "/products?category=Nut+Butters%2C+Spreads+%26+Dips",
+      icon: "🍯",
+      desc: "Peanut butter, almond butter, hazelnut spreads, jams & hummus",
+      badge: categoryCounts["Nut Butters, Spreads & Dips"] ? `${categoryCounts["Nut Butters, Spreads & Dips"]} items` : "161 items",
     },
     {
-      name: "Baked Chips, Makhana & Unjunked Indian Snacks",
-      href: "/products?category=Baked+Chips%2C+Makhana+%26+Unjunked+Indian+Snacks",
-      icon: "🍿",
-      desc: "Roasted makhana, baked jowar puffs & unjunked namkeen",
-      badge: (categoryCounts["Baked Chips, Makhana & Unjunked Indian Snacks"] ?? categoryCounts["baked-chips-makhana-unjunked-indian-snacks"]) !== undefined
-        ? `${categoryCounts["Baked Chips, Makhana & Unjunked Indian Snacks"] ?? categoryCounts["baked-chips-makhana-unjunked-indian-snacks"]} items`
-        : "101 items",
+      name: "Sauces, Condiments & Seasonings",
+      href: "/products?category=Sauces%2C+Condiments+%26+Seasonings",
+      icon: "🥫",
+      desc: "Tomato ketchup, hot sauces, chutneys, mayonnaise & seasonings",
+      badge: categoryCounts["Sauces, Condiments & Seasonings"] ? `${categoryCounts["Sauces, Condiments & Seasonings"]} items` : "140 items",
+    },
+    {
+      name: "Dairy, Yogurt & Dairy Alternatives",
+      href: "/products?category=Dairy%2C+Yogurt+%26+Dairy+Alternatives",
+      icon: "🥛",
+      desc: "Milk, Greek yogurt, curd, paneer, cheese, butter, ghee & plant milks",
+      badge: categoryCounts["Dairy, Yogurt & Dairy Alternatives"] ? `${categoryCounts["Dairy, Yogurt & Dairy Alternatives"]} items` : "231 items",
+    },
+    {
+      name: "Beverages & Drink Mixes",
+      href: "/products?category=Beverages+%26+Drink+Mixes",
+      icon: "🥤",
+      desc: "Cold drinks, colas, fruit juices, iced teas, energy drinks & syrups",
+      badge: categoryCounts["Beverages & Drink Mixes"] ? `${categoryCounts["Beverages & Drink Mixes"]} items` : "761 items",
+    },
+    {
+      name: "Ice Cream & Frozen Desserts",
+      href: "/products?category=Ice+Cream+%26+Frozen+Desserts",
+      icon: "🍦",
+      desc: "Ice cream tubs, ice cream bars, kulfi, cones, gelato & sorbet",
+      badge: categoryCounts["Ice Cream & Frozen Desserts"] ? `${categoryCounts["Ice Cream & Frozen Desserts"]} items` : "619 items",
+    },
+    {
+      name: "Plant-Based Foods & Meat Alternatives",
+      href: "/products?category=Plant-Based+Foods+%26+Meat+Alternatives",
+      icon: "🌱",
+      desc: "Plant-based meat, mock meats, soya chaap, vegan burgers & tofu",
+      badge: categoryCounts["Plant-Based Foods & Meat Alternatives"] ? `${categoryCounts["Plant-Based Foods & Meat Alternatives"]} items` : "18 items",
     },
   ];
 
