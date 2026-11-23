@@ -1,6 +1,7 @@
 import { ObjectId, Filter } from "mongodb";
+import { unstable_cache } from "next/cache";
 import { getCollection, isMongoConfigured } from "./mongodb";
-import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission } from "@/types";
+import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission, SlimProductItem } from "@/types";
 import {
   generateSeedProducts,
   SEED_CATEGORIES,
@@ -63,6 +64,118 @@ export const CARD_PROJECTION = {
   updatedAt: 1,
   createdAt: 1,
 };
+
+export const SLIM_PRODUCT_PROJECTION = {
+  _id: 1,
+  id: 1,
+  barcode: 1,
+  name: 1,
+  brand: 1,
+  category: 1,
+  categorySlug: 1,
+  subCategory: 1,
+  overallScore: 1,
+  scoreLabel: 1,
+  nutriScore: 1,
+  novaGroup: 1,
+  nutritionPer100g: 1,
+  hasPalmOil: 1,
+  hasAddedSugar: 1,
+  hasHighSodium: 1,
+  hasArtificialAdditives: 1,
+  verified: 1,
+  imageStatus: 1,
+  imageVerified: 1,
+  imageUrl: 1,
+  createdAt: 1,
+  availability: 1,
+  countryOfOrigin: 1,
+  cocoaPercentage: 1,
+  searchTags: 1,
+};
+
+export function mapToSlimProduct(p: any): SlimProductItem {
+  const prodId = p.id || (p._id ? p._id.toString() : p.barcode);
+  const protein = p.nutritionPer100g?.protein ?? p.proteinPer100g ?? 0;
+  const sugar = p.nutritionPer100g?.sugars ?? p.nutritionPer100g?.sugar ?? p.sugarPer100g ?? 0;
+  const sodium = p.nutritionPer100g?.sodium ?? p.sodiumPer100g ?? 0;
+  const hasPalmOil = p.hasPalmOil === true;
+  const isVerified = p.verified === true;
+
+  return {
+    _id: prodId,
+    id: prodId,
+    barcode: p.barcode,
+    name: p.name,
+    brand: p.brand,
+    category: p.category,
+    categorySlug: p.categorySlug || null,
+    subCategory: p.subCategory || null,
+    overallScore: p.overallScore ?? 50,
+    score: p.overallScore ?? 50,
+    scoreLabel: p.scoreLabel || "Moderate",
+    nutriScore: p.nutriScore || "C",
+    novaGroup: p.novaGroup || 3,
+    proteinPer100g: Number(protein) || 0,
+    sugarPer100g: Number(sugar) || 0,
+    sodiumPer100g: Number(sodium) || 0,
+    isPalmOilFree: !hasPalmOil,
+    hasPalmOil,
+    hasAddedSugar: p.hasAddedSugar === true,
+    hasHighSodium: p.hasHighSodium === true,
+    hasArtificialAdditives: p.hasArtificialAdditives === true,
+    isVerified,
+    verified: isVerified,
+    imageStatus: p.imageStatus || null,
+    imageVerified: p.imageVerified ?? null,
+    imageUrl: p.imageUrl || "/images/placeholder-product.svg",
+    createdAt: p.createdAt || new Date().toISOString(),
+    availability: p.availability || null,
+    countryOfOrigin: p.countryOfOrigin || null,
+    cocoaPercentage: p.cocoaPercentage != null ? Number(p.cocoaPercentage) : null,
+  };
+}
+
+let cachedSlimIndex: { data: SlimProductItem[]; timestamp: number } | null = null;
+const SLIM_INDEX_CACHE_TTL = 60 * 1000; // 60s in-memory cache
+
+export async function fetchSlimProductsIndex(): Promise<SlimProductItem[]> {
+  const now = Date.now();
+  if (cachedSlimIndex && now - cachedSlimIndex.timestamp < SLIM_INDEX_CACHE_TTL) {
+    return cachedSlimIndex.data;
+  }
+
+  if (isMongoConfigured()) {
+    try {
+      const col = await getCollection("products");
+      if (col) {
+        const docs = await col
+          .find({}, { projection: SLIM_PRODUCT_PROJECTION })
+          .sort({ overallScore: -1 })
+          .toArray();
+
+        if (docs && docs.length > 0) {
+          const slim = docs.map(mapToSlimProduct);
+          cachedSlimIndex = { data: slim, timestamp: now };
+          return slim;
+        }
+      }
+    } catch (e) {
+      console.error("[fetchSlimProductsIndex] MongoDB error, falling back to seed:", e);
+    }
+  }
+
+  const inMem = getInMemoryProducts();
+  const slim = inMem.map(mapToSlimProduct);
+  cachedSlimIndex = { data: slim, timestamp: now };
+  return slim;
+}
+
+export const getSlimProductsIndex = unstable_cache(
+  async () => fetchSlimProductsIndex(),
+  ["slim-products-catalogue-index"],
+  { revalidate: 120, tags: ["products"] }
+);
 
 function getInMemoryProducts(): ProductItem[] {
   if (process.env.NODE_ENV !== "production") {

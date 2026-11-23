@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
-import { queryProducts } from "@/lib/product-service";
-import { FiltersBar } from "@/components/FiltersBar";
-import { InfiniteProductList } from "@/components/InfiniteProductList";
+import { getSlimProductsIndex } from "@/lib/product-service";
+import { isMongoConfigured } from "@/lib/mongodb";
+import { ProductsExplorer } from "@/components/ProductsExplorer";
 import { SEED_CATEGORIES, SEED_BRANDS } from "@/lib/seed-data";
 import { Sparkles } from "lucide-react";
 import { ProductsDirectorySkeleton } from "./loading";
@@ -29,38 +29,17 @@ interface ProductsPageProps {
 
 export default async function ProductsDirectoryPage({ searchParams }: ProductsPageProps) {
   const params = await searchParams;
-  const paramsKey = JSON.stringify(params);
 
   return (
-    <Suspense key={paramsKey} fallback={<ProductsDirectorySkeleton />}>
+    <Suspense fallback={<ProductsDirectorySkeleton />}>
       <ProductsContent params={params} />
     </Suspense>
   );
 }
 
 async function ProductsContent({ params }: { params: any }) {
-  const page = 1;
-  const limit = 20;
-
-  const { products, total, totalPages, isDbConnected } = await queryProducts({
-    q: params.q,
-    category: params.category,
-    subCategory: params.subCategory,
-    brand: params.brand,
-    nutriScore: params.nutriScore,
-    novaGroup: params.novaGroup ? Number(params.novaGroup) : undefined,
-    hasPalmOil: params.hasPalmOil !== undefined ? params.hasPalmOil === "true" : undefined,
-    lowSugar: params.lowSugar === "true",
-    lowSodium: params.lowSodium === "true",
-    proteinRange: params.proteinRange,
-    sugarRange: params.sugarRange,
-    verifiedOnly: params.verifiedOnly === "true",
-    sortBy: params.sortBy || "score",
-    sortOrder: params.sortBy === "name" ? "asc" : "desc",
-    page,
-    limit,
-    projectCardOnly: true,
-  });
+  const products = await getSlimProductsIndex();
+  const isDbConnected = isMongoConfigured();
 
   const categoryNames = SEED_CATEGORIES.map((c) => c.name);
   const brandNames = SEED_BRANDS.map((b) => b.name);
@@ -211,7 +190,11 @@ async function ProductsContent({ params }: { params: any }) {
     ? "Explore Chocolates & Sweets"
     : isBeverages
     ? "Explore Beverages & Drinks"
+    : params.category
+    ? `Explore ${params.category}`
     : "Explore Food Products";
+
+  const total = products.length;
 
   const pageDesc = isNoodlesReadyToEat
     ? `Compare instant noodles, air-dried ramyun, MSG, palm oil, sodium levels, heat & eat curries, and breakfast mixes across ${total} products.`
@@ -241,11 +224,11 @@ async function ProductsContent({ params }: { params: any }) {
     ? `Compare cocoa solids, sugar content, palm oil status, additives, and nutritional facts across ${total} dark chocolates, truffles, Indian sweets, chikki and confections.`
     : isBeverages
     ? `Compare real fruit juice percentage, added sugar, artificial sweeteners, and nutrition across ${total} juices, sparkling waters, plant drinks, iced teas and cold brews.`
-    : `Showing ${products.length} of ${total} products matching your criteria.`;
+    : `Instant directory of ${total.toLocaleString()} packaged food products with ingredient safety, Nutri-Score, and NOVA ratings.`;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
-      {/* Header */}
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+      {/* Directory Heading */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-1">
@@ -259,25 +242,19 @@ async function ProductsContent({ params }: { params: any }) {
         </div>
 
         {!isDbConnected && process.env.NODE_ENV !== "production" && (
-          <div className="px-3.5 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-300 text-xs font-medium self-start sm:self-auto">
+          <div className="px-3.5 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-300 text-xs font-medium self-start sm:self-auto shrink-0">
             ⚡ Demo Catalogue Mode · Connect MongoDB Atlas in .env.local to persist changes
           </div>
         )}
       </div>
 
-      {/* Filter and Search Controls */}
-      <FiltersBar
+      {/* Instant 0ms Client-Side Products Explorer */}
+      <ProductsExplorer
+        initialProducts={products}
         categories={categoryNames}
         brands={brandNames}
-        totalResults={total}
-      />
-
-      {/* Infinite Scrolling Product List */}
-      <InfiniteProductList
-        initialProducts={products}
-        total={total}
-        initialHasMore={page < totalPages}
-        searchParams={params}
+        initialParams={params}
+        isDbConnected={isDbConnected}
       />
     </div>
   );

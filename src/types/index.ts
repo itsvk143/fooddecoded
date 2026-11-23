@@ -308,3 +308,37 @@ export interface AuditLog {
   timestamp: string;
   ipAddress?: string;
 }
+
+export interface SlimProductItem {
+  _id: string;
+  id: string;
+  barcode: string;
+  name: string;
+  brand: string;
+  category: string;
+  categorySlug?: string | null;
+  subCategory?: string | null;
+  overallScore: number;
+  score: number;
+  scoreLabel: "Excellent" | "Good" | "Moderate" | "Poor" | "Bad";
+  nutriScore: NutriScoreGrade;
+  novaGroup: NovaGroup;
+  proteinPer100g: number;
+  sugarPer100g: number;
+  sodiumPer100g: number;
+  isPalmOilFree: boolean;
+  hasPalmOil: boolean;
+  hasAddedSugar: boolean;
+  hasHighSodium: boolean;
+  hasArtificialAdditives: boolean;
+  isVerified: boolean;
+  verified: boolean;
+  imageStatus?: ImageStatus | null;
+  imageVerified?: boolean | null;
+  imageUrl: string;
+  createdAt: string;
+  availability?: string | null;
+  countryOfOrigin?: string | null;
+  cocoaPercentage?: number | null;
+}
+
