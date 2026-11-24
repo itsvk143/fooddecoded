@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission } from "@/types";
 
-export const SEED_CATEGORIES: CategoryItem[] = [
+export const SEED_CATEGORIES: CategoryRecord[] = [
   {
     "_id": "cat_chips_namkeen_savoury_snacks",
     "name": "Chips, Namkeen & Savoury Snacks",
@@ -844,7 +844,7 @@ export const SEED_RULES: AnalysisRule[] = [];
 
 export const SEED_SUBMISSIONS: ProductSubmission[] = [];
 
-export const SEED_PRODUCTS: ProductItem[] = [
+export const SEED_PRODUCTS: any[] = [
   {
     "_id": "6af419f2da56c4066470640e",
     "barcode": "8908600002948",
@@ -125430,12 +125430,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Vegetarian",
       "Pure Spices"
     ],
-    "imageSourceUrl": "https://rukminim1.flixcart.com/image/832/832/kv2pk7k0/sweet-mithai/y/c/a/500-mysore-pak-500-grams-pack-of-4-4-mysore-pak-bikaji-aslee-original-imag824vqzdaczzz.jpeg?q=70",
+    "imageSourceUrl": "https://www.bikaji.com/pub/media/catalog/product/cache/2765542505660baab28ecd555e27366e/0/7/07_-atta-ladoo_500gm-pack_mumbai_-fop.png",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001581.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Bikaji Bikaji Gond Pak packaging packshot)",
+    "imageUrl": "/images/packshots/8908930001581.png",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Bikaji Gond Pak / Ladoo",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.753Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.985Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -131386,12 +131386,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Vegetarian",
       "Pure Spices"
     ],
-    "imageSourceUrl": "https://thedesifood.com/media/Bikaji Desi Ghee Soan Papdi Sadabahar, 900 g-2.webp",
+    "imageSourceUrl": "https://www.bikaji.com/pub/media/catalog/product/cache/2765542505660baab28ecd555e27366e/1/1/11_-front_-sadabahar-soanpapdi_domestic_900gm_-size-w-448-pxl-x-h-560-pxl.png",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001574.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Bikaji Bikaji Pure Desi Ghee Soan Papdi packaging packshot)",
+    "imageUrl": "/images/packshots/8908930001574.png",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Bikaji Pure Desi Ghee Soan Papdi",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.986Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -321039,12 +321039,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Authentic Maharashtrian Recipe",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1729/9719/files/KK_Rose_200g_FoP.jpg?v=1760096627",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1729/9719/files/KK_250g_FoP.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930001321.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Shopify Store (Chitale Bandhu)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Chitale Bandhu Kaju Katli",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.986Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -321310,10 +321310,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1729/9719/files/PedhaMockup.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001338.jpg",
-    "imageVerificationNote": "Verified authentic Chitale Bandhu Kandi Pedha packaging packshot",
+    "imageUrl": "/images/packshots/8908930001338.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Chitale Bandhu Kandi Pedha",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.986Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -323760,10 +323760,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "packageSize": "250 g",
     "servingSize": "30 g",
     "imageUrl": "/images/packshots/8908010000633.webp",
-    "imageSourceUrl": "https://rukminim2.flixcart.com/image/416/416/ju8oxow0/sweet-mithai/g/y/p/500-mango-barfi-500gm-pack-of-4-burfi-chitale-bandhu-original-imaffdkjfjjhfpyz.jpeg?q=70",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/1729/9719/files/MangoBurfi250gMockup.jpg",
     "imageStatus": "VERIFIED",
-    "imageVerifiedAt": "2026-11-11T06:05:12.512Z",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Chitale Bandhu Chitale Bandhu Pure Alphonso Mango Barfi packaging packshot)",
+    "imageVerifiedAt": "2026-11-24T02:23:42.986Z",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Chitale Bandhu Pure Alphonso Mango Barfi",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/chocolates",
     "ingredientsText": "Mawa (Khoya Milk Solids), Sugar, Alphonso Mango Pulp (20%), Pure Ghee, Cardamom Powder.",
@@ -324050,7 +324050,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageVerified": true,
     "id": "6af326d08e4a3c1168198b3c",
     "mainCategory": "Chocolates, Candy & Sweets",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bc6fa48406790245349",
@@ -390668,12 +390669,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Cooked in Corn Oil",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0409/7097/7436/files/8906082570047_1_9fd6e7b0-8c08-4aa6-99e4-75f59ba7f131.jpg?v=1768544655",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0409/7097/7436/files/8906082570047_1_9fd6e7b0-8c08-4aa6-99e4-75f59ba7f131.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002823.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Shopify Store (Cornitos)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Cornitos Lightly Salted California Almonds",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:17.339Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -390855,7 +390856,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c0dfa484067902453e0",
-    "primary_category_id": "cat_nuts_seeds_trail_mixes"
+    "primary_category_id": "cat_nuts_seeds_trail_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6af2dd0bd29d58af959a809e",
@@ -574313,12 +574315,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Real_Aam_Pouch_LI-01.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Real_Aam_Pouch_LI-01.jpg?v=1777964141",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003219.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Real Aam Fruit Bar packaging packshot",
+    "imageUrl": "/images/packshots/8908930003219.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Real Aam Fruit Bar | 70% Fruit Pulp | Pack of 10)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -575159,12 +575161,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Guava_Pouch_LI-01.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Guava_Pouch_LI-01.jpg?v=1777964193",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003226.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Fruit Bar packaging packshot",
+    "imageUrl": "/images/packshots/8908930003226.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Spicy Guava Fruit Bar | 70% Fruit Pulp | Pack of 10)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -575397,12 +575399,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/01_7cb9599d-81a1-41a4-a9be-c77a338af5ba.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/01_7cb9599d-81a1-41a4-a9be-c77a338af5ba.jpg?v=1793360821",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930003264.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Crunchy Dry Fruit Chikki packaging packshot",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Crunchy Dry Fruit Chikki | Made with 5 Premium Dry Fruits)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -575689,12 +575691,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/LS1.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/LS1.jpg?v=1794823079",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003240.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Peanut Chikki Bites packaging packshot",
+    "imageUrl": "/images/packshots/8908930003240.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Peanut Chikki Bites | 60% Peanuts, 40% Jaggery)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -575895,12 +575897,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/LS1_80a36eba-6e67-4164-bd08-9662e605cb61.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/LS1_80a36eba-6e67-4164-bd08-9662e605cb61.jpg?v=1794823459",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003257.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Sesame Chikki Bites packaging packshot",
+    "imageUrl": "/images/packshots/8908930003257.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Seasame Chikki Bites | With Goodness of Jaggery)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -576097,12 +576099,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Natural Fruit"
     ],
-    "imageSourceUrl": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1cda8f0f-2457-44e6-836f-55399fca1835.__CR0,0,1466,601_PT0_SX1464_V1___.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/mints_2.png?v=1774853861",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003202.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (GO DESi GO DESi Mints Hing Jeera packaging packshot)",
+    "imageUrl": "/images/packshots/8908930003202.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Meetha Paan Mints | 100% natural - Betel leaves, Sweet dates, Saunf & Elaichi | Box of 40 sachets)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -576549,12 +576551,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Natural Fruit"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/mints_2.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/mints_2.png?v=1774853861",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003196.png",
-    "imageVerificationNote": "Verified authentic GO DESi Meetha Paan Mints packaging packshot",
+    "imageUrl": "/images/packshots/8908930003196.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Meetha Paan Mints | 100% natural - Betel leaves, Sweet dates, Saunf & Elaichi | Box of 40 sachets)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -576855,12 +576857,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/products/chilliguavaindividualpop_4x_8ea91afe-f4f5-4ffa-82af-8cbfb24c30eb.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/products/chilliguavaindividualpop_4x_8ea91afe-f4f5-4ffa-82af-8cbfb24c30eb.png?v=1758548768",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003172.png",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Chilli Guava packaging packshot",
+    "imageUrl": "/images/packshots/8908930003172.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (Popz with Bitz - Chilli Guava (10 pcs))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -577163,12 +577165,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/popz_3_77fb77b3-5991-48ff-827f-37381377000f.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/popz_3_77fb77b3-5991-48ff-827f-37381377000f.png?v=1774853586",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003141.png",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Kaccha Aam packaging packshot",
+    "imageUrl": "/images/packshots/8908930003141.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Kaccha Aam | Made with Jaggery | Pack of 50)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -577581,12 +577583,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/masalaJamun50pcs.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/masalaJamun50pcs.png?v=1794899455",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003165.png",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Masala Jamun packaging packshot",
+    "imageUrl": "/images/packshots/8908930003165.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Masala Jamun | Made with Jaggery | Pack of 50)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -577965,12 +577967,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/popz_2_608adbbf-e29d-415b-af25-1f94ff126cc6.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/popz_2_608adbbf-e29d-415b-af25-1f94ff126cc6.png?v=1774852991",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003158.png",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Real Aam packaging packshot",
+    "imageUrl": "/images/packshots/8908930003158.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Real Aam | Made with Jaggery | Pack of 50)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -578273,12 +578275,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/1_2748cbd2-d66b-476d-9258-a9a7f441bf03.png",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/1_2748cbd2-d66b-476d-9258-a9a7f441bf03.png?v=1794556031",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003134.png",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Tangy Imli packaging packshot",
+    "imageUrl": "/images/packshots/8908930003134.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Tangy Imli | Made with Jaggery | Pack of 50)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -578636,12 +578638,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Chilli-Orange-Bitz-2.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Chilli-Orange-Bitz-2.jpg?v=1758548619",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003189.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Popz Bitz packaging packshot",
+    "imageUrl": "/images/packshots/8908930003189.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Bitz Chilli Orange | Made with Jaggery | Pack of 50)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -579412,12 +579414,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Sweetened with Jaggery"
     ],
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/StrawberryPouchNewLI-01_067b7e21-4176-4344-8343-096db199528d.jpg",
+    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0089/3534/2144/files/Artboard4-100.jpg?v=1754059042",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930003233.jpg",
-    "imageVerificationNote": "Verified authentic GO DESi Strawberry Fruit Bar packaging packshot",
+    "imageUrl": "/images/packshots/8908930003233.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot from official GO DESi store (DESi Popz Kidz Real Aam & Strawberry | Made with Jaggery | Pack of 8)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -610715,12 +610717,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Authentic Indian Flavors",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://m.media-amazon.com/images/I/71HpSKcShtL._SL1500_.jpg",
+    "imageSourceUrl": "https://images.openfoodfacts.org/images/products/890/400/440/5415/front_en.11.400.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930001451.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Haldiram's Haldiram's Desi Ghee Soan Papdi packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Haldiram's Desi Ghee Soan Papdi",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -624928,12 +624930,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Authentic Indian Flavors",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://m.media-amazon.com/images/I/71tKRKrQzsL._SL1280_.jpg",
+    "imageSourceUrl": "https://images.openfoodfacts.org/images/products/890/406/328/1401/front_en.14.400.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930001468.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Haldiram's Haldiram's Premium Kaju Katli packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Haldiram's Premium Kaju Katli",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.754Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -803401,9 +803403,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40357333_1-lets-try-nendran-banana-chips-made-with-rock-salt.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002366.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try 100% Groundnut Oil Banana Chips (Salted) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Vrat Mota Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:54.603Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -803618,7 +803620,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf6fa484067902453b3",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf5fa484067902453b2",
@@ -803649,10 +803652,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40341073_2.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930002328.png",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageUrl": "/images/packshots/8908930002328.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Kettle Cooked Potato Wafers)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:53.875Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.987Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -803828,14 +803831,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002328",
-    "subCategory": "Chips",
+    "subCategory": "Potato Chips",
     "updatedAt": "2026-11-22T03:06:46.442Z",
     "verificationDate": "2026-11-22T00:48:53.875Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf5fa484067902453b2",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf5fa484067902453b1",
@@ -803865,9 +803869,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.zeptonow.com/production/ik-seo/tr:w-470,ar-1000-1000,pr-true,f-auto,q-40,dpr-2/cms/product_variant/3a29278c-28df-46e0-8131-7fcc2ac66330/Let-s-Try-Cream-Onion-Chips.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002335.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try 100% Groundnut Oil Potato Chips (Cream & Onion) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Lite Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:53.281Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -804056,14 +804060,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002335",
-    "subCategory": "Chips",
+    "subCategory": "Potato Chips",
     "updatedAt": "2026-11-22T03:06:47.015Z",
     "verificationDate": "2026-11-22T00:48:53.281Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf5fa484067902453b1",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf4fa484067902453b0",
@@ -804071,8 +804076,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "allergens": [],
     "availability": "VERIFIED_AVAILABLE",
     "brand": "Let's Try",
-    "category": "Sauces, Condiments & Seasonings",
-    "categorySlug": "sauces-condiments-seasonings",
+    "category": "Chips, Namkeen & Savoury Snacks",
+    "categorySlug": "chips-namkeen-savoury-snacks",
     "countryOfOrigin": "India",
     "createdAt": "2026-11-22T00:48:52.040Z",
     "dataCompleteness": 100,
@@ -804092,10 +804097,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40341072_2.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930002342.png",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageUrl": "/images/packshots/8908930002342.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Kettle Cooked Desi Spicy Potato Wafers)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:52.040Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -804284,14 +804289,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002342",
-    "subCategory": "Tomato Ketchup & Sauces",
+    "subCategory": "Potato Chips",
     "updatedAt": "2026-11-22T03:06:47.591Z",
     "verificationDate": "2026-11-22T00:48:52.040Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf4fa484067902453b0",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf6fa484067902453b4",
@@ -804320,10 +804326,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/64afe1a5-0c05-4d46-be67-262fd5d16c69.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930002359.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try 100% Groundnut Oil Potato Chips (Pudina) packaging packshot)",
+    "imageUrl": "/images/packshots/8908930002359.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Kettle Cooked Pudina Potato Wafers)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:54.636Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -804493,14 +804499,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002359",
-    "subCategory": "Chips",
+    "subCategory": "Potato Chips",
     "updatedAt": "2026-11-22T03:06:48.292Z",
     "verificationDate": "2026-11-22T00:48:54.636Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf6fa484067902453b4",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf7fa484067902453b6",
@@ -804530,9 +804537,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/e4c381b5daa4b886bc91a83cb2759b15.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002373.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try 100% Groundnut Oil Tapioca Chips (Mari) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Desi Masala Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:55.652Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -804723,14 +804730,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002373",
-    "subCategory": "Banana Chips",
+    "subCategory": "Extruded & Specialty Snacks",
     "updatedAt": "2026-11-22T03:06:49.412Z",
     "verificationDate": "2026-11-22T00:48:55.652Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf7fa484067902453b6",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf7fa484067902453b5",
@@ -804760,9 +804768,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/a794e1129b1d4998d2da2ef1b7c1c6b8.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002403.jpg",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Masala Rings)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:55.381Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -804989,14 +804997,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002403",
-    "subCategory": "Namkeen & Bhujia",
+    "subCategory": "Extruded & Specialty Snacks",
     "updatedAt": "2026-11-22T03:06:51.160Z",
     "verificationDate": "2026-11-22T00:48:55.381Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf7fa484067902453b5",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf9fa484067902453bb",
@@ -805029,9 +805038,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/cf49abc47448c851b8fc6798a6a6c252.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002458.jpg",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Falahari Mixture)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:57.699Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -805439,14 +805448,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002458",
-    "subCategory": "Namkeen & Bhujia",
+    "subCategory": "Mixture & Chivda",
     "updatedAt": "2026-11-22T03:06:54.261Z",
     "verificationDate": "2026-11-22T00:48:57.699Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf9fa484067902453bb",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bfafa484067902453bc",
@@ -805476,9 +805486,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://m.media-amazon.com/images/I/71U4uH1et6L._SL1500_.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002427.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try Garlic Bhujia (Groundnut Oil) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Teekha Gathiya)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:58.545Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -805800,14 +805810,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002427",
-    "subCategory": "Namkeen & Bhujia",
+    "subCategory": "Traditional Namkeen & Bhujia",
     "updatedAt": "2026-11-22T03:06:52.416Z",
     "verificationDate": "2026-11-22T00:48:58.545Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bfafa484067902453bc",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf8fa484067902453b8",
@@ -805837,9 +805848,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40345686_1-lets-try-masala-puffs.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002397.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try Roasted Jowar Puffs (Masala) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Jumbo Puffs- Cheese)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:56.395Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -806009,14 +806020,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002397",
-    "subCategory": "Roasted Multigrain Snacks",
+    "subCategory": "Roasted Puffs & Crisps",
     "updatedAt": "2026-11-22T03:06:50.574Z",
     "verificationDate": "2026-11-22T00:48:56.395Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf8fa484067902453b8",
-    "primary_category_id": "cat_makhana_roasted_snacks"
+    "primary_category_id": "cat_makhana_roasted_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf9fa484067902453ba",
@@ -806046,9 +806058,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/5f3016e402ee6a6bcc5637767b6316a4.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002465.jpg",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Himalayan Salt Makhana)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:57.532Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -806246,7 +806258,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf9fa484067902453ba",
-    "primary_category_id": "cat_makhana_roasted_snacks"
+    "primary_category_id": "cat_makhana_roasted_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf7fa484067902453b7",
@@ -806254,8 +806267,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "allergens": [],
     "availability": "VERIFIED_AVAILABLE",
     "brand": "Let's Try",
-    "category": "Dairy, Yogurt & Dairy Alternatives",
-    "categorySlug": "dairy-yogurt-dairy-alternatives",
+    "category": "Makhana & Roasted Snacks",
+    "categorySlug": "makhana-roasted-snacks",
     "countryOfOrigin": "India",
     "createdAt": "2026-11-22T00:48:55.795Z",
     "dataCompleteness": 100,
@@ -806276,9 +806289,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/aeace90fc81d3e6e0362454751736ea9.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002380.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try Roasted Ragi Puffs (Cheese) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Jowar Puffs - Cheese)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:55.795Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -806505,14 +806518,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002380",
-    "subCategory": "Cheese & Butter",
+    "subCategory": "Roasted Puffs & Crisps",
     "updatedAt": "2026-11-22T03:06:49.996Z",
     "verificationDate": "2026-11-22T00:48:55.795Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf7fa484067902453b7",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bfcfa484067902453bd",
@@ -806522,8 +806536,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "availability": "VERIFIED_AVAILABLE",
     "brand": "Let's Try",
-    "category": "Ready-to-Cook Mixes",
-    "categorySlug": "ready-to-cook-mixes",
+    "category": "Chips, Namkeen & Savoury Snacks",
+    "categorySlug": "chips-namkeen-savoury-snacks",
     "countryOfOrigin": "India",
     "createdAt": "2026-11-22T00:49:00.342Z",
     "dataCompleteness": 100,
@@ -806541,12 +806555,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Rock Salt (Sendha Namak)",
       "No Preservatives"
     ],
-    "imageSourceUrl": "https://rukminim2.flixcart.com/image/300/300/xif0q/snack-savourie/x/h/d/-original-imahhfz6spgmynty.jpeg",
+    "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/02663dcb49679f43a6dae1dc6f3b8308.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002441.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try Sabudana Chivda (Fasting Mix) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Sabudana Mixture)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:00.342Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -806893,14 +806907,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002441",
-    "subCategory": "Meal & Batter Mixes",
+    "subCategory": "Mixture & Chivda",
     "updatedAt": "2026-11-22T03:06:53.460Z",
     "verificationDate": "2026-11-22T00:49:00.342Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bfcfa484067902453bd",
-    "primary_category_id": "cat_ready_to_cook_mixes"
+    "primary_category_id": "cat_ready_to_cook_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bfcfa484067902453be",
@@ -806910,8 +806925,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "availability": "VERIFIED_AVAILABLE",
     "brand": "Let's Try",
-    "category": "Rice, Grains, Pulses & Flours",
-    "categorySlug": "rice-grains-pulses-flours",
+    "category": "Chips, Namkeen & Savoury Snacks",
+    "categorySlug": "chips-namkeen-savoury-snacks",
     "countryOfOrigin": "India",
     "createdAt": "2026-11-22T00:49:00.402Z",
     "dataCompleteness": 100,
@@ -806931,10 +806946,10 @@ export const SEED_PRODUCTS: ProductItem[] = [
     ],
     "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40341069_2.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930002434.png",
-    "imageVerificationNote": "Official Let's Try packshot",
+    "imageUrl": "/images/packshots/8908930002434.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Poha Mixture)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:00.402Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -807108,14 +807123,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002434",
-    "subCategory": "Pulses & Dals",
+    "subCategory": "Mixture & Chivda",
     "updatedAt": "2026-11-22T03:06:52.936Z",
     "verificationDate": "2026-11-22T00:49:00.402Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bfcfa484067902453be",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023bf9fa484067902453b9",
@@ -807144,12 +807160,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Rock Salt (Sendha Namak)",
       "No Preservatives"
     ],
-    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/rc-upload-1777953701494-15752.jpg",
+    "imageSourceUrl": "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/cdc4b442e33558487f03615a96c61378.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002410.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Let's Try Let's Try Soya Sticks (Chatpata Masala) packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Let's Try (Soya Katori)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:48:57.356Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -807420,14 +807436,15 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "servingSize": "30 g",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/8908930002410",
-    "subCategory": "Namkeen & Bhujia",
+    "subCategory": "Extruded & Specialty Snacks",
     "updatedAt": "2026-11-22T03:06:51.879Z",
     "verificationDate": "2026-11-22T00:48:57.356Z",
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic retail food packaging packshot",
     "id": "6b023bf9fa484067902453b9",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6af4198eda56c406647062f0",
@@ -1141836,9 +1141853,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40363930f90736795106_6a5b138085ae6471da20004b_MVP_5150.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000017.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (5-seed-multigrain-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (5 Seed Multigrain Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:54.003Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1142194,7 +1142211,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523a62b129f01ab85c85",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526062b129f01ab85ce0",
@@ -1142223,9 +1142241,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20014a_6a1440486329a47b6fb97f22_6a0ff65d0bf41f8526612d66_MVP_4735.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000956.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (abc-juice)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (ABC (Apple Beetroot Carrot) Juice)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:32.690Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1142422,7 +1142440,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526062b129f01ab85ce0",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527a62b129f01ab85cfa",
@@ -1142453,9 +1142472,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005b1_6a4659241c6bbc2b995335ad_AMiC.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001199.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (alphonso-mango-slow-churned-ice-cream-350ml)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Alphonso Mango Slow Churned Ice Cream)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:58.119Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1142792,7 +1142811,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527a62b129f01ab85cfa",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528562b129f01ab85d17",
@@ -1142823,9 +1142843,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20031c_6a1441338c5243403ed71548_6a1198ccd0f7f0309767b5a8_Nc-40.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001472.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (andhra-avakaya-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Andhra Avakaya Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:09.595Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1143119,7 +1143139,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528562b129f01ab85d17",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525362b129f01ab85cbf",
@@ -1143150,9 +1143171,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003c7_6a14418c68accc623cb7abaa_6a1035d213e1512a8530fcd9_MVP_4719.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000659.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (andhra-chekkalu)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Andhra Chekkalu)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:19.239Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1143524,7 +1143545,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525362b129f01ab85cbf",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528462b129f01ab85d15",
@@ -1143555,9 +1143577,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20035e_6a14415a55b77c9976c6fab2_6a119a948dabce041e3d88f7_Nc-37.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001502.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (andhra-garlic-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Andhra Garlic Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:08.890Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1143889,7 +1143911,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528462b129f01ab85d15",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528662b129f01ab85d18",
@@ -1143920,9 +1143943,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200319_6a14413182594e96e27cc2f0_6a11952f772c7e9a2afe9b03_MZ8_0894.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001489.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (andhra-gongura-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Andhra Gongura Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:10.109Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1144298,7 +1144321,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528662b129f01ab85d18",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528562b129f01ab85d16",
@@ -1144329,9 +1144353,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200340_6a144146582fc24a93e08c9e_6a119995b1112b07709f958f_Nc-34.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001496.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (andhra-tomato-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Andhra Tomato Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:09.317Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1144701,7 +1144725,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528562b129f01ab85d16",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527d62b129f01ab85d02",
@@ -1144729,9 +1144754,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200524_6a14424a857b0d0b6cf13701_6a0ff54db8976ebcfb75d4e6_Nc-95.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001281.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (apple-pineapple-jam)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Apple Pineapple Jam (80% fruit))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:01.123Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1145002,7 +1145027,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527d62b129f01ab85d02",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524362b129f01ab85c9b",
@@ -1145030,12 +1145056,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Zero White Sugar",
       "Traditional Nankhatai"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000d1_6a14400806113e81160d70df_6a0e99b0dd86e74203a7c171_NC-12.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b0_6a143ff4cb82a2ae972138c5_6a0db4e0707a38249a25a166_MZ8_4908.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000307.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jam-filled-biscuits)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Atta Jaggery Ghee Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:03.076Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1145303,7 +1145329,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524362b129f01ab85c9b",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c08fa484067902453d3",
@@ -1145335,9 +1145362,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003ec_6a14419fd94095983da08750_6a117fa0b4902b338cf01df4_N-18.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002670.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (mini-bhakarwadi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Mini Bhakarwadi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:12.743Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1145753,7 +1145780,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c08fa484067902453d3",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528462b129f01ab85d12",
@@ -1145782,9 +1145810,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20036c_6a144161d94095983da077a8_6a119b392f8a632aeff899c5_Nc-15.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001427.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (banarasi-carrot-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Banarasi Carrot Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:08.062Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1146150,7 +1146178,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528462b129f01ab85d12",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528262b129f01ab85d10",
@@ -1146179,9 +1146208,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200364_6a14415ca8442768169fad8e_6a119acd19cc8b97ac43ec73_Nc-7.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001410.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (banarasi-lal-mirch-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Banarasi Lal Mirch Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:06.263Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1146547,7 +1146576,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528262b129f01ab85d10",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523f62b129f01ab85c92",
@@ -1146579,9 +1146609,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200253_6a1440cc9201010c781224c8_6a11b368562485b39b8a41e4_MZ3_0761.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000147.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (bangalore-khara-bun)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Bangalore Khara Bun/Mumbai Masala Bun)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:59.409Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1147003,7 +1147033,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523f62b129f01ab85c92",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525262b129f01ab85cbe",
@@ -1147032,9 +1147063,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004d3_6a14421e82594e96e27d0d4d_6a118a23c871525c245c428c_N-15.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000567.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarat-style-besan-gathiya)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Besan Gathiya)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:18.671Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1147324,7 +1147355,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525262b129f01ab85cbe",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527462b129f01ab85cf1",
@@ -1147352,12 +1147384,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Granular Tagar Sugar",
       "No Dalda"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1fff05_6a1041e9555024e9cd40cd57_6a0ef6c3b7f0a045fab30349_Nd-9.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffe90_6a1041dfd36fe4d7897228f4_6a0ef4677e14154666cf33a8_MZ8_5321.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001113.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (NOICE NOICE Besan Laddoo (Desi Ghee) packaging packshot)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Besan Ladoo Made With Desi Ghee (4 Pieces))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:52.323Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1147634,7 +1147666,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527462b129f01ab85cf1",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525862b129f01ab85ccd",
@@ -1147666,9 +1147699,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005d3_6a47a22520e513381741069a_Nc-118.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000765.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (bilona-cow-ghee-500ml)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Bilona Cow Ghee)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:24.616Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1147759,7 +1147792,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525862b129f01ab85ccd",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523b62b129f01ab85c87",
@@ -1147791,9 +1147825,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200226_6a1440b482594e96e27c9a3d_6a11b0f449ee8658828f6318_MVP_5135.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000048.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (buttery-milk-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Buttery Milk Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:55.345Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1148183,7 +1148217,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523b62b129f01ab85c87",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524f62b129f01ab85cb8",
@@ -1148212,9 +1148247,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003f8_6a1441a39fd24a2526900e5c_6a118010a4b44b5af5723a5d_Nc-4.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000512.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chatpata-dried-cranberries)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chatpata Dried Cranberries)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:15.254Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1148502,7 +1148537,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524f62b129f01ab85cb8",
-    "primary_category_id": "cat_nuts_seeds_trail_mixes"
+    "primary_category_id": "cat_nuts_seeds_trail_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c08fa484067902453d2",
@@ -1148533,9 +1148569,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20037a_6a14416851fa328128e8e533_6a1032bd2105b237ed56d958_MVP_6876.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002663.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (soya-sticks)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Soya Sticks)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:12.579Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1148850,7 +1148886,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c08fa484067902453d2",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524962b129f01ab85cad",
@@ -1148881,9 +1148918,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004c1_6a144214444598daedc5ece7_6a1189c7ee0c1a83122e787e_Nc-5.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000444.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (cheese-melt-roasted-makhana)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Cheese Melt Roasted Makhana)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:09.094Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1149138,7 +1149175,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic commercial retail packaging packshot",
     "id": "6b02524962b129f01ab85cad",
-    "primary_category_id": "cat_makhana_roasted_snacks"
+    "primary_category_id": "cat_makhana_roasted_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524162b129f01ab85c96",
@@ -1149170,9 +1149208,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f9_6a14401b5d90e1d84802d699_6a0e9ae647684cfb0f803167_NC-14.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000192.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chewy-new-york-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chewy New York Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:01.582Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1149594,7 +1149632,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524162b129f01ab85c96",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528662b129f01ab85d19",
@@ -1149620,12 +1149659,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Natural Herbs",
       "Zero Added Nitrites"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002f8_6a144122816072c3e67009bd_6a11a5db2f8a632aeffa9cf0_MZ3_2036.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200306_6a144129c5bf402137c137a6_6a118fcfd2cc15e58eec168d_MZ3_2089.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001557.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lebanese-falafel)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Breakfast Sausages)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:10.842Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1149991,7 +1150030,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528662b129f01ab85d19",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528662b129f01ab85d1a",
@@ -1150023,9 +1150063,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20030b_6a14412bb90470036fed27bc_6a11903a9c01125a75c81f93_MZ3_2048.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001540.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-momos)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Momos)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:10.993Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1150483,7 +1150523,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528662b129f01ab85d1a",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528862b129f01ab85d1f",
@@ -1150511,12 +1150552,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Zero Mechanically Separated Meat",
       "Clean Label"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200310_6a14412de20c52e852fb853b_6a11907d3852dedd1ad98f29_Nx-36.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200301_6a144126af63f4adf27004b5_6a118f88c871525c245d2d08_MZ3_2093.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001571.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-popcorn)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Chicken Nuggets)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:12.279Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1150892,7 +1150933,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528862b129f01ab85d1f",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528762b129f01ab85d1d",
@@ -1150923,9 +1150965,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200310_6a14412de20c52e852fb853b_6a11907d3852dedd1ad98f29_Nx-36.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001533.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-popcorn)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Popcorn Whole Muscle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:11.672Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1151339,7 +1151381,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528762b129f01ab85d1d",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528762b129f01ab85d1c",
@@ -1151365,12 +1151408,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Lean Chicken Breast",
       "Zero Soya Extenders"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002dc_6a1441151c6b9c55f68e6255_6a11a509bb838252f0e38da8_MZ3_2075.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002f3_6a14412095841d5d642dc5f8_6a118ef6d6d952f141f04dcb_Ndx-40.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001564.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (quinoa-bean-patty)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Salami)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:11.297Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1151660,7 +1151703,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528762b129f01ab85d1c",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528962b129f01ab85d23",
@@ -1151689,9 +1151733,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002d1_6a14410f2e0e2dcba51b5bfe_6a118e57bb838252f0dfbb7a_Nx-35.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001595.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (NOICE NOICE Chicken Seekh Kebabs BigBasket packshot)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Seekh Kebabs)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:13.044Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1152095,7 +1152139,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528962b129f01ab85d23",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528862b129f01ab85d20",
@@ -1152124,9 +1152169,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002e3_6a144117b34b6dbfc7abe704_6a118ea445457fc67ca5cb0e_MZ3_2084.jpeg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001601.jpg",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-wings)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Wings)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:12.414Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1152264,7 +1152309,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528862b129f01ab85d20",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528962b129f01ab85d24",
@@ -1152295,9 +1152341,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002fe_6a1441256329a47b6fb9d181_6a118f5b23ae063122b8d367_MZ3_2079.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001588.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-zinger-burger-patty)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chicken Zinger Burger Patty)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:13.354Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1152515,7 +1152561,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528962b129f01ab85d24",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527862b129f01ab85cf6",
@@ -1152546,9 +1152593,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005b6_6a46595bb185790f637562f8_CiC.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001205.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chikku-slow-churned-ice-cream-100ml)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chikku Slow Churned Ice Cream)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:56.982Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1152847,7 +1152894,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527862b129f01ab85cf6",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524262b129f01ab85c98",
@@ -1152878,9 +1152926,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f4_6a14401ab1448ab2abe907d7_6a0e9a92afeeb7746fbc0d4a_NC-8.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000208.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chocochip-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chocochip Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:02.011Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1153280,7 +1153328,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524262b129f01ab85c98",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527b62b129f01ab85cfd",
@@ -1153313,9 +1153362,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b403afb27d791e11af889_6a5b138085ae6471da200051_bar.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001243.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chocolate-chip-10g-whey-protein-bar)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chocolate Chip 10g Whey Protein Bar)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:59.097Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1153640,7 +1153689,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527b62b129f01ab85cfd",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527c62b129f01ab85cfe",
@@ -1153672,9 +1153722,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20013e_6a144041b1448ab2abe91948_6a0eab8ee9ae34e5cbd7da62_Nds-66.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001250.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chocolate-fudge-protein-bar)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chocolate Fudge 10g Whey Protein Bar)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:00.066Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1153991,7 +1154041,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527c62b129f01ab85cfe",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527d62b129f01ab85d04",
@@ -1154023,9 +1154074,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005ac_6a4658ed5749861727384c08_PD-40.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001311.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chocolate-peanut-butter-250g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chocolate Peanut Butter | 22% Protein)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:01.617Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1154353,7 +1154404,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527d62b129f01ab85d04",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527a62b129f01ab85cfb",
@@ -1154379,12 +1154431,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Low Sugar Preserve",
       "Zero Artificial Preservatives"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20051f_6a1442486e9b94169c5e91d1_6a0ff509ebf7cb4c0fae8fd5_N-91.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200521_6a1442496e9b94169c5e91d6_6a0ff5095bb681ec04c331ec_N-99.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001267.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (single-origin-wild-forest-honey)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Chunky Strawberry Jam (80% fruit))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:58.969Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1154617,7 +1154669,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527a62b129f01ab85cfb",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524d62b129f01ab85cb4",
@@ -1154645,9 +1154698,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20042a_6a1441bb79d6068092aa0030_6a11826ad6d952f141edfae6_Nx-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000543.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (classic-moong-bhujia)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Classic Moong Bhujia)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:13.889Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1154937,7 +1154990,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524d62b129f01ab85cb4",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524e62b129f01ab85cb5",
@@ -1154968,9 +1155022,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20050c_6a144240d1d54bafdf798899_6a118c56eb37217428d39a1e_Nx-8.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000499.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (congress-peanuts-homestyle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Congress Peanuts Homestyle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:14.193Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1155304,7 +1155358,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524e62b129f01ab85cb5",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525162b129f01ab85cbd",
@@ -1155335,9 +1155390,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003e2_6a14419a95841d5d642dece2_6a1036edfd1af79f38abd990_MVP_6939.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000598.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (cornflakes-mixture-makkai-chevda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Cornflakes Mixture)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:17.800Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1155789,7 +1155844,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525162b129f01ab85cbd",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527c62b129f01ab85d01",
@@ -1155820,9 +1155876,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200541_6a1442572e0e2dcba51bd886_6a11945af97a318069aaddd2_PD-3.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001304.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (peanut-butter-creamy)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Peanut Butter Creamy)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:00.900Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1156010,7 +1156066,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527c62b129f01ab85d01",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c08fa484067902453d4",
@@ -1156041,9 +1156098,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200444_6a1441cd9727e039da958f11_6a1183b12f8a632aeff44b66_Nx-4(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002656.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (masala-khakhra)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Masala Khakhra)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:12.796Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1156267,7 +1156324,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c08fa484067902453d4",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c01fa484067902453cc",
@@ -1156298,9 +1156356,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004a1_6a1441fcaf63f4adf2706a14_6a1188645b4e7aeea2d3d714_Nx-5(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002649.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarati-methi-khakhra)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Gujarati Methi Khakhra)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:05.894Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1156600,7 +1156658,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c01fa484067902453cc",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527d62b129f01ab85d03",
@@ -1156631,9 +1156690,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40254ff675d8a614074c_6a5b138085ae6471da20005c_PD-22.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001298.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (peanut-butter-crunchy)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Peanut Butter Crunchy)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:01.457Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1156821,7 +1156880,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527d62b129f01ab85d03",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523b62b129f01ab85c88",
@@ -1156853,9 +1156913,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002ae_6a1440fcf0dbde87c6a7a4b8_6a11b53d1188d2e2ab9d2f40_MVP_7948.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000024.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (crustless-sandwich-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Crustless Sandwich Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:55.752Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1157255,7 +1157315,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523b62b129f01ab85c88",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527f62b129f01ab85d08",
@@ -1157284,9 +1157345,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20052e_6a14424e444598daedc60e6a_6a0ea3741d1910b3aac836d4_NCs-12.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001342.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (dill-cucumber-tzatziki)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Dill Cucumber Tzatziki)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:03.451Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1157626,7 +1157687,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527f62b129f01ab85d08",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527962b129f01ab85cf8",
@@ -1157657,9 +1157719,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b401feeab26f5a2d83cb4_6a5b138085ae6471da200052_DCg.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001175.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (dark-chocolate-gelato)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Dark Chocolate Gelato)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:57.170Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1157992,7 +1158054,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527962b129f01ab85cf8",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525862b129f01ab85ccc",
@@ -1158023,9 +1158086,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005d9_6a47a171c030c61aaecb0b0e_MZ8_6323.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000772.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (desi-buffalo-ghee-500ml)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Desi Buffalo Ghee)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:24.195Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1158116,7 +1158179,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525862b129f01ab85ccc",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525862b129f01ab85cce",
@@ -1158147,9 +1158211,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001b9_6a14407bd77c25c33dc71d74_6a10001d4046973754a910dc_MZ8_0877.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000741.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-white-butter)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh White Butter)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:24.659Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1158240,7 +1158304,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525862b129f01ab85cce",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525162b129f01ab85cbc",
@@ -1158269,9 +1158334,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003df_6a1441986329a47b6fb9efa1_6a1036965daecd26a42c564a_MVP_6896.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000550.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (desi-moong-dal)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Desi Moong Dal)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:17.562Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1158447,7 +1158512,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525162b129f01ab85cbc",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527862b129f01ab85cf5",
@@ -1158478,9 +1158544,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fff86_6a1041f7be696816a7ce0d81_6a0efb605df950afe36b6578_N-5.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001151.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (NOICE NOICE Dry Fruit Date Bites packaging packshot)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Choco Dry Fruit Laddoos)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:56.611Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1158769,7 +1158835,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527862b129f01ab85cf5",
-    "primary_category_id": "cat_protein_bars_energy_bars_wafers"
+    "primary_category_id": "cat_protein_bars_energy_bars_wafers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525f62b129f01ab85cdc",
@@ -1158798,9 +1158865,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200266_6a1440d5e20c52e852fb38c9_6a0ea8fc47684cfb0f8765c3_MZ8_3117.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000888.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (free-range-eggs-from-happy-hens)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Free Range Eggs From Happy Hens)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:31.346Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1158883,7 +1158950,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525f62b129f01ab85cdc",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523962b129f01ab85c84",
@@ -1158915,9 +1158983,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200222_6a1440b2c5bf402137c0fdef_6a11b0bebd9cebc720b2db8f_MVP_5144.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000031.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fluffy-white-bread-250g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fluffy White Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:53.829Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1159259,7 +1159327,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523962b129f01ab85c84",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523c62b129f01ab85c8a",
@@ -1159290,9 +1159359,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002b6_6a144100c24b56659d99702d_6a11afeccc5714116b99d41a_MZ3_0764.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000093.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (focaccia-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Focaccia Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:56.426Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1159636,7 +1159705,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523c62b129f01ab85c8a",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523e62b129f01ab85c8e",
@@ -1159668,9 +1159738,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200242_6a1440c141eb368ab3cff511_6a11b27b6704e9bc49576151_MZ8_2080.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000079.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (french-sourdough-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (French Sourdough Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:58.266Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1159894,7 +1159964,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523e62b129f01ab85c8e",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526162b129f01ab85ce1",
@@ -1159923,9 +1159994,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005b9_6a465aae0bc22c3e9dc0706f_Nc-128.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000932.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-apple-juice-150ml)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Apple Juice)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:33.361Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1160046,7 +1160117,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526162b129f01ab85ce1",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524562b129f01ab85ca5",
@@ -1160075,12 +1160147,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Sweet & Salty Balance",
       "Chai Dunker"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b9_6a143ffabfb3328da707e235_6a0db5f6779286a960b5b79b_Nc-36.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4366e18e529f8edd10cd_6a5b138085ae6471da200638_MPR_8665%2520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000314.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jeera-tea-biscuits)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Bakery Butter Osmania Biscuit)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:05.984Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1160444,7 +1160516,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524562b129f01ab85ca5",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524462b129f01ab85c9f",
@@ -1160477,9 +1160550,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005c7_6a465bb8cfb2c258bf285829_Nc-20.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000253.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-bakery-cashew-biscuit-60g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Bakery Cashew Biscuit)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:04.246Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1160871,7 +1160944,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524462b129f01ab85c9f",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523f62b129f01ab85c91",
@@ -1160900,12 +1160974,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Flaky Lamination",
       "Zero Margarine"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20021e_6a1440afd533bf59fe84d974_6a11b069bd9cebc720b2ca10_MVP_6757.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20027e_6a1440e2d77c25c33dc74aa1_6a11b47904965e459444f2d9_MVP_6764.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000178.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-butter-croissant-70g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Caramelized Buttery Brioche)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:59.173Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1161295,7 +1161369,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523f62b129f01ab85c91",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528062b129f01ab85d0a",
@@ -1161321,12 +1161396,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Preservatives",
       "Coconut Oil Tadka"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200210_6a1440a494893b3490336ca7_6a101724f9cec10c373793a4_Hw-6.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001ed_6a144091a8442768169f750f_6a10183fd773cfa0210c0299_NCs-7.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001373.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-coconut-chutney)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Coriander Coconut Chutney)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:04.828Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1161692,7 +1161767,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528062b129f01ab85d0a",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527e62b129f01ab85d05",
@@ -1161718,12 +1161794,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Extra Virgin Olive Oil",
       "Clean Guacamole Style"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200537_6a1442523498f6209a4611ab_6a0ea4119237b0f6fe9a63be_JBs-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005be_6a465addcfb2c258bf27a083_Nc-70.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001328.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-hot-salsa)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Hass Avocado Spread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:02.034Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1162019,7 +1162095,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527e62b129f01ab85d05",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528162b129f01ab85d0b",
@@ -1162045,12 +1162122,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Fresh Pickled Jalapeno",
       "Zero Sugar Added"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200210_6a1440a494893b3490336ca7_6a101724f9cec10c373793a4_Hw-6.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200537_6a1442523498f6209a4611ab_6a0ea4119237b0f6fe9a63be_JBs-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001335.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-coconut-chutney)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Hot Salsa)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:05.149Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1162416,7 +1162493,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528162b129f01ab85d0b",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527462b129f01ab85cf2",
@@ -1162444,12 +1162522,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Silver Foil Free (Zero Vark)",
       "Pure Kaju"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fff4a_6a1041f3459be40714bbfa78_6a0ef9fecbb4f7541d0f88f6_MZ8_5384.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fff49_6a1041f3459be40714bbfa74_6a0ef9fe7e14154666d42d5b_MZ8_5319.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001120.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kaju-katli)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Fresh Kaju Katli)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:52.335Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1162684,7 +1162762,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527462b129f01ab85cf2",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525862b129f01ab85ccb",
@@ -1162712,12 +1162791,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Open Vat Reduced",
       "No Starch Adulteration"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40344e6387abc0f1f8f3_6a5b138085ae6471da200048_Copy.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200094_6a1449995d90e1d84806a36f_co1.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000758.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-malai-paneer)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Mawa Cake-Fresh (Eggless))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:24.144Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1162808,7 +1162887,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525862b129f01ab85ccb",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526062b129f01ab85cdf",
@@ -1162837,9 +1162917,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40414e6387abc0f1fdf1_6a5b138085ae6471da20003e_N-82.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000963.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-lime-soda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Lime Soda)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:32.462Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1163106,7 +1163186,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526062b129f01ab85cdf",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525662b129f01ab85cc9",
@@ -1163137,9 +1163218,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40344e6387abc0f1f8f3_6a5b138085ae6471da200048_Copy.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000727.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-malai-paneer)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Malai Paneer)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:22.461Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1163285,7 +1163366,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525662b129f01ab85cc9",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525f62b129f01ab85cda",
@@ -1163313,9 +1163395,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200281_6a1440e49201010c781232b8_6a1009c9a59aa0104447857f_MVP_5647.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000857.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-mango-thick-lassi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Mango Thick Lassi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:31.115Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1163548,7 +1163630,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525f62b129f01ab85cda",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525d62b129f01ab85cd6",
@@ -1163577,9 +1163660,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b402ceed955322e385052_6a5b138085ae6471da200065_MVP_5661.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000833.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-masala-buttermilk)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Masala Buttermilk)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:29.892Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1163951,7 +1164034,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525d62b129f01ab85cd6",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526b62b129f01ab85ce9",
@@ -1163979,12 +1164063,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Desi Ghee Infused",
       "Zero Preservatives"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200027_6a10422c17d0f592f376b588_6a0ff46f63f1b0581bc10ec7_MZ8_5418.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200029_6a10422c17d0f592f376b592_6a0ff46f1ce7ab064be2bb17_MZ8_5317.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001076.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (milk-peda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Fresh Milk Peda Made With Desi Ghee)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:43.132Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1164263,7 +1164347,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526b62b129f01ab85ce9",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528262b129f01ab85d0e",
@@ -1164292,9 +1164377,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005c0_6a465b321f012072947058f6_Nc-84.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001403.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-mint-coriander-chutney-85g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Mint Coriander Chutney)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:06.019Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1164622,7 +1164707,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528262b129f01ab85d0e",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525b62b129f01ab85cd4",
@@ -1164650,12 +1164736,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Fresh Cow Milk",
       "Zero Additives"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40344e6387abc0f1f8f3_6a5b138085ae6471da200048_Copy.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005cc_6a47a0dabd7c8fa1e8b85f38_MZ8_5308.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000819.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-malai-paneer)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Mozzarella Cheese Balls (Bocconcini))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:27.688Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1164915,7 +1165001,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525b62b129f01ab85cd4",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527362b129f01ab85cef",
@@ -1164941,12 +1165028,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Melt-in-Mouth",
       "Royal Karnataka Recipe"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fffec_6a104202c3df85a8513a4664_6a0fefceafd7366cdf271880_MZ8_5345.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fffed_6a104202c3df85a8513a4669_6a0fefce12f8e10662bcb453_MZ8_5312.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001090.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (mysore-pak)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Fresh Mysore Pak Made With Desi Ghee)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:51.088Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1165217,7 +1165304,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527362b129f01ab85cef",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525c62b129f01ab85cd5",
@@ -1165248,9 +1165336,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20029d_6a1440f2b90470036fed0c0d_6a100aab6353063bedb977ad_MVP_5652.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000840.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-punjabi-malai-lassi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Punjabi Malai Lassi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:28.330Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1165567,7 +1165655,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525c62b129f01ab85cd5",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524562b129f01ab85ca3",
@@ -1165596,12 +1165685,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Cardamom Aroma",
       "Zero Palm Oil"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b403f02c43c54c2059349_6a5b138085ae6471da200041_Nc-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4366e18e529f8edd10cd_6a5b138085ae6471da200638_MPR_8665%2520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000369.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (sweet-salty-biscuits)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Bakery Butter Osmania Biscuit)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:05.227Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1166001,7 +1166090,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524562b129f01ab85ca3",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524462b129f01ab85ca1",
@@ -1166030,12 +1166120,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Real Dairy Butter",
       "Farm Fresh Eggs"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000a7_6a143ff12480228fb5af5e64_6a0db06ec9d83f7445f62af4_MVP_6749.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20008f_6a0d8a5fd9a0607f9b3414b2_MVP_5497.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000352.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (rich-butter-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Chocolate Tea Cake)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:04.936Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1166461,7 +1166551,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524462b129f01ab85ca1",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525f62b129f01ab85cd9",
@@ -1166490,9 +1166581,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001d1_6a144085ae43b748f757ee64_6a101244fbcd637645990d72_MZ3_0385.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000864.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (idli-dosa-batter-500g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Idli Dosa Batter)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:31.097Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1166782,7 +1166873,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525f62b129f01ab85cd9",
-    "primary_category_id": "cat_ready_to_cook_mixes"
+    "primary_category_id": "cat_ready_to_cook_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526162b129f01ab85ce2",
@@ -1166811,9 +1166903,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001a2_6a144070e20c52e852fb2145_6a100726ac83bd4712de1292_N_oct-28%252520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000925.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-valencia-orange-juice)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Valencia Orange Juice)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:33.611Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1166896,7 +1166988,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526162b129f01ab85ce2",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523f62b129f01ab85c93",
@@ -1166928,9 +1167021,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200097_6a143fe8e20c52e852faf34a_6a0daeb928cd499c279b978e_NC-17.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000185.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ganache-chocolate-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ganache Chocolate Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:59.955Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1167308,7 +1167401,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523f62b129f01ab85c93",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525462b129f01ab85cc3",
@@ -1167339,9 +1167433,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004b0_6a14420251fa328128e91fb4_6a11890a23ae063122b798b1_Nd-38.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000635.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (garlic-thenkuzhal)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Garlic Thenkuzhal)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:20.285Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1167677,7 +1167771,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525462b129f01ab85cc3",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526a62b129f01ab85ce8",
@@ -1167706,9 +1167801,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4115f20dc37436b6fdd5_6a5b138085ae6471da20054a_co4.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000987.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ginger-ale-soda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ginger Ale Soda With Real Ginger)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:42.143Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1168013,7 +1168108,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526a62b129f01ab85ce8",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524662b129f01ab85ca6",
@@ -1168041,12 +1168137,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Real Sun-Dried Ginger",
       "Warm Winter Spices"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b5_6a143ff8857b0d0b6cf0845a_6a0db566cdc90ad4bac03b3d_Nc-35.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f1_6a1440186e9b94169c5d99ef_6a0e9a5a1ed67693be585099_Nc-30.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000321.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (oat-chocochip-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ginger Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:06.017Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1168398,7 +1168494,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524662b129f01ab85ca6",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523e62b129f01ab85c8f",
@@ -1168430,9 +1168527,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20022f_6a1440b8b0fb9d293b062374_6a11b18db1112b0770a3e206_MZ3_1144.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000130.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (golden-sweet-bun)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Golden Sweet Bun)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:58.995Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1168870,7 +1168967,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523e62b129f01ab85c8f",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c09fa484067902453d5",
@@ -1168902,9 +1169000,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4021a21f789972dec7e0_6a5b138085ae6471da200055_Golden%2520(2).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002687.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (caramel-popcorn)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Golden Caramel Popcorn)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:13.756Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1169246,7 +1169344,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c09fa484067902453d5",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524b62b129f01ab85cb0",
@@ -1169277,9 +1169376,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200509_6a14423e95841d5d642e306e_6a119cb7719c90f36a0fba21_Movie%252520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000475.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (movie-theatre-butter-popcorn)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Movie Theatre Butter Popcorn With Real Butter)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:11.428Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1169463,7 +1169562,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524b62b129f01ab85cb0",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525b62b129f01ab85cd1",
@@ -1169491,12 +1169591,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Double Protein",
       "Gut Friendly"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005e0_6a47a1d0fb0c19543f3a0484_MZ8_7755.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005e5_6a47a1f5f0fe9d632250d007_MZ8_7721.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000796.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (greek-yogurt-100g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Protein Greek Yogurt)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:27.584Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1169684,7 +1169784,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525b62b129f01ab85cd1",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528762b129f01ab85d1e",
@@ -1169712,9 +1169813,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200349_6a14414d2480228fb5afdcf3_6a1199f93852dedd1adb2b66_Nc-23.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001519.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (green-chilli-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Green Chilli Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:11.788Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1170004,7 +1170105,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528762b129f01ab85d1e",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525562b129f01ab85cc6",
@@ -1170035,9 +1170137,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004ac_6a1442009b0ef6fc21bf90be_6a1188d8e03b5355137332ee_Nc-36.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000710.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarati-garlic-khakhra)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Gujarati Garlic Khakhra)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:21.225Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1170299,7 +1170401,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525562b129f01ab85cc6",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525762b129f01ab85cca",
@@ -1170330,9 +1170433,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200383_6a14416b94893b349033bca8_6a10331356176f2978175a87_Copy%252520(4).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000703.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarati-jeera-khakhra)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Gujarati Jeera Khakhra)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:23.639Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1170594,7 +1170697,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525762b129f01ab85cca",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528462b129f01ab85d13",
@@ -1170623,9 +1170727,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200367_6a14415f1203111d66281f85_6a119b09b0f6cbf0090c710c_Nc-26%252520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001465.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarati-mango-chunda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Gujarati Mango Chunda)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:08.702Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1170913,7 +1171017,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528462b129f01ab85d13",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524262b129f01ab85c9a",
@@ -1170941,12 +1171046,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Real Desiccated Coconut",
       "Coastal Coconut Aroma"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4366e18e529f8edd10cd_6a5b138085ae6471da200638_MPR_8665%2520(1).webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000a4_6a143fef5fbe6dae426bba3e_6a0dafd976ae9fe0d6bfa46c_Nc-33.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000246.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-bakery-butter-osmania-biscuit-60g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Handmade Coconut Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:02.567Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1171344,7 +1171449,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524262b129f01ab85c9a",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524362b129f01ab85c9d",
@@ -1171374,12 +1171480,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Tutti Frutti & Nuts",
       "Zero Vanaspati"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200097_6a143fe8e20c52e852faf34a_6a0daeb928cd499c279b978e_NC-17.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200579_6a15742c7a879207a8a910b0_6a15717407aa3c59a8ade958_NC-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000260.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ganache-chocolate-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Handmade Fruit Biscuits)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:03.355Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1171767,7 +1171873,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524362b129f01ab85c9d",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525e62b129f01ab85cd7",
@@ -1171796,9 +1171903,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20025d_6a1440d160a96baf729a4f94_6a0ea804cfb6c29eb2619d33_MZ8_3129.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000895.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (high-protein-eggs-10p)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (High Protein Eggs (10p))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:30.383Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1171881,7 +1171988,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525e62b129f01ab85cd7",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525a62b129f01ab85cd0",
@@ -1171912,9 +1172020,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b43645e19b9c9b9b66bb2_6a5b138085ae6471da200633_product.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000734.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (high-protein-paneer-50g-protein-per-pack-200g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (High Protein Paneer (50g Protein Per Pack))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:26.852Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1172104,7 +1172212,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525a62b129f01ab85cd0",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528062b129f01ab85d09",
@@ -1172133,9 +1172242,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffd03_6a1041bfc3df85a8513a21fd_6a0eafb151ad8ac5277ebfe7_N-109.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001359.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (himalayan-farm-honey)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Himalayan Farm Honey)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:04.010Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1172218,7 +1172327,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528062b129f01ab85d09",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525362b129f01ab85cc2",
@@ -1172249,9 +1172359,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200433_6a1441c106113e81160e2949_6a1182cf9c01125a75c58b43_N-8.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000611.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (homestyle-chakli)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Homestyle Chakli)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:19.993Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1172545,7 +1172655,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525362b129f01ab85cc2",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525562b129f01ab85cc5",
@@ -1172577,9 +1172688,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200580_6a15742e73837411eb5f79cd_6a1572a66b97c3f72cef2421_MVP_6925.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000680.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (homestyle-namakpara)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Homestyle Namakpara)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:21.096Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1172881,7 +1172992,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525562b129f01ab85cc5",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524f62b129f01ab85cba",
@@ -1172912,9 +1173024,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200516_6a144244021be9af1916f977_6a118cfeace0e68e14eec558_MZ8_4962.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000574.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (poha-mixture)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Homestyle Poha Mixture with Curry Leaves)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:15.985Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1173360,7 +1173472,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524f62b129f01ab85cba",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527462b129f01ab85cf3",
@@ -1173386,12 +1173499,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Fresh Coastal Coconut",
       "Zero White Sugar"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffe8d_6a1041ddffd925c20c94c325_6a0ef3c51eb750f73d075191_MZ8_5370.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffe7b_6a1041ddffd925c20c94c31d_6a0ef3c50809208367e7ea48_MZ8_5315.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001137.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jaggery-coconut-barfi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Jaggery Coconut Barfi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:52.573Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)",
       "Contains Added Caloric Sugars / Syrups"
@@ -1173633,7 +1173746,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527462b129f01ab85cf3",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527762b129f01ab85cf4",
@@ -1173664,9 +1173778,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fffe7_6a104200c8f992b2ed56ecf9_6a0ef092c00b5f5c3bc2fca4_N-14.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001144.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jaggery-peanut-chikki-100g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jaggery Peanut Chikki)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:55.801Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1173837,7 +1173951,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527762b129f01ab85cf4",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528862b129f01ab85d21",
@@ -1173867,9 +1173982,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002d8_6a14411234d62052ba7655f8_6a11a4c945457fc67ca9c617_Ndx-53.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001625.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jalapeno-cheese-samosa)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jalapeno Cheese Samosa  | Ready To Cook)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:12.688Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1174011,7 +1174126,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528862b129f01ab85d21",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524462b129f01ab85ca0",
@@ -1174039,12 +1174155,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Real Fruit Jam Core",
       "No Artificial Coloring"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f1_6a1440186e9b94169c5d99ef_6a0e9a5a1ed67693be585099_Nc-30.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000d1_6a14400806113e81160d70df_6a0e99b0dd86e74203a7c171_NC-12.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000277.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ginger-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jam Filled Biscuits)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:04.442Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1174428,7 +1174544,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524462b129f01ab85ca0",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523962b129f01ab85c83",
@@ -1174460,9 +1174577,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20029a_6a1440eeaf63f4adf26ff6df_6a11b4f4a0ca9c59886e67a8_MVP_5165.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000055.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (japanese-milk-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Japanese Milk Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:53.630Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1174898,7 +1175015,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523962b129f01ab85c83",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524062b129f01ab85c94",
@@ -1174930,9 +1175048,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200239_6a1440bde8a9129d2d9b1fc7_6a11b1f2b4902b338cf8e3a1_MZ3_0777.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000154.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jeera-coriander-kulcha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jeera Coriander Kulcha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:00.903Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1175366,7 +1175484,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524062b129f01ab85c94",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526262b129f01ab85ce3",
@@ -1175395,9 +1175514,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20019a_6a14406c58de6016adff028b_6a11a2508fde4b24e0abb7ad_Jeera.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000970.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (jeera-masala-soda)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jeera Masala Soda)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:34.337Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1175740,7 +1175859,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526262b129f01ab85ce3",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524562b129f01ab85ca4",
@@ -1175768,12 +1175888,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Whole Roasted Jeera",
       "Savoury Chai Biscuit"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000da_6a14400c94893b3490334134_6a0e9a22f0c9fc2234af178f_NC-6.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b9_6a143ffabfb3328da707e235_6a0db5f6779286a960b5b79b_Nc-36.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000338.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (oat-raisin-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Jeera Tea Biscuits)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:05.784Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1176119,7 +1176239,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524562b129f01ab85ca4",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525462b129f01ab85cc4",
@@ -1176151,9 +1176272,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200419_6a1441b39fd24a25269019e7_6a1181a9ed206a190cd5cffc_Nc-110.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000666.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (karam-gavvalu)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Karam Gavvalu)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:20.386Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1176459,7 +1176580,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525462b129f01ab85cc4",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528462b129f01ab85d14",
@@ -1176490,9 +1176612,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200315_6a14412faf63f4adf27008e3_6a1194e60f2578a26bdd60eb_MZ8_0900.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001458.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (karnataka-cut-mango-pickle)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Karnataka Cut Mango Pickle)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:08.856Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1176786,7 +1176908,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528462b129f01ab85d14",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527f62b129f01ab85d07",
@@ -1176815,9 +1176938,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffceb_6a1041bc2071e9deee409aad_6a0eaf0cadbd20664c346fa4_MVP_6412.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001366.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kashmir-valley-forest-honey)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Kashmir Valley Forest Honey)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:03.111Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1176900,7 +1177023,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527f62b129f01ab85d07",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c04fa484067902453cf",
@@ -1176929,9 +1177053,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004c4_6a144216bef9d6462f047b6b_6a0d9fe95c2a3f45d0c26ae6_MZ8_5003.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002595.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kerala-nendran-banana-chips-50g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Kerala Nendran Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:08.466Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1177145,7 +1177269,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c04fa484067902453cf",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c00fa484067902453c8",
@@ -1177174,9 +1177299,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004c4_6a144216bef9d6462f047b6b_6a0d9fe95c2a3f45d0c26ae6_MZ8_5003.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002588.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kerala-nendran-banana-chips-50g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Kerala Nendran Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:04.739Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1177390,7 +1177515,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c00fa484067902453c8",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c01fa484067902453cb",
@@ -1177419,9 +1177545,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004c4_6a144216bef9d6462f047b6b_6a0d9fe95c2a3f45d0c26ae6_MZ8_5003.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002601.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kerala-nendran-banana-chips-50g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Kerala Nendran Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:05.619Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1177616,7 +1177742,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c01fa484067902453cb",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527c62b129f01ab85d00",
@@ -1177648,9 +1177775,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b431f809e0d3fedb0a97a_6a5b138085ae6471da20060a_MZ3_2262-Edit-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001236.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kesar-pista-kulfi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Kesar Pista Kulfi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:00.381Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1177971,7 +1178098,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527c62b129f01ab85d00",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528b62b129f01ab85d26",
@@ -1177997,12 +1178125,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Loaded with Fresh Parsley",
       "Vegan & High Fiber"
     ],
-    "imageSourceUrl": "https://m.media-amazon.com/images/I/61bbyg8R1xL._AC_SL1000_.jpg",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002f8_6a144122816072c3e67009bd_6a11a5db2f8a632aeffa9cf0_MZ3_2036.webp",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908940001632.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (NOICE NOICE Lebanese Falafel packaging packshot)",
+    "imageUrl": "/images/packshots/8908940001632.webp",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lebanese Falafel)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:15.023Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1178368,7 +1178496,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528b62b129f01ab85d26",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523c62b129f01ab85c89",
@@ -1178399,9 +1178528,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20028b_6a1440e87b5655a269005123_6a11b4b845457fc67cac9830_MZ3_0784.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000116.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lebanese-pita-pockets)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lebanese Pita Pockets)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:56.263Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1178669,7 +1178798,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523c62b129f01ab85c89",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526c62b129f01ab85cea",
@@ -1178698,9 +1178828,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffd3e_6a1041c3307229851608c226_6a0eeb6329842e1ac99439c4_N-71.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001045.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lemon-iced-tea)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lemon Iced Tea)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:44.255Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1178933,7 +1179063,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526c62b129f01ab85cea",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524e62b129f01ab85cb7",
@@ -1178963,9 +1179094,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200406_6a1441a95d90e1d848037bfc_6a1180f525255052623ba717_Nc-19.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000505.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lime-and-chilli-peanuts-baked)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lime &amp; Chilli Peanuts)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:14.953Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1179223,7 +1179354,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524e62b129f01ab85cb7",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524762b129f01ab85ca8",
@@ -1179252,9 +1179384,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20037f_6a144169ea8ab698d04f18bc_6a0d91938d25adba729877e3_PD-26(1).jpeg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000406.jpg",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lime-and-chilli-potato-chips)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lime &amp; Chilli Potato Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:07.030Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1179430,7 +1179562,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524762b129f01ab85ca8",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526462b129f01ab85ce7",
@@ -1179459,9 +1179592,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffd52_6a1041c63e2f42fe13e92702_6a0ee9c1ea3445591c230212_Ds-7.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001014.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (lime-kombucha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Lime Kombucha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:36.267Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1179656,7 +1179789,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526462b129f01ab85ce7",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527162b129f01ab85ced",
@@ -1179685,9 +1179819,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4023ab329530890fda8a_6a5b138085ae6471da20005a_Liquid%2520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001069.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (liquid-decoction-madras-filter-coffee-coffee-80-chicory-20)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Liquid Decoction Madras Filter Coffee | Coffee 80%, Chicory 20%)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:49.136Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1179750,7 +1179884,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527162b129f01ab85ced",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525062b129f01ab85cbb",
@@ -1179781,9 +1179916,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004a7_6a1441fe8c5243403ed75c3c_6a1188a13f1eedce22cadd8b_MZ8_5139.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000581.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (homestyle-madras-mixture-with-peanuts)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Homestyle Madras Mixture with Peanuts)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:16.940Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1180193,7 +1180328,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525062b129f01ab85cbb",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527c62b129f01ab85cff",
@@ -1180225,9 +1180361,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffffe_6a10420eba6c9396b08e0d2b_6a0eb06118a6eab7469a490a_Nn-32.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001229.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (malai-kulfi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Malai Kulfi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:00.079Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1180556,7 +1180692,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527c62b129f01ab85cff",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526c62b129f01ab85ceb",
@@ -1180585,9 +1180722,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffd79_6a1041c82071e9deee40a2f2_6a0eea9806a671e393193eaa_Ds-11.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001038.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (mango-kombucha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Mango Kombucha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:44.312Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1180820,7 +1180957,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526c62b129f01ab85ceb",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528262b129f01ab85d0f",
@@ -1180848,9 +1180986,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200345_6a1441488c5243403ed71eb9_6a1199c74a11df5a0a4f0712_Nc-3.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001441.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (marwari-mango-achar)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Marwari Mango Achar)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:06.192Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1181178,7 +1181316,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528262b129f01ab85d0f",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526362b129f01ab85ce6",
@@ -1181207,9 +1181346,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20015b_6a14404e95841d5d642d6e92_6a10056c0bf41f852669882a_N_oct-15.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000994.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (masala-lemonade)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Masala Lemonade (Sweet &amp; Salty))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:35.150Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1181573,7 +1181712,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526362b129f01ab85ce6",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524c62b129f01ab85cb1",
@@ -1181604,9 +1181744,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4044eeab26f5a2d866c6_6a5b138085ae6471da20003a_MZ8_4979.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000482.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (masala-peanut-with-curry-leaves-no-palm-oil-namkeen-snacks)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Masala Peanut with Curry Leaves)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:12.062Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1181940,7 +1182080,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524c62b129f01ab85cb1",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525562b129f01ab85cc7",
@@ -1181970,9 +1182111,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200409_6a1441aae20c52e852fbae04_6a118143ace0e68e14ec581f_MVP_6911.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000697.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (homestyle-methi-mathri)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Homestyle Methi Mathri)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:21.411Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1182310,7 +1182451,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525562b129f01ab85cc7",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524b62b129f01ab85caf",
@@ -1182335,12 +1182477,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Stone Ground Non-GMO Corn",
       "Gluten Free"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003d1_6a1441915fbe6dae426c31e5_6a10361b890d0f3ed50c566b_N_oct-33.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004c9_6a144219b5c430303e095fe5_6a0da04d8b06cf8042a677d9_N-38.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000437.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ghee-roasted-makhana-salt-pepper)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Mexican Nachos Tortilla Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:11.138Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1182516,7 +1182658,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524b62b129f01ab85caf",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527062b129f01ab85cec",
@@ -1182547,9 +1182690,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fff34_6a1041f0f181c9f00d3d2490_6a0ef8c71bbf0f1ec723d3b7_MZ8_5424.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001083.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (kaju-katli)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Milk Cake Made With Desi Ghee)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:48.090Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1182828,7 +1182971,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527062b129f01ab85cec",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527962b129f01ab85cf7",
@@ -1182856,12 +1183000,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Palm Oil or Vegetable Fats",
       "Single Origin Cocoa"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005a1_6a465804ebf1718368522d31_MZ8_2755.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000fe_6a1440212907a61050574066_6a0da2a95c2a3f45d0c301d2_MZ8_9692.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001168.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (milk-chocolate)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (NOICE Milk Chocolate (Pure Cocoa Butter))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:57.100Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1183169,7 +1183313,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527962b129f01ab85cf7",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525362b129f01ab85cc0",
@@ -1183201,9 +1183346,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200501_6a144239b90470036fed8a7b_6a118c1e19cc8b97ac416ad3_MZ8_4996.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000628.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (millet-murukku)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Millet Murukku)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:19.251Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1183503,7 +1183648,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525362b129f01ab85cc0",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525362b129f01ab85cc1",
@@ -1183535,9 +1183681,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200511_6a144242b0fb9d293b06cbfe_6a118cbfb0f6cbf00909b2d0_MZ8_5129%252520copy.jpeg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000642.jpg",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (millet-nippatu)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Millet Nippatu)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:19.580Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1183913,7 +1184059,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525362b129f01ab85cc1",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528862b129f01ab85d22",
@@ -1183942,12 +1184089,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Anardana Spiced",
       "Vegetarian Favorite"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002fe_6a1441256329a47b6fb9d181_6a118f5b23ae063122b8d367_MZ3_2079.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002d5_6a14411151fa328128e8c5c2_6a11a496d2ea2cb28a37967e_Nx-38.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001618.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chicken-zinger-burger-patty)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Mini Punjabi Samosa | Ready To Cook)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:12.699Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1184095,7 +1184242,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528862b129f01ab85d22",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527e62b129f01ab85d06",
@@ -1184123,9 +1184271,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200524_6a14424a857b0d0b6cf13701_6a0ff54db8976ebcfb75d4e6_Nc-95.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001274.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (apple-pineapple-jam)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Apple Pineapple Jam (80% fruit))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:02.555Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1184358,7 +1184506,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527e62b129f01ab85d06",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527362b129f01ab85cf0",
@@ -1184384,12 +1184533,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Kashmiri Saffron",
       "Tiny Motichoor Pearls"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1fff06_6a1041e9555024e9cd40cd5a_6a0ef6c35850fa07b454f520_Nd-14.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200006_6a104213e22ce3f1b3da11d1_6a0ff2e412f8e10662bdb20a_MZ8_5322.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001106.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (besan-laddu)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Motichoor Laddoo Fresh &amp; Made With Desi Ghee (4 Pieces))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:51.506Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1184698,7 +1184847,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527362b129f01ab85cf0",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523d62b129f01ab85c8b",
@@ -1184730,9 +1184880,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200274_6a1440dccb82a2ae97217c54_6a11b3d8d2ea2cb28a3a4fc3_N-43.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000086.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (multigrain-sourdough-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Multigrain Sourdough Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:57.138Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1185046,7 +1185196,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523d62b129f01ab85c8b",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525f62b129f01ab85cdb",
@@ -1185075,9 +1185226,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200183_6a144061857b0d0b6cf0ab5f_6a11a890ed206a190cdcb8f0_4dd0881a-1d3b-4ceb-8845-033a77c5463c_0U7VPJH9AS_3.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000901.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (natural-coconut-water)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Natural Coconut Water)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:31.203Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1185198,7 +1185349,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525f62b129f01ab85cdb",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524f62b129f01ab85cb9",
@@ -1185229,9 +1185381,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003ab_6a14417ea8442768169fb649_6a1035950b2edf455f0c8366_MVP_8284.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000604.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (navratan-mix)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Navratan Mix)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:15.849Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1185647,7 +1185799,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524f62b129f01ab85cb9",
-    "primary_category_id": "cat_ready_to_cook_mixes"
+    "primary_category_id": "cat_ready_to_cook_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524162b129f01ab85c95",
@@ -1185676,12 +1185829,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Sweetened with Jaggery",
       "High Fiber"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b0_6a143ff4cb82a2ae972138c5_6a0db4e0707a38249a25a166_MZ8_4908.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000b5_6a143ff8857b0d0b6cf0845a_6a0db566cdc90ad4bac03b3d_Nc-35.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000215.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (atta-jaggery-ghee-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Oat &amp; Chocochip Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:01.550Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1186035,7 +1186188,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524162b129f01ab85c95",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524162b129f01ab85c97",
@@ -1186064,12 +1186218,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Plump Raisins",
       "No Preservatives"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f9_6a14401b5d90e1d84802d699_6a0e9ae647684cfb0f803167_NC-14.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000da_6a14400c94893b3490334134_6a0e9a22f0c9fc2234af178f_NC-6.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000222.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chewy-new-york-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Oat &amp; Raisin Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:01.651Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1186453,7 +1186607,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524162b129f01ab85c97",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527162b129f01ab85cee",
@@ -1186481,9 +1186636,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffdb0_6a1041cb459be40714bbdabe_6a0eebddecf8ecd93d289e2c_N-66.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001052.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (peach-iced-tea)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Peach Iced Tea)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:49.595Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1186716,7 +1186871,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527162b129f01ab85cee",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526262b129f01ab85ce5",
@@ -1186745,9 +1186901,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da1ffdc6_6a1041ccc3df85a8513a27ff_6a0eed6db08ad1ac07f97952_MVP_4818.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001021.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (peach-kombucha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Peach Kombucha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:34.950Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1186980,7 +1187136,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526262b129f01ab85ce5",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528162b129f01ab85d0c",
@@ -1187011,9 +1187168,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001e3_6a14408d41eb368ab3cfe544_6a10179ed6130fe41457c7f8_Hw-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001380.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-peanut-chutney)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Peanut Chutney)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:05.357Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1187385,7 +1187542,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528162b129f01ab85d0c",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524762b129f01ab85caa",
@@ -1187411,12 +1187569,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Yellow Moong Dal",
       "Popped Not Fried"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20042a_6a1441bb79d6068092aa0030_6a11826ad6d952f141edfae6_Nx-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20039a_6a1441781ee2a9648dbb4591_6a0d938b0c75334a694ef80a_N-53.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000420.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (classic-moong-bhujia)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Peri Peri Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:07.150Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1187633,7 +1187791,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic commercial retail packaging packshot",
     "id": "6b02524762b129f01ab85caa",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525f62b129f01ab85cdd",
@@ -1187662,9 +1187821,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200160_6a144050f73710a38673ac35_6a1005ba13fbc5b7bd81dba8_MVP_4709.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000949.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (pineapple-juice)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Pineapple Juice)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:31.957Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1187747,7 +1187906,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525f62b129f01ab85cdd",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526262b129f01ab85ce4",
@@ -1187776,9 +1187936,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4037a21f789972ded886_6a5b138085ae6471da20004c_MVP_4816.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001007.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (pineapple-kombucha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Pineapple Kombucha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:34.561Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1187973,7 +1188133,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526262b129f01ab85ce4",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c07fa484067902453d0",
@@ -1188002,9 +1188163,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200421_6a1552f9b81719097620e8ce_chips11.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002625.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (salted-potato-wafers-100g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Salted Potato Wafers)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:11.731Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)"
     ],
@@ -1188210,7 +1188371,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c07fa484067902453d0",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c02fa484067902453cd",
@@ -1188236,12 +1188398,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Fresh Daily Batches",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200383_6a14416b94893b349033bca8_6a10331356176f2978175a87_Copy%252520(4).webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200421_6a1552f9b81719097620e8ce_chips11.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002632.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (gujarati-jeera-khakhra)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Salted Potato Wafers)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:06.551Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Palm Oil (High Palmitic Sat Fat & Deforestation Risk)"
     ],
@@ -1188447,7 +1188609,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c02fa484067902453cd",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524362b129f01ab85c9e",
@@ -1188476,12 +1188639,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Jaggery Sweetened",
       "High Fiber"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000a4_6a143fef5fbe6dae426bba3e_6a0dafd976ae9fe0d6bfa46c_Nc-33.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000be_6a143ffc8e2f52611ab57318_6a0db6417b4c0d370f9a8fe0_Nc-38.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000284.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (handmade-coconut-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Premium Millet Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:03.379Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1188793,7 +1188956,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524362b129f01ab85c9e",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525b62b129f01ab85cd2",
@@ -1188821,12 +1188985,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Fat Free",
       "Zero Added Sugar"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b40344e6387abc0f1f8f3_6a5b138085ae6471da200048_Copy.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b43645e19b9c9b9b66bb2_6a5b138085ae6471da200633_product.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000802.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-malai-paneer)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (High Protein Paneer (50g Protein Per Pack))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:27.665Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1189014,7 +1189178,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525b62b129f01ab85cd2",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525662b129f01ab85cc8",
@@ -1189045,9 +1189210,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200397_6a1441755d90e1d848036f2d_6a103555861753682c109846_N-26.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000673.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (bhakarwadi-pune-special)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Bhakarwadi Pune special)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:22.227Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1189307,7 +1189472,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525662b129f01ab85cc8",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523f62b129f01ab85c90",
@@ -1189340,9 +1189506,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200278_6a1440df6329a47b6fb9ac39_6a11b40a6d8984fcaab4e7ff_MZ3_0767.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000161.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (punjabi-garlic-kulcha)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Punjabi Garlic Kulcha)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:59.151Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1189728,7 +1189894,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523f62b129f01ab85c90",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528262b129f01ab85d11",
@@ -1189757,9 +1189924,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200351_6a144151bef9d6462f04326a_6a119a643852dedd1adb3b55_Nc-18%252520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001434.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (punjabi-mango-achar)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Punjabi Mango Achar)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:06.397Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1190125,7 +1190292,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528262b129f01ab85d11",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528a62b129f01ab85d25",
@@ -1190154,9 +1190322,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2002dc_6a1441151c6b9c55f68e6255_6a11a509bb838252f0e38da8_MZ3_2075.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001649.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (quinoa-bean-patty)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Quinoa Bean Patty | Ready To Cook)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:14.197Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1190522,7 +1190690,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528a62b129f01ab85d25",
-    "primary_category_id": "cat_ready_to_eat_meals_instant_foods"
+    "primary_category_id": "cat_ready_to_eat_meals_instant_foods",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524362b129f01ab85c9c",
@@ -1190550,12 +1190719,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Zero Refined Sugar",
       "Sprouted Ragi"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200579_6a15742c7a879207a8a910b0_6a15717407aa3c59a8ade958_NC-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000ca_6a14400555b77c9976c66423_6a0ead88481cddabaf499504_MZ8_4922.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000291.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (handmade-fruit-biscuits)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ragi Amaranth Gluten Free Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:03.320Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1190853,7 +1191022,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524362b129f01ab85c9c",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524862b129f01ab85cac",
@@ -1190879,12 +1191049,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "High Calcium Ragi",
       "Chaat Masala"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003af_6a144181021be9af19169558_6a0d950f8dc9c51833c97e5e_Spicy.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2004dc_6a144222f0d73af170a523e3_6a0da0a70486374e9dc34bca_N-40%252520(1).webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000413.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (spicy-potato-wafers-100g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ragi Crackle Chips (Masala))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:08.336Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1191099,7 +1191269,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic commercial retail packaging packshot",
     "id": "6b02524862b129f01ab85cac",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524e62b129f01ab85cb6",
@@ -1191128,9 +1191299,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200497_6a1441f79b0ef6fc21bf8e16_6a1187a0d0f7f030976476da_Rajasthani.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000529.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (rajasthani-bhujia-sev)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Rajasthani Bhujia Sev)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:14.279Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1191458,7 +1191629,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524e62b129f01ab85cb6",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524262b129f01ab85c99",
@@ -1191487,12 +1191659,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Shortbread Texture",
       "Zero Artificial Flavor"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000f4_6a14401ab1448ab2abe907d7_6a0e9a92afeeb7746fbc0d4a_NC-8.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000c4_6a143fff68accc623cb71d95_6a0db69cf7c1cd9935338d6f_Nc-32.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000239.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (chocochip-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Rich Butter Cookies)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:02.306Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1191816,7 +1191988,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524262b129f01ab85c99",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524662b129f01ab85ca7",
@@ -1191842,12 +1192015,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Naturally Sweet Ripe Nendran",
       "No Added Sugar"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b403f02c43c54c2059349_6a5b138085ae6471da200041_Nc-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200373_6a144166bfb3328da7085600_6a0d8ecfbb7608d6f5b88e45_MZ8_5245.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000376.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (sweet-salty-biscuits)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ripe Nendran Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:06.740Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1192023,7 +1192196,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524662b129f01ab85ca7",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527b62b129f01ab85cfc",
@@ -1192055,9 +1192229,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b4032f2a877cc85db8c76_6a5b138085ae6471da20006c_qw.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001212.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (rose-gulkand-slow-churned-ice-cream)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Rose Gulkand Slow Churned Ice Cream)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:59.032Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1192380,7 +1192554,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527b62b129f01ab85cfc",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524c62b129f01ab85cb2",
@@ -1192406,12 +1192581,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Tellicherry Pepper",
       "Zero Refined Oil"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003f1_6a1441a0a8442768169fbe9b_6a117fd31188d2e2ab928f8b_Nc-2.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003d1_6a1441915fbe6dae426c31e5_6a10361b890d0f3ed50c566b_N_oct-33.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000451.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (special-masala-roasted-makhana)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Ghee Roasted Makhana (Salt &amp; Pepper))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:12.659Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1192626,7 +1192801,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic commercial retail packaging packshot",
     "id": "6b02524c62b129f01ab85cb2",
-    "primary_category_id": "cat_makhana_roasted_snacks"
+    "primary_category_id": "cat_makhana_roasted_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02527962b129f01ab85cf9",
@@ -1192657,9 +1192833,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a6b402ff2a877cc85db87d8_6a5b138085ae6471da200068_SCg.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001182.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (salted-caramel-gelato)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Salted Caramel Gelato)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:57.437Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1192995,7 +1193171,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02527962b129f01ab85cf9",
-    "primary_category_id": "cat_ice_cream_frozen_desserts"
+    "primary_category_id": "cat_ice_cream_frozen_desserts",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524762b129f01ab85cab",
@@ -1193024,9 +1193201,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003a1_6a14417a554b6efa5aabb361_6a0d946755e31040333a5a71_MZ8_5040.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000390.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (salted-tapioca-chips)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Salted Tapioca Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:07.253Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1193202,7 +1193379,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524762b129f01ab85cab",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523e62b129f01ab85c8d",
@@ -1193233,9 +1193411,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20026b_6a1440d891ad6eaec84e698b_6a11b39cf97a318069b0d32a_MZ3_1146.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000123.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (sliced-brioche-burger-buns)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Sliced Brioche Burger Buns)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:58.171Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1193617,7 +1193795,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523e62b129f01ab85c8d",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525b62b129f01ab85cd3",
@@ -1193648,9 +1193827,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005c8_6a47a113db152bfa3829e76e_MZ8_5327.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000826.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (slowly-aged-cheddar-cheese-block-100g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Slowly Aged Cheddar Cheese Block)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:27.676Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1193874,7 +1194053,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525b62b129f01ab85cd3",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523d62b129f01ab85c8c",
@@ -1193905,9 +1194085,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20023d_6a1440beb34b6dbfc7abcb58_6a11b22725255052624469b9_MZ3_0775.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000109.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (sourdough-pizza-base)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Sourdough Pizza Base)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:57.335Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1194175,7 +1194355,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523d62b129f01ab85c8c",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528662b129f01ab85d1b",
@@ -1194206,9 +1194387,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200355_6a14415660a96baf729a7aaa_6a119ee1772c7e9a2a00208e_Nc-79.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001526.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (idli-karam-podi)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Idli Karam Podi)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:10.998Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1194502,7 +1194683,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528662b129f01ab85d1b",
-    "primary_category_id": "cat_sauces_condiments_seasonings"
+    "primary_category_id": "cat_sauces_condiments_seasonings",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524962b129f01ab85cae",
@@ -1194531,9 +1194713,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003f1_6a1441a0a8442768169fbe9b_6a117fd31188d2e2ab928f8b_Nc-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000468.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (ragi-crisps-masala)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Special Masala Roasted Makhana)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:09.561Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1194710,7 +1194892,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verifiedBy": "FoodDecode Research Team",
     "imageVerificationNotes": "Verified authentic commercial retail packaging packshot",
     "id": "6b02524962b129f01ab85cae",
-    "primary_category_id": "cat_makhana_roasted_snacks"
+    "primary_category_id": "cat_makhana_roasted_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524d62b129f01ab85cb3",
@@ -1194739,9 +1194922,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003fc_6a1441a5167af51f176a9814_6a11804c6d8984fcaaab48a6_MVP_6884.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000536.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (spiced-aloo-bhujia)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Spiced Aloo Bhujia (Rajasthan Style))",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:13.354Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1195107,7 +1195290,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524d62b129f01ab85cb3",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524762b129f01ab85ca9",
@@ -1195136,9 +1195320,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200414_6a1441b1ea8ab698d04f3690_6a0d9aa15ab25d0f1bc298a1_N-6.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000383.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (spicy-masala-long-banana-chips)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Spicy Masala Long Banana Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:07.060Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1195314,7 +1195498,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524762b129f01ab85ca9",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b023c02fa484067902453ce",
@@ -1195343,9 +1195528,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2003c2_6a14418a444598daedc58f37_6a0d969389d05c0b79fa5064_MVP_1478.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930002618.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (spicy-tapioca-chips)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Spicy Tapioca Chips)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T00:49:06.879Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1195597,7 +1195782,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b023c02fa484067902453ce",
-    "primary_category_id": "cat_chips_namkeen_savoury_snacks"
+    "primary_category_id": "cat_chips_namkeen_savoury_snacks",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525e62b129f01ab85cd8",
@@ -1195628,9 +1195814,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20020a_6a1440a29b0ef6fc21bf026e_6a0ff9d05fbd6ec6e99046ba_Atta.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000871.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (whole-wheat-chakki-atta-1kg)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Freshly Ground Chakki Atta)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:30.540Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1195723,7 +1195909,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525e62b129f01ab85cd8",
-    "primary_category_id": "cat_rice_grains_pulses_flours"
+    "primary_category_id": "cat_rice_grains_pulses_flours",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02526062b129f01ab85cde",
@@ -1195749,12 +1195936,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "No Heat Processing",
       "Fresh Ginger & Lime"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200154_6a14404c388a70a698ff0bc2_6a0ff7b30fe4bfc44d838ff3_MVP_4721.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200197_6a144069f4f9c275ae8f6313_6a1006b6f3c998a37246c57f_N_oct-31.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000918.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (sugarcane-juice)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Guava Chilli Cold-pressed Juice)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:32.460Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1195949,7 +1196136,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02526062b129f01ab85cde",
-    "primary_category_id": "cat_beverages_drink_mixes"
+    "primary_category_id": "cat_beverages_drink_mixes",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02524562b129f01ab85ca2",
@@ -1195977,12 +1196165,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Sweet & Salty Crunch",
       "No Trans Fat"
     ],
-    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2000be_6a143ffc8e2f52611ab57318_6a0db6417b4c0d370f9a8fe0_Nc-38.webp",
+    "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da20009b_6a143febe54b6ebc48ab57af_6a0ead1cd95db659c9d4fe88_Nc-2.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000345.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (premium-millet-cookies)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Sweet &amp; Salty Biscuits)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:05.104Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1196344,7 +1196532,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02524562b129f01ab85ca2",
-    "primary_category_id": "cat_biscuits_cookies_crackers"
+    "primary_category_id": "cat_biscuits_cookies_crackers",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02528162b129f01ab85d0d",
@@ -1196375,9 +1196564,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2001c5_6a144081101e2460a79bf2ac_6a1017e72d940f979104ef84_Hw-4.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940001397.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-tomato-chutney)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Tomato Chutney)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:25:05.956Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1196709,7 +1196898,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02528162b129f01ab85d0d",
-    "primary_category_id": "cat_nut_butters_spreads_dips"
+    "primary_category_id": "cat_nut_butters_spreads_dips",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02525a62b129f01ab85ccf",
@@ -1196740,9 +1196930,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da2005db_6a47a19ae67e8c2f194da03a_MZ8_6293.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000789.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (fresh-creamy-curd-350g)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Fresh Creamy Curd)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:24:26.099Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [],
     "ingredientsList": [
       {
@@ -1196871,7 +1197061,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02525a62b129f01ab85ccf",
-    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives"
+    "primary_category_id": "cat_dairy_yogurt_dairy_alternatives",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6b02523a62b129f01ab85c86",
@@ -1196903,9 +1197094,9 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageSourceUrl": "https://cdn.prod.website-files.com/6a5b138085ae6471da1ffa4c/6a5b138085ae6471da200233_6a1440ba021be9af19164650_6a11b1bd2f8a632aeffcbdf6_Triangle.webp",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908940000062.webp",
-    "imageVerificationNote": "Official NOICE packshot from noice.in (triangle-bread)",
+    "imageVerificationNote": "Verified authentic NOICE product packshot photograph (Triangle Bread)",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T02:23:54.152Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.988Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1197303,7 +1197494,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "verified": true,
     "verifiedBy": "FoodDecode Research Team",
     "id": "6b02523a62b129f01ab85c86",
-    "primary_category_id": "cat_bakery_breads"
+    "primary_category_id": "cat_bakery_breads",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6ad9b7aa7da04dbe409210e6",
@@ -1334730,11 +1334922,11 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "flavour": "Milk Chocolate Crisp",
     "packageSize": "35 g",
     "servingSize": "35 g",
-    "imageUrl": "/images/packshots/8908010000572.webp",
-    "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0563/1891/8790/files/Frame_2087330044.webp",
+    "imageUrl": "/images/packshots/8908010000572.jpg",
+    "imageSourceUrl": "https://m.media-amazon.com/images/I/71ZYvmBJYLL._SL1500_.jpg",
     "imageStatus": "VERIFIED",
-    "imageVerifiedAt": "2026-11-11T06:05:07.619Z",
-    "imageVerificationNote": "Verified authentic commercial packaging photograph",
+    "imageVerifiedAt": "2026-11-24T02:23:42.989Z",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Phab High Protein Chocolate Bar",
     "source": "manual",
     "sourceUrl": "https://www.fooddecode.org/products/chocolates",
     "ingredientsText": "Milk Protein Blend, Milk Chocolate Coating (30%) (Cocoa Butter, Sugar, Milk Solids, Cocoa Solids), FOS Fiber, Cocoa Butter, Almond Crunch.",
@@ -1335051,7 +1335243,8 @@ export const SEED_PRODUCTS: ProductItem[] = [
     "imageVerified": true,
     "id": "6af326d08e4a3c1168198b36",
     "mainCategory": "Chocolates, Candy & Sweets",
-    "primary_category_id": "cat_chocolates_candy_sweets"
+    "primary_category_id": "cat_chocolates_candy_sweets",
+    "verificationStatus": "FULLY_VERIFIED"
   },
   {
     "_id": "6af2de41f6ca865c53659896",
@@ -1377438,12 +1377631,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Desi Ghee",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://cdn.grofers.com/app/images/products/sliding_image/374910a.jpg?ts=1687615976",
+    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/95503921-6ceb-416f-abd1-1ca0ded901b3.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001147.jpg",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Prabhuji Prabhuji Gulab Jamun Tin packaging packshot)",
+    "imageUrl": "/images/packshots/8908930001147.webp",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Prabhuji Gulab Jamun Tin",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.755Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.989Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1378381,12 +1378574,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Desi Ghee",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://rukminim1.flixcart.com/image/832/832/kj36ky80-0/sweet-mithai/d/g/y/500-kaju-barfi-500g-box-soan-papdi-prabhuji-pure-food-original-imafypt85mykm4bb.jpeg?q=70",
+    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/bundles/38d0138a-5752-4b09-9e75-44749bccd841.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001154.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Prabhuji Prabhuji Kaju Katli packaging packshot)",
+    "imageUrl": "/images/packshots/8908930001154.jpg",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Prabhuji Kaju Katli",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.755Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.989Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1381815,12 +1382008,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Desi Ghee",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://www.bbassets.com/media/uploads/p/l/40051125_4-prabhuji-pure-food-soan-papdi-with-ghee.jpg",
+    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/be38bbe1-99ef-43bb-914e-366899476ae4.jpg",
     "imageStatus": "VERIFIED",
     "imageUrl": "/images/packshots/8908930001123.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Prabhuji Prabhuji Pure Desi Ghee Soan Papdi packaging packshot)",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Prabhuji Pure Desi Ghee Soan Papdi",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.755Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.989Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
@@ -1382912,12 +1383105,12 @@ export const SEED_PRODUCTS: ProductItem[] = [
       "Traditional Spices",
       "Vegetarian"
     ],
-    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/e2f73395-60a1-4d86-906d-d65931009f8a.jpg",
+    "imageSourceUrl": "https://cdn.grofers.com/da/cms-assets/cms/product/3dbb6d8c-e611-4e95-a9a0-bbee538b4d51.jpg",
     "imageStatus": "VERIFIED",
-    "imageUrl": "/images/packshots/8908930001130.webp",
-    "imageVerificationNote": "Verified authentic retail packaging photograph via Verified Retail Search (Prabhuji Prabhuji Spongy Rasgulla Tin packaging packshot)",
+    "imageUrl": "/images/packshots/8908930001130.jpg",
+    "imageVerificationNote": "Verified authentic retail packaging packshot of Prabhuji Spongy Rasgulla Tin",
     "imageVerified": true,
-    "imageVerifiedAt": "2026-11-22T17:46:00.755Z",
+    "imageVerifiedAt": "2026-11-24T02:23:42.989Z",
     "ingredientAlerts": [
       "Contains Added Caloric Sugars / Syrups"
     ],
