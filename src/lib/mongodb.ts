@@ -196,6 +196,17 @@ export async function ensureIndexes(db: Db): Promise<void> {
     await feedbackAudit.createIndex({ feedbackId: 1 });
     await feedbackAudit.createIndex({ timestamp: -1 });
 
+    // Community Comments Indexes
+    const comments = db.collection("product_comments");
+    await comments.createIndex({ productId: 1, status: 1, createdAt: -1 });
+    await comments.createIndex({ productId: 1, createdAt: -1 });
+    await comments.createIndex({ userId: 1, createdAt: -1 });
+    await comments.createIndex({ status: 1 });
+
+    const commentAudit = db.collection("product_comment_audit");
+    await commentAudit.createIndex({ commentId: 1, timestamp: -1 });
+    await commentAudit.createIndex({ productId: 1, timestamp: -1 });
+
     // Authentication: Users & Sessions Indexes
     const users = db.collection("users");
     await users.createIndex({ googleId: 1 }, { unique: true, sparse: true });

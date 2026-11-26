@@ -9,6 +9,7 @@ interface GoogleAuthModalProps {
   onClose: () => void;
   onSuccess: (user: any) => void;
   returnUrl?: string;
+  customMessage?: string;
 }
 
 export function GoogleAuthModal({
@@ -16,6 +17,7 @@ export function GoogleAuthModal({
   onClose,
   onSuccess,
   returnUrl = "/",
+  customMessage,
 }: GoogleAuthModalProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -92,7 +94,7 @@ export function GoogleAuthModal({
             Join FoodDecode
           </h2>
           <p className="text-xs text-stone-500 dark:text-stone-400 max-w-sm mx-auto leading-relaxed">
-            Help us improve the accuracy of food product information. Sign in with Google to share your feedback.
+            {customMessage || "Help us improve the accuracy of food product information. Sign in with Google to share your feedback."}
           </p>
         </div>
 

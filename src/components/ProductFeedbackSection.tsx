@@ -15,6 +15,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
 import { FeedbackVote, ProductReviewStatus } from "@/types";
+import { ProductCommentsSection } from "./ProductCommentsSection";
 
 interface ProductFeedbackSectionProps {
   productId: string;
@@ -330,6 +331,9 @@ export function ProductFeedbackSection({
           </span>
         </div>
       )}
+
+      {/* Optional Community Comments & Reviews System */}
+      <ProductCommentsSection productId={productId} productName={productName} />
     </section>
   );
 }

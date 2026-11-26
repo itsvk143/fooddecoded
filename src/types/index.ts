@@ -427,4 +427,50 @@ export interface ProductFeedbackSummary {
   reviewStatus?: ProductReviewStatus;
 }
 
+// --- Community Comments System ---
+export type ProductCommentStatus = "PENDING" | "APPROVED" | "REJECTED" | "FLAGGED";
+
+export interface ProductCommentRecord {
+  _id?: any;
+  productId: string;
+  userId: string;
+  userName: string;
+  userEmail?: string;
+  userAvatar?: string;
+  comment: string;
+  status: ProductCommentStatus;
+  createdAt: string | Date;
+  updatedAt: string | Date;
+  moderatedAt?: string | Date;
+  moderatedBy?: string;
+  moderationReason?: string;
+}
+
+export type CommentAuditAction =
+  | "CREATE"
+  | "UPDATE"
+  | "DELETE"
+  | "APPROVE"
+  | "REJECT"
+  | "FLAG"
+  | "BULK_APPROVE"
+  | "BULK_REJECT"
+  | "BULK_DELETE";
+
+export interface ProductCommentAuditRecord {
+  _id?: any;
+  commentId: string;
+  productId: string;
+  performedBy: string;
+  role: "USER" | "ADMIN";
+  action: CommentAuditAction;
+  previousContent?: string;
+  newContent?: string;
+  previousStatus?: ProductCommentStatus;
+  newStatus?: ProductCommentStatus;
+  reason?: string;
+  timestamp: string | Date;
+}
+
+
 

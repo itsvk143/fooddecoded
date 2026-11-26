@@ -21,9 +21,13 @@ import {
   HelpCircle,
   Clock,
   ListFilter,
+  Check,
+  X,
+  Flag,
+  Edit2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { ProductReviewStatus, FeedbackVote } from "@/types";
+import { ProductReviewStatus, FeedbackVote, ProductCommentStatus } from "@/types";
 
 interface ProductFeedbackManagementProps {
   adminKey: string;
@@ -69,7 +73,7 @@ export function ProductFeedbackManagement({
   onNotify,
 }: ProductFeedbackManagementProps) {
   // Navigation sub-tab
-  const [subTab, setSubTab] = useState<"products" | "records">("products");
+  const [subTab, setSubTab] = useState<"products" | "records" | "comments">("products");
 
   // Stats state
   const [stats, setStats] = useState<FeedbackStats>({
@@ -103,6 +107,29 @@ export function ProductFeedbackManagement({
 
   // Bulk Selection
   const [selectedRecordIds, setSelectedRecordIds] = useState<string[]>([]);
+
+  // Comments State
+  const [adminComments, setAdminComments] = useState<any[]>([]);
+  const [commentStats, setCommentStats] = useState({
+    total: 0,
+    pendingCount: 0,
+    approvedCount: 0,
+    rejectedCount: 0,
+    flaggedCount: 0,
+  });
+  const [commentStatusFilter, setCommentStatusFilter] = useState<string>("ALL");
+  const [commentSearch, setCommentSearch] = useState("");
+  const [commentPage, setCommentPage] = useState(1);
+  const [commentTotalPages, setCommentTotalPages] = useState(1);
+  const [commentTotalCount, setCommentTotalCount] = useState(0);
+  const [selectedCommentIds, setSelectedCommentIds] = useState<string[]>([]);
+
+  // Modals for comments
+  const [editingComment, setEditingComment] = useState<any | null>(null);
+  const [editCommentText, setEditCommentText] = useState("");
+  const [activeDeleteCommentId, setActiveDeleteCommentId] = useState<string | null>(null);
+  const [isBulkCommentModalOpen, setIsBulkCommentModalOpen] = useState(false);
+  const [bulkCommentAction, setBulkCommentAction] = useState<"APPROVE" | "REJECT" | "FLAG" | "DELETE">("APPROVE");
 
   // Action Modals & Dialogs
   const [activeDeleteId, setActiveDeleteId] = useState<string | null>(null);
@@ -336,6 +363,159 @@ export function ProductFeedbackManagement({
     );
   });
 
+  // Load Admin Comments
+  const fetchComments = useCallback(async () => {
+    try {
+      const params = new URLSearchParams();
+      if (commentStatusFilter && commentStatusFilter !== "ALL") {
+        params.set("status", commentStatusFilter);
+      }
+      if (commentSearch.trim()) {
+        params.set("search", commentSearch.trim());
+      }
+      params.set("page", String(commentPage));
+      params.set("limit", "25");
+
+      const res = await fetch(`/api/admin/comments?${params.toString()}`, {
+        headers: getHeaders(),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setAdminComments(data.comments || []);
+        if (data.stats) {
+          setCommentStats(data.stats);
+        }
+        if (data.pagination) {
+          setCommentTotalPages(data.pagination.totalPages || 1);
+          setCommentTotalCount(data.pagination.totalCount || 0);
+        }
+      }
+    } catch (e: any) {
+      console.warn("Error fetching admin comments:", e);
+    }
+  }, [getHeaders, commentStatusFilter, commentSearch, commentPage]);
+
+  useEffect(() => {
+    if (subTab === "comments") {
+      fetchComments();
+    }
+  }, [subTab, fetchComments]);
+
+  // Moderate comment (Approve, Reject, Flag)
+  const handleModerateComment = async (
+    id: string,
+    newStatus: ProductCommentStatus,
+    reason = "Administrative review"
+  ) => {
+    setActionProcessing(true);
+    try {
+      const res = await fetch(`/api/admin/comments/${id}`, {
+        method: "PATCH",
+        headers: getHeaders(),
+        body: JSON.stringify({ status: newStatus, reason }),
+      });
+      if (res.ok) {
+        onNotify?.(`Comment status changed to ${newStatus}`);
+        fetchComments();
+      } else {
+        const err = await res.json();
+        alert(err.error || "Failed to moderate comment");
+      }
+    } catch (e: any) {
+      alert(e.message || "Error moderating comment");
+    } finally {
+      setActionProcessing(false);
+    }
+  };
+
+  // Edit comment content
+  const handleSaveAdminCommentEdit = async () => {
+    if (!editingComment) return;
+    setActionProcessing(true);
+    try {
+      const res = await fetch(`/api/admin/comments/${editingComment._id}`, {
+        method: "PATCH",
+        headers: getHeaders(),
+        body: JSON.stringify({
+          comment: editCommentText,
+          reason: actionReason || "Administrative text edit",
+        }),
+      });
+      if (res.ok) {
+        onNotify?.("Comment updated successfully and logged to audit trail.");
+        setEditingComment(null);
+        setEditCommentText("");
+        setActionReason("");
+        fetchComments();
+      } else {
+        const err = await res.json();
+        alert(err.error || "Failed to update comment");
+      }
+    } catch (e: any) {
+      alert(e.message || "Error updating comment");
+    } finally {
+      setActionProcessing(false);
+    }
+  };
+
+  // Delete comment
+  const handleDeleteAdminComment = async (id: string) => {
+    setActionProcessing(true);
+    try {
+      const res = await fetch(`/api/admin/comments/${id}`, {
+        method: "DELETE",
+        headers: getHeaders(),
+        body: JSON.stringify({ reason: actionReason || "Administrative removal" }),
+      });
+      if (res.ok) {
+        onNotify?.("Comment permanently deleted.");
+        setActiveDeleteCommentId(null);
+        setActionReason("");
+        setSelectedCommentIds((prev) => prev.filter((item) => item !== id));
+        fetchComments();
+      } else {
+        const err = await res.json();
+        alert(err.error || "Failed to delete comment");
+      }
+    } catch (e: any) {
+      alert(e.message || "Error deleting comment");
+    } finally {
+      setActionProcessing(false);
+    }
+  };
+
+  // Bulk comments action
+  const handleBulkCommentAction = async () => {
+    if (selectedCommentIds.length === 0) return;
+    setActionProcessing(true);
+    try {
+      const res = await fetch("/api/admin/comments/bulk", {
+        method: "POST",
+        headers: getHeaders(),
+        body: JSON.stringify({
+          commentIds: selectedCommentIds,
+          action: bulkCommentAction,
+          reason: actionReason || `Admin bulk ${bulkCommentAction}`,
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        onNotify?.(`Successfully executed bulk ${bulkCommentAction} on ${data.affectedCount} comments.`);
+        setIsBulkCommentModalOpen(false);
+        setSelectedCommentIds([]);
+        setActionReason("");
+        fetchComments();
+      } else {
+        const err = await res.json();
+        alert(err.error || "Failed to perform bulk action");
+      }
+    } catch (e: any) {
+      alert(e.message || "Error in bulk action");
+    } finally {
+      setActionProcessing(false);
+    }
+  };
+
   return (
     <div className="space-y-6">
       {/* 1. METRICS OVERVIEW CARDS */}
@@ -459,6 +639,27 @@ export function ProductFeedbackManagement({
             <MessageSquare className="w-4 h-4 text-emerald-500" />
             <span>Individual Submissions ({recordTotalCount})</span>
           </button>
+          <button
+            type="button"
+            onClick={() => {
+              setSubTab("comments");
+              fetchComments();
+            }}
+            className={cn(
+              "px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 cursor-pointer",
+              subTab === "comments"
+                ? "bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-100 shadow-xs"
+                : "text-stone-500 hover:text-stone-900 dark:hover:text-stone-200"
+            )}
+          >
+            <MessageSquare className="w-4 h-4 text-emerald-500" />
+            <span>Comments Moderation ({commentStats.total})</span>
+            {commentStats.pendingCount > 0 && (
+              <span className="px-1.5 py-0.2 rounded-full bg-amber-500 text-stone-950 font-black text-[10px]">
+                {commentStats.pendingCount}
+              </span>
+            )}
+          </button>
         </div>
 
         <div className="flex items-center gap-2">
@@ -471,6 +672,44 @@ export function ProductFeedbackManagement({
               <Trash2 className="w-3.5 h-3.5" />
               <span>Delete Selected ({selectedRecordIds.length})</span>
             </button>
+          )}
+
+          {subTab === "comments" && selectedCommentIds.length > 0 && (
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={() => {
+                  setBulkCommentAction("APPROVE");
+                  setIsBulkCommentModalOpen(true);
+                }}
+                className="px-3 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1 shadow-xs cursor-pointer transition-colors"
+              >
+                <Check className="w-3.5 h-3.5" />
+                <span>Approve ({selectedCommentIds.length})</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setBulkCommentAction("REJECT");
+                  setIsBulkCommentModalOpen(true);
+                }}
+                className="px-3 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs flex items-center gap-1 shadow-xs cursor-pointer transition-colors"
+              >
+                <X className="w-3.5 h-3.5" />
+                <span>Reject</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setBulkCommentAction("DELETE");
+                  setIsBulkCommentModalOpen(true);
+                }}
+                className="px-3 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs flex items-center gap-1 shadow-xs cursor-pointer transition-colors"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+                <span>Delete</span>
+              </button>
+            </div>
           )}
 
           <button
@@ -932,6 +1171,261 @@ export function ProductFeedbackManagement({
         </div>
       )}
 
+      {/* 4.5. SUB-VIEW: COMMENTS MODERATION */}
+      {subTab === "comments" && (
+        <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 overflow-hidden shadow-xs">
+          {/* Controls Bar */}
+          <div className="p-4 border-b border-stone-200 dark:border-stone-800 flex flex-col md:flex-row md:items-center justify-between gap-3">
+            <div className="relative flex-1 max-w-sm">
+              <Search className="w-4 h-4 text-stone-400 absolute left-3 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                value={commentSearch}
+                onChange={(e) => {
+                  setCommentSearch(e.target.value);
+                  setCommentPage(1);
+                }}
+                placeholder="Search user, product, or comment text..."
+                className="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800/80 border border-stone-200 dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100 placeholder-stone-400"
+              />
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="flex items-center gap-1.5 text-xs">
+                <span className="text-stone-400 font-medium">Status:</span>
+                <select
+                  value={commentStatusFilter}
+                  onChange={(e) => {
+                    setCommentStatusFilter(e.target.value);
+                    setCommentPage(1);
+                  }}
+                  className="px-2.5 py-1.5 rounded-xl bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 border border-stone-200 dark:border-stone-700 text-xs font-medium focus:outline-none cursor-pointer"
+                >
+                  <option value="ALL">All Statuses ({commentStats.total})</option>
+                  <option value="PENDING">Pending Moderation ({commentStats.pendingCount})</option>
+                  <option value="APPROVED">Approved ({commentStats.approvedCount})</option>
+                  <option value="REJECTED">Rejected ({commentStats.rejectedCount})</option>
+                  <option value="FLAGGED">Flagged ({commentStats.flaggedCount})</option>
+                </select>
+              </div>
+
+              {commentSearch && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setCommentSearch("");
+                    setCommentPage(1);
+                  }}
+                  className="text-xs text-rose-500 hover:underline px-2 py-1 font-semibold cursor-pointer"
+                >
+                  Clear search
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Table */}
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr className="border-b border-stone-200 dark:border-stone-800 bg-stone-50/50 dark:bg-stone-800/40 text-stone-500 font-bold uppercase tracking-wider text-[10px]">
+                  <th className="py-3 px-4 w-10">
+                    <input
+                      type="checkbox"
+                      checked={
+                        adminComments.length > 0 &&
+                        selectedCommentIds.length === adminComments.length
+                      }
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSelectedCommentIds(adminComments.map((c) => c._id));
+                        } else {
+                          setSelectedCommentIds([]);
+                        }
+                      }}
+                      className="rounded border-stone-300 dark:border-stone-700 text-emerald-600 focus:ring-emerald-500"
+                    />
+                  </th>
+                  <th className="py-3 px-4">User</th>
+                  <th className="py-3 px-4">Product</th>
+                  <th className="py-3 px-4">Comment</th>
+                  <th className="py-3 px-3 text-center">Status</th>
+                  <th className="py-3 px-4">Date</th>
+                  <th className="py-3 px-4 text-right">Moderation Actions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-stone-100 dark:divide-stone-800">
+                {adminComments.length === 0 ? (
+                  <tr>
+                    <td colSpan={7} className="py-12 text-center text-stone-400">
+                      No community comments found matching the criteria.
+                    </td>
+                  </tr>
+                ) : (
+                  adminComments.map((c) => {
+                    const isSelected = selectedCommentIds.includes(c._id);
+                    return (
+                      <tr
+                        key={c._id}
+                        className={cn(
+                          "hover:bg-stone-50/60 dark:hover:bg-stone-800/50 transition-colors",
+                          isSelected && "bg-emerald-50/40 dark:bg-emerald-950/20",
+                          c.status === "PENDING" && "bg-amber-50/30 dark:bg-amber-950/15"
+                        )}
+                      >
+                        <td className="py-3.5 px-4">
+                          <input
+                            type="checkbox"
+                            checked={isSelected}
+                            onChange={(e) => {
+                              if (e.target.checked) {
+                                setSelectedCommentIds((prev) => [...prev, c._id]);
+                              } else {
+                                setSelectedCommentIds((prev) => prev.filter((id) => id !== c._id));
+                              }
+                            }}
+                            className="rounded border-stone-300 dark:border-stone-700 text-emerald-600 focus:ring-emerald-500"
+                          />
+                        </td>
+
+                        <td className="py-3.5 px-4">
+                          <span className="font-bold text-stone-900 dark:text-stone-100 block">
+                            {c.userName || "Community User"}
+                          </span>
+                          <span className="text-[11px] text-stone-500 block truncate max-w-[140px]">
+                            {c.userEmail || `ID: ${c.userId}`}
+                          </span>
+                        </td>
+
+                        <td className="py-3.5 px-4 font-mono font-medium text-stone-700 dark:text-stone-300">
+                          <a
+                            href={`/products/${c.productId}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="hover:underline hover:text-emerald-600 inline-flex items-center gap-1 truncate max-w-[140px]"
+                            title={c.productName || c.productId}
+                          >
+                            {c.productName || c.productId} <ExternalLink className="w-3 h-3 text-stone-400 shrink-0" />
+                          </a>
+                        </td>
+
+                        <td className="py-3.5 px-4 max-w-xs">
+                          <p className="line-clamp-2 text-stone-800 dark:text-stone-200">
+                            &ldquo;{c.comment}&rdquo;
+                          </p>
+                        </td>
+
+                        <td className="py-3.5 px-3 text-center">
+                          <span
+                            className={cn(
+                              "inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase",
+                              c.status === "APPROVED"
+                                ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300"
+                                : c.status === "PENDING"
+                                ? "bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300"
+                                : c.status === "FLAGGED"
+                                ? "bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-300"
+                                : "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300"
+                            )}
+                          >
+                            {c.status}
+                          </span>
+                        </td>
+
+                        <td className="py-3.5 px-4 text-stone-500 text-[11px] font-mono whitespace-nowrap">
+                          {new Date(c.createdAt).toLocaleDateString()}
+                        </td>
+
+                        <td className="py-3.5 px-4 text-right whitespace-nowrap">
+                          <div className="flex items-center justify-end gap-1">
+                            {c.status !== "APPROVED" && (
+                              <button
+                                type="button"
+                                onClick={() => handleModerateComment(c._id, "APPROVED")}
+                                className="p-1 text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-950/50 rounded-lg transition-colors cursor-pointer"
+                                title="Approve comment"
+                              >
+                                <Check className="w-3.5 h-3.5" />
+                              </button>
+                            )}
+                            {c.status !== "REJECTED" && (
+                              <button
+                                type="button"
+                                onClick={() => handleModerateComment(c._id, "REJECTED")}
+                                className="p-1 text-amber-600 hover:bg-amber-50 dark:hover:bg-amber-950/50 rounded-lg transition-colors cursor-pointer"
+                                title="Reject comment"
+                              >
+                                <X className="w-3.5 h-3.5" />
+                              </button>
+                            )}
+                            {c.status !== "FLAGGED" && (
+                              <button
+                                type="button"
+                                onClick={() => handleModerateComment(c._id, "FLAGGED")}
+                                className="p-1 text-orange-600 hover:bg-orange-50 dark:hover:bg-orange-950/50 rounded-lg transition-colors cursor-pointer"
+                                title="Flag comment"
+                              >
+                                <Flag className="w-3.5 h-3.5" />
+                              </button>
+                            )}
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setEditingComment(c);
+                                setEditCommentText(c.comment);
+                              }}
+                              className="p-1 text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 rounded-lg transition-colors cursor-pointer"
+                              title="Edit comment text"
+                            >
+                              <Edit2 className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => setActiveDeleteCommentId(c._id)}
+                              className="p-1 text-rose-500 hover:text-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/50 rounded-lg transition-colors cursor-pointer"
+                              title="Delete comment permanently"
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })
+                )}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Pagination */}
+          {commentTotalPages > 1 && (
+            <div className="p-4 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between text-xs">
+              <span className="text-stone-500">
+                Page {commentPage} of {commentTotalPages} ({commentTotalCount} comments)
+              </span>
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  disabled={commentPage <= 1}
+                  onClick={() => setCommentPage((p) => Math.max(1, p - 1))}
+                  className="px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700 font-semibold disabled:opacity-40 cursor-pointer"
+                >
+                  Previous
+                </button>
+                <button
+                  type="button"
+                  disabled={commentPage >= commentTotalPages}
+                  onClick={() => setCommentPage((p) => Math.min(commentTotalPages, p + 1))}
+                  className="px-3 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700 font-semibold disabled:opacity-40 cursor-pointer"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* 5. AUDIT TRAIL NOTIFICATION BOX */}
       <div className="p-4 rounded-2xl bg-stone-100/80 dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs space-y-1">
         <div className="flex items-center gap-2 font-bold text-stone-800 dark:text-stone-200">
@@ -1111,6 +1605,215 @@ export function ProductFeedbackManagement({
                 className="px-4 py-2 rounded-xl text-xs font-bold bg-rose-600 hover:bg-rose-500 text-white transition-colors cursor-pointer"
               >
                 {actionProcessing ? "Clearing..." : "Confirm Wipe All"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 4: EDIT COMMENT MODAL */}
+      {editingComment && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-150">
+          <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-6 max-w-lg w-full shadow-2xl space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-2xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 flex items-center justify-center shrink-0">
+                <Edit2 className="w-5 h-5" />
+              </div>
+              <div>
+                <h4 className="font-bold text-base text-stone-900 dark:text-stone-100">
+                  Edit User Comment
+                </h4>
+                <p className="text-xs text-stone-500">
+                  Editing comment by {editingComment.userName || "User"} on product {editingComment.productId}
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-stone-700 dark:text-stone-300 mb-1">
+                Comment Text:
+              </label>
+              <textarea
+                value={editCommentText}
+                onChange={(e) => setEditCommentText(e.target.value)}
+                maxLength={1000}
+                rows={4}
+                className="w-full px-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+              <span className="text-[10px] text-stone-400 font-mono block text-right mt-1">
+                {editCommentText.length} / 1,000 characters
+              </span>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-stone-700 dark:text-stone-300 mb-1">
+                Reason for edit (recorded in immutable audit log):
+              </label>
+              <input
+                type="text"
+                value={actionReason}
+                onChange={(e) => setActionReason(e.target.value)}
+                placeholder="e.g. Fixed grammatical typo or removed phone number"
+                className="w-full px-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+
+            <div className="flex items-center justify-end gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setEditingComment(null);
+                  setEditCommentText("");
+                  setActionReason("");
+                }}
+                disabled={actionProcessing}
+                className="px-4 py-2 rounded-xl text-xs font-bold text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleSaveAdminCommentEdit}
+                disabled={actionProcessing || editCommentText.trim().length < 3}
+                className="px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white transition-colors cursor-pointer disabled:opacity-40"
+              >
+                {actionProcessing ? "Saving..." : "Save & Record Audit"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 5: DELETE COMMENT CONFIRMATION */}
+      {activeDeleteCommentId && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-150">
+          <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-6 max-w-md w-full shadow-2xl space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-2xl bg-rose-100 dark:bg-rose-950/70 text-rose-600 flex items-center justify-center shrink-0">
+                <Trash2 className="w-5 h-5" />
+              </div>
+              <div>
+                <h4 className="font-bold text-base text-stone-900 dark:text-stone-100">
+                  Delete Comment?
+                </h4>
+                <p className="text-xs text-stone-500">
+                  This comment will be permanently deleted and recorded in the audit trail.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-stone-700 dark:text-stone-300 mb-1">
+                Reason for deletion:
+              </label>
+              <input
+                type="text"
+                value={actionReason}
+                onChange={(e) => setActionReason(e.target.value)}
+                placeholder="e.g. Inappropriate language, spam or off-topic advertising"
+                className="w-full px-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-rose-500"
+              />
+            </div>
+
+            <div className="flex items-center justify-end gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setActiveDeleteCommentId(null);
+                  setActionReason("");
+                }}
+                disabled={actionProcessing}
+                className="px-4 py-2 rounded-xl text-xs font-bold text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={() => handleDeleteAdminComment(activeDeleteCommentId)}
+                disabled={actionProcessing}
+                className="px-4 py-2 rounded-xl text-xs font-bold bg-rose-600 hover:bg-rose-500 text-white transition-colors cursor-pointer"
+              >
+                {actionProcessing ? "Deleting..." : "Confirm Delete"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 6: BULK COMMENT MODERATION MODAL */}
+      {isBulkCommentModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-150">
+          <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 p-6 max-w-md w-full shadow-2xl space-y-4">
+            <div className="flex items-center gap-3">
+              <div
+                className={cn(
+                  "w-10 h-10 rounded-2xl flex items-center justify-center shrink-0",
+                  bulkCommentAction === "APPROVE"
+                    ? "bg-emerald-100 text-emerald-600 dark:bg-emerald-950/70"
+                    : bulkCommentAction === "DELETE"
+                    ? "bg-rose-100 text-rose-600 dark:bg-rose-950/70"
+                    : "bg-amber-100 text-amber-600 dark:bg-amber-950/70"
+                )}
+              >
+                {bulkCommentAction === "APPROVE" ? (
+                  <Check className="w-5 h-5" />
+                ) : bulkCommentAction === "DELETE" ? (
+                  <Trash2 className="w-5 h-5" />
+                ) : (
+                  <X className="w-5 h-5" />
+                )}
+              </div>
+              <div>
+                <h4 className="font-bold text-base text-stone-900 dark:text-stone-100">
+                  Bulk {bulkCommentAction} {selectedCommentIds.length} Comments?
+                </h4>
+                <p className="text-xs text-stone-500">
+                  All {selectedCommentIds.length} selected comments will be {bulkCommentAction.toLowerCase()}d and individually recorded in the audit log.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-xs font-bold text-stone-700 dark:text-stone-300 mb-1">
+                Reason for bulk action:
+              </label>
+              <input
+                type="text"
+                value={actionReason}
+                onChange={(e) => setActionReason(e.target.value)}
+                placeholder="e.g. Batch approval of verified packaging reviews"
+                className="w-full px-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+
+            <div className="flex items-center justify-end gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsBulkCommentModalOpen(false);
+                  setActionReason("");
+                }}
+                disabled={actionProcessing}
+                className="px-4 py-2 rounded-xl text-xs font-bold text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleBulkCommentAction}
+                disabled={actionProcessing}
+                className={cn(
+                  "px-4 py-2 rounded-xl text-xs font-bold text-white transition-colors cursor-pointer",
+                  bulkCommentAction === "APPROVE"
+                    ? "bg-emerald-600 hover:bg-emerald-500"
+                    : bulkCommentAction === "DELETE"
+                    ? "bg-rose-600 hover:bg-rose-500"
+                    : "bg-amber-600 hover:bg-amber-500"
+                )}
+              >
+                {actionProcessing
+                  ? "Processing..."
+                  : `Confirm Bulk ${bulkCommentAction} (${selectedCommentIds.length})`}
               </button>
             </div>
           </div>

@@ -22,7 +22,7 @@ interface AuthContextType {
   user: AuthUser | null;
   isAuthenticated: boolean;
   isLoading: boolean;
-  openLoginModal: (returnUrl?: string) => void;
+  openLoginModal: (returnUrl?: string, customMessage?: string) => void;
   closeLoginModal: () => void;
   logout: () => Promise<void>;
   refreshSession: () => Promise<void>;
@@ -35,6 +35,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalReturnUrl, setModalReturnUrl] = useState<string>("/");
+  const [modalCustomMessage, setModalCustomMessage] = useState<string | undefined>();
 
   // Fetch verified active session on mount
   const refreshSession = useCallback(async () => {
@@ -61,15 +62,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     refreshSession();
   }, [refreshSession]);
 
-  const openLoginModal = useCallback((returnUrl?: string) => {
+  const openLoginModal = useCallback((returnUrl?: string, customMessage?: string) => {
     if (typeof window !== "undefined") {
       setModalReturnUrl(returnUrl || window.location.pathname);
     }
+    setModalCustomMessage(customMessage);
     setIsModalOpen(true);
   }, []);
 
   const closeLoginModal = useCallback(() => {
     setIsModalOpen(false);
+    setModalCustomMessage(undefined);
   }, []);
 
   const logout = useCallback(async () => {
@@ -105,6 +108,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         onClose={closeLoginModal}
         onSuccess={handleLoginSuccess}
         returnUrl={modalReturnUrl}
+        customMessage={modalCustomMessage}
       />
     </AuthContext.Provider>
   );
