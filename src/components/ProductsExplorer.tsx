@@ -104,8 +104,7 @@ export function ProductsExplorer({
   }, [mutate]);
 
   // --- 1. Filter States Initialized from URL params ---
-  const [searchInput, setSearchInput] = useState(initialParams.q || "");
-  const [debouncedQuery, setDebouncedQuery] = useState(initialParams.q || "");
+  const [searchQuery, setSearchQuery] = useState(initialParams.q || "");
   const [selectedCategory, setSelectedCategory] = useState(initialParams.category || "All");
   const [selectedSubCategory, setSelectedSubCategory] = useState(initialParams.subCategory || "");
   const [selectedBrand, setSelectedBrand] = useState(initialParams.brand || "All");
@@ -121,6 +120,14 @@ export function ProductsExplorer({
     "score" | "score-asc" | "name" | "name-desc" | "recent" | "verified"
   >((initialParams.sortBy as any) || "score");
 
+  // Keep search query synced with incoming URL query parameters (e.g. from Header Search)
+  useEffect(() => {
+    if (initialParams.q !== undefined && initialParams.q !== searchQuery) {
+      setSearchQuery(initialParams.q);
+      setVisibleCount(20);
+    }
+  }, [initialParams.q]);
+
   // Controls expandable state: default COLLAPSED (false) per user requirement
   const [isControlsExpanded, setIsControlsExpanded] = useState(false);
   const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
@@ -131,28 +138,12 @@ export function ProductsExplorer({
   // Sentinel ref for infinite scroll
   const sentinelRef = useRef<HTMLDivElement>(null);
 
-  // --- 2. Live Debounced Search (150ms) ---
-  useEffect(() => {
-    const handler = setTimeout(() => {
-      setDebouncedQuery(searchInput.trim());
-      setVisibleCount(20); // Reset page on search change
-    }, 150);
-    return () => clearTimeout(handler);
-  }, [searchInput]);
-
-  // Flush search on Enter / Form Submit
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setDebouncedQuery(searchInput.trim());
-    setVisibleCount(20);
-  };
-
-  // --- 3. URL Synchronization via window.history.replaceState (0ms lag, no server round-trip) ---
+  // --- 2. URL Synchronization via window.history.replaceState (0ms lag, no server round-trip) ---
   const updateUrlParams = useCallback(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams();
 
-    if (debouncedQuery) params.set("q", debouncedQuery);
+    if (searchQuery) params.set("q", searchQuery);
     if (selectedCategory && selectedCategory !== "All") params.set("category", selectedCategory);
     if (selectedSubCategory) params.set("subCategory", selectedSubCategory);
     if (selectedBrand && selectedBrand !== "All") params.set("brand", selectedBrand);
@@ -170,7 +161,7 @@ export function ProductsExplorer({
     const newPath = queryString ? `/products?${queryString}` : "/products";
     window.history.replaceState(null, "", newPath);
   }, [
-    debouncedQuery,
+    searchQuery,
     selectedCategory,
     selectedSubCategory,
     selectedBrand,
@@ -215,8 +206,7 @@ export function ProductsExplorer({
   useEffect(() => {
     const handlePopState = () => {
       const params = new URLSearchParams(window.location.search);
-      setSearchInput(params.get("q") || "");
-      setDebouncedQuery(params.get("q") || "");
+      setSearchQuery(params.get("q") || "");
       setSelectedCategory(params.get("category") || "All");
       setSelectedSubCategory(params.get("subCategory") || "");
       setSelectedBrand(params.get("brand") || "All");
@@ -240,7 +230,7 @@ export function ProductsExplorer({
   useEffect(() => {
     triggerBackgroundSync();
   }, [
-    debouncedQuery,
+    searchQuery,
     selectedCategory,
     selectedSubCategory,
     selectedBrand,
@@ -256,13 +246,13 @@ export function ProductsExplorer({
     triggerBackgroundSync,
   ]);
 
-  // --- 4. High-Performance Client-Side In-Memory Filtering (0ms perceived lag) ---
+  // --- 3. High-Performance Client-Side In-Memory Filtering (0ms perceived lag) ---
   const filteredProducts = useMemo(() => {
     let list = products;
 
-    // 1. Text Search query
-    if (debouncedQuery) {
-      const q = debouncedQuery.toLowerCase();
+    // 1. Text Search query (from Header Search / URL ?q=...)
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
       list = list.filter((p) => {
         const name = (p.name || "").toLowerCase();
         const brand = (p.brand || "").toLowerCase();
@@ -380,7 +370,7 @@ export function ProductsExplorer({
     return sorted;
   }, [
     products,
-    debouncedQuery,
+    searchQuery,
     selectedCategory,
     selectedSubCategory,
     selectedBrand,
@@ -439,7 +429,7 @@ export function ProductsExplorer({
 
   // Active filter count for badge
   const activeFilterCount = [
-    Boolean(debouncedQuery),
+    Boolean(searchQuery),
     selectedCategory !== "All",
     Boolean(selectedSubCategory),
     selectedBrand !== "All",
@@ -456,8 +446,7 @@ export function ProductsExplorer({
 
   // Clear all filters
   const handleClearAll = () => {
-    setSearchInput("");
-    setDebouncedQuery("");
+    setSearchQuery("");
     setSelectedCategory("All");
     setSelectedSubCategory("");
     setSelectedBrand("All");
@@ -509,8 +498,8 @@ export function ProductsExplorer({
 
   return (
     <div className="space-y-6">
-      {/* 1. Collapsible Control Header: Product Count + Expandable Search & Filter Button */}
-      <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200/90 dark:border-stone-800 p-3.5 sm:p-4 shadow-2xs transition-all">
+      {/* 1. Collapsible Control Header: Product Count + Expandable Filters & Sorting Button */}
+      <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200/90 dark:border-stone-800 p-3 sm:p-4 shadow-2xs transition-all">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Product Count & Status Indicator */}
           <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
@@ -545,7 +534,7 @@ export function ProductsExplorer({
             onClick={() => setIsControlsExpanded((prev) => !prev)}
             aria-expanded={isControlsExpanded}
             className={cn(
-              "flex items-center justify-between sm:justify-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all cursor-pointer border shadow-2xs",
+              "flex items-center justify-between sm:justify-center gap-2 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all cursor-pointer border shadow-2xs w-full sm:w-auto",
               isControlsExpanded
                 ? "bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 border-transparent shadow-xs"
                 : "bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800 hover:bg-emerald-100 dark:hover:bg-emerald-900/50"
@@ -553,9 +542,7 @@ export function ProductsExplorer({
           >
             <div className="flex items-center gap-2">
               <SlidersHorizontal className="w-3.5 h-3.5" />
-              <span>
-                {isControlsExpanded ? "Hide Search & Filters" : "Search & Filter Products"}
-              </span>
+              <span>Filters & Sorting</span>
             </div>
 
             <div className="flex items-center gap-1.5">
@@ -564,6 +551,9 @@ export function ProductsExplorer({
                   {activeFilterCount}
                 </span>
               )}
+              <span className="text-[11px] font-semibold opacity-80">
+                {isControlsExpanded ? "Collapse" : "Expand"}
+              </span>
               {isControlsExpanded ? (
                 <ChevronUp className="w-4 h-4 transition-transform" />
               ) : (
@@ -573,121 +563,51 @@ export function ProductsExplorer({
           </button>
         </div>
 
-        {/* When Collapsed AND filters are active: Show Active Filter Mini-Summary */}
-        {!isControlsExpanded && activeFilterCount > 0 && (
-          <div className="mt-3 pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between gap-2 flex-wrap">
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <span className="text-[11px] font-semibold text-stone-400">Active:</span>
-              {debouncedQuery && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
-                  "{debouncedQuery}"
-                </span>
-              )}
-              {selectedCategory !== "All" && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200/50">
-                  {selectedCategory}
-                </span>
-              )}
-              {selectedBrand !== "All" && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
-                  {selectedBrand}
-                </span>
-              )}
-              {selectedNutriScore !== "All" && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
-                  Nutri-Score {selectedNutriScore}
-                </span>
-              )}
-              {palmOilFreeOnly && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300">
-                  Palm Oil Free
-                </span>
-              )}
-              {lowSugarOnly && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-orange-50 dark:bg-orange-950/50 text-orange-700 dark:text-orange-300">
-                  Low Sugar
-                </span>
-              )}
-              {lowSodiumOnly && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-teal-50 dark:bg-teal-950/50 text-teal-700 dark:text-teal-300">
-                  Low Sodium
-                </span>
-              )}
-              {verifiedOnly && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[11px] font-medium bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300">
-                  Verified
-                </span>
-              )}
-            </div>
-
-            <button
-              type="button"
-              onClick={handleClearAll}
-              className="text-xs font-semibold text-rose-600 dark:text-rose-400 hover:underline flex items-center gap-1 cursor-pointer shrink-0"
-            >
-              <RotateCcw className="w-3 h-3" />
-              Reset All
-            </button>
-          </div>
-        )}
-
         {/* EXPANDED PANEL: Revealed when isControlsExpanded is true */}
         {isControlsExpanded && (
-          <div className="mt-4 pt-4 border-t border-stone-200/80 dark:border-stone-800 space-y-4 animate-in fade-in slide-in-from-top-2 duration-200">
-            {/* Row 1: Search Bar + Advance Filters Toggle + Sorting Dropdown */}
-            <div className="flex flex-col md:flex-row gap-3 items-stretch md:items-center">
-              {/* Search input with Clear & Submit */}
-              <form onSubmit={handleSearchSubmit} className="flex-1 flex items-center gap-2">
-                <div className="relative flex-1">
-                  <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    value={searchInput}
-                    onChange={(e) => setSearchInput(e.target.value)}
-                    placeholder="Search food, brands, or barcode..."
-                    className="w-full pl-10 pr-9 py-2.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800/80 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-stone-900 dark:text-stone-100 placeholder-stone-400 shadow-2xs"
-                  />
-                  {searchInput && (
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setSearchInput("");
-                        setDebouncedQuery("");
-                        setVisibleCount(20);
-                      }}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 p-0.5 rounded-full cursor-pointer"
-                      title="Clear search"
-                    >
-                      <X className="w-3.5 h-3.5" />
-                    </button>
-                  )}
-                </div>
-
-                <button
-                  type="submit"
-                  className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-bold text-xs rounded-2xl transition-colors cursor-pointer shrink-0 shadow-2xs"
+          <div className="mt-4 pt-4 border-t border-stone-200/80 dark:border-stone-800 space-y-3.5 animate-in fade-in slide-in-from-top-2 duration-250">
+            {/* Row 1: Sort Dropdown (left 65-70%) + Filters Button (right 30-35%) — ALWAYS SINGLE HORIZONTAL ROW */}
+            <div className="flex items-center w-full gap-2 sm:gap-2.5">
+              {/* Sorting Selector (~68% width) */}
+              <div className="relative flex-[68_68_0%] min-w-0 h-11">
+                <select
+                  value={sortBy}
+                  onChange={(e) => {
+                    setSortBy(e.target.value as any);
+                    setVisibleCount(20);
+                  }}
+                  className="w-full h-full min-h-[44px] pl-2.5 sm:pl-3.5 pr-7 sm:pr-8 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-semibold text-stone-800 dark:text-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer shadow-2xs appearance-none truncate box-border transition-colors"
+                  aria-label="Sort products by"
                 >
-                  Search
-                </button>
-              </form>
+                  <option value="score">FoodDecode Score (High → Low)</option>
+                  <option value="score-asc">FoodDecode Score (Low → High)</option>
+                  <option value="name">Product Name (A → Z)</option>
+                  <option value="name-desc">Product Name (Z → A)</option>
+                  <option value="recent">Recently Added</option>
+                  <option value="verified">Verified Products First</option>
+                </select>
+                <ChevronDown className="w-3.5 h-3.5 text-stone-400 absolute right-2 sm:right-2.5 top-1/2 -translate-y-1/2 pointer-events-none shrink-0" />
+              </div>
 
-              {/* Advanced Filters Drawer Toggle */}
+              {/* Advanced Filters Button (~32% width) */}
               <button
                 type="button"
                 onClick={() => setShowAdvancedFilters((prev) => !prev)}
                 className={cn(
-                  "px-3.5 py-2.5 rounded-2xl text-xs font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer shrink-0 border shadow-2xs",
+                  "flex-[32_32_0%] min-w-0 h-11 min-h-[44px] px-2 sm:px-3.5 rounded-2xl text-xs font-bold flex items-center justify-center gap-1 sm:gap-1.5 transition-all cursor-pointer border shadow-2xs box-border shrink-0 select-none",
                   showAdvancedFilters
                     ? "bg-emerald-500 text-stone-950 border-emerald-500"
                     : "bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-200 border-stone-200 dark:border-stone-700 hover:border-stone-300"
                 )}
+                aria-expanded={showAdvancedFilters}
+                aria-label="Toggle advanced filters"
               >
-                <SlidersHorizontal className="w-3.5 h-3.5" />
-                <span>{showAdvancedFilters ? "Hide Filters" : "Filters"}</span>
+                <SlidersHorizontal className="w-3.5 h-3.5 shrink-0" />
+                <span className="truncate">{showAdvancedFilters ? "Hide" : "Filters"}</span>
                 {activeFilterCount > 0 && (
                   <span
                     className={cn(
-                      "px-1.5 py-0.2 rounded-full text-[10px] font-black",
+                      "px-1.5 py-0.5 rounded-full text-[10px] font-black shrink-0 leading-none",
                       showAdvancedFilters
                         ? "bg-stone-950 text-white"
                         : "bg-emerald-500 text-stone-950"
@@ -697,44 +617,21 @@ export function ProductsExplorer({
                   </span>
                 )}
               </button>
-
-              {/* Sorting Selector */}
-              <div className="flex items-center gap-2 shrink-0">
-                <span className="text-xs text-stone-400 font-medium hidden sm:inline">Sort:</span>
-                <div className="relative w-full sm:w-auto">
-                  <select
-                    value={sortBy}
-                    onChange={(e) => {
-                      setSortBy(e.target.value as any);
-                      setVisibleCount(20);
-                    }}
-                    className="w-full sm:w-auto pl-3 pr-8 py-2.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-semibold text-stone-800 dark:text-stone-200 focus:outline-none focus:ring-1 focus:ring-emerald-500 cursor-pointer shadow-2xs appearance-none"
-                  >
-                    <option value="score">FoodDecode Score (High → Low)</option>
-                    <option value="score-asc">FoodDecode Score (Low → High)</option>
-                    <option value="name">Product Name (A → Z)</option>
-                    <option value="name-desc">Product Name (Z → A)</option>
-                    <option value="recent">Recently Added</option>
-                    <option value="verified">Verified Products First</option>
-                  </select>
-                  <ChevronDown className="w-3.5 h-3.5 text-stone-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
-                </div>
-              </div>
             </div>
 
             {/* Row 2: Quick Filter Chips */}
-            <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+            <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-1">
               <button
                 type="button"
                 onClick={() => setPalmOilFreeOnly(!palmOilFreeOnly)}
                 className={cn(
-                  "inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer",
+                  "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   palmOilFreeOnly
                     ? "bg-amber-500/15 border-amber-500 text-amber-800 dark:text-amber-300 shadow-2xs"
                     : "bg-stone-50 dark:bg-stone-800/80 border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-400 hover:border-stone-300"
                 )}
               >
-                <Droplets className="w-3 h-3 text-amber-500" />
+                <Droplets className="w-3.5 h-3.5 text-amber-500 shrink-0" />
                 <span>Palm Oil Free</span>
                 <span className="text-[10px] opacity-75 font-normal">
                   ({quickPillCounts.palmFree.toLocaleString()})
@@ -745,13 +642,13 @@ export function ProductsExplorer({
                 type="button"
                 onClick={() => setLowSugarOnly(!lowSugarOnly)}
                 className={cn(
-                  "inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer",
+                  "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   lowSugarOnly
                     ? "bg-orange-500/15 border-orange-500 text-orange-800 dark:text-orange-300 shadow-2xs"
                     : "bg-stone-50 dark:bg-stone-800/80 border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-400 hover:border-stone-300"
                 )}
               >
-                <Flame className="w-3 h-3 text-orange-500" />
+                <Flame className="w-3.5 h-3.5 text-orange-500 shrink-0" />
                 <span>Low Sugar (≤5g)</span>
                 <span className="text-[10px] opacity-75 font-normal">
                   ({quickPillCounts.lowSugar.toLocaleString()})
@@ -762,13 +659,13 @@ export function ProductsExplorer({
                 type="button"
                 onClick={() => setLowSodiumOnly(!lowSodiumOnly)}
                 className={cn(
-                  "inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer",
+                  "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   lowSodiumOnly
                     ? "bg-teal-500/15 border-teal-500 text-teal-800 dark:text-teal-300 shadow-2xs"
                     : "bg-stone-50 dark:bg-stone-800/80 border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-400 hover:border-stone-300"
                 )}
               >
-                <Activity className="w-3 h-3 text-teal-500" />
+                <Activity className="w-3.5 h-3.5 text-teal-500 shrink-0" />
                 <span>Low Sodium (≤120mg)</span>
                 <span className="text-[10px] opacity-75 font-normal">
                   ({quickPillCounts.lowSodium.toLocaleString()})
@@ -779,13 +676,13 @@ export function ProductsExplorer({
                 type="button"
                 onClick={() => setVerifiedOnly(!verifiedOnly)}
                 className={cn(
-                  "inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer",
+                  "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   verifiedOnly
                     ? "bg-emerald-500/15 border-emerald-500 text-emerald-800 dark:text-emerald-300 shadow-2xs"
                     : "bg-stone-50 dark:bg-stone-800/80 border-stone-200 dark:border-stone-700 text-stone-600 dark:text-stone-400 hover:border-stone-300"
                 )}
               >
-                <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
                 <span>Verified Only</span>
                 <span className="text-[10px] opacity-75 font-normal">
                   ({quickPillCounts.verified.toLocaleString()})
@@ -960,10 +857,9 @@ export function ProductsExplorer({
       {/* 2. Active Filter Chips Bar (Shown when controls are expanded and any filters are active) */}
       {isControlsExpanded && (
         <ActiveFilterChips
-          searchQuery={debouncedQuery}
+          searchQuery={searchQuery}
           onClearSearch={() => {
-            setSearchInput("");
-            setDebouncedQuery("");
+            setSearchQuery("");
             setVisibleCount(20);
           }}
           selectedCategory={selectedCategory}
