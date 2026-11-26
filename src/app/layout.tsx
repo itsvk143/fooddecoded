@@ -18,6 +18,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  themeColor: "#10B981",
 };
 
 export const metadata: Metadata = {
@@ -34,6 +35,16 @@ export const metadata: Metadata = {
     "food additive hazards",
   ],
   authors: [{ name: "FoodDecode Science Team" }],
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "FoodDecode",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/icons/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

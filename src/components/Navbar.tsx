@@ -17,6 +17,7 @@ import {
 import { cn } from "@/lib/utils";
 import { LeftDrawer } from "./LeftDrawer";
 import { ProductImage } from "./ProductImage";
+import { InstallAppButton } from "./InstallAppButton";
 
 interface QuickSearchResult {
   id: string;
@@ -180,31 +181,34 @@ export function Navbar() {
           )}
         </div>
 
-        {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-1">
-          {navLinks.map((link) => {
-            const Icon = link.icon;
-            const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                prefetch={true}
-                className={cn(
-                  "flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all active:scale-95",
-                  isActive
-                    ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 dark:bg-emerald-500/15"
-                    : "text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900"
-                )}
-              >
-                <Icon className="w-4 h-4" />
-                <span>{link.label}</span>
-              </Link>
-            );
-          })}
-        </nav>
+        {/* Desktop Navigation Links & Install App Button */}
+        <div className="hidden md:flex items-center gap-2">
+          <InstallAppButton variant="desktop" />
+          <nav className="flex items-center gap-1">
+            {navLinks.map((link) => {
+              const Icon = link.icon;
+              const isActive = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  prefetch={true}
+                  className={cn(
+                    "flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold transition-all active:scale-95",
+                    isActive
+                      ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 dark:bg-emerald-500/15"
+                      : "text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-900"
+                  )}
+                >
+                  <Icon className="w-4 h-4" />
+                  <span>{link.label}</span>
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
 
-        {/* Mobile quick actions: Search toggle & Scanner */}
+        {/* Mobile quick actions: Search toggle, Install App & Scanner */}
         <div className="flex md:hidden items-center gap-1.5">
           <button
             type="button"
@@ -218,6 +222,7 @@ export function Navbar() {
           >
             {mobileSearchOpen ? <X className="w-5 h-5" /> : <Search className="w-5 h-5" />}
           </button>
+          <InstallAppButton variant="mobile" />
           <Link
             href="/scan"
             prefetch={true}
