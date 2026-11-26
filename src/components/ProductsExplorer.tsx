@@ -23,6 +23,8 @@ import {
   RefreshCw
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { prioritizeCategoryThumbnails } from "@/lib/pwa-cache/image-cache";
+import { getAllCachedProducts, getCachedProductsByCategory } from "@/lib/pwa-cache/indexed-db";
 
 const catalogFetcher = async (url: string): Promise<SlimProductItem[]> => {
   const res = await fetch(url);
@@ -186,6 +188,28 @@ export function ProductsExplorer({
   useEffect(() => {
     updateUrlParams();
   }, [updateUrlParams]);
+
+  // Prioritize caching thumbnails of the currently selected category
+  useEffect(() => {
+    if (selectedCategory && selectedCategory !== "All") {
+      prioritizeCategoryThumbnails(selectedCategory);
+    }
+  }, [selectedCategory]);
+
+  // Offline fallback: If offline and products list is empty, read from IndexedDB
+  useEffect(() => {
+    if (typeof navigator !== "undefined" && !navigator.onLine && products.length === 0) {
+      if (selectedCategory && selectedCategory !== "All") {
+        getCachedProductsByCategory(selectedCategory).then((cached) => {
+          if (cached && cached.length > 0) setProducts(cached);
+        });
+      } else {
+        getAllCachedProducts().then((cached) => {
+          if (cached && cached.length > 0) setProducts(cached);
+        });
+      }
+    }
+  }, [products.length, selectedCategory]);
 
   // Handle Browser Back / Forward buttons via popstate
   useEffect(() => {

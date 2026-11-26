@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { PwaCacheProvider } from "@/components/PwaCacheProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,9 +59,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100 font-sans selection:bg-emerald-500 selection:text-white">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <PwaCacheProvider>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </PwaCacheProvider>
       </body>
     </html>
   );

@@ -7,6 +7,7 @@ import { IngredientIntelligenceSection } from "@/components/IngredientIntelligen
 import { NutritionTable } from "@/components/NutritionTable";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductImage } from "@/components/ProductImage";
+import { ProductViewTracker } from "@/components/ProductViewTracker";
 import {
   CheckCircle2,
   AlertTriangle,
@@ -38,6 +39,9 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+      {/* Priority 2 offline view tracker */}
+      <ProductViewTracker product={product} />
+
       {/* Top Breadcrumb & Navigation */}
       <div className="flex items-center justify-between">
         <Link
