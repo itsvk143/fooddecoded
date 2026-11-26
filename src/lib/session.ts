@@ -1,0 +1,304 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getCollection } from "./mongodb";
+import { UserRecord, SessionRecord } from "@/types";
+import crypto from "crypto";
+import { ObjectId } from "mongodb";
+
+export const SESSION_COOKIE_NAME = "fooddecode_session";
+export const SESSION_DURATION_DAYS = 30;
+export const SESSION_DURATION_MS = SESSION_DURATION_DAYS * 24 * 60 * 60 * 1000;
+
+// In-memory sessions & users fallback for offline / mock testing mode
+const inMemorySessions = new Map<string, SessionRecord>();
+const inMemoryUsers = new Map<string, UserRecord>();
+
+export interface SessionValidationResult {
+  authenticated: boolean;
+  user?: {
+    id: string;
+    email: string;
+    name: string;
+    profilePicture?: string;
+    role: "USER" | "ADMIN";
+  };
+  error?: string;
+  token?: string;
+}
+
+/**
+ * Generate a cryptographically secure random session token
+ */
+export function generateSessionToken(): string {
+  return crypto.randomBytes(32).toString("hex");
+}
+
+/**
+ * Creates a persistent server-managed session (30-day default validity)
+ */
+export async function createSession(
+  user: UserRecord,
+  request?: NextRequest
+): Promise<{ token: string; session: SessionRecord; cookieHeader: string }> {
+  const token = generateSessionToken();
+  const now = new Date();
+  const expiresAt = new Date(now.getTime() + SESSION_DURATION_MS);
+  const userId = user.id || (user as any)._id?.toString() || user.googleId;
+
+  const sessionRecord: SessionRecord = {
+    token,
+    userId,
+    userEmail: user.email,
+    userName: user.name,
+    userAvatar: user.profilePicture,
+    role: user.role || "USER",
+    createdAt: now,
+    lastActiveAt: now,
+    expiresAt,
+    isRevoked: false,
+    userAgent: request?.headers.get("user-agent") || undefined,
+    ip: request?.headers.get("x-forwarded-for") || undefined,
+  };
+
+  try {
+    const col = await getCollection<SessionRecord>("sessions");
+    if (col) {
+      await col.insertOne(sessionRecord as any);
+    } else {
+      inMemorySessions.set(token, sessionRecord);
+    }
+  } catch {
+    inMemorySessions.set(token, sessionRecord);
+  }
+
+  const isProduction = process.env.NODE_ENV === "production";
+  const cookieHeader = getSessionCookieHeader(token, expiresAt);
+
+  return { token, session: sessionRecord, cookieHeader };
+}
+
+/**
+ * Configure cookie response header for persistent login session (30 days)
+ */
+export function getSessionCookieHeader(token: string, expiresAt?: Date): string {
+  const isProduction = process.env.NODE_ENV === "production";
+  const maxAge = expiresAt
+    ? Math.max(0, Math.floor((expiresAt.getTime() - Date.now()) / 1000))
+    : SESSION_DURATION_DAYS * 24 * 60 * 60;
+  return `${SESSION_COOKIE_NAME}=${token}; Path=/; Max-Age=${maxAge}; HttpOnly; SameSite=Lax${
+    isProduction ? "; Secure" : ""
+  }`;
+}
+
+/**
+ * Validates a server-managed session from cookies or Bearer token
+ * Performs rolling session renewal if active for more than 1 hour.
+ */
+export async function validateSession(
+  request: NextRequest | { cookies: { get: (name: string) => { value?: string } | undefined } }
+): Promise<SessionValidationResult> {
+  const cookieToken =
+    "cookies" in request && typeof request.cookies.get === "function"
+      ? request.cookies.get(SESSION_COOKIE_NAME)?.value
+      : undefined;
+
+  let headerToken: string | undefined;
+  if ("headers" in request && typeof (request as NextRequest).headers?.get === "function") {
+    const auth = (request as NextRequest).headers.get("authorization");
+    if (auth?.startsWith("Bearer ")) {
+      headerToken = auth.slice(7).trim();
+    }
+  }
+
+  const token = cookieToken || headerToken;
+  if (!token) {
+    return { authenticated: false, error: "No session token provided" };
+  }
+
+  try {
+    let session: SessionRecord | null = null;
+    const col = await getCollection<SessionRecord>("sessions");
+
+    if (col) {
+      session = (await col.findOne({ token })) as SessionRecord | null;
+    } else {
+      session = inMemorySessions.get(token) || null;
+    }
+
+    if (!session) {
+      return { authenticated: false, error: "Session not found" };
+    }
+
+    if (session.isRevoked) {
+      return { authenticated: false, error: "Session has been revoked" };
+    }
+
+    const now = new Date();
+    const expiry = new Date(session.expiresAt);
+    if (now > expiry) {
+      return { authenticated: false, error: "Session has expired" };
+    }
+
+    // Rolling renewal: if last active > 1 hour ago, extend session by 30 days
+    const lastActive = new Date(session.lastActiveAt);
+    if (now.getTime() - lastActive.getTime() > 60 * 60 * 1000) {
+      const newExpiry = new Date(now.getTime() + SESSION_DURATION_MS);
+      if (col) {
+        col.updateOne(
+          { token },
+          { $set: { lastActiveAt: now, expiresAt: newExpiry } }
+        ).catch(() => {});
+      } else {
+        session.lastActiveAt = now;
+        session.expiresAt = newExpiry;
+      }
+    }
+
+    return {
+      authenticated: true,
+      token,
+      user: {
+        id: session.userId,
+        email: session.userEmail,
+        name: session.userName,
+        profilePicture: session.userAvatar,
+        role: session.role || "USER",
+      },
+    };
+  } catch (error) {
+    console.error("[validateSession] Error:", error);
+    return { authenticated: false, error: "Internal validation failure" };
+  }
+}
+
+/**
+ * Revokes an active session token
+ */
+export async function revokeSession(token: string): Promise<boolean> {
+  if (!token) return false;
+
+  inMemorySessions.delete(token);
+
+  try {
+    const col = await getCollection<SessionRecord>("sessions");
+    if (col) {
+      await col.updateOne({ token }, { $set: { isRevoked: true, lastActiveAt: new Date() } });
+      return true;
+    }
+  } catch {
+    // Non-fatal
+  }
+  return true;
+}
+
+/**
+ * Upserts a Google authenticated user record.
+ * Guarantees that normal users always receive the "USER" role and prevents duplicate accounts.
+ */
+export async function upsertGoogleUser(googleProfile: {
+  id: string; // Google 'sub'
+  email: string;
+  name: string;
+  picture?: string;
+}): Promise<UserRecord> {
+  const now = new Date();
+  const cleanEmail = googleProfile.email.toLowerCase().trim();
+
+  try {
+    const col = await getCollection<UserRecord>("users");
+    if (col) {
+      // 1. Identify by stable Google Subject Identifier (sub)
+      let user = await col.findOne({ googleId: googleProfile.id });
+
+      // 2. Identify by verified email if not yet linked to this googleId
+      if (!user) {
+        user = await col.findOne({ email: cleanEmail });
+      }
+
+      if (user) {
+        // Existing user: Update profile and login timestamp, preserve existing internal ID and role
+        const updatedUser: UserRecord = {
+          ...user,
+          id: user.id || user._id?.toString(),
+          googleId: googleProfile.id,
+          name: googleProfile.name || user.name,
+          profilePicture: googleProfile.picture || user.profilePicture,
+          lastLoginAt: now,
+          role: user.role || "USER",
+          isActive: user.isActive !== false,
+        };
+
+        await col.updateOne(
+          { _id: user._id },
+          {
+            $set: {
+              googleId: googleProfile.id,
+              name: updatedUser.name,
+              profilePicture: updatedUser.profilePicture,
+              lastLoginAt: now,
+            },
+          }
+        );
+
+        return updatedUser;
+      }
+
+      // 3. New user registration: Automatically create account with strict USER role
+      const newUserId = new ObjectId().toString();
+      const newUser: UserRecord = {
+        id: newUserId,
+        googleId: googleProfile.id,
+        name: googleProfile.name,
+        email: cleanEmail,
+        profilePicture: googleProfile.picture,
+        authProvider: "GOOGLE",
+        role: "USER", // NEVER assign ADMIN to public registrations
+        isActive: true,
+        createdAt: now,
+        lastLoginAt: now,
+      };
+
+      const insertResult = await col.insertOne(newUser as any);
+      newUser._id = insertResult.insertedId.toString();
+      newUser.id = insertResult.insertedId.toString();
+
+      return newUser;
+    }
+  } catch (e) {
+    console.warn("[upsertGoogleUser] MongoDB error, falling back to memory:", e);
+  }
+
+  // In-memory fallback
+  let user = inMemoryUsers.get(googleProfile.id) || inMemoryUsers.get(cleanEmail);
+  if (user) {
+    user.lastLoginAt = now;
+    user.name = googleProfile.name || user.name;
+    user.profilePicture = googleProfile.picture || user.profilePicture;
+    return user;
+  }
+
+  const newUser: UserRecord = {
+    id: `usr_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+    googleId: googleProfile.id,
+    name: googleProfile.name,
+    email: cleanEmail,
+    profilePicture: googleProfile.picture,
+    authProvider: "GOOGLE",
+    role: "USER",
+    isActive: true,
+    createdAt: now,
+    lastLoginAt: now,
+  };
+  inMemoryUsers.set(googleProfile.id, newUser);
+  inMemoryUsers.set(cleanEmail, newUser);
+  return newUser;
+}
+
+/**
+ * Configure cookie response header for persistent logout
+ */
+export function getLogoutCookieHeader(): string {
+  const isProduction = process.env.NODE_ENV === "production";
+  return `${SESSION_COOKIE_NAME}=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; HttpOnly; SameSite=Lax${
+    isProduction ? "; Secure" : ""
+  }`;
+}

@@ -19,7 +19,10 @@ import {
   Heart,
   ChevronRight,
   RefreshCw,
+  LogIn,
+  LogOut,
 } from "lucide-react";
+import { useAuth } from "@/hooks/useAuth";
 import { cn } from "@/lib/utils";
 
 interface CategoryMenuItem {
@@ -64,6 +67,7 @@ export function LeftDrawer() {
   const [coldDrinksCount, setColdDrinksCount] = useState<number | null>(null);
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
   const [currentSearch, setCurrentSearch] = useState("");
+  const { user, isAuthenticated, openLoginModal, logout } = useAuth();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -627,6 +631,58 @@ export function LeftDrawer() {
 
                 {/* Section 4: Platform Navigation */}
                 <div className="pt-2 border-t border-stone-100 dark:border-stone-800/80">
+                  <div className="text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-2 px-2">
+                    Account & Community
+                  </div>
+                  {isAuthenticated && user ? (
+                    <div className="p-2.5 rounded-2xl bg-stone-50 dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 flex items-center justify-between mb-3">
+                      <div className="flex items-center gap-2.5 min-w-0">
+                        {user.profilePicture ? (
+                          <img
+                            src={user.profilePicture}
+                            alt={user.name}
+                            className="w-8 h-8 rounded-full object-cover shrink-0"
+                          />
+                        ) : (
+                          <div className="w-8 h-8 rounded-full bg-emerald-500 text-white font-black text-xs flex items-center justify-center shrink-0">
+                            {user.name?.charAt(0)?.toUpperCase() || "U"}
+                          </div>
+                        )}
+                        <div className="min-w-0">
+                          <span className="font-bold text-xs text-stone-900 dark:text-stone-100 block truncate">
+                            {user.name}
+                          </span>
+                          <span className="text-[10px] text-stone-500 block truncate">
+                            {user.email}
+                          </span>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          logout();
+                          setIsOpen(false);
+                        }}
+                        className="p-1.5 text-stone-400 hover:text-rose-500 rounded-lg hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+                        title="Sign Out"
+                      >
+                        <LogOut className="w-4 h-4" />
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setIsOpen(false);
+                        openLoginModal();
+                      }}
+                      className="w-full flex items-center gap-2.5 p-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-xs font-bold text-stone-800 dark:text-stone-200 transition-colors cursor-pointer mb-3"
+                    >
+                      <LogIn className="w-4 h-4 text-emerald-500" />
+                      <span>Sign in with Google</span>
+                    </button>
+                  )}
+
                   <div className="text-[11px] font-bold uppercase tracking-wider text-stone-500 mb-2 px-2">
                     Platform Tools
                   </div>

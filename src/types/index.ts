@@ -345,3 +345,86 @@ export interface SlimProductItem {
   cocoaPercentage?: number | null;
 }
 
+// ==========================================
+// Community Product Feedback & Authentication
+// ==========================================
+
+export type UserRole = "USER" | "ADMIN";
+
+export interface UserRecord {
+  _id?: any;
+  id?: string;
+  googleId: string;
+  name: string;
+  email: string;
+  profilePicture?: string;
+  authProvider: "GOOGLE";
+  role: UserRole;
+  isActive: boolean;
+  createdAt: string | Date;
+  lastLoginAt: string | Date;
+}
+
+export interface SessionRecord {
+  _id?: any;
+  token: string;
+  userId: string;
+  userEmail: string;
+  userName: string;
+  userAvatar?: string;
+  role: UserRole;
+  createdAt: string | Date;
+  lastActiveAt: string | Date;
+  expiresAt: string | Date;
+  isRevoked: boolean;
+  userAgent?: string;
+  ip?: string;
+}
+
+export type FeedbackVote = "UP" | "DOWN";
+
+export interface ProductFeedbackRecord {
+  _id?: any;
+  productId: string;
+  userId: string;
+  userName: string;
+  userEmail?: string;
+  vote: FeedbackVote;
+  createdAt: string | Date;
+  updatedAt: string | Date;
+}
+
+export type FeedbackAuditAction = "UPDATE" | "DELETE" | "BULK_DELETE" | "CLEAR_PRODUCT";
+
+export interface ProductFeedbackAuditRecord {
+  _id?: any;
+  feedbackId?: string;
+  productId: string;
+  adminUserId: string;
+  adminIdentifier?: string;
+  action: FeedbackAuditAction;
+  previousVote?: FeedbackVote;
+  newVote?: FeedbackVote | null;
+  reason?: string;
+  timestamp: string | Date;
+}
+
+export type ProductReviewStatus =
+  | "NOT_REVIEWED"
+  | "UNDER_REVIEW"
+  | "VERIFIED"
+  | "CORRECTION_REQUIRED"
+  | "CORRECTED";
+
+export interface ProductFeedbackSummary {
+  productId: string;
+  thumbsUp: number;
+  thumbsDown: number;
+  totalVotes: number;
+  communityApproval: number;
+  notEnoughFeedback: boolean;
+  userVote: FeedbackVote | null;
+  reviewStatus?: ProductReviewStatus;
+}
+
+

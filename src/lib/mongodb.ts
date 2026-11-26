@@ -184,6 +184,28 @@ export async function ensureIndexes(db: Db): Promise<void> {
     const audit = db.collection("auditLogs");
     await audit.createIndex({ timestamp: -1 });
 
+    // Community Feedback Indexes
+    const feedback = db.collection("product_feedback");
+    await feedback.createIndex({ productId: 1, userId: 1 }, { unique: true });
+    await feedback.createIndex({ productId: 1 });
+    await feedback.createIndex({ userId: 1 });
+    await feedback.createIndex({ createdAt: -1 });
+
+    const feedbackAudit = db.collection("product_feedback_audit");
+    await feedbackAudit.createIndex({ productId: 1 });
+    await feedbackAudit.createIndex({ feedbackId: 1 });
+    await feedbackAudit.createIndex({ timestamp: -1 });
+
+    // Authentication: Users & Sessions Indexes
+    const users = db.collection("users");
+    await users.createIndex({ googleId: 1 }, { unique: true, sparse: true });
+    await users.createIndex({ email: 1 }, { unique: true });
+
+    const sessions = db.collection("sessions");
+    await sessions.createIndex({ token: 1 }, { unique: true });
+    await sessions.createIndex({ userId: 1 });
+    await sessions.createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 }); // MongoDB automatic TTL cleanup
+
     console.log("[MongoDB] Collections and indexes verified successfully.");
   } catch (error) {
     console.warn("[MongoDB] Index setup encountered an issue (may already exist):", (error as Error).message);

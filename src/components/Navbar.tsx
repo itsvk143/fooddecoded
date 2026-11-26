@@ -14,12 +14,15 @@ import {
   X,
   ArrowRight,
   Database,
+  LogIn,
+  LogOut,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { LeftDrawer } from "./LeftDrawer";
 import { ProductImage } from "./ProductImage";
 import { InstallAppButton } from "./InstallAppButton";
 import { usePwaCache } from "@/hooks/usePwaCache";
+import { useAuth } from "@/hooks/useAuth";
 
 interface QuickSearchResult {
   id: string;
@@ -40,6 +43,7 @@ export function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const { openDiagnosticsModal } = usePwaCache();
+  const { user, isAuthenticated, openLoginModal, logout } = useAuth();
 
   // Close mobile search and dropdown on route change
   useEffect(() => {
@@ -218,10 +222,82 @@ export function Navbar() {
               );
             })}
           </nav>
+
+          {/* User Profile / Google Sign-In */}
+          {isAuthenticated && user ? (
+            <div className="flex items-center gap-1 pl-2 border-l border-stone-200 dark:border-stone-800">
+              <div
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-stone-100 dark:bg-stone-800 text-xs font-semibold text-stone-800 dark:text-stone-200"
+                title={`${user.name} (${user.email})`}
+              >
+                {user.profilePicture ? (
+                  <img
+                    src={user.profilePicture}
+                    alt={user.name}
+                    className="w-5 h-5 rounded-full object-cover"
+                  />
+                ) : (
+                  <div className="w-5 h-5 rounded-full bg-emerald-500 text-white font-black text-[10px] flex items-center justify-center">
+                    {user.name?.charAt(0)?.toUpperCase() || "U"}
+                  </div>
+                )}
+                <span className="max-w-[70px] truncate hidden xl:inline text-xs font-bold">
+                  {user.name.split(" ")[0]}
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => logout()}
+                className="p-2 text-stone-400 hover:text-rose-500 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+                title="Sign Out"
+              >
+                <LogOut className="w-4 h-4" />
+              </button>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => openLoginModal()}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 transition-colors cursor-pointer ml-1"
+              title="Sign in with Google"
+            >
+              <LogIn className="w-3.5 h-3.5 text-emerald-500" />
+              <span>Sign in</span>
+            </button>
+          )}
         </div>
 
-        {/* Mobile quick actions: Search toggle, Install App & Scanner */}
+        {/* Mobile quick actions: Search toggle, User/Login, Install App & Scanner */}
         <div className="flex md:hidden items-center gap-1.5">
+          {isAuthenticated && user ? (
+            <button
+              type="button"
+              onClick={() => logout()}
+              className="p-1 rounded-xl text-stone-600 dark:text-stone-300"
+              title={`Sign out (${user.name})`}
+            >
+              {user.profilePicture ? (
+                <img
+                  src={user.profilePicture}
+                  alt={user.name}
+                  className="w-7 h-7 rounded-full object-cover ring-2 ring-emerald-500/40"
+                />
+              ) : (
+                <div className="w-7 h-7 rounded-full bg-emerald-500 text-white font-black text-xs flex items-center justify-center">
+                  {user.name?.charAt(0)?.toUpperCase() || "U"}
+                </div>
+              )}
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => openLoginModal()}
+              className="p-2 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+              title="Sign in with Google"
+            >
+              <LogIn className="w-4 h-4 text-emerald-500" />
+            </button>
+          )}
           <button
             type="button"
             onClick={() => {

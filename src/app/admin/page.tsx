@@ -25,6 +25,8 @@ import {
   Tag,
   Merge,
   Sparkles,
+  ThumbsUp,
+  MessageSquare,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ProductItem } from "@/types";
@@ -36,6 +38,7 @@ import { BulkEditModal } from "@/components/admin/BulkEditModal";
 import { DuplicatesModal } from "@/components/admin/DuplicatesModal";
 import { CategoryManagementView } from "@/components/admin/CategoryManagementView";
 import { ProductDataQualityDashboard } from "@/components/admin/ProductDataQualityDashboard";
+import { ProductFeedbackManagement } from "@/components/admin/ProductFeedbackManagement";
 
 export default function AdminDashboardPage() {
   const [adminKey, setAdminKey] = useState("fooddecode_admin_secret_key_change_in_production");
@@ -44,7 +47,7 @@ export default function AdminDashboardPage() {
 
   // Active Navigation Tab
   const [activeTab, setActiveTab] = useState<
-    "overview" | "quality" | "products" | "categories" | "duplicates" | "submissions" | "ingredients" | "import" | "rules" | "logs"
+    "overview" | "quality" | "products" | "categories" | "duplicates" | "feedback" | "submissions" | "ingredients" | "import" | "rules" | "logs"
   >("overview");
 
   // State data
@@ -601,6 +604,7 @@ export default function AdminDashboardPage() {
           { id: "products", label: `All Products (${catalogStats?.totalProducts || 175})`, icon: Layers },
           { id: "categories", label: `Categories & Subcategories (${categories.length})`, icon: Layers },
           { id: "duplicates", label: `Duplicates (${catalogStats?.potentialDuplicates || 0})`, icon: Copy },
+          { id: "feedback", label: "Community Feedback", icon: ThumbsUp },
           { id: "import", label: "Import / Export", icon: FileSpreadsheet },
           { id: "submissions", label: `Submissions (${stats?.pendingSubmissions || 0})`, icon: Clock },
           { id: "ingredients", label: `Ingredient Intelligence (${customIngredients.length})`, icon: Sparkles },
@@ -834,6 +838,14 @@ export default function AdminDashboardPage() {
             />
           </div>
         </div>
+      )}
+
+      {/* TAB: COMMUNITY FEEDBACK & VERIFICATION MANAGEMENT */}
+      {activeTab === "feedback" && (
+        <ProductFeedbackManagement
+          adminKey={adminKey}
+          onNotify={(msg) => setStatusMessage(msg)}
+        />
       )}
 
       {/* TAB 6: SUBMISSIONS */}

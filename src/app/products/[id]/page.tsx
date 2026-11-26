@@ -8,6 +8,7 @@ import { NutritionTable } from "@/components/NutritionTable";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductImage } from "@/components/ProductImage";
 import { ProductViewTracker } from "@/components/ProductViewTracker";
+import { ProductFeedbackSection } from "@/components/ProductFeedbackSection";
 import {
   CheckCircle2,
   AlertTriangle,
@@ -312,6 +313,12 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
           </div>
         </section>
       )}
+
+      {/* Community Product Feedback & Verification */}
+      <ProductFeedbackSection
+        productId={product.id || (product as any)._id?.toString() || product.barcode}
+        productName={product.name}
+      />
     </div>
   );
 }
