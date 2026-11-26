@@ -1,5 +1,5 @@
 import { ObjectId, Filter } from "mongodb";
-import { unstable_cache } from "next/cache";
+import { unstable_cache, revalidateTag } from "next/cache";
 import { getCollection, isMongoConfigured } from "./mongodb";
 import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission, SlimProductItem } from "@/types";
 import {
@@ -31,6 +31,13 @@ const CACHE_TTL_MS = 60 * 1000; // 60s TTL
 
 export function invalidateProductCache(): void {
   QUERY_CACHE.clear();
+  cachedSlimIndex = null;
+  try {
+    revalidateTag("products", "max");
+  } catch { }
+  try {
+    revalidateTag("products-catalog", "max");
+  } catch { }
 }
 
 export const CATEGORY_RESOLVER: Record<string, string | string[]> = {
@@ -260,7 +267,7 @@ export async function fetchSlimProductsIndex(): Promise<SlimProductItem[]> {
 export const getSlimProductsIndex = unstable_cache(
   async () => fetchSlimProductsIndex(),
   ["slim-products-catalogue-index"],
-  { revalidate: 120, tags: ["products"] }
+  { revalidate: 60, tags: ["products", "products-catalog"] }
 );
 
 function getInMemoryProducts(): ProductItem[] {
@@ -387,8 +394,8 @@ function normalizeDoc<T extends Record<string, any>>(doc: T): T {
       ? doc._id
       : doc._id.toString()
     : doc.id
-    ? String(doc.id)
-    : undefined;
+      ? String(doc.id)
+      : undefined;
 
   const plain: any = { ...doc };
   if (idStr) {
@@ -1160,6 +1167,7 @@ export async function archiveProduct(id: string, performedBy: string = "Admin"):
       },
       $push: { auditHistory: auditEntry as any },
     });
+    invalidateProductCache();
     return true;
   }
   const item = inMemoryProducts.find((p) => p._id === id || p.id === id || p.barcode === id);
@@ -1167,6 +1175,7 @@ export async function archiveProduct(id: string, performedBy: string = "Admin"):
     item.isArchived = true;
     item.archivedAt = now;
     item.updatedAt = now;
+    invalidateProductCache();
     return true;
   }
   return false;
@@ -1197,6 +1206,7 @@ export async function restoreProduct(id: string, performedBy: string = "Admin"):
       },
       $push: { auditHistory: auditEntry as any },
     });
+    invalidateProductCache();
     return true;
   }
   const item = inMemoryProducts.find((p) => p._id === id || p.id === id || p.barcode === id);
@@ -1204,6 +1214,7 @@ export async function restoreProduct(id: string, performedBy: string = "Admin"):
     item.isArchived = false;
     item.archivedAt = undefined;
     item.updatedAt = now;
+    invalidateProductCache();
     return true;
   }
   return false;
@@ -1277,6 +1288,7 @@ export async function updateProductMapping(
       $set: updateSet,
       $push: { auditHistory: auditEntry as any },
     });
+    invalidateProductCache();
     const updated = await col.findOne(query);
     return { success: true, product: updated ? normalizeDoc(updated) : undefined };
   }
@@ -1284,6 +1296,7 @@ export async function updateProductMapping(
   Object.assign(current, updateSet);
   if (!current.auditHistory) current.auditHistory = [];
   current.auditHistory.push(auditEntry);
+  invalidateProductCache();
   return { success: true, product: current };
 }
 
@@ -1392,6 +1405,7 @@ export async function bulkUpdateProducts(
     }
   }
 
+  invalidateProductCache();
   return { success: true, affectedCount: affected };
 }
 
@@ -1536,9 +1550,11 @@ export async function mergeProducts(
     });
 
     const updatedTarget = await col.findOne(targetQuery);
+    invalidateProductCache();
     return { success: true, target: updatedTarget ? normalizeDoc(updatedTarget) : undefined };
   }
 
+  invalidateProductCache();
   return { success: true, target: { ...target, ...mergedData } };
 }
 
@@ -1561,9 +1577,9 @@ export async function getCatalogManagementStats(): Promise<{
   const col = await getCollection<ProductItem>("products");
   const all: ProductItem[] = col
     ? (await col.find({}).project({
-        _id: 1, barcode: 1, name: 1, brand: 1, category: 1, subCategory: 1,
-        isArchived: 1, imageUrl: 1, imageStatus: 1, dataCompleteness: 1, ingredientsText: 1
-      }).toArray()).map((d) => normalizeDoc(d as unknown as ProductItem))
+      _id: 1, barcode: 1, name: 1, brand: 1, category: 1, subCategory: 1,
+      isArchived: 1, imageUrl: 1, imageStatus: 1, dataCompleteness: 1, ingredientsText: 1
+    }).toArray()).map((d) => normalizeDoc(d as unknown as ProductItem))
     : [...inMemoryProducts];
 
   const totalProducts = all.length;

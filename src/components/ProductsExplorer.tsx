@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useMemo, useRef, useCallback } from "react";
+import useSWR from "swr";
 import { ProductCard } from "@/components/ProductCard";
 import { SearchableCombobox, ComboboxOption } from "@/components/SearchableCombobox";
 import { ActiveFilterChips } from "@/components/ActiveFilterChips";
@@ -17,9 +18,16 @@ import {
   ChevronDown,
   RotateCcw,
   Activity,
-  HeartHandshake
+  HeartHandshake,
+  RefreshCw
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+const catalogFetcher = async (url: string): Promise<SlimProductItem[]> => {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("Failed to fetch product catalog");
+  return res.json();
+};
 
 interface ProductsExplorerProps {
   initialProducts: SlimProductItem[];
@@ -36,6 +44,62 @@ export function ProductsExplorer({
   initialParams = {},
   isDbConnected = true,
 }: ProductsExplorerProps) {
+  // --- 0. SWR Optimistic State with Background Sync ---
+  const [products, setProducts] = useState<SlimProductItem[]>(initialProducts);
+  const [syncToast, setSyncToast] = useState<{ visible: boolean; count: number } | null>(null);
+
+  // Fingerprint ref to track whether background catalog actually changed
+  const lastFingerprintRef = useRef<string>(
+    `${initialProducts.length}:${initialProducts[0]?.id || initialProducts[0]?._id || ""}:${
+      initialProducts[initialProducts.length - 1]?.id || initialProducts[initialProducts.length - 1]?._id || ""
+    }`
+  );
+
+  // SWR background revalidation hook with 0ms fallback hydration
+  const { data: remoteCatalog, isValidating, mutate } = useSWR<SlimProductItem[]>(
+    "/api/products/index",
+    catalogFetcher,
+    {
+      fallbackData: initialProducts,
+      revalidateOnFocus: true,
+      revalidateOnReconnect: true,
+      dedupingInterval: 5000,
+      keepPreviousData: true,
+    }
+  );
+
+  // Seamlessly swap in-memory products when remote catalog data updates
+  useEffect(() => {
+    if (!remoteCatalog || !Array.isArray(remoteCatalog) || remoteCatalog.length === 0) return;
+
+    const newFingerprint = `${remoteCatalog.length}:${remoteCatalog[0]?.id || remoteCatalog[0]?._id || ""}:${
+      remoteCatalog[remoteCatalog.length - 1]?.id || remoteCatalog[remoteCatalog.length - 1]?._id || ""
+    }`;
+
+    if (newFingerprint !== lastFingerprintRef.current) {
+      lastFingerprintRef.current = newFingerprint;
+      setProducts(remoteCatalog);
+      setSyncToast({
+        visible: true,
+        count: remoteCatalog.length,
+      });
+      const timer = setTimeout(() => {
+        setSyncToast((prev) => (prev ? { ...prev, visible: false } : null));
+      }, 3500);
+      return () => clearTimeout(timer);
+    }
+  }, [remoteCatalog]);
+
+  // Non-blocking background sync trigger on user interactions (throttled to at most once per 6s)
+  const lastInteractionSyncRef = useRef<number>(Date.now());
+  const triggerBackgroundSync = useCallback(() => {
+    const now = Date.now();
+    if (now - lastInteractionSyncRef.current > 6000) {
+      lastInteractionSyncRef.current = now;
+      mutate();
+    }
+  }, [mutate]);
+
   // --- 1. Filter States Initialized from URL params ---
   const [searchInput, setSearchInput] = useState(initialParams.q || "");
   const [debouncedQuery, setDebouncedQuery] = useState(initialParams.q || "");
@@ -146,9 +210,29 @@ export function ProductsExplorer({
     return () => window.removeEventListener("popstate", handlePopState);
   }, []);
 
+  // Trigger silent non-blocking background catalog sync when active filters change
+  useEffect(() => {
+    triggerBackgroundSync();
+  }, [
+    debouncedQuery,
+    selectedCategory,
+    selectedSubCategory,
+    selectedBrand,
+    selectedNutriScore,
+    selectedNovaGroup,
+    palmOilFreeOnly,
+    lowSugarOnly,
+    lowSodiumOnly,
+    verifiedOnly,
+    proteinRange,
+    sugarRange,
+    sortBy,
+    triggerBackgroundSync,
+  ]);
+
   // --- 4. High-Performance Client-Side In-Memory Filtering (0ms perceived lag) ---
   const filteredProducts = useMemo(() => {
-    let list = initialProducts;
+    let list = products;
 
     // 1. Text Search query
     if (debouncedQuery) {
@@ -265,7 +349,7 @@ export function ProductsExplorer({
 
     return sorted;
   }, [
-    initialProducts,
+    products,
     debouncedQuery,
     selectedCategory,
     selectedSubCategory,
@@ -290,7 +374,7 @@ export function ProductsExplorer({
     let lowSodium = 0;
     let verified = 0;
 
-    for (const p of initialProducts) {
+    for (const p of products) {
       if (p.category) catMap[p.category] = (catMap[p.category] || 0) + 1;
       if (p.brand) brandMap[p.brand] = (brandMap[p.brand] || 0) + 1;
       if (p.isPalmOilFree) palmFree++;
@@ -321,7 +405,7 @@ export function ProductsExplorer({
         verified,
       },
     };
-  }, [initialProducts, categories, brands]);
+  }, [products, categories, brands]);
 
   // Active filter count for badge
   const activeFilterCount = [
@@ -881,7 +965,7 @@ export function ProductsExplorer({
         <div className="flex-1 min-w-0 space-y-4">
           {/* Top Bar above Product Grid */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-2 border-b border-stone-200/80 dark:border-stone-800">
-            <div>
+            <div className="flex flex-wrap items-center gap-2.5">
               <p className="text-sm font-semibold text-stone-700 dark:text-stone-300">
                 Showing{" "}
                 <span className="text-emerald-600 dark:text-emerald-400 font-bold">
@@ -893,6 +977,17 @@ export function ProductsExplorer({
                 </span>{" "}
                 products matching criteria
               </p>
+              {isValidating ? (
+                <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
+                  <RefreshCw className="w-3 h-3 animate-spin" />
+                  <span>Syncing...</span>
+                </span>
+              ) : (
+                <span className="hidden sm:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>Instant 0ms Filter</span>
+                </span>
+              )}
             </div>
 
             {/* Sort Selector on Desktop */}
@@ -1013,6 +1108,23 @@ export function ProductsExplorer({
           )}
         </div>
       </div>
+
+      {/* Subtle non-blocking background catalog sync toast */}
+      {syncToast?.visible && (
+        <div className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-stone-900/90 dark:bg-stone-800/95 text-white shadow-xl backdrop-blur-md border border-stone-700/60 transition-all duration-300 animate-in fade-in slide-in-from-bottom-2">
+          <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+          <span className="text-xs font-semibold">
+            Catalog synced in background ({syncToast.count.toLocaleString()} products active)
+          </span>
+          <button
+            onClick={() => setSyncToast((prev) => (prev ? { ...prev, visible: false } : null))}
+            className="p-1 hover:bg-white/10 rounded-lg text-stone-400 hover:text-white cursor-pointer ml-1"
+            title="Dismiss"
+          >
+            <X className="w-3.5 h-3.5" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
