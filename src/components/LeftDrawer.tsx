@@ -46,6 +46,27 @@ export function LeftDrawer() {
   const handleNavigate = (e: React.MouseEvent, href: string) => {
     e.preventDefault();
     setPendingHref(href);
+
+    const qIndex = href.indexOf("?");
+    if (qIndex !== -1) {
+      const targetQuery = href.slice(qIndex + 1);
+      const targetParams = new URLSearchParams(targetQuery);
+      const cat = targetParams.get("category") || "All";
+      const sub = targetParams.get("subCategory") || "";
+
+      // Immediately set current search state so active navigation item highlights instantly (0ms)
+      setCurrentSearch("?" + targetQuery);
+
+      // Dispatch synchronous category change event for instant 0ms switching on ProductsExplorer
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(
+          new CustomEvent("fooddecode:category-change", {
+            detail: { category: cat, subCategory: sub },
+          })
+        );
+      }
+    }
+
     startTransition(() => {
       router.push(href);
       setIsOpen(false);

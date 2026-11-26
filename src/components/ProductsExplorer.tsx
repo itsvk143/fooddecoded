@@ -25,6 +25,7 @@ import {
 import { cn } from "@/lib/utils";
 import { prioritizeCategoryThumbnails } from "@/lib/pwa-cache/image-cache";
 import { getAllCachedProducts, getCachedProductsByCategory } from "@/lib/pwa-cache/indexed-db";
+import { getCategoryHeaderInfo } from "@/lib/category-header-helper";
 
 const catalogFetcher = async (url: string): Promise<SlimProductItem[]> => {
   const res = await fetch(url);
@@ -120,13 +121,13 @@ export function ProductsExplorer({
     "score" | "score-asc" | "name" | "name-desc" | "recent" | "verified"
   >((initialParams.sortBy as any) || "score");
 
-  // Keep search query synced with incoming URL query parameters (e.g. from Header Search)
-  useEffect(() => {
-    if (initialParams.q !== undefined && initialParams.q !== searchQuery) {
-      setSearchQuery(initialParams.q);
-      setVisibleCount(20);
-    }
-  }, [initialParams.q]);
+  // Category loading & transition state
+  const [isLoadingCategory, setIsLoadingCategory] = useState(false);
+
+  // Reliable API Request Management & Smart Category Cache refs
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const requestIdRef = useRef<number>(0);
+  const categoryCacheRef = useRef<Map<string, SlimProductItem[]>>(new Map());
 
   // Controls expandable state: default COLLAPSED (false) per user requirement
   const [isControlsExpanded, setIsControlsExpanded] = useState(false);
@@ -138,7 +139,191 @@ export function ProductsExplorer({
   // Sentinel ref for infinite scroll
   const sentinelRef = useRef<HTMLDivElement>(null);
 
-  // --- 2. URL Synchronization via window.history.replaceState (0ms lag, no server round-trip) ---
+  // --- Category API Request with AbortController & Race Condition Prevention ---
+  const fetchCategoryProducts = useCallback(async (cat: string) => {
+    if (!cat || cat === "All") return;
+
+    // Increment sequential request identifier
+    const currentReqId = ++requestIdRef.current;
+
+    // Abort any obsolete in-flight category fetch
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+
+    try {
+      const res = await fetch(`/api/products?category=${encodeURIComponent(cat)}&limit=100&full=false`, {
+        signal: controller.signal,
+      });
+
+      if (!res.ok) throw new Error("Failed to fetch category products");
+      const data = await res.json();
+      const fetched: SlimProductItem[] = Array.isArray(data)
+        ? data
+        : Array.isArray(data.products)
+        ? data.products
+        : [];
+
+      // Enforce: ONLY the latest selected category response can update product state
+      if (currentReqId === requestIdRef.current) {
+        if (fetched.length > 0) {
+          categoryCacheRef.current.set(cat, fetched);
+          setProducts((prev) => {
+            const existingIds = new Set(prev.map((p) => p.id || p._id || p.barcode));
+            const newItems = fetched.filter((p) => !existingIds.has(p.id || p._id || p.barcode));
+            return newItems.length > 0 ? [...prev, ...newItems] : prev;
+          });
+        }
+        setIsLoadingCategory(false);
+      }
+    } catch (err: any) {
+      if (err.name === "AbortError") {
+        // Obsolete request safely cancelled - do nothing
+        return;
+      }
+      console.warn("[Category Fetch] Note:", err?.message || err);
+      if (currentReqId === requestIdRef.current) {
+        setIsLoadingCategory(false);
+      }
+    }
+  }, []);
+
+  // --- Authoritative Category Switch Function ---
+  const handleCategorySwitch = useCallback(
+    (newCategory: string, newSubCategory: string = "", pushUrl: boolean = true) => {
+      const normalizedCat = newCategory || "All";
+      const normalizedSub = newSubCategory || "";
+
+      // 1. Immediately update authoritative category state & reset pagination
+      setSelectedCategory(normalizedCat);
+      setSelectedSubCategory(normalizedSub);
+      setVisibleCount(20);
+
+      // 2. Synchronize URL query parameter without full-page reloads
+      if (pushUrl && typeof window !== "undefined") {
+        const params = new URLSearchParams(window.location.search);
+        if (normalizedCat && normalizedCat !== "All") {
+          params.set("category", normalizedCat);
+        } else {
+          params.delete("category");
+        }
+        if (normalizedSub) {
+          params.set("subCategory", normalizedSub);
+        } else {
+          params.delete("subCategory");
+        }
+        const qs = params.toString();
+        const newUrl = qs ? `/products?${qs}` : "/products";
+        window.history.pushState(null, "", newUrl);
+      }
+
+      if (normalizedCat === "All") {
+        setIsLoadingCategory(false);
+        return;
+      }
+
+      // 3. Smart Category Cache: Check In-Memory Category Cache first (0ms instant)
+      const inMemoryCached = categoryCacheRef.current.get(normalizedCat);
+      if (inMemoryCached && inMemoryCached.length > 0) {
+        setIsLoadingCategory(false);
+        fetchCategoryProducts(normalizedCat);
+        return;
+      }
+
+      // 4. Smart Category Cache: Check In-Memory Slim Catalog (0ms instant)
+      const matchingLocal = products.filter((p) => {
+        const pCat = (p.category || "").toLowerCase().trim();
+        const pSlug = (p.categorySlug || "").toLowerCase().trim();
+        const target = normalizedCat.toLowerCase().trim();
+        return pCat === target || pSlug === target || pCat.includes(target) || target.includes(pCat);
+      });
+
+      if (matchingLocal.length > 0) {
+        categoryCacheRef.current.set(normalizedCat, matchingLocal);
+        setIsLoadingCategory(false);
+        fetchCategoryProducts(normalizedCat);
+        return;
+      }
+
+      // 5. If not in memory, show Skeletons immediately & check IndexedDB in parallel
+      setIsLoadingCategory(true);
+      const currentReqId = ++requestIdRef.current;
+
+      getCachedProductsByCategory(normalizedCat)
+        .then((idbCached) => {
+          if (currentReqId !== requestIdRef.current) return;
+          if (idbCached && idbCached.length > 0) {
+            categoryCacheRef.current.set(normalizedCat, idbCached);
+            setProducts((prev) => {
+              const existingIds = new Set(prev.map((p) => p.id || p._id || p.barcode));
+              const newItems = idbCached.filter((p) => !existingIds.has(p.id || p._id || p.barcode));
+              return newItems.length > 0 ? [...prev, ...newItems] : prev;
+            });
+            setIsLoadingCategory(false);
+          }
+          fetchCategoryProducts(normalizedCat);
+        })
+        .catch(() => {
+          fetchCategoryProducts(normalizedCat);
+        });
+    },
+    [products, fetchCategoryProducts]
+  );
+
+  // Synchronous Custom Event listener (dispatched from LeftDrawer at 0ms latency)
+  useEffect(() => {
+    const handleCategoryEvent = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (detail && detail.category !== undefined) {
+        handleCategorySwitch(detail.category, detail.subCategory || "", false);
+      }
+    };
+    window.addEventListener("fooddecode:category-change", handleCategoryEvent);
+    return () => window.removeEventListener("fooddecode:category-change", handleCategoryEvent);
+  }, [handleCategorySwitch]);
+
+  // Keep category in sync with server-side navigation prop updates
+  useEffect(() => {
+    if (initialParams.category !== undefined && initialParams.category !== selectedCategory) {
+      handleCategorySwitch(initialParams.category, initialParams.subCategory || "", false);
+    }
+  }, [initialParams.category, initialParams.subCategory, selectedCategory, handleCategorySwitch]);
+
+  // Keep search query synced with incoming URL query parameters
+  useEffect(() => {
+    if (initialParams.q !== undefined && initialParams.q !== searchQuery) {
+      setSearchQuery(initialParams.q);
+      setVisibleCount(20);
+    }
+  }, [initialParams.q, searchQuery]);
+
+  // Handle Browser Back / Forward buttons via popstate
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      setSearchQuery(params.get("q") || "");
+      const cat = params.get("category") || "All";
+      const sub = params.get("subCategory") || "";
+      setSelectedBrand(params.get("brand") || "All");
+      setSelectedNutriScore(params.get("nutriScore") || "All");
+      setSelectedNovaGroup(params.get("novaGroup") || "All");
+      setPalmOilFreeOnly(params.get("hasPalmOil") === "false");
+      setLowSugarOnly(params.get("lowSugar") === "true");
+      setLowSodiumOnly(params.get("lowSodium") === "true");
+      setVerifiedOnly(params.get("verifiedOnly") === "true");
+      setProteinRange(params.get("proteinRange") || "All");
+      setSugarRange(params.get("sugarRange") || "All");
+      setSortBy((params.get("sortBy") as any) || "score");
+      handleCategorySwitch(cat, sub, false);
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [handleCategorySwitch]);
+
+  // --- 2. URL Synchronization via window.history.replaceState for non-category filters ---
   const updateUrlParams = useCallback(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams();
@@ -202,30 +387,6 @@ export function ProductsExplorer({
     }
   }, [products.length, selectedCategory]);
 
-  // Handle Browser Back / Forward buttons via popstate
-  useEffect(() => {
-    const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      setSearchQuery(params.get("q") || "");
-      setSelectedCategory(params.get("category") || "All");
-      setSelectedSubCategory(params.get("subCategory") || "");
-      setSelectedBrand(params.get("brand") || "All");
-      setSelectedNutriScore(params.get("nutriScore") || "All");
-      setSelectedNovaGroup(params.get("novaGroup") || "All");
-      setPalmOilFreeOnly(params.get("hasPalmOil") === "false");
-      setLowSugarOnly(params.get("lowSugar") === "true");
-      setLowSodiumOnly(params.get("lowSodium") === "true");
-      setVerifiedOnly(params.get("verifiedOnly") === "true");
-      setProteinRange(params.get("proteinRange") || "All");
-      setSugarRange(params.get("sugarRange") || "All");
-      setSortBy((params.get("sortBy") as any) || "score");
-      setVisibleCount(20);
-    };
-
-    window.addEventListener("popstate", handlePopState);
-    return () => window.removeEventListener("popstate", handlePopState);
-  }, []);
-
   // Trigger silent non-blocking background catalog sync when active filters change
   useEffect(() => {
     triggerBackgroundSync();
@@ -271,11 +432,18 @@ export function ProductsExplorer({
 
     // 2. Category Filter
     if (selectedCategory && selectedCategory !== "All") {
-      const catLower = selectedCategory.toLowerCase();
+      const catLower = selectedCategory.toLowerCase().trim();
+      const catSlug = catLower.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
       list = list.filter((p) => {
-        const pCat = (p.category || "").toLowerCase();
-        const pSlug = (p.categorySlug || "").toLowerCase();
-        return pCat === catLower || pSlug === catLower;
+        const pCat = (p.category || "").toLowerCase().trim();
+        const pSlug = (p.categorySlug || "").toLowerCase().trim();
+        return (
+          pCat === catLower ||
+          pSlug === catLower ||
+          pSlug === catSlug ||
+          pCat.includes(catLower) ||
+          catLower.includes(pCat)
+        );
       });
     }
 
@@ -488,16 +656,33 @@ export function ProductsExplorer({
     return () => observer.disconnect();
   }, [hasMore, loadMore]);
 
-  // Category Title
-  const categoryHeaderTitle = useMemo(() => {
-    if (selectedCategory && selectedCategory !== "All") {
-      return `Explore ${selectedCategory}`;
-    }
-    return "Explore Food Products";
-  }, [selectedCategory]);
+  // Authoritative Category Heading & Description
+  const headerInfo = useMemo(() => {
+    return getCategoryHeaderInfo(selectedCategory, selectedSubCategory, filteredProducts.length);
+  }, [selectedCategory, selectedSubCategory, filteredProducts.length]);
 
   return (
     <div className="space-y-6">
+      {/* Directory Heading — Synchronized with Authoritative selectedCategory */}
+      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-1">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Searchable Food Database</span>
+          </div>
+          <h1 className="text-2xl sm:text-4xl font-black text-stone-900 dark:text-stone-50 tracking-tight leading-tight">
+            {headerInfo.title}
+          </h1>
+          <p className="text-sm text-stone-500 mt-1">{headerInfo.description}</p>
+        </div>
+
+        {!isDbConnected && process.env.NODE_ENV !== "production" && (
+          <div className="px-3.5 py-1.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-300 text-xs font-medium self-start sm:self-auto shrink-0">
+            ⚡ Demo Catalogue Mode · Connect MongoDB Atlas in .env.local to persist changes
+          </div>
+        )}
+      </div>
+
       {/* 1. Collapsible Control Header: Product Count + Expandable Filters & Sorting Button */}
       <div className="bg-white dark:bg-stone-900 rounded-3xl border border-stone-200/90 dark:border-stone-800 p-3 sm:p-4 shadow-2xs transition-all">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -711,9 +896,7 @@ export function ProductsExplorer({
                     value={selectedCategory}
                     options={categoryOptions}
                     onChange={(val) => {
-                      setSelectedCategory(val);
-                      setSelectedSubCategory("");
-                      setVisibleCount(20);
+                      handleCategorySwitch(val, "", true);
                     }}
                   />
 
@@ -864,14 +1047,11 @@ export function ProductsExplorer({
           }}
           selectedCategory={selectedCategory}
           onClearCategory={() => {
-            setSelectedCategory("All");
-            setSelectedSubCategory("");
-            setVisibleCount(20);
+            handleCategorySwitch("All", "", true);
           }}
           selectedSubCategory={selectedSubCategory}
           onClearSubCategory={() => {
-            setSelectedSubCategory("");
-            setVisibleCount(20);
+            handleCategorySwitch(selectedCategory, "", true);
           }}
           selectedBrand={selectedBrand}
           onClearBrand={() => {
@@ -904,9 +1084,48 @@ export function ProductsExplorer({
         />
       )}
 
-      {/* 3. Product Listing Grid (Clean, Full-Width) */}
+      {/* 3. Product Listing Grid (Clean, Full-Width with Skeletons & Transitions) */}
       <div className="space-y-4">
-        {visibleProducts.length === 0 ? (
+        {isLoadingCategory ? (
+          /* High-Fidelity Skeletons while switching categories */
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 animate-pulse">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div
+                key={i}
+                className="flex flex-col justify-between rounded-3xl border border-stone-200/90 dark:border-stone-800 p-3 sm:p-4 bg-white dark:bg-stone-900 shadow-2xs"
+              >
+                <div>
+                  <div className="flex items-start justify-between gap-2 mb-3">
+                    <div className="space-y-1.5 flex-1 min-w-0">
+                      <div className="h-3 w-16 bg-stone-200 dark:bg-stone-800 rounded-lg" />
+                      <div className="h-2.5 w-24 bg-stone-100 dark:bg-stone-800/60 rounded-md" />
+                    </div>
+                    <div className="w-9 h-9 rounded-xl bg-stone-200 dark:bg-stone-800 shrink-0" />
+                  </div>
+
+                  <div className="w-full h-40 bg-stone-100 dark:bg-stone-800/80 rounded-2xl mb-3 flex items-center justify-center border border-stone-100 dark:border-stone-700/50">
+                    <div className="w-10 h-10 rounded-lg bg-stone-200 dark:bg-stone-700/60" />
+                  </div>
+
+                  <div className="space-y-2 mb-3">
+                    <div className="h-3.5 w-full bg-stone-200 dark:bg-stone-800 rounded-md" />
+                    <div className="h-3.5 w-2/3 bg-stone-200 dark:bg-stone-800 rounded-md" />
+                  </div>
+
+                  <div className="flex gap-1.5">
+                    <div className="h-5 w-16 bg-stone-100 dark:bg-stone-800 rounded-full" />
+                    <div className="h-5 w-20 bg-stone-100 dark:bg-stone-800 rounded-full" />
+                  </div>
+                </div>
+
+                <div className="pt-3 mt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between">
+                  <div className="h-5 w-16 bg-stone-200 dark:bg-stone-800 rounded-lg" />
+                  <div className="h-5 w-14 bg-stone-200 dark:bg-stone-800 rounded-lg" />
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : visibleProducts.length === 0 ? (
           <div className="p-12 text-center rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
             <div className="w-12 h-12 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mx-auto text-stone-400">
               <Search className="w-6 h-6" />
@@ -926,7 +1145,7 @@ export function ProductsExplorer({
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 animate-in fade-in duration-200">
             {visibleProducts.map((p, index) => (
               <ProductCard
                 key={p.id || p._id || p.barcode}
