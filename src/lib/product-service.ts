@@ -148,7 +148,7 @@ export const getSlimProductsIndex = unstable_cache(
   { revalidate: 60, tags: ["products", "products-catalog"] }
 );
 
-function getInMemoryProducts(): ProductItem[] {
+export function getInMemoryProducts(): ProductItem[] {
   if (process.env.NODE_ENV !== "production") {
     return generateSeedProducts();
   }

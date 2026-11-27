@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getProductById, saveProduct, deleteProduct } from "@/lib/product-service";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { logAuditEvent } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
@@ -33,9 +33,9 @@ export async function PUT(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {
@@ -70,9 +70,9 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {

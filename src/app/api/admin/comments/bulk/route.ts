@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCollection, isMongoConfigured } from "@/lib/mongodb";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { ProductCommentRecord, ProductCommentAuditRecord, ProductCommentStatus, CommentAuditAction } from "@/types";
 import { ObjectId } from "mongodb";
 import { inMemoryComments, inMemoryCommentAudit } from "@/lib/comments-store";
@@ -12,9 +12,9 @@ export const dynamic = "force-dynamic";
  * Allows administrators to bulk approve, reject, flag, or delete comments.
  */
 export async function POST(request: NextRequest) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {

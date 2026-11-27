@@ -31,13 +31,13 @@ export function GoogleAuthModal({
     try {
       const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
 
-      // If Google Client ID is configured in client environment, try standard Google redirect
-      if (clientId) {
+      // Redirect to server-side Google OAuth 2.0 flow
+      if (clientId || process.env.NODE_ENV === "production") {
         window.location.href = `/api/auth/google?returnUrl=${encodeURIComponent(returnUrl)}`;
         return;
       }
 
-      // Otherwise, use direct server-verified session creation
+      // Development-only non-admin fallback when OAuth credentials are unset locally
       const res = await fetch("/api/auth/google/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

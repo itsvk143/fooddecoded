@@ -10,12 +10,14 @@ import React, {
 } from "react";
 import { GoogleAuthModal } from "./GoogleAuthModal";
 
+import { UserRole } from "@/types";
+
 export interface AuthUser {
   id: string;
   email: string;
   name: string;
   profilePicture?: string;
-  role: "USER" | "ADMIN";
+  role: UserRole;
 }
 
 interface AuthContextType {

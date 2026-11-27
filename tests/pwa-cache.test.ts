@@ -90,6 +90,10 @@ test("Offline Cache Engine: Public UI Separation & Admin Access Control Verifica
   const navbarContent = fs.readFileSync(path.join(process.cwd(), "src/components/Navbar.tsx"), "utf-8");
   const providerContent = fs.readFileSync(path.join(process.cwd(), "src/components/PwaCacheProvider.tsx"), "utf-8");
   const adminPageContent = fs.readFileSync(path.join(process.cwd(), "src/app/admin/page.tsx"), "utf-8");
+  const adminClientContent = fs.readFileSync(
+    path.join(process.cwd(), "src/components/admin/AdminDashboardClient.tsx"),
+    "utf-8"
+  );
   const adminPanelContent = fs.readFileSync(
     path.join(process.cwd(), "src/components/admin/OfflineCacheAdminPanel.tsx"),
     "utf-8"
@@ -161,7 +165,9 @@ test("Offline Cache Engine: Public UI Separation & Admin Access Control Verifica
     const resyncBody = await resResync.json();
     assert.equal(resyncBody.action, "resync");
 
-    assert.ok(adminPageContent.includes("OfflineCacheAdminPanel"), "Admin dashboard must host OfflineCacheAdminPanel");
+    assert.ok(adminPageContent.includes("AdminDashboardClient"), "Admin page must render AdminDashboardClient only after server auth");
+    assert.ok(adminPageContent.includes("isAdminRole"), "Admin page must enforce server-side admin role verification");
+    assert.ok(adminClientContent.includes("OfflineCacheAdminPanel"), "Admin dashboard must host OfflineCacheAdminPanel");
     assert.ok(
       adminPanelContent.includes("Clear Offline Data") && adminPanelContent.includes("Re-sync Now"),
       "Admin Offline Cache Engine must retain Clear Offline Data & Re-sync Now controls"

@@ -12,7 +12,12 @@ export async function GET(request: NextRequest) {
   if (stateRaw) {
     try {
       const parsed = JSON.parse(Buffer.from(stateRaw, "base64").toString("utf8"));
-      if (parsed.returnUrl && parsed.returnUrl.startsWith("/")) {
+      if (
+        typeof parsed.returnUrl === "string" &&
+        parsed.returnUrl.startsWith("/") &&
+        !parsed.returnUrl.startsWith("//") &&
+        !parsed.returnUrl.includes("://")
+      ) {
         returnUrl = parsed.returnUrl;
       }
     } catch {}
@@ -24,7 +29,7 @@ export async function GET(request: NextRequest) {
 
   const clientId = process.env.GOOGLE_CLIENT_ID || process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || new URL(request.url).origin;
   const redirectUri = `${baseUrl}/api/auth/google/callback`;
 
   if (!clientId || !clientSecret) {
@@ -64,7 +69,11 @@ export async function GET(request: NextRequest) {
 
     const profile = await userinfoRes.json();
 
-    // 3. Upsert user in database (guaranteed USER role)
+    if (!profile.sub || !profile.email || profile.email_verified === false) {
+      throw new Error("Google account email could not be verified");
+    }
+
+    // 3. Upsert user in database (only server-side allowlist grants admin role)
     const user = await upsertGoogleUser({
       id: profile.sub,
       email: profile.email,

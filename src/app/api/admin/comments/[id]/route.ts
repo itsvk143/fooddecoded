@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCollection, isMongoConfigured } from "@/lib/mongodb";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { ProductCommentRecord, ProductCommentAuditRecord, ProductCommentStatus, CommentAuditAction } from "@/types";
 import { ObjectId } from "mongodb";
 import { inMemoryComments, inMemoryCommentAudit } from "@/lib/comments-store";
@@ -17,9 +17,9 @@ interface RouteContext {
  * Maintains immutable audit logs in product_comment_audit.
  */
 export async function PATCH(request: NextRequest, context: RouteContext) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {
@@ -160,9 +160,9 @@ export async function PATCH(request: NextRequest, context: RouteContext) {
  * Allows administrators to delete inappropriate comments with an audit record.
  */
 export async function DELETE(request: NextRequest, context: RouteContext) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {

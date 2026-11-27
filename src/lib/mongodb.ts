@@ -157,6 +157,10 @@ export async function ensureIndexes(db: Db): Promise<void> {
     await products.createIndex({ hasPalmOil: 1, overallScore: -1 });
     await products.createIndex({ category: 1, hasPalmOil: 1, overallScore: -1 });
     await products.createIndex({ brand: 1, overallScore: -1 });
+    await products.createIndex({ brand: 1, category: 1 });
+    await products.createIndex({ brand: 1, isArchived: 1 });
+    await products.createIndex({ brand: 1, dataCompleteness: 1 });
+    await products.createIndex({ brand: 1, imageStatus: 1 });
     await products.createIndex({ nutriScore: 1, overallScore: -1 });
     await products.createIndex({ verified: 1, overallScore: -1 });
     await products.createIndex({ searchTags: 1, overallScore: -1 });

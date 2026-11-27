@@ -2,16 +2,22 @@ import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
 
+function sanitizeReturnUrl(raw: string | null): string {
+  if (!raw || !raw.startsWith("/") || raw.startsWith("//") || raw.includes("://")) {
+    return "/";
+  }
+  return raw;
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const returnUrl = searchParams.get("returnUrl") || "/";
+  const returnUrl = sanitizeReturnUrl(searchParams.get("returnUrl"));
 
   const clientId = process.env.GOOGLE_CLIENT_ID || process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || new URL(request.url).origin;
   const redirectUri = `${baseUrl}/api/auth/google/callback`;
 
   if (!clientId) {
-    // If no client ID configured yet, redirect back to returnUrl with notice
     return NextResponse.redirect(
       new URL(`${returnUrl}?auth_error=google_client_id_not_configured`, request.url)
     );

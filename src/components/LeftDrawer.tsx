@@ -742,17 +742,17 @@ export function LeftDrawer() {
                       <PlusCircle className="w-4 h-4 text-cyan-500" />
                       <span>Submit New Food Product</span>
                     </Link>
-                    <Link
-                      href="/admin"
-                      prefetch={true}
-                      onClick={(e) => handleNavigate(e, "/admin")}
-                      onMouseEnter={() => router.prefetch("/admin")}
-                      onTouchStart={() => router.prefetch("/admin")}
-                      className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
-                    >
-                      <ShieldAlert className="w-4 h-4 text-rose-500" />
-                      <span>Admin Control Dashboard</span>
-                    </Link>
+                    {isAuthenticated && (user?.role === "ADMIN" || user?.role === "SUPER_ADMIN") && (
+                      <Link
+                        href="/admin"
+                        prefetch={false}
+                        onClick={(e) => handleNavigate(e, "/admin")}
+                        className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-stone-100 dark:hover:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300"
+                      >
+                        <ShieldAlert className="w-4 h-4 text-rose-500" />
+                        <span>Admin Control Dashboard</span>
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>

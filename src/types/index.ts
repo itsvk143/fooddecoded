@@ -302,7 +302,7 @@ export interface ImportJob {
 export interface AuditLog {
   _id?: string;
   action: string;
-  entityType: "product" | "ingredient" | "rule" | "import" | "submission" | "category" | "brand";
+  entityType: "product" | "ingredient" | "rule" | "import" | "submission" | "category" | "brand" | "auth";
   entityId?: string;
   performedBy: string;
   details: string;
@@ -349,7 +349,7 @@ export interface SlimProductItem {
 // Community Product Feedback & Authentication
 // ==========================================
 
-export type UserRole = "USER" | "ADMIN";
+export type UserRole = "USER" | "VIEWER" | "EDITOR" | "ADMIN" | "SUPER_ADMIN";
 
 export interface UserRecord {
   _id?: any;

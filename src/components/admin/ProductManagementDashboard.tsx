@@ -3,18 +3,11 @@
 import React from "react";
 import {
   Package,
-  Layers,
-  AlertOctagon,
   Image as ImageIcon,
   CheckCircle2,
-  Clock,
-  Archive,
   Copy,
   Plus,
-  ExternalLink,
-  Tag,
   ArrowUpRight,
-  TrendingUp,
 } from "lucide-react";
 
 interface DashboardStats {
@@ -34,7 +27,7 @@ interface DashboardStats {
 interface ProductManagementDashboardProps {
   stats: DashboardStats | null;
   loading: boolean;
-  onNavigateTab: (tab: string, filter?: any) => void;
+  onNavigateTab: (tab: string, filter?: Record<string, unknown>) => void;
   onAddNewProduct: () => void;
 }
 
@@ -256,6 +249,13 @@ export function ProductManagementDashboard({
               </h3>
               <p className="text-[11px] text-stone-500">Highest catalogue density</p>
             </div>
+            <button
+              type="button"
+              onClick={() => onNavigateTab("brands")}
+              className="text-xs font-bold text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer"
+            >
+              Complete Directory →
+            </button>
           </div>
 
           <div className="space-y-2.5 pt-2">

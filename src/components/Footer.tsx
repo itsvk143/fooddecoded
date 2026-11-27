@@ -48,11 +48,6 @@ export function Footer() {
                   Submit Food Product
                 </Link>
               </li>
-              <li>
-                <Link href="/admin" className="hover:text-emerald-600 dark:hover:text-emerald-400">
-                  Admin Dashboard
-                </Link>
-              </li>
             </ul>
           </div>
 

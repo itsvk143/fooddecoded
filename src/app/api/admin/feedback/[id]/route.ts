@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCollection, isMongoConfigured } from "@/lib/mongodb";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { ProductFeedbackRecord, ProductFeedbackAuditRecord, FeedbackVote } from "@/types";
 import { ObjectId } from "mongodb";
 
@@ -11,9 +11,9 @@ interface RouteContext {
 }
 
 export async function PATCH(request: NextRequest, context: RouteContext) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {
@@ -85,9 +85,9 @@ export async function PATCH(request: NextRequest, context: RouteContext) {
 }
 
 export async function DELETE(request: NextRequest, context: RouteContext) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {

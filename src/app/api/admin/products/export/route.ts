@@ -1,14 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCollection } from "@/lib/mongodb";
 import { ProductItem } from "@/types";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
+import { logAuditEvent } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   const { searchParams } = new URL(request.url);
@@ -22,7 +23,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Database not connected" }, { status: 500 });
   }
 
-  const filter: any = {};
+  const filter: Record<string, unknown> = {};
   if (status === "active") filter.isArchived = { $ne: true };
   if (status === "archived") filter.isArchived = true;
   if (category && category !== "All") filter.category = category;
@@ -62,7 +63,7 @@ export async function GET(request: NextRequest) {
     "Ingredients Text",
   ];
 
-  const escapeCSV = (val: any) => {
+  const escapeCSV = (val: unknown) => {
     if (val === undefined || val === null) return '""';
     const str = String(val).replace(/"/g, '""');
     return `"${str}"`;
@@ -93,6 +94,14 @@ export async function GET(request: NextRequest) {
   ]);
 
   const csvContent = [headers.join(","), ...rows.map((r) => r.join(","))].join("\n");
+
+  await logAuditEvent({
+    action: "ADMIN_EXPORT_CSV",
+    entityType: "product",
+    entityId: `count_${rows.length}`,
+    performedBy: auth.adminIdentifier,
+    details: `Exported ${rows.length} products to CSV (status=${status}, category=${category || "All"})`,
+  });
 
   return new NextResponse(csvContent, {
     status: 200,

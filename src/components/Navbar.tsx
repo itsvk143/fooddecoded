@@ -89,12 +89,15 @@ export function Navbar() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
+  const isAdmin =
+    isAuthenticated && (user?.role === "ADMIN" || user?.role === "SUPER_ADMIN");
+
   const navLinks = [
     { href: "/products", label: "Directory", icon: Layers },
     { href: "/scan", label: "Scanner", icon: ScanLine },
     { href: "/compare", label: "Compare", icon: Sparkles },
     { href: "/submit", label: "Submit", icon: PlusCircle },
-    { href: "/admin", label: "Admin", icon: ShieldAlert },
+    ...(isAdmin ? [{ href: "/admin", label: "Admin", icon: ShieldAlert }] : []),
   ];
 
   return (

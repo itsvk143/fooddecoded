@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { upsertGoogleUser, createSession } from "@/lib/session";
+import { upsertGoogleUser, createSession, isAdminEmail } from "@/lib/session";
 
 export const dynamic = "force-dynamic";
 
@@ -16,33 +16,64 @@ export async function POST(request: NextRequest) {
     } | null = null;
 
     if (credential && typeof credential === "string") {
-      // Decode Google JWT ID token payload
-      const parts = credential.split(".");
-      if (parts.length === 3) {
-        const payloadJson = Buffer.from(parts[1], "base64").toString("utf8");
-        const payload = JSON.parse(payloadJson);
-
-        if (!payload.sub || !payload.email) {
-          return NextResponse.json(
-            { error: "Invalid Google credential token payload" },
-            { status: 400 }
-          );
-        }
-
-        googleProfile = {
-          id: payload.sub,
-          email: payload.email,
-          name: payload.name || payload.email.split("@")[0],
-          picture: payload.picture,
-        };
+      // Verify Google ID Token cryptographically via Google tokeninfo endpoint
+      const verifyUrl = `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`;
+      const tokenRes = await fetch(verifyUrl, { cache: "no-store" });
+      if (!tokenRes.ok) {
+        return NextResponse.json(
+          { error: "Invalid or expired Google ID token." },
+          { status: 401 }
+        );
       }
+
+      const payload = await tokenRes.json();
+      const expectedAud = process.env.GOOGLE_CLIENT_ID || process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+      const validIssuers = new Set(["accounts.google.com", "https://accounts.google.com"]);
+
+      if (
+        !payload.sub ||
+        !payload.email ||
+        (payload.email_verified !== true && payload.email_verified !== "true") ||
+        (payload.iss && !validIssuers.has(payload.iss)) ||
+        (expectedAud && payload.aud !== expectedAud) ||
+        (payload.exp && Number(payload.exp) * 1000 <= Date.now())
+      ) {
+        return NextResponse.json(
+          { error: "Google token verification failed security checks." },
+          { status: 401 }
+        );
+      }
+
+      googleProfile = {
+        id: String(payload.sub),
+        email: String(payload.email),
+        name: String(payload.name || String(payload.email).split("@")[0]),
+        picture: payload.picture ? String(payload.picture) : undefined,
+      };
     } else if (demoUser || profile) {
-      // Local development / demo fallback for testing before production Google credentials are set
+      // Strictly prohibit demo/mock sign-in in production OR for any admin email
+      if (process.env.NODE_ENV === "production") {
+        return NextResponse.json(
+          { error: "Direct profile authentication is disabled in production. Use Google OAuth." },
+          { status: 403 }
+        );
+      }
+
+      const targetEmail = String(profile?.email || "community.tester@example.com").toLowerCase().trim();
+      if (isAdminEmail(targetEmail)) {
+        return NextResponse.json(
+          { error: "Forbidden: Administrator accounts cannot authenticate via demo fallback." },
+          { status: 403 }
+        );
+      }
+
       googleProfile = {
         id: profile?.id || "google_user_demo_108293810293",
-        email: profile?.email || "community.tester@example.com",
+        email: targetEmail,
         name: profile?.name || "Verified Community Member",
-        picture: profile?.picture || "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+        picture:
+          profile?.picture ||
+          "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
       };
     }
 
@@ -53,13 +84,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // 1. Identify or register FoodDecode user (Always USER role)
     const user = await upsertGoogleUser(googleProfile);
+    const { cookieHeader } = await createSession(user, request);
 
-    // 2. Create persistent server session (30-day duration)
-    const { session, cookieHeader } = await createSession(user, request);
-
-    // 3. Return authenticated user and set persistent HTTP-only cookie
     const response = NextResponse.json({
       success: true,
       user: {
