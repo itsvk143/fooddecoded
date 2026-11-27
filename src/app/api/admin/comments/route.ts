@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCollection, isMongoConfigured } from "@/lib/mongodb";
-import { verifyAdminAccess } from "@/lib/auth";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { ProductCommentRecord, ProductCommentStatus } from "@/types";
 import { ObjectId } from "mongodb";
 import { inMemoryComments } from "@/lib/comments-store";
@@ -12,9 +12,9 @@ export const dynamic = "force-dynamic";
  * Admin endpoint to list, filter, search, and paginate comments.
  */
 export async function GET(request: NextRequest) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {

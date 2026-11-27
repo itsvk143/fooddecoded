@@ -1,5 +1,6 @@
 import { SlimProductItem, ProductItem } from "@/types";
 import { mapToSlimProduct } from "@/lib/product-mapper";
+import { matchesProductCategory } from "@/lib/category-matcher";
 
 export const DB_NAME = "fooddecode_cache_db";
 export const DB_VERSION = 1;
@@ -56,7 +57,7 @@ export function getIDB(): Promise<IDBDatabase> {
   dbPromise = new Promise<IDBDatabase>((resolve, reject) => {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
 
-    request.onupgradeneeded = (event) => {
+    request.onupgradeneeded = () => {
       const db = request.result;
 
       // 1. Products store
@@ -185,17 +186,13 @@ export async function getCachedProductsByCategory(categoryOrSlug: string): Promi
       const request = index.getAll(IDBKeyRange.only(trimmed));
 
       request.onsuccess = () => {
-        let results = request.result as CachedProductRecord[];
-        if ((!results || results.length === 0) && isSlug) {
-          // Fallback: search all products if slug didn't match exact index
+        const results = request.result as CachedProductRecord[];
+        if (!results || results.length === 0) {
+          // Fallback: resolve canonical category aliases & slugs across all cached records
           const allReq = store.getAll();
           allReq.onsuccess = () => {
-            const all = allReq.result as CachedProductRecord[];
-            const matched = all.filter(
-              (p) =>
-                p.categorySlug === trimmed ||
-                p.category?.toLowerCase().replace(/[^a-z0-9]+/g, "-") === trimmed
-            );
+            const all = (allReq.result as CachedProductRecord[]) || [];
+            const matched = all.filter((p) => matchesProductCategory(p, trimmed));
             matched.sort((a, b) => (b.overallScore || 0) - (a.overallScore || 0));
             resolve(matched);
           };
@@ -341,7 +338,7 @@ export async function getAllCachedCategories(): Promise<CachedCategoryRecord[]> 
 /**
  * Get meta value from IndexedDB
  */
-export async function getCacheMeta<T = any>(key: string): Promise<T | null> {
+export async function getCacheMeta<T = unknown>(key: string): Promise<T | null> {
   try {
     const db = await getIDB();
     return new Promise((resolve, reject) => {
@@ -362,7 +359,7 @@ export async function getCacheMeta<T = any>(key: string): Promise<T | null> {
 /**
  * Set meta value in IndexedDB
  */
-export async function setCacheMeta(key: string, value: any): Promise<void> {
+export async function setCacheMeta(key: string, value: unknown): Promise<void> {
   try {
     const db = await getIDB();
     return new Promise((resolve, reject) => {

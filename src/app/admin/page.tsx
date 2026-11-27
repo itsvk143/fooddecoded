@@ -27,6 +27,7 @@ import {
   Sparkles,
   ThumbsUp,
   MessageSquare,
+  HardDrive,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ProductItem } from "@/types";
@@ -39,15 +40,18 @@ import { DuplicatesModal } from "@/components/admin/DuplicatesModal";
 import { CategoryManagementView } from "@/components/admin/CategoryManagementView";
 import { ProductDataQualityDashboard } from "@/components/admin/ProductDataQualityDashboard";
 import { ProductFeedbackManagement } from "@/components/admin/ProductFeedbackManagement";
+import { OfflineCacheAdminPanel } from "@/components/admin/OfflineCacheAdminPanel";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function AdminDashboardPage() {
+  const { user: authUser, openLoginModal } = useAuth();
   const [adminKey, setAdminKey] = useState("fooddecode_admin_secret_key_change_in_production");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [authError, setAuthError] = useState<string | null>(null);
 
   // Active Navigation Tab
   const [activeTab, setActiveTab] = useState<
-    "overview" | "quality" | "products" | "categories" | "duplicates" | "feedback" | "submissions" | "ingredients" | "import" | "rules" | "logs"
+    "overview" | "quality" | "products" | "categories" | "duplicates" | "feedback" | "submissions" | "ingredients" | "import" | "rules" | "cache" | "logs"
   >("overview");
 
   // State data
@@ -119,22 +123,26 @@ export default function AdminDashboardPage() {
   const [newIngAliases, setNewIngAliases] = useState("");
   const [ingSearchQuery, setIngSearchQuery] = useState("");
 
-  const getHeaders = () => ({
-    "Content-Type": "application/json",
-    "x-admin-key": adminKey,
-  });
+  const getHeaders = (key = adminKey): Record<string, string> => {
+    const headers: Record<string, string> = { "Content-Type": "application/json" };
+    if (key) headers["x-admin-key"] = key;
+    return headers;
+  };
 
   const checkAuth = async (keyToTest = adminKey) => {
     setLoading(true);
     setAuthError(null);
     try {
+      const headers: Record<string, string> = {};
+      if (keyToTest) headers["x-admin-key"] = keyToTest;
       const res = await fetch("/api/admin/stats", {
-        headers: { "x-admin-key": keyToTest },
+        headers,
       });
       if (res.ok) {
         const data = await res.json();
         setStats(data.stats);
         setDbStatus(data.dbStatus);
+        if (!keyToTest) setAdminKey("");
         setIsAuthenticated(true);
         loadAllData(keyToTest);
       } else {
@@ -241,6 +249,12 @@ export default function AdminDashboardPage() {
       console.warn("Failed loading full data", err);
     }
   };
+
+  useEffect(() => {
+    if (authUser?.role === "ADMIN" && !isAuthenticated) {
+      checkAuth("");
+    }
+  }, [authUser, isAuthenticated]);
 
   useEffect(() => {
     checkAuth(adminKey);
@@ -525,6 +539,18 @@ export default function AdminDashboardPage() {
             {loading ? "Authenticating..." : "Authenticate Admin"}
           </button>
         </form>
+
+        <div className="pt-2 border-t border-stone-200 dark:border-stone-800 space-y-2">
+          <button
+            type="button"
+            onClick={() =>
+              openLoginModal("/admin", "Sign in with an authorized administrator Google account.")
+            }
+            className="w-full py-2.5 bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-700 hover:border-emerald-500 text-stone-800 dark:text-stone-200 font-bold text-xs rounded-xl transition-all cursor-pointer"
+          >
+            Sign in with Admin Google Account
+          </button>
+        </div>
       </div>
     );
   }
@@ -609,6 +635,7 @@ export default function AdminDashboardPage() {
           { id: "submissions", label: `Submissions (${stats?.pendingSubmissions || 0})`, icon: Clock },
           { id: "ingredients", label: `Ingredient Intelligence (${customIngredients.length})`, icon: Sparkles },
           { id: "rules", label: "Scoring Weights", icon: Cpu },
+          { id: "cache", label: "Offline Cache Engine", icon: HardDrive },
           { id: "logs", label: "Audit Log", icon: Clock },
         ].map((tab) => {
           const Icon = tab.icon;
@@ -1161,6 +1188,14 @@ export default function AdminDashboardPage() {
             {JSON.stringify(rules?.rules, null, 2)}
           </pre>
         </div>
+      )}
+
+      {/* TAB: OFFLINE CACHE ENGINE (ADMIN ONLY) */}
+      {activeTab === "cache" && (
+        <OfflineCacheAdminPanel
+          adminKey={adminKey}
+          onNotify={(msg) => setStatusMessage(msg)}
+        />
       )}
 
       {/* TAB 9: AUDIT LOGS */}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useTransition } from "react";
+import React, { useState, useEffect, useTransition, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -38,7 +38,11 @@ export function LeftDrawer() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [filterText, setFilterText] = useState("");
-  const [mounted, setMounted] = useState(false);
+  const mounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false
+  );
   const [isPending, startTransition] = useTransition();
   const [pendingHref, setPendingHref] = useState<string | null>(null);
   const pathname = usePathname();
@@ -61,7 +65,12 @@ export function LeftDrawer() {
       if (typeof window !== "undefined") {
         window.dispatchEvent(
           new CustomEvent("fooddecode:category-change", {
-            detail: { category: cat, subCategory: sub },
+            detail: {
+              category: cat,
+              subCategory: sub,
+              q: targetParams.get("q") || "",
+              fromDrawer: true,
+            },
           })
         );
       }
@@ -73,19 +82,16 @@ export function LeftDrawer() {
     });
   };
 
-  // Ensure DOM is ready for React Portal
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   // Close drawer and reset pending state when route changes
   useEffect(() => {
-    setIsOpen(false);
-    setPendingHref(null);
+    const raf = requestAnimationFrame(() => {
+      setIsOpen(false);
+      setPendingHref(null);
+    });
+    return () => cancelAnimationFrame(raf);
   }, [pathname]);
 
   // Dynamic counts for all aisles
-  const [coldDrinksCount, setColdDrinksCount] = useState<number | null>(null);
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
   const [currentSearch, setCurrentSearch] = useState("");
   const { user, isAuthenticated, openLoginModal, logout } = useAuth();
@@ -97,7 +103,9 @@ export function LeftDrawer() {
   }, [pathname, isOpen]);
 
   useEffect(() => {
-    fetch("/api/categories")
+    const controller = new AbortController();
+
+    fetch("/api/categories", { signal: controller.signal })
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) {
@@ -113,14 +121,7 @@ export function LeftDrawer() {
       })
       .catch(() => {});
 
-    fetch("/api/products?category=cold-drinks&limit=1")
-      .then((res) => res.json())
-      .then((data) => {
-        if (typeof data.total === "number") {
-          setColdDrinksCount(data.total);
-        }
-      })
-      .catch(() => {});
+    return () => controller.abort();
   }, []);
 
   const isActive = (href: string) => {

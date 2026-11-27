@@ -36,7 +36,7 @@ export default async function ProductsDirectoryPage({ searchParams }: ProductsPa
   );
 }
 
-async function ProductsContent({ params }: { params: any }) {
+async function ProductsContent({ params }: { params: Awaited<ProductsPageProps["searchParams"]> }) {
   const products = await getSlimProductsIndex();
   const isDbConnected = isMongoConfigured();
 

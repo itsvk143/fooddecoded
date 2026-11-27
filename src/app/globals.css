@@ -31,3 +31,29 @@ body {
   contain-intrinsic-size: 320px 380px;
 }
 
+@keyframes fd-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fd-fade-in {
+  animation: fd-fade-in 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fd-fade-in,
+  .animate-pulse,
+  .animate-spin {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+  .product-card,
+  .product-card * {
+    transition-duration: 0.001ms !important;
+  }
+}
+

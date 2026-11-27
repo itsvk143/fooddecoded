@@ -4,11 +4,13 @@ import { NextRequest } from "next/server";
 import { GET as getProductFeedback, POST as postProductFeedback } from "../src/app/api/products/[id]/feedback/route";
 import { GET as getFeedbackStats } from "../src/app/api/admin/feedback/stats/route";
 import { GET as getAdminFeedback } from "../src/app/api/admin/feedback/route";
+import { GET as getAdminCache } from "../src/app/api/admin/cache/route";
 import {
   createSession,
   getSessionCookieHeader,
   getLogoutCookieHeader,
   upsertGoogleUser,
+  SESSION_COOKIE_NAME,
 } from "../src/lib/session";
 
 test("Feedback Calculations: Approval formula and consensus threshold (< 5 votes)", () => {
@@ -81,19 +83,45 @@ test("Session Cookie: 30-Day Lifetime and Security Flags", () => {
   assert.ok(logoutHeader.includes("Expires=Thu, 01 Jan 1970 00:00:00 GMT"));
 });
 
-test("Role Assignment Security: Google OAuth users are always assigned USER role", async () => {
-  const profile = {
+test("Role Assignment Security: Google OAuth users get USER role; allowlisted admins receive ADMIN role", async () => {
+  const consumer = await upsertGoogleUser({
     id: "google_109823471029384",
     email: "consumer@example.com",
     name: "Jane Doe",
     picture: "https://example.com/jane.jpg",
-  };
+  });
+  assert.equal(consumer.role, "USER", "Public registration role must be strictly USER");
+  assert.equal(consumer.email, "consumer@example.com");
 
-  const user = await upsertGoogleUser(profile);
-  assert.equal(user.role, "USER", "Role must be strictly USER, never ADMIN");
-  assert.equal(user.email, "consumer@example.com");
-  assert.equal(user.name, "Jane Doe");
-  assert.equal(user.googleId, "google_109823471029384");
+  const admin1 = await upsertGoogleUser({
+    id: "google_admin_fooddecoded01",
+    email: "fooddecoded01@gmail.com",
+    name: "FoodDecode Admin 1",
+  });
+  assert.equal(admin1.role, "ADMIN", "fooddecoded01@gmail.com must receive ADMIN role");
+
+  const admin2 = await upsertGoogleUser({
+    id: "google_admin_itsvikash143",
+    email: "ItsVikash143@gmail.com",
+    name: "Vikash Admin",
+  });
+  assert.equal(admin2.role, "ADMIN", "itsvikash143@gmail.com must receive ADMIN role (case-insensitive)");
+
+  // Verify server-side API authorization differentiates USER (403) vs ADMIN (200) session cookies
+  const userSession = await createSession(consumer);
+  const adminSession = await createSession(admin1);
+
+  const userReq = new NextRequest("http://localhost:3000/api/admin/cache", {
+    headers: { cookie: `${SESSION_COOKIE_NAME}=${userSession.token}` },
+  });
+  const userRes = await getAdminCache(userReq);
+  assert.equal(userRes.status, 403, "Standard USER Google session must receive HTTP 403 on admin endpoints");
+
+  const adminReq = new NextRequest("http://localhost:3000/api/admin/cache", {
+    headers: { cookie: `${SESSION_COOKIE_NAME}=${adminSession.token}` },
+  });
+  const adminRes = await getAdminCache(adminReq);
+  assert.equal(adminRes.status, 200, "Allowlisted ADMIN Google session must receive HTTP 200 on admin endpoints");
 });
 
 test("Vote Switching Invariants: UP to DOWN and DOWN to UP atomic state change", () => {

@@ -40,91 +40,8 @@ export function invalidateProductCache(): void {
   } catch { }
 }
 
-export const CATEGORY_RESOLVER: Record<string, string | string[]> = {
-  // Canonical 19 Categories (names and slugs)
-  "chips-namkeen-savoury-snacks": "Chips, Namkeen & Savoury Snacks",
-  "chips, namkeen & savoury snacks": "Chips, Namkeen & Savoury Snacks",
-  "makhana-roasted-snacks": "Makhana & Roasted Snacks",
-  "makhana & roasted snacks": "Makhana & Roasted Snacks",
-  "biscuits-cookies-crackers": "Biscuits, Cookies & Crackers",
-  "biscuits, cookies & crackers": "Biscuits, Cookies & Crackers",
-  "chocolates-candy-sweets": "Chocolates, Candy & Sweets",
-  "chocolates, candy & sweets": "Chocolates, Candy & Sweets",
-  "protein-bars-energy-bars-wafers": "Protein Bars, Energy Bars & Wafers",
-  "protein bars, energy bars & wafers": "Protein Bars, Energy Bars & Wafers",
-  "breakfast-cereals-muesli-granola": "Breakfast Cereals, Muesli & Granola",
-  "breakfast cereals, muesli & granola": "Breakfast Cereals, Muesli & Granola",
-  "oats-porridge": "Oats & Porridge",
-  "oats & porridge": "Oats & Porridge",
-  "bakery-breads": "Bakery & Breads",
-  "bakery & breads": "Bakery & Breads",
-  "noodles-pasta-vermicelli": "Noodles, Pasta & Vermicelli",
-  "noodles, pasta & vermicelli": "Noodles, Pasta & Vermicelli",
-  "ready-to-eat-meals-instant-foods": "Ready-to-Eat Meals & Instant Foods",
-  "ready-to-eat meals & instant foods": "Ready-to-Eat Meals & Instant Foods",
-  "ready-to-cook-mixes": "Ready-to-Cook Mixes",
-  "ready-to-cook mixes": "Ready-to-Cook Mixes",
-  "rice-grains-pulses-flours": "Rice, Grains, Pulses & Flours",
-  "rice, grains, pulses & flours": "Rice, Grains, Pulses & Flours",
-  "nuts-seeds-trail-mixes": "Nuts, Seeds & Trail Mixes",
-  "nuts, seeds & trail mixes": "Nuts, Seeds & Trail Mixes",
-  "nut-butters-spreads-dips": "Nut Butters, Spreads & Dips",
-  "nut butters, spreads & dips": "Nut Butters, Spreads & Dips",
-  "sauces-condiments-seasonings": "Sauces, Condiments & Seasonings",
-  "sauces, condiments & seasonings": "Sauces, Condiments & Seasonings",
-  "dairy-yogurt-dairy-alternatives": "Dairy, Yogurt & Dairy Alternatives",
-  "dairy, yogurt & dairy alternatives": "Dairy, Yogurt & Dairy Alternatives",
-  "beverages-drink-mixes": "Beverages & Drink Mixes",
-  "beverages & drink mixes": "Beverages & Drink Mixes",
-  "ice-cream-frozen-desserts": "Ice Cream & Frozen Desserts",
-  "ice cream & frozen desserts": "Ice Cream & Frozen Desserts",
-  "plant-based-foods-meat-alternatives": "Plant-Based Foods & Meat Alternatives",
-  "plant-based foods & meat alternatives": "Plant-Based Foods & Meat Alternatives",
-
-  // Backward-Compatible Aliases
-  "cold-drinks": "Beverages & Drink Mixes",
-  "cold drinks": "Beverages & Drink Mixes",
-  "beverages": "Beverages & Drink Mixes",
-  "beverages-drinks": "Beverages & Drink Mixes",
-  "beverages & drinks": "Beverages & Drink Mixes",
-  "ice-cream": "Ice Cream & Frozen Desserts",
-  "ice cream": "Ice Cream & Frozen Desserts",
-  "chocolate": "Chocolates, Candy & Sweets",
-  "chocolates": "Chocolates, Candy & Sweets",
-  "chocolates-sweets": "Chocolates, Candy & Sweets",
-  "chocolates & sweets": "Chocolates, Candy & Sweets",
-  "noodles-ready-to-eat": ["Noodles, Pasta & Vermicelli", "Ready-to-Eat Meals & Instant Foods"],
-  "noodles & ready-to-eat": ["Noodles, Pasta & Vermicelli", "Ready-to-Eat Meals & Instant Foods"],
-  "ready-to-eat-ready-to-cook": ["Ready-to-Eat Meals & Instant Foods", "Ready-to-Cook Mixes"],
-  "ready-to-eat & ready-to-cook": ["Ready-to-Eat Meals & Instant Foods", "Ready-to-Cook Mixes"],
-  "protein-foods-snacks": ["Protein Bars, Energy Bars & Wafers", "Chips, Namkeen & Savoury Snacks", "Biscuits, Cookies & Crackers"],
-  "protein foods & snacks": ["Protein Bars, Energy Bars & Wafers", "Chips, Namkeen & Savoury Snacks", "Biscuits, Cookies & Crackers"],
-  "protein-clean-label-bars-wafers": "Protein Bars, Energy Bars & Wafers",
-  "protein & clean-label bars / wafers": "Protein Bars, Energy Bars & Wafers",
-  "cereals-breakfast": "Breakfast Cereals, Muesli & Granola",
-  "cereals & breakfast": "Breakfast Cereals, Muesli & Granola",
-  "wholesome-breakfast-oats-nut-butters": ["Oats & Porridge", "Breakfast Cereals, Muesli & Granola", "Nut Butters, Spreads & Dips"],
-  "wholesome breakfast, oats & nut butters": ["Oats & Porridge", "Breakfast Cereals, Muesli & Granola", "Nut Butters, Spreads & Dips"],
-  "dairy-alternatives": "Dairy, Yogurt & Dairy Alternatives",
-  "dairy-yogurt": "Dairy, Yogurt & Dairy Alternatives",
-  "dairy & yogurt": "Dairy, Yogurt & Dairy Alternatives",
-  "plant-based-foods": "Plant-Based Foods & Meat Alternatives",
-  "plant-based foods": "Plant-Based Foods & Meat Alternatives",
-  "pantry-staples": "Rice, Grains, Pulses & Flours",
-  "pantry-grains": "Rice, Grains, Pulses & Flours",
-  "pantry & grains": "Rice, Grains, Pulses & Flours",
-  "condiments-sauces": "Sauces, Condiments & Seasonings",
-  "condiments & sauces": "Sauces, Condiments & Seasonings",
-  "spreads-dips-sauces": "Nut Butters, Spreads & Dips",
-  "spreads, dips & sauces": "Nut Butters, Spreads & Dips",
-  "baked-chips-makhana-unjunked-indian-snacks": ["Chips, Namkeen & Savoury Snacks", "Makhana & Roasted Snacks"],
-  "baked chips, makhana & unjunked indian snacks": ["Chips, Namkeen & Savoury Snacks", "Makhana & Roasted Snacks"],
-  "dry-fruits-nuts-seeds-trail-mixes": ["Nuts, Seeds & Trail Mixes", "Makhana & Roasted Snacks"],
-  "dry fruits, nuts, seeds & trail mixes": ["Nuts, Seeds & Trail Mixes", "Makhana & Roasted Snacks"],
-  "snacks-sweets": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
-  "snacks-spreads": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
-  "snacks & spreads": ["Biscuits, Cookies & Crackers", "Chips, Namkeen & Savoury Snacks"],
-};
+import { CATEGORY_RESOLVER } from "./category-matcher";
+export { CATEGORY_RESOLVER };
 
 export const CARD_PROJECTION = {
   _id: 1,
@@ -822,11 +739,9 @@ export async function getProductById(id: string): Promise<ProductItem | null> {
   }
 
   const cleanId = id.replace(/^prod_/, "");
-  return (
-    getInMemoryProducts().find(
-      (p) => p.id === id || p._id === id || p.barcode === id || p.barcode === cleanId
-    ) || null
-  );
+  const matcher = (p: ProductItem) =>
+    p.id === id || p._id === id || p.barcode === id || p.barcode === cleanId;
+  return inMemoryProducts.find(matcher) || getInMemoryProducts().find(matcher) || null;
 }
 
 /**
@@ -1075,7 +990,7 @@ export async function saveProduct(input: Partial<ProductItem>): Promise<ProductI
     inMemoryProducts[idx] = { ...inMemoryProducts[idx], ...productData };
     return inMemoryProducts[idx];
   } else {
-    productData._id = `prod_${Date.now()}`;
+    productData._id = `prod_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
     productData.id = productData._id;
     inMemoryProducts.unshift(productData);
     return productData;
@@ -1371,7 +1286,8 @@ export async function bulkUpdateProducts(
 }
 
 /**
- * Duplicate Product Detection: Finds potential duplicate records
+ * Duplicate Product Detection: Finds potential duplicate records among ACTIVE products.
+ * Automatically excludes already soft-archived / merged records.
  */
 export async function getDuplicateProducts(existingProducts?: ProductItem[]): Promise<
   Array<{
@@ -1382,12 +1298,31 @@ export async function getDuplicateProducts(existingProducts?: ProductItem[]): Pr
 > {
   let allProducts: ProductItem[];
   if (existingProducts) {
-    allProducts = existingProducts;
+    allProducts = existingProducts.filter((p) => p.isArchived !== true);
   } else {
     const col = await getCollection<ProductItem>("products");
     allProducts = col
-      ? (await col.find({}).project({ barcode: 1, name: 1, brand: 1, _id: 1, id: 1 }).toArray()).map((d) => normalizeDoc(d as unknown as ProductItem))
-      : [...inMemoryProducts];
+      ? (
+          await col
+            .find({ isArchived: { $ne: true } })
+            .project({
+              barcode: 1,
+              name: 1,
+              brand: 1,
+              _id: 1,
+              id: 1,
+              overallScore: 1,
+              nutriScore: 1,
+              imageUrl: 1,
+              imageStatus: 1,
+              verified: 1,
+              dataCompleteness: 1,
+              ingredientsText: 1,
+              isArchived: 1,
+            })
+            .toArray()
+        ).map((d) => normalizeDoc(d as unknown as ProductItem))
+      : inMemoryProducts.filter((p) => p.isArchived !== true);
   }
 
   const barcodeMap = new Map<string, ProductItem[]>();
@@ -1436,6 +1371,28 @@ export async function getDuplicateProducts(existingProducts?: ProductItem[]): Pr
 }
 
 /**
+ * Deterministic primary target scorer for duplicate merge resolution.
+ * Prefers records with verified images, real images, barcode, higher score, and richer metadata.
+ */
+export function pickBestPrimaryProduct(products: ProductItem[]): ProductItem {
+  const rankProduct = (p: ProductItem): number => {
+    let rank = 0;
+    if (p.verified) rank += 35;
+    if (p.imageStatus === "VERIFIED" || p.imageStatus === "IMAGE_VERIFIED" || p.imageStatus === "FULLY_VERIFIED") {
+      rank += 30;
+    }
+    if (p.imageUrl && !p.imageUrl.includes("placeholder")) rank += 50;
+    if (p.barcode) rank += 20;
+    rank += (p.overallScore ?? 0) / 10;
+    rank += (p.dataCompleteness ?? 0) / 10;
+    if (p.ingredientsText) rank += Math.min(20, p.ingredientsText.length / 20);
+    return rank;
+  };
+
+  return [...products].sort((a, b) => rankProduct(b) - rankProduct(a))[0];
+}
+
+/**
  * Controlled Product Merge: Merges source product into target product
  */
 export async function mergeProducts(
@@ -1456,19 +1413,25 @@ export async function mergeProducts(
 
   // Preserve target, backfill any empty fields from source
   const mergedData: Partial<ProductItem> = {
+    barcode: target.barcode || source.barcode,
     flavour: target.flavour || source.flavour,
     productType: target.productType || source.productType,
     packageSize: target.packageSize || source.packageSize,
     packageUnit: target.packageUnit || source.packageUnit,
     manufacturer: target.manufacturer || source.manufacturer,
     countryOfOrigin: target.countryOfOrigin || source.countryOfOrigin,
+    ingredientsText: target.ingredientsText || source.ingredientsText,
+    ingredientsList:
+      target.ingredientsList && target.ingredientsList.length > 0
+        ? target.ingredientsList
+        : source.ingredientsList,
     searchTags: Array.from(new Set([...(target.searchTags || []), ...(source.searchTags || [])])),
     imageUrl:
       target.imageUrl && !target.imageUrl.includes("placeholder")
         ? target.imageUrl
         : source.imageUrl || target.imageUrl,
     imageStatus:
-      target.imageStatus === "VERIFIED"
+      target.imageStatus === "VERIFIED" || target.imageStatus === "FULLY_VERIFIED"
         ? target.imageStatus
         : source.imageStatus || target.imageStatus,
     imageSourceUrl: target.imageSourceUrl || source.imageSourceUrl,
@@ -1515,8 +1478,66 @@ export async function mergeProducts(
     return { success: true, target: updatedTarget ? normalizeDoc(updatedTarget) : undefined };
   }
 
+  // Update in-memory catalog in fallback/test mode
+  const targetIdx = inMemoryProducts.findIndex((p) => p._id === target._id || p.id === target.id);
+  const sourceIdx = inMemoryProducts.findIndex((p) => p._id === source._id || p.id === source.id);
+  const updatedTarget: ProductItem = { ...target, ...mergedData, updatedAt: now };
+  if (targetIdx !== -1) {
+    inMemoryProducts[targetIdx] = updatedTarget;
+  }
+  if (sourceIdx !== -1) {
+    inMemoryProducts[sourceIdx] = {
+      ...inMemoryProducts[sourceIdx],
+      isArchived: true,
+      archivedAt: now,
+      updatedAt: now,
+    };
+  }
+
   invalidateProductCache();
-  return { success: true, target: { ...target, ...mergedData } };
+  return { success: true, target: updatedTarget };
+}
+
+/**
+ * Batch Compare & Merge All Duplicate Groups safely.
+ * Automatically picks the highest-completeness primary target per group and archives duplicate sources.
+ */
+export async function mergeAllDuplicateProducts(performedBy: string = "Admin"): Promise<{
+  mergedGroupsCount: number;
+  mergedSourcesCount: number;
+  errors: string[];
+}> {
+  const duplicates = await getDuplicateProducts();
+  let mergedGroupsCount = 0;
+  let mergedSourcesCount = 0;
+  const errors: string[] = [];
+
+  for (const group of duplicates) {
+    if (!group.products || group.products.length < 2) continue;
+    const primary = pickBestPrimaryProduct(group.products);
+    const primaryId = primary._id || primary.id;
+    if (!primaryId) continue;
+
+    let groupMergedAny = false;
+    for (const candidate of group.products) {
+      const candidateId = candidate._id || candidate.id;
+      if (!candidateId || candidateId === primaryId) continue;
+
+      const res = await mergeProducts(primaryId, candidateId, performedBy);
+      if (res.success) {
+        mergedSourcesCount++;
+        groupMergedAny = true;
+      } else if (res.error) {
+        errors.push(`${group.key}: ${res.error}`);
+      }
+    }
+    if (groupMergedAny) {
+      mergedGroupsCount++;
+    }
+  }
+
+  invalidateProductCache();
+  return { mergedGroupsCount, mergedSourcesCount, errors };
 }
 
 /**

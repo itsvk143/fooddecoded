@@ -1,4 +1,5 @@
 import { NextRequest } from "next/server";
+import { validateSession } from "@/lib/session";
 
 const DEFAULT_DEV_KEY = "fooddecode_admin_secret_key_change_in_production";
 
@@ -29,7 +30,6 @@ export function verifyAdminAccess(request: NextRequest): {
     };
   }
 
-  // Constant-time comparison or length check to prevent timing leaks
   if (providedKey !== configuredKey) {
     return {
       authorized: false,
@@ -40,5 +40,47 @@ export function verifyAdminAccess(request: NextRequest): {
   return {
     authorized: true,
     adminIdentifier: "admin_master",
+  };
+}
+
+/**
+ * Unified async admin authorization: accepts either a valid ADMIN_SECRET_KEY
+ * or an authenticated Google OAuth session belonging to an ADMIN role user.
+ */
+export async function verifyAdminAccessAsync(request: NextRequest): Promise<{
+  authorized: boolean;
+  status: number;
+  error?: string;
+  adminIdentifier?: string;
+}> {
+  const keyAuth = verifyAdminAccess(request);
+  if (keyAuth.authorized) {
+    return {
+      authorized: true,
+      status: 200,
+      adminIdentifier: keyAuth.adminIdentifier || "admin_master",
+    };
+  }
+
+  const session = await validateSession(request);
+  if (session.authenticated && session.user) {
+    if (session.user.role === "ADMIN") {
+      return {
+        authorized: true,
+        status: 200,
+        adminIdentifier: session.user.email,
+      };
+    }
+    return {
+      authorized: false,
+      status: 403,
+      error: "Forbidden: Administrator privileges required.",
+    };
+  }
+
+  return {
+    authorized: false,
+    status: 401,
+    error: keyAuth.error || "Unauthorized: Administrator authentication required.",
   };
 }

@@ -1,14 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDuplicateProducts, mergeProducts } from "@/lib/product-service";
-import { verifyAdminAccess } from "@/lib/auth";
+import {
+  getDuplicateProducts,
+  mergeProducts,
+  mergeAllDuplicateProducts,
+} from "@/lib/product-service";
+import { verifyAdminAccessAsync } from "@/lib/auth";
 import { logAuditEvent } from "@/lib/audit";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {
@@ -23,14 +27,34 @@ export async function GET(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
-  const auth = verifyAdminAccess(request);
+  const auth = await verifyAdminAccessAsync(request);
   if (!auth.authorized) {
-    return NextResponse.json({ error: auth.error }, { status: 401 });
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
   try {
     const body = await request.json();
-    const { targetId, sourceId } = body;
+    const { targetId, sourceId, action, mergeAll } = body;
+
+    if (action === "merge_all" || mergeAll === true) {
+      const batchResult = await mergeAllDuplicateProducts(auth.adminIdentifier);
+
+      await logAuditEvent({
+        action: "ADMIN_MERGE_ALL_PRODUCTS",
+        entityType: "product",
+        entityId: "bulk_duplicates",
+        performedBy: auth.adminIdentifier,
+        details: `Batch compare & merge completed: merged ${batchResult.mergedSourcesCount} duplicate records across ${batchResult.mergedGroupsCount} collision groups.`,
+      });
+
+      return NextResponse.json({
+        success: true,
+        mergedGroupsCount: batchResult.mergedGroupsCount,
+        mergedSourcesCount: batchResult.mergedSourcesCount,
+        errors: batchResult.errors,
+        message: `Successfully merged ${batchResult.mergedSourcesCount} duplicate records across ${batchResult.mergedGroupsCount} groups.`,
+      });
+    }
 
     if (!targetId || !sourceId) {
       return NextResponse.json(
@@ -64,4 +88,3 @@ export async function POST(request: NextRequest) {
     );
   }
 }
-

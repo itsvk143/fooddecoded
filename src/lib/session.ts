@@ -1,12 +1,27 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { getCollection } from "./mongodb";
 import { UserRecord, SessionRecord } from "@/types";
 import crypto from "crypto";
-import { ObjectId } from "mongodb";
+import { ObjectId, OptionalUnlessRequiredId } from "mongodb";
 
 export const SESSION_COOKIE_NAME = "fooddecode_session";
 export const SESSION_DURATION_DAYS = 30;
 export const SESSION_DURATION_MS = SESSION_DURATION_DAYS * 24 * 60 * 60 * 1000;
+
+export const ADMIN_EMAILS = new Set<string>([
+  "fooddecoded01@gmail.com",
+  "itsvikash143@gmail.com",
+  ...(process.env.ADMIN_EMAILS
+    ? process.env.ADMIN_EMAILS.split(",")
+        .map((e) => e.trim().toLowerCase())
+        .filter(Boolean)
+    : []),
+]);
+
+export function isAdminEmail(email?: string | null): boolean {
+  if (!email) return false;
+  return ADMIN_EMAILS.has(email.toLowerCase().trim());
+}
 
 // In-memory sessions & users fallback for offline / mock testing mode
 const inMemorySessions = new Map<string, SessionRecord>();
@@ -42,7 +57,7 @@ export async function createSession(
   const token = generateSessionToken();
   const now = new Date();
   const expiresAt = new Date(now.getTime() + SESSION_DURATION_MS);
-  const userId = user.id || (user as any)._id?.toString() || user.googleId;
+  const userId = user.id || (user._id ? String(user._id) : undefined) || user.googleId;
 
   const sessionRecord: SessionRecord = {
     token,
@@ -62,7 +77,7 @@ export async function createSession(
   try {
     const col = await getCollection<SessionRecord>("sessions");
     if (col) {
-      await col.insertOne(sessionRecord as any);
+      await col.insertOne(sessionRecord as OptionalUnlessRequiredId<SessionRecord>);
     } else {
       inMemorySessions.set(token, sessionRecord);
     }
@@ -70,7 +85,6 @@ export async function createSession(
     inMemorySessions.set(token, sessionRecord);
   }
 
-  const isProduction = process.env.NODE_ENV === "production";
   const cookieHeader = getSessionCookieHeader(token, expiresAt);
 
   return { token, session: sessionRecord, cookieHeader };
@@ -153,6 +167,10 @@ export async function validateSession(
       }
     }
 
+    const effectiveRole: "USER" | "ADMIN" = isAdminEmail(session.userEmail)
+      ? "ADMIN"
+      : session.role || "USER";
+
     return {
       authenticated: true,
       token,
@@ -161,7 +179,7 @@ export async function validateSession(
         email: session.userEmail,
         name: session.userName,
         profilePicture: session.userAvatar,
-        role: session.role || "USER",
+        role: effectiveRole,
       },
     };
   } catch (error) {
@@ -215,7 +233,13 @@ export async function upsertGoogleUser(googleProfile: {
       }
 
       if (user) {
-        // Existing user: Update profile and login timestamp, preserve existing internal ID and role
+        // Existing user: Update profile and login timestamp, preserve/promote admin allowlist role
+        const resolvedRole: "USER" | "ADMIN" = isAdminEmail(cleanEmail)
+          ? "ADMIN"
+          : user.role === "ADMIN"
+          ? "ADMIN"
+          : "USER";
+
         const updatedUser: UserRecord = {
           ...user,
           id: user.id || user._id?.toString(),
@@ -223,7 +247,7 @@ export async function upsertGoogleUser(googleProfile: {
           name: googleProfile.name || user.name,
           profilePicture: googleProfile.picture || user.profilePicture,
           lastLoginAt: now,
-          role: user.role || "USER",
+          role: resolvedRole,
           isActive: user.isActive !== false,
         };
 
@@ -234,6 +258,7 @@ export async function upsertGoogleUser(googleProfile: {
               googleId: googleProfile.id,
               name: updatedUser.name,
               profilePicture: updatedUser.profilePicture,
+              role: resolvedRole,
               lastLoginAt: now,
             },
           }
@@ -242,7 +267,8 @@ export async function upsertGoogleUser(googleProfile: {
         return updatedUser;
       }
 
-      // 3. New user registration: Automatically create account with strict USER role
+      // 3. New user registration: Assign ADMIN strictly for allowlisted emails, otherwise USER
+      const assignedRole: "USER" | "ADMIN" = isAdminEmail(cleanEmail) ? "ADMIN" : "USER";
       const newUserId = new ObjectId().toString();
       const newUser: UserRecord = {
         id: newUserId,
@@ -251,13 +277,13 @@ export async function upsertGoogleUser(googleProfile: {
         email: cleanEmail,
         profilePicture: googleProfile.picture,
         authProvider: "GOOGLE",
-        role: "USER", // NEVER assign ADMIN to public registrations
+        role: assignedRole,
         isActive: true,
         createdAt: now,
         lastLoginAt: now,
       };
 
-      const insertResult = await col.insertOne(newUser as any);
+      const insertResult = await col.insertOne(newUser as OptionalUnlessRequiredId<UserRecord>);
       newUser._id = insertResult.insertedId.toString();
       newUser.id = insertResult.insertedId.toString();
 
@@ -268,11 +294,13 @@ export async function upsertGoogleUser(googleProfile: {
   }
 
   // In-memory fallback
-  let user = inMemoryUsers.get(googleProfile.id) || inMemoryUsers.get(cleanEmail);
+  const resolvedRole: "USER" | "ADMIN" = isAdminEmail(cleanEmail) ? "ADMIN" : "USER";
+  const user = inMemoryUsers.get(googleProfile.id) || inMemoryUsers.get(cleanEmail);
   if (user) {
     user.lastLoginAt = now;
     user.name = googleProfile.name || user.name;
     user.profilePicture = googleProfile.picture || user.profilePicture;
+    if (isAdminEmail(cleanEmail)) user.role = "ADMIN";
     return user;
   }
 
@@ -283,7 +311,7 @@ export async function upsertGoogleUser(googleProfile: {
     email: cleanEmail,
     profilePicture: googleProfile.picture,
     authProvider: "GOOGLE",
-    role: "USER",
+    role: resolvedRole,
     isActive: true,
     createdAt: now,
     lastLoginAt: now,

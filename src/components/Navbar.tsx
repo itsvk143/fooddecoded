@@ -13,7 +13,6 @@ import {
   Menu,
   X,
   ArrowRight,
-  Database,
   LogIn,
   LogOut,
 } from "lucide-react";
@@ -21,7 +20,6 @@ import { cn } from "@/lib/utils";
 import { LeftDrawer } from "./LeftDrawer";
 import { ProductImage } from "./ProductImage";
 import { InstallAppButton } from "./InstallAppButton";
-import { usePwaCache } from "@/hooks/usePwaCache";
 import { useAuth } from "@/hooks/useAuth";
 
 interface QuickSearchResult {
@@ -42,7 +40,6 @@ export function Navbar() {
   const [isSearching, setIsSearching] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
-  const { openDiagnosticsModal } = usePwaCache();
   const { user, isAuthenticated, openLoginModal, logout } = useAuth();
 
   // Close mobile search and dropdown on route change
@@ -190,15 +187,6 @@ export function Navbar() {
 
         {/* Desktop Navigation Links & Install App Button */}
         <div className="hidden md:flex items-center gap-2">
-          <button
-            type="button"
-            onClick={openDiagnosticsModal}
-            className="p-2 rounded-xl text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
-            title="Offline Cache & Storage Status"
-            aria-label="Offline Cache Status"
-          >
-            <Database className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-          </button>
           <InstallAppButton variant="desktop" />
           <nav className="flex items-center gap-1">
             {navLinks.map((link) => {

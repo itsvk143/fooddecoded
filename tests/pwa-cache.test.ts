@@ -1,11 +1,14 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { GET } from "../src/app/api/products/category-cache/route";
+import fs from "node:fs";
+import path from "node:path";
+import { GET as getCategoryCache } from "../src/app/api/products/category-cache/route";
+import { GET as getAdminCache, POST as postAdminCache } from "../src/app/api/admin/cache/route";
 import { NextRequest } from "next/server";
 
 test("PWA Intelligent Cache: Category cache returns top 25 products for all active categories", async () => {
   const req = new NextRequest("http://localhost:3000/api/products/category-cache?limit=25");
-  const res = await GET(req);
+  const res = await getCategoryCache(req);
 
   assert.equal(res.status, 200, "Should return HTTP 200");
   const data = await res.json();
@@ -42,23 +45,21 @@ test("PWA Intelligent Cache: Category cache returns top 25 products for all acti
 });
 
 test("PWA Intelligent Cache: ETag validation returns 304 Not Modified when unchanged", async () => {
-  // First request: get ETag
   const req1 = new NextRequest("http://localhost:3000/api/products/category-cache?limit=25");
-  const res1 = await GET(req1);
+  const res1 = await getCategoryCache(req1);
   const etag = res1.headers.get("ETag");
   assert.ok(etag, "Response must include an ETag header");
 
-  // Second request: send ETag
   const req2 = new NextRequest("http://localhost:3000/api/products/category-cache?limit=25", {
     headers: { "if-none-match": etag },
   });
-  const res2 = await GET(req2);
+  const res2 = await getCategoryCache(req2);
   assert.equal(res2.status, 304, "Should return HTTP 304 Not Modified when ETag matches");
 });
 
 test("PWA Intelligent Cache: Payload size verification (remains lightweight under 1.5MB uncompressed)", async () => {
   const req = new NextRequest("http://localhost:3000/api/products/category-cache?limit=25");
-  const res = await GET(req);
+  const res = await getCategoryCache(req);
   const text = await res.text();
   const sizeBytes = Buffer.byteLength(text, "utf8");
   const sizeKB = sizeBytes / 1024;
@@ -70,7 +71,7 @@ test("PWA Intelligent Cache: Payload size verification (remains lightweight unde
 
 test("PWA Intelligent Cache: Sorting integrity (products are ranked by score descending)", async () => {
   const req = new NextRequest("http://localhost:3000/api/products/category-cache?limit=25");
-  const res = await GET(req);
+  const res = await getCategoryCache(req);
   const data = await res.json();
 
   for (const [catName, products] of Object.entries<any[]>(data.productsByCategory)) {
@@ -83,4 +84,87 @@ test("PWA Intelligent Cache: Sorting integrity (products are ranked by score des
       );
     }
   }
+});
+
+test("Offline Cache Engine: Public UI Separation & Admin Access Control Verification", async (t) => {
+  const navbarContent = fs.readFileSync(path.join(process.cwd(), "src/components/Navbar.tsx"), "utf-8");
+  const providerContent = fs.readFileSync(path.join(process.cwd(), "src/components/PwaCacheProvider.tsx"), "utf-8");
+  const adminPageContent = fs.readFileSync(path.join(process.cwd(), "src/app/admin/page.tsx"), "utf-8");
+  const adminPanelContent = fs.readFileSync(
+    path.join(process.cwd(), "src/components/admin/OfflineCacheAdminPanel.tsx"),
+    "utf-8"
+  );
+
+  await t.test("1. Public UI removes database diagnostics trigger, modal, and storage numbers", () => {
+    assert.ok(!navbarContent.includes("openDiagnosticsModal"), "Navbar must not trigger cache diagnostics modal");
+    assert.ok(!navbarContent.includes("Offline Cache & Storage Status"), "Navbar must not expose cache status button");
+    assert.ok(!navbarContent.includes("<Database"), "Navbar must not render Database diagnostics icon");
+
+    assert.ok(!providerContent.includes("CacheDiagnosticsModal"), "PwaCacheProvider must not render CacheDiagnosticsModal");
+    assert.ok(!providerContent.includes("Storage Status"), "Public offline bar must not link to Storage Status");
+    assert.ok(!providerContent.includes("productCount} cached"), "Public offline bar must not expose cached product counts");
+    assert.ok(
+      providerContent.includes("Offline Mode:") && providerContent.includes("Browsing cached content"),
+      "Public offline bar must show discreet non-technical offline message"
+    );
+  });
+
+  await t.test("2. Automatic background caching, offline sync, and image caching remain intact", () => {
+    assert.ok(providerContent.includes("initializePwaCache"), "Automatic initializePwaCache must remain intact");
+    assert.ok(providerContent.includes("setupBackgroundSyncListeners"), "Background sync listeners must remain intact");
+    assert.ok(providerContent.includes("connectionStatus"), "Discreet connection status state should be exposed");
+  });
+
+  await t.test("3. Unauthorized visitors are rejected by /api/admin/cache server authorization", async () => {
+    const reqGetUnauth = new NextRequest("http://localhost:3000/api/admin/cache");
+    const resGetUnauth = await getAdminCache(reqGetUnauth);
+    assert.equal(resGetUnauth.status, 401, "Unauthenticated GET /api/admin/cache must return 401");
+
+    const reqPostUnauth = new NextRequest("http://localhost:3000/api/admin/cache", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "clear" }),
+    });
+    const resPostUnauth = await postAdminCache(reqPostUnauth);
+    assert.equal(resPostUnauth.status, 401, "Unauthenticated POST /api/admin/cache must return 401");
+
+    const reqInvalidKey = new NextRequest("http://localhost:3000/api/admin/cache", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-admin-key": "invalid-visitor-key" },
+      body: JSON.stringify({ action: "resync" }),
+    });
+    const resInvalidKey = await postAdminCache(reqInvalidKey);
+    assert.equal(resInvalidKey.status, 401, "Invalid key POST /api/admin/cache must return 401");
+  });
+
+  await t.test("4. Authorized administrators can access /api/admin/cache diagnostics & controls", async () => {
+    const validKey = process.env.ADMIN_SECRET_KEY || "fooddecode_admin_secret_key_change_in_production";
+
+    const reqGetAuth = new NextRequest("http://localhost:3000/api/admin/cache", {
+      headers: { "x-admin-key": validKey },
+    });
+    const resGetAuth = await getAdminCache(reqGetAuth);
+    assert.equal(resGetAuth.status, 200, "Authorized GET /api/admin/cache must return 200");
+    const getBody = await resGetAuth.json();
+    assert.equal(getBody.authorized, true);
+    assert.equal(getBody.configuration.topProductsPerCategory, 25);
+    assert.equal(getBody.configuration.lruProductLimit, 1000);
+    assert.equal(getBody.configuration.thumbnailCacheLimit, 250);
+
+    const reqResync = new NextRequest("http://localhost:3000/api/admin/cache", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-admin-key": validKey },
+      body: JSON.stringify({ action: "resync" }),
+    });
+    const resResync = await postAdminCache(reqResync);
+    assert.equal(resResync.status, 200, "Authorized resync must succeed");
+    const resyncBody = await resResync.json();
+    assert.equal(resyncBody.action, "resync");
+
+    assert.ok(adminPageContent.includes("OfflineCacheAdminPanel"), "Admin dashboard must host OfflineCacheAdminPanel");
+    assert.ok(
+      adminPanelContent.includes("Clear Offline Data") && adminPanelContent.includes("Re-sync Now"),
+      "Admin Offline Cache Engine must retain Clear Offline Data & Re-sync Now controls"
+    );
+  });
 });

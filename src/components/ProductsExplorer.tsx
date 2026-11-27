@@ -10,7 +10,6 @@ import {
   Search,
   SlidersHorizontal,
   X,
-  ArrowUpDown,
   Sparkles,
   Droplets,
   Flame,
@@ -19,13 +18,41 @@ import {
   ChevronUp,
   RotateCcw,
   Activity,
-  HeartHandshake,
   RefreshCw
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { prioritizeCategoryThumbnails } from "@/lib/pwa-cache/image-cache";
 import { getAllCachedProducts, getCachedProductsByCategory } from "@/lib/pwa-cache/indexed-db";
 import { getCategoryHeaderInfo } from "@/lib/category-header-helper";
+import { matchesProductCategory } from "@/lib/category-matcher";
+import {
+  buildCategoryRequestKey,
+  categoryCacheManager,
+  CategoryPerformanceMetrics,
+} from "@/lib/category-cache-manager";
+
+type SortOption = "score" | "score-asc" | "name" | "name-desc" | "recent" | "verified";
+
+function parseSortOption(val?: string | null): SortOption {
+  if (
+    val === "score" ||
+    val === "score-asc" ||
+    val === "name" ||
+    val === "name-desc" ||
+    val === "recent" ||
+    val === "verified"
+  ) {
+    return val;
+  }
+  return "score";
+}
+
+function safePerfNow(): number {
+  if (typeof performance !== "undefined" && typeof performance.now === "function") {
+    return performance.now();
+  }
+  return Date.now();
+}
 
 const catalogFetcher = async (url: string): Promise<SlimProductItem[]> => {
   const res = await fetch(url);
@@ -82,6 +109,7 @@ export function ProductsExplorer({
 
     if (newFingerprint !== lastFingerprintRef.current) {
       lastFingerprintRef.current = newFingerprint;
+      categoryCacheManager.invalidate();
       setProducts(remoteCatalog);
       setSyncToast({
         visible: true,
@@ -95,7 +123,10 @@ export function ProductsExplorer({
   }, [remoteCatalog]);
 
   // Non-blocking background sync trigger on user interactions (throttled to at most once per 6s)
-  const lastInteractionSyncRef = useRef<number>(Date.now());
+  const lastInteractionSyncRef = useRef<number>(0);
+  useEffect(() => {
+    lastInteractionSyncRef.current = Date.now();
+  }, []);
   const triggerBackgroundSync = useCallback(() => {
     const now = Date.now();
     if (now - lastInteractionSyncRef.current > 6000) {
@@ -117,17 +148,82 @@ export function ProductsExplorer({
   const [verifiedOnly, setVerifiedOnly] = useState(initialParams.verifiedOnly === "true");
   const [proteinRange, setProteinRange] = useState(initialParams.proteinRange || "All");
   const [sugarRange, setSugarRange] = useState(initialParams.sugarRange || "All");
-  const [sortBy, setSortBy] = useState<
-    "score" | "score-asc" | "name" | "name-desc" | "recent" | "verified"
-  >((initialParams.sortBy as any) || "score");
+  const [sortBy, setSortBy] = useState<SortOption>(parseSortOption(initialParams.sortBy));
 
   // Category loading & transition state
   const [isLoadingCategory, setIsLoadingCategory] = useState(false);
 
   // Reliable API Request Management & Smart Category Cache refs
-  const abortControllerRef = useRef<AbortController | null>(null);
   const requestIdRef = useRef<number>(0);
-  const categoryCacheRef = useRef<Map<string, SlimProductItem[]>>(new Map());
+  const activeRequestReleaseRef = useRef<((abortIfUnused?: boolean) => void) | null>(null);
+  const skeletonStartRef = useRef<number | null>(null);
+
+  // Keep stable refs for zero-re-render callback & server-prop diffing
+  const productsRef = useRef<SlimProductItem[]>(products);
+  const selectedCategoryRef = useRef<string>(selectedCategory);
+  const prevInitialParamsRef = useRef({
+    category: initialParams.category,
+    subCategory: initialParams.subCategory,
+    q: initialParams.q,
+  });
+
+  const filtersStateRef = useRef<{
+    sortBy: SortOption;
+    brand: string;
+    nutriScore: string;
+    novaGroup: string;
+    hasPalmOil?: string;
+    lowSugar?: boolean;
+    lowSodium?: boolean;
+    verifiedOnly?: boolean;
+    proteinRange: string;
+    sugarRange: string;
+  }>({
+    sortBy,
+    brand: selectedBrand,
+    nutriScore: selectedNutriScore,
+    novaGroup: selectedNovaGroup,
+    hasPalmOil: palmOilFreeOnly ? "false" : undefined,
+    lowSugar: lowSugarOnly || undefined,
+    lowSodium: lowSodiumOnly || undefined,
+    verifiedOnly: verifiedOnly || undefined,
+    proteinRange,
+    sugarRange,
+  });
+
+  useEffect(() => {
+    productsRef.current = products;
+  }, [products]);
+
+  useEffect(() => {
+    selectedCategoryRef.current = selectedCategory;
+  }, [selectedCategory]);
+
+  useEffect(() => {
+    filtersStateRef.current = {
+      sortBy,
+      brand: selectedBrand,
+      nutriScore: selectedNutriScore,
+      novaGroup: selectedNovaGroup,
+      hasPalmOil: palmOilFreeOnly ? "false" : undefined,
+      lowSugar: lowSugarOnly || undefined,
+      lowSodium: lowSodiumOnly || undefined,
+      verifiedOnly: verifiedOnly || undefined,
+      proteinRange,
+      sugarRange,
+    };
+  }, [
+    sortBy,
+    selectedBrand,
+    selectedNutriScore,
+    selectedNovaGroup,
+    palmOilFreeOnly,
+    lowSugarOnly,
+    lowSodiumOnly,
+    verifiedOnly,
+    proteinRange,
+    sugarRange,
+  ]);
 
   // Controls expandable state: default COLLAPSED (false) per user requirement
   const [isControlsExpanded, setIsControlsExpanded] = useState(false);
@@ -139,71 +235,131 @@ export function ProductsExplorer({
   // Sentinel ref for infinite scroll
   const sentinelRef = useRef<HTMLDivElement>(null);
 
-  // --- Category API Request with AbortController & Race Condition Prevention ---
-  const fetchCategoryProducts = useCallback(async (cat: string) => {
-    if (!cat || cat === "All") return;
+  // Clean helper to merge freshly fetched category products without duplicating IDs
+  const mergeProductsIntoState = useCallback((incoming: SlimProductItem[]) => {
+    if (!incoming || incoming.length === 0) return;
+    setProducts((prev) => {
+      const existingIds = new Set(prev.map((p) => p.id || p._id || p.barcode));
+      const newItems = incoming.filter((p) => {
+        const pid = p.id || p._id || p.barcode;
+        if (!pid || existingIds.has(pid)) return false;
+        existingIds.add(pid);
+        return true;
+      });
+      return newItems.length > 0 ? [...prev, ...newItems] : prev;
+    });
+  }, []);
 
-    // Increment sequential request identifier
-    const currentReqId = ++requestIdRef.current;
+  // --- Category API Request with In-Flight Deduplication & Stale Rejection ---
+  const fetchCategoryProducts = useCallback(
+    async (
+      cat: string,
+      sub: string,
+      reqKey: string,
+      expectedReqId: number,
+      clickStartMs?: number,
+      isBackgroundRefresh: boolean = false
+    ) => {
+      if (!cat || cat === "All") return;
 
-    // Abort any obsolete in-flight category fetch
-    if (abortControllerRef.current) {
-      abortControllerRef.current.abort();
-    }
-    const controller = new AbortController();
-    abortControllerRef.current = controller;
+      // Release previous consumer lease safely (only aborts if 0 other consumers depend on it)
+      activeRequestReleaseRef.current?.(true);
 
-    try {
-      const res = await fetch(`/api/products?category=${encodeURIComponent(cat)}&limit=100&full=false`, {
-        signal: controller.signal,
+      const { promise, release } = categoryCacheManager.acquireRequest(reqKey, async (signal) => {
+        const params = new URLSearchParams({
+          category: cat,
+          limit: "100",
+          full: "false",
+        });
+        if (sub) params.set("subCategory", sub);
+
+        const res = await fetch(`/api/products?${params.toString()}`, { signal });
+        if (!res.ok) throw new Error(`HTTP ${res.status} fetching category products`);
+        const data = await res.json();
+        return Array.isArray(data)
+          ? data
+          : Array.isArray(data.products)
+          ? data.products
+          : [];
       });
 
-      if (!res.ok) throw new Error("Failed to fetch category products");
-      const data = await res.json();
-      const fetched: SlimProductItem[] = Array.isArray(data)
-        ? data
-        : Array.isArray(data.products)
-        ? data.products
-        : [];
+      activeRequestReleaseRef.current = release;
 
-      // Enforce: ONLY the latest selected category response can update product state
-      if (currentReqId === requestIdRef.current) {
+      try {
+        const fetched = await promise;
+        const now = Date.now();
+
+        // Populate bounded LRU cache (monotonic guard prevents stale overwrite)
         if (fetched.length > 0) {
-          categoryCacheRef.current.set(cat, fetched);
-          setProducts((prev) => {
-            const existingIds = new Set(prev.map((p) => p.id || p._id || p.barcode));
-            const newItems = fetched.filter((p) => !existingIds.has(p.id || p._id || p.barcode));
-            return newItems.length > 0 ? [...prev, ...newItems] : prev;
-          });
+          categoryCacheManager.set(reqKey, cat, fetched, now);
         }
-        setIsLoadingCategory(false);
+
+        // Enforce: ONLY the latest selected category response can update UI state
+        if (expectedReqId === requestIdRef.current) {
+          mergeProductsIntoState(fetched);
+          if (!isBackgroundRefresh) {
+            if (skeletonStartRef.current !== null) {
+              categoryCacheManager.recordSkeletonDuration(safePerfNow() - skeletonStartRef.current);
+              skeletonStartRef.current = null;
+            }
+            if (clickStartMs !== undefined) {
+              categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStartMs);
+            }
+          }
+          setIsLoadingCategory(false);
+        }
+      } catch (err: unknown) {
+        if (err instanceof Error && err.name === "AbortError") {
+          return;
+        }
+        console.warn("[Category Fetch] Note:", err instanceof Error ? err.message : err);
+        if (expectedReqId === requestIdRef.current) {
+          if (skeletonStartRef.current !== null) {
+            categoryCacheManager.recordSkeletonDuration(safePerfNow() - skeletonStartRef.current);
+            skeletonStartRef.current = null;
+          }
+          setIsLoadingCategory(false);
+        }
+      } finally {
+        if (activeRequestReleaseRef.current === release) {
+          activeRequestReleaseRef.current = null;
+        }
       }
-    } catch (err: any) {
-      if (err.name === "AbortError") {
-        // Obsolete request safely cancelled - do nothing
-        return;
-      }
-      console.warn("[Category Fetch] Note:", err?.message || err);
-      if (currentReqId === requestIdRef.current) {
-        setIsLoadingCategory(false);
-      }
-    }
-  }, []);
+    },
+    [mergeProductsIntoState]
+  );
 
   // --- Authoritative Category Switch Function ---
   const handleCategorySwitch = useCallback(
-    (newCategory: string, newSubCategory: string = "", pushUrl: boolean = true) => {
+    (
+      newCategory: string,
+      newSubCategory: string = "",
+      pushUrl: boolean = true,
+      options?: { q?: string; fromDrawer?: boolean }
+    ) => {
+      const clickStart = safePerfNow();
       const normalizedCat = newCategory || "All";
       const normalizedSub = newSubCategory || "";
+
+      // Cancel active consumer & increment authoritative request identifier
+      activeRequestReleaseRef.current?.(true);
+      const currentReqId = ++requestIdRef.current;
 
       // 1. Immediately update authoritative category state & reset pagination
       setSelectedCategory(normalizedCat);
       setSelectedSubCategory(normalizedSub);
       setVisibleCount(20);
+      if (options?.fromDrawer) {
+        setSearchQuery(options.q ?? "");
+      }
 
-      // 2. Synchronize URL query parameter without full-page reloads
+      // 2. Synchronize URL query parameter cleanly without full-page reloads
       if (pushUrl && typeof window !== "undefined") {
         const params = new URLSearchParams(window.location.search);
+        if (options?.fromDrawer) {
+          if (options.q) params.set("q", options.q);
+          else params.delete("q");
+        }
         if (normalizedCat && normalizedCat !== "All") {
           params.set("category", normalizedCat);
         } else {
@@ -216,88 +372,161 @@ export function ProductsExplorer({
         }
         const qs = params.toString();
         const newUrl = qs ? `/products?${qs}` : "/products";
-        window.history.pushState(null, "", newUrl);
+        if (window.location.pathname + window.location.search !== newUrl) {
+          window.history.pushState(null, "", newUrl);
+        }
       }
 
       if (normalizedCat === "All") {
+        skeletonStartRef.current = null;
         setIsLoadingCategory(false);
+        categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStart);
         return;
       }
 
-      // 3. Smart Category Cache: Check In-Memory Category Cache first (0ms instant)
-      const inMemoryCached = categoryCacheRef.current.get(normalizedCat);
-      if (inMemoryCached && inMemoryCached.length > 0) {
-        setIsLoadingCategory(false);
-        fetchCategoryProducts(normalizedCat);
-        return;
-      }
-
-      // 4. Smart Category Cache: Check In-Memory Slim Catalog (0ms instant)
-      const matchingLocal = products.filter((p) => {
-        const pCat = (p.category || "").toLowerCase().trim();
-        const pSlug = (p.categorySlug || "").toLowerCase().trim();
-        const target = normalizedCat.toLowerCase().trim();
-        return pCat === target || pSlug === target || pCat.includes(target) || target.includes(pCat);
+      const currentFilterSnapshot = filtersStateRef.current;
+      const reqKey = buildCategoryRequestKey({
+        category: normalizedCat,
+        subCategory: normalizedSub,
+        page: 1,
+        sortBy: currentFilterSnapshot.sortBy,
+        filters: currentFilterSnapshot,
       });
 
-      if (matchingLocal.length > 0) {
-        categoryCacheRef.current.set(normalizedCat, matchingLocal);
+      // 3. Tier 1: Bounded LRU Cache with Freshness (0ms, no redundant API call if fresh)
+      const cacheLookup = categoryCacheManager.get(reqKey);
+      if (cacheLookup.status === "fresh" && cacheLookup.products.length > 0) {
+        categoryCacheManager.recordCacheHit("fresh");
+        skeletonStartRef.current = null;
         setIsLoadingCategory(false);
-        fetchCategoryProducts(normalizedCat);
+        mergeProductsIntoState(cacheLookup.products);
+        categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStart);
         return;
       }
 
-      // 5. If not in memory, show Skeletons immediately & check IndexedDB in parallel
+      if (cacheLookup.status === "stale" && cacheLookup.products.length > 0) {
+        // Stale-while-revalidate: Display cached products immediately (0ms, no skeletons), refresh quietly
+        categoryCacheManager.recordCacheHit("stale");
+        skeletonStartRef.current = null;
+        setIsLoadingCategory(false);
+        mergeProductsIntoState(cacheLookup.products);
+        categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStart);
+        if (typeof navigator === "undefined" || navigator.onLine) {
+          fetchCategoryProducts(normalizedCat, normalizedSub, reqKey, currentReqId, clickStart, true);
+        }
+        return;
+      }
+
+      // 4. Tier 2: Preloaded In-Memory Catalog Index (0ms instant)
+      const matchingLocal = productsRef.current.filter((p) =>
+        matchesProductCategory(p, normalizedCat, normalizedSub)
+      );
+
+      if (matchingLocal.length > 0) {
+        categoryCacheManager.recordCacheHit("fresh");
+        categoryCacheManager.set(reqKey, normalizedCat, matchingLocal);
+        skeletonStartRef.current = null;
+        setIsLoadingCategory(false);
+        categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStart);
+        return;
+      }
+
+      // 5. Tier 3 & 4: Usable cached data unavailable -> Show Skeletons immediately & check IndexedDB
+      categoryCacheManager.recordCacheMiss();
+      skeletonStartRef.current = safePerfNow();
       setIsLoadingCategory(true);
-      const currentReqId = ++requestIdRef.current;
 
       getCachedProductsByCategory(normalizedCat)
         .then((idbCached) => {
           if (currentReqId !== requestIdRef.current) return;
-          if (idbCached && idbCached.length > 0) {
-            categoryCacheRef.current.set(normalizedCat, idbCached);
-            setProducts((prev) => {
-              const existingIds = new Set(prev.map((p) => p.id || p._id || p.barcode));
-              const newItems = idbCached.filter((p) => !existingIds.has(p.id || p._id || p.barcode));
-              return newItems.length > 0 ? [...prev, ...newItems] : prev;
-            });
+          const matchedIdb = (idbCached || []).filter((p) =>
+            matchesProductCategory(p, normalizedCat, normalizedSub)
+          );
+          if (matchedIdb.length > 0) {
+            categoryCacheManager.set(reqKey, normalizedCat, matchedIdb);
+            mergeProductsIntoState(matchedIdb);
+            if (skeletonStartRef.current !== null) {
+              categoryCacheManager.recordSkeletonDuration(safePerfNow() - skeletonStartRef.current);
+              skeletonStartRef.current = null;
+            }
+            categoryCacheManager.recordClickToFirstContent(safePerfNow() - clickStart);
             setIsLoadingCategory(false);
           }
-          fetchCategoryProducts(normalizedCat);
+
+          if (typeof navigator !== "undefined" && !navigator.onLine) {
+            if (skeletonStartRef.current !== null) {
+              categoryCacheManager.recordSkeletonDuration(safePerfNow() - skeletonStartRef.current);
+              skeletonStartRef.current = null;
+            }
+            setIsLoadingCategory(false);
+            return;
+          }
+
+          fetchCategoryProducts(
+            normalizedCat,
+            normalizedSub,
+            reqKey,
+            currentReqId,
+            clickStart,
+            matchedIdb.length > 0
+          );
         })
         .catch(() => {
-          fetchCategoryProducts(normalizedCat);
+          categoryCacheManager.recordIdbFailure();
+          if (currentReqId !== requestIdRef.current) return;
+          if (typeof navigator !== "undefined" && !navigator.onLine) {
+            setIsLoadingCategory(false);
+            return;
+          }
+          fetchCategoryProducts(normalizedCat, normalizedSub, reqKey, currentReqId, clickStart, false);
         });
     },
-    [products, fetchCategoryProducts]
+    [fetchCategoryProducts, mergeProductsIntoState]
   );
 
   // Synchronous Custom Event listener (dispatched from LeftDrawer at 0ms latency)
   useEffect(() => {
     const handleCategoryEvent = (e: Event) => {
       const detail = (e as CustomEvent).detail;
-      if (detail && detail.category !== undefined) {
-        handleCategorySwitch(detail.category, detail.subCategory || "", false);
+      if (detail && (detail.category !== undefined || detail.q !== undefined)) {
+        handleCategorySwitch(detail.category || "All", detail.subCategory || "", false, {
+          q: detail.q,
+          fromDrawer: Boolean(detail.fromDrawer),
+        });
       }
     };
     window.addEventListener("fooddecode:category-change", handleCategoryEvent);
     return () => window.removeEventListener("fooddecode:category-change", handleCategoryEvent);
   }, [handleCategorySwitch]);
 
-  // Keep category in sync with server-side navigation prop updates
+  // Keep category in sync ONLY when Next.js server-side initialParams prop actually changes
   useEffect(() => {
-    if (initialParams.category !== undefined && initialParams.category !== selectedCategory) {
-      handleCategorySwitch(initialParams.category, initialParams.subCategory || "", false);
-    }
-  }, [initialParams.category, initialParams.subCategory, selectedCategory, handleCategorySwitch]);
+    const prev = prevInitialParamsRef.current;
+    const catChanged = initialParams.category !== prev.category;
+    const subChanged = initialParams.subCategory !== prev.subCategory;
+    const qChanged = initialParams.q !== prev.q;
 
-  // Keep search query synced with incoming URL query parameters
-  useEffect(() => {
-    if (initialParams.q !== undefined && initialParams.q !== searchQuery) {
-      setSearchQuery(initialParams.q);
+    if (catChanged || subChanged) {
+      prev.category = initialParams.category;
+      prev.subCategory = initialParams.subCategory;
+      const incomingCat = initialParams.category || "All";
+      const incomingSub = initialParams.subCategory || "";
+      if (incomingCat !== selectedCategoryRef.current) {
+        handleCategorySwitch(incomingCat, incomingSub, false, {
+          q: initialParams.q ?? "",
+          fromDrawer: qChanged,
+        });
+      } else {
+        setSelectedSubCategory(incomingSub);
+      }
+    }
+
+    if (qChanged) {
+      prev.q = initialParams.q;
+      setSearchQuery(initialParams.q || "");
       setVisibleCount(20);
     }
-  }, [initialParams.q, searchQuery]);
+  }, [initialParams.category, initialParams.subCategory, initialParams.q, handleCategorySwitch]);
 
   // Handle Browser Back / Forward buttons via popstate
   useEffect(() => {
@@ -315,13 +544,25 @@ export function ProductsExplorer({
       setVerifiedOnly(params.get("verifiedOnly") === "true");
       setProteinRange(params.get("proteinRange") || "All");
       setSugarRange(params.get("sugarRange") || "All");
-      setSortBy((params.get("sortBy") as any) || "score");
+      setSortBy(parseSortOption(params.get("sortBy")));
       handleCategorySwitch(cat, sub, false);
     };
 
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
   }, [handleCategorySwitch]);
+
+  // Cleanup active requests & expose read-only performance metrics on unmount/mount
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      (window as Window & { __FOODDECODE_PERF__?: () => CategoryPerformanceMetrics }).__FOODDECODE_PERF__ =
+        () => categoryCacheManager.getMetrics();
+    }
+    return () => {
+      activeRequestReleaseRef.current?.(true);
+      activeRequestReleaseRef.current = null;
+    };
+  }, []);
 
   // --- 2. URL Synchronization via window.history.replaceState for non-category filters ---
   const updateUrlParams = useCallback(() => {
@@ -344,7 +585,9 @@ export function ProductsExplorer({
 
     const queryString = params.toString();
     const newPath = queryString ? `/products?${queryString}` : "/products";
-    window.history.replaceState(null, "", newPath);
+    if (window.location.pathname + window.location.search !== newPath) {
+      window.history.replaceState(null, "", newPath);
+    }
   }, [
     searchQuery,
     selectedCategory,
@@ -376,13 +619,17 @@ export function ProductsExplorer({
   useEffect(() => {
     if (typeof navigator !== "undefined" && !navigator.onLine && products.length === 0) {
       if (selectedCategory && selectedCategory !== "All") {
-        getCachedProductsByCategory(selectedCategory).then((cached) => {
-          if (cached && cached.length > 0) setProducts(cached);
-        });
+        getCachedProductsByCategory(selectedCategory)
+          .then((cached) => {
+            if (cached && cached.length > 0) setProducts(cached);
+          })
+          .catch(() => categoryCacheManager.recordIdbFailure());
       } else {
-        getAllCachedProducts().then((cached) => {
-          if (cached && cached.length > 0) setProducts(cached);
-        });
+        getAllCachedProducts()
+          .then((cached) => {
+            if (cached && cached.length > 0) setProducts(cached);
+          })
+          .catch(() => categoryCacheManager.recordIdbFailure());
       }
     }
   }, [products.length, selectedCategory]);
@@ -430,27 +677,11 @@ export function ProductsExplorer({
       });
     }
 
-    // 2. Category Filter
-    if (selectedCategory && selectedCategory !== "All") {
-      const catLower = selectedCategory.toLowerCase().trim();
-      const catSlug = catLower.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-      list = list.filter((p) => {
-        const pCat = (p.category || "").toLowerCase().trim();
-        const pSlug = (p.categorySlug || "").toLowerCase().trim();
-        return (
-          pCat === catLower ||
-          pSlug === catLower ||
-          pSlug === catSlug ||
-          pCat.includes(catLower) ||
-          catLower.includes(pCat)
-        );
-      });
-    }
-
-    // 3. SubCategory (Aisle) Filter
-    if (selectedSubCategory) {
-      const subLower = selectedSubCategory.toLowerCase();
-      list = list.filter((p) => (p.subCategory || "").toLowerCase() === subLower);
+    // 2 & 3. Category + SubCategory (Canonical alias-safe matcher)
+    if ((selectedCategory && selectedCategory !== "All") || selectedSubCategory) {
+      list = list.filter((p) =>
+        matchesProductCategory(p, selectedCategory, selectedSubCategory)
+      );
     }
 
     // 4. Brand Filter
@@ -487,9 +718,13 @@ export function ProductsExplorer({
       list = list.filter((p) => p.isVerified);
     }
 
-    // 8. Protein Range Filter
+    // 8. Protein Range Filter (supports UI presets & numeric ranges)
     if (proteinRange && proteinRange !== "All") {
-      if (proteinRange === "<10") {
+      if (proteinRange === "high") {
+        list = list.filter((p) => p.proteinPer100g >= 15);
+      } else if (proteinRange === "mod") {
+        list = list.filter((p) => p.proteinPer100g >= 5 && p.proteinPer100g < 15);
+      } else if (proteinRange === "<10") {
         list = list.filter((p) => p.proteinPer100g < 10);
       } else if (proteinRange === "10-20") {
         list = list.filter((p) => p.proteinPer100g >= 10 && p.proteinPer100g < 20);
@@ -500,10 +735,12 @@ export function ProductsExplorer({
       }
     }
 
-    // 9. Sugar Range Filter
+    // 9. Sugar Range Filter (supports UI presets & numeric ranges)
     if (sugarRange && sugarRange !== "All") {
-      if (sugarRange === "<5") {
+      if (sugarRange === "low" || sugarRange === "<5") {
         list = list.filter((p) => p.sugarPer100g <= 5);
+      } else if (sugarRange === "zero") {
+        list = list.filter((p) => p.sugarPer100g <= 0.5);
       } else if (sugarRange === "5-15") {
         list = list.filter((p) => p.sugarPer100g > 5 && p.sugarPer100g <= 15);
       } else if (sugarRange === "15-25") {
@@ -513,8 +750,18 @@ export function ProductsExplorer({
       }
     }
 
+    // Deduplicate by canonical product ID before sorting/slicing
+    const seenIds = new Set<string>();
+    const deduped: SlimProductItem[] = [];
+    for (const item of list) {
+      const pid = item.id || item._id || item.barcode;
+      if (!pid || seenIds.has(pid)) continue;
+      seenIds.add(pid);
+      deduped.push(item);
+    }
+
     // 10. Sorting
-    const sorted = [...list];
+    const sorted = deduped;
     if (sortBy === "name") {
       sorted.sort((a, b) => a.name.localeCompare(b.name));
     } else if (sortBy === "name-desc") {
@@ -637,6 +884,17 @@ export function ProductsExplorer({
   );
   const hasMore = visibleCount < filteredProducts.length;
 
+  // Instrument product rendering duration per category / filter frame
+  useEffect(() => {
+    if (isLoadingCategory || visibleProducts.length === 0) return;
+    const renderStart = safePerfNow();
+    if (typeof requestAnimationFrame !== "function") return;
+    const rafId = requestAnimationFrame(() => {
+      categoryCacheManager.recordRenderDuration(safePerfNow() - renderStart);
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [selectedCategory, selectedSubCategory, isLoadingCategory, visibleProducts.length]);
+
   const loadMore = useCallback(() => {
     setVisibleCount((prev) => Math.min(prev + 20, filteredProducts.length));
   }, [filteredProducts.length]);
@@ -758,7 +1016,7 @@ export function ProductsExplorer({
                 <select
                   value={sortBy}
                   onChange={(e) => {
-                    setSortBy(e.target.value as any);
+                    setSortBy(parseSortOption(e.target.value));
                     setVisibleCount(20);
                   }}
                   className="w-full h-full min-h-[44px] pl-2.5 sm:pl-3.5 pr-7 sm:pr-8 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-semibold text-stone-800 dark:text-stone-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 cursor-pointer shadow-2xs appearance-none truncate box-border transition-colors"
@@ -808,7 +1066,10 @@ export function ProductsExplorer({
             <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar py-1">
               <button
                 type="button"
-                onClick={() => setPalmOilFreeOnly(!palmOilFreeOnly)}
+                onClick={() => {
+                  setPalmOilFreeOnly((prev) => !prev);
+                  setVisibleCount(20);
+                }}
                 className={cn(
                   "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   palmOilFreeOnly
@@ -825,7 +1086,10 @@ export function ProductsExplorer({
 
               <button
                 type="button"
-                onClick={() => setLowSugarOnly(!lowSugarOnly)}
+                onClick={() => {
+                  setLowSugarOnly((prev) => !prev);
+                  setVisibleCount(20);
+                }}
                 className={cn(
                   "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   lowSugarOnly
@@ -842,7 +1106,10 @@ export function ProductsExplorer({
 
               <button
                 type="button"
-                onClick={() => setLowSodiumOnly(!lowSodiumOnly)}
+                onClick={() => {
+                  setLowSodiumOnly((prev) => !prev);
+                  setVisibleCount(20);
+                }}
                 className={cn(
                   "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   lowSodiumOnly
@@ -859,7 +1126,10 @@ export function ProductsExplorer({
 
               <button
                 type="button"
-                onClick={() => setVerifiedOnly(!verifiedOnly)}
+                onClick={() => {
+                  setVerifiedOnly((prev) => !prev);
+                  setVisibleCount(20);
+                }}
                 className={cn(
                   "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all border shrink-0 cursor-pointer select-none",
                   verifiedOnly
@@ -1084,26 +1354,30 @@ export function ProductsExplorer({
         />
       )}
 
-      {/* 3. Product Listing Grid (Clean, Full-Width with Skeletons & Transitions) */}
+      {/* 3. Product Listing Grid (Clean, Full-Width with Layout-Matched Skeletons & Reduced-Motion Safe Transitions) */}
       <div className="space-y-4">
         {isLoadingCategory ? (
-          /* High-Fidelity Skeletons while switching categories */
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 animate-pulse">
+          /* High-Fidelity Skeletons matching ProductCard dimensions 1:1 to eliminate CLS */
+          <div
+            className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 animate-pulse"
+            aria-busy="true"
+            aria-label="Loading category products"
+          >
             {Array.from({ length: 8 }).map((_, i) => (
               <div
                 key={i}
-                className="flex flex-col justify-between rounded-3xl border border-stone-200/90 dark:border-stone-800 p-3 sm:p-4 bg-white dark:bg-stone-900 shadow-2xs"
+                className="product-card flex flex-col justify-between rounded-2xl border border-stone-200 dark:border-stone-800 p-4 bg-white dark:bg-stone-900 shadow-xs"
               >
                 <div>
                   <div className="flex items-start justify-between gap-2 mb-3">
                     <div className="space-y-1.5 flex-1 min-w-0">
-                      <div className="h-3 w-16 bg-stone-200 dark:bg-stone-800 rounded-lg" />
+                      <div className="h-3 w-16 bg-stone-200 dark:bg-stone-800 rounded-md" />
                       <div className="h-2.5 w-24 bg-stone-100 dark:bg-stone-800/60 rounded-md" />
                     </div>
-                    <div className="w-9 h-9 rounded-xl bg-stone-200 dark:bg-stone-800 shrink-0" />
+                    <div className="w-11 h-11 rounded-xl bg-stone-200 dark:bg-stone-800 shrink-0" />
                   </div>
 
-                  <div className="w-full h-40 bg-stone-100 dark:bg-stone-800/80 rounded-2xl mb-3 flex items-center justify-center border border-stone-100 dark:border-stone-700/50">
+                  <div className="w-full h-44 bg-stone-100 dark:bg-stone-800/80 rounded-xl mb-3.5 flex items-center justify-center border border-stone-100 dark:border-stone-700/60">
                     <div className="w-10 h-10 rounded-lg bg-stone-200 dark:bg-stone-700/60" />
                   </div>
 
@@ -1112,13 +1386,13 @@ export function ProductsExplorer({
                     <div className="h-3.5 w-2/3 bg-stone-200 dark:bg-stone-800 rounded-md" />
                   </div>
 
-                  <div className="flex gap-1.5">
+                  <div className="flex gap-1.5 mt-2.5">
                     <div className="h-5 w-16 bg-stone-100 dark:bg-stone-800 rounded-full" />
                     <div className="h-5 w-20 bg-stone-100 dark:bg-stone-800 rounded-full" />
                   </div>
                 </div>
 
-                <div className="pt-3 mt-3 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between">
+                <div className="pt-3.5 mt-3.5 border-t border-stone-100 dark:border-stone-800/80 flex items-center justify-between">
                   <div className="h-5 w-16 bg-stone-200 dark:bg-stone-800 rounded-lg" />
                   <div className="h-5 w-14 bg-stone-200 dark:bg-stone-800 rounded-lg" />
                 </div>
@@ -1126,7 +1400,7 @@ export function ProductsExplorer({
             ))}
           </div>
         ) : visibleProducts.length === 0 ? (
-          <div className="p-12 text-center rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4">
+          <div className="p-12 text-center rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 space-y-4 fd-fade-in">
             <div className="w-12 h-12 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mx-auto text-stone-400">
               <Search className="w-6 h-6" />
             </div>
@@ -1145,7 +1419,7 @@ export function ProductsExplorer({
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 animate-in fade-in duration-200">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 fd-fade-in">
             {visibleProducts.map((p, index) => (
               <ProductCard
                 key={p.id || p._id || p.barcode}
