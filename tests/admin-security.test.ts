@@ -48,8 +48,10 @@ import { POST as postAdminSeed } from "../src/app/api/admin/seed/route";
 import { POST as postAdminRecalculate } from "../src/app/api/admin/recalculate/route";
 import { POST as postAdminImport } from "../src/app/api/admin/import/route";
 import { GET as getAdminImportJobs } from "../src/app/api/admin/import-jobs/route";
+import { GET as startGoogleOAuth } from "../src/app/api/auth/google/route";
 import { POST as verifyGoogleOAuth } from "../src/app/api/auth/google/verify/route";
 import { POST as logoutAuth } from "../src/app/api/auth/logout/route";
+import { getGoogleRedirectUri } from "../src/lib/oauth";
 
 test("Admin Security & Authorization Comprehensive Verification", async (t) => {
   // Create test users and sessions
@@ -399,6 +401,55 @@ test("Admin Security & Authorization Comprehensive Verification", async (t) => {
     assert.ok(actions.has("ADMIN_FORBIDDEN_ATTEMPT"), "Audit log must capture ADMIN_FORBIDDEN_ATTEMPT");
     assert.ok(actions.has("ADMIN_LOGIN"), "Audit log must capture ADMIN_LOGIN");
     assert.ok(actions.has("ADMIN_LOGOUT"), "Audit log must capture ADMIN_LOGOUT");
+  });
+
+  await t.test("Scenario 13: Google OAuth redirect_uri matches canonical production & local origins without double slashes", async () => {
+    const prevAppUrl = process.env.NEXT_PUBLIC_APP_URL;
+    const prevClientId = process.env.GOOGLE_CLIENT_ID;
+    try {
+      process.env.GOOGLE_CLIENT_ID = "test-client.apps.googleusercontent.com";
+
+      // Trailing slash in NEXT_PUBLIC_APP_URL must be stripped
+      process.env.NEXT_PUBLIC_APP_URL = "https://fooddecoded.vercel.app/";
+      const prodReq = new NextRequest("https://fooddecoded.vercel.app/api/auth/google?returnUrl=%2Fadmin", {
+        headers: {
+          "x-forwarded-host": "fooddecoded.vercel.app",
+          "x-forwarded-proto": "https",
+        },
+      });
+      assert.equal(
+        getGoogleRedirectUri(prodReq),
+        "https://fooddecoded.vercel.app/api/auth/google/callback"
+      );
+      const oauthRes = await startGoogleOAuth(prodReq);
+      const location = new URL(oauthRes.headers.get("location") || "");
+      assert.equal(
+        location.searchParams.get("redirect_uri"),
+        "https://fooddecoded.vercel.app/api/auth/google/callback"
+      );
+
+      // Accidental localhost NEXT_PUBLIC_APP_URL in Vercel must NOT override production proxy host
+      process.env.NEXT_PUBLIC_APP_URL = "http://localhost:3000";
+      assert.equal(
+        getGoogleRedirectUri(prodReq),
+        "https://fooddecoded.vercel.app/api/auth/google/callback"
+      );
+
+      // Local dev localhost request must stay on localhost even if production NEXT_PUBLIC_APP_URL is set
+      process.env.NEXT_PUBLIC_APP_URL = "https://fooddecoded.vercel.app";
+      const localReq = new NextRequest("http://localhost:3000/api/auth/google", {
+        headers: { host: "localhost:3000" },
+      });
+      assert.equal(
+        getGoogleRedirectUri(localReq),
+        "http://localhost:3000/api/auth/google/callback"
+      );
+    } finally {
+      if (prevAppUrl === undefined) delete process.env.NEXT_PUBLIC_APP_URL;
+      else process.env.NEXT_PUBLIC_APP_URL = prevAppUrl;
+      if (prevClientId === undefined) delete process.env.GOOGLE_CLIENT_ID;
+      else process.env.GOOGLE_CLIENT_ID = prevClientId;
+    }
   });
 
   // Cleanup temp admin session

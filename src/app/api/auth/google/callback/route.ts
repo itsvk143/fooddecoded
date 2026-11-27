@@ -1,40 +1,45 @@
 import { NextRequest, NextResponse } from "next/server";
 import { upsertGoogleUser, createSession } from "@/lib/session";
+import {
+  sanitizeReturnUrl,
+  getOAuthOrigin,
+  getGoogleRedirectUri,
+  buildAuthErrorRedirectUrl,
+} from "@/lib/oauth";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const code = searchParams.get("code");
+  const oauthError = searchParams.get("error");
   const stateRaw = searchParams.get("state");
 
   let returnUrl = "/";
   if (stateRaw) {
     try {
       const parsed = JSON.parse(Buffer.from(stateRaw, "base64").toString("utf8"));
-      if (
-        typeof parsed.returnUrl === "string" &&
-        parsed.returnUrl.startsWith("/") &&
-        !parsed.returnUrl.startsWith("//") &&
-        !parsed.returnUrl.includes("://")
-      ) {
-        returnUrl = parsed.returnUrl;
-      }
+      returnUrl = sanitizeReturnUrl(typeof parsed.returnUrl === "string" ? parsed.returnUrl : null);
     } catch {}
   }
 
+  const origin = getOAuthOrigin(request);
+
+  if (oauthError) {
+    return NextResponse.redirect(buildAuthErrorRedirectUrl(origin, returnUrl, oauthError));
+  }
+
   if (!code) {
-    return NextResponse.redirect(new URL(`${returnUrl}?auth_error=missing_code`, request.url));
+    return NextResponse.redirect(buildAuthErrorRedirectUrl(origin, returnUrl, "missing_code"));
   }
 
   const clientId = process.env.GOOGLE_CLIENT_ID || process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || new URL(request.url).origin;
-  const redirectUri = `${baseUrl}/api/auth/google/callback`;
+  const redirectUri = getGoogleRedirectUri(request);
 
   if (!clientId || !clientSecret) {
     return NextResponse.redirect(
-      new URL(`${returnUrl}?auth_error=missing_credentials`, request.url)
+      buildAuthErrorRedirectUrl(origin, returnUrl, "missing_credentials")
     );
   }
 
@@ -84,15 +89,15 @@ export async function GET(request: NextRequest) {
     // 4. Create persistent session (30 days)
     const { cookieHeader } = await createSession(user, request);
 
-    // 5. Redirect back to original product page
-    const redirectUrl = new URL(returnUrl, request.url);
+    // 5. Redirect back to original page on the resolved canonical origin
+    const redirectUrl = new URL(returnUrl, origin);
     const response = NextResponse.redirect(redirectUrl);
     response.headers.append("Set-Cookie", cookieHeader);
     return response;
   } catch (error) {
     console.error("[Google OAuth Callback] Error:", error);
     return NextResponse.redirect(
-      new URL(`${returnUrl}?auth_error=oauth_exchange_failed`, request.url)
+      buildAuthErrorRedirectUrl(origin, returnUrl, "oauth_exchange_failed")
     );
   }
 }
