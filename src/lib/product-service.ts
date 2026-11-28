@@ -1,4 +1,6 @@
-import { ObjectId, Filter } from "mongodb";
+import { ObjectId, Filter, AnyBulkWriteOperation } from "mongodb";
+import fs from "fs";
+import path from "path";
 import { unstable_cache, revalidateTag } from "next/cache";
 import { getCollection, isMongoConfigured } from "./mongodb";
 import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission, SlimProductItem } from "@/types";
@@ -1019,12 +1021,36 @@ export async function deleteProduct(id: string): Promise<boolean> {
 }
 
 /**
+ * Builds a MongoDB filter matching a product by ObjectId _id, string _id, custom id, or barcode.
+ */
+function buildProductLookupFilter(id: string): Filter<ProductItem> {
+  const cleanBarcode = id.replace(/^prod_/, "");
+  const orClauses: Record<string, unknown>[] = [
+    { _id: id },
+    { id },
+    { barcode: id },
+    { barcode: cleanBarcode },
+  ];
+  if (ObjectId.isValid(id)) {
+    orClauses.unshift({ _id: new ObjectId(id) });
+  }
+  return { $or: orClauses } as unknown as Filter<ProductItem>;
+}
+
+function buildExactRecordFilter(id: string): Filter<ProductItem> {
+  if (ObjectId.isValid(id)) {
+    return { $or: [{ _id: new ObjectId(id) }, { _id: id }, { id }] } as unknown as Filter<ProductItem>;
+  }
+  return { $or: [{ _id: id }, { id }] } as unknown as Filter<ProductItem>;
+}
+
+/**
  * Archive product (soft-delete): removes from public directory, preserves document
  */
 export async function archiveProduct(id: string, performedBy: string = "Admin"): Promise<boolean> {
   const col = await getCollection<ProductItem>("products");
   const now = new Date().toISOString();
-  const query = ObjectId.isValid(id) ? { _id: new ObjectId(id) as any } : { $or: [{ barcode: id }, { id }] };
+  const query = buildProductLookupFilter(id);
 
   if (col) {
     const prod = await col.findOne(query);
@@ -1063,7 +1089,7 @@ export async function archiveProduct(id: string, performedBy: string = "Admin"):
 export async function restoreProduct(id: string, performedBy: string = "Admin"): Promise<boolean> {
   const col = await getCollection<ProductItem>("products");
   const now = new Date().toISOString();
-  const query = ObjectId.isValid(id) ? { _id: new ObjectId(id) as any } : { $or: [{ barcode: id }, { id }] };
+  const query = buildProductLookupFilter(id);
 
   if (col) {
     const prod = await col.findOne(query);
@@ -1121,7 +1147,7 @@ export async function updateProductMapping(
 ): Promise<{ success: boolean; product?: ProductItem; error?: string }> {
   const col = await getCollection<ProductItem>("products");
   const now = new Date().toISOString();
-  const query = ObjectId.isValid(id) ? { _id: new ObjectId(id) as any } : { $or: [{ barcode: id }, { id }] };
+  const query = buildProductLookupFilter(id);
 
   const current = col
     ? await col.findOne(query)
@@ -1448,14 +1474,14 @@ export async function mergeProducts(
 
   const col = await getCollection<ProductItem>("products");
   if (col) {
-    const targetQuery = ObjectId.isValid(target._id!) ? { _id: new ObjectId(target._id) as any } : { id: target._id };
+    const targetQuery = buildExactRecordFilter(target._id || targetId);
     await col.updateOne(targetQuery, {
       $set: { ...mergedData, updatedAt: now },
       $push: { auditHistory: auditEntry as any },
     });
 
-    // Soft-archive the source record with a pointer
-    const sourceQuery = ObjectId.isValid(source._id!) ? { _id: new ObjectId(source._id) as any } : { id: source._id };
+    // Soft-archive the source record with a pointer (handles both ObjectId and string _id)
+    const sourceQuery = buildExactRecordFilter(source._id || sourceId);
     await col.updateOne(sourceQuery, {
       $set: {
         isArchived: true,
@@ -1512,6 +1538,158 @@ export async function mergeAllDuplicateProducts(performedBy: string = "Admin"): 
   let mergedSourcesCount = 0;
   const errors: string[] = [];
 
+  const col = await getCollection<ProductItem>("products");
+  if (col && duplicates.length > 0) {
+    const allIds = new Set<string>();
+    for (const group of duplicates) {
+      for (const p of group.products) {
+        const pid = p._id || p.id;
+        if (pid) allIds.add(pid);
+      }
+    }
+
+    const idOrClauses: Record<string, unknown>[] = [
+      { _id: { $in: Array.from(allIds) } },
+      { id: { $in: Array.from(allIds) } },
+    ];
+    const objectIds = Array.from(allIds)
+      .filter((id) => ObjectId.isValid(id))
+      .map((id) => new ObjectId(id));
+    if (objectIds.length > 0) {
+      idOrClauses.push({ _id: { $in: objectIds } });
+    }
+
+    const fullDocsRaw = await col.find({ $or: idOrClauses } as unknown as Filter<ProductItem>).toArray();
+    const docById = new Map<string, ProductItem>();
+    for (const d of fullDocsRaw) {
+      const normalized = normalizeDoc(d as unknown as ProductItem);
+      if (normalized._id) docById.set(normalized._id, normalized);
+      if (normalized.id) docById.set(normalized.id, normalized);
+    }
+
+    const bulkOps: AnyBulkWriteOperation<ProductItem>[] = [];
+    const now = new Date().toISOString();
+
+    for (const group of duplicates) {
+      if (!group.products || group.products.length < 2) continue;
+      const hydrated = group.products
+        .map((p) => docById.get(p._id || p.id || "") || p)
+        .filter((p) => p.isArchived !== true);
+
+      if (hydrated.length < 2) continue;
+
+      const primary = pickBestPrimaryProduct(hydrated);
+      const primaryId = primary._id || primary.id;
+      if (!primaryId) continue;
+
+      let currentMerged: ProductItem = { ...primary };
+      let groupArchivedCount = 0;
+
+      for (const candidate of hydrated) {
+        const candidateId = candidate._id || candidate.id;
+        if (!candidateId || candidateId === primaryId) continue;
+
+        currentMerged = {
+          ...currentMerged,
+          barcode: currentMerged.barcode || candidate.barcode,
+          flavour: currentMerged.flavour || candidate.flavour,
+          productType: currentMerged.productType || candidate.productType,
+          packageSize: currentMerged.packageSize || candidate.packageSize,
+          packageUnit: currentMerged.packageUnit || candidate.packageUnit,
+          manufacturer: currentMerged.manufacturer || candidate.manufacturer,
+          countryOfOrigin: currentMerged.countryOfOrigin || candidate.countryOfOrigin,
+          ingredientsText: currentMerged.ingredientsText || candidate.ingredientsText,
+          ingredientsList:
+            currentMerged.ingredientsList && currentMerged.ingredientsList.length > 0
+              ? currentMerged.ingredientsList
+              : candidate.ingredientsList,
+          searchTags: Array.from(
+            new Set([...(currentMerged.searchTags || []), ...(candidate.searchTags || [])])
+          ),
+          imageUrl:
+            currentMerged.imageUrl && !currentMerged.imageUrl.includes("placeholder")
+              ? currentMerged.imageUrl
+              : candidate.imageUrl || currentMerged.imageUrl,
+          imageStatus:
+            currentMerged.imageStatus === "VERIFIED" ||
+            currentMerged.imageStatus === "FULLY_VERIFIED"
+              ? currentMerged.imageStatus
+              : candidate.imageStatus || currentMerged.imageStatus,
+          imageSourceUrl: currentMerged.imageSourceUrl || candidate.imageSourceUrl,
+          imageVerificationNote:
+            currentMerged.imageVerificationNote || candidate.imageVerificationNote,
+        };
+
+        bulkOps.push({
+          updateOne: {
+            filter: buildExactRecordFilter(candidateId),
+            update: {
+              $set: {
+                isArchived: true,
+                archivedAt: now,
+                description: `[MERGED into ${primaryId}] ${candidate.description || ""}`,
+                updatedAt: now,
+              },
+              $push: {
+                auditHistory: {
+                  action: "MERGED_OUT",
+                  timestamp: now,
+                  performedBy,
+                  details: `Archived as duplicate merged into ${primaryId}`,
+                } as any,
+              },
+            },
+          },
+        });
+        groupArchivedCount++;
+      }
+
+      if (groupArchivedCount > 0) {
+        bulkOps.push({
+          updateOne: {
+            filter: buildExactRecordFilter(primaryId),
+            update: {
+              $set: {
+                barcode: currentMerged.barcode,
+                flavour: currentMerged.flavour,
+                productType: currentMerged.productType,
+                packageSize: currentMerged.packageSize,
+                packageUnit: currentMerged.packageUnit,
+                manufacturer: currentMerged.manufacturer,
+                countryOfOrigin: currentMerged.countryOfOrigin,
+                ingredientsText: currentMerged.ingredientsText,
+                ingredientsList: currentMerged.ingredientsList,
+                searchTags: currentMerged.searchTags,
+                imageUrl: currentMerged.imageUrl,
+                imageStatus: currentMerged.imageStatus,
+                imageSourceUrl: currentMerged.imageSourceUrl,
+                imageVerificationNote: currentMerged.imageVerificationNote,
+                updatedAt: now,
+              },
+              $push: {
+                auditHistory: {
+                  action: "MERGE_PRODUCT",
+                  timestamp: now,
+                  performedBy,
+                  details: `Batch merged ${groupArchivedCount} duplicate record(s) into primary record.`,
+                } as any,
+              },
+            },
+          },
+        });
+        mergedGroupsCount++;
+        mergedSourcesCount += groupArchivedCount;
+      }
+    }
+
+    if (bulkOps.length > 0) {
+      await col.bulkWrite(bulkOps, { ordered: false });
+    }
+
+    invalidateProductCache();
+    return { mergedGroupsCount, mergedSourcesCount, errors };
+  }
+
   for (const group of duplicates) {
     if (!group.products || group.products.length < 2) continue;
     const primary = pickBestPrimaryProduct(group.products);
@@ -1538,6 +1716,107 @@ export async function mergeAllDuplicateProducts(performedBy: string = "Admin"): 
 
   invalidateProductCache();
   return { mergedGroupsCount, mergedSourcesCount, errors };
+}
+
+/**
+ * Links any product missing a verified packshot image to its verified image file
+ * under public/images/packshots/<barcode>.<ext> when present on disk.
+ */
+export async function syncMissingPackshotsFromPublicDir(performedBy: string = "Admin"): Promise<{
+  scannedMissing: number;
+  updatedCount: number;
+  unmatchedCount: number;
+}> {
+  const packshotsDir = path.join(process.cwd(), "public", "images", "packshots");
+  if (!fs.existsSync(packshotsDir)) {
+    return { scannedMissing: 0, updatedCount: 0, unmatchedCount: 0 };
+  }
+
+  const files = fs.readdirSync(packshotsDir);
+  const byBarcode = new Map<string, string>();
+  for (const file of files) {
+    const match = file.match(/^([a-zA-Z0-9_-]+)\.(jpg|jpeg|png|webp)$/i);
+    if (!match) continue;
+    const stats = fs.statSync(path.join(packshotsDir, file));
+    if (stats.size > 100) {
+      byBarcode.set(match[1], `/images/packshots/${file}`);
+    }
+  }
+
+  const col = await getCollection<ProductItem>("products");
+  const now = new Date().toISOString();
+
+  if (col) {
+    const missingFilter = {
+      $or: [
+        { imageUrl: null },
+        { imageUrl: "" },
+        { imageUrl: { $regex: "placeholder", $options: "i" } },
+        { imageStatus: { $in: ["MISSING", "IMAGE_MISSING"] } },
+      ],
+    } as unknown as Filter<ProductItem>;
+
+    const missingDocs = await col
+      .find(missingFilter)
+      .project({ _id: 1, id: 1, barcode: 1, verified: 1, verificationStatus: 1 })
+      .toArray();
+
+    const bulkOps: AnyBulkWriteOperation<ProductItem>[] = [];
+    let unmatchedCount = 0;
+
+    for (const doc of missingDocs) {
+      const bc = String(doc.barcode || "").trim();
+      const matchedPath = byBarcode.get(bc);
+      if (!matchedPath) {
+        unmatchedCount++;
+        continue;
+      }
+
+      const rawId = doc._id ? String(doc._id) : String(doc.id || "");
+      const nextVerificationStatus =
+        doc.verified || doc.verificationStatus === "DATA_VERIFIED"
+          ? "FULLY_VERIFIED"
+          : "IMAGE_VERIFIED";
+
+      bulkOps.push({
+        updateOne: {
+          filter: buildExactRecordFilter(rawId),
+          update: {
+            $set: {
+              imageUrl: matchedPath,
+              imageStatus: "VERIFIED",
+              imageVerified: true,
+              imageVerifiedAt: now,
+              imageVerificationNote: "Synced verified packshot image matched by barcode",
+              verificationStatus: nextVerificationStatus,
+              updatedAt: now,
+            },
+            $push: {
+              auditHistory: {
+                action: "SYNC_PACKSHOT_IMAGE",
+                timestamp: now,
+                performedBy,
+                details: `Linked verified packshot ${matchedPath}`,
+              } as any,
+            },
+          },
+        },
+      });
+    }
+
+    if (bulkOps.length > 0) {
+      await col.bulkWrite(bulkOps, { ordered: false });
+      invalidateProductCache();
+    }
+
+    return {
+      scannedMissing: missingDocs.length,
+      updatedCount: bulkOps.length,
+      unmatchedCount,
+    };
+  }
+
+  return { scannedMissing: 0, updatedCount: 0, unmatchedCount: 0 };
 }
 
 /**
