@@ -1,6 +1,4 @@
 import { ObjectId, Filter, AnyBulkWriteOperation } from "mongodb";
-import fs from "fs";
-import path from "path";
 import { unstable_cache, revalidateTag } from "next/cache";
 import { getCollection, isMongoConfigured } from "./mongodb";
 import { ProductItem, CategoryRecord, BrandRecord, AnalysisRule, ProductSubmission, SlimProductItem } from "@/types";
@@ -1716,107 +1714,6 @@ export async function mergeAllDuplicateProducts(performedBy: string = "Admin"): 
 
   invalidateProductCache();
   return { mergedGroupsCount, mergedSourcesCount, errors };
-}
-
-/**
- * Links any product missing a verified packshot image to its verified image file
- * under public/images/packshots/<barcode>.<ext> when present on disk.
- */
-export async function syncMissingPackshotsFromPublicDir(performedBy: string = "Admin"): Promise<{
-  scannedMissing: number;
-  updatedCount: number;
-  unmatchedCount: number;
-}> {
-  const packshotsDir = path.join(process.cwd(), "public", "images", "packshots");
-  if (!fs.existsSync(packshotsDir)) {
-    return { scannedMissing: 0, updatedCount: 0, unmatchedCount: 0 };
-  }
-
-  const files = fs.readdirSync(packshotsDir);
-  const byBarcode = new Map<string, string>();
-  for (const file of files) {
-    const match = file.match(/^([a-zA-Z0-9_-]+)\.(jpg|jpeg|png|webp)$/i);
-    if (!match) continue;
-    const stats = fs.statSync(path.join(packshotsDir, file));
-    if (stats.size > 100) {
-      byBarcode.set(match[1], `/images/packshots/${file}`);
-    }
-  }
-
-  const col = await getCollection<ProductItem>("products");
-  const now = new Date().toISOString();
-
-  if (col) {
-    const missingFilter = {
-      $or: [
-        { imageUrl: null },
-        { imageUrl: "" },
-        { imageUrl: { $regex: "placeholder", $options: "i" } },
-        { imageStatus: { $in: ["MISSING", "IMAGE_MISSING"] } },
-      ],
-    } as unknown as Filter<ProductItem>;
-
-    const missingDocs = await col
-      .find(missingFilter)
-      .project({ _id: 1, id: 1, barcode: 1, verified: 1, verificationStatus: 1 })
-      .toArray();
-
-    const bulkOps: AnyBulkWriteOperation<ProductItem>[] = [];
-    let unmatchedCount = 0;
-
-    for (const doc of missingDocs) {
-      const bc = String(doc.barcode || "").trim();
-      const matchedPath = byBarcode.get(bc);
-      if (!matchedPath) {
-        unmatchedCount++;
-        continue;
-      }
-
-      const rawId = doc._id ? String(doc._id) : String(doc.id || "");
-      const nextVerificationStatus =
-        doc.verified || doc.verificationStatus === "DATA_VERIFIED"
-          ? "FULLY_VERIFIED"
-          : "IMAGE_VERIFIED";
-
-      bulkOps.push({
-        updateOne: {
-          filter: buildExactRecordFilter(rawId),
-          update: {
-            $set: {
-              imageUrl: matchedPath,
-              imageStatus: "VERIFIED",
-              imageVerified: true,
-              imageVerifiedAt: now,
-              imageVerificationNote: "Synced verified packshot image matched by barcode",
-              verificationStatus: nextVerificationStatus,
-              updatedAt: now,
-            },
-            $push: {
-              auditHistory: {
-                action: "SYNC_PACKSHOT_IMAGE",
-                timestamp: now,
-                performedBy,
-                details: `Linked verified packshot ${matchedPath}`,
-              } as any,
-            },
-          },
-        },
-      });
-    }
-
-    if (bulkOps.length > 0) {
-      await col.bulkWrite(bulkOps, { ordered: false });
-      invalidateProductCache();
-    }
-
-    return {
-      scannedMissing: missingDocs.length,
-      updatedCount: bulkOps.length,
-      unmatchedCount,
-    };
-  }
-
-  return { scannedMissing: 0, updatedCount: 0, unmatchedCount: 0 };
 }
 
 /**
